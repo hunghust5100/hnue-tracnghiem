@@ -49,7 +49,7 @@
             color: var(--text-main);
             font-family: var(--font-sans);
             line-height: 1.6;
-            padding: 32px 16px;
+            padding: 24px 14px;
             min-height: 100vh;
             transition: padding-bottom 0.3s ease;
         }
@@ -61,18 +61,18 @@
 
         header {
             text-align: center;
-            margin-bottom: 32px;
-            padding-bottom: 20px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
             border-bottom: 1px solid var(--border-color);
             position: relative;
         }
 
         header h1 {
             color: var(--text-light);
-            font-size: 2.2rem;
+            font-size: 2rem;
             font-weight: 800;
             letter-spacing: -0.5px;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
             background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -81,131 +81,15 @@
 
         header p {
             color: var(--text-muted);
-            font-size: 1rem;
+            font-size: 0.95rem;
             font-weight: 500;
-        }
-
-        /* Dashboard & Storage Section */
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 16px;
-            margin-bottom: 24px;
-        }
-
-        .dashboard-card {
-            background: #ffffff;
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius-md);
-            padding: 20px;
-            box-shadow: var(--shadow-md);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .dashboard-card.wrong-bank-card {
-            background: linear-gradient(135deg, rgba(239, 68, 68, 0.04) 0%, rgba(225, 29, 72, 0.08) 100%);
-            border: 1.5px solid rgba(239, 68, 68, 0.3);
-        }
-
-        .dashboard-title {
-            font-weight: 700;
-            font-size: 1rem;
-            color: var(--text-light);
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .dashboard-stat {
-            font-size: 1.8rem;
-            font-weight: 800;
-            color: var(--primary);
-            margin: 6px 0;
-        }
-
-        .dashboard-stat.wrong-stat {
-            color: var(--danger-text);
-        }
-
-        .history-list {
-            max-height: 160px;
-            overflow-y: auto;
-            margin-top: 10px;
-            font-size: 0.85rem;
-        }
-
-        .history-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 0;
-            border-bottom: 1px dashed var(--border-color);
-        }
-
-        .history-item:last-child {
-            border-bottom: none;
-        }
-
-        /* Top Action Bar in Quiz Mode */
-        .quiz-top-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            padding: 14px 20px;
-            background: var(--bg-card);
-            border-radius: var(--radius-md);
-            border: 1px solid var(--border-color);
-            box-shadow: var(--shadow-md);
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .quiz-top-title {
-            font-weight: 700;
-            font-size: 1rem;
-            color: var(--text-light);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        /* Countdown Timer Badge */
-        .timer-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-family: var(--font-mono);
-            font-size: 1.1rem;
-            font-weight: 700;
-            padding: 6px 16px;
-            background: rgba(99, 102, 241, 0.1);
-            color: var(--primary);
-            border-radius: 50px;
-            border: 1px solid rgba(99, 102, 241, 0.2);
-            transition: all 0.3s ease;
-        }
-
-        .timer-badge.warning-timer {
-            background: rgba(239, 68, 68, 0.1);
-            color: var(--danger);
-            border-color: rgba(239, 68, 68, 0.3);
-            animation: pulseTimer 1s infinite alternate;
-        }
-
-        @keyframes pulseTimer {
-            0% { transform: scale(1); }
-            100% { transform: scale(1.05); }
         }
 
         /* Config Card */
         .card {
             background: var(--bg-card);
             border-radius: var(--radius-lg);
-            padding: 28px;
+            padding: 24px;
             box-shadow: var(--shadow-md);
             margin-bottom: 24px;
             border: 1px solid var(--border-color);
@@ -213,9 +97,9 @@
         }
 
         .card-title {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
             color: var(--text-light);
             display: flex;
             align-items: center;
@@ -231,30 +115,107 @@
             border-radius: 4px;
         }
 
-        /* Section Headings */
-        .section-label {
-            font-weight: 700;
-            font-size: 1rem;
-            color: var(--text-light);
-            margin-bottom: 12px;
+        /* Subject Accordion Styling */
+        .subject-accordion-item {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            margin-bottom: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: all 0.2s ease;
+        }
+
+        .subject-accordion-header {
+            padding: 16px 20px;
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            transition: background 0.2s ease;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .subject-accordion-header:hover {
+            background: rgba(99, 102, 241, 0.04);
+        }
+
+        .subject-title-group {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 12px;
+        }
+
+        .accordion-arrow {
+            font-size: 0.85rem;
+            color: var(--primary);
+            transition: transform 0.3s ease;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: 50%;
+        }
+
+        .subject-accordion-item.collapsed .accordion-arrow {
+            transform: rotate(-90deg);
+        }
+
+        .subject-title {
+            font-weight: 800;
+            font-size: 1.05rem;
+            color: var(--text-light);
+        }
+
+        .subject-count-badge {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--primary);
+            background: rgba(99, 102, 241, 0.08);
+            padding: 2px 10px;
+            border-radius: 50px;
+        }
+
+        .subject-actions-bar {
+            padding: 12px 20px;
+            background: #f8fafc;
+            border-bottom: 1px dashed var(--border-color);
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .subject-content-body {
+            padding: 18px 20px;
+            transition: all 0.3s ease;
+        }
+
+        .subject-accordion-item.collapsed .subject-content-body {
+            display: none;
+        }
+
+        .subject-accordion-item.collapsed .subject-actions-bar {
+            display: none;
         }
 
         /* Preset Quiz Selector Cards */
         .preset-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 14px;
-            margin-bottom: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 12px;
         }
 
         .preset-card {
             display: flex;
             align-items: flex-start;
-            gap: 14px;
-            padding: 16px;
+            gap: 12px;
+            padding: 14px;
             border: 1px solid var(--border-color);
             border-radius: var(--radius-md);
             cursor: pointer;
@@ -284,32 +245,32 @@
             background: #f8fafc;
             border: 1px dashed #cbd5e1;
             cursor: not-allowed;
-            opacity: 0.8;
+            opacity: 0.85;
         }
 
         .preset-icon {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             line-height: 1;
             flex-shrink: 0;
         }
 
         .preset-title {
             font-weight: 700;
-            font-size: 0.98rem;
+            font-size: 0.95rem;
             color: var(--text-light);
-            margin-bottom: 4px;
+            margin-bottom: 3px;
         }
 
         .preset-desc {
-            font-size: 0.84rem;
+            font-size: 0.82rem;
             color: var(--text-muted);
-            line-height: 1.4;
+            line-height: 1.35;
         }
 
         .preset-badge {
-            margin-top: 8px;
+            margin-top: 6px;
             display: inline-block;
-            font-size: 0.75rem;
+            font-size: 0.74rem;
             font-weight: 700;
             color: var(--primary);
             background: rgba(99, 102, 241, 0.1);
@@ -343,30 +304,32 @@
         .modal-card {
             background: #ffffff;
             border-radius: var(--radius-lg);
-            padding: 28px;
-            max-width: 560px;
+            padding: 24px;
+            max-width: 520px;
             width: 100%;
             box-shadow: var(--shadow-lg);
             border: 1px solid var(--border-color);
             position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
         }
 
         .modal-title {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
             font-weight: 800;
             color: var(--text-light);
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             display: flex;
             align-items: center;
             gap: 10px;
         }
 
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
 
         .form-label {
-            font-size: 0.92rem;
+            font-size: 0.9rem;
             font-weight: 700;
             color: var(--text-light);
             margin-bottom: 8px;
@@ -376,15 +339,15 @@
         .option-pills {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 10px;
+            gap: 6px;
+            margin-bottom: 8px;
         }
 
         .pill-opt {
-            padding: 8px 16px;
+            padding: 6px 14px;
             border: 1px solid var(--border-color);
             border-radius: 50px;
-            font-size: 0.88rem;
+            font-size: 0.85rem;
             font-weight: 600;
             color: var(--text-main);
             background: #f8fafc;
@@ -409,7 +372,7 @@
             padding: 10px 14px;
             border: 1px solid var(--border-color);
             border-radius: var(--radius-sm);
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             font-family: var(--font-sans);
             background: #f8fafc;
         }
@@ -420,19 +383,19 @@
             background: #ffffff;
         }
 
-        /* Mode Selection Cards */
+        /* Mode Selection Cards inside Modal & Config */
         .mode-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 14px;
-            margin-bottom: 24px;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin-bottom: 16px;
         }
 
         .mode-card {
             display: flex;
             align-items: flex-start;
-            gap: 14px;
-            padding: 16px;
+            gap: 12px;
+            padding: 12px 14px;
             border: 2px solid var(--border-color);
             border-radius: var(--radius-md);
             cursor: pointer;
@@ -455,41 +418,42 @@
         .mode-card input[type="radio"] {
             margin-top: 3px;
             accent-color: var(--primary);
-            width: 18px;
-            height: 18px;
+            width: 16px;
+            height: 16px;
             cursor: pointer;
         }
 
         .mode-icon {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             line-height: 1;
         }
 
         .mode-title {
             font-weight: 700;
-            font-size: 0.98rem;
+            font-size: 0.92rem;
             color: var(--text-light);
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
 
         .mode-desc {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             color: var(--text-muted);
-            line-height: 1.4;
+            line-height: 1.35;
         }
 
         /* File & Text inputs */
         .file-upload-wrapper {
             background: #f8fafc;
             border: 2px dashed var(--border-color);
-            padding: 20px;
+            padding: 16px;
             text-align: center;
             border-radius: var(--radius-md);
             cursor: pointer;
-            margin-bottom: 20px;
+            margin-bottom: 16px;
             transition: all 0.2s ease;
             color: var(--text-muted);
             font-weight: 500;
+            font-size: 0.9rem;
         }
 
         .file-upload-wrapper:hover {
@@ -503,17 +467,17 @@
         }
 
         .input-group {
-            margin-bottom: 20px;
+            margin-bottom: 16px;
         }
 
         textarea {
             width: 100%;
-            height: 140px;
-            padding: 14px;
+            height: 120px;
+            padding: 12px;
             border: 1px solid var(--border-color);
             border-radius: var(--radius-md);
             font-family: var(--font-mono);
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             resize: vertical;
             background-color: #f8fafc;
             color: var(--text-main);
@@ -529,23 +493,24 @@
 
         .btn-container {
             display: flex;
-            gap: 12px;
+            gap: 10px;
             flex-wrap: wrap;
         }
 
         button {
-            padding: 12px 24px;
+            padding: 10px 20px;
             border: none;
             border-radius: var(--radius-sm);
             font-weight: 600;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             font-family: var(--font-sans);
             cursor: pointer;
             transition: all 0.2s ease;
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
+            gap: 6px;
+            min-height: 42px;
             -webkit-tap-highlight-color: transparent;
         }
 
@@ -592,6 +557,58 @@
         .btn-success:hover {
             transform: translateY(-1px);
             box-shadow: 0 6px 15px rgba(16, 185, 129, 0.35);
+        }
+
+        /* Top Bar inside Quiz View */
+        .quiz-top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 12px 18px;
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-md);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .quiz-top-title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Countdown Timer Badge */
+        .timer-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-family: var(--font-mono);
+            font-size: 1rem;
+            font-weight: 700;
+            padding: 4px 14px;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+            border-radius: 50px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .timer-badge.warning-timer {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+            border-color: rgba(239, 68, 68, 0.3);
+            animation: pulseTimer 1s infinite alternate;
+        }
+
+        @keyframes pulseTimer {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
         }
 
         /* Quiz Layout (2 Columns) */
@@ -651,7 +668,7 @@
         .question-card {
             background: var(--bg-card);
             border-radius: var(--radius-lg);
-            padding: 28px;
+            padding: 24px;
             margin-bottom: 20px;
             border: 1px solid var(--border-color);
             transition: all 0.3s ease;
@@ -678,20 +695,20 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 16px;
+            margin-bottom: 14px;
             border-bottom: 1px solid var(--border-color);
-            padding-bottom: 12px;
+            padding-bottom: 10px;
         }
 
         .question-title {
             font-weight: 800;
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             color: var(--text-light);
         }
 
         .badge {
-            font-size: 0.75rem;
-            padding: 4px 12px;
+            font-size: 0.72rem;
+            padding: 4px 10px;
             border-radius: 50px;
             font-weight: 700;
             letter-spacing: 0.5px;
@@ -703,8 +720,8 @@
         .badge-fill { background: rgba(245, 158, 11, 0.1); color: #d97706; }
 
         .question-text {
-            font-size: 1.05rem;
-            margin-bottom: 20px;
+            font-size: 1rem;
+            margin-bottom: 18px;
             white-space: pre-wrap;
             color: var(--text-light);
             font-weight: 500;
@@ -714,10 +731,10 @@
         .option-item {
             display: flex;
             align-items: center;
-            padding: 14px 18px;
+            padding: 12px 16px;
             border: 1px solid var(--border-color);
             border-radius: var(--radius-md);
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             cursor: pointer;
             background-color: #ffffff;
             transition: all 0.2s ease;
@@ -745,12 +762,13 @@
             width: 100%;
             color: var(--text-main);
             font-weight: 500;
+            font-size: 0.95rem;
         }
 
         .option-item span strong {
             margin-right: 8px;
             color: var(--primary);
-            font-size: 1rem;
+            font-size: 0.98rem;
         }
 
         .option-item::before {
@@ -758,7 +776,7 @@
             display: inline-block;
             width: 18px;
             height: 18px;
-            margin-right: 14px;
+            margin-right: 12px;
             border: 2px solid #cbd5e1;
             transition: all 0.2s ease;
             flex-shrink: 0;
@@ -791,14 +809,14 @@
         }
 
         /* Fill inputs */
-        .fill-container { margin-top: 12px; }
+        .fill-container { margin-top: 10px; }
 
         .fill-input {
             width: 100%;
-            padding: 14px 18px;
+            padding: 12px 16px;
             border: 1px solid var(--border-color);
             border-radius: var(--radius-md);
-            font-size: 1rem;
+            font-size: 0.95rem;
             background: #f8fafc;
             color: var(--text-light);
             transition: all 0.2s ease;
@@ -819,19 +837,19 @@
         /* Explanation box */
         .explanation-box {
             display: none;
-            margin-top: 18px;
-            padding: 16px;
+            margin-top: 16px;
+            padding: 14px;
             background-color: rgba(2, 132, 199, 0.04);
             border-left: 4px solid var(--info);
             border-radius: var(--radius-sm);
-            font-size: 0.95rem;
+            font-size: 0.92rem;
             color: var(--text-main);
         }
 
         .explanation-title {
             font-weight: 700;
             color: var(--info);
-            margin-bottom: 6px;
+            margin-bottom: 4px;
             display: flex;
             align-items: center;
             gap: 6px;
@@ -873,10 +891,10 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             font-weight: 800;
-            font-size: 0.85rem;
-            padding: 6px 14px;
+            font-size: 0.82rem;
+            padding: 5px 12px;
             border-radius: 6px;
             color: white;
         }
@@ -884,11 +902,11 @@
         .feedback-incorrect { background-color: var(--danger); }
 
         .correct-ans-display { 
-            margin-top: 12px; 
+            margin-top: 10px; 
             font-weight: 600; 
             color: var(--success-text); 
-            font-size: 0.95rem;
-            padding: 10px 14px;
+            font-size: 0.92rem;
+            padding: 8px 12px;
             background: var(--success-bg);
             border: 1px solid var(--success-border);
             border-radius: var(--radius-sm);
@@ -906,15 +924,15 @@
             background: var(--bg-card);
             border: 1px solid var(--border-color);
             border-radius: var(--radius-lg);
-            padding: 20px;
+            padding: 18px;
             box-shadow: var(--shadow-md);
         }
 
         .sidebar-title {
             font-weight: 700;
-            font-size: 1.05rem;
+            font-size: 1rem;
             color: var(--text-light);
-            margin-bottom: 14px;
+            margin-bottom: 12px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -925,7 +943,7 @@
             background: #e2e8f0;
             border-radius: 10px;
             overflow: hidden;
-            margin-bottom: 16px;
+            margin-bottom: 14px;
         }
 
         .progress-bar-fill {
@@ -938,11 +956,11 @@
         .q-nav-grid {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            gap: 8px;
-            max-height: 320px;
+            gap: 6px;
+            max-height: 300px;
             overflow-y: auto;
             padding-right: 4px;
-            margin-bottom: 16px;
+            margin-bottom: 14px;
         }
 
         .q-nav-btn {
@@ -951,7 +969,7 @@
             padding: 0;
             border-radius: var(--radius-sm);
             font-weight: 700;
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             border: 1px solid var(--border-color);
             background: #f8fafc;
             color: var(--text-muted);
@@ -989,11 +1007,11 @@
         .legend-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 8px;
-            font-size: 0.8rem;
+            gap: 6px;
+            font-size: 0.78rem;
             color: var(--text-muted);
-            margin-top: 12px;
-            padding-top: 12px;
+            margin-top: 10px;
+            padding-top: 10px;
             border-top: 1px solid var(--border-color);
         }
 
@@ -1004,9 +1022,9 @@
         }
 
         .legend-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 4px;
+            width: 10px;
+            height: 10px;
+            border-radius: 3px;
         }
 
         .dot-unanswered { background: #f8fafc; border: 1px solid #cbd5e1; }
@@ -1015,10 +1033,10 @@
         .dot-incorrect { background: var(--danger); }
 
         .sidebar-actions {
-            margin-top: 16px;
+            margin-top: 14px;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 8px;
         }
 
         .sidebar-actions button {
@@ -1176,11 +1194,11 @@
         }
 
         @media (max-width: 600px) {
-            header h1 { font-size: 1.6rem; }
-            .card, .question-card { padding: 18px 14px; }
+            header h1 { font-size: 1.5rem; }
+            .card, .question-card { padding: 16px 12px; }
             .btn-container { flex-direction: column; }
             .btn-container button { width: 100%; }
-            .mode-grid { grid-template-columns: 1fr; }
+            .subject-accordion-header { padding: 14px; }
         }
     </style>
 </head>
@@ -1194,64 +1212,13 @@
 
     <!-- Config Card (Homepage) -->
     <div class="card" id="input-card">
-        <!-- Dashboard & LocalStorage History Area -->
-        <div class="dashboard-grid">
-            <div class="dashboard-card wrong-bank-card">
-                <div>
-                    <div class="dashboard-title">
-                        <span>🔥 Kho Câu Hỏi Sai</span>
-                        <button class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem;" onclick="clearWrongBank()">Xóa kho</button>
-                    </div>
-                    <div class="dashboard-stat wrong-stat" id="wrong-count-stat">0 câu</div>
-                    <p style="font-size: 0.82rem; color: var(--text-muted);">Các câu làm chưa đúng được tự động lưu lại tại đây.</p>
-                </div>
-                <button class="btn-danger" style="margin-top: 12px; width: 100%; font-size: 0.88rem;" id="btn-retake-wrong" onclick="startRetakeWrongExam()">
-                    🔥 Ôn lại các câu sai
-                </button>
-            </div>
-
-            <div class="dashboard-card">
-                <div>
-                    <div class="dashboard-title">
-                        <span>📊 Lịch Sử Làm Bài</span>
-                        <button class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem;" onclick="clearQuizHistory()">Xóa lịch sử</button>
-                    </div>
-                    <div class="history-list" id="history-list-container">
-                        <p style="color: var(--text-muted); padding: 8px 0;">Chưa có lịch sử làm bài.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-title">Cấu hình & Chọn đề trắc nghiệm</div>
+        <div class="card-title">Danh mục Môn học & Đề thi</div>
         
-        <!-- Preset Quizzes Gallery (Grouped by Category) -->
+        <!-- Preset Quizzes Gallery (Grouped & Collapsible per Subject) -->
         <div id="preset-categories-container"></div>
 
-        <!-- Quiz Mode Selector -->
-        <label class="section-label" style="margin-top: 20px;">⚙️ Chế độ làm bài:</label>
-        <div class="mode-grid">
-            <label class="mode-card active" id="mode-card-instant" onclick="selectQuizMode('instant')">
-                <input type="radio" name="quiz_mode" value="instant" checked>
-                <div class="mode-icon">⚡</div>
-                <div>
-                    <div class="mode-title">Phản hồi tức thì</div>
-                    <div class="mode-desc">Chấm điểm & xem giải thích ngay sau khi trả lời từng câu</div>
-                </div>
-            </label>
-            
-            <label class="mode-card" id="mode-card-submit" onclick="selectQuizMode('submit')">
-                <input type="radio" name="quiz_mode" value="submit">
-                <div class="mode-icon">📋</div>
-                <div>
-                    <div class="mode-title">Nộp bài mới xem kết quả</div>
-                    <div class="mode-desc">Làm toàn bộ bài thi; chấm điểm & xem giải thích sau khi Nộp bài</div>
-                </div>
-            </label>
-        </div>
-
         <!-- Custom Upload & Text Raw Area -->
-        <div class="section-label">📁 Tự nhập hoặc upload file đề riêng khác:</div>
+        <div class="section-label" style="margin-top: 24px;">📁 Tự nhập hoặc upload file đề riêng khác:</div>
         <div class="file-upload-wrapper" onclick="document.getElementById('file-input').click()">
             <p id="file-status">📄 Kéo thả hoặc click để chọn file cấu trúc .txt</p>
             <input type="file" id="file-input" accept=".txt">
@@ -1262,9 +1229,47 @@
         </div>
 
         <div class="btn-container">
-            <button class="btn-primary" onclick="processInput()">Bắt đầu làm bài</button>
+            <button class="btn-primary" onclick="openStartQuizModal(null, 'Đề nhập tay / Raw text')">Bắt đầu làm bài</button>
             <button class="btn-secondary" onclick="loadSampleText()">Sử dụng đề mẫu</button>
             <button class="btn-secondary" onclick="clearInput()">Xóa</button>
+        </div>
+    </div>
+
+    <!-- Modal for Selecting Quiz Mode when clicking a Quiz Card -->
+    <div class="modal-overlay hidden" id="start-quiz-modal">
+        <div class="modal-card">
+            <div class="modal-title" id="start-modal-title">📖 Xác nhận Bài Trắc nghiệm</div>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 18px;" id="start-modal-desc">
+                Vui lòng chọn chế độ làm bài trước khi bắt đầu.
+            </p>
+
+            <div class="form-group">
+                <label class="form-label">⚙️ Chọn Chế độ Làm bài:</label>
+                <div class="mode-grid">
+                    <label class="mode-card active" id="modal-mode-instant" onclick="selectModalQuizMode('instant')">
+                        <input type="radio" name="modal_quiz_mode" value="instant" checked>
+                        <div class="mode-icon">⚡</div>
+                        <div>
+                            <div class="mode-title">Phản hồi tức thì</div>
+                            <div class="mode-desc">Chấm điểm & xem giải thích ngay sau khi chọn đáp án từng câu</div>
+                        </div>
+                    </label>
+                    
+                    <label class="mode-card" id="modal-mode-submit" onclick="selectModalQuizMode('submit')">
+                        <input type="radio" name="modal_quiz_mode" value="submit">
+                        <div class="mode-icon">📋</div>
+                        <div>
+                            <div class="mode-title">Nộp bài mới xem kết quả</div>
+                            <div class="mode-desc">Làm toàn bộ bài thi; chấm điểm & xem giải thích sau khi Nộp bài</div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="btn-container" style="margin-top: 20px; justify-content: flex-end;">
+                <button class="btn-secondary" onclick="closeStartQuizModal()">Hủy</button>
+                <button class="btn-primary" onclick="confirmAndStartQuiz()">🚀 Bắt đầu ngay</button>
+            </div>
         </div>
     </div>
 
@@ -1298,6 +1303,28 @@
                     <span class="pill-opt" onclick="setMockTime(0)">Không giới hạn</span>
                 </div>
                 <input type="number" id="custom-time-input" class="custom-num-input" placeholder="Hoặc nhập số phút tùy ý..." min="0" oninput="setCustomMockTime(this.value)">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">⚙️ Chế độ làm bài:</label>
+                <div class="mode-grid">
+                    <label class="mode-card active" id="mock-mode-submit" onclick="selectMockQuizMode('submit')">
+                        <input type="radio" name="mock_quiz_mode" value="submit" checked>
+                        <div class="mode-icon">📋</div>
+                        <div>
+                            <div class="mode-title">Nộp bài mới xem kết quả</div>
+                            <div class="mode-desc">Làm toàn bộ bài thi; tính thời gian & chấm điểm sau khi nộp</div>
+                        </div>
+                    </label>
+                    <label class="mode-card" id="mock-mode-instant" onclick="selectMockQuizMode('instant')">
+                        <input type="radio" name="mock_quiz_mode" value="instant">
+                        <div class="mode-icon">⚡</div>
+                        <div>
+                            <div class="mode-title">Phản hồi tức thì</div>
+                            <div class="mode-desc">Chấm điểm ngay từng câu trong quá trình làm</div>
+                        </div>
+                    </label>
+                </div>
             </div>
 
             <div class="btn-container" style="margin-top: 24px; justify-content: flex-end;">
@@ -1401,18 +1428,26 @@
 
 <script>
     let currentQuestions = [];
-    let currentQuizMode = 'instant'; // 'instant' or 'submit'
+    let currentQuizMode = 'submit'; // 'instant' or 'submit'
     let isQuizSubmitted = false;
-    let isRetakeWrongMode = false;
 
     // Timer state
     let timerInterval = null;
     let totalSecondsLeft = 0;
 
+    // Pending selection for Start Quiz Modal
+    let pendingQuizFile = null;
+    let pendingQuizTitle = "";
+    let currentSubjectId = "cnxh";
+
     // Mock exam generator state
     let activeSubjectGroup = null;
     let selectedMockCount = 20; // default 20 questions
     let selectedMockTime = 15; // default 15 mins
+    let selectedMockMode = 'submit';
+
+    // Accordion state
+    let accordionStates = { cnxh: true, gdh: false };
 
     // Preset Quizzes List fallback
     const defaultCategories = [
@@ -1458,17 +1493,16 @@ C. Chủ nghĩa xã hội không tưởng
 D. Kinh tế chính trị cổ điển Anh`;
 
     // LocalStorage keys
-    const STORAGE_KEY_HISTORY = 'hnue_quiz_history_v1';
-    const STORAGE_KEY_WRONG = 'hnue_wrong_questions_v1';
+    const STORAGE_KEY_HISTORY = 'hnue_quiz_history_v2';
+    const STORAGE_KEY_WRONG = 'hnue_wrong_questions_v2';
 
     // Load available preset quizzes & dashboard statistics on startup
     document.addEventListener('DOMContentLoaded', () => {
         initPresets();
-        updateDashboardUI();
     });
 
     /* ========================================================
-       LOCALSTORAGE HISTORY & WRONG QUESTIONS MANAGEMENT
+       LOCALSTORAGE HISTORY & WRONG QUESTIONS PER SUBJECT
     ======================================================== */
     function getStoredHistory() {
         try {
@@ -1477,22 +1511,24 @@ D. Kinh tế chính trị cổ điển Anh`;
         } catch(e) { return []; }
     }
 
-    function saveQuizHistoryItem(title, scoreText, correctCount, totalCount) {
+    function saveQuizHistoryItem(subjectId, title, scoreText, correctCount, totalCount) {
         try {
             const history = getStoredHistory();
             const now = new Date();
             const timeStr = `${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')} - ${now.getDate()}/${now.getMonth()+1}`;
-            history.unshift({ title, scoreText, correctCount, totalCount, time: timeStr });
-            if (history.length > 20) history.pop(); // keep last 20
+            history.unshift({ subjectId, title, scoreText, correctCount, totalCount, time: timeStr });
+            if (history.length > 30) history.pop();
             localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(history));
-            updateDashboardUI();
+            updateSubjectStatsUI(subjectId);
         } catch(e) {}
     }
 
-    function clearQuizHistory() {
-        if (confirm("Bạn có chắc muốn xóa lịch sử làm bài?")) {
-            localStorage.removeItem(STORAGE_KEY_HISTORY);
-            updateDashboardUI();
+    function clearSubjectHistory(subjectId) {
+        if (confirm("Bạn có chắc muốn xóa lịch sử làm bài môn này?")) {
+            let history = getStoredHistory();
+            history = history.filter(h => h.subjectId !== subjectId);
+            localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(history));
+            updateSubjectStatsUI(subjectId);
         }
     }
 
@@ -1503,7 +1539,7 @@ D. Kinh tế chính trị cổ điển Anh`;
         } catch(e) { return []; }
     }
 
-    function saveWrongQuestions(gradedQuestions) {
+    function saveWrongQuestions(subjectId, gradedQuestions) {
         try {
             let bank = getStoredWrongBank();
             
@@ -1511,12 +1547,12 @@ D. Kinh tế chính trị cổ điển Anh`;
                 const existingIndex = bank.findIndex(item => item.question === q.question);
                 if (!q.isCorrect) {
                     if (existingIndex === -1) {
-                        bank.push(q);
+                        bank.push({ ...q, subjectId: subjectId || 'cnxh' });
                     } else {
-                        bank[existingIndex] = q; // update
+                        bank[existingIndex] = { ...q, subjectId: subjectId || 'cnxh' };
                     }
                 } else {
-                    // Remove from wrong bank if answered correctly!
+                    // Remove from wrong bank if answered correctly
                     if (existingIndex !== -1) {
                         bank.splice(existingIndex, 1);
                     }
@@ -1524,66 +1560,63 @@ D. Kinh tế chính trị cổ điển Anh`;
             });
 
             localStorage.setItem(STORAGE_KEY_WRONG, JSON.stringify(bank));
-            updateDashboardUI();
+            updateSubjectStatsUI(subjectId);
         } catch(e) {}
     }
 
-    function clearWrongBank() {
-        if (confirm("Bạn có chắc muốn xóa tất cả câu hỏi sai đã lưu?")) {
-            localStorage.removeItem(STORAGE_KEY_WRONG);
-            updateDashboardUI();
+    function clearSubjectWrongBank(subjectId) {
+        if (confirm("Bạn có chắc muốn xóa kho câu sai của môn này?")) {
+            let bank = getStoredWrongBank();
+            bank = bank.filter(b => b.subjectId !== subjectId);
+            localStorage.setItem(STORAGE_KEY_WRONG, JSON.stringify(bank));
+            updateSubjectStatsUI(subjectId);
         }
     }
 
-    function updateDashboardUI() {
-        // Render wrong count
-        const wrongBank = getStoredWrongBank();
-        const wrongStat = document.getElementById('wrong-count-stat');
-        const retakeBtn = document.getElementById('btn-retake-wrong');
+    function updateSubjectStatsUI(subjectId) {
+        const wrongBank = getStoredWrongBank().filter(b => b.subjectId === subjectId);
+        const wrongBadge = document.getElementById(`subject-wrong-badge-${subjectId}`);
+        const retakeBtn = document.getElementById(`btn-retake-subject-${subjectId}`);
         
-        if (wrongStat) wrongStat.innerText = `${wrongBank.length} câu`;
+        if (wrongBadge) {
+            wrongBadge.innerText = `🔥 ${wrongBank.length} câu sai`;
+        }
         if (retakeBtn) {
             if (wrongBank.length > 0) {
-                retakeBtn.innerText = `🔥 Ôn lại các câu sai (${wrongBank.length} câu)`;
+                retakeBtn.innerText = `🔥 Ôn lại câu sai (${wrongBank.length} câu)`;
                 retakeBtn.disabled = false;
                 retakeBtn.style.opacity = "1";
             } else {
-                retakeBtn.innerText = `🔥 Kho câu sai đang trống (0 câu)`;
+                retakeBtn.innerText = `🔥 Không có câu sai (0 câu)`;
                 retakeBtn.disabled = true;
                 retakeBtn.style.opacity = "0.6";
             }
         }
 
-        // Render history list
-        const historyList = getStoredHistory();
-        const historyContainer = document.getElementById('history-list-container');
+        // Render subject history list if container exists
+        const historyList = getStoredHistory().filter(h => h.subjectId === subjectId);
+        const historyContainer = document.getElementById(`subject-history-list-${subjectId}`);
         if (historyContainer) {
             if (historyList.length === 0) {
-                historyContainer.innerHTML = `<p style="color: var(--text-muted); padding: 8px 0;">Chưa có lịch sử làm bài.</p>`;
+                historyContainer.innerHTML = `<span style="color: var(--text-muted); font-size: 0.8rem;">Chưa có lịch sử làm bài.</span>`;
             } else {
-                historyContainer.innerHTML = historyList.slice(0, 5).map(item => `
-                    <div class="history-item">
-                        <div>
-                            <strong style="color: var(--text-light);">${escapeHTML(item.title)}</strong>
-                            <div style="color: var(--text-muted); font-size: 0.78rem;">${item.time}</div>
-                        </div>
-                        <span style="font-weight: 700; color: var(--primary); background: rgba(99,102,241,0.08); padding: 2px 8px; border-radius: 4px;">
-                            ${item.scoreText}
-                        </span>
-                    </div>
-                `).join('');
+                historyContainer.innerHTML = historyList.slice(0, 3).map(item => `
+                    <span style="font-size: 0.8rem; background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 50px;">
+                        <strong>${escapeHTML(item.title)}</strong>: <span style="color: var(--primary); font-weight: 700;">${item.scoreText}</span> (${item.time})
+                    </span>
+                `).join(' ');
             }
         }
     }
 
-    function startRetakeWrongExam() {
-        const wrongBank = getStoredWrongBank();
+    function startRetakeWrongExamForSubject(subjectId, subjectTitle) {
+        currentSubjectId = subjectId;
+        const wrongBank = getStoredWrongBank().filter(b => b.subjectId === subjectId);
         if (wrongBank.length === 0) {
-            alert("Kho câu hỏi sai của bạn đang trống!");
+            alert("Kho câu hỏi sai của môn này đang trống!");
             return;
         }
 
-        isRetakeWrongMode = true;
         currentQuestions = JSON.parse(JSON.stringify(wrongBank));
         
         // Reset answers & states for retaking
@@ -1595,7 +1628,7 @@ D. Kinh tế chính trị cổ điển Anh`;
         });
 
         selectQuizMode('submit');
-        document.getElementById('current-quiz-name').innerText = `🔥 Luyện lại câu sai (${currentQuestions.length} câu)`;
+        document.getElementById('current-quiz-name').innerText = `🔥 Luyện lại câu sai - ${subjectTitle} (${currentQuestions.length} câu)`;
         document.getElementById('file-status').innerText = `📄 Đã nạp ${currentQuestions.length} câu hỏi sai để luyện lại.`;
 
         isQuizSubmitted = false;
@@ -1615,7 +1648,7 @@ D. Kinh tế chính trị cổ điển Anh`;
 
 
     /* ========================================================
-       PRESET & MOCK EXAM GENERATOR LOGIC
+       PRESET & ACCORDION RENDER LOGIC
     ======================================================== */
     async function initPresets() {
         const gridContainer = document.getElementById('preset-categories-container');
@@ -1633,70 +1666,160 @@ D. Kinh tế chính trị cổ điển Anh`;
             console.log("Dùng danh sách mặc định.");
         }
 
-        data.forEach(group => {
-            const catWrapper = document.createElement('div');
-            catWrapper.style.marginBottom = "24px";
+        data.forEach((group, idx) => {
+            const subjectId = group.subjectId || `sub_${idx}`;
+            const isCollapsed = accordionStates[subjectId] === false;
 
-            const catHeader = document.createElement('div');
-            catHeader.className = 'section-label';
-            catHeader.innerText = group.category || "Danh mục bộ đề";
+            const accordionItem = document.createElement('div');
+            accordionItem.className = `subject-accordion-item ${isCollapsed ? 'collapsed' : ''}`;
+            accordionItem.id = `accordion-${subjectId}`;
 
-            const pGrid = document.createElement('div');
-            pGrid.className = 'preset-grid';
+            // Header bar
+            const header = document.createElement('div');
+            header.className = 'subject-accordion-header';
+            header.onclick = () => toggleSubjectAccordion(subjectId);
+            header.innerHTML = `
+                <div class="subject-title-group">
+                    <span class="accordion-arrow">▼</span>
+                    <span class="subject-title">${escapeHTML(group.category)}</span>
+                    <span class="subject-count-badge">${group.quizzes ? group.quizzes.length + ' bài' : '0 bài'}</span>
+                </div>
+                <div>
+                    <span class="preset-badge" style="background: rgba(239, 68, 68, 0.08); color: var(--danger-text);" id="subject-wrong-badge-${subjectId}">
+                        🔥 0 câu sai
+                    </span>
+                </div>
+            `;
+            accordionItem.appendChild(header);
 
             if (group.status === 'updating' || !group.quizzes || group.quizzes.length === 0) {
-                // Render updating status card for Giáo dục học
-                const updatingCard = document.createElement('div');
-                updatingCard.className = 'preset-card updating-card';
-                updatingCard.innerHTML = `
-                    <div class="preset-icon">🔄</div>
-                    <div>
-                        <div class="preset-title">${escapeHTML(group.category)}</div>
-                        <div class="preset-desc">Dữ liệu các chương đang được cập nhật và biên soạn...</div>
-                        <span class="preset-badge updating-badge">🔄 Đang cập nhật dữ liệu</span>
+                // Render updating body
+                const body = document.createElement('div');
+                body.className = 'subject-content-body';
+                body.innerHTML = `
+                    <div class="preset-card updating-card">
+                        <div class="preset-icon">🔄</div>
+                        <div>
+                            <div class="preset-title">Nội dung Giáo dục học</div>
+                            <div class="preset-desc">Dữ liệu các chương đang được hệ thống cập nhật và biên soạn...</div>
+                            <span class="preset-badge updating-badge">🔄 Đang cập nhật dữ liệu</span>
+                        </div>
                     </div>
                 `;
-                pGrid.appendChild(updatingCard);
+                accordionItem.appendChild(body);
             } else {
-                // Add Mock Exam Generator Card at top of category
+                // Actions Bar per Subject (Wrong retake & History)
+                const actionsBar = document.createElement('div');
+                actionsBar.className = 'subject-actions-bar';
+                actionsBar.innerHTML = `
+                    <button class="btn-danger" style="padding: 6px 14px; font-size: 0.82rem; min-height: 34px;" id="btn-retake-subject-${subjectId}" onclick="startRetakeWrongExamForSubject('${subjectId}', '${escapeHTML(group.category)}')">
+                        🔥 Ôn lại câu sai
+                    </button>
+                    <button class="btn-secondary" style="padding: 6px 12px; font-size: 0.82rem; min-height: 34px;" onclick="clearSubjectWrongBank('${subjectId}')">
+                        Xóa câu sai môn này
+                    </button>
+                    <div id="subject-history-list-${subjectId}" style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;"></div>
+                `;
+                accordionItem.appendChild(actionsBar);
+
+                // Body Grid
+                const body = document.createElement('div');
+                body.className = 'subject-content-body';
+
+                const pGrid = document.createElement('div');
+                pGrid.className = 'preset-grid';
+
+                // Mock Exam Card at top
                 const mockCard = document.createElement('div');
                 mockCard.className = 'preset-card mock-exam-card';
                 mockCard.onclick = () => openMockModal(group);
                 mockCard.innerHTML = `
                     <div class="preset-icon">🎲</div>
                     <div>
-                        <div class="preset-title">Thi thử Ngẫu nhiên môn học</div>
-                        <div class="preset-desc">Tự tạo đề ngẫu nhiên từ tất cả các chương + tính thời gian thi thử</div>
-                        <span class="preset-badge mock-badge">⚡ Nhanh & Ngẫu nhiên</span>
+                        <div class="preset-title">Thi thử Ngẫu nhiên môn này</div>
+                        <div class="preset-desc">Tự chọn số câu, số phút & nộp bài thi thử ngẫu nhiên</div>
+                        <span class="preset-badge mock-badge">⚡ Ngẫu nhiên & Tùy chỉnh</span>
                     </div>
                 `;
                 pGrid.appendChild(mockCard);
 
-                // Add individual chapter cards
+                // Individual Chapter Cards
                 group.quizzes.forEach(p => {
                     const card = document.createElement('div');
                     card.className = 'preset-card';
-                    card.onclick = () => fetchAndLoadQuiz(p.file, p.title);
+                    card.onclick = () => openStartQuizModal(p.file, p.title, subjectId);
                     card.innerHTML = `
                         <div class="preset-icon">${p.icon || '📝'}</div>
                         <div>
                             <div class="preset-title">${escapeHTML(p.title)}</div>
                             <div class="preset-desc">${escapeHTML(p.description)}</div>
-                            <span class="preset-badge">Bấm để tải đề này</span>
+                            <span class="preset-badge">Bấm để chọn bài này</span>
                         </div>
                     `;
                     pGrid.appendChild(card);
                 });
+
+                body.appendChild(pGrid);
+                accordionItem.appendChild(body);
             }
 
-            catWrapper.appendChild(catHeader);
-            catWrapper.appendChild(pGrid);
-            gridContainer.appendChild(catWrapper);
+            gridContainer.appendChild(accordionItem);
+
+            // Update stats
+            updateSubjectStatsUI(subjectId);
         });
     }
 
+    function toggleSubjectAccordion(subjectId) {
+        const item = document.getElementById(`accordion-${subjectId}`);
+        if (!item) return;
+        item.classList.toggle('collapsed');
+        accordionStates[subjectId] = !item.classList.contains('collapsed');
+    }
+
+    /* ========================================================
+       QUIZ MODE SELECTION MODAL LOGIC (When clicking a quiz)
+    ======================================================== */
+    function openStartQuizModal(filePath, title, subjectId) {
+        pendingQuizFile = filePath;
+        pendingQuizTitle = title;
+        currentSubjectId = subjectId || 'cnxh';
+
+        document.getElementById('start-modal-title').innerText = `📖 ${title}`;
+        document.getElementById('start-quiz-modal').classList.remove('hidden');
+    }
+
+    function closeStartQuizModal() {
+        document.getElementById('start-quiz-modal').classList.add('hidden');
+    }
+
+    function selectModalQuizMode(mode) {
+        currentQuizMode = mode;
+        document.querySelectorAll('#start-quiz-modal .mode-card').forEach(card => card.classList.remove('active'));
+        if (mode === 'instant') {
+            document.getElementById('modal-mode-instant').classList.add('active');
+            document.querySelector('#modal-mode-instant input').checked = true;
+        } else {
+            document.getElementById('modal-mode-submit').classList.add('active');
+            document.querySelector('#modal-mode-submit input').checked = true;
+        }
+    }
+
+    function confirmAndStartQuiz() {
+        closeStartQuizModal();
+        if (pendingQuizFile) {
+            fetchAndLoadQuiz(pendingQuizFile, pendingQuizTitle);
+        } else {
+            processInput();
+        }
+    }
+
+    /* ========================================================
+       RANDOM MOCK EXAM MODAL & GENERATOR LOGIC
+    ======================================================== */
     function openMockModal(group) {
         activeSubjectGroup = group;
+        currentSubjectId = group.subjectId || 'cnxh';
         document.getElementById('mock-modal-subtitle').innerText = `Tự động gộp tất cả câu hỏi thuộc: ${group.category}`;
         document.getElementById('custom-count-input').value = "";
         document.getElementById('custom-time-input').value = "";
@@ -1741,6 +1864,19 @@ D. Kinh tế chính trị cổ điển Anh`;
         }
     }
 
+    function selectMockQuizMode(mode) {
+        selectedMockMode = mode;
+        currentQuizMode = mode;
+        document.querySelectorAll('#mock-exam-modal .mode-card').forEach(card => card.classList.remove('active'));
+        if (mode === 'instant') {
+            document.getElementById('mock-mode-instant').classList.add('active');
+            document.querySelector('#mock-mode-instant input').checked = true;
+        } else {
+            document.getElementById('mock-mode-submit').classList.add('active');
+            document.querySelector('#mock-mode-submit input').checked = true;
+        }
+    }
+
     async function startRandomMockExam() {
         if (!activeSubjectGroup || !activeSubjectGroup.quizzes) return;
         closeMockModal();
@@ -1748,7 +1884,6 @@ D. Kinh tế chính trị cổ điển Anh`;
         document.getElementById('file-status').innerText = `⌛ Đang gộp dữ liệu từ tất cả các chương...`;
 
         try {
-            isRetakeWrongMode = false;
             // Fetch all chapter text files in parallel
             const fetchPromises = activeSubjectGroup.quizzes.map(q => fetch(q.file).then(r => r.text()));
             const results = await Promise.all(fetchPromises);
@@ -1783,8 +1918,7 @@ D. Kinh tế chính trị cổ điển Anh`;
                 q.id = String(idx + 1);
             });
 
-            // Set Mode: Default to 'submit' mode for mock exams
-            selectQuizMode('submit');
+            currentQuizMode = selectedMockMode;
 
             document.getElementById('current-quiz-name').innerText = `🎲 Thi thử ngẫu nhiên (${finalCount} câu - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
             document.getElementById('file-status').innerText = `📄 Đã tạo đề thi thử: ${finalCount} câu ngẫu nhiên.`;
@@ -1794,7 +1928,12 @@ D. Kinh tế chính trị cổ điển Anh`;
             document.getElementById('input-card').classList.add('hidden');
             document.getElementById('quiz-app').classList.remove('hidden');
             document.getElementById('score-summary').classList.add('hidden');
-            document.getElementById('btn-submit-quiz').classList.remove('hidden');
+
+            if (currentQuizMode === 'submit') {
+                document.getElementById('btn-submit-quiz').classList.remove('hidden');
+            } else {
+                document.getElementById('btn-submit-quiz').classList.add('hidden');
+            }
 
             setMobileNavVisibility(true);
             renderQuiz();
@@ -1828,7 +1967,7 @@ D. Kinh tế chính trị cổ điển Anh`;
 
         timerInterval = setInterval(() => {
             totalSecondsLeft--;
-            if (totalSecondsLeft <= 120) { // warning under 2 mins
+            if (totalSecondsLeft <= 120) {
                 badge.classList.add('warning-timer');
             }
             if (totalSecondsLeft <= 0) {
@@ -1855,7 +1994,6 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     async function fetchAndLoadQuiz(filePath, title) {
-        isRetakeWrongMode = false;
         stopCountdownTimer();
         document.getElementById('timer-badge').classList.add('hidden');
 
@@ -1884,20 +2022,7 @@ D. Kinh tế chính trị cổ điển Anh`;
         reader.readAsText(file, 'UTF-8');
     });
 
-    function selectQuizMode(mode) {
-        currentQuizMode = mode;
-        document.querySelectorAll('.mode-card').forEach(card => card.classList.remove('active'));
-        if (mode === 'instant') {
-            document.getElementById('mode-card-instant').classList.add('active');
-            document.querySelector('input[value="instant"]').checked = true;
-        } else {
-            document.getElementById('mode-card-submit').classList.add('active');
-            document.querySelector('input[value="submit"]').checked = true;
-        }
-    }
-
     function loadSampleText() {
-        isRetakeWrongMode = false;
         document.getElementById('text-input').value = sampleQuizText;
         document.getElementById('file-status').innerText = "📄 Đã tải cấu trúc đề mẫu thành công";
         document.getElementById('current-quiz-name').innerText = "📖 Đề mẫu thử nghiệm";
@@ -2047,7 +2172,7 @@ D. Kinh tế chính trị cổ điển Anh`;
         setMobileNavVisibility(false);
         document.getElementById('quiz-app').classList.add('hidden');
         document.getElementById('input-card').classList.remove('hidden');
-        updateDashboardUI();
+        updateSubjectStatsUI(currentSubjectId);
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
@@ -2200,7 +2325,7 @@ D. Kinh tế chính trị cổ điển Anh`;
 
         // Save wrong question state in real-time if in instant mode
         if (currentQuizMode === 'instant') {
-            saveWrongQuestions([q]);
+            saveWrongQuestions(currentSubjectId, [q]);
         }
     }
 
@@ -2281,10 +2406,10 @@ D. Kinh tế chính trị cổ điển Anh`;
         document.getElementById('summary-incorrect-count').innerText = `✕ ${incorrectCount} câu sai`;
         document.getElementById('score-summary').classList.remove('hidden');
 
-        // Save History & Wrong Questions to LocalStorage
-        const title = document.getElementById('current-quiz-name').innerText.replace(/^📖 Đề:\s*|^🎲\s*/, '');
-        saveQuizHistoryItem(title, scoreText, correctCount, total);
-        saveWrongQuestions(currentQuestions);
+        // Save History & Wrong Questions to LocalStorage per subject
+        const title = document.getElementById('current-quiz-name').innerText.replace(/^📖 Đề:\s*|^🎲\s*|^🔥\s*/, '');
+        saveQuizHistoryItem(currentSubjectId, title, scoreText, correctCount, total);
+        saveWrongQuestions(currentSubjectId, currentQuestions);
 
         document.getElementById('score-summary').scrollIntoView({ behavior: 'smooth' });
     }
