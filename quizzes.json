@@ -2,6 +2,7 @@
   {
     "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
     "subjectId": "cnxh",
+    "status": "available",
     "quizzes": [
       {
         "id": "cnxh-ch1",
@@ -44,7 +45,62 @@
         "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2)",
         "file": "CNXH/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2).txt",
         "icon": "📜"
+      },
+      {
+        "id": "cnxh-ch5",
+        "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp",
+        "description": "Cơ cấu xã hội - giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ quá độ",
+        "file": "CNXH/Chương 5. Cơ cấu Xã hội - Giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ Quá độ lên Chủ nghĩa xã hội.txt",
+        "icon": "🤝"
+      },
+      {
+        "id": "cnxh-ch6-p1",
+        "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 1)",
+        "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+        "file": "CNXH/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt",
+        "icon": "🌍"
+      },
+      {
+        "id": "cnxh-ch6-p2",
+        "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 2)",
+        "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+        "file": "CNXH/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt",
+        "icon": "🌍"
+      },
+      {
+        "id": "cnxh-ch7-p1",
+        "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 1)",
+        "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+        "file": "CNXH/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt",
+        "icon": "🕊️"
+      },
+      {
+        "id": "cnxh-ch7-p2",
+        "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 2)",
+        "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+        "file": "CNXH/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt",
+        "icon": "🕊️"
+      },
+      {
+        "id": "cnxh-ch8-p1",
+        "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 1)",
+        "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+        "file": "CNXH/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt",
+        "icon": "🏡"
+      },
+      {
+        "id": "cnxh-ch8-p2",
+        "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 2)",
+        "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+        "file": "CNXH/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt",
+        "icon": "🏡"
       }
     ]
+  },
+  {
+    "category": "🎓 Giáo dục học - HNUE",
+    "subjectId": "gdh",
+    "status": "updating",
+    "quizzes": []
   }
 ]

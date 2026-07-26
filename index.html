@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trắc nghiệm CNXH Khoa Học - HNUE</title>
+    <title>Hệ thống Trắc nghiệm HNUE - CNXH Khoa Học & Giáo Dục Học</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -27,6 +27,7 @@
             --danger-border: rgba(239, 68, 68, 0.3);
             --danger-text: #b91c1c;
             --info: #0284c7;
+            --warning: #f59e0b;
             --border-color: #e2e8f0;
             --radius-lg: 20px;
             --radius-md: 12px;
@@ -82,6 +83,70 @@
             color: var(--text-muted);
             font-size: 1rem;
             font-weight: 500;
+        }
+
+        /* Dashboard & Storage Section */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .dashboard-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            box-shadow: var(--shadow-md);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .dashboard-card.wrong-bank-card {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.04) 0%, rgba(225, 29, 72, 0.08) 100%);
+            border: 1.5px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .dashboard-title {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--text-light);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .dashboard-stat {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin: 6px 0;
+        }
+
+        .dashboard-stat.wrong-stat {
+            color: var(--danger-text);
+        }
+
+        .history-list {
+            max-height: 160px;
+            overflow-y: auto;
+            margin-top: 10px;
+            font-size: 0.85rem;
+        }
+
+        .history-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .history-item:last-child {
+            border-bottom: none;
         }
 
         /* Top Action Bar in Quiz Mode */
@@ -215,6 +280,13 @@
             background: rgba(99, 102, 241, 0.12);
         }
 
+        .preset-card.updating-card {
+            background: #f8fafc;
+            border: 1px dashed #cbd5e1;
+            cursor: not-allowed;
+            opacity: 0.8;
+        }
+
         .preset-icon {
             font-size: 1.8rem;
             line-height: 1;
@@ -250,6 +322,11 @@
             background: var(--primary);
         }
 
+        .preset-badge.updating-badge {
+            color: #d97706;
+            background: rgba(245, 158, 11, 0.1);
+        }
+
         /* Modal Overlay */
         .modal-overlay {
             position: fixed;
@@ -267,7 +344,7 @@
             background: #ffffff;
             border-radius: var(--radius-lg);
             padding: 28px;
-            max-width: 540px;
+            max-width: 560px;
             width: 100%;
             box-shadow: var(--shadow-lg);
             border: 1px solid var(--border-color);
@@ -285,7 +362,7 @@
         }
 
         .form-group {
-            margin-bottom: 18px;
+            margin-bottom: 20px;
         }
 
         .form-label {
@@ -300,6 +377,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
+            margin-bottom: 10px;
         }
 
         .pill-opt {
@@ -324,6 +402,22 @@
             border-color: var(--primary);
             background: var(--primary);
             color: #ffffff;
+        }
+
+        .custom-num-input {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            font-size: 0.95rem;
+            font-family: var(--font-sans);
+            background: #f8fafc;
+        }
+
+        .custom-num-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: #ffffff;
         }
 
         /* Mode Selection Cards */
@@ -478,6 +572,16 @@
             background-color: #e2e8f0; 
             color: var(--text-light);
             transform: translateY(-1px);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            color: white;
+            box-shadow: 0 4px 10px rgba(239, 68, 68, 0.25);
+        }
+        .btn-danger:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 15px rgba(239, 68, 68, 0.35);
         }
 
         .btn-success {
@@ -1084,12 +1188,41 @@
 
 <div class="container">
     <header>
-        <h1 onclick="backToConfig()">Trắc nghiệm CNXH Khoa Học - HNUE</h1>
-        <p>Hệ thống ôn tập và làm bài trắc nghiệm Môn Chủ nghĩa Xã hội Khoa học</p>
+        <h1 onclick="backToConfig()">Trắc nghiệm HNUE</h1>
+        <p>Hệ thống Ôn tập & Thi thử Trắc nghiệm Thông minh</p>
     </header>
 
     <!-- Config Card (Homepage) -->
     <div class="card" id="input-card">
+        <!-- Dashboard & LocalStorage History Area -->
+        <div class="dashboard-grid">
+            <div class="dashboard-card wrong-bank-card">
+                <div>
+                    <div class="dashboard-title">
+                        <span>🔥 Kho Câu Hỏi Sai</span>
+                        <button class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem;" onclick="clearWrongBank()">Xóa kho</button>
+                    </div>
+                    <div class="dashboard-stat wrong-stat" id="wrong-count-stat">0 câu</div>
+                    <p style="font-size: 0.82rem; color: var(--text-muted);">Các câu làm chưa đúng được tự động lưu lại tại đây.</p>
+                </div>
+                <button class="btn-danger" style="margin-top: 12px; width: 100%; font-size: 0.88rem;" id="btn-retake-wrong" onclick="startRetakeWrongExam()">
+                    🔥 Ôn lại các câu sai
+                </button>
+            </div>
+
+            <div class="dashboard-card">
+                <div>
+                    <div class="dashboard-title">
+                        <span>📊 Lịch Sử Làm Bài</span>
+                        <button class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem;" onclick="clearQuizHistory()">Xóa lịch sử</button>
+                    </div>
+                    <div class="history-list" id="history-list-container">
+                        <p style="color: var(--text-muted); padding: 8px 0;">Chưa có lịch sử làm bài.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="card-title">Cấu hình & Chọn đề trắc nghiệm</div>
         
         <!-- Preset Quizzes Gallery (Grouped by Category) -->
@@ -1118,7 +1251,7 @@
         </div>
 
         <!-- Custom Upload & Text Raw Area -->
-        <div class="section-label">📁 Tự nhập hoặc upload file đề CNXH khác:</div>
+        <div class="section-label">📁 Tự nhập hoặc upload file đề riêng khác:</div>
         <div class="file-upload-wrapper" onclick="document.getElementById('file-input').click()">
             <p id="file-status">📄 Kéo thả hoặc click để chọn file cấu trúc .txt</p>
             <input type="file" id="file-input" accept=".txt">
@@ -1140,7 +1273,7 @@
         <div class="modal-card">
             <div class="modal-title">🎲 Cấu hình Thi thử Ngẫu nhiên</div>
             <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 20px;" id="mock-modal-subtitle">
-                Tạo 1 đề thi ngẫu nhiên gộp từ tất cả các chương thuộc môn học.
+                Tự động gộp tất cả câu hỏi thuộc môn học.
             </p>
 
             <div class="form-group">
@@ -1152,10 +1285,11 @@
                     <span class="pill-opt" onclick="setMockCount(40)">40 câu</span>
                     <span class="pill-opt" onclick="setMockCount('all')">Tất cả câu</span>
                 </div>
+                <input type="number" id="custom-count-input" class="custom-num-input" placeholder="Hoặc nhập số lượng câu tùy ý..." min="1" oninput="setCustomMockCount(this.value)">
             </div>
 
             <div class="form-group">
-                <label class="form-label">⏱️ Chọn thời gian làm bài:</label>
+                <label class="form-label">⏱️ Chọn thời gian làm bài (Phút):</label>
                 <div class="option-pills" id="timer-pills">
                     <span class="pill-opt" onclick="setMockTime(10)">10 phút</span>
                     <span class="pill-opt active" onclick="setMockTime(15)">15 phút</span>
@@ -1163,6 +1297,7 @@
                     <span class="pill-opt" onclick="setMockTime(45)">45 phút</span>
                     <span class="pill-opt" onclick="setMockTime(0)">Không giới hạn</span>
                 </div>
+                <input type="number" id="custom-time-input" class="custom-num-input" placeholder="Hoặc nhập số phút tùy ý..." min="0" oninput="setCustomMockTime(this.value)">
             </div>
 
             <div class="btn-container" style="margin-top: 24px; justify-content: flex-end;">
@@ -1177,7 +1312,7 @@
         <!-- Top Action Bar inside Quiz View -->
         <div class="quiz-top-bar">
             <div class="quiz-top-title">
-                <span id="current-quiz-name">📖 Đề thi trắc nghiệm CNXH</span>
+                <span id="current-quiz-name">📖 Đề thi trắc nghiệm</span>
             </div>
             
             <div style="display: flex; align-items: center; gap: 12px;">
@@ -1268,6 +1403,7 @@
     let currentQuestions = [];
     let currentQuizMode = 'instant'; // 'instant' or 'submit'
     let isQuizSubmitted = false;
+    let isRetakeWrongMode = false;
 
     // Timer state
     let timerInterval = null;
@@ -1283,36 +1419,28 @@
         {
             "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
             "subjectId": "cnxh",
+            "status": "available",
             "quizzes": [
-                {
-                    "id": "cnxh-ch1",
-                    "title": "Chương 1: Nhập môn CNXH Khoa học",
-                    "description": "Bộ câu hỏi Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin",
-                    "file": "CNXH/Chương 1. Nhập môn Chủ nghĩa xã hội Khoa học.txt",
-                    "icon": "📘"
-                },
-                {
-                    "id": "cnxh-ch2-p1",
-                    "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
-                    "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
-                    "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 1).txt",
-                    "icon": "📕"
-                },
-                {
-                    "id": "cnxh-ch2-p2",
-                    "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
-                    "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
-                    "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).txt",
-                    "icon": "📕"
-                },
-                {
-                    "id": "cnxh-ch3",
-                    "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH",
-                    "description": "Bộ câu hỏi Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội",
-                    "file": "CNXH/Chương 3. Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội.txt",
-                    "icon": "🏛️"
-                }
+                { "id": "cnxh-ch1", "title": "Chương 1: Nhập môn CNXH Khoa học", "description": "Bộ câu hỏi Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin", "file": "CNXH/Chương 1. Nhập môn Chủ nghĩa xã hội Khoa học.txt", "icon": "📘" },
+                { "id": "cnxh-ch2-p1", "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)", "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)", "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 1).txt", "icon": "📕" },
+                { "id": "cnxh-ch2-p2", "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)", "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)", "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).txt", "icon": "📕" },
+                { "id": "cnxh-ch3", "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH", "description": "Bộ câu hỏi Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội", "file": "CNXH/Chương 3. Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội.txt", "icon": "🏛️" },
+                { "id": "cnxh-ch4-p1", "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 1)", "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1)", "file": "CNXH/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1).txt", "icon": "📜" },
+                { "id": "cnxh-ch4-p2", "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 2)", "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2)", "file": "CNXH/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2).txt", "icon": "📜" },
+                { "id": "cnxh-ch5", "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp", "description": "Cơ cấu xã hội - giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ quá độ", "file": "CNXH/Chương 5. Cơ cấu Xã hội - Giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ Quá độ lên Chủ nghĩa xã hội.txt", "icon": "🤝" },
+                { "id": "cnxh-ch6-p1", "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 1)", "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)", "file": "CNXH/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt", "icon": "🌍" },
+                { "id": "cnxh-ch6-p2", "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 2)", "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)", "file": "CNXH/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt", "icon": "🌍" },
+                { "id": "cnxh-ch7-p1", "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 1)", "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)", "file": "CNXH/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt", "icon": "🕊️" },
+                { "id": "cnxh-ch7-p2", "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 2)", "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)", "file": "CNXH/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt", "icon": "🕊️" },
+                { "id": "cnxh-ch8-p1", "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 1)", "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)", "file": "CNXH/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt", "icon": "🏡" },
+                { "id": "cnxh-ch8-p2", "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 2)", "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)", "file": "CNXH/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt", "icon": "🏡" }
             ]
+        },
+        {
+            "category": "🎓 Giáo dục học - HNUE",
+            "subjectId": "gdh",
+            "status": "updating",
+            "quizzes": []
         }
     ];
 
@@ -1329,11 +1457,166 @@ B. Triết học cổ điển Đức
 C. Chủ nghĩa xã hội không tưởng
 D. Kinh tế chính trị cổ điển Anh`;
 
-    // Load available preset quizzes on startup
+    // LocalStorage keys
+    const STORAGE_KEY_HISTORY = 'hnue_quiz_history_v1';
+    const STORAGE_KEY_WRONG = 'hnue_wrong_questions_v1';
+
+    // Load available preset quizzes & dashboard statistics on startup
     document.addEventListener('DOMContentLoaded', () => {
         initPresets();
+        updateDashboardUI();
     });
 
+    /* ========================================================
+       LOCALSTORAGE HISTORY & WRONG QUESTIONS MANAGEMENT
+    ======================================================== */
+    function getStoredHistory() {
+        try {
+            const raw = localStorage.getItem(STORAGE_KEY_HISTORY);
+            return raw ? JSON.parse(raw) : [];
+        } catch(e) { return []; }
+    }
+
+    function saveQuizHistoryItem(title, scoreText, correctCount, totalCount) {
+        try {
+            const history = getStoredHistory();
+            const now = new Date();
+            const timeStr = `${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')} - ${now.getDate()}/${now.getMonth()+1}`;
+            history.unshift({ title, scoreText, correctCount, totalCount, time: timeStr });
+            if (history.length > 20) history.pop(); // keep last 20
+            localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(history));
+            updateDashboardUI();
+        } catch(e) {}
+    }
+
+    function clearQuizHistory() {
+        if (confirm("Bạn có chắc muốn xóa lịch sử làm bài?")) {
+            localStorage.removeItem(STORAGE_KEY_HISTORY);
+            updateDashboardUI();
+        }
+    }
+
+    function getStoredWrongBank() {
+        try {
+            const raw = localStorage.getItem(STORAGE_KEY_WRONG);
+            return raw ? JSON.parse(raw) : [];
+        } catch(e) { return []; }
+    }
+
+    function saveWrongQuestions(gradedQuestions) {
+        try {
+            let bank = getStoredWrongBank();
+            
+            gradedQuestions.forEach(q => {
+                const existingIndex = bank.findIndex(item => item.question === q.question);
+                if (!q.isCorrect) {
+                    if (existingIndex === -1) {
+                        bank.push(q);
+                    } else {
+                        bank[existingIndex] = q; // update
+                    }
+                } else {
+                    // Remove from wrong bank if answered correctly!
+                    if (existingIndex !== -1) {
+                        bank.splice(existingIndex, 1);
+                    }
+                }
+            });
+
+            localStorage.setItem(STORAGE_KEY_WRONG, JSON.stringify(bank));
+            updateDashboardUI();
+        } catch(e) {}
+    }
+
+    function clearWrongBank() {
+        if (confirm("Bạn có chắc muốn xóa tất cả câu hỏi sai đã lưu?")) {
+            localStorage.removeItem(STORAGE_KEY_WRONG);
+            updateDashboardUI();
+        }
+    }
+
+    function updateDashboardUI() {
+        // Render wrong count
+        const wrongBank = getStoredWrongBank();
+        const wrongStat = document.getElementById('wrong-count-stat');
+        const retakeBtn = document.getElementById('btn-retake-wrong');
+        
+        if (wrongStat) wrongStat.innerText = `${wrongBank.length} câu`;
+        if (retakeBtn) {
+            if (wrongBank.length > 0) {
+                retakeBtn.innerText = `🔥 Ôn lại các câu sai (${wrongBank.length} câu)`;
+                retakeBtn.disabled = false;
+                retakeBtn.style.opacity = "1";
+            } else {
+                retakeBtn.innerText = `🔥 Kho câu sai đang trống (0 câu)`;
+                retakeBtn.disabled = true;
+                retakeBtn.style.opacity = "0.6";
+            }
+        }
+
+        // Render history list
+        const historyList = getStoredHistory();
+        const historyContainer = document.getElementById('history-list-container');
+        if (historyContainer) {
+            if (historyList.length === 0) {
+                historyContainer.innerHTML = `<p style="color: var(--text-muted); padding: 8px 0;">Chưa có lịch sử làm bài.</p>`;
+            } else {
+                historyContainer.innerHTML = historyList.slice(0, 5).map(item => `
+                    <div class="history-item">
+                        <div>
+                            <strong style="color: var(--text-light);">${escapeHTML(item.title)}</strong>
+                            <div style="color: var(--text-muted); font-size: 0.78rem;">${item.time}</div>
+                        </div>
+                        <span style="font-weight: 700; color: var(--primary); background: rgba(99,102,241,0.08); padding: 2px 8px; border-radius: 4px;">
+                            ${item.scoreText}
+                        </span>
+                    </div>
+                `).join('');
+            }
+        }
+    }
+
+    function startRetakeWrongExam() {
+        const wrongBank = getStoredWrongBank();
+        if (wrongBank.length === 0) {
+            alert("Kho câu hỏi sai của bạn đang trống!");
+            return;
+        }
+
+        isRetakeWrongMode = true;
+        currentQuestions = JSON.parse(JSON.stringify(wrongBank));
+        
+        // Reset answers & states for retaking
+        currentQuestions.forEach((q, idx) => {
+            q.id = String(idx + 1);
+            q.userAnswers = [];
+            q.isGraded = false;
+            q.isCorrect = false;
+        });
+
+        selectQuizMode('submit');
+        document.getElementById('current-quiz-name').innerText = `🔥 Luyện lại câu sai (${currentQuestions.length} câu)`;
+        document.getElementById('file-status').innerText = `📄 Đã nạp ${currentQuestions.length} câu hỏi sai để luyện lại.`;
+
+        isQuizSubmitted = false;
+        document.getElementById('input-card').classList.add('hidden');
+        document.getElementById('quiz-app').classList.remove('hidden');
+        document.getElementById('score-summary').classList.add('hidden');
+        document.getElementById('btn-submit-quiz').classList.remove('hidden');
+
+        stopCountdownTimer();
+        document.getElementById('timer-badge').classList.add('hidden');
+
+        setMobileNavVisibility(true);
+        renderQuiz();
+        renderSidebarNav();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+
+    /* ========================================================
+       PRESET & MOCK EXAM GENERATOR LOGIC
+    ======================================================== */
     async function initPresets() {
         const gridContainer = document.getElementById('preset-categories-container');
         gridContainer.innerHTML = "";
@@ -1361,35 +1644,50 @@ D. Kinh tế chính trị cổ điển Anh`;
             const pGrid = document.createElement('div');
             pGrid.className = 'preset-grid';
 
-            // Add Mock Exam Generator Card at the top of each category!
-            const mockCard = document.createElement('div');
-            mockCard.className = 'preset-card mock-exam-card';
-            mockCard.onclick = () => openMockModal(group);
-            mockCard.innerHTML = `
-                <div class="preset-icon">🎲</div>
-                <div>
-                    <div class="preset-title">Thi thử Ngẫu nhiên môn học</div>
-                    <div class="preset-desc">Tự tạo đề ngẫu nhiên từ tất cả các chương + tính thời gian thi thử</div>
-                    <span class="preset-badge mock-badge">⚡ Nhanh & Ngẫu nhiên</span>
-                </div>
-            `;
-            pGrid.appendChild(mockCard);
-
-            // Add individual chapter cards
-            group.quizzes.forEach(p => {
-                const card = document.createElement('div');
-                card.className = 'preset-card';
-                card.onclick = () => fetchAndLoadQuiz(p.file, p.title);
-                card.innerHTML = `
-                    <div class="preset-icon">${p.icon || '📝'}</div>
+            if (group.status === 'updating' || !group.quizzes || group.quizzes.length === 0) {
+                // Render updating status card for Giáo dục học
+                const updatingCard = document.createElement('div');
+                updatingCard.className = 'preset-card updating-card';
+                updatingCard.innerHTML = `
+                    <div class="preset-icon">🔄</div>
                     <div>
-                        <div class="preset-title">${escapeHTML(p.title)}</div>
-                        <div class="preset-desc">${escapeHTML(p.description)}</div>
-                        <span class="preset-badge">Bấm để tải đề này</span>
+                        <div class="preset-title">${escapeHTML(group.category)}</div>
+                        <div class="preset-desc">Dữ liệu các chương đang được cập nhật và biên soạn...</div>
+                        <span class="preset-badge updating-badge">🔄 Đang cập nhật dữ liệu</span>
                     </div>
                 `;
-                pGrid.appendChild(card);
-            });
+                pGrid.appendChild(updatingCard);
+            } else {
+                // Add Mock Exam Generator Card at top of category
+                const mockCard = document.createElement('div');
+                mockCard.className = 'preset-card mock-exam-card';
+                mockCard.onclick = () => openMockModal(group);
+                mockCard.innerHTML = `
+                    <div class="preset-icon">🎲</div>
+                    <div>
+                        <div class="preset-title">Thi thử Ngẫu nhiên môn học</div>
+                        <div class="preset-desc">Tự tạo đề ngẫu nhiên từ tất cả các chương + tính thời gian thi thử</div>
+                        <span class="preset-badge mock-badge">⚡ Nhanh & Ngẫu nhiên</span>
+                    </div>
+                `;
+                pGrid.appendChild(mockCard);
+
+                // Add individual chapter cards
+                group.quizzes.forEach(p => {
+                    const card = document.createElement('div');
+                    card.className = 'preset-card';
+                    card.onclick = () => fetchAndLoadQuiz(p.file, p.title);
+                    card.innerHTML = `
+                        <div class="preset-icon">${p.icon || '📝'}</div>
+                        <div>
+                            <div class="preset-title">${escapeHTML(p.title)}</div>
+                            <div class="preset-desc">${escapeHTML(p.description)}</div>
+                            <span class="preset-badge">Bấm để tải đề này</span>
+                        </div>
+                    `;
+                    pGrid.appendChild(card);
+                });
+            }
 
             catWrapper.appendChild(catHeader);
             catWrapper.appendChild(pGrid);
@@ -1400,6 +1698,8 @@ D. Kinh tế chính trị cổ điển Anh`;
     function openMockModal(group) {
         activeSubjectGroup = group;
         document.getElementById('mock-modal-subtitle').innerText = `Tự động gộp tất cả câu hỏi thuộc: ${group.category}`;
+        document.getElementById('custom-count-input').value = "";
+        document.getElementById('custom-time-input').value = "";
         document.getElementById('mock-exam-modal').classList.remove('hidden');
     }
 
@@ -1409,16 +1709,36 @@ D. Kinh tế chính trị cổ điển Anh`;
 
     function setMockCount(count) {
         selectedMockCount = count;
+        document.getElementById('custom-count-input').value = "";
         const container = document.getElementById('q-count-pills');
         container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
         event.target.classList.add('active');
     }
 
+    function setCustomMockCount(val) {
+        const parsed = parseInt(val);
+        if (!isNaN(parsed) && parsed > 0) {
+            selectedMockCount = parsed;
+            const container = document.getElementById('q-count-pills');
+            container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
+        }
+    }
+
     function setMockTime(timeMins) {
         selectedMockTime = timeMins;
+        document.getElementById('custom-time-input').value = "";
         const container = document.getElementById('timer-pills');
         container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
         event.target.classList.add('active');
+    }
+
+    function setCustomMockTime(val) {
+        const parsed = parseInt(val);
+        if (!isNaN(parsed) && parsed >= 0) {
+            selectedMockTime = parsed;
+            const container = document.getElementById('timer-pills');
+            container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
+        }
     }
 
     async function startRandomMockExam() {
@@ -1428,6 +1748,7 @@ D. Kinh tế chính trị cổ điển Anh`;
         document.getElementById('file-status').innerText = `⌛ Đang gộp dữ liệu từ tất cả các chương...`;
 
         try {
+            isRetakeWrongMode = false;
             // Fetch all chapter text files in parallel
             const fetchPromises = activeSubjectGroup.quizzes.map(q => fetch(q.file).then(r => r.text()));
             const results = await Promise.all(fetchPromises);
@@ -1465,7 +1786,7 @@ D. Kinh tế chính trị cổ điển Anh`;
             // Set Mode: Default to 'submit' mode for mock exams
             selectQuizMode('submit');
 
-            document.getElementById('current-quiz-name').innerText = `🎲 Đề thi thử ngẫu nhiên (${finalCount} câu - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
+            document.getElementById('current-quiz-name').innerText = `🎲 Thi thử ngẫu nhiên (${finalCount} câu - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
             document.getElementById('file-status').innerText = `📄 Đã tạo đề thi thử: ${finalCount} câu ngẫu nhiên.`;
 
             // Start Quiz
@@ -1493,12 +1814,14 @@ D. Kinh tế chính trị cổ điển Anh`;
         }
     }
 
+    /* ========================================================
+       COUNTDOWN TIMER LOGIC
+    ======================================================== */
     function startCountdownTimer(minutes) {
         stopCountdownTimer();
         totalSecondsLeft = minutes * 60;
         
         const badge = document.getElementById('timer-badge');
-        const display = document.getElementById('timer-display');
         badge.classList.remove('hidden', 'warning-timer');
 
         updateTimerDisplay();
@@ -1532,6 +1855,7 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     async function fetchAndLoadQuiz(filePath, title) {
+        isRetakeWrongMode = false;
         stopCountdownTimer();
         document.getElementById('timer-badge').classList.add('hidden');
 
@@ -1573,6 +1897,7 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     function loadSampleText() {
+        isRetakeWrongMode = false;
         document.getElementById('text-input').value = sampleQuizText;
         document.getElementById('file-status').innerText = "📄 Đã tải cấu trúc đề mẫu thành công";
         document.getElementById('current-quiz-name').innerText = "📖 Đề mẫu thử nghiệm";
@@ -1722,6 +2047,7 @@ D. Kinh tế chính trị cổ điển Anh`;
         setMobileNavVisibility(false);
         document.getElementById('quiz-app').classList.add('hidden');
         document.getElementById('input-card').classList.remove('hidden');
+        updateDashboardUI();
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
@@ -1871,6 +2197,11 @@ D. Kinh tế chính trị cổ điển Anh`;
 
         applyGradingUI(q);
         updateProgress();
+
+        // Save wrong question state in real-time if in instant mode
+        if (currentQuizMode === 'instant') {
+            saveWrongQuestions([q]);
+        }
     }
 
     function applyGradingUI(q) {
@@ -1943,11 +2274,17 @@ D. Kinh tế chính trị cổ điển Anh`;
         const total = currentQuestions.length;
         const correctCount = currentQuestions.filter(q => q.isCorrect).length;
         const incorrectCount = total - correctCount;
+        const scoreText = `${correctCount}/${total}`;
 
-        document.getElementById('summary-score-text').innerText = `${correctCount}/${total}`;
+        document.getElementById('summary-score-text').innerText = scoreText;
         document.getElementById('summary-correct-count').innerText = `✓ ${correctCount} câu đúng`;
         document.getElementById('summary-incorrect-count').innerText = `✕ ${incorrectCount} câu sai`;
         document.getElementById('score-summary').classList.remove('hidden');
+
+        // Save History & Wrong Questions to LocalStorage
+        const title = document.getElementById('current-quiz-name').innerText.replace(/^📖 Đề:\s*|^🎲\s*/, '');
+        saveQuizHistoryItem(title, scoreText, correctCount, total);
+        saveWrongQuestions(currentQuestions);
 
         document.getElementById('score-summary').scrollIntoView({ behavior: 'smooth' });
     }
