@@ -1748,7 +1748,7 @@ D. Kinh tế chính trị cổ điển Anh`;
             q.isCorrect = false;
         });
 
-        selectQuizMode('submit');
+        currentQuizMode = 'submit';
         document.getElementById('current-quiz-name').innerText = `🔥 Luyện lại câu sai (${currentQuestions.length} câu)`;
         document.getElementById('file-status').innerText = `📄 Đã nạp ${currentQuestions.length} câu hỏi sai để luyện lại.`;
 
@@ -1891,7 +1891,7 @@ D. Kinh tế chính trị cổ điển Anh`;
                             </div>
                         </div>
                         <div class="preset-card-right">
-                            <span class="preset-badge">Vào làm ▶</span>
+                            <span class="preset-badge">Vào làm</span>
                         </div>
                     `;
                     pList.appendChild(card);
