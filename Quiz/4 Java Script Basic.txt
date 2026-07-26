@@ -1,0 +1,653 @@
+Câu 1: JavaScript cú pháp lặp while nào đúng?
+
+A. while (i <= 10; i++)
+
+*B. while (i <= 10)
+
+C. while i = 1 to 10
+
+Giải thích: Cú pháp vòng lặp while chuẩn trong JavaScript chỉ chứa điều kiện dừng bên trong dấu ngoặc đơn: `while (condition)`. Các thành phần khởi tạo hoặc tăng tiến biến lặp không nằm trong khai báo này.
+
+
+
+
+Câu 2: Trong JavaScript, làm thế nào để xác định một biến có phải là một số nguyên hay không?
+
+A. Sử dụng toán tử typeof và so sánh với "integer"
+
+B. Sử dụng phương thức isInt()
+
+C. Sử dụng hàm checkInteger()
+
+*D. Sử dụng phương thức Number.isInteger()
+
+Giải thích: `Number.isInteger()` là phương thức tiêu chuẩn của lớp Number dùng để kiểm tra một giá trị có phải là số nguyên hay không. Toán tử `typeof` chỉ trả về "number" cho cả số nguyên lẫn số thực.
+
+
+
+
+Câu 3: Khai báo Array nào đúng trong JavaScript?
+
+A. var colors = 1:("red"), 2:("green"), 3:("blue")
+
+B. var colors = "red", "green", "blue"
+
+C. var colors = (1:"red", 2:"green", 3:"blue")
+
+*D. var colors = ["red", "green", "blue"]
+
+Giải thích: Trong JavaScript, một mảng (Array) được khai báo bằng cách sử dụng dấu ngoặc vuông `[]`, các phần tử phân tách nhau bằng dấu phẩy.
+
+
+
+
+Câu 4: JavaScript có phân biệt chữ thường và chữ in không? (case-sensitive)
+
+*A. Có
+
+B. Không
+
+Giải thích: JavaScript là một ngôn ngữ phân biệt chữ hoa - chữ thường (case-sensitive). Biến `carName` và `carname` là hai biến hoàn toàn khác nhau.
+
+
+
+
+Câu 5: Cho đoạn mã sau:
+var x = 5;
+if (function f() {}) {
+    x += typeof f;
+}
+console.log(x);
+Kết quả in trên console là gì?
+
+A. 5
+
+*B. 5undefined
+
+C. ReferenceError
+
+D. 5function
+
+Giải thích: Hàm `function f() {}` nằm trong điều kiện `if` được coi là một Named Function Expression. Biểu thức này trả về một đối tượng hàm (truthy value) nên khối lệnh `if` được thực thi. Tuy nhiên, tên hàm `f` chỉ có hiệu lực bên trong chính hàm đó, ở phạm vi bên ngoài `f` không tồn tại. Toán tử `typeof f` lúc này sẽ trả về chuỗi "undefined". Kết quả phép cộng chuỗi là 5 + "undefined" = "5undefined".
+
+
+
+
+Câu 6: Làm sao để tìm số lớn hơn trong 2 số x và y?
+
+*A. Math.max(x, y)
+
+B. top(x, y)
+
+C. ceil(x, y)
+
+D. Math.ceil(x, y)
+
+Giải thích: Đối tượng `Math` trong JavaScript cung cấp phương thức `Math.max(x, y)` dùng để tìm ra số có giá trị lớn nhất trong các tham số truyền vào.
+
+
+
+
+Câu 7: Cho đoạn mã sau:
+var x = 5;
+function double(x) {
+    x = x * 2;
+}
+double(x);
+console.log(x);
+Kết quả in trên console là gì?
+
+*A. 5
+
+B. 10
+
+C. undefined
+
+D. NaN
+
+Giải thích: Kiểu dữ liệu nguyên thủy (Primitive types) như kiểu số trong JavaScript được truyền vào hàm theo dạng tham trị (pass-by-value). Phép toán bên trong hàm chỉ thay đổi giá trị của biến cục bộ biến đổi mà không ảnh hưởng đến biến `x` ở bên ngoài.
+
+
+
+
+Câu 8: Trong JavaScript, làm thế nào để kiểm tra kiểu dữ liệu của một biến?
+
+*A. Sử dụng toán tử typeof
+
+B. Sử dụng phương thức getType()
+
+C. Sử dụng phương thức typeof()
+
+D. Sử dụng hàm typeof()
+
+Giải thích: `typeof` là một toán tử đơn ngôi trong JavaScript, cú pháp sử dụng là `typeof variable` để trả về một chuỗi đại diện cho kiểu dữ liệu của toán hạng.
+
+
+
+
+Câu 9: JavaScript được đặt ở trong tag HTML nào?
+
+*A. <script>
+
+B. <javascript>
+
+C. <scripting>
+
+D. <js>
+
+Giải thích: Thẻ `<script>` được sử dụng trong HTML để nhúng đoạn mã kịch bản script (chủ yếu là JavaScript) hoặc trỏ tới một tệp script bên ngoài.
+
+
+
+
+Câu 10: Kết quả của đoạn mã Boolean(10 > 9) là gì?
+
+A. false
+
+*B. true
+
+C. NaN
+
+Giải thích: Biểu thức `10 > 9` trả về giá trị logic `true`. Do đó, hàm `Boolean(10 > 9)` sẽ trả về giá trị `true`.
+
+
+
+
+Câu 11: Trong JavaScript, làm thế nào để tạo một hàm có thể nhận số lượng tham số không xác định?
+
+A. Sử dụng phương thức arguments
+
+*B. Sử dụng toán tử rest/spread (...)
+
+C. Sử dụng từ khóa varargs
+
+D. Không có cách nào để làm điều này
+
+Giải thích: Từ ES6, toán tử rest `...` (ví dụ: `function sum(...args)`) cho phép gom tất cả các tham số truyền vào hàm thành một mảng, giúp xử lý số lượng tham số không giới hạn một cách tường minh.
+
+
+
+
+Câu 12: Cho đoạn mã sau:
+var x = 5;
+function test() {
+    console.log(a);
+    console.log(foo());
+    var a = 1;
+    function foo() {
+        return 2;
+    }
+}
+test();
+Kết quả in trên console là gì?
+
+A. ReferenceError, 2
+
+B. 1, 2
+
+*C. undefined, 2
+
+D. ReferenceError, undefined
+
+Giải thích: Cơ chế Hoisting hoạt động trong phạm vi hàm `test()` như sau: Khai báo `var a;` và hàm `foo()` được đưa lên đầu phạm vi. Tại thời điểm `console.log(a)`, biến `a` đã được khai báo nhưng chưa được gán giá trị cụ thể nên nhận giá trị `undefined`. Hàm `foo()` đã được định nghĩa đầy đủ thông qua hoisting nên trả về `2`.
+
+
+
+
+Câu 13: Đâu là vị trí hợp lý để đưa JavaScript vào trang HTML?
+
+A. <body> section
+
+B. <head> section
+
+*C. Cả hai <head> section và <body> section
+
+Giải thích: Đoạn mã JavaScript có thể đặt ở cả phần `<head>` hoặc phần `<body>` tùy thuộc vào mục đích sử dụng (tải tài nguyên trước hay tối ưu hiệu năng hiển thị trang).
+
+
+
+
+Câu 14: JavaScript cú pháp lặp for nào đúng?
+
+A. for (i = 0; i <= 5)
+
+B. for (i <= 5; i++)
+
+C. for i = 1 to 5
+
+*D. for (i = 0; i <= 5; i++)
+
+Giải thích: Cú pháp chuẩn của vòng lặp `for` truyền thống gồm 3 thành phần phân tách bởi dấu chấm phẩy: `for (khởi_tạo; điều_kiện; tăng_tiến)`.
+
+
+
+
+Câu 15: Cú pháp để tham chiếu đến một tệp JavaScript bên ngoài vào trang HTML là gì?
+
+*A. <script src="xxx.js">
+
+B. <script name="xxx.js">
+
+C. <script href="xxx.js">
+
+Giải thích: Thuộc tính `src` (source) của thẻ `<script>` được dùng để chỉ định đường dẫn tệp script từ bên ngoài. Thẻ `<link>` mới sử dụng thuộc tính `href`.
+
+
+
+
+Câu 16: Khai báo biến trong JavaScript thế nào?
+
+A. v carName;
+
+B. variable carName;
+
+*C. var carName;
+
+Giải thích: JavaScript sử dụng các từ khóa `var`, `let`, hoặc `const` để khai báo biến. Từ khóa `var` là cách khai báo biến truyền thống.
+
+
+
+
+Câu 17: Cho đoạn mã sau:
+var arr = [1, 2, 3, 4, 5];
+var squaredArr = arr.map(function(num) {
+    return num * num;
+});
+console.log(squaredArr);
+Kết quả in trên console là gì?
+
+A. [2, 4, 6, 8, 10]
+
+*B. [1, 4, 9, 16, 25]
+
+C. [1, 2, 3, 4, 5]
+
+D. [5, 4, 3, 2, 1]
+
+Giải thích: Phương thức `arr.map()` tạo ra một mảng mới bằng cách thực thi hàm callback lên từng phần tử của mảng cũ. Hàm callback thực hiện bình phương giá trị (`num * num`), do đó mảng kết quả là `[1, 4, 9, 16, 25]`.
+
+
+
+
+Câu 18: Cho biết kết quả của lời gọi hàm compare() với định nghĩa như sau trong JavaScript:
+function compare() {
+    let x = 1;
+    let y = "1";
+    if (x === y) return true;
+    else return false;
+}
+
+A. Lỗi cú pháp
+
+*B. false
+
+C. Lỗi timeout
+
+D. true
+
+Giải thích: Toán tử `===` là toán tử so sánh nghiêm ngặt (strict equality), so sánh cả giá trị và kiểu dữ liệu. Ở đây `x` là kiểu số (Number) còn `y` là kiểu chuỗi (String), do đó điều kiện trả về `false`.
+
+
+
+
+Câu 19: Cho đoạn mã sau:
+var str = "Hello, World!";
+var reversedStr = str.split('').reverse().join('');
+console.log(reversedStr);
+Kết quả in trên console là gì?
+
+A. "Hello, World!"
+
+*B. "!dlroW ,olleH"
+
+C. "World, Hello!"
+
+Giải thích: Chuỗi phương thức hoạt động như sau: `.split('')` chuyển chuỗi thành mảng các ký tự riêng lẻ, `.reverse()` đảo ngược thứ tự các phần tử trong mảng, và `.join('')` gộp mảng ký tự đã đảo ngược thành một chuỗi hoàn chỉnh. Kết quả của `"Hello, World!"` là `"!dlroW ,olleH"`.
+
+
+
+
+Câu 20: Cho đoạn mã sau:
+function outer() {
+    var x = 1
+    function inner() {
+        console.log(x);
+    }
+    return inner;
+}
+var closure = outer();
+closure();
+Kết quả in trên console là gì?
+
+*A. 1
+
+B. undefined
+
+C. ReferenceError
+
+D. TypeError
+
+Giải thích: Đây là một ví dụ về Closure (đóng gói phạm vi). Hàm `inner` ghi nhớ môi trường phạm vi nơi nó được tạo ra, bao gồm cả biến `x` của hàm `outer`. Khi `closure()` được gọi, nó vẫn truy cập và in được giá trị của biến `x` là `1`.
+
+
+
+
+Câu 21: Cho đoạn mã JavaScript như bên dưới. Lời gọi nào sẽ in ra xâu ký tự "NguyenVanAn"?
+function logUserName() {
+    return this.name;
+}
+const user = {name: "NguyenVanAn"}
+
+A. logUserName.bind(user)
+
+B. Đoạn mã có lỗi cú pháp
+
+*C. logUserName.call(user)
+
+D. logUserName (this=user)
+
+Giải thích: Phương thức `call()` gọi hàm ngay lập tức và gán ngữ cảnh `this` của hàm thành đối tượng truyền vào (`user`). Trong khi đó, `bind()` chỉ trả về một hàm mới đã được ràng buộc ngữ cảnh chứ không thực thi hàm ngay lập tức.
+
+
+
+
+Câu 22: Cho đoạn mã sau:
+function multiply(x) {
+    return function(y) {
+        return function(z) {
+            return x * y * z;
+        };
+    };
+}
+var result = multiply(2)(3)(4);
+console.log(result);
+Kết quả in trên console là gì?
+
+*A. 24
+
+B. Error
+
+C. undefined
+
+D. ReferenceError
+
+Giải thích: Đây là kỹ thuật Currying function. Lời gọi `multiply(2)` trả về hàm nhận `y`, tiếp tục nhận tham số `3` trả về hàm nhận `z`, và cuối cùng nhận tham số `4`. Biểu thức tính toán là 2 * 3 * 4 = 24.
+
+
+
+
+Câu 23: Cho đoạn mã sau:
+var arr = [1, 2, 3];
+var arrCopy = arr;
+arr.push(4);
+console.log(arrCopy.length);
+Kết quả in trên console là gì?
+
+A. 3
+
+*B. 4
+
+C. 5
+
+D. 6
+
+Giải thích: Mảng là kiểu dữ liệu tham chiếu (Reference type). Câu lệnh `var arrCopy = arr;` sao chép địa chỉ vùng nhớ của mảng chứ không tạo mảng mới. Khi thêm phần tử `4` vào `arr`, mảng chung thay đổi độ dài thành 4 phần tử.
+
+
+
+
+Câu 24: Cho biết khai báo hàm compare() với định nghĩa như sau trong JavaScript có lỗi gì?
+function compare() {
+    int x = 1;
+    String y = "1";
+    if (x == y) return true;
+    else return false;
+}
+
+*A. khai báo sai kiểu int
+
+*B. khai báo sai kiểu String
+
+C. lỗi so sánh các biến có kiểu khác nhau
+
+D. lỗi cú pháp if...else thừa dấu chấm phẩy
+
+Giải thích: JavaScript là ngôn ngữ có kiểu dữ liệu động (dynamically typed), không sử dụng các từ khóa xác định kiểu cụ thể như `int` hay `String` để khai báo biến. Việc sử dụng chúng dẫn tới lỗi cú pháp.
+
+
+
+
+Câu 25: Chọn các phát biểu đúng trong JavaScript về toán tử "==" và "===" là gì?
+
+A. "==" so sánh giá trị và kiểu dữ liệu
+
+B. "===" so sánh giá trị nhưng không so sánh kiểu dữ liệu
+
+*C. "==" so sánh giá trị nhưng không so sánh kiểu dữ liệu, cố gắng chuyển đổi kiểu nếu cần thiết
+
+*D. "===" so sánh giá trị và kiểu dữ liệu mà không thực hiện chuyển đổi kiểu tự động
+
+Giải thích: Toán tử so sánh bằng trừu tượng `==` sẽ thực hiện ép kiểu tự động (Type Coercion) trước khi so sánh giá trị. Toán tử so sánh bằng nghiêm ngặt `===` kiểm tra cả giá trị và kiểu mà không ép kiểu.
+
+
+
+
+Câu 26: Cho đoạn mã sau:
+var a = 1;
+function outer() {
+    var a = 2
+    function inner() {
+        console.log(a);
+        var a = 3;
+    }
+    inner();
+}
+outer();
+Kết quả in trên console là gì?
+
+A. 1
+
+B. 2
+
+C. 3
+
+*D. undefined
+
+Giải thích: Bên trong hàm `inner()`, khai báo `var a = 3;` được nâng (hoisting) lên đầu phạm vi của chính hàm `inner()` nhưng chưa gán giá trị (nhận giá trị mặc định là `undefined`). Biến cục bộ này che khuất biến `a = 2` ở hàm `outer`. Tại dòng `console.log(a)`, giá trị của `a` nội bộ lúc này là `undefined`.
+
+
+
+
+Câu 27: Cho biết kết quả của lời gọi hàm compare() với định nghĩa như sau trong JavaScript:
+function compare() {
+    let x = 1;
+    let y = "1";
+    if (x == y) return true;
+    else return false;
+}
+
+A. Lỗi cú pháp
+
+B. false
+
+*C. true
+
+Giải thích: Toán tử `==` tự động ép kiểu dữ liệu từ chuỗi `"1"` thành số `1` để thực hiện so sánh, do đó giá trị sau khi ép kiểu bằng nhau và hàm trả về kết quả `true`.
+
+
+
+
+Câu 28: Đối với mọi hàm lời gọi f.call(f) và f.apply(f) đều thu được kết quả như nhau. Nhận định này đúng hay sai?
+
+*A. Đúng
+
+B. Sai
+
+Giải thích: Cả `call` và `apply` đều nhận tham số đầu tiên làm ngữ cảnh `this`. Vì không truyền thêm các đối số bổ sung phía sau, hai lời gọi hàm này hoạt động hoàn toàn giống nhau.
+
+
+
+
+Câu 29: Sử dụng built-in object arguments của function để khai báo hàm sum() tính tổng các số đưa vào theo các tham số khi gọi hàm:
+function sum() {
+    let n = 0;
+    for (i in arguments) n += 1;
+    return n;
+}
+Khai báo bên trên đang cho kết quả không đúng mong muốn:
+sum(1,2,3) // trả về kết quả 0012
+Các phương pháp sau đây, cái nào có thể sửa lỗi chương trình?
+
+A. Sử dụng phương thức arguments.reduce() để tính tổng
+
+B. Thay đổi cú pháp for.. để lấy tổng theo value thay vì key
+
+C. Không thể sửa vì khai báo function như trên không xác định được các tham số khi gọi hàm
+
+*D. Đổi từ khóa in thành of
+
+Giải thích: Vòng lặp `for...in` duyệt qua các thuộc tính (chỉ mục/key dạng chuỗi "0", "1",...) của đối tượng tương tự mảng `arguments`. Việc đổi sang cấu trúc `for...of` sẽ giúp duyệt qua giá trị thực tế của các tham số và tính toán chính xác giá trị dạng số.
+
+
+
+
+Câu 30: Cho một khai báo hàm như bên dưới, trong đó xxx là một keyword JavaScript đang thiếu:
+function* generateNumbers() { ... }
+Biết kết quả trên console của đoạn mã thực thi thu được chuỗi giá trị tuần tự 1, 2, 3, undefined. Hãy cho biết xxx là gì?
+
+Đáp số: yield
+
+Giải thích: Dấu sao `*` sau từ khóa `function` chỉ định đây là một Generator function. Từ khóa `yield` được dùng bên trong generator để tạm dừng hàm và trả về một giá trị cho mỗi chuỗi lặp.
+
+
+
+
+Câu 31: Cho đoạn code như bên dưới:
+function f() { console.log(this.x); }
+var x = 10;
+f.x = 16;
+Lời gọi hàm f.call(null) và f.call(f) có những điểm giống nhau và khác nhau nào sau đây?
+
+A. Luôn có kết quả như nhau
+
+*B. Sử dụng biến số x thuộc các scope khác nhau
+
+*C. Đều thực thi phương thức call() của object f
+
+D. Tất cả đều sai
+
+Giải thích: Cả hai đều thực thi trực tiếp phương thức `call` được kế thừa trên đối tượng hàm `f`. Ở chế độ không nghiêm ngặt (non-strict mode), `f.call(null)` chuyển đổi `this` thành đối tượng toàn cục (window/global) chứa biến `x = 10`, trong khi `f.call(f)` thiết lập `this` chính là hàm `f` chứa thuộc tính `f.x = 16`.
+
+
+
+
+Câu 32: Cho các hàm async JavaScript và lời gọi hàm. Kết quả thực thi đoạn code bên trên là "Done". Hãy cho biết từ khóa đang thiếu xxx trong nội dung hàm test() là gì?
+
+Đáp số: await
+
+Giải thích: Để đợi một Promise giải quyết (resolve) lấy kết quả phản hồi cuối cùng trong một hàm `async`, chúng ta phải sử dụng từ khóa `await`.
+
+
+
+
+Câu 33: Cho biết các class và object được khai báo như sau
+class A {} class B {} let a = new A(); let b = new B();
+Phương pháp nào để biến class B trở thành kế thừa class A?
+
+*A. B.prototype.__proto__ = A.prototype
+
+B. b.prototype = a
+
+C. b.__proto__ = a
+
+D. b.__proto__.__proto__ = a.__proto__
+
+Giải thích: Để thiết lập chuỗi nguyên mẫu (prototype chain) cho việc kế thừa lớp theo mô hình cũ/thủ công, thuộc tính nguyên mẫu ẩn `__proto__` của đối tượng `B.prototype` phải liên kết trực tiếp tới `A.prototype`.
+
+
+
+
+Câu 34: Trong JavaScript, làm thế nào để triển khai một function với số lượng tham số không xác định?
+
+A. Sử dụng từ khóa varargs
+
+*B. Sử dụng toán tử (...)
+
+*C. Sử dụng object arguments trong nội dung function
+
+D. Không có cách nào để làm điều này
+
+Giải thích: JavaScript hỗ trợ xử lý tham số động qua hai cơ chế: Đối tượng cổ điển tương tự mảng tên là `arguments` có sẵn bên trong các hàm truyền thống, hoặc cú pháp tham số còn lại (rest parameters) biểu diễn qua toán tử thu gọn `...`.
+
+
+
+
+Câu 35: Khái niệm nào trong JavaScript cho phép truyền một hàm như một tham số vào một hàm khác để cùng được thực thi trong khi thực thi hàm khác đó?
+
+A. Đóng gói (Closure)
+
+B. Đệ quy (Recursion)
+
+*C. Hàm gọi lại (Callback function)
+
+D. Hàm bất đồng bộ (Async function)
+
+Giải thích: Hàm được truyền vào làm đối số của một hàm khác để được kích hoạt gọi lại sau một thời điểm hoặc sự kiện cụ thể được gọi là Callback function (Hàm gọi lại).
+
+
+
+
+Câu 36: Những native function nào sau đây của JavaScript cho phép thực thi mã lệnh kiểu không đồng bộ?
+
+A. timeout
+
+*B. setTimeout
+
+C. startInterval
+
+D. delay
+
+*E. setInterval
+
+F. interval
+
+Giải thích: `setTimeout` và `setInterval` là các hàm nền tảng do môi trường thực thi cung cấp giúp trì hoãn hoặc lặp lại việc thực thi mã lệnh bất đồng bộ theo khoảng thời gian đã thiết lập.
+
+
+
+
+Câu 37: Cho một khai báo hàm thực hiện tính tổng số lẻ hoặc chẵn. Hãy cho biết đoạn tham số biến động xxx là gì (chú ý không nhập vào các ký tự trắng)?
+
+Đáp số: p,...arg
+
+Giải thích: Tham số đầu tiên nhận diện nhãn chuỗi phân loại chẵn lẻ gán cho `p`, tiếp theo sử dụng toán tử rest dạng `...arg` nhằm gom toàn bộ tập hợp các số phía sau thành một mảng có tên biến là `arg` để duyệt vòng lặp.
+
+
+
+
+Câu 38: Cần xây dựng hàm asynchronous asyncFunc() thực hiện giả lập các hoạt động asynchronous và trả về thông báo "Done" khi hoàn thành. Những phương pháp khai báo nào sau đây là phù hợp với yêu cầu trên?
+
+*A. function asyncFunc() { return new Promise((resolve) => { setTimeout(() => resolve("Done"), 1000); }); }
+
+*B. async function asyncFunc() { return new Promise((resolve) => { setTimeout(() => resolve("Done"), 1000); }); }
+
+C. async function asyncFunc() { return ("Done"); }
+
+D. function asyncFunc() { return ("Done"); }
+
+Giải thích: Phương án A và B sử dụng đối tượng `Promise` phối hợp với tác vụ hẹn giờ `setTimeout` để tạo ra sự trì hoãn không đồng bộ thực sự mô phỏng hành vi xử lý nền, sau đó mới giải quyết chuỗi dữ liệu. Phương án C và D trả kết quả đồng bộ ngay lập tức không có tính chất trì hoãn giả lập hoạt động bất đồng bộ kéo dài.
+
+
+
+
+Câu 39: Các phát biểu đúng về cơ chế prototype trong JavaScript?
+
+*A. prototype là một thuộc tính của Object
+
+*B. mỗi JavaScript object đều có một prototype cài đặt các phương thức của mình
+
+*C. các JavaScript object sử dụng thuộc tính prototype để tham chiếu (reference) đến class của mình
+
+D. thuộc tính __proto__ của mỗi object tham chiếu đến native code của object
+
+Giải thích: Mọi thực thể đối tượng đều thừa hưởng các thuộc tính, phương thức từ một đối tượng nguyên mẫu nguyên thủy. Hàm khởi tạo (constructor function) có thuộc tính `.prototype` công khai, đối tượng cụ thể có liên kết ẩn truy vết ngược lại lớp cơ sở. Thừa số `__proto__` trỏ tới prototype của cha chứ không trỏ tới mã máy.

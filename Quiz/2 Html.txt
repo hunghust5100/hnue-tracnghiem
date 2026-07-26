@@ -1,0 +1,465 @@
+Câu 1: Phần tử HTML nào định nghĩa tiêu đề của một tài liệu?
+
+*A. <title>
+
+B. <head>
+
+C. <meta>
+
+Giải thích: Thẻ <title> được sử dụng để xác định tiêu đề hiển thị trên thanh tiêu đề hoặc tab của trình duyệt.
+
+
+
+
+Câu 2: Thuộc tính HTML nào chỉ định văn bản thay thế cho một hình ảnh nếu hình ảnh đó không thể hiển thị?
+
+A. <img title=...
+
+B. <img longdesc=...
+
+*C. <img alt=...
+
+D. <img src=...
+
+Giải thích: Thuộc tính alt (alternate text) dùng để cung cấp văn bản mô tả thay thế khi hình ảnh bị lỗi không hiển thị được.
+
+
+
+
+Câu 3: Các thẻ HTML nào là đúng để thiết lập màu nền cho trang web?
+
+A. <background>yellow</background>
+
+B. <body bg="yellow">
+
+*C. <body style="background-color: yellow;">
+
+*D. <body bgcolor="yellow">
+
+E. <body bgcolor="0xFF00FF">
+
+Giải thích: Thẻ <body style="background-color: yellow;"> áp dụng inline CSS chuẩn xác nhất. Thuộc tính cổ điển bgcolor="yellow" vẫn được hỗ trợ để tương thích ngược. Lựa chọn E sai vì mã màu hexa trong HTML không dùng ký tự "0x".
+
+
+
+
+Câu 4: Làm thế nào để chèn một hình ảnh nền?
+
+*A. <body style="background-image:url(background.gif)">
+
+B. <body bg="background.gif">
+
+C. <background img="background.gif">
+
+Giải thích: Sử dụng thuộc tính CSS background-image lồng vào thuộc tính style của thẻ <body> là cách chuẩn xác và hợp lệ duy nhất.
+
+
+
+
+Câu 5: Những phần tử nào sau đây đều là các phần tử con lồng nhau hợp lệ của thẻ <table>?
+
+A. <table> <tr> <tt>
+
+B. <table> <head> <tfoot>
+
+*C. <table> <tr> <td>
+
+D. <thead> <body> <tr>
+
+Giải thích: Cấu trúc bảng tiêu chuẩn bắt buộc phải bao gồm các hàng <tr> và các ô dữ liệu <td> bên trong.
+
+
+
+
+Câu 6: Làm thế nào để định nghĩa một liên kết sẽ được mở trong một tab hoặc cửa sổ trình duyệt mới?
+
+A. <a href="url" target="_self">
+
+B. <a href="url" new>
+
+*C. <a href="url" target="blank">
+
+Giải thích: Mặc dù giá trị chuẩn là _blank (có dấu gạch dưới), nhưng trong các lựa chọn thì target="blank" là phương án duy nhất kích hoạt việc mở trang ở một cửa sổ/tab mới.
+
+
+
+
+Câu 7: Thẻ HTML nào dùng để tạo một danh sách có đánh số ở đầu?
+
+A. <dl>
+
+B. <ul>
+
+C. <list>
+
+*D. <ol>
+
+Giải thích: Thẻ <ol> (Ordered List) được sử dụng để tạo danh sách có thứ tự (đánh số tăng dần).
+
+
+
+
+Câu 8: Thuộc tính HTML nào được sử dụng để yêu cầu một trường nhập liệu không được để trống?
+
+A. placeholder
+
+*B. required
+
+C. validate
+
+D. formvalidate
+
+Giải thích: Thuộc tính bắt buộc required của HTML5 ngăn người dùng gửi biểu mẫu nếu trường đó chưa điền dữ liệu.
+
+
+
+
+Câu 9: Thẻ HTML chính xác để tạo một hộp kiểm (checkbox) là gì?
+
+A. <checkbox>
+
+B. <check>
+
+*C. <input type="checkbox">
+
+D. <input type="check">
+
+Giải thích: Hộp kiểm trong HTML được khai báo bằng thẻ <input> kết hợp thuộc tính type="checkbox".
+
+
+
+
+Câu 10: Trong HTML, onblur và onfocus là:
+
+A. Các phần tử HTML
+
+B. Các thuộc tính kiểu dáng
+
+*C. Các thuộc tính sự kiện
+
+Giải thích: onblur (mất tiêu điểm) và onfocus (nhận tiêu điểm) là các thuộc tính sự kiện dùng để kích hoạt JavaScript khi người dùng tương tác.
+
+
+
+
+Câu 11: Phát biểu sau đúng hay sai: "Các phần tử nội dòng (Inline elements) được hiển thị bằng cách bắt đầu một dòng mới. Các phần tử khối (Block elements) thì nằm trên cùng một dòng."
+
+A. Đúng (True)
+
+*B. Sai (False)
+
+Giải thích: Phát biểu này bị ngược. Phần tử khối (Block) luôn bắt đầu trên dòng mới, còn phần tử nội dòng (Inline) tiếp nối trên cùng một dòng.
+
+
+
+
+Câu 12: Làm thế nào để chèn một hình ảnh?
+
+A. <img alt="MyImage">image.gif</img>
+
+B. <img href="image.gif" alt="MyImage">
+
+*C. <img src="image.gif" alt="MyImage">
+
+D. <image src="image.gif" alt="MyImage">
+
+Giải thích: Cú pháp chuẩn để chèn ảnh sử dụng thẻ đơn <img> và thuộc tính src (source).
+
+
+
+
+Câu 13: Cách nào chính xác nhất để định nghĩa một đoạn văn bản được nhấn mạnh (emphasized)?
+
+A. What is the <italic>most correct</italic> to define an emphasized text
+
+*B. What is the <em>most correct</em> to define an emphasized text
+
+C. What is the <emphasize>most correct</emphasize> to define an emphasized text
+
+D. What is the <i>most correct</i> to define an emphasized text
+
+Giải thích: Thẻ <em> mang ý nghĩa ngữ nghĩa (semantic) chuẩn để nhấn mạnh văn bản, trình duyệt sẽ tự động in nghiêng nó. Thẻ <i> chỉ đổi kiểu chữ mà không có ý nghĩa cấu trúc.
+
+
+
+
+Câu 14: Cách nào chính xác nhất để định nghĩa một văn bản là quan trọng (important)?
+
+A. What is the <important>most correct</important> to define a text is important
+
+*B. What is the <strong>most correct</strong> to define a text is important
+
+C. What is the <i>most correct</i> to define a text is important
+
+D. What is the <b>most correct</b> to define a text is important
+
+Giải thích: Thẻ <strong> là thẻ chuẩn theo ngữ nghĩa để đánh dấu văn bản quan trọng, mặc định hiển thị in đậm.
+
+
+
+
+Câu 15: HTML là viết tắt của cụm từ nào?
+
+A. Hyperlinks and Text Markup Language
+
+B. Home Toal Markup Language
+
+*C. Hyper Text Markup Language
+
+Giải thích: HTML viết tắt của cụm từ Hyper Text Markup Language (Ngôn ngữ đánh dấu siêu văn bản).
+
+
+
+
+Câu 16: Bạn nhìn thấy một trang web có thanh điều khiển dạng kéo chọn (thanh trượt). Thẻ thuộc tính nào liên quan đến thanh đó?
+
+A. controls
+
+*B. range
+
+C. slider
+
+D. search
+
+Giải thích: Để tạo thanh trượt chọn khoảng giá trị, ta dùng <input type="range">.
+
+
+
+
+Câu 17: Chú thích trong HTML (HTML comments) bắt đầu bằng .
+
+*A. Đúng (True)
+
+B. Sai (False)
+
+Giải thích: Cú pháp chuẩn để viết ghi chú (không hiển thị ra màn hình) trong HTML là .
+
+
+
+
+Câu 18: Thẻ HTML chính xác để tạo một danh sách thả xuống (drop-down list) là gì?
+
+A. <input type="list">
+
+B. <input type="dropdown">
+
+C. <list>
+
+*D. <select>
+
+Giải thích: Danh sách thả xuống được tạo bằng thẻ bao bọc <select> kết hợp các thẻ <option> bên trong.
+
+
+
+
+Câu 19: Tổ chức nào đưa ra các tiêu chuẩn định dạng HTML?
+
+A. Microsoft
+
+B. Mozilla
+
+C. Google
+
+*D. The World Wide Web Consortium
+
+Giải thích: W3C (The World Wide Web Consortium) là tổ chức quốc tế chịu trách nhiệm chính trong việc thiết lập các tiêu chuẩn cho mạng toàn cầu, bao gồm cả HTML.
+
+
+
+
+Câu 20: Thẻ HTML chính xác để tạo một vùng nhập văn bản nhiều dòng (text area) là gì?
+
+A. <input type="textarea">
+
+*B. <textarea>
+
+C. <input type="textbox">
+
+Giải thích: Thẻ độc lập <textarea> được dùng riêng để cho phép người dùng nhập các đoạn văn bản dài có thể xuống dòng.
+
+
+
+
+Câu 21: Phần tử HTML chính xác để chèn một dấu ngắt dòng (xuống dòng) trong một đoạn văn là gì?
+
+A. <p>
+
+*B. <br>
+
+C. <break>
+
+D. <1b>
+
+Giải thích: Thẻ đơn <br> (Line Break) dùng để ngắt dòng ngay lập tức mà không tạo thêm khoảng cách lề như thẻ đoạn văn <p>.
+
+
+
+
+Câu 22: Thẻ HTML chính xác để tạo một trường nhập văn bản một dòng (text input field) là gì?
+
+A. <textinput type="text">
+
+B. <input type="textfield">
+
+C. <textfield>
+
+*D. <input type="text">
+
+Giải thích: Trường nhập văn bản một dòng cơ bản sử dụng cấu trúc thẻ <input type="text">.
+
+
+
+
+Câu 23: Thẻ HTML nào được sử dụng để hiển thị một trang web lồng bên trong một trang web khác?
+
+A. <embedded>
+
+B. <div>
+
+*C. <iframe>
+
+D. Cannot do with HTML
+
+Giải thích: Thẻ <iframe> (Inline Frame) được thiết kế để nhúng trực tiếp một tài liệu HTML từ một URL khác vào trang hiện tại.
+
+
+
+
+Câu 24: Thẻ HTML chính xác để tạo một liên kết nội bộ nhảy trong cùng một trang là gì?
+
+*A. <a href="#section01">W3Schools: first section</a>
+
+B. <a href="http://www.w3schools.com">W3Schools: first section</a>
+
+C. <a href="http://www.w3schools.com#section01">W3Schools: first section</a>
+
+D. <a name="http://www.w3schools.com">W3Schools: first section</a>
+
+Giải thích: Để tạo liên kết nhảy đến một phân đoạn trên cùng một trang, giá trị của thuộc tính href phải bắt đầu bằng dấu # kèm theo ID của phần tử đích.
+
+
+
+
+Câu 25: Ký tự nào được sử dụng để chỉ định một thẻ đóng?
+
+*A. /
+
+B. <
+
+C. >
+
+D. \
+
+Giải thích: Dấu gạch chéo xuôi / đặt ngay trước tên thẻ (Ví dụ: </p>) để báo hiệu kết thúc phạm vi của phần tử đó.
+
+
+
+
+Câu 26: Chọn phần tử HTML chính xác cho tiêu đề lớn nhất (cấp cao nhất):
+
+A. <heading>
+
+B. <head>
+
+C. <h6>
+
+*D. <h1>
+
+Giải thích: Thẻ tiêu đề trong HTML được phân cấp giảm dần từ <h1> (lớn nhất) đến <h6> (nhỏ nhất).
+
+
+
+
+Câu 27: Làm thế nào để tạo một danh sách có dấu đầu dòng (danh sách không đánh số)?
+
+A. <ol>
+
+B. <dl>
+
+*C. <ul>
+
+D. <list>
+
+Giải thích: Thẻ <ul> (Unordered List) định nghĩa danh sách không có thứ tự, hiển thị bằng các dấu chấm tròn đầu dòng.
+
+
+
+
+Câu 28: Thuộc tính nào cho phép người dùng có thể nhấp chuột trực tiếp vào một văn bản thông thường trên trang web để chỉnh sửa nội dung?
+
+*A. Sử dụng thuộc tính contenteditable
+
+B. Sử dụng thẻ <textarea>
+
+C. Sử dụng thẻ <editabletext>
+
+D. No solution
+
+Giải thích: Thuộc tính contenteditable khi gán vào một thẻ HTML bất kỳ sẽ biến nội dung của thẻ đó thành một vùng có thể chỉnh sửa trực tiếp trên trình duyệt.
+
+
+
+
+Câu 29: Phần tử <canvas> trong HTML5 được sử dụng để làm gì?
+
+*A. Vẽ đồ họa trực tiếp (draw graphics)
+
+B. Hiển thị các bản ghi từ cơ sở dữ liệu (display database records)
+
+C. Thao tác dữ liệu trong hệ quản trị MySQL (manipulate data in MySQL)
+
+D. Tạo ra các phần tử có thể kéo thả (create draggable elements)
+
+Giải thích: Thẻ <canvas> cung cấp một vùng không gian đồ họa trống, lập trình viên sẽ dùng JavaScript để vẽ hình ảnh, hoạt họa hoặc biểu đồ trực tiếp lên đó.
+
+
+
+
+Câu 30: Phần tử HTML5 nào được sử dụng để xác định phần chân trang cho một tài liệu hoặc một phân đoạn (section)?
+
+*A. <footer>
+
+B. <section>
+
+C. <bottom>
+
+Giải thích: Thẻ ngữ nghĩa <footer> được dùng để định nghĩa phần chân trang chứa các thông tin bản quyền, liên hệ cuối tài liệu hoặc cuối một vùng nội dung.
+
+
+
+
+Câu 31: Làm thế nào để nhúng một trình phát âm thanh (sound player) vào trang web với HTML5?
+
+*A. <audio>
+
+B. <mp3>
+
+C. <sound>
+
+Giải thích: HTML5 hỗ trợ thẻ native <audio> để nhúng các tệp âm thanh trực tiếp mà không cần cài thêm plugin bên thứ ba.
+
+
+
+
+Câu 32: Phần tử HTML5 nào định nghĩa các liên kết điều hướng (navigation links)?
+
+A. <navigation>
+
+B. <navigate>
+
+*C. <nav>
+
+Giải thích: Thẻ ngữ nghĩa <nav> (Navigation) được dùng chuyên biệt để bao bọc các menu hoặc tập hợp liên kết điều hướng chính của trang web.
+
+
+
+
+Câu 33: Làm thế nào để nhúng một trình phát video (movie player) vào trang web bằng HTML5?
+
+A. <movie>
+
+B. <media>
+
+*C. <video>
+
+Giải thích: Thẻ ngữ nghĩa <video> trong HTML5 được sử dụng để tích hợp phát các tệp phim, video trực tiếp trên giao diện web.

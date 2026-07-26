@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống Trắc nghiệm CNXH Khoa Học</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-light: #6366f1;
+            --primary-hover: #4338ca;
+            --primary-bg: rgba(99, 102, 241, 0.06);
+            --bg-main: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --text-light: #0f172a;
+            --success: #10b981;
+            --success-bg: rgba(16, 185, 129, 0.08);
+            --success-border: rgba(16, 185, 129, 0.3);
+            --success-text: #047857;
+            --danger: #ef4444;
+            --danger-bg: rgba(239, 68, 68, 0.08);
+            --danger-border: rgba(239, 68, 68, 0.3);
+            --danger-text: #b91c1c;
+            --info: #0284c7;
+            --border-color: #e2e8f0;
+            --radius-lg: 20px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+            --font-sans: 'Plus Jakarta Sans', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --shadow-md: 0 10px 25px -5px rgba(0,0,0,0.05), 0 8px 10px -6px rgba(0,0,0,0.03);
+            --shadow-lg: 0 20px 30px -10px rgba(79, 70, 229, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            padding: 32px 16px;
+            min-height: 100vh;
+            transition: padding-bottom 0.3s ease;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        header h1 {
+            color: var(--text-light);
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /* Config Card */
+        .card {
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 24px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card-title::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 20px;
+            background: var(--primary);
+            border-radius: 4px;
+        }
+
+        /* Section Headings */
+        .section-label {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--text-light);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Preset Quiz Selector Cards */
+        .preset-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 14px;
+            margin-bottom: 16px;
+        }
+
+        .preset-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            background: #ffffff;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .preset-card:hover {
+            border-color: var(--primary);
+            background: var(--primary-bg);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .preset-icon {
+            font-size: 1.8rem;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .preset-title {
+            font-weight: 700;
+            font-size: 0.98rem;
+            color: var(--text-light);
+            margin-bottom: 4px;
+        }
+
+        .preset-desc {
+            font-size: 0.84rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .preset-badge {
+            margin-top: 8px;
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--primary);
+            background: rgba(99, 102, 241, 0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        /* Mode Selection Cards */
+        .mode-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 14px;
+            margin-bottom: 24px;
+        }
+
+        .mode-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px;
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background: #ffffff;
+            position: relative;
+        }
+
+        .mode-card:hover {
+            border-color: var(--primary-light);
+            background: var(--primary-bg);
+        }
+
+        .mode-card.active {
+            border-color: var(--primary);
+            background: rgba(99, 102, 241, 0.04);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+        }
+
+        .mode-card input[type="radio"] {
+            margin-top: 3px;
+            accent-color: var(--primary);
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .mode-icon {
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .mode-title {
+            font-weight: 700;
+            font-size: 0.98rem;
+            color: var(--text-light);
+            margin-bottom: 2px;
+        }
+
+        .mode-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        /* File & Text inputs */
+        .file-upload-wrapper {
+            background: #f8fafc;
+            border: 2px dashed var(--border-color);
+            padding: 20px;
+            text-align: center;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: all 0.2s ease;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .file-upload-wrapper:hover {
+            border-color: var(--primary);
+            background: var(--primary-bg);
+            color: var(--primary);
+        }
+
+        .file-upload-wrapper input[type="file"] {
+            display: none;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 140px;
+            padding: 14px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            resize: vertical;
+            background-color: #f8fafc;
+            color: var(--text-main);
+            transition: all 0.2s ease;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+            background-color: #ffffff;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            font-size: 0.95rem;
+            font-family: var(--font-sans);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+        .btn-primary { 
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%); 
+            color: white; 
+            box-shadow: 0 4px 10px rgba(79, 70, 229, 0.25);
+        }
+        .btn-primary:hover { 
+            transform: translateY(-1px);
+            box-shadow: 0 6px 15px rgba(79, 70, 229, 0.35);
+        }
+
+        .btn-secondary { 
+            background-color: #f1f5f9; 
+            color: #475569; 
+            border: 1px solid var(--border-color);
+        }
+        .btn-secondary:hover { 
+            background-color: #e2e8f0; 
+            color: var(--text-light);
+            transform: translateY(-1px);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            box-shadow: 0 4px 10px rgba(16, 185, 129, 0.25);
+        }
+        .btn-success:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 15px rgba(16, 185, 129, 0.35);
+        }
+
+        /* Quiz Layout (2 Columns) */
+        .quiz-layout {
+            display: grid;
+            grid-template-columns: 1fr 310px;
+            gap: 24px;
+            align-items: start;
+        }
+
+        .quiz-main {
+            min-width: 0;
+        }
+
+        /* Score Summary Banner */
+        .summary-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border: 2px solid var(--primary-light);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+        }
+
+        .summary-header {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--text-light);
+            margin-bottom: 8px;
+        }
+
+        .summary-score-badge {
+            display: inline-block;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin: 12px 0;
+            padding: 8px 24px;
+            background: rgba(99, 102, 241, 0.08);
+            border-radius: 50px;
+        }
+
+        .summary-details {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 12px;
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .summary-item.correct { color: var(--success-text); }
+        .summary-item.incorrect { color: var(--danger-text); }
+
+        /* Question Cards */
+        .question-card {
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+            position: relative;
+            scroll-margin-top: 20px;
+        }
+
+        .question-card:hover {
+            border-color: rgba(99, 102, 241, 0.3);
+            box-shadow: var(--shadow-md);
+        }
+
+        .question-card.highlight-flash {
+            animation: flashHighlight 1.5s ease;
+        }
+
+        @keyframes flashHighlight {
+            0% { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.25); }
+            50% { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.25); }
+            100% { border-color: var(--border-color); box-shadow: none; }
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 12px;
+        }
+
+        .question-title {
+            font-weight: 800;
+            font-size: 1.15rem;
+            color: var(--text-light);
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .badge-single { background: rgba(14, 165, 233, 0.1); color: #0284c7; }
+        .badge-multiple { background: rgba(168, 85, 247, 0.1); color: #7c3aed; }
+        .badge-fill { background: rgba(245, 158, 11, 0.1); color: #d97706; }
+
+        .question-text {
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        /* Option Items */
+        .option-item {
+            display: flex;
+            align-items: center;
+            padding: 14px 18px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            margin-bottom: 12px;
+            cursor: pointer;
+            background-color: #ffffff;
+            transition: all 0.2s ease;
+            position: relative;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .option-item:hover {
+            border-color: #cbd5e1;
+            background-color: #f8fafc;
+        }
+
+        .option-item input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        .option-item span {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        .option-item span strong {
+            margin-right: 8px;
+            color: var(--primary);
+            font-size: 1rem;
+        }
+
+        .option-item::before {
+            content: '';
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin-right: 14px;
+            border: 2px solid #cbd5e1;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .option-item:has(input[type="radio"])::before { border-radius: 50%; }
+        .option-item:has(input[type="checkbox"])::before { border-radius: 6px; }
+
+        .option-item:has(input:checked) {
+            border-color: var(--primary);
+            background-color: rgba(99, 102, 241, 0.03);
+        }
+
+        .option-item:has(input[type="radio"]:checked)::before {
+            border-color: var(--primary);
+            background-color: var(--primary);
+            box-shadow: inset 0 0 0 3px #ffffff;
+        }
+
+        .option-item:has(input[type="checkbox"]:checked)::before {
+            border-color: var(--primary);
+            background-color: var(--primary);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='white'%3E%3Cpath fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd'/%3E%3C/svg%3E");
+            background-size: 100% 100%;
+        }
+
+        .option-item.disabled-click {
+            cursor: default;
+            pointer-events: none;
+        }
+
+        /* Fill inputs */
+        .fill-container { margin-top: 12px; }
+
+        .fill-input {
+            width: 100%;
+            padding: 14px 18px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            font-size: 1rem;
+            background: #f8fafc;
+            color: var(--text-light);
+            transition: all 0.2s ease;
+        }
+
+        .fill-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+            background: #ffffff;
+        }
+
+        .fill-input:disabled {
+            background-color: #f1f5f9;
+            color: var(--text-muted);
+        }
+
+        /* Explanation box */
+        .explanation-box {
+            display: none;
+            margin-top: 18px;
+            padding: 16px;
+            background-color: rgba(2, 132, 199, 0.04);
+            border-left: 4px solid var(--info);
+            border-radius: var(--radius-sm);
+            font-size: 0.95rem;
+            color: var(--text-main);
+        }
+
+        .explanation-title {
+            font-weight: 700;
+            color: var(--info);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Grading states */
+        .question-card.correct { border-color: var(--success); background-color: rgba(16, 185, 129, 0.01); }
+        .question-card.incorrect { border-color: var(--danger); background-color: rgba(239, 68, 68, 0.01); }
+
+        .option-item.correct-opt {
+            background-color: var(--success-bg) !important;
+            border-color: var(--success) !important;
+            color: var(--success-text) !important;
+        }
+        .option-item.correct-opt span { color: var(--success-text) !important; }
+        .option-item.correct-opt::before {
+            border-color: var(--success) !important;
+            background-color: var(--success) !important;
+            box-shadow: none !important;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='white'%3E%3Cpath fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd'/%3E%3C/svg%3E") !important;
+            background-size: 100% 100% !important;
+        }
+
+        .option-item.incorrect-opt {
+            background-color: var(--danger-bg) !important;
+            border-color: var(--danger) !important;
+            color: var(--danger-text) !important;
+        }
+        .option-item.incorrect-opt span { color: var(--danger-text) !important; }
+        .option-item.incorrect-opt::before {
+            border-color: var(--danger) !important;
+            background-color: var(--danger) !important;
+            box-shadow: none !important;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='white'%3E%3Cpath fill-rule='evenodd' d='M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E") !important;
+            background-size: 100% 100% !important;
+        }
+
+        .feedback-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 12px;
+            font-weight: 800;
+            font-size: 0.85rem;
+            padding: 6px 14px;
+            border-radius: 6px;
+            color: white;
+        }
+        .feedback-correct { background-color: var(--success); }
+        .feedback-incorrect { background-color: var(--danger); }
+
+        .correct-ans-display { 
+            margin-top: 12px; 
+            font-weight: 600; 
+            color: var(--success-text); 
+            font-size: 0.95rem;
+            padding: 10px 14px;
+            background: var(--success-bg);
+            border: 1px solid var(--success-border);
+            border-radius: var(--radius-sm);
+        }
+        
+        .hidden { display: none !important; }
+
+        /* Sidebar Navigation */
+        .quiz-sidebar {
+            position: sticky;
+            top: 20px;
+        }
+
+        .sidebar-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 20px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .sidebar-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--text-light);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .progress-bar-bg {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 16px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-light), var(--primary));
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .q-nav-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            max-height: 320px;
+            overflow-y: auto;
+            padding-right: 4px;
+            margin-bottom: 16px;
+        }
+
+        .q-nav-btn {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            padding: 0;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 1px solid var(--border-color);
+            background: #f8fafc;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .q-nav-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            background: var(--primary-bg);
+        }
+
+        .q-nav-btn.answered {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .q-nav-btn.correct {
+            background-color: var(--success);
+            color: white;
+            border-color: var(--success);
+        }
+
+        .q-nav-btn.incorrect {
+            background-color: var(--danger);
+            color: white;
+            border-color: var(--danger);
+        }
+
+        .legend-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 4px;
+        }
+
+        .dot-unanswered { background: #f8fafc; border: 1px solid #cbd5e1; }
+        .dot-answered { background: var(--primary); }
+        .dot-correct { background: var(--success); }
+        .dot-incorrect { background: var(--danger); }
+
+        .sidebar-actions {
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .sidebar-actions button {
+            width: 100%;
+        }
+
+        /* Mobile Floating Button */
+        .mobile-floating-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1001;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+            color: white;
+            padding: 10px 18px;
+            border-radius: 50px;
+            font-size: 0.88rem;
+            font-weight: 700;
+            box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .mobile-floating-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Mobile Navigation Layout */
+        @media (max-width: 992px) {
+            body.has-mobile-nav {
+                padding-bottom: 110px;
+            }
+
+            .quiz-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .quiz-sidebar {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                top: auto;
+                z-index: 1000;
+                transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+
+            .quiz-sidebar.nav-hidden {
+                transform: translateY(100%);
+                pointer-events: none;
+            }
+
+            .sidebar-card {
+                border-radius: 20px 20px 0 0;
+                border: 1px solid var(--border-color);
+                border-bottom: none;
+                padding: 10px 16px 14px 16px;
+                background: #ffffff;
+                box-shadow: 0 -8px 25px rgba(0, 0, 0, 0.12);
+            }
+
+            .sidebar-header-desktop {
+                display: none;
+            }
+
+            .mobile-nav-handle {
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 4px;
+            }
+
+            .mobile-handle-top {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 4px;
+            }
+
+            .mobile-nav-summary {
+                font-size: 0.92rem;
+                font-weight: 700;
+                color: var(--text-light);
+            }
+
+            .mobile-btn-group {
+                display: flex;
+                gap: 6px;
+            }
+
+            .mobile-pill-btn {
+                font-size: 0.78rem;
+                color: var(--primary);
+                background: rgba(99, 102, 241, 0.08);
+                padding: 4px 10px;
+                border-radius: 50px;
+                cursor: pointer;
+                font-weight: 700;
+                border: none;
+            }
+
+            .mobile-pill-btn.hide-btn {
+                color: #64748b;
+                background: #f1f5f9;
+            }
+
+            .mobile-q-strip {
+                display: flex;
+                gap: 8px;
+                overflow-x: auto;
+                padding: 6px 0 2px 0;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            }
+
+            .mobile-q-strip::-webkit-scrollbar {
+                display: none;
+            }
+
+            .mobile-q-strip .q-nav-btn {
+                flex: 0 0 40px;
+                height: 40px;
+                font-size: 0.9rem;
+                border-radius: 10px;
+            }
+
+            .sidebar-expandable-content {
+                display: none;
+                max-height: 55vh;
+                overflow-y: auto;
+                margin-top: 10px;
+                padding-top: 10px;
+                border-top: 1px solid var(--border-color);
+            }
+
+            .quiz-sidebar.drawer-expanded .sidebar-expandable-content {
+                display: block;
+            }
+        }
+
+        @media (min-width: 993px) {
+            .mobile-nav-handle, .mobile-q-strip, .mobile-floating-btn {
+                display: none !important;
+            }
+            .sidebar-expandable-content {
+                display: block !important;
+            }
+            .quiz-sidebar.nav-hidden {
+                transform: none !important;
+            }
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.6rem; }
+            .card, .question-card { padding: 18px 14px; }
+            .btn-container { flex-direction: column; }
+            .btn-container button { width: 100%; }
+            .mode-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body class="has-mobile-nav">
+
+<div class="container">
+    <header>
+        <h1>Trắc nghiệm CNXH Khoa Học</h1>
+        <p>Hệ thống ôn tập và làm bài trắc nghiệm Môn Chủ nghĩa Xã hội Khoa học</p>
+    </header>
+
+    <!-- Config Card -->
+    <div class="card" id="input-card">
+        <div class="card-title">Cấu hình đề bài</div>
+        
+        <!-- Preset Quizzes Gallery (Grouped by Category) -->
+        <div id="preset-categories-container"></div>
+
+        <!-- Quiz Mode Selector -->
+        <label class="section-label" style="margin-top: 20px;">⚙️ Chế độ làm bài:</label>
+        <div class="mode-grid">
+            <label class="mode-card active" id="mode-card-instant" onclick="selectQuizMode('instant')">
+                <input type="radio" name="quiz_mode" value="instant" checked>
+                <div class="mode-icon">⚡</div>
+                <div>
+                    <div class="mode-title">Phản hồi tức thì</div>
+                    <div class="mode-desc">Chấm điểm & xem giải thích ngay sau khi trả lời từng câu</div>
+                </div>
+            </label>
+            
+            <label class="mode-card" id="mode-card-submit" onclick="selectQuizMode('submit')">
+                <input type="radio" name="quiz_mode" value="submit">
+                <div class="mode-icon">📋</div>
+                <div>
+                    <div class="mode-title">Nộp bài mới xem kết quả</div>
+                    <div class="mode-desc">Làm toàn bộ bài thi; chấm điểm & xem giải thích sau khi Nộp bài</div>
+                </div>
+            </label>
+        </div>
+
+        <!-- Custom Upload & Text Raw Area -->
+        <div class="section-label">📁 Tự nhập hoặc upload file đề CNXH khác:</div>
+        <div class="file-upload-wrapper" onclick="document.getElementById('file-input').click()">
+            <p id="file-status">📄 Kéo thả hoặc click để chọn file cấu trúc .txt</p>
+            <input type="file" id="file-input" accept=".txt">
+        </div>
+
+        <div class="input-group">
+            <textarea id="text-input" placeholder="Nhập hoặc dán văn bản raw câu hỏi vào đây..."></textarea>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn-primary" onclick="processInput()">Bắt đầu làm bài</button>
+            <button class="btn-secondary" onclick="loadSampleText()">Sử dụng đề mẫu</button>
+            <button class="btn-secondary" onclick="clearInput()">Xóa</button>
+        </div>
+    </div>
+
+    <!-- Quiz Main App Area (Hidden initially) -->
+    <div id="quiz-app" class="hidden">
+        <div class="quiz-layout">
+            <!-- Left: Question List & Summary -->
+            <div class="quiz-main">
+                <!-- Summary Card (Visible after quiz submission) -->
+                <div class="summary-card hidden" id="score-summary">
+                    <div class="summary-header">🎉 Kết Quả Bài Làm</div>
+                    <div class="summary-score-badge" id="summary-score-text">0/0</div>
+                    <div class="summary-details">
+                        <span class="summary-item correct" id="summary-correct-count">✓ 0 đúng</span>
+                        <span class="summary-item incorrect" id="summary-incorrect-count">✕ 0 sai</span>
+                    </div>
+                </div>
+
+                <!-- Questions list container -->
+                <div id="quiz-container"></div>
+            </div>
+
+            <!-- Floating Minimized Button for Mobile -->
+            <button class="mobile-floating-btn hidden" id="mobile-floating-btn" onclick="setMobileNavVisibility(true)">
+                📋 Danh sách (<span id="floating-progress">0/0</span>)
+            </button>
+
+            <!-- Right Sidebar / Mobile Bottom Navigation -->
+            <div class="quiz-sidebar" id="quiz-sidebar">
+                <div class="sidebar-card" id="sidebar-card">
+                    <!-- Mobile Header Summary & Actions -->
+                    <div class="mobile-nav-handle">
+                        <div class="mobile-handle-top">
+                            <span class="mobile-nav-summary">📋 Tiến độ: <strong id="mobile-progress-text" style="color: var(--primary);">0/0</strong></span>
+                            <div class="mobile-btn-group">
+                                <button class="mobile-pill-btn" id="mobile-toggle-expand-btn" onclick="toggleMobileExpand()">▲ Tất cả câu</button>
+                                <button class="mobile-pill-btn hide-btn" onclick="setMobileNavVisibility(false)">👁️ Ẩn thanh</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Horizontal Scrolling Question Strip (Visible when bottom bar is active on Mobile) -->
+                    <div class="mobile-q-strip" id="mobile-q-strip"></div>
+
+                    <!-- Desktop Progress Header -->
+                    <div class="sidebar-header-desktop">
+                        <div class="sidebar-title">
+                            <span>📋 Danh sách câu hỏi</span>
+                            <span id="progress-badge" style="font-size: 0.85rem; color: var(--primary);">0/0</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" id="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <!-- Expandable Grid Container -->
+                    <div class="sidebar-expandable-content" id="sidebar-expandable">
+                        <div class="q-nav-grid" id="q-nav-grid"></div>
+
+                        <div class="legend-grid">
+                            <div class="legend-item"><div class="legend-dot dot-unanswered"></div> Chưa làm</div>
+                            <div class="legend-item"><div class="legend-dot dot-answered"></div> Đã trả lời</div>
+                            <div class="legend-item"><div class="legend-dot dot-correct"></div> Đúng</div>
+                            <div class="legend-item"><div class="legend-dot dot-incorrect"></div> Sai</div>
+                        </div>
+
+                        <div class="sidebar-actions">
+                            <button class="btn-success hidden" id="btn-submit-quiz" onclick="submitQuiz()">✓ Nộp bài & Chấm điểm</button>
+                            <button class="btn-secondary" onclick="resetQuiz()">🔄 Làm lại bài này</button>
+                            <button class="btn-secondary" onclick="backToConfig()">⚙️ Cấu hình đề mới</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let currentQuestions = [];
+    let currentQuizMode = 'instant'; // 'instant' or 'submit'
+    let isQuizSubmitted = false;
+
+    // Preset Quizzes List fallback
+    const defaultCategories = [
+        {
+            "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH)",
+            "quizzes": [
+                {
+                    "id": "cnxh-ch1",
+                    "title": "Chương 1: Nhập môn CNXH Khoa Học",
+                    "description": "Bộ trắc nghiệm Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin (56 câu hỏi)",
+                    "file": "CNXH/Chương 1. Nhập môn CNXH Khoa Học.txt",
+                    "icon": "📕"
+                }
+            ]
+        }
+    ];
+
+    const sampleQuizText = `Câu 1: Chủ nghĩa xã hội khoa học là một trong ba bộ phận cấu thành của:
+*A. Chủ nghĩa Mác – Lênin
+B. Triết học Mác – Lênin
+C. Kinh tế chính trị Mác – Lênin
+D. Chủ nghĩa xã hội không tưởng
+Giải thích: Chủ nghĩa Mác – Lênin được tạo thành từ ba bộ phận lý luận cấu thành thống nhất: Triết học Mác – Lênin, Kinh tế chính trị Mác – Lênin và Chủ nghĩa xã hội khoa học.
+
+Câu 2: Các máy chủ HTTP 1.0 duy trì kết nối với client như thế nào?
+*A. Bằng kết nối TCP
+B. Bằng kết nối UDP
+*C. Qua mỗi chu trình gửi/nhận yêu cầu và phản hồi HTTP
+D. Qua mỗi lần tải trang web
+Giải thích: Với phiên bản HTTP 1.0 mặc định, cơ chế kết nối là ngắn hạn (Non-persistent).`;
+
+    // Load available preset quizzes on startup
+    document.addEventListener('DOMContentLoaded', () => {
+        initPresets();
+    });
+
+    async function initPresets() {
+        const gridContainer = document.getElementById('preset-categories-container');
+        gridContainer.innerHTML = "";
+
+        let data = defaultCategories;
+
+        try {
+            const res = await fetch('quizzes.json');
+            if (res.ok) {
+                const json = await res.json();
+                if (Array.isArray(json) && json.length > 0) data = json;
+            }
+        } catch (e) {
+            console.log("Dùng danh sách mặc định.");
+        }
+
+        data.forEach(group => {
+            const catWrapper = document.createElement('div');
+            catWrapper.style.marginBottom = "20px";
+
+            const catHeader = document.createElement('div');
+            catHeader.className = 'section-label';
+            catHeader.innerText = group.category || "Danh mục bộ đề";
+
+            const pGrid = document.createElement('div');
+            pGrid.className = 'preset-grid';
+
+            group.quizzes.forEach(p => {
+                const card = document.createElement('div');
+                card.className = 'preset-card';
+                card.onclick = () => fetchAndLoadQuiz(p.file, p.title);
+                card.innerHTML = `
+                    <div class="preset-icon">${p.icon || '📝'}</div>
+                    <div>
+                        <div class="preset-title">${escapeHTML(p.title)}</div>
+                        <div class="preset-desc">${escapeHTML(p.description)}</div>
+                        <span class="preset-badge">Bấm để tải đề này</span>
+                    </div>
+                `;
+                pGrid.appendChild(card);
+            });
+
+            catWrapper.appendChild(catHeader);
+            catWrapper.appendChild(pGrid);
+            gridContainer.appendChild(catWrapper);
+        });
+    }
+
+    async function fetchAndLoadQuiz(filePath, title) {
+        try {
+            document.getElementById('file-status').innerText = `⌛ Đang tải dữ liệu từ ${title}...`;
+            const res = await fetch(filePath);
+            if (!res.ok) throw new Error("Không thể truy cập file trên máy chủ!");
+            const textData = await res.text();
+            document.getElementById('text-input').value = textData;
+            document.getElementById('file-status').innerText = `📄 Đã tải xong: ${title}`;
+            processInput();
+        } catch (err) {
+            alert("Lỗi khi đọc file đề thi: " + err.message + "\nHãy đảm bảo bạn đang chạy server tĩnh (GitHub Pages / Live Server).");
+            document.getElementById('file-status').innerText = `⚠️ Không thể tải file ${filePath}`;
+        }
+    }
+
+    document.getElementById('file-input').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+        document.getElementById('file-status').innerText = `📁 Đang chọn file: ${file.name}`;
+        const reader = new FileReader();
+        reader.onload = function(evt) { document.getElementById('text-input').value = evt.target.result; };
+        reader.readAsText(file, 'UTF-8');
+    });
+
+    function selectQuizMode(mode) {
+        currentQuizMode = mode;
+        document.querySelectorAll('.mode-card').forEach(card => card.classList.remove('active'));
+        if (mode === 'instant') {
+            document.getElementById('mode-card-instant').classList.add('active');
+            document.querySelector('input[value="instant"]').checked = true;
+        } else {
+            document.getElementById('mode-card-submit').classList.add('active');
+            document.querySelector('input[value="submit"]').checked = true;
+        }
+    }
+
+    function loadSampleText() {
+        document.getElementById('text-input').value = sampleQuizText;
+        document.getElementById('file-status').innerText = "📄 Đã tải cấu trúc đề mẫu thành công";
+    }
+
+    function clearInput() {
+        document.getElementById('text-input').value = "";
+        document.getElementById('file-input').value = "";
+        document.getElementById('file-status').innerText = "📄 Kéo thả hoặc click để chọn file cấu trúc .txt";
+    }
+
+    function parseQuizText(rawText) {
+        const normalized = rawText.replace(/\r\n/g, '\n');
+        const sections = normalized.split(/(?=^Câu\s+\d+:)/m);
+        const parsedQuestions = [];
+
+        sections.forEach(section => {
+            const content = section.trim();
+            if (!content) return;
+
+            const headerMatch = content.match(/^Câu\s+(\d+):\s*([\s\S]*?)$/m);
+            if (!headerMatch) return;
+            const qId = headerMatch[1];
+
+            let mainPart = content;
+            let explanation = "";
+            const expIndex = content.search(/Giải thích:/i);
+            if (expIndex !== -1) {
+                explanation = content.substring(expIndex + "Giải thích:".length).trim();
+                mainPart = content.substring(0, expIndex).trim();
+            }
+
+            const lines = mainPart.split('\n').map(l => l.trim());
+            let questionText = "";
+            let options = [];
+            let correctAnswers = [];
+            let fillAnswer = "";
+            let isFillType = false;
+
+            if (/Đáp số:/i.test(mainPart)) {
+                isFillType = true;
+                const fillMatch = mainPart.match(/Đáp số:\s*([\s\S]*?)$/i);
+                if (fillMatch) fillAnswer = fillMatch[1].trim();
+                
+                const qBodyLines = [];
+                for (let line of lines) {
+                    if (/^Đáp số:/i.test(line)) break;
+                    if (/^Câu\s+\d+:/i.test(line)) {
+                        qBodyLines.push(line.replace(/^Câu\s+\d+:\s*/i, ""));
+                    } else { qBodyLines.push(line); }
+                }
+                questionText = qBodyLines.join('\n').trim();
+            } else {
+                const qBodyLines = [];
+                for (let line of lines) {
+                    const optMatch = line.match(/^(\*?)([A-Za-z])\.\s*([\s\S]*)$/);
+                    if (optMatch) {
+                        const isCorrect = optMatch[1] === '*';
+                        const letter = optMatch[2].toUpperCase();
+                        const optText = optMatch[3].trim();
+                        options.push({ letter: letter, text: optText });
+                        if (isCorrect) correctAnswers.push(letter);
+                    } else {
+                        if (/^Câu\s+\d+:/i.test(line)) {
+                            qBodyLines.push(line.replace(/^Câu\s+\d+:\s*/i, ""));
+                        } else { qBodyLines.push(line); }
+                    }
+                }
+                questionText = qBodyLines.join('\n').trim();
+            }
+
+            let finalType = "single";
+            if (isFillType) finalType = "fill";
+            else if (correctAnswers.length > 1) finalType = "multiple";
+
+            parsedQuestions.push({
+                id: qId,
+                type: finalType,
+                question: questionText,
+                options: options,
+                correctAnswers: correctAnswers,
+                fillAnswer: fillAnswer,
+                explanation: explanation,
+                userAnswers: [],
+                isGraded: false,
+                isCorrect: false
+            });
+        });
+        return parsedQuestions;
+    }
+
+    function normalizeString(str) {
+        if (!str) return '';
+        return str
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/đ/g, "d")
+            .replace(/,/g, ".")
+            .replace(/\s+/g, "");
+    }
+
+    function escapeHTML(str) {
+        if (!str) return '';
+        return str
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    function processInput() {
+        const textData = document.getElementById('text-input').value;
+        if (!textData.trim()) {
+            alert("Vui lòng chọn hoặc nhập nội dung đề bài!");
+            return;
+        }
+
+        currentQuestions = parseQuizText(textData);
+        if (currentQuestions.length === 0) {
+            alert("Không tìm thấy cấu trúc câu hỏi hợp lệ!");
+            return;
+        }
+
+        isQuizSubmitted = false;
+        document.getElementById('input-card').classList.add('hidden');
+        document.getElementById('quiz-app').classList.remove('hidden');
+        document.getElementById('score-summary').classList.add('hidden');
+
+        if (currentQuizMode === 'submit') {
+            document.getElementById('btn-submit-quiz').classList.remove('hidden');
+        } else {
+            document.getElementById('btn-submit-quiz').classList.add('hidden');
+        }
+
+        setMobileNavVisibility(true);
+        renderQuiz();
+        renderSidebarNav();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function backToConfig() {
+        setMobileNavVisibility(false);
+        document.getElementById('quiz-app').classList.add('hidden');
+        document.getElementById('input-card').classList.remove('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function renderQuiz() {
+        const container = document.getElementById('quiz-container');
+        container.innerHTML = "";
+
+        currentQuestions.forEach(q => {
+            const qCard = document.createElement('div');
+            qCard.className = 'question-card';
+            qCard.id = `card-${q.id}`;
+
+            let typeBadge = "";
+            let optionsHTML = "";
+            let actionZoneHTML = "";
+
+            if (q.type === 'single') {
+                typeBadge = `<span class="badge badge-single">Chọn 1 đáp án chuẩn</span>`;
+                q.options.forEach(opt => {
+                    const isChecked = q.userAnswers.includes(opt.letter) ? "checked" : "";
+                    optionsHTML += `
+                        <label class="option-item ${q.isGraded ? 'disabled-click' : ''}" id="item_${q.id}_${opt.letter}">
+                            <input type="radio" name="q_${q.id}" value="${opt.letter}" id="opt_${q.id}_${opt.letter}" ${isChecked} ${q.isGraded ? 'disabled' : ''} onchange="handleUserSelection('${q.id}', '${opt.letter}')">
+                            <span><strong>${opt.letter}.</strong> ${escapeHTML(opt.text)}</span>
+                        </label>`;
+                });
+            } else if (q.type === 'multiple') {
+                typeBadge = `<span class="badge badge-multiple">Chọn nhiều đáp án</span>`;
+                q.options.forEach(opt => {
+                    const isChecked = q.userAnswers.includes(opt.letter) ? "checked" : "";
+                    optionsHTML += `
+                        <label class="option-item ${q.isGraded ? 'disabled-click' : ''}" id="item_${q.id}_${opt.letter}">
+                            <input type="checkbox" name="q_${q.id}" value="${opt.letter}" id="opt_${q.id}_${opt.letter}" ${isChecked} ${q.isGraded ? 'disabled' : ''} onchange="handleMultipleSelection('${q.id}')">
+                            <span><strong>${opt.letter}.</strong> ${escapeHTML(opt.text)}</span>
+                        </label>`;
+                });
+                if (currentQuizMode === 'instant' && !q.isGraded) {
+                    actionZoneHTML = `
+                        <div class="btn-action-zone" id="action_${q.id}">
+                            <button class="btn-primary" style="font-size: 0.9rem; padding: 8px 18px;" onclick="gradeIndividualQuestion('${q.id}')">Xác nhận câu trả lời</button>
+                        </div>`;
+                }
+            } else if (q.type === 'fill') {
+                typeBadge = `<span class="badge badge-fill">Điền đáp số</span>`;
+                const val = q.userAnswers[0] || "";
+                optionsHTML += `
+                    <div class="fill-container">
+                        <input type="text" name="q_${q.id}" id="fill_${q.id}" class="fill-input" value="${escapeHTML(val)}" placeholder="Gõ câu trả lời/đáp số..." ${q.isGraded ? 'disabled' : ''} oninput="handleFillInput('${q.id}')" onkeypress="handleFillKeyPress(event, '${q.id}')">
+                    </div>`;
+                if (currentQuizMode === 'instant' && !q.isGraded) {
+                    actionZoneHTML = `
+                        <div class="btn-action-zone" id="action_${q.id}">
+                            <button class="btn-primary" style="font-size: 0.9rem; padding: 8px 18px;" onclick="gradeIndividualQuestion('${q.id}')">Kiểm tra đáp số</button>
+                        </div>`;
+                }
+            }
+
+            qCard.innerHTML = `
+                <div class="question-header">
+                    <div class="question-title">Câu ${q.id}</div>
+                    ${typeBadge}
+                </div>
+                <div class="question-text">${escapeHTML(q.question)}</div>
+                <div class="options-list">${optionsHTML}</div>
+                ${actionZoneHTML}
+                <div id="feedback-${q.id}" style="margin-top: 12px;"></div>
+                <div class="explanation-box" id="exp-${q.id}">
+                    <div class="explanation-title">💡 Giải thích đáp án:</div>
+                    <div>${escapeHTML(q.explanation) || "Không có giải thích cụ thể."}</div>
+                </div>
+            `;
+            container.appendChild(qCard);
+
+            if (q.isGraded) {
+                applyGradingUI(q);
+            }
+        });
+    }
+
+    function handleUserSelection(qId, letter) {
+        const q = currentQuestions.find(item => item.id === qId);
+        if (!q || q.isGraded) return;
+        q.userAnswers = [letter];
+        updateProgress();
+
+        if (currentQuizMode === 'instant') {
+            gradeIndividualQuestion(qId);
+        }
+    }
+
+    function handleMultipleSelection(qId) {
+        const q = currentQuestions.find(item => item.id === qId);
+        if (!q || q.isGraded) return;
+
+        const card = document.getElementById(`card-${qId}`);
+        const checkedBoxes = Array.from(card.querySelectorAll(`input[name="q_${qId}"]:checked`)).map(cb => cb.value);
+        q.userAnswers = checkedBoxes;
+        updateProgress();
+    }
+
+    function handleFillInput(qId) {
+        const q = currentQuestions.find(item => item.id === qId);
+        if (!q || q.isGraded) return;
+
+        const val = document.getElementById(`fill_${qId}`).value.trim();
+        if (val) {
+            q.userAnswers = [val];
+        } else {
+            q.userAnswers = [];
+        }
+        updateProgress();
+    }
+
+    function handleFillKeyPress(e, qId) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            if (currentQuizMode === 'instant') {
+                gradeIndividualQuestion(qId);
+            }
+        }
+    }
+
+    function gradeIndividualQuestion(qId) {
+        const q = currentQuestions.find(item => item.id === qId);
+        if (!q || q.isGraded) return;
+
+        const card = document.getElementById(`card-${qId}`);
+        let isCorrect = false;
+
+        if (q.type === 'single') {
+            const userAns = q.userAnswers[0] || null;
+            const correctAns = q.correctAnswers[0];
+            if (userAns === correctAns) isCorrect = true;
+
+        } else if (q.type === 'multiple') {
+            const matchAllCorrect = q.correctAnswers.every(ans => q.userAnswers.includes(ans));
+            const noExtraIncorrect = q.userAnswers.every(ans => q.correctAnswers.includes(ans));
+            if (matchAllCorrect && noExtraIncorrect && q.userAnswers.length === q.correctAnswers.length) isCorrect = true;
+
+        } else if (q.type === 'fill') {
+            const userAns = q.userAnswers[0] || "";
+            if (normalizeString(userAns) === normalizeString(q.fillAnswer)) isCorrect = true;
+        }
+
+        q.isGraded = true;
+        q.isCorrect = isCorrect;
+
+        applyGradingUI(q);
+        updateProgress();
+    }
+
+    function applyGradingUI(q) {
+        const card = document.getElementById(`card-${q.id}`);
+        if (!card) return;
+
+        const feedbackDiv = document.getElementById(`feedback-${q.id}`);
+        const expDiv = document.getElementById(`exp-${q.id}`);
+        const actionZone = document.getElementById(`action-${q.id}`);
+
+        feedbackDiv.innerHTML = "";
+
+        if (q.type === 'single' || q.type === 'multiple') {
+            q.options.forEach(opt => {
+                const optItem = document.getElementById(`item_${q.id}_${opt.letter}`);
+                if (!optItem) return;
+                optItem.classList.add('disabled-click');
+
+                const isCorrectAns = q.correctAnswers.includes(opt.letter);
+                const isUserChoice = q.userAnswers.includes(opt.letter);
+
+                if (isCorrectAns) optItem.classList.add('correct-opt');
+                else if (isUserChoice) optItem.classList.add('incorrect-opt');
+            });
+        } else if (q.type === 'fill') {
+            const fillInput = document.getElementById(`fill_${q.id}`);
+            if (fillInput) fillInput.disabled = true;
+
+            const correctAnsDisplay = document.createElement('div');
+            correctAnsDisplay.className = 'correct-ans-display';
+            correctAnsDisplay.innerHTML = `🎯 Đáp số chuẩn: <strong>${escapeHTML(q.fillAnswer)}</strong>`;
+            feedbackDiv.appendChild(correctAnsDisplay);
+        }
+
+        card.querySelectorAll('input').forEach(input => input.disabled = true);
+        if (actionZone) actionZone.classList.add('hidden');
+
+        const badge = document.createElement('span');
+        if (q.isCorrect) {
+            card.className = 'question-card correct';
+            badge.className = 'feedback-badge feedback-correct';
+            badge.innerText = "✓ CHÍNH XÁC";
+        } else {
+            card.className = 'question-card incorrect';
+            badge.className = 'feedback-badge feedback-incorrect';
+            badge.innerText = "✕ CHƯA ĐÚNG";
+        }
+        feedbackDiv.insertBefore(badge, feedbackDiv.firstChild);
+        if (expDiv) expDiv.style.display = "block";
+    }
+
+    function submitQuiz() {
+        const unansweredCount = currentQuestions.filter(q => q.userAnswers.length === 0).length;
+        if (unansweredCount > 0) {
+            const confirmSubmit = confirm(`Bạn còn ${unansweredCount} câu chưa trả lời. Bạn có chắc chắn muốn nộp bài?`);
+            if (!confirmSubmit) return;
+        }
+
+        currentQuestions.forEach(q => {
+            if (!q.isGraded) {
+                gradeIndividualQuestion(q.id);
+            }
+        });
+
+        isQuizSubmitted = true;
+
+        // Score summary
+        const total = currentQuestions.length;
+        const correctCount = currentQuestions.filter(q => q.isCorrect).length;
+        const incorrectCount = total - correctCount;
+
+        document.getElementById('summary-score-text').innerText = `${correctCount}/${total}`;
+        document.getElementById('summary-correct-count').innerText = `✓ ${correctCount} câu đúng`;
+        document.getElementById('summary-incorrect-count').innerText = `✕ ${incorrectCount} câu sai`;
+        document.getElementById('score-summary').classList.remove('hidden');
+
+        document.getElementById('score-summary').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function renderSidebarNav() {
+        const navGrid = document.getElementById('q-nav-grid');
+        const mobileStrip = document.getElementById('mobile-q-strip');
+        navGrid.innerHTML = "";
+        mobileStrip.innerHTML = "";
+
+        currentQuestions.forEach(q => {
+            // Grid button
+            const btn = document.createElement('button');
+            btn.className = 'q-nav-btn';
+            btn.id = `nav-btn-${q.id}`;
+            btn.innerText = q.id;
+            btn.onclick = () => scrollToQuestion(q.id);
+            navGrid.appendChild(btn);
+
+            // Mobile strip button
+            const mBtn = document.createElement('button');
+            mBtn.className = 'q-nav-btn';
+            mBtn.id = `mobile-nav-btn-${q.id}`;
+            mBtn.innerText = q.id;
+            mBtn.onclick = () => scrollToQuestion(q.id);
+            mobileStrip.appendChild(mBtn);
+        });
+
+        updateProgress();
+    }
+
+    function updateProgress() {
+        const total = currentQuestions.length;
+        let answeredCount = 0;
+
+        currentQuestions.forEach(q => {
+            const btn = document.getElementById(`nav-btn-${q.id}`);
+            const mBtn = document.getElementById(`mobile-nav-btn-${q.id}`);
+
+            const stateClass = q.isGraded ? (q.isCorrect ? 'correct' : 'incorrect') : (q.userAnswers.length > 0 ? 'answered' : '');
+            
+            if (btn) btn.className = `q-nav-btn ${stateClass}`.trim();
+            if (mBtn) mBtn.className = `q-nav-btn ${stateClass}`.trim();
+
+            if (q.isGraded || q.userAnswers.length > 0) {
+                answeredCount++;
+            }
+        });
+
+        const percent = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
+        const summaryText = `${answeredCount}/${total} (${percent}%)`;
+
+        document.getElementById('progress-badge').innerText = summaryText;
+        document.getElementById('mobile-progress-text').innerText = summaryText;
+        document.getElementById('floating-progress').innerText = summaryText;
+        document.getElementById('progress-bar').style.width = `${percent}%`;
+    }
+
+    function setMobileNavVisibility(visible) {
+        const sidebar = document.getElementById('quiz-sidebar');
+        const floatingBtn = document.getElementById('mobile-floating-btn');
+
+        if (visible) {
+            sidebar.classList.remove('nav-hidden');
+            floatingBtn.classList.add('hidden');
+            document.body.classList.add('has-mobile-nav');
+        } else {
+            sidebar.classList.add('nav-hidden');
+            sidebar.classList.remove('drawer-expanded');
+            floatingBtn.classList.remove('hidden');
+            document.body.classList.remove('has-mobile-nav');
+        }
+    }
+
+    function toggleMobileExpand() {
+        const sidebar = document.getElementById('quiz-sidebar');
+        const expandBtn = document.getElementById('mobile-toggle-expand-btn');
+
+        sidebar.classList.toggle('drawer-expanded');
+        if (sidebar.classList.contains('drawer-expanded')) {
+            expandBtn.innerText = "▼ Thu gọn";
+        } else {
+            expandBtn.innerText = "▲ Tất cả câu";
+        }
+    }
+
+    function scrollToQuestion(qId) {
+        const card = document.getElementById(`card-${qId}`);
+        if (!card) return;
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        card.classList.remove('highlight-flash');
+        void card.offsetWidth; // trigger reflow
+        card.classList.add('highlight-flash');
+    }
+
+    function resetQuiz() {
+        currentQuestions.forEach(q => {
+            q.userAnswers = [];
+            q.isGraded = false;
+            q.isCorrect = false;
+        });
+        isQuizSubmitted = false;
+        document.getElementById('score-summary').classList.add('hidden');
+        const sidebar = document.getElementById('quiz-sidebar');
+        sidebar.classList.remove('drawer-expanded');
+        document.getElementById('mobile-toggle-expand-btn').innerText = "▲ Tất cả câu";
+        renderQuiz();
+        updateProgress();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+</body>
+</html>

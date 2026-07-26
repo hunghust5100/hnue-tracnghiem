@@ -1,0 +1,163 @@
+Câu 1: Trình duyệt có thể lưu bộ nhớ đệm (cache) dữ liệu từ các yêu cầu POST trong giao thức HTTP không?
+*A. Có
+B. Không
+Giải thích: Theo đặc tả RFC 7231 và RFC 9110, phản hồi từ yêu cầu POST hoàn toàn có thể lưu vào bộ nhớ đệm nếu máy chủ trả về các tiêu đề chỉ định độ tươi rõ ràng (như Cache-Control hoặc Expires), dù trên thực tế cấu hình mặc định của các trình duyệt rất hiếm khi tự động thực hiện việc này.
+
+Câu 2: Các phương thức HTTP an toàn (safe methods) là gì?
+A. GET, HEAD, DELETE và OPTIONS là các phương thức an toàn
+B. Chỉ có GET và POST là các phương thức an toàn
+C. Các phương thức an toàn không truyền bất kỳ dữ liệu nào đến máy chủ
+*D. Các phương thức an toàn không làm thay đổi trạng thái hệ thống được duy trì trên máy chủ
+Giải thích: Phương thức an toàn (Safe methods) được định nghĩa là các phương thức chỉ dùng để đọc thông tin (như GET, HEAD, OPTIONS) và cam kết không làm thay đổi hay phá vỡ trạng thái dữ liệu hiện tại trên hệ thống máy chủ.
+
+Câu 3: Sự khác biệt giữa phương thức GET và POST trong giao thức HTTP là gì?
+A. Phương thức GET không thể gửi bất kỳ dữ liệu nào đến máy chủ, trong khi POST thì có thể
+*B. Phương thức GET chỉ có thể gửi một lượng dữ liệu giới hạn đến máy chủ, trong khi POST có thể gửi lượng dữ liệu không giới hạn
+C. Phương thức POST không thể bị chuyển hướng (redirect), trong khi GET thì có thể
+*D. Chúng gửi dữ liệu từ trình duyệt đến máy chủ bằng cách sử dụng các phần khác nhau trong gói tin HTTP
+Giải thích: Phương thức GET truyền thông tin công khai qua URL nên bị giới hạn độ dài bởi trình duyệt/máy chủ; còn POST truyền dữ liệu ẩn trong phần thân (Body) của gói tin nên không bị giới hạn kích thước bởi đặc tả giao thức.
+
+Câu 4: Các máy chủ HTTP 1.0 duy trì kết nối với client như thế nào?
+*A. Bằng kết nối TCP
+B. Bằng kết nối UDP
+*C. Qua mỗi chu trình gửi/nhận yêu cầu và phản hồi HTTP
+D. Qua mỗi lần tải trang web
+E. Tất cả các ý trên
+Giải thích: HTTP hoạt động ở tầng ứng dụng dựa trên nền tảng kết nối tin cậy TCP của tầng vận chuyển. Với phiên bản HTTP 1.0 mặc định, cơ chế kết nối là ngắn hạn (Non-persistent) - một kết nối TCP riêng biệt sẽ được thiết lập và đóng ngay lập tức sau mỗi cặp chu trình gửi yêu cầu (Request) và nhận phản hồi (Response).
+
+Câu 5: Phương thức GET của HTTP có thể có phần thân tin nhắn (message body) không?
+*A. Có
+B. Không
+Giải thích: Đặc tả giao thức HTTP không cấm việc đính kèm phần thân (body) vào yêu cầu GET. Tuy nhiên, phần body này không mang ý nghĩa ngữ nghĩa để định danh tài nguyên và thường bị nhiều proxy hoặc máy chủ tự động loại bỏ.
+
+Câu 6: Kích thước tối đa được phép của một yêu cầu POST trong giao thức HTTP là bao nhiêu?
+A. 8mb
+B. 20mb
+C. 100mb
+*D. Không giới hạn (Unlimited)
+Giải thích: Bản thân giao thức HTTP không đặt ra bất kỳ giới hạn trần nào cho kích thước của một yêu cầu POST. Các giới hạn thực tế bạn thường gặp (như 8MB hay 20MB) hoàn toàn phụ thuộc vào cấu hình của phần mềm máy chủ (ví dụ: tham số client_max_body_size trên Nginx).
+
+Câu 7: Các máy chủ Web xác thực client như thế nào?
+*A. Client truyền thông tin xác thực kèm theo mọi yêu cầu
+B. Máy chủ lưu giữ thông tin phiên làm việc sau yêu cầu đầu tiên
+Giải thích: Vì giao thức HTTP có tính chất không lưu trạng thái (Stateless), máy chủ coi mọi yêu cầu là hoàn toàn độc lập. Do đó, client bắt buộc phải gửi kèm thông tin nhận diện (như Token, API Key hoặc Session ID trong Cookie) trong từng yêu cầu đơn lẻ cần xác thực.
+
+Câu 8: Phát biểu nào sau đây là đúng?
+A. HTTP chạy trên nền TCP
+B. HTTP cho phép thông tin được lưu trữ trong một URL
+*C. Cả hai ý trên đều đúng
+D. Không có ý nào đúng
+Giải thích: HTTP sử dụng giao thức TCP ở tầng dưới để truyền dữ liệu an toàn, đồng thời cho phép lưu trữ và truyền tải thông tin lên máy chủ thông qua chuỗi truy vấn (Query Parameters) nằm ngay trên URL.
+
+Câu 9: Các trường tiêu đề HTTP (HTTP header fields) được sử dụng để làm gì?
+A. Để truyền các tham số URL đến máy chủ
+B. Để truyền phần thân tin nhắn đến máy chủ
+*C. Để truyền thông tin bổ sung về yêu cầu hoặc phản hồi đến máy chủ
+*D. Để hỗ trợ bộ nhớ đệm (Cache)
+Giải thích: HTTP Headers đóng vai trò truyền tải các siêu dữ liệu (metadata) bổ sung nhằm làm rõ ngữ cảnh của gói tin, đồng thời chứa các chỉ thị cấu hình trực tiếp cho bộ nhớ đệm trình duyệt như Cache-Control hay ETag.
+
+Câu 10: Cookie web là một mẩu dữ liệu nhỏ...
+*A. Được gửi từ một trang web và được lưu trữ trong trình duyệt web của người dùng khi người dùng đang duyệt trang web đó
+B. Được gửi từ người dùng và được lưu trữ trên máy chủ khi người dùng đang duyệt trang web
+C. Được gửi từ máy chủ gốc đến tất cả các máy chủ khác
+D. Tất cả các ý trên
+E. Không có ý nào ở trên
+Giải thích: Bản chất của Cookie là khối dữ liệu do máy chủ tạo ra, gửi về client qua trường Set-Cookie và được trình duyệt lưu giữ tại ổ cứng máy cục bộ của người dùng để tự động đính kèm gửi ngược lên trong các phiên làm việc kế tiếp.
+
+Câu 11: Các phương thức HTTP có thể lưu bộ nhớ đệm (cacheable) là gì?
+A. GET, HEAD, DELETE và OPTIONS là các phương thức có thể lưu bộ nhớ đệm
+B. Tất cả các phương thức không thay đổi dữ liệu (idempotent) đều có thể lưu bộ nhớ đệm
+C. Tất cả các phương thức an toàn (safe) đều có thể lưu bộ nhớ đệm
+*D. Phản hồi có thể lưu bộ nhớ đệm nếu nó có thể được lưu trữ trong bộ nhớ đệm của trình duyệt
+Giải thích: Một phản hồi HTTP được định nghĩa là cacheable khi và chỉ khi các chỉ thị cấu hình tiêu đề phản hồi (Response Headers) từ phía ứng dụng cho phép hệ thống lưu trữ của trình duyệt giữ lại để phục vụ tái sử dụng cho các yêu cầu tương thích sau đó.
+
+Câu 12: Điền vào chỗ trống: _______ là dạng trang web đơn giản nhất, trong đó nội dung của trang được phân phối mà không cần sử dụng xử lý phía máy chủ (server-side processing).
+A. Các trang web mạng xã hội (Social Networking Websites)
+B. Tạo các tệp thực thi từ nội dung web bằng máy chủ web
+*C. Trang web tĩnh (Static website)
+D. Trang web thương mại điện tử (E-Commerce Website)
+Giải thích: Trang web tĩnh (Static Website) chỉ cấu thành từ các tệp mã nguồn cố định (HTML, CSS, JavaScript văn bản thô). Khi có yêu cầu, máy chủ phản hồi trực tiếp nội dung file này đến trình duyệt mà không cần tốn tài nguyên chạy mã logic hay kết nối cơ sở dữ liệu ở phía backend.
+
+Câu 13: Các máy chủ Web duy trì trạng thái phiên (session state) của client...
+A. Theo đặc tả của giao thức HTTP
+*B. Để xử lý việc phân quyền/xác thực của client
+C. Là điều không thể, vì HTTP là giao thức không lưu trạng thái (stateless)
+*D. Bằng cách sử dụng quản lý phiên (session management) hoặc cookie
+Giải thích: Do bản thân tầng giao thức HTTP là stateless, các nhà phát triển buộc phải xây dựng thêm cơ chế quản lý phiên (Session/Cookie) ở tầng ứng dụng nhằm duy trì liên tục trạng thái đăng nhập và kiểm tra quyền hạn thao tác tài nguyên của người dùng.
+
+Câu 14: HTTP Cookies là gì?
+*A. Máy chủ sử dụng cookie để lưu trữ dữ liệu trên máy tính của người dùng
+B. Client sử dụng cookie để lưu trữ dữ liệu trên máy chủ
+C. Các proxy sử dụng cookie để lưu trữ dữ liệu trên máy tính của người dùng
+D. Máy chủ sử dụng cookie để lưu trữ dữ liệu trên máy chủ
+Giải thích: Cookie là công cụ hỗ trợ máy chủ lưu trữ tạm thời các cặp khóa-giá trị văn bản nhỏ xuống chính thư mục quản lý của trình duyệt trên thiết bị cá nhân của client.
+
+Câu 15: Chúng ta có thể sử dụng các tên phương thức HTTP tùy chỉnh (custom HTTP method names) trong giao thức HTTP không?
+*A. Có
+B. Không
+Giải thích: Giao thức HTTP hỗ trợ tính năng mở rộng (Extensible). Lập trình viên hoàn toàn có thể tự định nghĩa ra các phương thức tùy biến hoàn toàn mới (ví dụ: PURGE, MERGE) theo nhu cầu nghiệp vụ, miễn là cả mã nguồn client và cấu hình web server đều đồng bộ logic để xử lý nó.
+
+Câu 16: Giao diện cổng chung (CGI - Common Gateway Interface) được sử dụng để làm gì?
+*A. Tạo các trang web động
+B. Tạo các tệp thực thi từ nội dung web bằng máy chủ web
+C. Truyền phát video (Stream videos)
+D. Tất cả các ý trên
+E. Không có ý nào ở trên
+Giải thích: CGI định nghĩa một chuẩn giao tiếp môi trường, giúp máy chủ web có khả năng chuyển tiếp yêu cầu của người dùng đến các chương trình hoặc đoạn mã kịch bản thực thi độc lập bên ngoài (như C++, Perl, Python) nhằm biên dịch và sinh ra nội dung web động trả về.
+
+Câu 17: Để bật HTTPS trên máy chủ Apache tại máy cục bộ (https://localhost), chúng ta cần một Chứng chỉ (Certificate) cho máy chủ Apache. Chúng ta có thể tự tạo chứng chỉ này bằng một công cụ và không cần phải đăng ký với hệ thống PKI chính thức. Điều đó có đúng không?
+*A. Đúng
+B. Sai
+Giải thích: Tại môi trường phát triển và kiểm thử cục bộ (localhost), lập trình viên hoàn toàn có thể sử dụng các công cụ phổ biến như OpenSSL để khởi tạo chứng chỉ tự ký (Self-signed certificate). Trình duyệt sẽ đưa ra cảnh báo bảo mật nhưng dòng dữ liệu vẫn được mã hóa HTTPS bình thường mà không cần đăng ký mua từ tổ chức CA quốc tế.
+
+Câu 18: CURL là gì?
+A. CURL là một tùy chọn dòng lệnh cho trình duyệt Google Chrome
+B. CURL là một cách thức các trình duyệt tương tác với máy chủ
+*C. CURL là một công cụ dòng lệnh dùng để nhận hoặc gửi dữ liệu
+Giải thích: cURL (Client URL) là một dự án phần mềm gồm công cụ dòng lệnh và thư viện liên kết mạnh mẽ, chuyên dụng cho việc truyền tải dữ liệu tự động giữa máy tính và máy chủ thông qua hàng loạt giao thức mạng phổ dụng.
+
+Câu 19: Tính năng chính của giao thức HTTP là gì?
+A. An toàn/Bảo mật
+B. Nhanh chóng
+C. Chỉ hỗ trợ văn bản
+*D. Không lưu trạng thái (Stateless)
+Giải thích: Đặc trưng nền tảng và quan trọng nhất của HTTP là kiến trúc vô trạng thái (Stateless) - máy chủ xử lý mỗi chu kỳ nhận tin một cách riêng biệt và không lưu lại bất cứ ký ức hay ngữ cảnh ràng buộc nào về các yêu cầu trước đó của cùng một client.
+
+Câu 20: Trang web động (Dynamic web page)...
+A. Luôn giống nhau mỗi khi nó được hiển thị
+*B. Được tạo ra theo yêu cầu bởi một chương trình hoặc từ một yêu cầu của trình duyệt
+C. Cả hai ý trên đều đúng
+D. Không có ý nào ở trên đúng
+Giải thích: Không giống trang web tĩnh được viết sẵn, cấu trúc và nội dung hiển thị của trang web động chỉ được tổng hợp và tạo dựng theo thời gian thực (On-demand) bởi mã nguồn backend ngay khi nhận được yêu cầu cụ thể từ trình duyệt người dùng.
+
+Câu 21: Máy chủ HTTP duy trì cookie...
+A. Chỉ được truyền trong tiêu đề yêu cầu HTTP
+*B. Bằng trường tiêu đề Set-Cookie
+C. Không có ý nào ở trên
+Giải thích: Khi máy chủ web muốn định danh hoặc lưu thông tin cookie xuống client, nó thực hiện thông qua việc gắn thêm trường tiêu đề chỉ thị có tên là `Set-Cookie` chứa trong gói tin phản hồi (HTTP Response).
+
+Câu 22: Trình duyệt có thể lưu bộ nhớ đệm (cache) các yêu cầu GET trong giao thức HTTP không?
+*A. Có
+B. Không
+Giải thích: Phương thức GET mang đặc tính an toàn và không làm thay đổi dữ liệu gốc, do đó các phản hồi của yêu cầu GET mặc định luôn được thiết kế tối ưu để sẵn sàng lưu lại trong bộ nhớ đệm nhằm đẩy nhanh tốc độ hiển thị cho những lần truy cập sau.
+
+Câu 23: Khi nào máy chủ HTTP 1.1 đóng kết nối với client?
+A. Sau mỗi chu trình gửi/nhận yêu cầu và phản hồi HTTP
+B. Sau mỗi lần tải trang web
+C. Không được quy định cụ thể trong tài liệu RFC
+*D. Không có đáp án nào ở trên
+Giải thích: Khác biệt cốt lõi của HTTP 1.1 là cơ chế kết nối bền vững (Persistent Connection) được bật mặc định. Kết nối TCP giữa máy chủ và client sẽ liên tục được giữ mở để truyền nhiều gói tin liên tiếp và chỉ đóng lại khi rơi vào trạng thái hết thời gian chờ cấu hình (Idle Timeout) hoặc nhận được tiêu đề yêu cầu ngắt rõ ràng `Connection: close`. Do đó cả A, B, C đều sai.
+
+Câu 24: Giao thức nào được sử dụng để truyền thông an toàn qua internet?
+A. UDP
+*B. HTTPS
+C. HTTP
+D. IP
+Giải thích: HTTPS (Hypertext Transfer Protocol Secure) chính là phiên bản bảo mật nâng cao của HTTP nhờ việc tích hợp thêm một lớp mã hóa dữ liệu đầu cuối sử dụng giao thức bảo mật SSL/TLS.
+
+Câu 25: Mã trạng thái 500 (500 Internal Server Error) trong giao thức HTTP được sử dụng để làm gì?
+*A. Biểu thị sự cố không mong muốn xảy ra ở phía máy chủ
+B. Biểu thị yêu cầu của người dùng chưa được xác thực đối với tài nguyên bảo mật
+C. Biểu thị phương thức được yêu cầu không được phép sử dụng
+D. Biểu thị tài nguyên được yêu cầu không thể tìm thấy
+Giải thích: Nhóm mã trạng thái đầu 5 (5xx) đại diện cho lỗi thuộc phạm vi quản lý của Server. Trong đó, mã lỗi 500 là mã thông báo tổng quát báo hiệu hệ thống backend đã gặp phải một lỗi logic đột xuất, xung đột mã nguồn hoặc sự cố phần cứng khiến nó không thể đáp ứng được yêu cầu của người dùng.
