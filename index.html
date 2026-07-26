@@ -1403,6 +1403,41 @@
         </div>
     </div>
 
+    <!-- Retake Wrong Questions Mode Selection Modal -->
+    <div class="modal-overlay hidden" id="retake-modal">
+        <div class="modal-card" style="max-width: 480px;">
+            <div class="modal-title">🔥 Ôn lại câu sai</div>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px;" id="retake-modal-info">Luyện lại các câu đã làm sai.</p>
+
+            <div class="form-group">
+                <label class="form-label">⚙️ Chế độ làm bài:</label>
+                <div class="mode-grid">
+                    <label class="mode-card active" id="retake-mode-submit" onclick="selectRetakeQuizMode('submit')">
+                        <input type="radio" name="retake_quiz_mode" value="submit" checked>
+                        <div class="mode-icon">📋</div>
+                        <div>
+                            <div class="mode-title">Nộp bài mới xem kết quả</div>
+                            <div class="mode-desc">Làm toàn bộ rồi nộp bài & chấm điểm</div>
+                        </div>
+                    </label>
+                    <label class="mode-card" id="retake-mode-instant" onclick="selectRetakeQuizMode('instant')">
+                        <input type="radio" name="retake_quiz_mode" value="instant">
+                        <div class="mode-icon">⚡</div>
+                        <div>
+                            <div class="mode-title">Phản hồi tức thì</div>
+                            <div class="mode-desc">Chấm điểm ngay từng câu trong quá trình làm</div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="btn-container" style="margin-top: 24px; justify-content: flex-end;">
+                <button class="btn-secondary" onclick="closeRetakeModal()">Hủy</button>
+                <button class="btn-primary" onclick="confirmRetakeWrongExam()">🚀 Bắt đầu Ôn tập</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Custom HTML Confirmation Modal -->
     <div class="modal-overlay hidden" id="custom-confirm-modal">
         <div class="modal-card" style="max-width: 420px; text-align: center;">
@@ -1726,21 +1761,56 @@ D. Kinh tế chính trị cổ điển Anh`;
         }
     }
 
-    /* SAFE RETAKE WRONG QUESTIONS FUNCTION (Fixes string escaping bugs) */
-    function startRetakeWrongExamForSubject(subjectId) {
-        currentSubjectId = subjectId || 'cnxh';
-        const group = allCategoriesData.find(g => g.subjectId === currentSubjectId);
-        const subjectTitle = group ? group.category : 'Môn học';
+    /* RETAKE WRONG QUESTIONS — OPEN MODE SELECTION MODAL */
+    let pendingRetakeSubjectId = null;
+    let selectedRetakeMode = 'submit';
 
-        const wrongBank = getStoredWrongBank().filter(b => (b.subjectId || 'cnxh') === currentSubjectId);
+    function startRetakeWrongExamForSubject(subjectId) {
+        const subId = subjectId || 'cnxh';
+        const wrongBank = getStoredWrongBank().filter(b => (b.subjectId || 'cnxh') === subId);
         if (wrongBank.length === 0) {
             alert("Kho câu hỏi sai của môn này đang trống!");
             return;
         }
 
+        pendingRetakeSubjectId = subId;
+        selectedRetakeMode = 'submit';
+
+        // Reset modal UI
+        document.getElementById('retake-modal-info').innerText = `Có ${wrongBank.length} câu hỏi sai cần ôn lại.`;
+        document.getElementById('retake-mode-submit').classList.add('active');
+        document.getElementById('retake-mode-instant').classList.remove('active');
+        document.querySelector('#retake-mode-submit input').checked = true;
+        document.querySelector('#retake-mode-instant input').checked = false;
+
+        document.getElementById('retake-modal').classList.remove('hidden');
+    }
+
+    function selectRetakeQuizMode(mode) {
+        selectedRetakeMode = mode;
+        document.querySelectorAll('#retake-modal .mode-card').forEach(c => c.classList.remove('active'));
+        if (mode === 'instant') {
+            document.getElementById('retake-mode-instant').classList.add('active');
+            document.querySelector('#retake-mode-instant input').checked = true;
+        } else {
+            document.getElementById('retake-mode-submit').classList.add('active');
+            document.querySelector('#retake-mode-submit input').checked = true;
+        }
+    }
+
+    function closeRetakeModal() {
+        document.getElementById('retake-modal').classList.add('hidden');
+    }
+
+    function confirmRetakeWrongExam() {
+        closeRetakeModal();
+
+        currentSubjectId = pendingRetakeSubjectId || 'cnxh';
+        const wrongBank = getStoredWrongBank().filter(b => (b.subjectId || 'cnxh') === currentSubjectId);
+        if (wrongBank.length === 0) return;
+
         // Deep copy questions and reset states
         currentQuestions = JSON.parse(JSON.stringify(wrongBank));
-        
         currentQuestions.forEach((q, idx) => {
             q.id = String(idx + 1);
             q.userAnswers = [];
@@ -1748,7 +1818,7 @@ D. Kinh tế chính trị cổ điển Anh`;
             q.isCorrect = false;
         });
 
-        currentQuizMode = 'submit';
+        currentQuizMode = selectedRetakeMode;
         document.getElementById('current-quiz-name').innerText = `🔥 Luyện lại câu sai (${currentQuestions.length} câu)`;
         document.getElementById('file-status').innerText = `📄 Đã nạp ${currentQuestions.length} câu hỏi sai để luyện lại.`;
 
