@@ -237,11 +237,11 @@
             border-radius: var(--radius-md);
             cursor: pointer;
             background: #ffffff;
-            transition: all 0.2s ease;
+            transition: all 0.25s ease;
         }
 
         .preset-card:hover {
-            border-color: var(--primary);
+            border-color: var(--primary-light);
             background: var(--primary-bg);
             transform: translateX(4px);
             box-shadow: var(--shadow-md);
@@ -305,32 +305,35 @@
             flex-shrink: 0;
         }
 
+        /* RE-DESIGNED PRIMARY ACTION BUTTON */
         .preset-badge {
             display: inline-flex;
             align-items: center;
-            gap: 4px;
-            font-size: 0.8rem;
+            gap: 6px;
+            font-size: 0.84rem;
             font-weight: 700;
-            color: var(--primary);
-            background: rgba(99, 102, 241, 0.08);
-            padding: 6px 14px;
+            color: #ffffff;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+            padding: 8px 18px;
             border-radius: 50px;
-            transition: all 0.2s ease;
+            box-shadow: 0 4px 10px rgba(79, 70, 229, 0.25);
+            transition: all 0.25s ease;
         }
 
         .preset-card:hover .preset-badge {
-            background: var(--primary);
-            color: #ffffff;
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(79, 70, 229, 0.38);
         }
 
         .preset-badge.mock-badge {
             color: #ffffff;
-            background: var(--primary);
+            background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
         }
 
         .preset-badge.updating-badge {
             color: #d97706;
             background: rgba(245, 158, 11, 0.1);
+            box-shadow: none;
         }
 
         /* Modal Overlay */
@@ -1510,6 +1513,9 @@
     let currentQuizMode = 'submit'; // 'instant' or 'submit'
     let isQuizSubmitted = false;
 
+    // Global store for categories to prevent inline JS quote escaping bugs
+    let allCategoriesData = [];
+
     // Timer state
     let timerInterval = null;
     let totalSecondsLeft = 0;
@@ -1584,7 +1590,7 @@ D. Kinh tế chính trị cổ điển Anh`;
     });
 
     /* ========================================================
-       CUSTOM CONFIRMATION MODAL (Replaces Ugly Native Browser Confirm)
+       CUSTOM CONFIRMATION MODAL
     ======================================================== */
     function showCustomConfirm(title, message, actionText, callback) {
         document.getElementById('confirm-modal-title').innerText = title;
@@ -1617,10 +1623,10 @@ D. Kinh tế chính trị cổ điển Anh`;
             const history = getStoredHistory();
             const now = new Date();
             const timeStr = `${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')} - ${now.getDate()}/${now.getMonth()+1}`;
-            history.unshift({ subjectId, title, scoreText, correctCount, totalCount, time: timeStr });
+            history.unshift({ subjectId: subjectId || 'cnxh', title, scoreText, correctCount, totalCount, time: timeStr });
             if (history.length > 30) history.pop();
             localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(history));
-            updateSubjectStatsUI(subjectId);
+            updateSubjectStatsUI(subjectId || 'cnxh');
         } catch(e) {}
     }
 
@@ -1645,14 +1651,15 @@ D. Kinh tế chính trị cổ điển Anh`;
     function saveWrongQuestions(subjectId, gradedQuestions) {
         try {
             let bank = getStoredWrongBank();
+            const subId = subjectId || 'cnxh';
             
             gradedQuestions.forEach(q => {
-                const existingIndex = bank.findIndex(item => item.question === q.question);
+                const existingIndex = bank.findIndex(item => item.question === q.question && (item.subjectId || 'cnxh') === subId);
                 if (!q.isCorrect) {
                     if (existingIndex === -1) {
-                        bank.push({ ...q, subjectId: subjectId || 'cnxh' });
+                        bank.push({ ...q, subjectId: subId });
                     } else {
-                        bank[existingIndex] = { ...q, subjectId: subjectId || 'cnxh' };
+                        bank[existingIndex] = { ...q, subjectId: subId };
                     }
                 } else {
                     // Remove from wrong bank if answered correctly
@@ -1663,7 +1670,7 @@ D. Kinh tế chính trị cổ điển Anh`;
             });
 
             localStorage.setItem(STORAGE_KEY_WRONG, JSON.stringify(bank));
-            updateSubjectStatsUI(subjectId);
+            updateSubjectStatsUI(subId);
         } catch(e) {}
     }
 
@@ -1679,9 +1686,10 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     function updateSubjectStatsUI(subjectId) {
-        const wrongBank = getStoredWrongBank().filter(b => b.subjectId === subjectId);
-        const wrongBadge = document.getElementById(`subject-wrong-badge-${subjectId}`);
-        const retakeBtn = document.getElementById(`btn-retake-subject-${subjectId}`);
+        const subId = subjectId || 'cnxh';
+        const wrongBank = getStoredWrongBank().filter(b => (b.subjectId || 'cnxh') === subId);
+        const wrongBadge = document.getElementById(`subject-wrong-badge-${subId}`);
+        const retakeBtn = document.getElementById(`btn-retake-subject-${subId}`);
         
         if (wrongBadge) {
             wrongBadge.innerText = `🔥 ${wrongBank.length} câu sai`;
@@ -1691,16 +1699,18 @@ D. Kinh tế chính trị cổ điển Anh`;
                 retakeBtn.innerText = `🔥 Ôn lại câu sai (${wrongBank.length} câu)`;
                 retakeBtn.disabled = false;
                 retakeBtn.style.opacity = "1";
+                retakeBtn.style.cursor = "pointer";
             } else {
                 retakeBtn.innerText = `🔥 Không có câu sai (0 câu)`;
                 retakeBtn.disabled = true;
                 retakeBtn.style.opacity = "0.6";
+                retakeBtn.style.cursor = "not-allowed";
             }
         }
 
         // Render history summary badge in subject toolbar
-        const historyList = getStoredHistory().filter(h => h.subjectId === subjectId);
-        const historyContainer = document.getElementById(`subject-history-list-${subjectId}`);
+        const historyList = getStoredHistory().filter(h => (h.subjectId || 'cnxh') === subId);
+        const historyContainer = document.getElementById(`subject-history-list-${subId}`);
         if (historyContainer) {
             if (historyList.length === 0) {
                 historyContainer.innerHTML = `<span style="color: var(--text-muted); font-size: 0.8rem;">Chưa có lịch sử làm bài.</span>`;
@@ -1710,23 +1720,27 @@ D. Kinh tế chính trị cổ điển Anh`;
                     <span style="font-size: 0.8rem; background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.2); padding: 4px 12px; border-radius: 50px; color: var(--text-light);">
                         📊 Bài gần nhất: <strong>${escapeHTML(lastResult.title)}</strong> (${lastResult.scoreText})
                     </span>
-                    <button class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem; min-height: 26px;" onclick="clearSubjectHistory('${subjectId}')">Xóa lịch sử</button>
+                    <button class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem; min-height: 26px;" onclick="clearSubjectHistory('${subId}')">Xóa lịch sử</button>
                 `;
             }
         }
     }
 
-    function startRetakeWrongExamForSubject(subjectId, subjectTitle) {
-        currentSubjectId = subjectId;
-        const wrongBank = getStoredWrongBank().filter(b => b.subjectId === subjectId);
+    /* SAFE RETAKE WRONG QUESTIONS FUNCTION (Fixes string escaping bugs) */
+    function startRetakeWrongExamForSubject(subjectId) {
+        currentSubjectId = subjectId || 'cnxh';
+        const group = allCategoriesData.find(g => g.subjectId === currentSubjectId);
+        const subjectTitle = group ? group.category : 'Môn học';
+
+        const wrongBank = getStoredWrongBank().filter(b => (b.subjectId || 'cnxh') === currentSubjectId);
         if (wrongBank.length === 0) {
             alert("Kho câu hỏi sai của môn này đang trống!");
             return;
         }
 
+        // Deep copy questions and reset states
         currentQuestions = JSON.parse(JSON.stringify(wrongBank));
         
-        // Reset answers & states for retaking
         currentQuestions.forEach((q, idx) => {
             q.id = String(idx + 1);
             q.userAnswers = [];
@@ -1735,7 +1749,7 @@ D. Kinh tế chính trị cổ điển Anh`;
         });
 
         selectQuizMode('submit');
-        document.getElementById('current-quiz-name').innerText = `🔥 Luyện lại câu sai - ${subjectTitle} (${currentQuestions.length} câu)`;
+        document.getElementById('current-quiz-name').innerText = `🔥 Luyện lại câu sai (${currentQuestions.length} câu)`;
         document.getElementById('file-status').innerText = `📄 Đã nạp ${currentQuestions.length} câu hỏi sai để luyện lại.`;
 
         isQuizSubmitted = false;
@@ -1773,6 +1787,8 @@ D. Kinh tế chính trị cổ điển Anh`;
             console.log("Dùng danh sách mặc định.");
         }
 
+        allCategoriesData = data; // store globally
+
         data.forEach((group, idx) => {
             const subjectId = group.subjectId || `sub_${idx}`;
             // ALL ACCORDIONS COLLAPSED BY DEFAULT
@@ -1793,7 +1809,7 @@ D. Kinh tế chính trị cổ điển Anh`;
                     <span class="subject-count-badge">${group.quizzes ? group.quizzes.length + ' bài' : '0 bài'}</span>
                 </div>
                 <div>
-                    <span class="preset-badge" style="background: rgba(239, 68, 68, 0.08); color: var(--danger-text);" id="subject-wrong-badge-${subjectId}">
+                    <span class="preset-badge" style="background: rgba(239, 68, 68, 0.08); color: var(--danger-text); box-shadow: none;" id="subject-wrong-badge-${subjectId}">
                         🔥 0 câu sai
                     </span>
                 </div>
@@ -1825,7 +1841,7 @@ D. Kinh tế chính trị cổ điển Anh`;
                 actionsBar.className = 'subject-actions-bar';
                 actionsBar.innerHTML = `
                     <div class="subject-actions-left">
-                        <button class="btn-danger" style="padding: 6px 14px; font-size: 0.82rem; min-height: 34px;" id="btn-retake-subject-${subjectId}" onclick="startRetakeWrongExamForSubject('${subjectId}', '${escapeHTML(group.category)}')">
+                        <button class="btn-danger" style="padding: 6px 14px; font-size: 0.82rem; min-height: 34px;" id="btn-retake-subject-${subjectId}" onclick="startRetakeWrongExamForSubject('${subjectId}')">
                             🔥 Ôn lại câu sai
                         </button>
                         <button class="btn-secondary" style="padding: 6px 12px; font-size: 0.82rem; min-height: 34px;" onclick="clearSubjectWrongBank('${subjectId}')">
@@ -1836,7 +1852,7 @@ D. Kinh tế chính trị cổ điển Anh`;
                 `;
                 accordionItem.appendChild(actionsBar);
 
-                // Body List (Vertical Row Layout instead of grid!)
+                // Body List (Vertical Row Layout)
                 const body = document.createElement('div');
                 body.className = 'subject-content-body';
 
@@ -1846,7 +1862,7 @@ D. Kinh tế chính trị cổ điển Anh`;
                 // Mock Exam Card at top
                 const mockCard = document.createElement('div');
                 mockCard.className = 'preset-card mock-exam-card';
-                mockCard.onclick = () => openMockModal(group);
+                mockCard.onclick = () => openMockModalById(subjectId);
                 mockCard.innerHTML = `
                     <div class="preset-card-left">
                         <div class="preset-icon">🎲</div>
@@ -1861,11 +1877,11 @@ D. Kinh tế chính trị cổ điển Anh`;
                 `;
                 pList.appendChild(mockCard);
 
-                // Individual Chapter Cards in vertical list
-                group.quizzes.forEach(p => {
+                // Individual Chapter Cards in vertical list (Safe lookup by index)
+                group.quizzes.forEach((p, qIdx) => {
                     const card = document.createElement('div');
                     card.className = 'preset-card';
-                    card.onclick = () => openStartQuizModal(p.file, p.title, subjectId);
+                    card.onclick = () => openStartQuizModalById(subjectId, qIdx);
                     card.innerHTML = `
                         <div class="preset-card-left">
                             <div class="preset-icon">${p.icon || '📝'}</div>
@@ -1875,7 +1891,7 @@ D. Kinh tế chính trị cổ điển Anh`;
                             </div>
                         </div>
                         <div class="preset-card-right">
-                            <span class="preset-badge">Chọn bài ▶</span>
+                            <span class="preset-badge">Vào làm ▶</span>
                         </div>
                     `;
                     pList.appendChild(card);
@@ -1900,13 +1916,24 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     /* ========================================================
-       QUIZ MODE SELECTION MODAL LOGIC (When clicking a quiz)
+       SAFE QUIZ MODE SELECTION MODAL LOGIC (No string quote bugs)
     ======================================================== */
-    function openStartQuizModal(filePath, title, subjectId) {
+    function openStartQuizModalById(subjectId, quizIdx) {
+        currentSubjectId = subjectId || 'cnxh';
+        const group = allCategoriesData.find(g => g.subjectId === currentSubjectId);
+        if (!group || !group.quizzes || !group.quizzes[quizIdx]) return;
+
+        const p = group.quizzes[quizIdx];
+        pendingQuizFile = p.file;
+        pendingQuizTitle = p.title;
+
+        document.getElementById('start-modal-title').innerText = `📖 ${p.title}`;
+        document.getElementById('start-quiz-modal').classList.remove('hidden');
+    }
+
+    function openStartQuizModal(filePath, title) {
         pendingQuizFile = filePath;
         pendingQuizTitle = title;
-        currentSubjectId = subjectId || 'cnxh';
-
         document.getElementById('start-modal-title').innerText = `📖 ${title}`;
         document.getElementById('start-quiz-modal').classList.remove('hidden');
     }
@@ -1939,9 +1966,12 @@ D. Kinh tế chính trị cổ điển Anh`;
     /* ========================================================
        RANDOM MOCK EXAM MODAL & GENERATOR LOGIC
     ======================================================== */
-    function openMockModal(group) {
+    function openMockModalById(subjectId) {
+        currentSubjectId = subjectId || 'cnxh';
+        const group = allCategoriesData.find(g => g.subjectId === currentSubjectId);
+        if (!group) return;
+
         activeSubjectGroup = group;
-        currentSubjectId = group.subjectId || 'cnxh';
         document.getElementById('mock-modal-subtitle').innerText = `Tự động gộp tất cả câu hỏi thuộc: ${group.category}`;
         document.getElementById('custom-count-input').value = "";
         document.getElementById('custom-time-input').value = "";
@@ -2236,9 +2266,10 @@ D. Kinh tế chính trị cổ điển Anh`;
         return parsedQuestions;
     }
 
+    /* SAFE STRING NORMALIZATION (Prevents null/undefined/type crashes) */
     function normalizeString(str) {
-        if (!str) return '';
-        return str
+        if (str === null || str === undefined) return '';
+        return String(str)
             .toLowerCase()
             .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
             .replace(/đ/g, "d")
@@ -2247,8 +2278,8 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     function escapeHTML(str) {
-        if (!str) return '';
-        return str
+        if (str === null || str === undefined) return '';
+        return String(str)
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
             .replace(/>/g, '&gt;')
@@ -2502,6 +2533,8 @@ D. Kinh tế chính trị cổ điển Anh`;
 
     function submitQuiz() {
         stopCountdownTimer();
+
+        if (currentQuestions.length === 0) return;
 
         const unansweredCount = currentQuestions.filter(q => q.userAnswers.length === 0).length;
         if (unansweredCount > 0 && totalSecondsLeft > 0) {
