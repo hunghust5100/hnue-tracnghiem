@@ -90,11 +90,13 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
-            padding: 12px 20px;
+            padding: 14px 20px;
             background: var(--bg-card);
             border-radius: var(--radius-md);
             border: 1px solid var(--border-color);
             box-shadow: var(--shadow-md);
+            flex-wrap: wrap;
+            gap: 12px;
         }
 
         .quiz-top-title {
@@ -104,6 +106,34 @@
             display: flex;
             align-items: center;
             gap: 8px;
+        }
+
+        /* Countdown Timer Badge */
+        .timer-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-family: var(--font-mono);
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 6px 16px;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+            border-radius: 50px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .timer-badge.warning-timer {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+            border-color: rgba(239, 68, 68, 0.3);
+            animation: pulseTimer 1s infinite alternate;
+        }
+
+        @keyframes pulseTimer {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
         }
 
         /* Config Card */
@@ -175,6 +205,16 @@
             box-shadow: var(--shadow-md);
         }
 
+        .preset-card.mock-exam-card {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(67, 56, 202, 0.08) 100%);
+            border: 2px dashed var(--primary-light);
+        }
+
+        .preset-card.mock-exam-card:hover {
+            border-color: var(--primary);
+            background: rgba(99, 102, 241, 0.12);
+        }
+
         .preset-icon {
             font-size: 1.8rem;
             line-height: 1;
@@ -203,6 +243,87 @@
             background: rgba(99, 102, 241, 0.1);
             padding: 2px 8px;
             border-radius: 4px;
+        }
+
+        .preset-badge.mock-badge {
+            color: #ffffff;
+            background: var(--primary);
+        }
+
+        /* Modal Overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(4px);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+
+        .modal-card {
+            background: #ffffff;
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            max-width: 540px;
+            width: 100%;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border-color);
+            position: relative;
+        }
+
+        .modal-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-light);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-label {
+            font-size: 0.92rem;
+            font-weight: 700;
+            color: var(--text-light);
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .option-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .pill-opt {
+            padding: 8px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--text-main);
+            background: #f8fafc;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+
+        .pill-opt:hover {
+            border-color: var(--primary-light);
+            background: var(--primary-bg);
+        }
+
+        .pill-opt.active {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: #ffffff;
         }
 
         /* Mode Selection Cards */
@@ -1014,6 +1135,43 @@
         </div>
     </div>
 
+    <!-- Modal for Random Mock Exam Configuration -->
+    <div class="modal-overlay hidden" id="mock-exam-modal">
+        <div class="modal-card">
+            <div class="modal-title">🎲 Cấu hình Thi thử Ngẫu nhiên</div>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 20px;" id="mock-modal-subtitle">
+                Tạo 1 đề thi ngẫu nhiên gộp từ tất cả các chương thuộc môn học.
+            </p>
+
+            <div class="form-group">
+                <label class="form-label">🔢 Chọn số lượng câu hỏi:</label>
+                <div class="option-pills" id="q-count-pills">
+                    <span class="pill-opt" onclick="setMockCount(10)">10 câu</span>
+                    <span class="pill-opt active" onclick="setMockCount(20)">20 câu</span>
+                    <span class="pill-opt" onclick="setMockCount(30)">30 câu</span>
+                    <span class="pill-opt" onclick="setMockCount(40)">40 câu</span>
+                    <span class="pill-opt" onclick="setMockCount('all')">Tất cả câu</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">⏱️ Chọn thời gian làm bài:</label>
+                <div class="option-pills" id="timer-pills">
+                    <span class="pill-opt" onclick="setMockTime(10)">10 phút</span>
+                    <span class="pill-opt active" onclick="setMockTime(15)">15 phút</span>
+                    <span class="pill-opt" onclick="setMockTime(30)">30 phút</span>
+                    <span class="pill-opt" onclick="setMockTime(45)">45 phút</span>
+                    <span class="pill-opt" onclick="setMockTime(0)">Không giới hạn</span>
+                </div>
+            </div>
+
+            <div class="btn-container" style="margin-top: 24px; justify-content: flex-end;">
+                <button class="btn-secondary" onclick="closeMockModal()">Hủy</button>
+                <button class="btn-primary" onclick="startRandomMockExam()">🚀 Bắt đầu Thi thử</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Quiz Main App Area (Hidden initially) -->
     <div id="quiz-app" class="hidden">
         <!-- Top Action Bar inside Quiz View -->
@@ -1021,9 +1179,16 @@
             <div class="quiz-top-title">
                 <span id="current-quiz-name">📖 Đề thi trắc nghiệm CNXH</span>
             </div>
-            <button class="btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;" onclick="backToConfig()">
-                🏠 Trang chủ (Chọn đề khác)
-            </button>
+            
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <div class="timer-badge hidden" id="timer-badge">
+                    ⏱️ <span id="timer-display">00:00</span>
+                </div>
+
+                <button class="btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;" onclick="backToConfig()">
+                    🏠 Trang chủ (Chọn đề khác)
+                </button>
+            </div>
         </div>
 
         <div class="quiz-layout">
@@ -1104,10 +1269,20 @@
     let currentQuizMode = 'instant'; // 'instant' or 'submit'
     let isQuizSubmitted = false;
 
+    // Timer state
+    let timerInterval = null;
+    let totalSecondsLeft = 0;
+
+    // Mock exam generator state
+    let activeSubjectGroup = null;
+    let selectedMockCount = 20; // default 20 questions
+    let selectedMockTime = 15; // default 15 mins
+
     // Preset Quizzes List fallback
     const defaultCategories = [
         {
             "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
+            "subjectId": "cnxh",
             "quizzes": [
                 {
                     "id": "cnxh-ch1",
@@ -1177,7 +1352,7 @@ D. Kinh tế chính trị cổ điển Anh`;
 
         data.forEach(group => {
             const catWrapper = document.createElement('div');
-            catWrapper.style.marginBottom = "20px";
+            catWrapper.style.marginBottom = "24px";
 
             const catHeader = document.createElement('div');
             catHeader.className = 'section-label';
@@ -1186,6 +1361,21 @@ D. Kinh tế chính trị cổ điển Anh`;
             const pGrid = document.createElement('div');
             pGrid.className = 'preset-grid';
 
+            // Add Mock Exam Generator Card at the top of each category!
+            const mockCard = document.createElement('div');
+            mockCard.className = 'preset-card mock-exam-card';
+            mockCard.onclick = () => openMockModal(group);
+            mockCard.innerHTML = `
+                <div class="preset-icon">🎲</div>
+                <div>
+                    <div class="preset-title">Thi thử Ngẫu nhiên môn học</div>
+                    <div class="preset-desc">Tự tạo đề ngẫu nhiên từ tất cả các chương + tính thời gian thi thử</div>
+                    <span class="preset-badge mock-badge">⚡ Nhanh & Ngẫu nhiên</span>
+                </div>
+            `;
+            pGrid.appendChild(mockCard);
+
+            // Add individual chapter cards
             group.quizzes.forEach(p => {
                 const card = document.createElement('div');
                 card.className = 'preset-card';
@@ -1207,7 +1397,144 @@ D. Kinh tế chính trị cổ điển Anh`;
         });
     }
 
+    function openMockModal(group) {
+        activeSubjectGroup = group;
+        document.getElementById('mock-modal-subtitle').innerText = `Tự động gộp tất cả câu hỏi thuộc: ${group.category}`;
+        document.getElementById('mock-exam-modal').classList.remove('hidden');
+    }
+
+    function closeMockModal() {
+        document.getElementById('mock-exam-modal').classList.add('hidden');
+    }
+
+    function setMockCount(count) {
+        selectedMockCount = count;
+        const container = document.getElementById('q-count-pills');
+        container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
+        event.target.classList.add('active');
+    }
+
+    function setMockTime(timeMins) {
+        selectedMockTime = timeMins;
+        const container = document.getElementById('timer-pills');
+        container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
+        event.target.classList.add('active');
+    }
+
+    async function startRandomMockExam() {
+        if (!activeSubjectGroup || !activeSubjectGroup.quizzes) return;
+        closeMockModal();
+
+        document.getElementById('file-status').innerText = `⌛ Đang gộp dữ liệu từ tất cả các chương...`;
+
+        try {
+            // Fetch all chapter text files in parallel
+            const fetchPromises = activeSubjectGroup.quizzes.map(q => fetch(q.file).then(r => r.text()));
+            const results = await Promise.all(fetchPromises);
+
+            let allQuestionsPool = [];
+            results.forEach(textData => {
+                const parsed = parseQuizText(textData);
+                allQuestionsPool = allQuestionsPool.concat(parsed);
+            });
+
+            if (allQuestionsPool.length === 0) {
+                alert("Không thể gộp được câu hỏi nào từ môn học này!");
+                return;
+            }
+
+            // Shuffle array using Fisher-Yates
+            for (let i = allQuestionsPool.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [allQuestionsPool[i], allQuestionsPool[j]] = [allQuestionsPool[j], allQuestionsPool[i]];
+            }
+
+            // Pick question count N
+            let finalCount = allQuestionsPool.length;
+            if (selectedMockCount !== 'all' && typeof selectedMockCount === 'number') {
+                finalCount = Math.min(selectedMockCount, allQuestionsPool.length);
+            }
+
+            currentQuestions = allQuestionsPool.slice(0, finalCount);
+
+            // Re-index question IDs
+            currentQuestions.forEach((q, idx) => {
+                q.id = String(idx + 1);
+            });
+
+            // Set Mode: Default to 'submit' mode for mock exams
+            selectQuizMode('submit');
+
+            document.getElementById('current-quiz-name').innerText = `🎲 Đề thi thử ngẫu nhiên (${finalCount} câu - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
+            document.getElementById('file-status').innerText = `📄 Đã tạo đề thi thử: ${finalCount} câu ngẫu nhiên.`;
+
+            // Start Quiz
+            isQuizSubmitted = false;
+            document.getElementById('input-card').classList.add('hidden');
+            document.getElementById('quiz-app').classList.remove('hidden');
+            document.getElementById('score-summary').classList.add('hidden');
+            document.getElementById('btn-submit-quiz').classList.remove('hidden');
+
+            setMobileNavVisibility(true);
+            renderQuiz();
+            renderSidebarNav();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Start Timer if selected
+            if (selectedMockTime > 0) {
+                startCountdownTimer(selectedMockTime);
+            } else {
+                stopCountdownTimer();
+                document.getElementById('timer-badge').classList.add('hidden');
+            }
+
+        } catch (err) {
+            alert("Lỗi khi tạo đề thi ngẫu nhiên: " + err.message);
+        }
+    }
+
+    function startCountdownTimer(minutes) {
+        stopCountdownTimer();
+        totalSecondsLeft = minutes * 60;
+        
+        const badge = document.getElementById('timer-badge');
+        const display = document.getElementById('timer-display');
+        badge.classList.remove('hidden', 'warning-timer');
+
+        updateTimerDisplay();
+
+        timerInterval = setInterval(() => {
+            totalSecondsLeft--;
+            if (totalSecondsLeft <= 120) { // warning under 2 mins
+                badge.classList.add('warning-timer');
+            }
+            if (totalSecondsLeft <= 0) {
+                stopCountdownTimer();
+                alert("⏰ ĐÃ HẾT THỜI GIAN LÀM BÀI! Hệ thống sẽ tự động nộp bài.");
+                submitQuiz();
+            }
+            updateTimerDisplay();
+        }, 1000);
+    }
+
+    function stopCountdownTimer() {
+        if (timerInterval) {
+            clearInterval(timerInterval);
+            timerInterval = null;
+        }
+    }
+
+    function updateTimerDisplay() {
+        const mins = Math.floor(Math.max(0, totalSecondsLeft) / 60);
+        const secs = Math.max(0, totalSecondsLeft) % 60;
+        const formatted = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        document.getElementById('timer-display').innerText = formatted;
+    }
+
     async function fetchAndLoadQuiz(filePath, title) {
+        stopCountdownTimer();
+        document.getElementById('timer-badge').classList.add('hidden');
+
         try {
             document.getElementById('file-status').innerText = `⌛ Đang tải dữ liệu từ ${title}...`;
             const res = await fetch(filePath);
@@ -1358,6 +1685,9 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     function processInput() {
+        stopCountdownTimer();
+        document.getElementById('timer-badge').classList.add('hidden');
+
         const textData = document.getElementById('text-input').value;
         if (!textData.trim()) {
             alert("Vui lòng chọn hoặc nhập nội dung đề bài!");
@@ -1388,6 +1718,7 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     function backToConfig() {
+        stopCountdownTimer();
         setMobileNavVisibility(false);
         document.getElementById('quiz-app').classList.add('hidden');
         document.getElementById('input-card').classList.remove('hidden');
@@ -1592,8 +1923,10 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     function submitQuiz() {
+        stopCountdownTimer();
+
         const unansweredCount = currentQuestions.filter(q => q.userAnswers.length === 0).length;
-        if (unansweredCount > 0) {
+        if (unansweredCount > 0 && totalSecondsLeft > 0) {
             const confirmSubmit = confirm(`Bạn còn ${unansweredCount} câu chưa trả lời. Bạn có chắc chắn muốn nộp bài?`);
             if (!confirmSubmit) return;
         }
@@ -1724,6 +2057,10 @@ D. Kinh tế chính trị cổ điển Anh`;
         renderQuiz();
         updateProgress();
         window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        if (selectedMockTime > 0) {
+            startCountdownTimer(selectedMockTime);
+        }
     }
 </script>
 </body>
