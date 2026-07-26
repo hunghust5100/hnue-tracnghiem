@@ -30,6 +30,20 @@
         "description": "Bộ câu hỏi Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội",
         "file": "CNXH/Chương 3. Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội.txt",
         "icon": "🏛️"
+      },
+      {
+        "id": "cnxh-ch4-p1",
+        "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 1)",
+        "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1)",
+        "file": "CNXH/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1).txt",
+        "icon": "📜"
+      },
+      {
+        "id": "cnxh-ch4-p2",
+        "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 2)",
+        "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2)",
+        "file": "CNXH/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2).txt",
+        "icon": "📜"
       }
     ]
   }
