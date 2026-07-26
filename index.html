@@ -153,13 +153,14 @@
             font-size: 0.85rem;
             color: var(--primary);
             transition: transform 0.3s ease;
-            width: 20px;
-            height: 20px;
+            width: 24px;
+            height: 24px;
             display: flex;
             align-items: center;
             justify-content: center;
             background: rgba(99, 102, 241, 0.1);
             border-radius: 50%;
+            flex-shrink: 0;
         }
 
         .subject-accordion-item.collapsed .accordion-arrow {
@@ -182,13 +183,28 @@
         }
 
         .subject-actions-bar {
-            padding: 12px 20px;
+            padding: 14px 20px;
             background: #f8fafc;
             border-bottom: 1px dashed var(--border-color);
             display: flex;
-            gap: 10px;
+            gap: 12px;
             flex-wrap: wrap;
             align-items: center;
+            justify-content: space-between;
+        }
+
+        .subject-actions-left {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .subject-actions-right {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
         .subject-content-body {
@@ -204,35 +220,43 @@
             display: none;
         }
 
-        /* Preset Quiz Selector Cards */
-        .preset-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 12px;
+        /* Preset Quiz Selector LIST (Vertical Rows) */
+        .preset-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
         .preset-card {
             display: flex;
-            align-items: flex-start;
-            gap: 12px;
-            padding: 14px;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 14px 18px;
             border: 1px solid var(--border-color);
             border-radius: var(--radius-md);
             cursor: pointer;
             background: #ffffff;
             transition: all 0.2s ease;
-            position: relative;
         }
 
         .preset-card:hover {
             border-color: var(--primary);
             background: var(--primary-bg);
-            transform: translateY(-2px);
+            transform: translateX(4px);
             box-shadow: var(--shadow-md);
         }
 
+        .preset-card-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            min-width: 0;
+            flex: 1;
+        }
+
         .preset-card.mock-exam-card {
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(67, 56, 202, 0.08) 100%);
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.04) 0%, rgba(67, 56, 202, 0.08) 100%);
             border: 2px dashed var(--primary-light);
         }
 
@@ -254,28 +278,49 @@
             flex-shrink: 0;
         }
 
+        .preset-info {
+            min-width: 0;
+        }
+
         .preset-title {
             font-weight: 700;
-            font-size: 0.95rem;
+            font-size: 0.98rem;
             color: var(--text-light);
-            margin-bottom: 3px;
+            margin-bottom: 2px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .preset-desc {
-            font-size: 0.82rem;
+            font-size: 0.84rem;
             color: var(--text-muted);
             line-height: 1.35;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .preset-card-right {
+            flex-shrink: 0;
         }
 
         .preset-badge {
-            margin-top: 6px;
-            display: inline-block;
-            font-size: 0.74rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.8rem;
             font-weight: 700;
             color: var(--primary);
-            background: rgba(99, 102, 241, 0.1);
-            padding: 2px 8px;
-            border-radius: 4px;
+            background: rgba(99, 102, 241, 0.08);
+            padding: 6px 14px;
+            border-radius: 50px;
+            transition: all 0.2s ease;
+        }
+
+        .preset-card:hover .preset-badge {
+            background: var(--primary);
+            color: #ffffff;
         }
 
         .preset-badge.mock-badge {
@@ -305,7 +350,7 @@
             background: #ffffff;
             border-radius: var(--radius-lg);
             padding: 24px;
-            max-width: 520px;
+            max-width: 500px;
             width: 100%;
             box-shadow: var(--shadow-lg);
             border: 1px solid var(--border-color);
@@ -498,11 +543,11 @@
         }
 
         button {
-            padding: 10px 20px;
+            padding: 8px 16px;
             border: none;
             border-radius: var(--radius-sm);
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             font-family: var(--font-sans);
             cursor: pointer;
             transition: all 0.2s ease;
@@ -510,7 +555,7 @@
             align-items: center;
             justify-content: center;
             gap: 6px;
-            min-height: 42px;
+            min-height: 38px;
             -webkit-tap-highlight-color: transparent;
         }
 
@@ -529,13 +574,14 @@
         }
 
         .btn-secondary { 
-            background-color: #f1f5f9; 
+            background-color: #ffffff; 
             color: #475569; 
             border: 1px solid var(--border-color);
         }
         .btn-secondary:hover { 
-            background-color: #e2e8f0; 
+            background-color: #f8fafc; 
             color: var(--text-light);
+            border-color: #cbd5e1;
             transform: translateY(-1px);
         }
 
@@ -1179,6 +1225,26 @@
             .quiz-sidebar.drawer-expanded .sidebar-expandable-content {
                 display: block;
             }
+
+            .preset-card {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .preset-card-right {
+                width: 100%;
+            }
+
+            .preset-card-right .preset-badge {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .subject-actions-bar {
+                flex-direction: column;
+                align-items: stretch;
+            }
         }
 
         @media (min-width: 993px) {
@@ -1334,6 +1400,19 @@
         </div>
     </div>
 
+    <!-- Custom HTML Confirmation Modal -->
+    <div class="modal-overlay hidden" id="custom-confirm-modal">
+        <div class="modal-card" style="max-width: 420px; text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 8px;">⚠️</div>
+            <div class="modal-title" style="justify-content: center; margin-bottom: 8px;" id="confirm-modal-title">Xác nhận thao tác</div>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 20px;" id="confirm-modal-msg">Bạn có chắc chắn muốn thực hiện hành động này?</p>
+            <div class="btn-container" style="justify-content: center;">
+                <button class="btn-secondary" onclick="closeConfirmModal(false)">Hủy bỏ</button>
+                <button class="btn-danger" id="confirm-modal-action-btn" onclick="closeConfirmModal(true)">Đồng ý xóa</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Quiz Main App Area (Hidden initially) -->
     <div id="quiz-app" class="hidden">
         <!-- Top Action Bar inside Quiz View -->
@@ -1446,8 +1525,11 @@
     let selectedMockTime = 15; // default 15 mins
     let selectedMockMode = 'submit';
 
-    // Accordion state
-    let accordionStates = { cnxh: true, gdh: false };
+    // Accordion state (ALL COLLAPSED BY DEFAULT)
+    let accordionStates = { cnxh: false, gdh: false };
+
+    // Confirm Modal callback handler
+    let confirmModalCallback = null;
 
     // Preset Quizzes List fallback
     const defaultCategories = [
@@ -1502,6 +1584,25 @@ D. Kinh tế chính trị cổ điển Anh`;
     });
 
     /* ========================================================
+       CUSTOM CONFIRMATION MODAL (Replaces Ugly Native Browser Confirm)
+    ======================================================== */
+    function showCustomConfirm(title, message, actionText, callback) {
+        document.getElementById('confirm-modal-title').innerText = title;
+        document.getElementById('confirm-modal-msg').innerText = message;
+        document.getElementById('confirm-modal-action-btn').innerText = actionText || 'Đồng ý';
+        confirmModalCallback = callback;
+        document.getElementById('custom-confirm-modal').classList.remove('hidden');
+    }
+
+    function closeConfirmModal(result) {
+        document.getElementById('custom-confirm-modal').classList.add('hidden');
+        if (confirmModalCallback) {
+            confirmModalCallback(result);
+            confirmModalCallback = null;
+        }
+    }
+
+    /* ========================================================
        LOCALSTORAGE HISTORY & WRONG QUESTIONS PER SUBJECT
     ======================================================== */
     function getStoredHistory() {
@@ -1524,12 +1625,14 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     function clearSubjectHistory(subjectId) {
-        if (confirm("Bạn có chắc muốn xóa lịch sử làm bài môn này?")) {
-            let history = getStoredHistory();
-            history = history.filter(h => h.subjectId !== subjectId);
-            localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(history));
-            updateSubjectStatsUI(subjectId);
-        }
+        showCustomConfirm("Xóa Lịch Sử Làm Bài", "Bạn có chắc chắn muốn xóa tất cả lịch sử làm bài của môn này không?", "Xóa lịch sử", (confirmed) => {
+            if (confirmed) {
+                let history = getStoredHistory();
+                history = history.filter(h => h.subjectId !== subjectId);
+                localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(history));
+                updateSubjectStatsUI(subjectId);
+            }
+        });
     }
 
     function getStoredWrongBank() {
@@ -1565,12 +1668,14 @@ D. Kinh tế chính trị cổ điển Anh`;
     }
 
     function clearSubjectWrongBank(subjectId) {
-        if (confirm("Bạn có chắc muốn xóa kho câu sai của môn này?")) {
-            let bank = getStoredWrongBank();
-            bank = bank.filter(b => b.subjectId !== subjectId);
-            localStorage.setItem(STORAGE_KEY_WRONG, JSON.stringify(bank));
-            updateSubjectStatsUI(subjectId);
-        }
+        showCustomConfirm("Xóa Kho Câu Sai", "Bạn có chắc chắn muốn xóa toàn bộ câu hỏi làm sai đã lưu của môn này?", "Xóa kho câu sai", (confirmed) => {
+            if (confirmed) {
+                let bank = getStoredWrongBank();
+                bank = bank.filter(b => b.subjectId !== subjectId);
+                localStorage.setItem(STORAGE_KEY_WRONG, JSON.stringify(bank));
+                updateSubjectStatsUI(subjectId);
+            }
+        });
     }
 
     function updateSubjectStatsUI(subjectId) {
@@ -1593,18 +1698,20 @@ D. Kinh tế chính trị cổ điển Anh`;
             }
         }
 
-        // Render subject history list if container exists
+        // Render history summary badge in subject toolbar
         const historyList = getStoredHistory().filter(h => h.subjectId === subjectId);
         const historyContainer = document.getElementById(`subject-history-list-${subjectId}`);
         if (historyContainer) {
             if (historyList.length === 0) {
                 historyContainer.innerHTML = `<span style="color: var(--text-muted); font-size: 0.8rem;">Chưa có lịch sử làm bài.</span>`;
             } else {
-                historyContainer.innerHTML = historyList.slice(0, 3).map(item => `
-                    <span style="font-size: 0.8rem; background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 50px;">
-                        <strong>${escapeHTML(item.title)}</strong>: <span style="color: var(--primary); font-weight: 700;">${item.scoreText}</span> (${item.time})
+                const lastResult = historyList[0];
+                historyContainer.innerHTML = `
+                    <span style="font-size: 0.8rem; background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.2); padding: 4px 12px; border-radius: 50px; color: var(--text-light);">
+                        📊 Bài gần nhất: <strong>${escapeHTML(lastResult.title)}</strong> (${lastResult.scoreText})
                     </span>
-                `).join(' ');
+                    <button class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem; min-height: 26px;" onclick="clearSubjectHistory('${subjectId}')">Xóa lịch sử</button>
+                `;
             }
         }
     }
@@ -1668,7 +1775,8 @@ D. Kinh tế chính trị cổ điển Anh`;
 
         data.forEach((group, idx) => {
             const subjectId = group.subjectId || `sub_${idx}`;
-            const isCollapsed = accordionStates[subjectId] === false;
+            // ALL ACCORDIONS COLLAPSED BY DEFAULT
+            const isCollapsed = accordionStates[subjectId] !== true;
 
             const accordionItem = document.createElement('div');
             accordionItem.className = `subject-accordion-item ${isCollapsed ? 'collapsed' : ''}`;
@@ -1698,10 +1806,14 @@ D. Kinh tế chính trị cổ điển Anh`;
                 body.className = 'subject-content-body';
                 body.innerHTML = `
                     <div class="preset-card updating-card">
-                        <div class="preset-icon">🔄</div>
-                        <div>
-                            <div class="preset-title">Nội dung Giáo dục học</div>
-                            <div class="preset-desc">Dữ liệu các chương đang được hệ thống cập nhật và biên soạn...</div>
+                        <div class="preset-card-left">
+                            <div class="preset-icon">🔄</div>
+                            <div class="preset-info">
+                                <div class="preset-title">Nội dung Giáo dục học</div>
+                                <div class="preset-desc">Dữ liệu các chương đang được hệ thống cập nhật và biên soạn...</div>
+                            </div>
+                        </div>
+                        <div class="preset-card-right">
                             <span class="preset-badge updating-badge">🔄 Đang cập nhật dữ liệu</span>
                         </div>
                     </div>
@@ -1712,54 +1824,64 @@ D. Kinh tế chính trị cổ điển Anh`;
                 const actionsBar = document.createElement('div');
                 actionsBar.className = 'subject-actions-bar';
                 actionsBar.innerHTML = `
-                    <button class="btn-danger" style="padding: 6px 14px; font-size: 0.82rem; min-height: 34px;" id="btn-retake-subject-${subjectId}" onclick="startRetakeWrongExamForSubject('${subjectId}', '${escapeHTML(group.category)}')">
-                        🔥 Ôn lại câu sai
-                    </button>
-                    <button class="btn-secondary" style="padding: 6px 12px; font-size: 0.82rem; min-height: 34px;" onclick="clearSubjectWrongBank('${subjectId}')">
-                        Xóa câu sai môn này
-                    </button>
-                    <div id="subject-history-list-${subjectId}" style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;"></div>
+                    <div class="subject-actions-left">
+                        <button class="btn-danger" style="padding: 6px 14px; font-size: 0.82rem; min-height: 34px;" id="btn-retake-subject-${subjectId}" onclick="startRetakeWrongExamForSubject('${subjectId}', '${escapeHTML(group.category)}')">
+                            🔥 Ôn lại câu sai
+                        </button>
+                        <button class="btn-secondary" style="padding: 6px 12px; font-size: 0.82rem; min-height: 34px;" onclick="clearSubjectWrongBank('${subjectId}')">
+                            Xóa kho câu sai
+                        </button>
+                    </div>
+                    <div class="subject-actions-right" id="subject-history-list-${subjectId}"></div>
                 `;
                 accordionItem.appendChild(actionsBar);
 
-                // Body Grid
+                // Body List (Vertical Row Layout instead of grid!)
                 const body = document.createElement('div');
                 body.className = 'subject-content-body';
 
-                const pGrid = document.createElement('div');
-                pGrid.className = 'preset-grid';
+                const pList = document.createElement('div');
+                pList.className = 'preset-list';
 
                 // Mock Exam Card at top
                 const mockCard = document.createElement('div');
                 mockCard.className = 'preset-card mock-exam-card';
                 mockCard.onclick = () => openMockModal(group);
                 mockCard.innerHTML = `
-                    <div class="preset-icon">🎲</div>
-                    <div>
-                        <div class="preset-title">Thi thử Ngẫu nhiên môn này</div>
-                        <div class="preset-desc">Tự chọn số câu, số phút & nộp bài thi thử ngẫu nhiên</div>
-                        <span class="preset-badge mock-badge">⚡ Ngẫu nhiên & Tùy chỉnh</span>
+                    <div class="preset-card-left">
+                        <div class="preset-icon">🎲</div>
+                        <div class="preset-info">
+                            <div class="preset-title">Thi thử Ngẫu nhiên môn này</div>
+                            <div class="preset-desc">Tự chọn số câu, số phút & nộp bài thi thử ngẫu nhiên</div>
+                        </div>
+                    </div>
+                    <div class="preset-card-right">
+                        <span class="preset-badge mock-badge">⚡ Ngẫu nhiên & Tùy chỉnh ▶</span>
                     </div>
                 `;
-                pGrid.appendChild(mockCard);
+                pList.appendChild(mockCard);
 
-                // Individual Chapter Cards
+                // Individual Chapter Cards in vertical list
                 group.quizzes.forEach(p => {
                     const card = document.createElement('div');
                     card.className = 'preset-card';
                     card.onclick = () => openStartQuizModal(p.file, p.title, subjectId);
                     card.innerHTML = `
-                        <div class="preset-icon">${p.icon || '📝'}</div>
-                        <div>
-                            <div class="preset-title">${escapeHTML(p.title)}</div>
-                            <div class="preset-desc">${escapeHTML(p.description)}</div>
-                            <span class="preset-badge">Bấm để chọn bài này</span>
+                        <div class="preset-card-left">
+                            <div class="preset-icon">${p.icon || '📝'}</div>
+                            <div class="preset-info">
+                                <div class="preset-title">${escapeHTML(p.title)}</div>
+                                <div class="preset-desc">${escapeHTML(p.description)}</div>
+                            </div>
+                        </div>
+                        <div class="preset-card-right">
+                            <span class="preset-badge">Chọn bài ▶</span>
                         </div>
                     `;
-                    pGrid.appendChild(card);
+                    pList.appendChild(card);
                 });
 
-                body.appendChild(pGrid);
+                body.appendChild(pList);
                 accordionItem.appendChild(body);
             }
 
@@ -2383,10 +2505,16 @@ D. Kinh tế chính trị cổ điển Anh`;
 
         const unansweredCount = currentQuestions.filter(q => q.userAnswers.length === 0).length;
         if (unansweredCount > 0 && totalSecondsLeft > 0) {
-            const confirmSubmit = confirm(`Bạn còn ${unansweredCount} câu chưa trả lời. Bạn có chắc chắn muốn nộp bài?`);
-            if (!confirmSubmit) return;
+            showCustomConfirm("Nộp Bài Thi", `Bạn còn ${unansweredCount} câu chưa trả lời. Bạn có chắc chắn muốn nộp bài?`, "Nộp bài ngay", (confirmed) => {
+                if (confirmed) executeSubmitQuiz();
+            });
+            return;
         }
 
+        executeSubmitQuiz();
+    }
+
+    function executeSubmitQuiz() {
         currentQuestions.forEach(q => {
             if (!q.isGraded) {
                 gradeIndividualQuestion(q.id);
