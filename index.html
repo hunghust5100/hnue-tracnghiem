@@ -63,6 +63,7 @@
             margin-bottom: 32px;
             padding-bottom: 20px;
             border-bottom: 1px solid var(--border-color);
+            position: relative;
         }
 
         header h1 {
@@ -74,12 +75,35 @@
             background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            cursor: pointer;
         }
 
         header p {
             color: var(--text-muted);
             font-size: 1rem;
             font-weight: 500;
+        }
+
+        /* Top Action Bar in Quiz Mode */
+        .quiz-top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 12px 20px;
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-md);
+        }
+
+        .quiz-top-title {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
         /* Config Card */
@@ -939,13 +963,13 @@
 
 <div class="container">
     <header>
-        <h1>Trắc nghiệm CNXH Khoa Học - HNUE</h1>
+        <h1 onclick="backToConfig()">Trắc nghiệm CNXH Khoa Học - HNUE</h1>
         <p>Hệ thống ôn tập và làm bài trắc nghiệm Môn Chủ nghĩa Xã hội Khoa học</p>
     </header>
 
-    <!-- Config Card -->
+    <!-- Config Card (Homepage) -->
     <div class="card" id="input-card">
-        <div class="card-title">Cấu hình đề bài</div>
+        <div class="card-title">Cấu hình & Chọn đề trắc nghiệm</div>
         
         <!-- Preset Quizzes Gallery (Grouped by Category) -->
         <div id="preset-categories-container"></div>
@@ -992,6 +1016,16 @@
 
     <!-- Quiz Main App Area (Hidden initially) -->
     <div id="quiz-app" class="hidden">
+        <!-- Top Action Bar inside Quiz View -->
+        <div class="quiz-top-bar">
+            <div class="quiz-top-title">
+                <span id="current-quiz-name">📖 Đề thi trắc nghiệm CNXH</span>
+            </div>
+            <button class="btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;" onclick="backToConfig()">
+                🏠 Trang chủ (Chọn đề khác)
+            </button>
+        </div>
+
         <div class="quiz-layout">
             <!-- Left: Question List & Summary -->
             <div class="quiz-main">
@@ -1056,7 +1090,7 @@
                         <div class="sidebar-actions">
                             <button class="btn-success hidden" id="btn-submit-quiz" onclick="submitQuiz()">✓ Nộp bài & Chấm điểm</button>
                             <button class="btn-secondary" onclick="resetQuiz()">🔄 Làm lại bài này</button>
-                            <button class="btn-secondary" onclick="backToConfig()">⚙️ Cấu hình đề mới</button>
+                            <button class="btn-primary" onclick="backToConfig()">🏠 Trang chủ (Chọn đề khác)</button>
                         </div>
                     </div>
                 </div>
@@ -1095,6 +1129,13 @@
                     "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
                     "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).txt",
                     "icon": "📕"
+                },
+                {
+                    "id": "cnxh-ch3",
+                    "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH",
+                    "description": "Bộ câu hỏi Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội",
+                    "file": "CNXH/Chương 3. Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội.txt",
+                    "icon": "🏛️"
                 }
             ]
         }
@@ -1174,6 +1215,7 @@ D. Kinh tế chính trị cổ điển Anh`;
             const textData = await res.text();
             document.getElementById('text-input').value = textData;
             document.getElementById('file-status').innerText = `📄 Đã tải xong: ${title}`;
+            document.getElementById('current-quiz-name').innerText = `📖 Đề: ${title}`;
             processInput();
         } catch (err) {
             alert("Lỗi khi đọc file đề thi: " + err.message + "\nHãy đảm bảo bạn đang chạy server tĩnh (GitHub Pages / Live Server).");
@@ -1185,6 +1227,7 @@ D. Kinh tế chính trị cổ điển Anh`;
         const file = e.target.files[0];
         if (!file) return;
         document.getElementById('file-status').innerText = `📁 Đang chọn file: ${file.name}`;
+        document.getElementById('current-quiz-name').innerText = `📖 Đề: ${file.name}`;
         const reader = new FileReader();
         reader.onload = function(evt) { document.getElementById('text-input').value = evt.target.result; };
         reader.readAsText(file, 'UTF-8');
@@ -1205,6 +1248,7 @@ D. Kinh tế chính trị cổ điển Anh`;
     function loadSampleText() {
         document.getElementById('text-input').value = sampleQuizText;
         document.getElementById('file-status').innerText = "📄 Đã tải cấu trúc đề mẫu thành công";
+        document.getElementById('current-quiz-name').innerText = "📖 Đề mẫu thử nghiệm";
     }
 
     function clearInput() {
