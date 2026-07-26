@@ -1,12 +1,26 @@
 [
   {
-    "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH)",
+    "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
     "quizzes": [
       {
         "id": "cnxh-ch1",
-        "title": "Chương 1: Nhập môn CNXH Khoa Học",
-        "description": "Bộ trắc nghiệm Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin (56 câu hỏi)",
-        "file": "CNXH/Chương 1. Nhập môn CNXH Khoa Học.txt",
+        "title": "Chương 1: Nhập môn CNXH Khoa học",
+        "description": "Bộ câu hỏi Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin",
+        "file": "CNXH/Chương 1. Nhập môn Chủ nghĩa xã hội Khoa học.txt",
+        "icon": "📘"
+      },
+      {
+        "id": "cnxh-ch2-p1",
+        "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
+        "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
+        "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 1).txt",
+        "icon": "📕"
+      },
+      {
+        "id": "cnxh-ch2-p2",
+        "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
+        "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
+        "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).txt",
         "icon": "📕"
       }
     ]

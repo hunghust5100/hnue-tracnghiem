@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hệ thống Trắc nghiệm CNXH Khoa Học</title>
+    <title>Trắc nghiệm CNXH Khoa Học - HNUE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -939,7 +939,7 @@
 
 <div class="container">
     <header>
-        <h1>Trắc nghiệm CNXH Khoa Học</h1>
+        <h1>Trắc nghiệm CNXH Khoa Học - HNUE</h1>
         <p>Hệ thống ôn tập và làm bài trắc nghiệm Môn Chủ nghĩa Xã hội Khoa học</p>
     </header>
 
@@ -1073,13 +1073,27 @@
     // Preset Quizzes List fallback
     const defaultCategories = [
         {
-            "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH)",
+            "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
             "quizzes": [
                 {
                     "id": "cnxh-ch1",
-                    "title": "Chương 1: Nhập môn CNXH Khoa Học",
-                    "description": "Bộ trắc nghiệm Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin (56 câu hỏi)",
-                    "file": "CNXH/Chương 1. Nhập môn CNXH Khoa Học.txt",
+                    "title": "Chương 1: Nhập môn CNXH Khoa học",
+                    "description": "Bộ câu hỏi Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin",
+                    "file": "CNXH/Chương 1. Nhập môn Chủ nghĩa xã hội Khoa học.txt",
+                    "icon": "📘"
+                },
+                {
+                    "id": "cnxh-ch2-p1",
+                    "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
+                    "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
+                    "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 1).txt",
+                    "icon": "📕"
+                },
+                {
+                    "id": "cnxh-ch2-p2",
+                    "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
+                    "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
+                    "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).txt",
                     "icon": "📕"
                 }
             ]
@@ -1093,12 +1107,11 @@ C. Kinh tế chính trị Mác – Lênin
 D. Chủ nghĩa xã hội không tưởng
 Giải thích: Chủ nghĩa Mác – Lênin được tạo thành từ ba bộ phận lý luận cấu thành thống nhất: Triết học Mác – Lênin, Kinh tế chính trị Mác – Lênin và Chủ nghĩa xã hội khoa học.
 
-Câu 2: Các máy chủ HTTP 1.0 duy trì kết nối với client như thế nào?
-*A. Bằng kết nối TCP
-B. Bằng kết nối UDP
-*C. Qua mỗi chu trình gửi/nhận yêu cầu và phản hồi HTTP
-D. Qua mỗi lần tải trang web
-Giải thích: Với phiên bản HTTP 1.0 mặc định, cơ chế kết nối là ngắn hạn (Non-persistent).`;
+Câu 2: Sản xuất đại công nghiệp là tiền đề kinh tế - xã hội cho sự ra đời của:
+*A. Chủ nghĩa Mác
+B. Triết học cổ điển Đức
+C. Chủ nghĩa xã hội không tưởng
+D. Kinh tế chính trị cổ điển Anh`;
 
     // Load available preset quizzes on startup
     document.addEventListener('DOMContentLoaded', () => {
