@@ -62,20 +62,62 @@
         header {
             text-align: center;
             margin-bottom: 24px;
-            padding-bottom: 16px;
-            border-bottom: 1px solid var(--border-color);
+            padding: 24px 20px;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 50%, #e0e7ff 100%);
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(99, 102, 241, 0.15);
+            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.08);
             position: relative;
+            overflow: hidden;
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 6px;
+            flex-wrap: wrap;
+        }
+
+        .header-logo {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 10px rgba(99, 102, 241, 0.25));
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .header-logo:hover {
+            transform: scale(1.08) rotate(3deg);
+        }
+
+        .header-text-group {
+            text-align: left;
+        }
+
+        .header-univ-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            color: var(--primary);
+            background: rgba(99, 102, 241, 0.1);
+            padding: 2px 10px;
+            border-radius: 50px;
+            margin-bottom: 4px;
+            text-transform: uppercase;
         }
 
         header h1 {
-            color: var(--text-light);
-            font-size: 2rem;
-            font-weight: 800;
-            letter-spacing: -0.5px;
-            margin-bottom: 6px;
-            background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+            font-size: 2.1rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--primary) 0%, #4338ca 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1.2;
             cursor: pointer;
         }
 
@@ -83,6 +125,125 @@
             color: var(--text-muted);
             font-size: 0.95rem;
             font-weight: 500;
+            margin-top: 6px;
+        }
+
+        /* ========================================================
+           FOOTER & DONATION SECTION
+        ======================================================== */
+        .site-footer {
+            margin-top: 40px;
+            margin-bottom: 30px;
+            padding: 24px;
+            background: linear-gradient(135deg, #ffffff 0%, #faf5ff 50%, #f3e8ff 100%);
+            border: 1px solid rgba(168, 85, 247, 0.2);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.08);
+        }
+
+        .donation-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .donation-info {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .donation-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #7e22ce;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .donation-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
+        .bank-details-box {
+            background: #ffffff;
+            border: 1px solid #e9d5ff;
+            border-radius: var(--radius-md);
+            padding: 14px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            box-shadow: 0 2px 8px rgba(126, 34, 206, 0.05);
+        }
+
+        .bank-detail-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.9rem;
+        }
+
+        .bank-detail-label {
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .bank-detail-value {
+            font-weight: 800;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-copy-acc {
+            background: rgba(168, 85, 247, 0.1);
+            color: #7e22ce;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 3px 10px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-copy-acc:hover {
+            background: #7e22ce;
+            color: #ffffff;
+        }
+
+        .donation-qr-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+
+        .donation-qr-img {
+            width: 170px;
+            height: auto;
+            border-radius: var(--radius-md);
+            border: 2px solid #e9d5ff;
+            box-shadow: 0 4px 15px rgba(126, 34, 206, 0.12);
+            transition: transform 0.3s ease;
+        }
+
+        .donation-qr-img:hover {
+            transform: scale(1.04);
+        }
+
+        .donation-qr-caption {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: #7e22ce;
         }
 
         /* Config Card */
@@ -1679,7 +1840,13 @@
 
 <div class="container">
     <header>
-        <h1 onclick="backToConfig()">Trắc nghiệm HNUE</h1>
+        <div class="header-brand">
+            <img src="hnue-logo.png" alt="Logo Trường Đại học Sư phạm Hà Nội" class="header-logo" onclick="backToConfig()">
+            <div class="header-text-group">
+                <span class="header-univ-tag">🎓 Trường Đại học Sư phạm Hà Nội - HNUE</span>
+                <h1 onclick="backToConfig()">Trắc nghiệm HNUE</h1>
+            </div>
+        </div>
         <p>Hệ thống Ôn tập & Thi thử Trắc nghiệm Thông minh</p>
     </header>
 
@@ -1948,11 +2115,50 @@
                     </div>
                 </div>
             </div>
+    <!-- Site Footer with Author Donation & VietQR -->
+    <footer class="site-footer">
+        <div class="donation-card">
+            <div class="donation-info">
+                <div class="donation-title">💖 Ủng hộ tác giả tiền học lại</div>
+                <div class="donation-desc">
+                    Mọi sự ủng hộ của bạn là nguồn động lực rất lớn giúp tác giả hoàn thiện và duy trì hệ thống ôn tập trắc nghiệm thông minh ngày một tốt hơn!
+                </div>
+                
+                <div class="bank-details-box">
+                    <div class="bank-detail-row">
+                        <span class="bank-detail-label">Chủ tài khoản:</span>
+                        <span class="bank-detail-value">NGUYỄN KHÁNH HƯNG</span>
+                    </div>
+                    <div class="bank-detail-row">
+                        <span class="bank-detail-label">Số tài khoản:</span>
+                        <span class="bank-detail-value">
+                            <span id="stk-val" style="letter-spacing: 0.5px;">52403022005</span>
+                            <button class="btn-copy-acc" onclick="copySTK()">📋 Sao chép</button>
+                        </span>
+                    </div>
+                    <div class="bank-detail-row">
+                        <span class="bank-detail-label">Ngân hàng:</span>
+                        <span class="bank-detail-value" style="color: #7e22ce;">TPBank (Tiên Phong Bank)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="donation-qr-container">
+                <img src="vietqr-tpbank.png" alt="VietQR TPBank Nguyễn Khánh Hưng" class="donation-qr-img">
+                <span class="donation-qr-caption">⚡ Quét VietQR để ủng hộ</span>
+            </div>
         </div>
-    </div>
+    </footer>
 </div>
 
 <script>
+    function copySTK() {
+        navigator.clipboard.writeText("52403022005").then(() => {
+            alert("📋 Đã sao chép số tài khoản: 52403022005 (TPBank - NGUYỄN KHÁNH HƯNG)");
+        }).catch(() => {
+            alert("Số tài khoản: 52403022005 (TPBank - NGUYỄN KHÁNH HƯNG)");
+        });
+    }
     let currentQuestions = [];
     let currentQuizMode = 'instant'; // 'instant' or 'submit' (default to instant)
     let isQuizSubmitted = false;
