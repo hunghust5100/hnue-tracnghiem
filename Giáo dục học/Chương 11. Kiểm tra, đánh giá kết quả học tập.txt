@@ -1,0 +1,599 @@
+Câu 1: Sự phân biệt giữa hai khái niệm "Kiểm tra" và "Đánh giá kết quả học tập" được hiểu ĐÚNG nhất là gì?
+
+A. Kiểm tra là cho điểm số, còn Đánh giá là đọc đáp án cho học sinh chép.
+
+*B. Kiểm tra là quá trình THU THẬP thông tin về kết quả học tập của học sinh; còn Đánh giá là quá trình XỬ LÝ thông tin đó để so sánh với mục tiêu, làm cơ sở đưa ra các quyết định sư phạm.
+
+C. Kiểm tra dành cho học sinh giỏi, Đánh giá dành cho học sinh yếu.
+
+D. Kiểm tra và Đánh giá là hai khái niệm hoàn toàn độc lập không liên quan gì đến nhau.
+
+Giải thích: Kiểm tra là công đoạn thu thập dữ liệu thông tin; Đánh giá là công đoạn xử lý, phân tích thông tin so với chuẩn mục tiêu để đưa ra quyết định sư phạm phù hợp.
+
+Câu 2: Mối quan hệ giữa "Kiểm tra" và "Đánh giá" trong quá trình dạy học được khẳng định là:
+
+*A. Kiểm tra là tiền đề, cung cấp cơ sở dữ liệu cho Đánh giá; Đánh giá là mục đích của Kiểm tra.
+
+B. Đánh giá có trước, Kiểm tra có sau.
+
+C. Kiểm tra làm giảm tính chính xác của Đánh giá.
+
+D. Đánh giá phủ định toàn bộ kết quả Kiểm tra.
+
+Giải thích: Kiểm tra và Đánh giá gắn bó hữu cơ: Kiểm tra là để đánh giá, và đánh giá phải dựa trên thông tin thu thập được từ kiểm tra.
+
+Câu 3: Ba chức năng cơ bản của Kiểm tra - Đánh giá kết quả học tập bao gồm:
+
+A. Chức năng khen thưởng, Chức năng xử phạt, Chức năng phân loại giàu nghèo.
+
+*B. Chức năng ĐỊNH HƯỚNG, Chức năng CHẨN ĐOÁN, Chức năng XÁC NHẬN.
+
+C. Chức năng lý thuyết, Chức năng thực hành, Chức năng ngoại khóa.
+
+D. Chức năng đầu năm, Chức năng giữa năm, Chức năng cuối năm.
+
+Giải thích: Giáo trình xác định 3 chức năng cốt lõi của kiểm tra đánh giá: Định hướng (dự báo/phân luồng), Chẩn đoán (phát hiện lỗ hổng tri thức để hỗ trợ), và Xác nhận (công nhận hoàn thành chương trình/cấp bằng).
+
+Câu 4: Chức năng "ĐỊNH HƯỚNG" của kiểm tra - đánh giá thường được thực hiện ở thời điểm nào và có tác dụng gì?
+
+*A. Thực hiện ở giai đoạn đầu (đầu năm/đầu khóa học); có tác dụng dự báo khả năng học tập, phát hiện điểm mạnh/yếu để chọn cách dạy và cách học phù hợp.
+
+B. Thực hiện sau khi học sinh đã tốt nghiệp ra trường.
+
+C. Chỉ thực hiện khi học sinh vi phạm kỷ luật.
+
+D. Thực hiện vào cuối tiết học để cho điểm số chính thức.
+
+Giải thích: Chức năng định hướng diễn ra ở giai đoạn trước (ôn tập/thử sức đầu năm) nhằm dự báo năng lực, nhận diện điểm mạnh/yếu để định hướng con đường học tập thích hợp.
+
+Câu 5: Chức năng "CHẨN ĐOÁN" của kiểm tra - đánh giá đóng vai trò gì trong tiến trình dạy học?
+
+A. Xác định xem học sinh có đủ điều kiện nhận bằng tốt nghiệp hay không.
+
+*B. Cung cấp tín hiệu ngược thường xuyên giúp phát hiện kịp thời các thiếu sót, lỗ hổng tri thức để học sinh tự điều chỉnh cách học và giáo viên điều chỉnh cách dạy.
+
+C. Xếp loại thi đua khen thưởng cuối năm học.
+
+D. Phạt học sinh không thuộc bài cũ.
+
+Giải thích: Chẩn đoán mang tính hỗ trợ học tập liên tục, cung cấp thông tin phản hồi giúp phát hiện điểm yếu để khắc phục và nâng cao chất lượng tri thức.
+
+Câu 6: Chức năng "XÁC NHẬN" của kiểm tra - đánh giá mang ý nghĩa xã hội quan trọng nào?
+
+*A. Cung cấp số liệu chính thức công nhận hoặc bác bỏ sự hoàn thành chương trình, môn học để cấp chứng chỉ, bằng cấp hoặc cho lên lớp.
+
+B. Giúp giáo viên quản lý trật tự lớp học hàng ngày.
+
+C. Dùng để gửi thông báo nộp học phí cho gia đình.
+
+D. Định hướng nghề nghiệp cho học sinh tiểu học.
+
+Giải thích: Đánh giá xác nhận diễn ra sau một giai đoạn học tập (cuối kỳ/cuối khóa), có ý nghĩa pháp lý và xã hội lớn trong việc công nhận trình độ học vấn, cấp văn bằng chứng chỉ.
+
+Câu 7: Khái niệm "Ý nghĩa thông tin ngược" của kiểm tra - đánh giá đối với GIÁO VIÊN được hiểu là:
+
+*A. Giúp giáo viên nắm được thực trạng chất lượng học tập của học sinh và nguyên nhân, làm cơ sở thực tế để điều chỉnh và hoàn thiện phương pháp dạy.
+
+B. Giúp giáo viên biết được thái độ của phụ huynh đối với nhà trường.
+
+C. Giúp giáo viên thống kê số lượng sổ điểm cần mua.
+
+D. Giúp giáo viên cắt giảm thời lượng giảng dạy trên lớp.
+
+Giải thích: Tín hiệu ngược từ kiểm tra đánh giá soi sáng thực trạng tiếp thu của trò, giúp thầy nhận ra điểm chưa phù hợp trong phương pháp dạy để kịp thời điều chỉnh.
+
+Câu 8: Ba dạng kiểm tra kết quả học tập phổ biến trong nhà trường phổ thông bao gồm:
+
+A. Kiểm tra sáng, Kiểm tra chiều, Kiểm tra tối.
+
+*B. Kiểm tra HÀNG NGÀY (thường xuyên); Kiểm tra ĐỊNH KỲ; Kiểm tra TỔNG KẾT.
+
+C. Kiểm tra dễ, Kiểm tra trung bình, Kiểm tra khó.
+
+D. Kiểm tra cá nhân, Kiểm tra gia đình, Kiểm tra xã hội.
+
+Giải thích: Căn cứ vào tiến trình thời gian và mục đích, kiểm tra chia thành: Kiểm tra thường xuyên hàng ngày, Kiểm tra định kỳ (sau một chương/kỳ) và Kiểm tra tổng kết (cuối năm/cuối khóa/thi).
+
+Câu 9: Ưu điểm nổi bật nhất của "Phương pháp kiểm tra VẤN ĐÁP" (kiểm tra miệng) là gì?
+
+*A. Giáo viên tiếp xúc trực tiếp với học sinh, đánh giá được thái độ, kiểm tra được chiều sâu tư duy và phát hiện ra các năng lực hoặc khó khăn đặc biệt của cá nhân.
+
+B. Đánh giá số lượng lớn 100 học sinh cùng một lúc trong 5 phút.
+
+C. Đảm bảo tính khách quan tuyệt đối không phụ thuộc cảm xúc người chấm.
+
+D. Bao quát trọn vẹn toàn bộ 100% kiến thức của chương trình học.
+
+Giải thích: Vấn đáp cho phép đối thoại trực tiếp hai chiều, giúp thầy đánh giá thái độ, chiều sâu lập luận ngôn ngữ nói và phát hiện năng lực/lỗ hổng riêng của từng trò.
+
+Câu 10: Nhược điểm lớn nhất của phương pháp Kiểm tra vấn đáp là gì?
+
+A. Học sinh không được nói chuyện trong khi thi.
+
+*B. Số lượng câu hỏi ít nên khó bao quát chương trình; tốn nhiều thời gian và kết quả dễ bị ảnh hưởng bởi yếu tố chủ quan của người chấm.
+
+C. Không dùng được cho các môn khoa học xã hội.
+
+D. Giáo viên không cần có mặt trong giờ kiểm tra.
+
+Giải thích: Kiểm tra miệng tốn thời gian, số lượng câu hỏi hạn chế không đại diện hết chương trình và điểm số dễ chịu ảnh hưởng bởi tâm lý chủ quan của thầy.
+
+Câu 11: Yêu cầu sư phạm nào sau đây KHÔNG BẮT BUỘC khi tiến hành kiểm tra Vấn đáp?
+
+A. Câu hỏi chính xác, rõ ràng, diễn đạt đúng ngữ pháp.
+
+B. Giáo viên chăm chú lắng nghe, bình tĩnh, tránh cắt ngang câu trả lời khi không cần thiết.
+
+*C. Bắt buộc học sinh phải đọc thuộc lòng nguyên văn sách giáo khoa không sai một từ.
+
+D. Nên có từ 2 giáo viên trở lên tham gia đánh giá trong các kỳ thi lớn để đảm bảo khách quan.
+
+Giải thích: Kiểm tra vấn đáp khuyến khích học sinh diễn đạt bằng ngôn ngữ và tư duy bản thân, không ép thuộc lòng máy móc từng từ trong SGK.
+
+Câu 12: Hai dạng bài kiểm tra viết TỰ LUẬN bao gồm:
+
+*A. Bài tự luận trả lời MỞ RỘNG VÀ Bài tự luận trả lời CÓ GIỚI HẠN.
+
+B. Bài tự luận ngắn VÀ Bài tự luận trắc nghiệm.
+
+C. Bài tự luận đúng sai VÀ Bài tự luận điền từ.
+
+D. Bài tự luận lý thuyết VÀ Bài tự luận thực hành.
+
+Giải thích: Tự luận gồm dạng mở rộng (khái quát rộng, tự do biểu đạt tư tưởng) và dạng có giới hạn (quy định phạm vi/độ dài cụ thể, chấm dễ hơn, độ tin cậy cao hơn).
+
+Câu 13: Ưu điểm nổi bật nhất của bài kiểm tra viết TỰ LUẬN là gì?
+
+*A. Đo lường tốt các mức độ tư duy cao (hiểu, tổng hợp, đánh giá), bộc lộ khả năng suy luận, sắp xếp dữ kiện, tư duy phê phán và diễn đạt ngôn ngữ viết.
+
+B. Chấm điểm cực kỳ nhanh chóng bằng máy chấm thi.
+
+C. Bao quát trọn vẹn 100% toàn bộ kiến thức chương trình.
+
+D. Loại bỏ hoàn toàn sự gian lận của học sinh.
+
+Giải thích: Bài tự luận giúp học sinh bộc lộ tư duy logic, năng lực phân tích tổng hợp, đánh giá phê phán và kỹ năng trình bày lập luận bằng văn viết.
+
+Câu 14: Hạn chế lớn nhất của phương pháp kiểm tra VIẾT TỰ LUẬN là:
+
+A. Học sinh không được sử dụng bút viết.
+
+*B. Số lượng câu hỏi ít nên khó bao quát nội dung chương trình; việc chấm điểm tốn nhiều thời gian và độ tin cậy không cao do phụ thuộc chủ quan người chấm.
+
+C. Không kiểm tra được số đông học sinh cùng lúc.
+
+D. Quá trình biên soạn đề thi cực kỳ phức tạp tốn hàng tháng trời.
+
+Giải thích: Tự luận có số câu hỏi ít nên diện bao quát hẹp, chấm bài lâu và điểm số dễ dao động theo tâm lý/quan điểm chủ quan của người chấm.
+
+Câu 15: Để đảm bảo tính khách quan khi chấm bài kiểm tra TỰ LUẬN, giáo viên cần tuân thủ biện pháp nào?
+
+*A. Xây dựng thang điểm/đáp án chi tiết chuẩn xác; chấm rọc rọc rọc rọc rọc rọc rọc rọc rọc rọc rọc rọc rọc rọc phông (rọc rọc rọc rọc rọc phông không biết tên học sinh/lớp); chấm độc lập giữa những người chấm.
+
+B. Nhìn tên học sinh giỏi để cho điểm cao ngay.
+
+C. Chấm lướt qua qua và cho điểm theo cảm xúc vui buồn.
+
+D. Cho học sinh tự chấm bài của mình rồi nộp sổ điểm.
+
+Giải thích: Chấm tự luận khách quan đòi hỏi đáp án biểu điểm chi tiết, rọc phách ẩn tên học sinh và chấm độc lập 2 giám khảo trong các kỳ thi lớn.
+
+Câu 16: Phương pháp TRẮC NGHIỆM KHÁCH QUAN (TNKQ) bao gồm 4 loại câu hỏi thông dụng là:
+
+A. Câu văn xuôi, Câu thơ, Câu ca dao, Câu tục ngữ.
+
+*B. Loại nhiều lựa chọn (MCQ); Loại Đúng - Sai; Loại Điền vào chỗ trống; Loại Ghép đôi.
+
+C. Câu lý thuyết, Câu bài tập, Câu hình vẽ, Câu sơ đồ.
+
+D. Câu dễ, Câu trung bình, Câu khó, Câu cực khó.
+
+Giải thích: 4 dạng câu TNKQ phổ biến: Nhiều lựa chọn (MCQ), Đúng - Sai, Điền chỗ trống và Ghép đôi hai dãy thông tin.
+
+Câu 17: Cấu trúc của một câu trắc nghiệm NHIỀU LỰA CHỌN (MCQ) bao gồm hai phần chính là:
+
+*A. Phần CÂU DẪN (câu hỏi hoặc câu bỏ lửng) VÀ Phần LỰA CHỌN (gồm 1 phương án đúng và các phương án nhiễu).
+
+B. Phần Mở bài VÀ Phần Kết bài.
+
+C. Phần Lý thuyết VÀ Phần Thực hành.
+
+D. Phần Đáp án VÀ Phần Điểm số.
+
+Giải thích: Câu MCQ gồm phần Câu dẫn (đặt vấn đề) và phần Phương án lựa chọn (gồm đáp án đúng/đúng nhất và các phương án nhiễu có tính hấp dẫn).
+
+Câu 18: Ưu điểm nổi bật nhất của kiểm tra bằng TRẮC NGHIỆM KHÁCH QUAN là gì?
+
+*A. Bao quát nội dung kiến thức rộng đại diện cho chương trình, tính khách quan và độ tin cậy cao, chấm điểm nhanh chóng, hạn chế học tủ và gian lận.
+
+B. Rèn luyện xuất sắc kỹ năng diễn đạt văn viết bay bổng.
+
+C. Giúp giáo viên không cần biên soạn đề thi.
+
+D. Đo lường hoàn hảo tư duy độc tạo ý tưởng mới của học sinh.
+
+Giải thích: TNKQ phủ rộng kiến thức, tiêu chí đánh giá minh bạch, chấm điểm bằng máy nhanh gọn, khách quan và ngăn ngừa học tủ.
+
+Câu 19: Hạn chế lớn nhất của phương pháp Trắc nghiệm khách quan là:
+
+A. Tốn nhiều thời gian chấm bài thủ công.
+
+*B. Khó đo lường khả năng diễn đạt ngôn ngữ, tư duy trình bày sắp xếp ý tưởng mới; quá trình biên soạn thử nghiệm câu hỏi khó và tốn nhiều công sức.
+
+C. Không thể kiểm tra trên diện rộng.
+
+D. Điểm số bị ảnh hưởng bởi tâm lý chủ quan người chấm.
+
+Giải thích: TNKQ khó đo lường năng lực trình bày lập luận văn viết, khả năng phát kiến ý tưởng mới và đòi hỏi quy trình biên soạn ma trận/câu hỏi rất công phu.
+
+Câu 20: Phương pháp KIỂM TRA THỰC HÀNH nhằm mục đích cốt lõi nào?
+
+*A. Đánh giá kỹ năng thao tác thực tiễn (cách thức tiến hành) và chất lượng sản phẩm thực tế của học sinh, khắc phục tình trạng học lý luận xa rời thực tiễn.
+
+B. Đánh giá khả năng học thuộc lòng bài giảng.
+
+C. Đánh giá tốc độ đọc sách của học sinh.
+
+D. Đánh giá khả năng vẽ tranh nghệ thuật của giáo viên.
+
+Giải thích: Kiểm tra thực hành đo lường kỹ năng thao tác máy móc, thiết bị, thí nghiệm (quy trình) và sản phẩm thực tế, gắn học với hành.
+
+Câu 21: Tiến trình 6 bước chuẩn mực của công tác Kiểm tra - Đánh giá kết quả học tập bao gồm:
+
+*A. Bước 1: Xác định mục đích -> Bước 2: Nghiên cứu mục tiêu/nội dung -> Bước 3: Lựa chọn phương pháp & Xây dựng câu hỏi -> Bước 4: Tổ chức kiểm tra -> Bước 5: Chấm bài -> Bước 6: Rút kinh nghiệm.
+
+B. Bước 1: Ra đề -> Bước 2: Cho điểm -> Bước 3: Xếp loại.
+
+C. Bước 1: Chấm bài -> Bước 2: Coi thi -> Bước 3: Ra đề.
+
+D. Bước 1: Thu bài -> Bước 2: Phát bài -> Bước 3: Đọc điểm.
+
+Giải thích: Quy trình 6 bước chuẩn: Mục đích -> Nghiên cứu mục tiêu/nội dung -> Xây dựng đề/đáp án -> Tổ chức coi thi -> Chấm bài -> Rút kinh nghiệm sư phạm.
+
+Câu 22: Yêu cầu "Đảm bảo TÍNH KHÁCH QUAN" trong kiểm tra - đánh giá đòi hỏi điều gì?
+
+*A. Phản ánh trung thực trình độ học sinh so với chuẩn mục tiêu chương trình, tiêu chí chấm rõ ràng, kết quả không phụ thuộc vào ý muốn chủ quan của người chấm.
+
+B. Cho điểm cao tất cả học sinh để lấy thành tích cho lớp.
+
+C. Chấm bài theo sự quen biết hoặc cảm tình cá nhân.
+
+D. Thay đổi đáp án tùy theo từng học sinh.
+
+Giải thích: Tính khách quan đòi hỏi đo lường trung thực so với chuẩn chương trình, tiêu chí đánh giá rõ ràng minh bạch, không bị định kiến hay cảm xúc cá nhân chi phối.
+
+Câu 23: Yêu cầu "Đảm bảo TÍNH TOÀN DIỆN" trong kiểm tra - đánh giá kết quả học tập đòi hỏi:
+
+*A. Đánh giá đầy đủ cả số lượng (khối lượng tri thức) và chất lượng (kỹ năng vận dụng, tư duy sáng tạo, tinh thần thái độ nỗ lực) theo đúng mục tiêu bài học.
+
+B. Chỉ kiểm tra duy nhất một bài tập khó nhất.
+
+C. Chỉ đánh giá điểm số học thuộc lòng, bỏ qua kỹ năng thực hành.
+
+D. Đánh giá hoàn cảnh kinh tế gia đình học sinh.
+
+Giải thích: Tính toàn diện yêu cầu bao quát đầy đủ các khía cạnh mục tiêu (Kiến thức, Kỹ năng, Thái độ và Năng lực vận dụng), tránh đánh giá phiến diện một màu.
+
+Câu 24: Yêu cầu "Đảm bảo TÍNH THƯỜNG XUYÊN, CÓ HỆ THỐNG" trong kiểm tra - đánh giá có tác dụng quan trọng nào?
+
+*A. Diễn ra liên tục trước, trong và sau quá trình học; cung cấp thông tin ngược kịp thời giúp thầy điều chỉnh Dạy, trò điều chỉnh Học và tạo thói quen trách nhiệm.
+
+B. Bắt học sinh ngày nào cũng phải làm bài thi học kỳ.
+
+C. Làm cho học sinh luôn ở trong trạng thái căng thẳng sợ hãi.
+
+D. Cắt giảm các giờ học lý thuyết trên lớp.
+
+Giải thích: Đánh giá thường xuyên hệ thống giúp thu nhận tín hiệu ngược liên tục để kịp thời sửa sai, chống học vọt/học tủ và duy trì nếp sống học tập tự giác.
+
+Câu 25: Yêu cầu "Đảm bảo TÍNH PHÁT TRIỂN" trong kiểm tra - đánh giá nhấn mạnh nguyên tắc ứng xử nào của người thầy?
+
+*A. Kiểm tra đánh giá phải tạo ĐỘNG LỰC thúc đẩy học sinh vươn lên, công khai kết quả kịp thời, linh hoạt khích lệ sự tiến bộ, không vùi dập hay dán nhãn tiêu cực.
+
+B. Dùng điểm kém để đe dọa và trừng phạt học sinh.
+
+C. Giấu kín điểm số không cho học sinh biết.
+
+D. So sánh nhạo báng học sinh yếu trước tập thể.
+
+Giải thích: Tính phát triển coi đánh giá là công cụ nhân văn: tạo động lực thúc đẩy, ghi nhận sự tiến bộ cá nhân, giúp trò tự tin khắc phục điểm yếu để không ngừng vươn lên.
+
+Câu 26: Tình huống: Giáo viên tiến hành một bài kiểm tra ngắn 10 phút đầu giờ học nhằm kiểm tra mức độ nắm kiến thức bài cũ của học sinh để chuẩn bị bước vào bài mới. Đây là dạng kiểm tra nào?
+
+*A. Kiểm tra hàng ngày (thường xuyên).
+
+B. Kiểm tra định kỳ.
+
+C. Kiểm tra tổng kết tốt nghiệp.
+
+D. Kiểm tra chẩn đoán tâm lý.
+
+Giải thích: Kiểm tra ngắn đầu giờ thuộc dạng Kiểm tra hàng ngày (thường xuyên) nhằm thu tín hiệu ngược và tích cực hóa kiến thức cũ làm nền cho bài mới.
+
+Câu 27: Tình huống: Trong kỳ thi học kỳ I môn Lịch sử, nhà trường sử dụng đề thi gồm 40 câu trắc nghiệm khách quan nhiều lựa chọn (MCQ) rọc phách và chấm bằng máy. Việc làm này đảm bảo tốt nhất yêu cầu nào?
+
+A. Tính chủ quan cảm tính.
+
+*B. Tính khách quan và tính toàn diện bao quát chương trình.
+
+C. Tính tùy tiện không chuẩn hóa.
+
+D. Tính bí mật không công khai.
+
+Giải thích: Trắc nghiệm khách quan phủ rộng nội dung chương trình (toàn diện) và chấm máy rọc phách đảm bảo tính khách quan tuyệt đối.
+
+Câu 28: Khi soạn thảo câu hỏi TỰ LUẬN, việc diễn đạt câu hỏi có giới hạn phạm vi (như: "Hãy phân tích 3 nguyên nhân chính... trong khoảng 1 trang giấy") có ưu điểm gì so với câu hỏi tự luận mở rộng?
+
+*A. Đỡ mơ hồ hơn đối với học sinh, định hướng rõ phạm vi câu trả lời, giúp việc chấm điểm dễ dàng và có độ tin cậy cao hơn.
+
+B. Làm cho học sinh không tư duy được.
+
+C. Bắt học sinh phải học thuộc lòng 100%.
+
+D. Tăng thời gian chấm bài lên gấp đôi.
+
+Giải thích: Câu tự luận có giới hạn giúp học sinh tập trung trọng tâm, tránh lan man mơ hồ và hỗ trợ chấm điểm minh bạch, nhất quán hơn.
+
+Câu 29: Trong câu trắc nghiệm nhiều lựa chọn (MCQ), vai trò của các "Phương án nhiễu" (distractors) là gì?
+
+*A. Là các phương án sai nhưng có vẻ hợp lý đối với những học sinh không nắm vững bài, nhằm phân loại trình độ nhận thức của người học.
+
+B. Là các phương án hoàn toàn vô lý ai nhìn cũng biết sai ngay.
+
+C. Là các phương án đúng bổ sung cho câu trả lời.
+
+D. Là các đáp án do máy tính tự phát sinh ngẫu nhiên.
+
+Giải thích: Phương án nhiễu phải được thiết kế có tính hấp dẫn với học sinh học chưa sâu, giúp đo lường chính xác khả năng phân biệt và phân loại trình độ.
+
+Câu 30: Tại sao việc "Công bố công khai và kịp thời kết quả kiểm tra" lại trực tiếp thực hiện Yêu cầu đảm bảo tính phát triển?
+
+*A. Vì giúp học sinh kịp thời nhận diện ưu/nhược điểm của bản thân, giải tỏa thắc mắc và tạo khí thế thi đua vươn lên trong học tập.
+
+B. Vì để học sinh chê bai lẫn nhau.
+
+C. Vì quy chế cấm giấu điểm số.
+
+D. Vì để nhà trường thu tiền thưởng.
+
+Giải thích: Công khai kịp thời giúp trò tự đánh giá, rút kinh nghiệm sư phạm và kích thích động cơ phấn đấu tiến bộ cho các bài học tiếp theo.
+
+Câu 31: Khi giáo viên cho học sinh tự chấm điểm chéo bài làm của nhau dựa trên đáp án chi tiết công bố trên bảng, việc làm này giúp rèn luyện năng lực nào ở học sinh?
+
+A. Năng lực gian lận điểm số cho bạn thân.
+
+*B. Năng lực tự kiểm tra, tự đánh giá và ý thức trách nhiệm công bằng.
+
+C. Năng lực làm thay công việc của thầy.
+
+D. Năng lực chỉ trích lỗi sai của người khác.
+
+Giải thích: Chấm điểm chéo theo đáp án giúp học sinh nhập vai người đánh giá, hiểu sâu tiêu chí chấm, hình thành năng lực tự kiểm tra và điều chỉnh cách học.
+
+Câu 32: Dạng kiểm tra nào được sử dụng để xét lên lớp, cấp bằng tốt nghiệp hoặc tuyển sinh đầu vào?
+
+A. Kiểm tra hàng ngày 15 phút.
+
+B. Kiểm tra chẩn đoán đầu năm.
+
+*C. Kiểm tra tổng kết (thi tốt nghiệp/tuyển sinh) gắn với chức năng xác nhận.
+
+D. Kiểm tra nhóm tự do.
+
+Giải thích: Kiểm tra tổng kết (thi) thực hiện vào cuối khóa/năm học nhằm xác nhận trình độ chuẩn và đưa ra quyết định pháp lý công nhận hoàn thành hay tuyển sinh.
+
+Câu 33: "Độ tin cậy" (Reliability) của một bài kiểm tra được hiểu là gì?
+
+*A. Mức độ nhất quán và ổn định của kết quả đo đạc khi tiến hành kiểm tra nhiều lần ở các điều kiện tương đương.
+
+B. Mức độ dài ngắn của đề thi.
+
+C. Sự yêu thích của học sinh đối với đề thi.
+
+D. Số lượng câu hỏi có trong đề thi.
+
+Giải thích: Độ tin cậy phản ánh tính nhất quán, ổn định của công cụ đo: nếu kiểm tra lại trong điều kiện tương đương thì cho kết quả nhất quán không dao động ngẫu nhiên.
+
+Câu 34: "Độ giá trị" (Validity) của một bài kiểm tra được hiểu là gì?
+
+*A. Mức độ mà bài kiểm tra đo lường được chính xác cái cần đo (đúng mục tiêu dạy học đề ra).
+
+B. Giá trị tiền bạc của đề thi.
+
+C. Số trang in của bài kiểm tra.
+
+D. Độ khó của các câu hỏi trắc nghiệm.
+
+Giải thích: Độ giá trị đảm bảo đề thi đo đúng và trúng các mục tiêu kiến thức/kỹ năng/năng lực cần khảo sát, không đo lệch sang yếu tố khác.
+
+Câu 35: Khi chấm bài kiểm tra TỰ LUẬN, việc giáo viên "chấm rọc phách (không biết tên học sinh và lớp)" nhằm khắc phục nhược điểm nào của phương pháp tự luận?
+
+A. Khắc phục việc tốn thời gian làm bài của học sinh.
+
+*B. Khắc phục sự định kiến, cảm tính và tính chủ quan của người chấm.
+
+C. Khắc phục việc thiếu câu hỏi trong đề thi.
+
+D. Khắc phục lỗi sai chính tả của học sinh.
+
+Giải thích: Rọc phách ẩn tên học sinh giúp triệt tiêu định kiến cá nhân (cảm tình hay thành kiến với học sinh), đảm bảo tính công minh, khách quan khi chấm.
+
+Câu 36: Tại sao phương pháp Kiểm tra thực hành lại đặc biệt quan trọng trong các môn học như Vật lý, Hóa học, Sinh học, Tin học và Thể dục?
+
+*A. Vì các môn học này đòi hỏi năng lực thao tác thực tế và sản phẩm thực hành, bài kiểm tra trên giấy không thể đo lường đầy đủ được.
+
+B. Vì các môn này không có lý thuyết để kiểm tra viết.
+
+C. Vì kiểm tra thực hành không tốn thời gian tổ chức.
+
+D. Vì học sinh không thích làm bài kiểm tra viết.
+
+Giải thích: Kỹ năng thao tác dụng cụ, đo đạc, lập trình, vận động thể chất chỉ có thể đo lường chuẩn xác qua kiểm tra thực hành quan sát trực tiếp.
+
+Câu 37: Việc giáo viên xây dựng "Ma trận đề thi" (Specification table) trước khi soạn câu hỏi kiểm tra nhằm đảm bảo yêu cầu nào?
+
+*A. Đảm bảo tính toàn diện, đại diện bao quát các chủ đề kiến thức và các mức độ tư duy (biết, hiểu, vận dụng) theo mục tiêu.
+
+B. Đảm bảo đề thi thật ngắn gọn.
+
+C. Đảm bảo 100% học sinh đều đạt điểm 10.
+
+D. Đảm bảo máy vi tính tự động ra đề ngẫu nhiên.
+
+Giải thích: Ma trận đề thi phân bổ tỷ lệ câu hỏi theo mạch kiến thức và cấp độ tư duy, đảm bảo đề thi có tính toàn diện, chuẩn hóa và độ giá trị cao.
+
+Câu 38: Nhận định nào sau đây KHÔNG ĐÚNG về đánh giá kết quả học tập hiện nay?
+
+A. Đánh giá phải hướng tới phát triển phẩm chất và năng lực người học.
+
+B. Kết hợp đánh giá của giáo viên với tự đánh giá và đánh giá đồng đẳng của học sinh.
+
+*C. Điểm số bài kiểm tra viết là thước đo duy nhất tuyệt đối để xếp loại nhân cách học sinh.
+
+D. Đánh giá phải đảm bảo tính khách quan, toàn diện, hệ thống và phát triển.
+
+Giải thích: Điểm số bài viết chỉ phản ánh một phần kết quả nhận thức; đánh giá hiện đại phối hợp nhiều phương pháp (nhận xét, thực hành, hồ sơ học tập) để đánh giá toàn diện.
+
+Câu 39: Việc sử dụng "Hồ sơ học tập" (Portfolio) để đánh giá sự tiến bộ của học sinh qua một quá trình thuộc về xu hướng đánh giá nào?
+
+*A. Đánh giá quá trình (Formative assessment) nhằm mục đích phát triển và khích lệ sự nỗ lực cá nhân.
+
+B. Đánh giá tổng kết trừng phạt.
+
+C. Đánh giá thi tuyển sinh sàng lọc.
+
+D. Đánh giá lý thuyết thuần túy.
+
+Giải thích: Hồ sơ học tập lưu giữ các sản phẩm tiến bộ theo thời gian, là công cụ đánh giá quá trình giúp trò nhận rõ sự trưởng thành và phát triển của bản thân.
+
+Câu 40: Khẳng định nào sau đây tóm tắt ĐÚNG NHẤT về vai trò của Kiểm tra - Đánh giá trong quá trình dạy học?
+
+*A. Kiểm tra - đánh giá là khâu cuối cùng nhưng khép kín chu trình dạy học, cung cấp tín hiệu ngược để điều khiển và tối ưu hóa toàn bộ quá trình dạy học.
+
+B. Kiểm tra - đánh giá là hoạt động độc lập nằm ngoài quá trình dạy học.
+
+C. Kiểm tra - đánh giá chỉ nhằm mục đích duy nhất là xếp loại trừng phạt học sinh.
+
+D. Kiểm tra - đánh giá làm giảm chất lượng giảng dạy của giáo viên.
+
+Giải thích: Kiểm tra - Đánh giá khép kín vòng tuần hoàn sư phạm, cung cấp dữ liệu phản hồi giúp thầy điều chỉnh Dạy, trò điều chỉnh Học để không ngừng nâng cao chất lượng.
+
+Câu 41: Đánh giá tính chính xác của các nhận định về KHÁI NIỆM KIỂM TRA & ĐÁNH GIÁ:
+*a) Kiểm tra là quá trình thu thập thông tin; Đánh giá là quá trình xử lý thông tin so với mục tiêu để đưa ra quyết định sư phạm.
+*b) Kiểm tra và Đánh giá có mối quan hệ biện chứng: Kiểm tra là cơ sở cho Đánh giá, Đánh giá là mục đích của Kiểm tra.
+c) Đánh giá kết quả học tập chỉ thể hiện bằng điểm số, không bao giờ dùng lời nhận xét.
+*d) Tín hiệu ngược từ kiểm tra đánh giá giúp cả thầy điều chỉnh Dạy và trò điều chỉnh Học.
+
+Giải thích:
+- a) ĐÚNG. Phân biệt kiểm tra và đánh giá.
+- b) ĐÚNG. Mối quan hệ giữa hai khái niệm.
+- c) SAI. Đánh giá hiện đại kết hợp điểm số với lời nhận xét định tính.
+- d) ĐÚNG. Ý nghĩa thông tin ngược hai chiều.
+
+Câu 42: Cho các mệnh đề về 3 CHỨC NĂNG CỦA KIỂM TRA - ĐÁNH GIÁ:
+*a) Chức năng Định hướng dự báo khả năng học tập và phân luồng ở giai đoạn đầu.
+*b) Chức năng Chẩn đoán cung cấp tín hiệu ngược thường xuyên để phát hiện thiếu sót và hỗ trợ học tập.
+*c) Chức năng Xác nhận công nhận hoàn thành chương trình, cấp bằng hoặc cho lên lớp sau một giai đoạn học tập.
+d) Ba chức năng này hoàn toàn mâu thuẫn và triệt tiêu lẫn nhau trong thực tiễn.
+
+Giải thích:
+- a) ĐÚNG. Khái niệm chức năng Định hướng.
+- b) ĐÚNG. Khái niệm chức năng Chẩn đoán.
+- c) ĐÚNG. Khái niệm chức năng Xác nhận.
+- d) SAI. 3 chức năng phối hợp ở các giai đoạn khác nhau trong quá trình dạy học.
+
+Câu 43: Phân tích các phát biểu về PHƯƠNG PHÁP KIỂM TRA VẤN ĐÁP:
+*a) Cho phép tiếp xúc trực tiếp, đánh giá thái độ và kiểm tra chiều sâu tư duy ngôn ngữ nói.
+*b) Nhược điểm là tốn thời gian, số câu hỏi ít nên diện bao quát chương trình hẹp.
+*c) Kết quả dễ bị ảnh hưởng bởi tâm lý chủ quan của người chấm.
+d) Kiểm tra vấn đáp bắt buộc học sinh phải đọc thuộc lòng chính xác từng chữ trong sách giáo khoa.
+
+Giải thích:
+- a) ĐÚNG. Ưu điểm kiểm tra miệng.
+- b) ĐÚNG. Nhược điểm về thời gian và diện bao quát.
+- c) ĐÚNG. Nhược điểm về tính chủ quan.
+- d) SAI. Khuyến khích diễn đạt bằng ngôn ngữ và tư duy độc lập của học sinh.
+
+Câu 44: Xét tính đúng/sai của các mệnh đề về PHƯƠNG PHÁP KIỂM TRA VIẾT TỰ LUẬN:
+*a) Tự luận gồm 2 dạng: Câu trả lời mở rộng và Câu trả lời có giới hạn.
+*b) Ưu điểm là đo lường tốt các mức độ tư duy cao (hiểu, tổng hợp, đánh giá, bộc lộ suy luận logic).
+*c) Nhược điểm là diện bao quát hẹp, chấm bài lâu và điểm số dễ phụ thuộc chủ quan người chấm.
+*d) Chấm rọc phách và có đáp án chi tiết giúp nâng cao tính khách quan khi chấm bài tự luận.
+
+Giải thích:
+- a) ĐÚNG. 2 dạng câu tự luận.
+- b) ĐÚNG. Ưu điểm đo lường tư duy bậc cao.
+- c) ĐÚNG. Nhược điểm tự luận.
+- d) ĐÚNG. Biện pháp đảm bảo khách quan khi chấm tự luận.
+
+Câu 45: Đánh giá các phát biểu về TRẮC NGHIỆM KHÁCH QUAN (TNKQ):
+*a) TNKQ gồm các loại: Nhiều lựa chọn (MCQ), Đúng - Sai, Điền chỗ trống, Ghép đôi.
+*b) Ưu điểm là diện bao quát kiến thức rộng, độ tin cậy cao, chấm máy nhanh gọn và ngăn ngừa học tủ.
+*c) Hạn chế là khó đo lường khả năng diễn đạt ngôn ngữ viết và tư duy sáng tạo ý tưởng mới.
+d) TNKQ không cần thử nghiệm ma trận câu hỏi, giáo viên có thể tự nghĩ ra câu hỏi ngẫu nhiên.
+
+Giải thích:
+- a) ĐÚNG. 4 dạng câu TNKQ.
+- b) ĐÚNG. Các ưu điểm nổi bật của TNKQ.
+- c) ĐÚNG. Hạn chế của TNKQ.
+- d) SAI. Biên soạn câu TNKQ chuẩn hóa đòi hỏi xây dựng ma trận và thử nghiệm các chỉ số kỹ thuật công phu.
+
+Câu 46: Phân tích các phát biểu về PHƯƠNG PHÁP KIỂM TRA THỰC HÀNH:
+*a) Đánh giá kỹ năng thao tác thực tiễn (quy trình) và chất lượng sản phẩm thực tế.
+*b) Giúp khắc phục tình trạng học lý thuyết suông xa rời thực tiễn đời sống.
+*c) Quan sát trực tiếp có hệ thống là kỹ thuật quan trọng để thu thập số liệu kiểm tra thực hành.
+d) Kiểm tra thực hành có thể thay thế 100% tất cả các bài kiểm tra viết lý thuyết.
+
+Giải thích:
+- a) ĐÚNG. Bản chất kiểm tra thực hành.
+- b) ĐÚNG. Ý nghĩa gắn học với hành.
+- c) ĐÚNG. Kỹ thuật quan sát trong thực hành.
+- d) SAI. Kiểm tra thực hành và kiểm tra viết bổ trợ cho nhau, không thể thay thế hoàn toàn lẫn nhau.
+
+Câu 47: Cho các mệnh đề về 4 YÊU CẦU CỦA KIỂM TRA - ĐÁNH GIÁ:
+*a) Đảm bảo tính khách quan: Phản ánh trung thực trình độ học sinh so với chuẩn, tiêu chí chấm rõ ràng.
+*b) Đảm bảo tính toàn diện: Đánh giá đầy đủ cả số lượng (tri thức) và chất lượng (kỹ năng, vận dụng, thái độ).
+*c) Đảm bảo tính thường xuyên, hệ thống: Đánh giá liên tục trước, trong và sau để điều chỉnh dạy - học.
+*d) Đảm bảo tính phát triển: Tạo động lực thúc đẩy học sinh vươn lên, công khai kết quả khích lệ tiến bộ.
+
+Giải thích:
+- a) ĐÚNG. Yêu cầu tính khách quan.
+- b) ĐÚNG. Yêu cầu tính toàn diện.
+- c) ĐÚNG. Yêu cầu tính thường xuyên hệ thống.
+- d) ĐÚNG. Yêu cầu tính phát triển nhân văn.
+
+Câu 48: Phân tích các bước của QUY TRÌNH KIỂM TRA - ĐÁNH GIÁ KẾT QUẢ HỌC TẬP:
+*a) Bước 1 & 2: Xác định mục đích kiểm tra và nghiên cứu mục tiêu/nội dung môn học.
+*b) Bước 3: Lựa chọn phương pháp kiểm tra và xây dựng ma trận/câu hỏi kiểm tra.
+*c) Bước 4 & 5: Tổ chức kiểm tra nghiêm túc và chấm bài theo thang điểm chuẩn.
+*d) Bước 6: Rút kinh nghiệm sư phạm sau khi kiểm tra.
+
+Giải thích:
+- a) ĐÚNG. Khâu định hướng mục đích/mục tiêu.
+- b) ĐÚNG. Khâu xây dựng công cụ đo.
+- c) ĐÚNG. Khâu tổ chức và chấm bài.
+- d) ĐÚNG. Khâu đúc kết rút kinh nghiệm.
+
+Câu 49: Đánh giá các mệnh đề về XU HƯỚNG ĐỔI MỚI KIỂM TRA ĐÁNH GIÁ HỆN NAY:
+*a) Chuyển từ chủ yếu đánh giá kiến thức ghi nhớ sang đánh giá phẩm chất và năng lực vận dụng thực tiễn.
+*b) Kết hợp đánh giá thường xuyên (quá trình) với đánh giá định kỳ và tổng kết.
+*c) Coi trọng việc hướng dẫn học sinh tự đánh giá và đánh giá lẫn nhau.
+d) Bỏ hẳn việc cho điểm số và không cần kiểm tra bài làm của học sinh.
+
+Giải thích:
+- a) ĐÚNG. Xu hướng tiếp cận năng lực.
+- b) ĐÚNG. Phối hợp các dạng đánh giá.
+- c) ĐÚNG. Phát huy năng lực tự đánh giá.
+- d) SAI. Đổi mới là nâng cao chất lượng công cụ đánh giá, kết hợp định tính và định lượng chứ không bỏ kiểm tra.
+
+Câu 50: Tình huống vận dụng cao: Trong học kỳ II môn Vật lý 9, giáo viên kết hợp 3 hình thức đánh giá: (1) Bài trắc nghiệm 15 phút định kỳ trên máy tính; (2) Bài tự luận 45 phút chấm rọc phách; (3) Báo cáo sản phẩm mô hình "Thuyền chạy bằng năng lượng mặt trời" làm theo nhóm. Đánh giá các mệnh đề:
+*a) Giáo viên đã quán triệt xuất sắc Yêu cầu toàn diện và khách quan trong kiểm tra đánh giá.
+*b) Sự kết hợp các phương pháp đo lường được cả kiến thức, tư duy logic và kỹ năng thực hành sáng tạo.
+*c) Đánh giá tạo động lực phát triển năng lực toàn diện cho học sinh.
+d) Việc làm này vi phạm quy chế vì chỉ được dùng duy nhất một phương pháp kiểm tra viết tự luận.
+
+Giải thích:
+- a) ĐÚNG. Phối hợp đa dạng công cụ đảm bảo toàn diện và khách quan.
+- b) ĐÚNG. Đo lường đủ 3 trục mục tiêu.
+- c) ĐÚNG. Quán triệt tính phát triển.
+- d) SAI. Đổi mới kiểm tra đánh giá khuyến khích đa dạng hóa các hình thức và phương pháp đánh giá.
