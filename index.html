@@ -2338,7 +2338,7 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
         let data = defaultCategories;
 
         try {
-            const res = await fetch('quizzes.json');
+            const res = await fetch('quizzes.json?v=' + Date.now());
             if (res.ok) {
                 const json = await res.json();
                 if (Array.isArray(json) && json.length > 0) data = json;
@@ -2603,7 +2603,7 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
 
         try {
             // Fetch all chapter text files in parallel
-            const fetchPromises = activeSubjectGroup.quizzes.map(q => fetch(q.file).then(r => r.text()));
+            const fetchPromises = activeSubjectGroup.quizzes.map(q => fetch(encodeURI(q.file) + '?v=' + Date.now()).then(r => r.text()));
             const results = await Promise.all(fetchPromises);
 
             let allQuestionsPool = [];
@@ -2707,7 +2707,7 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
 
         try {
             document.getElementById('file-status').innerText = `⌛ Đang tải dữ liệu từ ${title}...`;
-            const res = await fetch(filePath);
+            const res = await fetch(encodeURI(filePath) + '?v=' + Date.now());
             if (!res.ok) throw new Error("Không thể truy cập file trên máy chủ!");
             const textData = await res.text();
             document.getElementById('text-input').value = textData;
