@@ -1834,6 +1834,81 @@
                 min-height: 30px !important;
             }
         }
+    
+        /* Subfolder Accordion Collapsible */
+        .subfolder-block {
+            margin-top: 12px;
+            background: rgba(248, 250, 252, 0.85);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            transition: all 0.2s ease;
+            overflow: hidden;
+        }
+
+        .subfolder-block:hover {
+            border-color: rgba(99, 102, 241, 0.35);
+            background: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+        }
+
+        .subfolder-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            cursor: pointer;
+            user-select: none;
+            background: rgba(241, 245, 249, 0.6);
+            transition: background 0.2s ease;
+        }
+
+        .subfolder-header:hover {
+            background: rgba(238, 242, 255, 0.9);
+        }
+
+        .subfolder-title-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .subfolder-arrow {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            transition: transform 0.25s ease;
+            display: inline-block;
+        }
+
+        .subfolder-block:not(.collapsed) .subfolder-arrow {
+            transform: rotate(90deg);
+        }
+
+        .subfolder-title {
+            font-weight: 600;
+            font-size: 0.88rem;
+            color: var(--text-main);
+        }
+
+        .subfolder-count {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            background: rgba(241, 245, 249, 0.9);
+            padding: 2px 8px;
+            border-radius: 50px;
+        }
+
+        .subfolder-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            padding: 0 16px;
+        }
+
+        .subfolder-block:not(.collapsed) .subfolder-content {
+            max-height: 2000px;
+            padding: 8px 16px 16px;
+        }
+
     </style>
 </head>
 <body class="has-mobile-nav">
@@ -2185,118 +2260,225 @@
     let selectedMockMode = 'instant';
 
     // Accordion state (ALL COLLAPSED BY DEFAULT)
-    let accordionStates = { cnxh: false, gdh: false };
+    let accordionStates = { cnxh: true, gdh: false };
 
     // Confirm Modal callback handler
     let confirmModalCallback = null;
 
     // Preset Quizzes List fallback
-    const defaultCategories = [
+        const defaultCategories = [
         {
-            "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
-            "subjectId": "cnxh",
-            "status": "available",
-            "quizzes": [
-                { "id": "cnxh-ch1", "title": "Chương 1: Nhập môn CNXH Khoa học", "description": "Bộ câu hỏi Nhập môn Chủ nghĩa xã hội khoa học Mác – Lênin", "file": "CNXH/Chương 1. Nhập môn Chủ nghĩa xã hội Khoa học.txt", "icon": "📘" },
-                { "id": "cnxh-ch2-p1", "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)", "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)", "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 1).txt", "icon": "📕" },
-                { "id": "cnxh-ch2-p2", "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)", "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)", "file": "CNXH/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).txt", "icon": "📕" },
-                { "id": "cnxh-ch3", "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH", "description": "Bộ câu hỏi Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội", "file": "CNXH/Chương 3. Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội.txt", "icon": "🏛️" },
-                { "id": "cnxh-ch4-p1", "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 1)", "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1)", "file": "CNXH/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1).txt", "icon": "📜" },
-                { "id": "cnxh-ch4-p2", "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 2)", "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2)", "file": "CNXH/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2).txt", "icon": "📜" },
-                { "id": "cnxh-ch5", "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp", "description": "Cơ cấu xã hội - giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ quá độ", "file": "CNXH/Chương 5. Cơ cấu Xã hội - Giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ Quá độ lên Chủ nghĩa xã hội.txt", "icon": "🤝" },
-                { "id": "cnxh-ch6-p1", "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 1)", "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)", "file": "CNXH/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt", "icon": "🌍" },
-                { "id": "cnxh-ch6-p2", "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 2)", "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)", "file": "CNXH/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt", "icon": "🌍" },
-                { "id": "cnxh-ch7-p1", "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 1)", "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)", "file": "CNXH/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt", "icon": "🕊️" },
-                { "id": "cnxh-ch7-p2", "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 2)", "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)", "file": "CNXH/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt", "icon": "🕊️" },
-                { "id": "cnxh-ch8-p1", "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 1)", "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)", "file": "CNXH/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt", "icon": "🏡" },
-                { "id": "cnxh-ch8-p2", "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 2)", "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)", "file": "CNXH/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt", "icon": "🏡" }
-            ]
+                "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
+                "subjectId": "cnxh",
+                "status": "available",
+                "quizzes": [
+                        {
+                                "id": "cnxh-moi-ch1",
+                                "folder": "🔥 Bộ câu hỏi trắc nghiệm Vận dụng cao (Mới)",
+                                "title": "Chương 1: Nhập môn CNXH Khoa học (40 câu Vận dụng cao)",
+                                "description": "Bộ câu hỏi Vận dụng & Vận dụng cao chất lượng cao (40 câu)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 1. Nhập môn CNXH Khoa học.txt",
+                                "icon": "🔥"
+                        },
+                        {
+                                "id": "cnxh-moi-ch2",
+                                "folder": "🔥 Bộ câu hỏi trắc nghiệm Vận dụng cao (Mới)",
+                                "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (40 câu Vận dụng cao)",
+                                "description": "Bộ câu hỏi Vận dụng & Vận dụng cao chất lượng cao (40 câu)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân.txt",
+                                "icon": "🔥"
+                        },
+                        {
+                                "id": "cnxh-cb-ch1",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 1: Nhập môn Chủ nghĩa xã hội Khoa học",
+                                "description": "Bộ câu hỏi Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 1. Nhập môn Chủ nghĩa xã hội Khoa học.txt",
+                                "icon": "📘"
+                        },
+                        {
+                                "id": "cnxh-cb-ch2-p1",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
+                                "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 1).txt",
+                                "icon": "📕"
+                        },
+                        {
+                                "id": "cnxh-cb-ch2-p2",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
+                                "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).txt",
+                                "icon": "📕"
+                        },
+                        {
+                                "id": "cnxh-cb-ch3",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH",
+                                "description": "Bộ câu hỏi Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 3. Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội.txt",
+                                "icon": "🏛️"
+                        },
+                        {
+                                "id": "cnxh-cb-ch4-p1",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 1)",
+                                "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1).txt",
+                                "icon": "📜"
+                        },
+                        {
+                                "id": "cnxh-cb-ch4-p2",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 2)",
+                                "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2).txt",
+                                "icon": "📜"
+                        },
+                        {
+                                "id": "cnxh-cb-ch5",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp",
+                                "description": "Cơ cấu xã hội - giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ quá độ",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 5. Cơ cấu Xã hội - Giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ Quá độ lên Chủ nghĩa xã hội.txt",
+                                "icon": "🤝"
+                        },
+                        {
+                                "id": "cnxh-cb-ch6-p1",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 1)",
+                                "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt",
+                                "icon": "🌍"
+                        },
+                        {
+                                "id": "cnxh-cb-ch6-p2",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 2)",
+                                "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt",
+                                "icon": "🌍"
+                        },
+                        {
+                                "id": "cnxh-cb-ch7-p1",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 1)",
+                                "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt",
+                                "icon": "🕊️"
+                        },
+                        {
+                                "id": "cnxh-cb-ch7-p2",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 2)",
+                                "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt",
+                                "icon": "🕊️"
+                        },
+                        {
+                                "id": "cnxh-cb-ch8-p1",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 1)",
+                                "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).txt",
+                                "icon": "🏡"
+                        },
+                        {
+                                "id": "cnxh-cb-ch8-p2",
+                                "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+                                "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 2)",
+                                "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).txt",
+                                "icon": "🏡"
+                        }
+                ]
         },
         {
-            "category": "🎓 Giáo dục học - HNUE",
-            "subjectId": "gdh",
-            "status": "available",
-            "quizzes": [
-                {
-                    "id": "gdh-ch1",
-                    "title": "Chương 1: Giáo dục học là một khoa học",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 1: Giáo dục học là một khoa học",
-                    "file": "Giáo dục học/Chương 1. Giáo dục học là một khoa học.txt",
-                    "icon": "📖"
-                },
-                {
-                    "id": "gdh-ch2",
-                    "title": "Chương 2: Giáo dục và sự phát triển xã hội",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 2: Giáo dục và sự phát triển xã hội",
-                    "file": "Giáo dục học/Chương 2. Giáo dục và sự phát triển xã hội.txt",
-                    "icon": "🌐"
-                },
-                {
-                    "id": "gdh-ch3",
-                    "title": "Chương 3: Giáo dục và sự phát triển nhân cách",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 3: Giáo dục và sự phát triển nhân cách",
-                    "file": "Giáo dục học/Chương 3. Giáo dục và sự phát triển nhân cách.txt",
-                    "icon": "👤"
-                },
-                {
-                    "id": "gdh-ch4",
-                    "title": "Chương 4: Mục đích và nguyên lý giáo dục",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 4: Mục đích và nguyên lý giáo dục",
-                    "file": "Giáo dục học/Chương 4. Mục đích và nguyên lý giáo dục.txt",
-                    "icon": "🎯"
-                },
-                {
-                    "id": "gdh-ch5",
-                    "title": "Chương 5: Hệ thống giáo dục quốc dân",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 5: Hệ thống giáo dục quốc dân",
-                    "file": "Giáo dục học/Chương 5. Hệ thống giáo dục quốc dân.txt",
-                    "icon": "🏫"
-                },
-                {
-                    "id": "gdh-ch6",
-                    "title": "Chương 6: Quá trình dạy học",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 6: Quá trình dạy học",
-                    "file": "Giáo dục học/Chương 6. Quá trình dạy học.txt",
-                    "icon": "📚"
-                },
-                {
-                    "id": "gdh-ch7",
-                    "title": "Chương 7: Tính quy luật và nguyên tắc dạy học",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 7: Tính quy luật và nguyên tắc dạy học",
-                    "file": "Giáo dục học/Chương 7. Tính quy luật và nguyên tắc dạy học.txt",
-                    "icon": "⚖️"
-                },
-                {
-                    "id": "gdh-ch8",
-                    "title": "Chương 8: Nội dung dạy học",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 8: Nội dung dạy học",
-                    "file": "Giáo dục học/Chương 8. Nội dung dạy học.txt",
-                    "icon": "📖"
-                },
-                {
-                    "id": "gdh-ch9",
-                    "title": "Chương 9: Phương pháp và phương tiện dạy học",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 9: Phương pháp và phương tiện dạy học",
-                    "file": "Giáo dục học/Chương 9. Phương pháp và phương tiện dạy học.txt",
-                    "icon": "🛠️"
-                },
-                {
-                    "id": "gdh-ch10",
-                    "title": "Chương 10: Hình thức tổ chức dạy học",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 10: Hình thức tổ chức dạy học",
-                    "file": "Giáo dục học/Chương 10. Hình thức tổ chức dạy học.txt",
-                    "icon": "🏫"
-                },
-                {
-                    "id": "gdh-ch11",
-                    "title": "Chương 11: Kiểm tra, đánh giá kết quả học tập",
-                    "description": "Bộ câu hỏi trắc nghiệm Chương 11: Kiểm tra, đánh giá kết quả học tập",
-                    "file": "Giáo dục học/Chương 11. Kiểm tra, đánh giá kết quả học tập.txt",
-                    "icon": "📝"
-                }
-            ]
+                "category": "🎓 Giáo dục học - HNUE",
+                "subjectId": "gdh",
+                "status": "available",
+                "quizzes": [
+                        {
+                                "id": "gdh-ch1",
+                                "title": "Chương 1: Giáo dục học là một khoa học",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 1: Giáo dục học là một khoa học",
+                                "file": "Giáo dục học/Chương 1. Giáo dục học là một khoa học.txt",
+                                "icon": "📖"
+                        },
+                        {
+                                "id": "gdh-ch2",
+                                "title": "Chương 2: Giáo dục và sự phát triển xã hội",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 2: Giáo dục và sự phát triển xã hội",
+                                "file": "Giáo dục học/Chương 2. Giáo dục và sự phát triển xã hội.txt",
+                                "icon": "🌐"
+                        },
+                        {
+                                "id": "gdh-ch3",
+                                "title": "Chương 3: Giáo dục và sự phát triển nhân cách",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 3: Giáo dục và sự phát triển nhân cách",
+                                "file": "Giáo dục học/Chương 3. Giáo dục và sự phát triển nhân cách.txt",
+                                "icon": "👤"
+                        },
+                        {
+                                "id": "gdh-ch4",
+                                "title": "Chương 4: Mục đích và nguyên lý giáo dục",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 4: Mục đích và nguyên lý giáo dục",
+                                "file": "Giáo dục học/Chương 4. Mục đích và nguyên lý giáo dục.txt",
+                                "icon": "🎯"
+                        },
+                        {
+                                "id": "gdh-ch5",
+                                "title": "Chương 5: Hệ thống giáo dục quốc dân",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 5: Hệ thống giáo dục quốc dân",
+                                "file": "Giáo dục học/Chương 5. Hệ thống giáo dục quốc dân.txt",
+                                "icon": "🏫"
+                        },
+                        {
+                                "id": "gdh-ch6",
+                                "title": "Chương 6: Quá trình dạy học",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 6: Quá trình dạy học",
+                                "file": "Giáo dục học/Chương 6. Quá trình dạy học.txt",
+                                "icon": "📚"
+                        },
+                        {
+                                "id": "gdh-ch7",
+                                "title": "Chương 7: Tính quy luật và nguyên tắc dạy học",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 7: Tính quy luật và nguyên tắc dạy học",
+                                "file": "Giáo dục học/Chương 7. Tính quy luật và nguyên tắc dạy học.txt",
+                                "icon": "⚖️"
+                        },
+                        {
+                                "id": "gdh-ch8",
+                                "title": "Chương 8: Nội dung dạy học",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 8: Nội dung dạy học",
+                                "file": "Giáo dục học/Chương 8. Nội dung dạy học.txt",
+                                "icon": "📖"
+                        },
+                        {
+                                "id": "gdh-ch9",
+                                "title": "Chương 9: Phương pháp và phương tiện dạy học",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 9: Phương pháp và phương tiện dạy học",
+                                "file": "Giáo dục học/Chương 9. Phương pháp và phương tiện dạy học.txt",
+                                "icon": "🛠️"
+                        },
+                        {
+                                "id": "gdh-ch10",
+                                "title": "Chương 10: Hình thức tổ chức dạy học",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 10: Hình thức tổ chức dạy học",
+                                "file": "Giáo dục học/Chương 10. Hình thức tổ chức dạy học.txt",
+                                "icon": "🏫"
+                        },
+                        {
+                                "id": "gdh-ch11",
+                                "title": "Chương 11: Kiểm tra, đánh giá kết quả học tập",
+                                "description": "Bộ câu hỏi trắc nghiệm Chương 11: Kiểm tra, đánh giá kết quả học tập",
+                                "file": "Giáo dục học/Chương 11. Kiểm tra, đánh giá kết quả học tập.txt",
+                                "icon": "📝"
+                        }
+                ]
         }
-    ];
+];
 
     const sampleQuizText = `Câu 1: Chủ nghĩa xã hội khoa học là một trong ba bộ phận cấu thành của:
 *A. Chủ nghĩa Mác – Lênin
@@ -2323,9 +2505,11 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
     const STORAGE_KEY_WRONG = 'hnue_wrong_questions_v2';
 
     // Load available preset quizzes & dashboard statistics on startup
-    document.addEventListener('DOMContentLoaded', () => {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => initPresets());
+    } else {
         initPresets();
-    });
+    }
 
     /* ========================================================
        CUSTOM CONFIRMATION MODAL
@@ -2646,27 +2830,89 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
                 `;
                 pList.appendChild(mockCard);
 
-                // Individual Chapter Cards in vertical list (Safe lookup by index)
-                group.quizzes.forEach((p, qIdx) => {
-                    const card = document.createElement('div');
-                    card.className = 'preset-card';
-                    card.onclick = () => openStartQuizModalById(subjectId, qIdx);
-                    card.innerHTML = `
-                        <div class="preset-card-left">
-                            <div class="preset-icon">${p.icon || '📝'}</div>
-                            <div class="preset-info">
-                                <div class="preset-title">${escapeHTML(p.title)}</div>
-                                <div class="preset-desc">${escapeHTML(p.description)}</div>
-                            </div>
-                        </div>
-                        <div class="preset-card-right">
-                            <span class="preset-badge">Vào làm</span>
-                        </div>
-                    `;
-                    pList.appendChild(card);
-                });
+                // Check if quizzes contain folder groupings
+                const hasFolders = group.quizzes.some(p => p.folder);
 
-                body.appendChild(pList);
+                if (!hasFolders) {
+                    group.quizzes.forEach((p, qIdx) => {
+                        const card = document.createElement('div');
+                        card.className = 'preset-card';
+                        card.onclick = () => openStartQuizModalById(subjectId, qIdx);
+                        card.innerHTML = `
+                            <div class="preset-card-left">
+                                <div class="preset-icon">${p.icon || '📝'}</div>
+                                <div class="preset-info">
+                                    <div class="preset-title">${escapeHTML(p.title)}</div>
+                                    <div class="preset-desc">${escapeHTML(p.description)}</div>
+                                </div>
+                            </div>
+                            <div class="preset-card-right">
+                                <span class="preset-badge">Vào làm</span>
+                            </div>
+                        `;
+                        pList.appendChild(card);
+                    });
+                    body.appendChild(pList);
+                } else {
+                    // Group quizzes by folder
+                    const folderMap = new Map();
+                    group.quizzes.forEach((p, qIdx) => {
+                        const folderName = p.folder || 'Các bài trắc nghiệm khác';
+                        if (!folderMap.has(folderName)) {
+                            folderMap.set(folderName, []);
+                        }
+                        folderMap.get(folderName).push({ quiz: p, qIdx });
+                    });
+
+                    let fIdx = 0;
+                    folderMap.forEach((items, folderName) => {
+                        const currentFIdx = fIdx++;
+                        const subfolderBlock = document.createElement('div');
+                        subfolderBlock.className = 'subfolder-block collapsed';
+                        subfolderBlock.id = `subfolder-${subjectId}-${currentFIdx}`;
+
+                        const subfolderHeader = document.createElement('div');
+                        subfolderHeader.className = 'subfolder-header';
+                        subfolderHeader.onclick = () => toggleSubfolderAccordion(subjectId, currentFIdx);
+                        subfolderHeader.innerHTML = `
+                            <div class="subfolder-title-group">
+                                <span class="subfolder-arrow">▶</span>
+                                <span class="subfolder-title">${escapeHTML(folderName)}</span>
+                            </div>
+                            <span class="subfolder-count">${items.length} bài</span>
+                        `;
+                        subfolderBlock.appendChild(subfolderHeader);
+
+                        const subfolderContent = document.createElement('div');
+                        subfolderContent.className = 'subfolder-content';
+
+                        const subList = document.createElement('div');
+                        subList.className = 'preset-list';
+
+                        items.forEach(({ quiz: p, qIdx }) => {
+                            const card = document.createElement('div');
+                            card.className = 'preset-card';
+                            card.onclick = () => openStartQuizModalById(subjectId, qIdx);
+                            card.innerHTML = `
+                                <div class="preset-card-left">
+                                    <div class="preset-icon">${p.icon || '📝'}</div>
+                                    <div class="preset-info">
+                                        <div class="preset-title">${escapeHTML(p.title)}</div>
+                                        <div class="preset-desc">${escapeHTML(p.description)}</div>
+                                    </div>
+                                </div>
+                                <div class="preset-card-right">
+                                    <span class="preset-badge">Vào làm</span>
+                                </div>
+                            `;
+                            subList.appendChild(card);
+                        });
+
+                        subfolderContent.appendChild(subList);
+                        subfolderBlock.appendChild(subfolderContent);
+                        body.appendChild(subfolderBlock);
+                    });
+                }
                 accordionItem.appendChild(body);
             }
 
@@ -2677,7 +2923,14 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
         });
     }
 
-    function toggleSubjectAccordion(subjectId) {
+    
+    function toggleSubfolderAccordion(subjectId, fIdx) {
+        const item = document.getElementById(`subfolder-${subjectId}-${fIdx}`);
+        if (!item) return;
+        item.classList.toggle('collapsed');
+    }
+
+function toggleSubjectAccordion(subjectId) {
         const item = document.getElementById(`accordion-${subjectId}`);
         if (!item) return;
         item.classList.toggle('collapsed');
