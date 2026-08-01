@@ -417,13 +417,41 @@
         }
 
         .preset-card.mock-exam-card {
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.04) 0%, rgba(67, 56, 202, 0.08) 100%);
-            border: 2px dashed var(--primary-light);
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.07) 0%, rgba(139, 92, 246, 0.1) 50%, rgba(217, 70, 239, 0.06) 100%);
+            border: 1.5px solid rgba(99, 102, 241, 0.35);
+            box-shadow: 0 4px 16px rgba(99, 102, 241, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .preset-card.mock-exam-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%;
+            width: 50%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: 0.5s;
+        }
+
+        .preset-card.mock-exam-card:hover::before {
+            left: 100%;
         }
 
         .preset-card.mock-exam-card:hover {
-            border-color: var(--primary);
-            background: rgba(99, 102, 241, 0.12);
+            border-color: #6366f1;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(139, 92, 246, 0.16) 50%, rgba(217, 70, 239, 0.1) 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.2);
+        }
+
+        .preset-card.mock-exam-card:hover .preset-icon {
+            animation: diceRotate 0.6s ease-in-out infinite alternate;
+        }
+
+        @keyframes diceRotate {
+            0% { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(-12deg) scale(1.15); }
+            100% { transform: rotate(12deg) scale(1.15); }
         }
 
         .preset-card.updating-card {
@@ -483,7 +511,12 @@
 
         .preset-badge.mock-badge {
             color: #ffffff;
-            background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+            box-shadow: 0 4px 14px rgba(139, 92, 246, 0.35);
+        }
+
+        .preset-card.mock-exam-card:hover .preset-badge.mock-badge {
+            box-shadow: 0 6px 20px rgba(217, 70, 239, 0.5);
         }
 
         .preset-badge.updating-badge {
@@ -2255,12 +2288,13 @@
 
     // Mock exam generator state
     let activeSubjectGroup = null;
+    let activeMockFolderName = null;
     let selectedMockCount = 20; // default 20 questions
     let selectedMockTime = 15; // default 15 mins
     let selectedMockMode = 'instant';
 
     // Accordion state (ALL COLLAPSED BY DEFAULT)
-    let accordionStates = { cnxh: true, gdh: false };
+    let accordionStates = { cnxh: false, gdh: false };
 
     // Confirm Modal callback handler
     let confirmModalCallback = null;
@@ -2274,19 +2308,59 @@
                 "quizzes": [
                         {
                                 "id": "cnxh-moi-ch1",
-                                "folder": "🔥 Bộ câu hỏi trắc nghiệm Vận dụng cao (Mới)",
-                                "title": "Chương 1: Nhập môn CNXH Khoa học (40 câu Vận dụng cao)",
-                                "description": "Bộ câu hỏi Vận dụng & Vận dụng cao chất lượng cao (40 câu)",
+                                "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+                                "title": "Chương 1: Nhập môn CNXH Khoa học",
+                                "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
                                 "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 1. Nhập môn CNXH Khoa học.txt",
-                                "icon": "🔥"
+                                "icon": "📚"
                         },
                         {
                                 "id": "cnxh-moi-ch2",
-                                "folder": "🔥 Bộ câu hỏi trắc nghiệm Vận dụng cao (Mới)",
-                                "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (40 câu Vận dụng cao)",
-                                "description": "Bộ câu hỏi Vận dụng & Vận dụng cao chất lượng cao (40 câu)",
+                                "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+                                "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân",
+                                "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
                                 "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân.txt",
-                                "icon": "🔥"
+                                "icon": "⚙️"
+                        },
+                        {
+                                "id": "cnxh-moi-ch3",
+                                "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+                                "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH",
+                                "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 3. Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội.txt",
+                                "icon": "🚀"
+                        },
+                        {
+                                "id": "cnxh-moi-ch4",
+                                "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+                                "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN",
+                                "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 4. Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa.txt",
+                                "icon": "⚖️"
+                        },
+                        {
+                                "id": "cnxh-moi-ch5",
+                                "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+                                "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp",
+                                "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 5. Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội.txt",
+                                "icon": "🤝"
+                        },
+                        {
+                                "id": "cnxh-moi-ch6",
+                                "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+                                "title": "Chương 6: Vấn đề dân tộc và tôn giáo",
+                                "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 6. Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội.txt",
+                                "icon": "🌍"
+                        },
+                        {
+                                "id": "cnxh-moi-ch7",
+                                "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+                                "title": "Chương 7: Vấn đề gia đình",
+                                "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+                                "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 7. Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội.txt",
+                                "icon": "🏡"
                         },
                         {
                                 "id": "cnxh-cb-ch1",
@@ -2833,6 +2907,8 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
                 // Check if quizzes contain folder groupings
                 const hasFolders = group.quizzes.some(p => p.folder);
 
+                body.appendChild(pList);
+
                 if (!hasFolders) {
                     group.quizzes.forEach((p, qIdx) => {
                         const card = document.createElement('div');
@@ -2852,7 +2928,6 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
                         `;
                         pList.appendChild(card);
                     });
-                    body.appendChild(pList);
                 } else {
                     // Group quizzes by folder
                     const folderMap = new Map();
@@ -2888,6 +2963,24 @@ Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, 
 
                         const subList = document.createElement('div');
                         subList.className = 'preset-list';
+
+                        // Subfolder Mock Exam Card
+                        const subMockCard = document.createElement('div');
+                        subMockCard.className = 'preset-card mock-exam-card';
+                        subMockCard.onclick = () => openMockModalById(subjectId, folderName);
+                        subMockCard.innerHTML = `
+                            <div class="preset-card-left">
+                                <div class="preset-icon">🎲</div>
+                                <div class="preset-info">
+                                    <div class="preset-title">Thi thử Ngẫu nhiên (${escapeHTML(folderName)})</div>
+                                    <div class="preset-desc">Tạo đề thi thử ngẫu nhiên từ các bài trong thư mục này</div>
+                                </div>
+                            </div>
+                            <div class="preset-card-right">
+                                <span class="preset-badge mock-badge">⚡ Ngẫu nhiên thư mục ▶</span>
+                            </div>
+                        `;
+                        subList.appendChild(subMockCard);
 
                         items.forEach(({ quiz: p, qIdx }) => {
                             const card = document.createElement('div');
@@ -2994,13 +3087,18 @@ function toggleSubjectAccordion(subjectId) {
     /* ========================================================
        RANDOM MOCK EXAM MODAL & GENERATOR LOGIC
     ======================================================== */
-    function openMockModalById(subjectId) {
+    function openMockModalById(subjectId, folderName = null) {
         currentSubjectId = subjectId || 'cnxh';
+        activeMockFolderName = folderName;
         const group = allCategoriesData.find(g => g.subjectId === currentSubjectId);
         if (!group) return;
 
         activeSubjectGroup = group;
-        document.getElementById('mock-modal-subtitle').innerText = `Tự động gộp tất cả câu hỏi thuộc: ${group.category}`;
+        if (folderName) {
+            document.getElementById('mock-modal-subtitle').innerText = `Tự động gộp tất cả câu hỏi thuộc: ${folderName}`;
+        } else {
+            document.getElementById('mock-modal-subtitle').innerText = `Tự động gộp tất cả câu hỏi thuộc: ${group.category}`;
+        }
         document.getElementById('custom-count-input').value = "";
         document.getElementById('custom-time-input').value = "";
         document.getElementById('mock-exam-modal').classList.remove('hidden');
@@ -3061,11 +3159,17 @@ function toggleSubjectAccordion(subjectId) {
         if (!activeSubjectGroup || !activeSubjectGroup.quizzes) return;
         closeMockModal();
 
-        document.getElementById('file-status').innerText = `⌛ Đang gộp dữ liệu từ tất cả các chương...`;
+        document.getElementById('file-status').innerText = `⌛ Đang gộp dữ liệu...`;
 
         try {
-            // Fetch all chapter text files in parallel
-            const fetchPromises = activeSubjectGroup.quizzes.map(q => fetch(encodeURI(q.file) + '?v=' + Date.now()).then(r => r.text()));
+            // Filter target quizzes if subfolder is active
+            let targetQuizzes = activeSubjectGroup.quizzes;
+            if (activeMockFolderName) {
+                targetQuizzes = targetQuizzes.filter(q => (q.folder || 'Các bài trắc nghiệm khác') === activeMockFolderName);
+            }
+
+            // Fetch chapter text files in parallel
+            const fetchPromises = targetQuizzes.map(q => fetch(encodeURI(q.file) + '?v=' + Date.now()).then(r => r.text()));
             const results = await Promise.all(fetchPromises);
 
             let allQuestionsPool = [];
@@ -3075,7 +3179,7 @@ function toggleSubjectAccordion(subjectId) {
             });
 
             if (allQuestionsPool.length === 0) {
-                alert("Không thể gộp được câu hỏi nào từ môn học này!");
+                alert("Không thể gộp được câu hỏi nào từ danh mục này!");
                 return;
             }
 
@@ -3100,7 +3204,8 @@ function toggleSubjectAccordion(subjectId) {
 
             currentQuizMode = selectedMockMode;
 
-            document.getElementById('current-quiz-name').innerText = `🎲 Thi thử ngẫu nhiên (${finalCount} câu - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
+            const scopeTitle = activeMockFolderName ? ` (${activeMockFolderName})` : '';
+            document.getElementById('current-quiz-name').innerText = `🎲 Thi thử ngẫu nhiên${scopeTitle} (${finalCount} câu - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
             document.getElementById('file-status').innerText = `📄 Đã tạo đề thi thử: ${finalCount} câu ngẫu nhiên.`;
 
             // Start Quiz
