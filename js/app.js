@@ -731,7 +731,7 @@ function setMockCount(count) {
 }
 
 function setCustomMockCount(val) {
-    const parsed = parseInt(val);
+    const parsed = parseInt(val, 10);
     if (!isNaN(parsed) && parsed > 0) {
         selectedMockCount = parsed;
         const container = document.getElementById('count-pills');
@@ -749,7 +749,7 @@ function setMockTime(timeMins) {
 }
 
 function setCustomMockTime(val) {
-    const parsed = parseInt(val);
+    const parsed = parseInt(val, 10);
     if (!isNaN(parsed) && parsed >= 0) {
         selectedMockTime = parsed;
         const container = document.getElementById('timer-pills');
@@ -1239,6 +1239,21 @@ function renderQuiz() {
         container.appendChild(card);
     });
 
+    if (!isQuizSubmitted) {
+        const submitCard = document.createElement('div');
+        submitCard.className = 'quiz-bottom-submit-zone';
+        submitCard.style.cssText = 'margin: 30px 0; text-align: center; background: var(--bg-card); padding: 24px; border-radius: var(--radius-lg); border: 2px dashed var(--primary-light); box-shadow: 0 4px 12px rgba(0,0,0,0.05);';
+        submitCard.innerHTML = `
+            <div style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 12px;">
+                🎉 Bạn đã sẵn sàng hoàn thành bài làm?
+            </div>
+            <button class="btn-success" style="padding: 14px 32px; font-size: 1.05rem; font-weight: 800; border-radius: 50px; cursor: pointer; box-shadow: 0 4px 14px rgba(16,185,129,0.3);" onclick="submitQuiz()">
+                ✓ Nộp bài & Chấm điểm
+            </button>
+        `;
+        container.appendChild(submitCard);
+    }
+
     updateProgress();
 }
 
@@ -1262,7 +1277,7 @@ function handleMultipleSelection(qId) {
         q.userAnswers = Array.from(checkedBoxes).map(cb => cb.value);
         updateProgress();
         if (currentQuizMode === 'instant') {
-            renderQuiz();
+            renderSidebarNav();
         }
     }, 0);
 }
@@ -1275,10 +1290,7 @@ function handleFillInput(qId) {
     q.userAnswers = [inputVal];
     updateProgress();
     if (currentQuizMode === 'instant') {
-        const btnZone = document.querySelector(`#card-${qId} .btn-action-zone`);
-        if (!btnZone && inputVal.trim().length > 0) {
-            renderQuiz();
-        }
+        renderSidebarNav();
     }
 }
 
@@ -1303,7 +1315,7 @@ function handleTFSelection(qId, letter, isDung) {
     q.userAnswers = Object.keys(q.userTFAnswers);
     updateProgress();
     if (currentQuizMode === 'instant') {
-        renderQuiz();
+        renderSidebarNav();
     }
 }
 
@@ -1332,7 +1344,7 @@ function gradeIndividualQuestion(qId) {
         q.isCorrect = allAssertionsCorrect;
     } else {
         const userSorted = [...q.userAnswers].sort().join(',');
-        const correctSorted = [...q.correctAnswers].sort().join(',');
+        const correctSorted = [...(q.correctAnswers || [])].sort().join(',');
         q.isCorrect = (userSorted !== "" && userSorted === correctSorted);
     }
 
@@ -1561,6 +1573,15 @@ function updateProgress() {
     if (mpText) mpText.innerText = summaryText;
     if (fProgress) fProgress.innerText = summaryText;
     if (pBar) pBar.style.width = `${percent}%`;
+
+    const submitBtn = document.getElementById('btn-submit-quiz');
+    if (submitBtn) {
+        if (isQuizSubmitted) {
+            submitBtn.classList.add('hidden');
+        } else {
+            submitBtn.classList.remove('hidden');
+        }
+    }
 }
 
 function setMobileNavVisibility(visible) {

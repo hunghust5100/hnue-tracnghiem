@@ -23,7 +23,7 @@ async function saveQuizHistoryItem(subjectId, title, scoreText, correctCount, to
         const encrypted = await encryptData(JSON.stringify(history));
         localStorage.setItem(STORAGE_KEY_HISTORY, encrypted);
         await updateSubjectStatsUI(subjectId || 'cnxh');
-    } catch(e) {}
+    } catch(e) { console.warn('Lỗi lưu lịch sử:', e); }
 }
 
 function clearSubjectHistory(subjectId) {
@@ -71,7 +71,7 @@ async function saveWrongQuestions(subjectId, gradedQuestions) {
         const encrypted = await encryptData(JSON.stringify(bank));
         localStorage.setItem(STORAGE_KEY_WRONG, encrypted);
         await updateSubjectStatsUI(subId);
-    } catch(e) {}
+    } catch(e) { console.warn('Lỗi lưu câu sai:', e); }
 }
 
 function clearSubjectWrongBank(subjectId) {

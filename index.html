@@ -799,17 +799,23 @@ button:active {
 
 /* Top Bar inside Quiz View */
 .quiz-top-bar {
+    position: sticky;
+    top: 10px;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    padding: 12px 18px;
-    background: var(--bg-card);
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
-    box-shadow: var(--shadow-md);
+    border: 1px solid rgba(226, 232, 240, 0.9);
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
     flex-wrap: wrap;
     gap: 10px;
+    transition: all 0.2s ease;
 }
 
 .quiz-top-title {
@@ -821,32 +827,35 @@ button:active {
     gap: 8px;
 }
 
-/* Countdown Timer Badge */
+/* Countdown Timer Badge - High Visibility & Sticky */
 .timer-badge {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     font-family: var(--font-mono);
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 4px 14px;
-    background: rgba(99, 102, 241, 0.1);
-    color: var(--primary);
+    font-size: 1.15rem;
+    font-weight: 800;
+    padding: 6px 18px;
+    background: #e0e7ff;
+    color: #3730a3;
     border-radius: 50px;
-    border: 1px solid rgba(99, 102, 241, 0.2);
+    border: 2px solid #818cf8;
+    box-shadow: 0 3px 12px rgba(99, 102, 241, 0.25);
+    letter-spacing: 0.5px;
     transition: all 0.3s ease;
 }
 
 .timer-badge.warning-timer {
-    background: rgba(239, 68, 68, 0.1);
-    color: var(--danger);
-    border-color: rgba(239, 68, 68, 0.3);
+    background: #fef2f2;
+    color: #dc2626;
+    border-color: #fca5a5;
+    box-shadow: 0 0 16px rgba(239, 68, 68, 0.4);
     animation: pulseTimer 1s infinite alternate;
 }
 
 @keyframes pulseTimer {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.05); }
+    0% { transform: scale(1); box-shadow: 0 0 8px rgba(239, 68, 68, 0.3); }
+    100% { transform: scale(1.06); box-shadow: 0 0 18px rgba(239, 68, 68, 0.6); }
 }
 
 /* Quiz Layout (2 Columns) */
@@ -1525,7 +1534,7 @@ button:active {
 /* Sidebar Navigation */
 .quiz-sidebar {
     position: sticky;
-    top: 20px;
+    top: 84px;
 }
 
 .sidebar-card {
@@ -1988,6 +1997,16 @@ button:active {
     padding: 8px 16px 16px;
 }
 
+/* Accessibility: Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
     </style>
 </head>
 <body class="has-mobile-nav">
@@ -2262,7 +2281,7 @@ button:active {
                         </div>
 
                         <div class="sidebar-actions">
-                            <button class="btn-success hidden" id="btn-submit-quiz" onclick="submitQuiz()">✓ Nộp bài & Chấm điểm</button>
+                            <button class="btn-success" id="btn-submit-quiz" onclick="submitQuiz()">✓ Nộp bài & Chấm điểm</button>
                             <button class="btn-secondary" onclick="resetQuiz()">🔄 Làm lại bài này</button>
                             <button class="btn-primary" onclick="backToConfig()">🏠 Trang chủ (Chọn đề khác)</button>
                         </div>
@@ -2420,7 +2439,7 @@ async function decryptData(cipherText) {
         return dec.decode(decryptedBuffer);
     } catch(e) {
         console.error("Decrypt error:", e);
-        return cipherText;
+        return null;
     }
 }
 
@@ -2465,7 +2484,7 @@ async function saveQuizHistoryItem(subjectId, title, scoreText, correctCount, to
         const encrypted = await encryptData(JSON.stringify(history));
         localStorage.setItem(STORAGE_KEY_HISTORY, encrypted);
         await updateSubjectStatsUI(subjectId || 'cnxh');
-    } catch(e) {}
+    } catch(e) { console.warn('Lỗi lưu lịch sử:', e); }
 }
 
 function clearSubjectHistory(subjectId) {
@@ -2513,7 +2532,7 @@ async function saveWrongQuestions(subjectId, gradedQuestions) {
         const encrypted = await encryptData(JSON.stringify(bank));
         localStorage.setItem(STORAGE_KEY_WRONG, encrypted);
         await updateSubjectStatsUI(subId);
-    } catch(e) {}
+    } catch(e) { console.warn('Lỗi lưu câu sai:', e); }
 }
 
 function clearSubjectWrongBank(subjectId) {
@@ -3480,7 +3499,7 @@ function setMockCount(count) {
 }
 
 function setCustomMockCount(val) {
-    const parsed = parseInt(val);
+    const parsed = parseInt(val, 10);
     if (!isNaN(parsed) && parsed > 0) {
         selectedMockCount = parsed;
         const container = document.getElementById('count-pills');
@@ -3498,7 +3517,7 @@ function setMockTime(timeMins) {
 }
 
 function setCustomMockTime(val) {
-    const parsed = parseInt(val);
+    const parsed = parseInt(val, 10);
     if (!isNaN(parsed) && parsed >= 0) {
         selectedMockTime = parsed;
         const container = document.getElementById('timer-pills');
@@ -3988,6 +4007,21 @@ function renderQuiz() {
         container.appendChild(card);
     });
 
+    if (!isQuizSubmitted) {
+        const submitCard = document.createElement('div');
+        submitCard.className = 'quiz-bottom-submit-zone';
+        submitCard.style.cssText = 'margin: 30px 0; text-align: center; background: var(--bg-card); padding: 24px; border-radius: var(--radius-lg); border: 2px dashed var(--primary-light); box-shadow: 0 4px 12px rgba(0,0,0,0.05);';
+        submitCard.innerHTML = `
+            <div style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 12px;">
+                🎉 Bạn đã sẵn sàng hoàn thành bài làm?
+            </div>
+            <button class="btn-success" style="padding: 14px 32px; font-size: 1.05rem; font-weight: 800; border-radius: 50px; cursor: pointer; box-shadow: 0 4px 14px rgba(16,185,129,0.3);" onclick="submitQuiz()">
+                ✓ Nộp bài & Chấm điểm
+            </button>
+        `;
+        container.appendChild(submitCard);
+    }
+
     updateProgress();
 }
 
@@ -4011,7 +4045,7 @@ function handleMultipleSelection(qId) {
         q.userAnswers = Array.from(checkedBoxes).map(cb => cb.value);
         updateProgress();
         if (currentQuizMode === 'instant') {
-            renderQuiz();
+            renderSidebarNav();
         }
     }, 0);
 }
@@ -4024,10 +4058,7 @@ function handleFillInput(qId) {
     q.userAnswers = [inputVal];
     updateProgress();
     if (currentQuizMode === 'instant') {
-        const btnZone = document.querySelector(`#card-${qId} .btn-action-zone`);
-        if (!btnZone && inputVal.trim().length > 0) {
-            renderQuiz();
-        }
+        renderSidebarNav();
     }
 }
 
@@ -4052,7 +4083,7 @@ function handleTFSelection(qId, letter, isDung) {
     q.userAnswers = Object.keys(q.userTFAnswers);
     updateProgress();
     if (currentQuizMode === 'instant') {
-        renderQuiz();
+        renderSidebarNav();
     }
 }
 
@@ -4081,7 +4112,7 @@ function gradeIndividualQuestion(qId) {
         q.isCorrect = allAssertionsCorrect;
     } else {
         const userSorted = [...q.userAnswers].sort().join(',');
-        const correctSorted = [...q.correctAnswers].sort().join(',');
+        const correctSorted = [...(q.correctAnswers || [])].sort().join(',');
         q.isCorrect = (userSorted !== "" && userSorted === correctSorted);
     }
 
@@ -4310,6 +4341,15 @@ function updateProgress() {
     if (mpText) mpText.innerText = summaryText;
     if (fProgress) fProgress.innerText = summaryText;
     if (pBar) pBar.style.width = `${percent}%`;
+
+    const submitBtn = document.getElementById('btn-submit-quiz');
+    if (submitBtn) {
+        if (isQuizSubmitted) {
+            submitBtn.classList.add('hidden');
+        } else {
+            submitBtn.classList.remove('hidden');
+        }
+    }
 }
 
 function setMobileNavVisibility(visible) {

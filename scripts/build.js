@@ -303,7 +303,7 @@ ${css}
                         </div>
 
                         <div class="sidebar-actions">
-                            <button class="btn-success hidden" id="btn-submit-quiz" onclick="submitQuiz()">✓ Nộp bài & Chấm điểm</button>
+                            <button class="btn-success" id="btn-submit-quiz" onclick="submitQuiz()">✓ Nộp bài & Chấm điểm</button>
                             <button class="btn-secondary" onclick="resetQuiz()">🔄 Làm lại bài này</button>
                             <button class="btn-primary" onclick="backToConfig()">🏠 Trang chủ (Chọn đề khác)</button>
                         </div>

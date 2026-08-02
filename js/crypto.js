@@ -70,7 +70,7 @@ async function decryptData(cipherText) {
         return dec.decode(decryptedBuffer);
     } catch(e) {
         console.error("Decrypt error:", e);
-        return cipherText;
+        return null;
     }
 }
 
