@@ -53,10 +53,19 @@ function parseQuizText(rawText) {
                     if (tfMatch) {
                         const isCorrectTF = tfMatch[1] === '*';
                         const letter = tfMatch[2].toUpperCase();
-                        const optText = tfMatch[3].trim();
-                        const isDung = isCorrectTF;
+                        let optText = tfMatch[3].trim();
+                        let isDung = false;
+
+                        const dungMatch = optText.match(/->\s*\[?(ĐÚNG|SAI)\]?/i) || optText.match(/\s*\[?(ĐÚNG|SAI)\]?\s*$/i);
+                        if (dungMatch) {
+                            isDung = dungMatch[1].toUpperCase() === 'ĐÚNG';
+                            optText = optText.replace(/->\s*\[?(ĐÚNG|SAI)\]?/i, '').replace(/\s*\[?(ĐÚNG|SAI)\]?\s*$/i, '').trim();
+                        } else {
+                            isDung = isCorrectTF;
+                        }
+
                         options.push({ letter: letter, text: optText, isDung: isDung });
-                        if (isCorrectTF) correctAnswers.push(letter);
+                        if (isDung) correctAnswers.push(letter);
                     } else {
                         if (/^Câu\s+\d+:/i.test(line)) {
                             qBodyLines.push(line.replace(/^Câu\s+\d+:\s*/i, ""));

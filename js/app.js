@@ -209,6 +209,22 @@ const defaultCategories = [
     "status": "available",
     "quizzes": [
       {
+        "id": "gdh-nc-ch1",
+        "folder": "🔥 Bộ câu hỏi trắc nghiệm Nâng cao",
+        "title": "Chương 1: Giáo dục học là một khoa học (Nâng cao)",
+        "description": "50 câu Vận dụng & Vận dụng cao (40 câu MCQ + 10 câu Đúng/Sai, tích hợp tình huống thực tế)",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm nâng cao/Chương 1. Giáo dục học là một khoa học (Nâng cao).enc",
+        "icon": "⚡"
+      },
+      {
+        "id": "gdh-nc-ch2",
+        "folder": "🔥 Bộ câu hỏi trắc nghiệm Nâng cao",
+        "title": "Chương 2: Giáo dục và sự phát triển xã hội (Nâng cao)",
+        "description": "50 câu Vận dụng & Vận dụng cao (40 câu MCQ + 10 câu Đúng/Sai, tích hợp tình huống thực tế)",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm nâng cao/Chương 2. Giáo dục và sự phát triển xã hội (Nâng cao).enc",
+        "icon": "🔥"
+      },
+      {
         "id": "gdh-moi-80cau",
         "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
         "title": "Bộ 80 câu hỏi Trắc nghiệm Giáo dục học Đại cương",
@@ -1348,7 +1364,7 @@ function handleUserSelection(qId, letter) {
     q.userAnswers = [letter];
     updateProgress();
     if (currentQuizMode === 'instant') {
-        updateInstantActionZone(qId);
+        gradeIndividualQuestion(qId);
         renderSidebarNav();
     }
 }
