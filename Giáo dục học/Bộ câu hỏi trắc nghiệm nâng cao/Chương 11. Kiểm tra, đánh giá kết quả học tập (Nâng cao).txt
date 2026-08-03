@@ -1,0 +1,807 @@
+BỘ CÂU HỎI TRẮC NGHIỆM NÂNG CAO - GIÁO DỤC HỌC
+CHƯƠNG 11: KIỂM TRA, ĐÁNH GIÁ KẾT QUẢ HỌC TẬP
+(Mức độ: Vận dụng & Vận dụng cao - Thẩm định bẫy học thuật cao cấp)
+
+====================================================================
+PHẦN 1: TRẮC NGHIỆM 4 LỰA CHỌN (40 CÂU)
+====================================================================
+
+Câu 1: Phân tích bản chất lý luận của sự khác biệt giữa "Kiểm tra" và "Đánh giá" trong giáo dục?
+A. Kiểm tra là công việc của học sinh; Đánh giá là công việc của Bộ Giáo dục.
+*B. Kiểm tra là khâu thu thập thông tin; Đánh giá là khâu xử lý thông tin và ra quyết định sư phạm.
+C. Kiểm tra chỉ dùng cho môn Toán; Đánh giá chỉ dùng cho môn Văn.
+D. Kiểm tra luôn luôn có trước; Đánh giá không cần dựa trên dữ liệu kiểm tra.
+
+Giải thích:
+- Bản chất đáp án đúng: Kiểm tra (Assessment) là hoạt động đo lường, thu thập dữ liệu về kết quả học tập; Đánh giá (Evaluation) dựa trên dữ liệu kiểm tra để so sánh với mục tiêu, đưa ra nhận xét, điểm số và ra quyết định sư phạm.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở sự nhầm lẫn chủ thể.
+  + Phương án C bẫy ở sự nhầm lẫn phân môn.
+  + Phương án D bẫy ở sự tách rời phi lý.
+- Quy luật suy luận mở rộng: Kiểm tra (Thu thập thông tin dữ liệu) -> Đánh giá (Xử lý dữ liệu & Ra quyết định sư phạm).
+
+---
+
+Câu 2: Bản chất của "Chức năng chẩn đoán" trong Kiểm tra - Đánh giá kết quả học tập là gì?
+*A. Cung cấp tín hiệu ngược để phát hiện điểm mạnh, lỗ hổng kiến thức và điều chỉnh cách dạy - học.
+B. Cấp bằng tốt nghiệp và xác nhận lên lớp cho học sinh.
+C. Phạt tiền các học sinh có kết quả học tập sa sút.
+D. So sánh điểm số giữa các trường học để xếp hạng thi đua.
+
+Giải thích:
+- Bản chất đáp án đúng: Chức năng chẩn đoán nhằm giúp giáo viên phát hiện nguyên nhân học yếu hay hiểu sai của học sinh, cung cấp thông tin phản hồi (feedback) giúp thầy sửa cách dạy và trò điều chỉnh cách học.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở chức năng xác nhận.
+  + Phương án C bẫy ở hình phạt tài chính.
+  + Phương án D bẫy ở chức năng thi đua xếp hạng.
+- Quy luật suy luận mở rộng: Chức năng chẩn đoán = Phát hiện lỗ hổng kiến thức + Cung cấp tín hiệu ngược điều chỉnh cách dạy & học.
+
+---
+
+Câu 3: Mục đích chính của "Đánh giá xác nhận" (Summative evaluation - Đánh giá tổng kết) là gì?
+A. Điều chỉnh phương pháp giảng dạy ngay trong từng phút của tiết học.
+*B. Đánh giá mức độ đạt mục tiêu cuối khóa để xét lên lớp, cấp văn bằng hoặc chứng chỉ.
+C. Phát hiện năng khiếu bẩm sinh của học sinh mầm non.
+D. Phân hóa giàu nghèo giữa các học sinh trong nhà trường.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá xác nhận (diễn ra cuối học kỳ/cuối khóa) nhằm đo lường thành quả tổng thể của người học so với chuẩn đầu ra, làm căn cứ pháp lý để cấp văn bằng, chứng chỉ hoặc cho chuyển cấp.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở đánh giá thường xuyên/quá trình.
+  + Phương án C bẫy ở chức năng dự báo/định hướng.
+  + Phương án D bẫy ở phân hóa giàu nghèo.
+- Quy luật suy luận mở rộng: Đánh giá xác nhận (Đánh giá tổng kết) = Xét lên lớp + Cấp văn bằng chứng chỉ đạt chuẩn đầu ra.
+
+---
+
+Câu 4: Ưu điểm nổi bật nhất của Phương pháp "Kiểm tra viết dạng Trắc nghiệm khách quan" là gì?
+*A. Độ bao quát chương trình rộng, chấm điểm nhanh khách quan và hạn chế yếu tố thiên vị cá nhân.
+B. Giúp học sinh rèn luyện kỹ năng trình bày đoạn văn nghệ thuật bay bổng.
+C. Không tốn công sức thiết kế ma trận câu hỏi của người giáo viên.
+D. Cho phép học sinh quay phim chụp ảnh bài thi.
+
+Giải thích:
+- Bản chất đáp án đúng: Trắc nghiệm khách quan cho phép bao phủ phạm vi tri thức lớn trong thời gian ngắn, đáp án chuẩn hóa tuyệt đối giúp việc chấm điểm nhanh chóng, chính xác và loại bỏ định kiến cá nhân của người chấm.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở ưu điểm của bài tự luận mở.
+  + Phương án C bẫy ở xem nhẹ khâu biên soạn ma trận trắc nghiệm.
+  + Phương án D bẫy ở vi phạm quy chế thi.
+- Quy luật suy luận mở rộng: Trắc nghiệm khách quan = Bao quát tri thức rộng + Chấm điểm nhanh chuẩn xác khách quan.
+
+---
+
+Câu 5: Nhược điểm lớn nhất của Phương pháp "Kiểm tra tự luận truyền thống" nếu thiết kế không chuẩn là gì?
+A. Không thể sử dụng để kiểm tra môn Lịch sử hay Văn học.
+*B. Số lượng câu hỏi ít nên độ bao quát hẹp, chấm điểm dễ mang tính chủ quan của người chấm.
+C. Không cho phép học sinh thể hiện tư duy độc lập sáng tạo.
+D. Tốn quá nhiều chi phí in ấn đề thi trắc nghiệm.
+
+Giải thích:
+- Bản chất đáp án đúng: Tự luận truyền thống thường chỉ có 3-5 câu hỏi nên không bao quát hết chương trình; việc đáp án mở khiến điểm số phụ thuộc nhiều vào tâm lý và quan điểm chủ quan của giáo viên chấm bài.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở phủ nhận tự luận môn xã hội.
+  + Phương án C bẫy ở nhược điểm trắc nghiệm (tự luận phát huy tốt tư duy độc lập).
+  + Phương án D bẫy ở sự nhầm lẫn với trắc nghiệm.
+- Quy luật suy luận mở rộng: Nhược điểm tự luận = Số câu hỏi ít (Bao quát hẹp) + Chấm điểm dễ mang tính chủ quan.
+
+---
+
+Câu 6 [TÌNH HUỐNG THỰC TẾ]: Nhằm đánh giá năng lực thực hành của học sinh trong bài học "Thiết kế trang web cá nhân" môn Tin học, cô giáo K không cho làm bài thi viết mà yêu cầu học sinh nộp sản phẩm trang web hoàn chỉnh kèm bảng tiêu chí Rubrics chấm điểm công khai. Cô K đã ứng dụng hình thức đánh giá nào?
+A. Đánh giá vấn đáp truyền thống.
+*B. Đánh giá thực hành / Đánh giá qua sản phẩm (Performance Assessment).
+C. Đánh giá lý thuyết thuộc lòng.
+D. Đánh giá chẩn đoán đầu năm.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá qua sản phẩm thực tế (trang web) dựa trên bảng tiêu chí chỉ báo Rubrics minh bạch là hình thức Đánh giá thực hành (Performance Assessment) đặc trưng cho định hướng phát triển năng lực.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở vấn đáp.
+  + Phương án C bẫy ở thuộc lòng.
+  + Phương án D bẫy ở chẩn đoán đầu năm.
+- Quy luật suy luận mở rộng: Đánh giá qua sản phẩm thực tế + Bảng Rubrics = Đánh giá thực hành (Performance Assessment).
+
+---
+
+Câu 7: Khái niệm "Đánh giá vì sự tiến bộ của người học" (Assessment for Learning - Formative) nhấn mạnh điều gì?
+*A. Coi kiểm tra đánh giá là công cụ hỗ trợ người học phát hiện lỗi sai để tiến bộ, không chỉ để cho điểm phạt.
+B. Chỉ quan tâm đến điểm số thi cuối kỳ để xếp hạng khen thưởng.
+C. Bãi bỏ việc giáo viên nhận xét bài làm của học sinh.
+D. Cho phép 100% học sinh đều đạt điểm 10 tuyệt đối.
+
+Giải thích:
+- Bản chất đáp án đúng: Triết lý "Đánh giá vì sự tiến bộ" coi trọng quá trình: giáo viên đưa ra lời nhận xét cụ thể (feedback), giúp học sinh tự nhận ra điểm yếu để sửa chữa và nâng cao năng lực bản thân liên tục.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở đánh giá tổng kết cứng nhắc.
+  + Phương án C bẫy ở bỏ nhận xét.
+  + Phương án D bẫy ở cào bằng điểm số.
+- Quy luật suy luận mở rộng: Đánh giá vì sự tiến bộ (Formative) = Nhấn mạnh quá trình + Cung cấp nhận xét giúp học sinh tự sửa lỗi và phát triển.
+
+---
+
+Câu 8: Khái niệm "Đánh giá đồng đẳng" (Peer-assessment) trong lớp học được hiểu là gì?
+A. Việc các giáo viên trong trường đánh giá tiết dạy của nhau.
+*B. Học sinh trực tiếp tham gia nhận xét, đánh giá sản phẩm học tập của các bạn cùng lớp theo tiêu chí.
+C. Việc phụ huynh học sinh chấm điểm bài kiểm tra của con em mình.
+D. Việc máy tính tự động chấm điểm bài thi trắc nghiệm.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá đồng đẳng là việc tổ chức cho học sinh đối chiếu sản phẩm của bạn học với tiêu chí cho trước để nhận xét, qua đó rèn luyện khả năng quan sát, phản biện và tự rút kinh nghiệm cho bản thân.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở dự giờ giáo viên.
+  + Phương án C bẫy ở phụ huynh chấm điểm.
+  + Phương án D bẫy ở máy tính chấm.
+- Quy luật suy luận mở rộng: Đánh giá đồng đẳng = Học sinh đánh giá sản phẩm của bạn học theo tiêu chí công khai.
+
+---
+
+Câu 9: Yêu cầu "Tính khách quan" của Kiểm tra - Đánh giá đòi hỏi điều gì?
+*A. Kết quả đánh giá phản ánh đúng thực chất trình độ học sinh, không phụ thuộc vào cảm xúc cá nhân người chấm.
+B. Giáo viên được quyền cho điểm theo mức độ thân quen với phụ huynh học sinh.
+C. Sử dụng đề thi quá khó để 100% học sinh đều bị điểm kém.
+D. Bãi bỏ việc xây dựng đáp án và biểu điểm chi tiết.
+
+Giải thích:
+- Bản chất đáp án đúng: Tính khách quan yêu cầu công cụ đo lường và thái độ người chấm phải chuẩn xác, công bằng; kết quả phản ánh trung thực năng lực người học mà không bị chi phối bởi định kiến hay cảm xúc thầy trò.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở sự tiêu cực thiên vị.
+  + Phương án C bẫy ở sự đánh đố cực đoan.
+  + Phương án D bẫy ở bỏ biểu điểm.
+- Quy luật suy luận mở rộng: Tính khách quan = Phản ánh đúng thực chất năng lực + Không phụ thuộc cảm xúc định kiến người chấm.
+
+---
+
+Câu 10 [TÌNH HUỐNG THỰC TẾ]: Trong bài kiểm tra 1 tiết môn Văn, thầy giáo L phát hiện học sinh H có ý tưởng phân tích nhân vật rất độc đáo nhưng chưa đúng với dàn ý mẫu của đáp án. Thầy L đã quyết định cộng điểm sáng tạo cho H thay vì trừ điểm vì "khác đáp án mẫu". Hành vi của thầy L tuân thủ nguyên tắc đánh giá nào?
+A. Nguyên tắc rập khuôn máy móc theo văn mẫu.
+*B. Nguyên tắc tôn trọng tính độc lập sáng tạo và phát triển năng lực tư duy của học sinh.
+C. Nguyên tắc xử phạt vi phạm kỷ luật.
+D. Nguyên tắc cào bằng điểm số cho cả lớp.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá phát triển năng lực khuyến khích tư duy phản biện và sáng tạo; việc thầy L trân trọng góc nhìn độc đáo của học sinh là tuân thủ nguyên tắc đánh giá khuyến khích tư duy độc lập sáng tạo.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở rập khuôn văn mẫu.
+  + Phương án C bẫy ở xử phạt.
+  + Phương án D bẫy ở cào bằng.
+- Quy luật suy luận mở rộng: Khuyến khích góc nhìn độc đáo hợp lý = Tôn trọng tính độc lập sáng tạo trong kiểm tra đánh giá.
+
+---
+
+Câu 11: Bản chất của "Độ tin cậy" (Reliability) của một đề kiểm tra được xác định thế nào?
+*A. Kết quả đo lường nhất quán, ổn định khi đợt kiểm tra được lặp lại trong các điều kiện tương đương.
+B. Đề thi đo lường đúng cái cần đo theo mục tiêu chương trình.
+C. Đề thi có số lượng trang in dài nhất trong các kỳ thi.
+D. Đề thi được bảo mật trong két sắt của nhà trường.
+
+Giải thích:
+- Bản chất đáp án đúng: Độ tin cậy phản ánh tính ổn định của công cụ đo: nếu cho cùng một đối tượng học sinh làm các đề tương đương hoặc làm lại ở các thời điểm khác nhau thì kết quả thu được phải nhất quán.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở Độ giá trị (Validity).
+  + Phương án C bẫy ở độ dài đề.
+  + Phương án D bẫy ở bảo mật đề thi.
+- Quy luật suy luận mở rộng: Độ tin cậy (Reliability) = Kết quả đo lường nhất quán, ổn định qua các lần đo tương đương.
+
+---
+
+Câu 12: Sự khác biệt giữa "Độ tin cậy" (Reliability) và "Độ giá trị" (Validity) của đề kiểm tra là gì?
+*A. Độ giá trị là đo đúng cái cần đo; Độ tin cậy là kết quả đo ổn định nhất quán.
+B. Độ giá trị do học sinh tính; Độ tin cậy do giáo viên tính.
+C. Độ giá trị chỉ dùng cho trắc nghiệm; Độ tin cậy chỉ dùng cho tự luận.
+D. Độ giá trị là điểm số; Độ tin cậy là nhận xét bằng lời.
+
+Giải thích:
+- Bản chất đáp án đúng: Độ giá trị (Validity) trả lời câu hỏi: "Đề thi có đo đúng mục tiêu kiến thức/kỹ năng cần đo không?"; Độ tin cậy (Reliability) trả lời câu hỏi: "Kết quả đo có ổn định chuẩn xác không?".
+- Phân tích phương án sai/bẫy:
+  + Phương án B, C, D bẫy ở các sự phân biệt sai lệch lý luận đo lường giáo dục.
+- Quy luật suy luận mở rộng: Độ giá trị (Đo đúng cái cần đo) vs Độ tin cậy (Kết quả đo ổn định nhất quán).
+
+---
+
+Câu 13: Vai trò của "Ma trận đề kiểm tra" (Test Matrix / Table of Specifications) là gì?
+A. Làm cho đề thi trở nên đánh đố học sinh hơn.
+*B. Bảng lập kế hoạch đảm bảo đề thi phân bổ hợp lý các mức độ tư duy và bao quát chuẩn kiến thức.
+C. Thay thế cho toàn bộ bài làm của học sinh.
+D. Danh mục các điểm số dự kiến cho từng học sinh.
+
+Giải thích:
+- Bản chất đáp án đúng: Ma trận đề thi là bản thiết kế sư phạm: quy định rõ tỷ lệ % các mức độ tư duy (Nhận biết, Thông hiểu, Vận dụng, Vận dụng cao) và phạm vi chủ đề kiến thức, đảm bảo đề thi có Độ giá trị cao.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở sự đánh đố.
+  + Phương án C bẫy ở thay bài làm.
+  + Phương án D bẫy ở danh mục điểm số.
+- Quy luật suy luận mở rộng: Ma trận đề thi = Bản thiết kế đảm bảo phân bổ hợp lý các mức độ tư duy & độ bao quát chuẩn.
+
+---
+
+Câu 14: Ý nghĩa của "Tự đánh giá" (Self-assessment) đối với học sinh là gì?
+*A. Giúp học sinh chủ thể hóa quá trình học, nâng cao ý thức trách nhiệm và rèn năng lực tự điều chỉnh.
+B. Cho phép học sinh tự cho mình điểm 10 mà không cần làm bài.
+C. Làm giảm vai trò quản lý chuyên môn của giáo viên.
+D. Bãi bỏ việc tổ chức các kỳ thi quốc gia.
+
+Giải thích:
+- Bản chất đáp án đúng: Tự đánh giá giúp người học soi chiếu bản thân với chuẩn mực; từ chỗ thụ động chờ người khác nhận xét chuyển sang chủ động nhận biết điểm mạnh/yếu của mình để tự sửa chữa (năng lực tự học).
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở tự cho điểm 10 vô lý.
+  + Phương án C bẫy ở giảm vai trò thầy.
+  + Phương án D bẫy ở bỏ kỳ thi quốc gia.
+- Quy luật suy luận mở rộng: Tự đánh giá = Nâng cao ý thức trách nhiệm + Năng lực tự soi chiếu và tự điều chỉnh cách học.
+
+---
+
+Câu 15 [TÌNH HUỐNG THỰC TẾ]: Khi chấm bài kiểm tra môn Tiếng Anh, thay vì chỉ ghi điểm số "6/10", cô giáo M đã viết lời nhận xét chi tiết: "Em chia đúng thời thì của động từ, nhưng cần chú ý cấu trúc câu điều kiện loại 2 ở câu số 4". Lời nhận xét của cô M thể hiện chức năng nào?
+A. Chức năng xác nhận cấp văn bằng.
+*B. Chức năng chẩn đoán và cung cấp tín hiệu phản hồi (Feedback) điều chỉnh học tập.
+C. Chức năng xử phạt vi phạm kỷ luật.
+D. Chức năng thi đua xếp hạng trường học.
+
+Giải thích:
+- Bản chất đáp án đúng: Lời nhận xét cụ thể chỉ rõ lỗi sai (cấu trúc câu điều kiện loại 2) và khen ngợi điểm đúng là tín hiệu phản hồi sư phạm chất lượng (Feedback), thực hiện chức năng chẩn đoán giúp học sinh tiến bộ.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở xác nhận bằng cấp.
+  + Phương án C bẫy ở xử phạt.
+  + Phương án D bẫy ở thi đua xếp hạng.
+- Quy luật suy luận mở rộng: Lời nhận xét cụ thể chỉ rõ lỗi sai & điểm mạnh = Tín hiệu phản hồi (Feedback) thực hiện Chức năng chẩn đoán.
+
+---
+
+Câu 16: Phân loại 4 mức độ tư duy trong thiết kế đề kiểm tra theo Thang Bloom cải tiến gồm những mức nào?
+*A. Nhận biết, Thông hiểu, Vận dụng và Vận dụng cao (Sáng tạo).
+B. Đọc thuộc, Chép lại, Nghe giảng và Đi ngủ.
+C. Thi viết, Thi nói, Thi thực hành và Thi thể thao.
+D. Điểm 1, Điểm 2, Điểm 3 và Điểm 4.
+
+Giải thích:
+- Bản chất đáp án đúng: Khung đánh giá phát triển năng lực hiện hành quy định 4 mức độ nhận thức/tư duy theo Thang Bloom: 1. Nhận biết; 2. Thông hiểu; 3. Vận dụng; 4. Vận dụng cao.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở các hành vi thụ động tiêu cực.
+  + Phương án C bẫy ở các hình thức thi.
+  + Phương án D bẫy ở các mức điểm số.
+- Quy luật suy luận mở rộng: 4 mức độ tư duy = Nhận biết + Thông hiểu + Vận dụng + Vận dụng cao.
+
+---
+
+Câu 17: Ý nghĩa của việc "Sử dụng Bảng chỉ báo Rubrics" trong đánh giá thực hành / dự án là gì?
+A. Làm cho học sinh không hiểu được tiêu chí chấm điểm của thầy.
+*B. Minh bạch hóa các tiêu chí và mức độ chất lượng giúp việc đánh giá chính xác và hướng dẫn học sinh làm bài.
+C. Thay thế cho toàn bộ kiến thức sách giáo khoa.
+D. Dùng để phạt các học sinh làm bài chậm tiến độ.
+
+Giải thích:
+- Bản chất đáp án đúng: Rubrics là bảng mô tả chi tiết các tiêu chí đánh giá và các mức độ đạt được (xuất sắc, khá, trung bình, yếu); công khai Rubrics giúp học sinh biết rõ mục tiêu cần phấn đấu và giáo viên chấm điểm công bằng.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở làm mờ mắt học sinh.
+  + Phương án C bẫy ở thay sách.
+  + Phương án D bẫy ở phạt học sinh.
+- Quy luật suy luận mở rộng: Bảng Rubrics = Minh bạch hóa tiêu chí & Mức độ chất lượng giúp đánh giá chuẩn xác.
+
+---
+
+Câu 18: Sự khác biệt giữa "Đánh giá chuẩn đối chiếu tiêu chí" (Criterion-referenced) và "Đánh giá chuẩn đối chiếu chuẩn mực" (Norm-referenced) là gì?
+*A. Đối chiếu tiêu chí: So với chuẩn mục tiêu cố định; Đối chiếu chuẩn mực: So sánh vị trí tương quan giữa các người học.
+B. Đối chiếu tiêu chí do học sinh chấm; Đối chiếu chuẩn mực do Bộ chấm.
+C. Đối chiếu tiêu chí chỉ dùng cho mầm non; Đối chiếu chuẩn mực chỉ dùng cho đại học.
+D. Đối chiếu tiêu chí luôn đúng; Đối chiếu chuẩn mực luôn sai.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá tiêu chí (như thi tốt nghiệp) so sánh kết quả học sinh với Chuẩn kiến thức kỹ năng định sẵn; Đánh giá chuẩn mực (như thi tuyển sinh lấy từ trên xuống) so sánh kết quả học sinh với điểm số của tập thể thi.
+- Phân tích phương án sai/bẫy:
+  + Phương án B, C, D bẫy ở các sự phân biệt sai lệch lý luận đo lường.
+- Quy luật suy luận mở rộng: Đánh giá tiêu chí (So với Chuẩn cố định) vs Đánh giá chuẩn mực (So với Tương quan tập thể).
+
+---
+
+Câu 19 [TÌNH HUỐNG THỰC TẾ]: Kỳ thi Kỳ thi học sinh giỏi quốc gia THPT lấy kết quả điểm số từ cao xuống thấp để trao giải Nhất, Nhì, Ba theo tỷ lệ % quy định. Kỳ thi này ứng dụng mô hình đánh giá nào?
+A. Đánh giá theo chuẩn tiêu chí cố định.
+*B. Đánh giá theo chuẩn đối chiếu chuẩn mực tương quan (Norm-referenced).
+C. Đánh giá chẩn đoán đầu năm.
+D. Tự đánh giá cá nhân.
+
+Giải thích:
+- Bản chất đáp án đúng: Việc xếp giải học sinh giỏi lấy từ cao xuống thấp dựa vào vị trí tương quan giữa các thí sinh trong đợt thi (chứ không theo một ngưỡng điểm tuyệt đối định sẵn) là bản chất của Đánh giá đối chiếu chuẩn mực.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở đánh giá tiêu chí.
+  + Phương án C bẫy ở chẩn đoán đầu năm.
+  + Phương án D bẫy ở tự đánh giá.
+- Quy luật suy luận mở rộng: Lấy giải từ cao xuống thấp theo vị trí tương quan thí sinh = Đánh giá chuẩn đối chiếu chuẩn mực (Norm-referenced).
+
+---
+
+Câu 20: Tác hại của việc "Lạm dụng điểm số và bệnh thành tích" trong kiểm tra đánh giá là gì?
+*A. Gây áp lực tâm lý tiêu cực, phát sinh hành vi gian lận và làm sai lệch bản chất giáo dục nhân cách.
+B. Làm cho học sinh yêu thích môn học hơn.
+C. Tăng cường tình đoàn kết giữa các bạn trong lớp.
+D. Giúp giáo viên nâng cao trình độ chuyên môn.
+
+Giải thích:
+- Bản chất đáp án đúng: Bệnh thành tích biến điểm số thành áp lực đè nặng, dẫn đến việc học vẹt, học lệch, quay kop gian lận, làm cho kết quả đánh giá phản ánh giả tạo trình độ thực sự của học sinh.
+- Phân tích phương án sai/bẫy:
+  + Phương án B, C, D bẫy ở các nhận định tích cực không phản ánh tác hại của bệnh thành tích.
+- Quy luật suy luận mở rộng: Bệnh thành tích & Lạm dụng điểm số -> Áp lực tiêu cực, gian lận, kết quả giả tạo.
+
+---
+
+Câu 21: Bản chất của "Hồ sơ học tập" (Portfolio Assessment) trong đánh giá phát triển năng lực là gì?
+A. Tập hợp các quyết định kỷ luật của học sinh trong cả năm.
+*B. Bộ sưu tập có hệ thống các sản phẩm, bài làm của học sinh qua thời gian phản ánh sự tiến bộ.
+C. Cuốn sổ theo dõi sức khỏe của y tế nhà trường.
+D. Danh mục các khoản tiền đóng góp của phụ huynh.
+
+Giải thích:
+- Bản chất đáp án đúng: Hồ sơ học tập (Portfolio) lưu giữ các bài viết, bài vẽ, dự án, video thu hoạch của học sinh từ đầu đến cuối khóa; giúp thầy và trò nhìn thấy rõ con đường và mức độ trưởng thành/tiến bộ từng ngày.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở quyết định kỷ luật.
+  + Phương án C bẫy ở sổ y tế.
+  + Phương án D bẫy ở tiền đóng góp.
+- Quy luật suy luận mở rộng: Hồ sơ học tập (Portfolio) = Bộ sưu tập sản phẩm học tập theo thời gian phản ánh sự tiến bộ.
+
+---
+
+Câu 22: Yêu cầu của việc "Xây dựng Đáp án và Biểu điểm" bài kiểm tra tự luận là gì?
+*A. Cụ thể hóa các ý cần đạt, phân chia điểm thành các phần nhỏ và có khoảng điểm mở cho sự sáng tạo.
+B. Chỉ cho điểm tuyệt đối nếu học sinh chép chính xác 100% từng từ trong sách.
+C. Giấu kín biểu điểm không cho học sinh biết sau khi trả bài.
+D. Cho điểm tùy hứng theo cảm xúc của giáo viên lúc chấm.
+
+Giải thích:
+- Bản chất đáp án đúng: Biểu điểm tự luận chuẩn phải chia nhỏ điểm theo ý (tránh chấm chung chung), có tiêu chí rõ ràng và dành quỹ điểm cho những phát hiện, cách giải ngắn gọn/sáng tạo ngoài đáp án chuẩn.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở ép chép từ ngữ rập khuôn.
+  + Phương án C bẫy ở giấu biểu điểm.
+  + Phương án D bẫy ở chấm tùy hứng.
+- Quy luật suy luận mở rộng: Đáp án & Biểu điểm tự luận = Phân chia điểm nhỏ theo ý + Có quỹ điểm mở cho tư duy sáng tạo.
+
+---
+
+Câu 23 [TÌNH HUỐNG THỰC TẾ]: Trong tiết Trả bài kiểm tra 1 tiết môn Toán, thầy giáo N không chỉ đọc điểm mà dành 20 phút cho học sinh làm việc theo cặp để đổi bài cho nhau, thảo luận chỉ ra lỗi sai trong lời giải của bạn và đề xuất cách sửa. Thầy N đang tổ chức hình thức đánh giá nào?
+A. Đánh giá tổng kết xác nhận bằng cấp.
+*B. Đánh giá đồng đẳng (Peer-assessment) kết hợp chữa lỗi phát triển tư duy.
+C. Kiểm tra vấn đáp cá nhân.
+D. Thi trắc nghiệm máy tính.
+
+Giải thích:
+- Bản chất đáp án đúng: Việc cho học sinh trao đổi bài, soi lỗi sai giúp nhau và thảo luận phương án sửa chính là hình thức Đánh giá đồng đẳng phát huy tính tích cực và tự chủ trong học tập.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở xác nhận bằng cấp.
+  + Phương án C bẫy ở vấn đáp.
+  + Phương án D bẫy ở trắc nghiệm máy.
+- Quy luật suy luận mở rộng: Đổi bài soi lỗi sai giúp bạn và thảo luận sửa = Đánh giá đồng đẳng (Peer-assessment).
+
+---
+
+Câu 24: Vai trò của "Tín hiệu phản hồi" (Feedback) trong quá trình Kiểm tra - Đánh giá là gì?
+*A. Là mắt xích nối liền kết quả đánh giá với sự điều chỉnh hành động dạy của thầy và hành động học của trò.
+B. Là điểm số ghi trên trang bìa của bài kiểm tra.
+C. Là tiếng chuông báo hiệu hết giờ làm bài thi.
+D. Là quyết định khen thưởng cuối năm học.
+
+Giải thích:
+- Bản chất đáp án đúng: Phản hồi sư phạm (Feedback) là thông tin trả về giúp người học biết mình đang ở đâu so với mục tiêu, sai ở đâu và làm sao để sửa; giúp người dạy biết bài giảng của mình hiệu quả đến đâu.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở điểm số thuần túy.
+  + Phương án C bẫy ở chuông hết giờ.
+  + Phương án D bẫy ở quyết định khen thưởng.
+- Quy luật suy luận mở rộng: Tín hiệu phản hồi (Feedback) = Mắt xích nối liền Đánh giá với Sự điều chỉnh cách Dạy và Học.
+
+---
+
+Câu 25: Ý nghĩa của "Đánh giá quá trình" (Formative Assessment) đối với người học là gì?
+A. Loại bỏ hoàn toàn sự cần thiết của các kỳ thi.
+*B. Giúp người học nhận biết sự tiến bộ liên tục, giảm bớt căng thẳng và điều chỉnh phương pháp học kịp thời.
+C. Tạo ra tâm lý chủ quan không cần học bài.
+D. Làm cho giáo viên tốn thời gian mà không mang lại hiệu quả.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá quá trình (diễn ra liên tục trong tiết học qua quan sát, câu hỏi, bài tập nhỏ) giúp phát hiện và hỗ trợ người học ngay lập tức, không để hổng kiến thức tích tụ đến cuối kỳ.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở bỏ kỳ thi.
+  + Phương án C bẫy ở chủ quan lười học.
+  + Phương án D bẫy ở phủ nhận hiệu quả.
+- Quy luật suy luận mở rộng: Đánh giá quá trình = Theo dõi sự tiến bộ liên tục + Giảm căng thẳng + Hỗ trợ sửa lỗi kịp thời.
+
+---
+
+Câu 26: Yêu cầu sư phạm khi "Thực hiện Đánh giá vấn đáp" là gì?
+*A. Bình tĩnh theo dõi câu trả lời, không ngắt lời phi lý, đặt câu hỏi gợi mở và kết hợp 2 người chấm.
+B. Hát hò và làm việc riêng trong khi học sinh đang trả lời.
+C. Đặt câu hỏi quá khó mang tính đánh đố dồn học sinh vào thế bí.
+D. Cho điểm ngẫu nhiên không cần nghe học sinh trình bày.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá vấn đáp đòi hỏi tạo không khí tâm lý thoải mái, đặt câu hỏi rõ ràng, kiên nhẫn lắng nghe, gợi mở đúng lúc và đảm bảo khách quan bằng việc có đối chiếu đánh giá.
+- Phân tích phương án sai/bẫy:
+  + Phương án B, C, D bẫy ở các hành vi vi phạm đạo đức và kỹ năng sư phạm nghiêm trọng.
+- Quy luật suy luận mở rộng: Đánh giá vấn đáp sư phạm = Bình tĩnh lắng nghe + Câu hỏi rõ ràng gợi mở + Đánh giá khách quan.
+
+---
+
+Câu 27: Vai trò của "Công nghệ thông tin và Ngân hàng câu hỏi trắc nghiệm" đối với kiểm tra đánh giá là gì?
+*A. Chuẩn hóa đề thi, tự động hóa khâu trộn đề và chấm điểm, đảm bảo tính khách quan và tiết kiệm nguồn lực.
+B. Thay thế hoàn toàn vai trò ra đề của người giáo viên.
+C. Làm cho học sinh không cần học tập vẫn qua môn.
+D. Triệt tiêu tính sư phạm của các kỳ thi.
+
+Giải thích:
+- Bản chất đáp án đúng: Ngân hàng câu hỏi được thẩm định kỹ thuật và phần mềm chấm thi giúp tạo ra các đề thi có độ tương đương cao, khách quan tuyệt đối, tiết kiệm thời gian và công sức cho hệ thống giáo dục.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở thay thế tuyệt đối giáo viên.
+  + Phương án C bẫy ở không học vẫn qua.
+  + Phương án D bẫy ở triệt tiêu tính sư phạm.
+- Quy luật suy luận mở rộng: Ngân hàng câu hỏi & Công nghệ chấm thi = Chuẩn hóa đề thi + Tự động hóa chấm điểm + Khách quan & Tiết kiệm.
+
+---
+
+Câu 28 [TÌNH HUỐNG THỰC TẾ]: Nhằm giúp học sinh chuẩn bị cho kỳ thi Đánh giá năng lực Đại học, thầy giáo P đã thiết kế các bài thi thử trên hệ thống E-learning. Sau khi nộp bài, máy tính lập tức hiển thị điểm số, danh mục câu sai và video hướng dẫn chi tiết cách giải từng câu. Thầy P đã phát huy ưu thế nào của công nghệ?
+A. Tiết kiệm 100% ngân sách nhà nước.
+*B. Tự động hóa việc đánh giá và cung cấp phản hồi lập tức (Instant Feedback) hỗ trợ tự học.
+C. Bãi bỏ việc học tập trên lớp.
+D. Ép buộc mọi học sinh phải mua máy tính đắt tiền.
+
+Giải thích:
+- Bản chất đáp án đúng: Việc hiển thị điểm ngay lập tức kèm đáp án phân tích lỗi sai qua video là hình thức phản hồi tức thì (Instant Feedback) bằng công nghệ, giúp người học tự nhận ra sai sót và tự chữa bài hiệu quả.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở tiết kiệm ngân sách tuyệt đối.
+  + Phương án C bẫy ở bỏ học trên lớp.
+  + Phương án D bẫy ở ép mua máy tính.
+- Quy luật suy luận mở rộng: Máy tính báo điểm ngay kèm video phân tích câu sai = Tự động hóa đánh giá & Cung cấp phản hồi tức thì (Instant Feedback).
+
+---
+
+Câu 29: Yêu cầu của nguyên tắc "Đánh giá toàn diện" kết quả học tập là gì?
+*A. Đánh giá cả Tri thức, Kỹ năng, Thái độ và Khả năng vận dụng thực tiễn trong các bối cảnh khác nhau.
+B. Chỉ đánh giá duy nhất điểm số môn Toán và môn Ngữ văn.
+C. Đánh giá học sinh dựa trên gia cảnh và thu nhập của cha mẹ.
+D. Chỉ đánh giá các câu hỏi thuộc lòng trong sách giáo khoa.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá toàn diện yêu cầu xem xét sự phát triển nhân cách ở mọi khía cạnh: nhận thức (tri thức), thao tác (kỹ năng), tâm huyết (thái độ, phẩm chất) và năng lực hành động thực tế.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở thu hẹp môn học.
+  + Phương án C bẫy ở gia cảnh.
+  + Phương án D bẫy ở thuộc lòng.
+- Quy luật suy luận mở rộng: Đánh giá toàn diện = Đánh giá Tri thức + Kỹ năng + Thái độ + Năng lực vận dụng thực tiễn.
+
+---
+
+Câu 30: Bản chất của "Kỹ thuật KWL" (Know - Want to know - Learned) trong đánh giá chuẩn đoán và tự đánh giá là gì?
+A. Một loại bài thi trắc nghiệm khách quan 4 lựa chọn.
+*B. Bảng học sinh ghi những điều Đã biết (K), Muốn biết (W) và Đã học được (L) qua bài học.
+C. Phần mềm máy tính chấm bài tự luận tự động.
+D. Danh mục quy chế thi kỷ luật.
+
+Giải thích:
+- Bản chất đáp án đúng: KWL là công cụ sư phạm tuyệt vời: K (chẩn đoán kiến thức nền đã có), W (định hướng nhu cầu tìm hiểu), L (tự đánh giá thành quả thu nhận được sau bài học).
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở trắc nghiệm.
+  + Phương án C bẫy ở phần mềm chấm bài.
+  + Phương án D bẫy ở quy chế thi.
+- Quy luật suy luận mở rộng: KWL = K (Đã biết - Chẩn đoán) + W (Muốn biết - Định hướng) + L (Đã học được - Tự đánh giá).
+
+---
+
+Câu 31: Ý nghĩa của việc "Công khai Tiêu chí đánh giá trước khi làm bài" đối với học sinh là gì?
+*A. Định hướng hoạt động học tập, giúp học sinh biết rõ kỳ vọng và tự điều chỉnh cách làm bài đạt chuẩn.
+B. Làm cho học sinh gian lận dễ dàng hơn.
+C. Làm giảm uy quyền của người giáo viên trong lớp.
+D. Triệt tiêu tính bảo mật của đề thi trắc nghiệm.
+
+Giải thích:
+- Bản chất đáp án đúng: Công khai tiêu chí (như Rubrics hay ma trận) giúp học sinh hiểu thầy cô mong đợi điều gì ở bài làm, từ đó định hướng sự tập trung và nỗ lực để đáp ứng đúng các yêu cầu chất lượng đó.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở gian lận.
+  + Phương án C bẫy ở giảm uy quyền.
+  + Phương án D bẫy ở triệt tiêu bảo mật đề.
+- Quy luật suy luận mở rộng: Công khai tiêu chí đánh giá -> Định hướng học tập, giúp học sinh chủ động làm bài đạt chuẩn.
+
+---
+
+Câu 32: Yêu cầu "Tính phát triển" của Kiểm tra - Đánh giá hiện đại thể hiện thế nào?
+A. Tìm mọi cách để dồn học sinh vào điểm kém để hạ thấp thi đua.
+*B. Nhìn nhận sự tiến bộ của từng cá nhân so với chính họ qua thời gian để động viên ý chí vươn lên.
+C. So sánh và bêu xấu các học sinh yếu trước toàn trường.
+D. Cào bằng tất cả học sinh đều có trình độ như nhau.
+
+Giải thích:
+- Bản chất đáp án đúng: Tính phát triển coi đánh giá là động lực: tôn trọng tốc độ trưởng thành của từng em, ghi nhận sự nỗ lực tiến bộ so với mốc xuất phát của chính các em để khích lệ niềm tin và ý chí học tập.
+- Phân tích phương án sai/bẫy:
+  + Phương án A, C bẫy ở các hành vi trừng phạt tiêu cực trù dập.
+  + Phương án D bẫy ở cào bằng.
+- Quy luật suy luận mở rộng: Tính phát triển = Nhìn nhận sự tiến bộ của cá nhân so với chính họ để khích lệ vươn lên.
+
+---
+
+Câu 33 [TÌNH HUỐNG THỰC TẾ]: Trong một tiết học môn Vật lý, sau khi học sinh làm xong bài tập vận dụng trên lớp, cô giáo Q đưa ra đáp án chuẩn cùng thang điểm chi tiết và yêu cầu học sinh tự chấm bài của mình rồi ghi lại những câu làm sai vào "Nhật ký học tập". Cô Q đang rèn luyện năng lực nào?
+*A. Năng lực Tự đánh giá (Self-assessment) và Tự điều chỉnh nhận thức.
+B. Năng lực thi đấu thể thao.
+C. Năng lực gian lận thi cử.
+D. Năng lực làm việc ngoài nhà trường.
+
+Giải thích:
+- Bản chất đáp án đúng: Cho học sinh đối chiếu bài làm với đáp án chuẩn, tự cho điểm và tự phân tích nguyên nhân lỗi sai vào nhật ký chính là quy trình rèn luyện Năng lực Tự đánh giá và Tự điều chỉnh.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở thể thao.
+  + Phương án C bẫy ở gian lận.
+  + Phương án D bẫy ở ngoài trường.
+- Quy luật suy luận mở rộng: Tự chấm bài theo đáp án chuẩn + Ghi lỗi sai vào nhật ký = Rèn năng lực Tự đánh giá & Tự điều chỉnh.
+
+---
+
+Câu 34: Tại sao nói "Kiểm tra - Đánh giá là thành tố thúc đẩy sự đổi mới các thành tố khác" trong Quá trình dạy học?
+*A. Vì kết quả đánh giá chỉ ra mức độ đạt Mục tiêu, buộc phải điều chỉnh Nội dung và Phương pháp dạy học.
+B. Vì kiểm tra đánh giá là khâu duy nhất có trong nhà trường.
+C. Vì kiểm tra đánh giá không phụ thuộc vào mục tiêu giáo dục.
+D. Vì kiểm tra đánh giá do máy tính thực hiện tự động.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá đóng vai trò là cơ chế điều khiển (tín hiệu ngược): nếu kết quả đánh giá kém, buộc thầy phải xem lại phương pháp giảng dạy có phù hợp không và nội dung có quá tải không để điều chỉnh.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở khâu duy nhất.
+  + Phương án C bẫy ở không phụ thuộc mục tiêu.
+  + Phương án D bẫy ở máy tính tự động.
+- Quy luật suy luận mở rộng: Đánh giá = Cơ chế điều khiển tín hiệu ngược thúc đẩy điều chỉnh Mục tiêu, Nội dung và Phương pháp.
+
+---
+
+Câu 35: Ý nghĩa của việc "Đánh giá qua Trải nghiệm thực tế" đối với học sinh là gì?
+A. Làm cho học sinh không cần học lý thuyết trong sách.
+*B. Đo lường khả năng vận dụng tổng hợp tri thức và kỹ năng để giải quyết tình huống phức hợp đời sống.
+C. Tốn kém kinh phí và không có độ tin cậy.
+D. Dùng để thay thế cho toàn bộ các kỳ thi quốc gia.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá qua trải nghiệm (như giải quyết tình huống môi trường, đóng vai ứng xử) đo lường xem học sinh có "biết làm" trong thực tế hay không, tránh tình trạng "học thuộc lý thuyết nhưng ngơ ngác trước thực tế".
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở bỏ lý thuyết.
+  + Phương án C bẫy ở phủ nhận độ tin cậy.
+  + Phương án D bẫy ở thay thế kỳ thi quốc gia.
+- Quy luật suy luận mở rộng: Đánh giá qua trải nghiệm = Đo lường khả năng vận dụng tổng hợp tri thức giải quyết tình huống đời sống.
+
+---
+
+Câu 36: Yêu cầu của việc "Nhận xét bài làm của học sinh Tiểu học" theo quy định hiện hành là gì?
+*A. Tăng cường nhận xét bằng lời/chữ viết cụ thể về sự tiến bộ, hạn chế dùng điểm số gây áp lực.
+B. Phạt tiền các học sinh viết chữ xấu.
+C. Chấm điểm âm nếu học sinh làm sai bài tập.
+D. Không cần cho học sinh xem lại bài làm.
+
+Giải thích:
+- Bản chất đáp án đúng: Ở bậc Tiểu học, triết lý đánh giá ưu tiên nhận xét định tính động viên: chỉ rõ em đã làm tốt chỗ nào, cần cố gắng ở đâu, tạo tâm lý yêu thích học tập và tránh áp lực so sánh điểm số nặng nề.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở phạt tiền.
+  + Phương án C bẫy ở điểm âm.
+  + Phương án D bẫy ở không cho xem bài.
+- Quy luật suy luận mở rộng: Đánh giá Tiểu học = Tăng cường nhận xét động viên sự tiến bộ, hạn chế áp lực điểm số.
+
+---
+
+Câu 37 [TÌNH HUỐNG THỰC TẾ]: Trong kỳ thi Olympic Hóa học, đề thi gồm 2 phần: 60% bài tập trắc nghiệm lý thuyết và 40% bài tập thực hành pha chế dung dịch trong phòng thí nghiệm. Việc kết hợp 2 phần này nhằm đảm bảo nguyên tắc đánh giá nào?
+A. Nguyên tắc chỉ đánh giá lý thuyết thuộc lòng.
+*B. Nguyên tắc Đánh giá toàn diện giữa tri thức lý thuyết và kỹ năng thao tác thực hành.
+C. Nguyên tắc đánh giá ngẫu nhiên không có ma trận.
+D. Nguyên tắc cào bằng điểm số.
+
+Giải thích:
+- Bản chất đáp án đúng: Đề thi kết hợp cả bài thi trắc nghiệm (đo tri thức lý thuyết) và bài thi thực hành (đo kỹ năng thao tác thí nghiệm) là sự cụ thể hóa chuẩn xác Nguyên tắc Đánh giá toàn diện.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở chỉ đánh giá lý thuyết.
+  + Phương án C bẫy ở ngẫu nhiên.
+  + Phương án D bẫy ở cào bằng.
+- Quy luật suy luận mở rộng: Kết hợp trắc nghiệm lý thuyết + Thi thực hành phòng thí nghiệm = Đảm bảo nguyên tắc Đánh giá toàn diện.
+
+---
+
+Câu 38: Sự khác biệt giữa "Đánh giá quá trình" (Formative) và "Đánh giá tổng kết" (Summative) là gì?
+*A. Quá trình: Diễn ra liên tục để điều chỉnh học tập; Tổng kết: Diễn ra cuối khóa để xác nhận kết quả.
+B. Quá trình do học sinh chấm; Tổng kết do máy tính chấm.
+C. Quá trình chỉ có ở đại học; Tổng kết chỉ có ở mầm non.
+D. Quá trình là điểm số; Tổng kết là nhận xét bằng lời.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá quá trình (Formative) diễn ra trong suốt tiến trình dạy học nhằm hỗ trợ sửa lỗi; Đánh giá tổng kết (Summative) diễn ra ở thời điểm kết thúc nhằm xác nhận và xếp loại thành quả.
+- Phân tích phương án sai/bẫy:
+  + Phương án B, C, D bẫy ở các sự phân biệt sai lệch lý luận đo lường.
+- Quy luật suy luận mở rộng: Đánh giá quá trình (Liên tục - Điều chỉnh) vs Đánh giá tổng kết (Cuối khóa - Xác nhận).
+
+---
+
+Câu 39: Vai trò của "Bản tự nhận xét và kế hoạch cá nhân" đối với học sinh sau kỳ thi là gì?
+A. Là thủ tục hành chính nộp cho ban bảo vệ.
+*B. Giúp học sinh tự đúc kết bài học kinh nghiệm, xác định mục tiêu và kế hoạch hành động cải thiện cho kỳ học sau.
+C. Dùng để xin điểm thưởng của giáo viên.
+D. Không có bất kỳ giá trị giáo dục nào.
+
+Giải thích:
+- Bản chất đáp án đúng: Sau mỗi kỳ kiểm tra, việc viết bản tự nhìn lại giúp người học chuyển hóa điểm số thành bài học nhận thức: thấy rõ nguyên nhân thành công/thất bại và đề ra các giải pháp cụ thể để vươn lên.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở thủ tục hành chính.
+  + Phương án C bẫy ở xin điểm thưởng.
+  + Phương án D bẫy ở phủ nhận giá trị.
+- Quy luật suy luận mở rộng: Viết bản tự nhìn lại & Kế hoạch cá nhân = Chuyển hóa điểm số thành bài học kinh nghiệm và giải pháp cải thiện.
+
+---
+
+Câu 40: Nhận định nào sau đây tổng kết đúng xu hướng Đổi mới Kiểm tra - Đánh giá kết quả học tập hiện nay?
+*A. Chuyển từ đánh giá ghi nhớ tri thức sang đánh giá năng lực, kết hợp đánh giá quá trình và tổng kết, tăng cường tự đánh giá và đánh giá đồng đẳng.
+B. Tăng cường đề thi học thuộc lòng và loại bỏ hoàn toàn bài tập tình huống thực tế.
+C. Tuyệt đối hóa điểm số cuối kỳ và xóa bỏ việc nhận xét phản hồi cho học sinh.
+D. Phao phán và công khai điểm kém của học sinh trước toàn trường để trừng phạt.
+
+Giải thích:
+- Bản chất đáp án đúng: Định hướng đổi mới kiểm tra đánh giá cốt lõi: Chuyển mạnh sang Đánh giá năng lực (vận dụng tri thức vào thực tiễn), coi trọng Đánh giá quá trình (Formative), phát huy vai trò Tự đánh giá và Đánh giá đồng đẳng của người học.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở tăng học thuộc lòng.
+  + Phương án C bẫy ở tuyệt đối hóa điểm số cuối kỳ.
+  + Phương án D bẫy ở trừng phạt tiêu cực.
+- Quy luật suy luận mở rộng: Đổi mới đánh giá = Chuyển sang Đánh giá năng lực + Coi trọng Đánh giá quá trình + Phát huy Tự đánh giá và Đánh giá đồng đẳng.
+
+
+====================================================================
+PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (10 CÂU - TỶ LỆ TỰ NHIÊN)
+====================================================================
+
+Câu 41: Về bản chất và mối quan hệ giữa Kiểm tra và Đánh giá:
+a) Kiểm tra là khâu thu thập dữ liệu, thông tin về kết quả học tập của học sinh. -> [ĐÚNG]
+b) Đánh giá là khâu xử lý thông tin, so sánh với tiêu chuẩn mục tiêu để ra quyết định sư phạm. -> [ĐÚNG]
+c) Kiểm tra và Đánh giá là hai khái niệm hoàn toàn đồng nhất và không có sự khác biệt. -> [SAI]
+d) Đánh giá dựa trên cơ sở dữ liệu của kiểm tra, kiểm tra là phương tiện để thực hiện đánh giá. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Định nghĩa kiểm tra.
+  + Ý b) ĐÚNG: Định nghĩa đánh giá.
+  + Ý d) ĐÚNG: Mối quan hệ giữa kiểm tra và đánh giá.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Kiểm tra (thu thập thông tin) và Đánh giá (xử lý & ra quyết định) là 2 khâu có ranh giới lý luận rõ ràng.
+- Quy luật suy luận mở rộng: Kiểm tra (Thu thập thông tin dữ liệu) là cơ sở cho Đánh giá (Xử lý & Ra quyết định sư phạm).
+
+---
+
+Câu 42: Về các chức năng cơ bản của Kiểm tra - Đánh giá:
+a) Chức năng định hướng giúp phát hiện năng khiếu và phân loại trình độ đầu vào. -> [ĐÚNG]
+b) Chức năng chẩn đoán cung cấp tín hiệu phản hồi giúp điều chỉnh kịp thời cách dạy và cách học. -> [ĐÚNG]
+c) Chức năng xác nhận cung cấp căn cứ pháp lý để cấp văn bằng, chứng chỉ hoặc cho lên lớp. -> [ĐÚNG]
+d) Chức năng duy nhất của kiểm tra đánh giá là trừng phạt các học sinh bị điểm kém. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Chức năng định hướng/dự báo.
+  + Ý b) ĐÚNG: Chức năng chẩn đoán điều chỉnh.
+  + Ý c) ĐÚNG: Chức năng xác nhận cấp bằng.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Kiểm tra đánh giá mang chức năng phát triển và nhân văn, tuyệt đối không phải là công cụ trừng phạt.
+- Quy luật suy luận mở rộng: 3 Chức năng cốt lõi = Định hướng + Chẩn đoán (Điều chỉnh) + Xác nhận (Cấp bằng/Lên lớp).
+
+---
+
+Câu 43: Về hai hình thức Kiểm tra viết (Trắc nghiệm và Tự luận):
+a) Trắc nghiệm khách quan có độ bao quát chương trình rộng và chấm điểm khách quan nhanh chóng. -> [ĐÚNG]
+b) Tự luận cho phép người học tự do diễn đạt tư tưởng, phát huy tư duy độc lập sáng tạo. -> [ĐÚNG]
+c) Đề tự luận luôn luôn có độ tin cậy và độ khách quan cao hơn đề trắc nghiệm khách quan. -> [SAI]
+d) Kết hợp hợp lý giữa trắc nghiệm và tự luận giúp tận dụng ưu điểm của cả hai hình thức. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Ưu điểm của trắc nghiệm khách quan.
+  + Ý b) ĐÚNG: Ưu điểm của tự luận.
+  + Ý d) ĐÚNG: Ý nghĩa kết hợp trắc nghiệm và tự luận.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Trắc nghiệm khách quan có độ tin cậy và độ khách quan chấm điểm cao hơn tự luận.
+- Quy luật suy luận mở rộng: Trắc nghiệm (Bao quát rộng, khách quan) + Tự luận (Tư duy sâu, sáng tạo) = Phối hợp tối ưu đề kiểm tra.
+
+---
+
+Câu 44: Về các yêu cầu kỹ thuật của công cụ Kiểm tra - Đánh giá:
+a) Độ giá trị (Validity) phản ánh việc đề thi đo lường đúng cái cần đo theo mục tiêu. -> [ĐÚNG]
+b) Độ tin cậy (Reliability) phản ánh tính nhất quán, ổn định của kết quả đo lường qua các lần đo. -> [ĐÚNG]
+c) Ma trận đề thi là bản thiết kế phân bổ các mức độ tư duy và chuẩn kiến thức. -> [ĐÚNG]
+d) Một đề thi có độ tin cậy cao thì đương nhiên sẽ có độ giá trị tuyệt đối mà không cần ma trận. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Định nghĩa Độ giá trị.
+  + Ý b) ĐÚNG: Định nghĩa Độ tin cậy.
+  + Ý c) ĐÚNG: Vai trò ma trận đề thi.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Đề thi có độ tin cậy cao (ổn định) chưa chắc có độ giá trị cao nếu đo sai mục tiêu; vẫn phải dựa vào ma trận đề thi.
+- Quy luật suy luận mở rộng: Công cụ kiểm tra chuẩn = Độ giá trị (Đo đúng) + Độ tin cậy (Đo ổn định) dựa trên Ma trận đề thi.
+
+---
+
+Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về ứng dụng Đánh giá qua sản phẩm và Bảng chỉ báo Rubrics:
+a) Đánh giá qua sản phẩm (tranh vẽ, phần mềm, mô hình) giúp đo lường năng lực thực hành. -> [ĐÚNG]
+b) Công khai bảng Rubrics giúp học sinh hiểu rõ tiêu chí và mức độ chất lượng cần đạt. -> [ĐÚNG]
+c) Đánh giá qua sản phẩm làm bãi bỏ hoàn toàn các yêu cầu về tri thức lý thuyết. -> [SAI]
+d) Bảng Rubrics giúp giáo viên chấm điểm sản phẩm một cách chuẩn xác và công bằng. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Tác dụng đánh giá qua sản phẩm.
+  + Ý b) ĐÚNG: Tác dụng công khai Rubrics.
+  + Ý d) ĐÚNG: Tác dụng chuẩn hóa chấm điểm của Rubrics.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Sản phẩm thực hành là sự kết tinh vận dụng tri thức lý thuyết, không bãi bỏ lý thuyết.
+- Quy luật suy luận mở rộng: Đánh giá qua sản phẩm + Công khai Rubrics = Đo lường năng lực thực hành minh bạch và chuẩn xác.
+
+---
+
+Câu 46: Về xu hướng Đánh giá quá trình và Tự đánh giá:
+a) Đánh giá quá trình (Formative) diễn ra liên tục để cung cấp phản hồi giúp học sinh tiến bộ. -> [ĐÚNG]
+b) Tự đánh giá giúp học sinh chủ thể hóa quá trình học và rèn luyện năng lực tự điều chỉnh. -> [ĐÚNG]
+c) Đánh giá đồng đẳng cho phép học sinh tham gia nhận xét sản phẩm của bạn học theo tiêu chí. -> [ĐÚNG]
+d) Đánh giá quá trình coi trọng điểm số phạt hơn là các lời nhận xét hướng dẫn sửa lỗi. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Bản chất đánh giá quá trình.
+  + Ý b) ĐÚNG: Ý nghĩa tự đánh giá.
+  + Ý c) ĐÚNG: Bản chất đánh giá đồng đẳng.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Đánh giá quá trình coi trọng lời nhận xét phản hồi (feedback) giúp sửa lỗi hơn là cho điểm phạt.
+- Quy luật suy luận mở rộng: Đánh giá vì sự tiến bộ = Đánh giá quá trình + Tự đánh giá + Đánh giá đồng đẳng dựa trên nhận xét phản hồi.
+
+---
+
+Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về việc sử dụng Tín hiệu phản hồi (Feedback) trong dạy học:
+a) Nhận xét bài làm chỉ rõ chỗ đúng, chỗ sai và cách khắc phục là tín hiệu phản hồi chất lượng. -> [ĐÚNG]
+b) Phản hồi tức thì qua các ứng dụng E-learning giúp học sinh tự sửa lỗi ngay lập tức. -> [ĐÚNG]
+c) Phản hồi chỉ đơn thuần là việc ghi một con số điểm mà không giải thích nguyên nhân. -> [SAI]
+d) Phản hồi sư phạm tích cực giúp tạo động lực và khích lệ ý chí vươn lên của người học. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Đặc điểm phản hồi chất lượng.
+  + Ý b) ĐÚNG: Tác dụng phản hồi E-learning.
+  + Ý d) ĐÚNG: Tác dụng động lực của phản hồi.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Chỉ ghi mỗi điểm số không phải là tín hiệu phản hồi sư phạm hoàn chỉnh (thiếu hướng dẫn sửa lỗi).
+- Quy luật suy luận mở rộng: Phản hồi sư phạm chất lượng = Chỉ rõ điểm đúng/sai + Hướng dẫn cách khắc phục + Động lực tiến bộ.
+
+---
+
+Câu 48: Về phân loại 4 mức độ tư duy theo Thang Bloom cải tiến:
+a) Mức Nhận biết yêu cầu học sinh nhớ lại, tái hiện các khái niệm và định nghĩa. -> [ĐÚNG]
+b) Mức Thông hiểu yêu cầu học sinh giải thích, tóm tắt và diễn đạt theo cách của mình. -> [ĐÚNG]
+c) Mức Vận dụng yêu cầu học sinh sử dụng tri thức để giải quyết tình huống bài tập mới. -> [ĐÚNG]
+d) Mức Vận dụng cao là mức độ thấp nhất trong các kỳ thi đánh giá năng lực. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Mức Nhận biết.
+  + Ý b) ĐÚNG: Mức Thông hiểu.
+  + Ý c) ĐÚNG: Mức Vận dụng.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Mức Vận dụng cao (Sáng tạo) là mức độ tư duy cao nhất đòi hỏi phân tích, tổng hợp và giải quyết vấn đề phức hợp.
+- Quy luật suy luận mở rộng: Thang 4 mức độ tư duy tăng dần: Nhận biết -> Thông hiểu -> Vận dụng -> Vận dụng cao (Sáng tạo).
+
+---
+
+Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về Hồ sơ học tập (Portfolio Assessment):
+a) Hồ sơ học tập lưu giữ các sản phẩm bài làm của học sinh qua cả quá trình học tập. -> [ĐÚNG]
+b) Giúp thầy và trò nhìn thấy rõ sự tiến bộ và đường phát triển năng lực qua thời gian. -> [ĐÚNG]
+c) Hồ sơ học tập chỉ gồm duy nhất các tờ giấy nháp bỏ đi của học sinh. -> [SAI]
+d) Tạo cơ hội cho học sinh tự lựa chọn những sản phẩm tốt nhất của mình để triển lãm. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Nội dung hồ sơ học tập.
+  + Ý b) ĐÚNG: Ý nghĩa nhìn thấy sự tiến bộ.
+  + Ý d) ĐÚNG: Quyền tự lựa chọn sản phẩm tiêu biểu.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Hồ sơ học tập chứa đựng các sản phẩm minh chứng có chọn lọc phản ánh năng lực.
+- Quy luật suy luận mở rộng: Hồ sơ học tập (Portfolio) = Minh chứng quá trình tiến bộ + Đánh giá sự phát triển năng lực qua thời gian.
+
+---
+
+Câu 50: Về triết lý tổng quát Đổi mới Kiểm tra - Đánh giá kết quả học tập:
+a) Chuyển mạnh từ Đánh giá ghi nhớ thuộc lòng sang Đánh giá năng lực vận dụng thực tiễn. -> [ĐÚNG]
+b) Đánh giá là một bộ phận hữu cơ của Quá trình dạy học, giúp điều chỉnh cách dạy và cách học. -> [ĐÚNG]
+c) Đổi mới đánh giá phải bảo đảm tính Khách quan, Công bằng, Minh bạch và Nhân văn. -> [ĐÚNG]
+d) Đổi mới kiểm tra đánh giá đồng nghĩa với việc bãi bỏ hoàn toàn các điểm số. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Chuyển đổi định hướng đánh giá năng lực.
+  + Ý b) ĐÚNG: Tính hữu cơ của đánh giá trong dạy học.
+  + Ý c) ĐÚNG: Các nguyên tắc đánh giá hiện đại.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Đổi mới đánh giá kết hợp nhận xét với điểm số một cách phù hợp, không bãi bỏ hoàn toàn điểm số.
+- Quy luật suy luận mở rộng: Đổi mới kiểm tra đánh giá = Đánh giá năng lực + Đánh giá vì sự tiến bộ + Khách quan, Công bằng, Minh bạch và Nhân văn.

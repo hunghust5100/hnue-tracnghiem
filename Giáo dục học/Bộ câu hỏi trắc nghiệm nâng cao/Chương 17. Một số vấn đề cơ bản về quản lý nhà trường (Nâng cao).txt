@@ -1,0 +1,812 @@
+BỘ CÂU HỎI TRẮC NGHIỆM NÂNG CAO - GIÁO DỤC HỌC
+CHƯƠNG 17: MỘT SỐ VẤN ĐỀ CƠ BẢN VỀ QUẢN LÝ NHÀ TRƯỜNG
+(Mức độ: Vận dụng & Vận dụng cao - Thẩm định bẫy học thuật cao cấp)
+
+====================================================================
+PHẦN 1: TRẮC NGHIỆM 4 LỰA CHỌN (40 CÂU)
+====================================================================
+
+Câu 1: Phân tích bản chất lý luận của "Quản lý nhà trường"?
+A. Là việc Hiệu trưởng tự mình trực tiếp lên lớp giảng dạy tất cả các môn học.
+*B. Là hoạt động tác động có tổ chức của chủ thể quản lý nhằm tối ưu hóa các nguồn lực để nâng cao chất lượng giáo dục.
+C. Là hoạt động thu chi tài chính để kiếm lợi nhuận thương mại cho nhà trường.
+D. Là danh mục các quy định xử phạt kỷ luật đối với học sinh vi phạm.
+
+Giải thích:
+- Bản chất đáp án đúng: Quản lý nhà trường là hoạt động sư phạm - xã hội chuyên biệt: Ban Giám hiệu huy động, tổ chức và phối hợp các nguồn lực (nhân lực, cơ sở vật chất, tài chính) để đạt được mục tiêu giáo dục đào tạo.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở Hiệu trưởng dạy tất cả các môn.
+  + Phương án C bẫy ở thương mại kiếm lợi nhuận.
+  + Phương án D bẫy ở quy định xử phạt.
+- Quy luật suy luận mở rộng: Quản lý nhà trường = Hoạt động tác động có tổ chức của chủ thể quản lý -> Tối ưu hóa các nguồn lực để Nâng cao chất lượng giáo dục.
+
+---
+
+Câu 2: Mục đích tối cao của Quản lý nhà trường được xác định là gì?
+*A. Nâng cao chất lượng giáo dục toàn diện, đưa nhà trường chuyển sang trạng thái phát triển mới tốt hơn.
+B. Tăng gấp đôi học phí và các khoản thu dịch vụ từ phụ huynh học sinh.
+C. Giảm tối đa số lượng giáo viên trong nhà trường.
+D. Loại bỏ hoàn toàn các hoạt động ngoại khóa để tập trung thi cử.
+
+Giải thích:
+- Bản chất đáp án đúng: Mục đích cuối cùng của quản lý nhà trường là vì sự trưởng thành của người học: tạo ra môi trường và điều kiện thuận lợi nhất để đào tạo ra lớp thế hệ trẻ phát triển toàn diện phẩm chất và năng lực.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở tăng học phí thương mại.
+  + Phương án C bẫy ở giảm giáo viên.
+  + Phương án D bẫy ở loại bỏ ngoại khóa.
+- Quy luật suy luận mở rộng: Mục đích Quản lý nhà trường = Nâng cao chất lượng giáo dục toàn diện & Đào tạo thế hệ trẻ phát triển năng lực.
+
+---
+
+Câu 3: Phân tích bản chất của Nguyên tắc "Tập trung dân chủ" trong quản lý nhà trường?
+A. Hiệu trưởng tự quyết định mọi việc và cấm tập thể giáo viên phát biểu ý kiến.
+*B. Kết hợp sự chỉ đạo thống nhất của Hiệu trưởng với việc phát huy quyền làm chủ và trí tuệ của tập thể sư phạm.
+C. Cho phép học sinh và giáo viên tự do hành động không cần tuân theo nội quy.
+D. Giao toàn bộ quyền quản lý nhà trường cho hội phụ huynh.
+
+Giải thích:
+- Bản chất đáp án đúng: Tập trung dân chủ đảm bảo: "Tập trung" ở sự chỉ đạo thống nhất của Hiệu trưởng theo pháp luật; "Dân chủ" ở việc công khai, minh bạch, lắng nghe ý kiến của Hội đồng sư phạm và các đoàn thể.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở độc đoán chuyên quyền.
+  + Phương án C bẫy ở tự do vô kỷ luật.
+  + Phương án D bẫy ở giao cho phụ huynh.
+- Quy luật suy luận mở rộng: Nguyên tắc Tập trung dân chủ = Chỉ đạo thống nhất của Hiệu trưởng + Phát huy dân chủ và trí tuệ của Tập thể sư phạm.
+
+---
+
+Câu 4: Chu trình quản lý khoa học gồm 4 khâu vận động theo trật tự logic nào?
+*A. Lập kế hoạch -> Tổ chức thực hiện -> Kiểm tra đánh giá -> Điều chỉnh.
+B. Kiểm tra đánh giá -> Lập kế hoạch -> Điều chỉnh -> Tổ chức thực hiện.
+C. Tổ chức thực hiện -> Kiểm tra đánh giá -> Lập kế hoạch -> Phạt kỷ luật.
+D. Điều chỉnh -> Tổ chức thực hiện -> Kiểm tra đánh giá -> Lập kế hoạch.
+
+Giải thích:
+- Bản chất đáp án đúng: Chu trình quản lý khép kín (vòng quay Deming/PDCA): 1. Xây dựng Kế hoạch; 2. Tổ chức Thực hiện; 3. Kiểm tra đánh giá tình hình; 4. Điều chỉnh bổ sung để bước sang chu trình mới cao hơn.
+- Phân tích phương án sai/bẫy:
+  + Phương án B, C, D bẫy ở sự đảo ngược các khâu của chu trình quản lý.
+- Quy luật suy luận mở rộng: Chu trình quản lý 4 khâu = Lập kế hoạch -> Tổ chức thực hiện -> Kiểm tra đánh giá -> Điều chỉnh.
+
+---
+
+Câu 5: Trong hệ thống các nguồn lực giáo dục, nguồn lực nào giữ vai trò quyết định nhất đến chất lượng nhà trường?
+A. Cơ sở vật chất và hệ thống máy tính phòng học.
+*B. Nhân lực giáo dục (đặc biệt là Đội ngũ giáo viên có năng lực chuyên môn và đạo đức sư phạm).
+C. Ngân sách tài chính đóng góp của xã hội.
+D. Vị trí địa lý đắc địa của khuôn viên nhà trường.
+
+Giải thích:
+- Bản chất đáp án đúng: "Thầy giỏi mới có trò giỏi"; cơ sở vật chất hay tài chính dù hiện đại đến đâu cũng chỉ là điều kiện hỗ trợ; đội ngũ người thầy trực tiếp truyền cảm hứng và giảng dạy mới là nguồn lực quyết định chất lượng.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở cơ sở vật chất.
+  + Phương án C bẫy ở tài chính ngân sách.
+  + Phương án D bẫy ở vị trí địa lý.
+- Quy luật suy luận mở rộng: Nguồn lực quyết định nhất = Nhân lực giáo dục (Đội ngũ giáo viên đạt chuẩn chuyên môn & đạo đức sư phạm).
+
+---
+
+Câu 6 [TÌNH HUỐNG THỰC TẾ]: Đầu năm học, Hiệu trưởng trường THPT K tổ chức Hội nghị Cán bộ Công chức Viên chức để công khai dự thảo Kế hoạch năm học, lấy ý kiến đóng góp của giáo viên và thông qua Quy chế chi tiêu nội bộ. Việc làm này áp dụng nguyên tắc quản lý nào?
+A. Nguyên tắc độc đoán hành chính.
+*B. Nguyên tắc Tập trung dân chủ và Quản lý theo chất lượng.
+C. Nguyên tắc quản lý ngẫu nhiên.
+D. Nguyên tắc phân hóa lứa tuổi.
+
+Giải thích:
+- Bản chất đáp án đúng: Việc công khai Kế hoạch năm học và lấy ý kiến dân chủ của toàn thể tập thể sư phạm trước khi Hiệu trưởng phê duyệt chính là sự vận dụng chuẩn xác Nguyên tắc Tập trung dân chủ trong quản lý.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở độc đoán.
+  + Phương án C bẫy ở ngẫu nhiên.
+  + Phương án D bẫy ở phân hóa lứa tuổi.
+- Quy luật suy luận mở rộng: Công khai dự thảo kế hoạch lấy ý kiến tập thể = Nguyên tắc Tập trung dân chủ.
+
+---
+
+Câu 7: Vị trí và trách nhiệm pháp lý của "Hiệu trưởng trường phổ thông" được xác định thế nào?
+*A. Là người đại diện pháp luật, chịu trách nhiệm cao nhất trước Nhà nước và cấp trên về mọi hoạt động của trường.
+B. Là người chỉ làm nhiệm vụ giảng dạy thuần túy không có quyền quản lý.
+C. Là người do Hội cha mẹ học sinh trực tiếp bầu ra và trả lương.
+D. Là người không chịu bất kỳ trách nhiệm nào về chất lượng giáo dục.
+
+Giải thích:
+- Bản chất đáp án đúng: Theo Điều lệ trường phổ thông: Hiệu trưởng là người đứng đầu bộ máy quản lý, đại diện cho nhà trường về mặt pháp lý, chịu trách nhiệm toàn bộ về công tác chuyên môn, nhân sự, tài chính và an toàn trường học.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở giảng dạy thuần túy.
+  + Phương án C bẫy ở phụ huynh bầu và trả lương.
+  + Phương án D bẫy ở không chịu trách nhiệm.
+- Quy luật suy luận mở rộng: Hiệu trưởng = Người đại diện pháp luật, chịu trách nhiệm cao nhất trước Nhà nước về mọi hoạt động của nhà trường.
+
+---
+
+Câu 8: Vai trò của "Tổ chuyên môn" (Department / Subject team) trong trường phổ thông là gì?
+A. Là đơn vị chuyên thu quỹ và quản lý tài chính của trường.
+*B. Là đơn vị lao động sư phạm nòng cốt, chịu trách nhiệm quản lý chất lượng giảng dạy bộ môn và rèn luyện giáo viên.
+C. Là tổ chức đoàn thể bảo vệ quyền lợi tiền lương cho giáo viên.
+D. Là đơn vị quản lý học sinh cúp tiết.
+
+Giải thích:
+- Bản chất đáp án đúng: Tổ chuyên môn (Tổ Tự nhiên, Tổ Xã hội, Tổ Toán...) là "tế bào" chuyên môn của nhà trường: nơi sinh hoạt giáo án, đổi mới phương pháp dạy học, dự giờ thăm lớp và bồi dưỡng tay nghề cho giáo viên.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở thu quỹ tài chính.
+  + Phương án C bẫy ở nhiệm vụ của Công đoàn.
+  + Phương án D bẫy ở quản lý cúp tiết.
+- Quy luật suy luận mở rộng: Tổ chuyên môn = Đơn vị lao động nòng cốt chịu trách nhiệm quản lý chất lượng giảng dạy bộ môn.
+
+---
+
+Câu 9: Sự khác biệt giữa "Trường Công lập" và "Trường Nguồn kinh phí Xã hội hóa / Tư thục" về mặt Tài chính là gì?
+*A. Công lập ngân sách chủ yếu do Nhà nước cấp; Tư thục ngân sách chủ yếu do nhà đầu tư và học phí đóng góp.
+B. Công lập do học sinh tự trả lương; Tư thục do Bộ trả lương.
+C. Công lập không cần kế hoạch tài chính; Tư thục không cần chấp hành quy định pháp luật.
+D. Công lập không có kiểm toán; Tư thục không có Hiệu trưởng.
+
+Giải thích:
+- Bản chất đáp án đúng: Sự phân biệt về nguồn ngân sách: Trường công lập vận hành bằng ngân sách nhà nước cấp và học phí theo quy định; Trường ngoài công lập/tư thục tự chủ tài chính từ vốn nhà đầu tư và các dịch vụ giáo dục.
+- Phân tích phương án sai/bẫy:
+  + Phương án B, C, D bẫy ở các sự phân biệt sai lệch pháp luật tài chính giáo dục.
+- Quy luật suy luận mở rộng: Trường Công lập (Ngân sách Nhà nước cấp chủ yếu) vs Trường Tư thục (Huy động nguồn vốn đầu tư & học phí dịch vụ).
+
+---
+
+Câu 10 [TÌNH HUỐNG THỰC TẾ]: Khi phát hiện thiết bị phòng máy tính của trường bị xuống cấp làm ảnh hưởng đến giờ học Tin học, Hiệu trưởng đã trích ngân sách sửa chữa, đồng thời lập dự án trình Sở Giáo dục cấp bổ sung 30 máy tính mới. Việc làm này thể hiện khâu quản lý nào?
+A. Quản lý công tác thi đua khen thưởng.
+*B. Quản lý Cơ sở vật chất và Thiết bị dạy học trong nhà trường.
+C. Quản lý kỷ luật học sinh.
+D. Quản lý hoạt động ngoại khóa.
+
+Giải thích:
+- Bản chất đáp án đúng: Việc duy trì, nâng cấp, bảo dưỡng và bổ sung phòng máy tính phục vụ giảng dạy thuộc nội dung Quản lý Cơ sở vật chất và Thiết bị dạy học - điều kiện thiết yếu đảm bảo chất lượng bài học.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở thi đua.
+  + Phương án C bẫy ở kỷ luật học sinh.
+  + Phương án D bẫy ở ngoại khóa.
+- Quy luật suy luận mở rộng: Sửa chữa & mua sắm trang thiết bị phòng máy = Nội dung Quản lý Cơ sở vật chất & Thiết bị dạy học.
+
+---
+
+Câu 11: Bản chất của Nguyên tắc "Quản lý theo chất lượng" (Quality Management) trong giáo dục hiện đại là gì?
+*A. Xây dựng chuẩn mực chất lượng, thực hiện kiểm định chất lượng và phấn đấu đạt các tiêu chí Trường chuẩn quốc gia.
+B. Chạy theo thành tích ảo và làm giả hồ sơ điểm số cho học sinh.
+C. Chỉ quan tâm đến tỷ lệ phần trăm học sinh đỗ tốt nghiệp.
+D. Bãi bỏ việc kiểm tra đánh giá chuyên môn giáo viên.
+
+Giải thích:
+- Bản chất đáp án đúng: Quản lý theo chất lượng (TQM) đòi hỏi nhà trường phải tuyên bố sứ mệnh, cam kết chuẩn đầu ra, công khai tiêu chí đánh giá, thường xuyên tự kiểm định và cải tiến để nâng cao uy tín trường học.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở bệnh thành tích ảo.
+  + Phương án C bẫy ở chỉ quan tâm tỷ lệ phần trăm đỗ.
+  + Phương án D bẫy ở bỏ kiểm tra chuyên môn.
+- Quy luật suy luận mở rộng: Quản lý theo chất lượng = Cam kết chuẩn đầu ra + Kiểm định chất lượng + Phấn đấu Trường chuẩn quốc gia.
+
+---
+
+Câu 12: Vai trò của "Công đoàn Cơ sở" trong bộ máy quản lý nhà trường là gì?
+A. Thay thế Ban Giám hiệu ra các quyết định chuyên môn.
+*B. Đại diện bảo vệ quyền và lợi ích hợp pháp của người lao động, chăm lo đời sống và phối hợp tổ chức thi đua.
+C. Kiểm tra tài chính cá nhân của từng giáo viên.
+D. Quản lý việc đi học muộn của học sinh.
+
+Giải thích:
+- Bản chất đáp án đúng: Công đoàn là tổ chức chính trị - xã hội của tập thể lao động: vận động giáo viên dạy tốt, đại diện bảo vệ quyền lợi (lương, chế độ, thai sản), chăm lo đời sống tinh thần và tạo động lực cống hiến.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở thay Ban Giám hiệu.
+  + Phương án C bẫy ở kiểm tra tài chính cá nhân.
+  + Phương án D bẫy ở quản lý học sinh đi muộn.
+- Quy luật suy luận mở rộng: Công đoàn Cơ sở = Đại diện bảo vệ quyền lợi hợp pháp người lao động + Chăm lo đời sống & Phối hợp thi đua.
+
+---
+
+Câu 13: Yêu cầu của việc "Quản lý Đội ngũ Giáo viên" đối với Ban Giám hiệu là gì?
+*A. Quy hoạch, bồi dưỡng chuẩn hóa trình độ, phân công đúng sở trường, đánh giá khách quan và tạo động lực phát triển.
+B. Ép buộc giáo viên phải làm việc 16 tiếng mỗi ngày không nghỉ.
+C. Cho phép giáo viên tự do nghỉ dạy bất kỳ lúc nào không xin phép.
+D. Thay thế toàn bộ giáo viên già bằng giáo viên trẻ hàng năm.
+
+Giải thích:
+- Bản chất đáp án đúng: Quản lý nhân sự sư phạm đòi hỏi sự tinh tế: phải tạo điều kiện cho giáo viên học tập nâng cao tay nghề, phân công chuyên môn sát năng lực, đánh giá công bằng và tạo môi trường làm việc hạnh phúc.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở bóc lột sức lao động.
+  + Phương án C bẫy ở tự do vô kỷ luật.
+  + Phương án D bẫy ở sa thải giáo viên già phi lý.
+- Quy luật suy luận mở rộng: Quản lý Đội ngũ Giáo viên = Bồi dưỡng nâng chuẩn + Phân công đúng sở trường + Đánh giá khách quan + Tạo động lực.
+
+---
+
+Câu 14: Khái niệm "Trường Chuẩn quốc gia" được hiểu chuẩn xác là gì?
+A. Trường học có mức học phí cao nhất trong khu vực.
+*B. Trường học đạt đầy đủ các tiêu chuẩn quốc gia về Bộ máy quản lý, Đội ngũ giáo viên, Cơ sở vật chất và Chất lượng giáo dục.
+C. Trường học chỉ nhận học sinh có gia cảnh giàu có.
+D. Trường học 100% giáo viên là người nước ngoài.
+
+Giải thích:
+- Bản chất đáp án đúng: Trường chuẩn quốc gia (theo danh hiệu Bộ Giáo dục công nhận) là mô hình nhà trường chuẩn hóa toàn diện 5 tiêu chuẩn: Tổ chức quản lý, Đội ngũ, Cơ sở vật chất, Môi trường và Kết quả giáo dục.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở học phí cao.
+  + Phương án C bẫy ở tuyển học sinh giàu.
+  + Phương án D bẫy ở 100% giáo viên nước ngoài.
+- Quy luật suy luận mở rộng: Trường Chuẩn quốc gia = Mô hình đạt chuẩn toàn diện về Quản lý, Đội ngũ, Cơ sở vật chất & Chất lượng giáo dục.
+
+---
+
+Câu 15 [TÌNH HUỐNG THỰC TẾ]: Qua kiểm tra hồ sơ sổ điểm và dự giờ đột xuất, Hiệu trưởng phát hiện giáo viên X có biểu hiện cho điểm nể dãi và hay cắt giảm giờ thực hành. Hiệu trưởng đã trực tiếp nhắc nhở, yêu cầu chỉnh sửa và đưa vào nội dung bồi dưỡng chuyên môn tháng tới. Hiệu trưởng đã thực hiện khâu quản lý nào?
+A. Khâu lập kế hoạch chiến lược.
+*B. Khâu Kiểm tra và Điều chỉnh trong chu trình quản lý nhà trường.
+C. Khâu khen thưởng thi đua.
+D. Khâu giải thể tổ chuyên môn.
+
+Giải thích:
+- Bản chất đáp án đúng: Dự giờ đột xuất và duyệt sổ điểm là khâu Kiểm tra; việc phát hiện sai sót, nhắc nhở và đưa vào bồi dưỡng là khâu Điều chỉnh nhằm đảm bảo kỷ cương chuyên môn và chất lượng dạy học.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở lập kế hoạch.
+  + Phương án C bẫy ở khen thưởng.
+  + Phương án D bẫy ở giải thể tổ.
+- Quy luật suy luận mở rộng: Dự giờ kiểm tra + Nhắc nhở uốn nắn sai sót = Khâu Kiểm tra & Điều chỉnh trong chu trình quản lý.
+
+---
+
+Câu 16: Vai trò của "Hội đồng Sư phạm nhà trường" (Teachers' Council) là gì?
+*A. Là tổ chức tư vấn cho Hiệu trưởng về các kế hoạch giáo dục, biện pháp nâng cao chất lượng và thực hiện quy chế chuyên môn.
+B. Là cơ quan thanh tra tài chính nhà nước.
+C. Là đơn vị chuyên kinh doanh sách tham khảo.
+D. Là tập thể học sinh xuất sắc nhất trường.
+
+Giải thích:
+- Bản chất đáp án đúng: Hội đồng sư phạm bao gồm toàn bộ giáo viên và cán bộ quản lý: họp định kỳ để thảo luận các vấn đề chuyên môn, đánh giá thực hiện kế hoạch và tư vấn cho Hiệu trưởng các giải pháp sư phạm.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở thanh tra tài chính.
+  + Phương án C bẫy ở kinh doanh sách.
+  + Phương án D bẫy ở tập thể học sinh.
+- Quy luật suy luận mở rộng: Hội đồng Sư phạm = Tổ chức tư vấn cho Hiệu trưởng về Kế hoạch giáo dục & Nâng cao chất lượng chuyên môn.
+
+---
+
+Câu 17: Yêu cầu của việc "Quản lý Học sinh" trong trường phổ thông là gì?
+A. Quản lý theo kiểu trại giam cứng nhắc và đe dọa trừng phạt.
+*B. Nắm vững sĩ số, quản lý hồ sơ học tập, theo dõi sự tiến bộ và đảm bảo môi trường an toàn phát triển nhân cách.
+C. Để học sinh tự do ra vào trường không cần kiểm soát.
+D. Chỉ quản lý những học sinh bị điểm kém.
+
+Giải thích:
+- Bản chất đáp án đúng: Quản lý học sinh là công tác sư phạm nhân văn: vừa đảm bảo kỷ cương (đi học đúng giờ, chấp hành nội quy), vừa theo dõi dữ liệu phát triển, hỗ trợ học sinh gặp khó khăn và phát huy tính tự quản.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở quản lý kiểu trại giam.
+  + Phương án C bẫy ở tự do phó mặc.
+  + Phương án D bẫy ở chỉ quản lý học sinh kém.
+- Quy luật suy luận mở rộng: Quản lý Học sinh = Nắm sĩ số + Quản lý hồ sơ + Theo dõi sự tiến bộ + Bảo đảm môi trường an toàn.
+
+---
+
+Câu 18: Nội dung của "Công tác Kế hoạch hóa trong quản lý nhà trường" là gì?
+*A. Xác định mục tiêu, dự kiến các nguồn lực, thiết kế tiến trình và biện pháp thực hiện cho từng giai đoạn.
+B. Việc giáo viên chép lại giáo án của năm cũ.
+C. Việc thu học phí trước khi bắt đầu năm học.
+D. Việc phân chia điểm số cho các lớp.
+
+Giải thích:
+- Bản chất đáp án đúng: Kế hoạch hóa là khâu khởi đầu của quản lý: Hiệu trưởng cùng tập thể xây dựng Kế hoạch chiến lược 5 năm, Kế hoạch năm học, Kế hoạch tháng/từ chương trình, đảm bảo tính khoa học và khả thi.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở chép giáo án cũ.
+  + Phương án C bẫy ở thu học phí.
+  + Phương án D bẫy ở phân chia điểm số.
+- Quy luật suy luận mở rộng: Kế hoạch hóa = Xác định Mục tiêu + Dự kiến Nguồn lực + Thiết kế Tiến trình & Biện pháp thực hiện.
+
+---
+
+Câu 19 [TÌNH HUỐNG THỰC TẾ]: Để chuẩn bị cho cuộc kiểm định chất lượng giáo dục của Bộ, Ban Giám hiệu nhà trường đã tổ chức thành lập "Hội đồng Tự đánh giá", phân công các tổ chuyên môn thu thập minh chứng và viết báo cáo tự đánh giá về các tiêu chí. Nhà trường đang ứng dụng quy trình quản lý nào?
+A. Quản lý rủi ro thiên tai.
+*B. Quản lý chất lượng và Kiểm định chất lượng giáo dục.
+C. Quản lý kỷ luật học sinh cá biệt.
+D. Quản lý hoạt động thể thao ngoài giờ.
+
+Giải thích:
+- Bản chất đáp án đúng: Tự đánh giá theo các tiêu chí chuẩn quốc gia là bước đầu tiên trong quy trình Kiểm định chất lượng giáo dục; giúp nhà trường nhìn rõ thực trạng để cải tiến chất lượng liên tục.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở thiên tai.
+  + Phương án C bẫy ở kỷ luật học sinh.
+  + Phương án D bẫy ở thể thao.
+- Quy luật suy luận mở rộng: Thành lập Hội đồng Tự đánh giá thu thập minh chứng tiêu chí = Quy trình Kiểm định chất lượng giáo dục.
+
+---
+
+Câu 20: Tác hại của "Bệnh thành tích trong Quản lý nhà trường" là gì?
+*A. Làm sai lệch thông tin thực tế, phát sinh báo cáo giả tạo, che giấu yếu kém và suy thoái chất lượng giáo dục thực sự.
+B. Giúp nhà trường nâng cao chất lượng dạy học nhanh chóng.
+C. Tăng cường tinh thần đoàn kết trong tập thể sư phạm.
+D. Giúp học sinh học giỏi toàn diện hơn.
+
+Giải thích:
+- Bản chất đáp án đúng: Bệnh thành tích khiến người quản lý áp chỉ tiêu phi lý (như phải 100% đỗ, 0% học sinh yếu), buộc giáo viên phải "làm đẹp số liệu", chấm điểm nể dãi, làm cho việc quản lý bị mù lòa trước thực trạng.
+- Phân tích phương án sai/bẫy:
+  + Phương án B, C, D bẫy ở các nhận định tích cực sai thực tế về tác hại của bệnh thành tích.
+- Quy luật suy luận mở rộng: Bệnh thành tích trong quản lý -> Báo cáo giả tạo, che giấu yếu kém, suy thoái chất lượng thực sự.
+
+---
+
+Câu 21: Bản chất của "Đoàn Thanh niên và Đội Thiếu niên" trong bộ máy trường phổ thông là gì?
+A. Các tổ chức kinh doanh dịch vụ giải trí cho học sinh.
+*B. Các tổ chức đoàn thể học sinh, giữ vai trò lực lượng nòng cốt trong các phong trào thi đua và rèn luyện đạo đức.
+C. Các cơ quan thanh tra kỷ luật của Hiệu trưởng.
+D. Các tổ chức không thuộc hệ thống nhà trường.
+
+Giải thích:
+- Bản chất đáp án đúng: Đoàn TNCS Hồ Chí Minh và Đội TNTP Hồ Chí Minh là các đoàn thể chính trị - xã hội của thế hệ trẻ trong trường: là cánh tay đắc lực của Nhà trường trong việc tổ chức các phong trào học tập, rèn luyện.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở kinh doanh giải trí.
+  + Phương án C bẫy ở cơ quan thanh tra.
+  + Phương án D bẫy ở không thuộc nhà trường.
+- Quy luật suy luận mở rộng: Đoàn Thanh niên & Đội Thiếu niên = Lực lượng nòng cốt trong phong trào thi đua & rèn luyện đạo đức học sinh.
+
+---
+
+Câu 22: Yêu cầu của việc "Quản lý Tài chính và Ngân sách" trong trường học là gì?
+*A. Thực hiện công khai, minh bạch, đúng chế độ kế toán pháp luật và tập trung ưu tiên cho hoạt động dạy và học.
+B. Giấu kín các khoản thu chi không cho giáo viên biết.
+C. Sử dụng ngân sách nhà nước cấp để đầu tư kinh doanh chứng khoán.
+D. Tùy ý thu các khoản tiền ngoài quy định của pháp luật.
+
+Giải thích:
+- Bản chất đáp án đúng: Quản lý tài chính phải tuân thủ Luật Kế toán và nguyên tắc "Công khai tài chính": mọi khoản thu chi ngân sách hay đóng góp xã hội hóa đều phải lập dự toán, chi đúng mục đích và công khai trước Hội đồng.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở giấu kín thu chi.
+  + Phương án C bẫy ở đầu tư chứng khoán vi phạm luật.
+  + Phương án D bẫy ở lạm thu trái phép.
+- Quy luật suy luận mở rộng: Quản lý Tài chính = Công khai, minh bạch + Đúng quy định pháp luật + Ưu tiên cho hoạt động dạy và học.
+
+---
+
+Câu 23 [TÌNH HUỐNG THỰC TẾ]: Trước khi thông qua Bảng phân công lao động và Thời khóa biểu năm học mới, Phó Hiệu trưởng phụ trách chuyên môn đã gửi dự thảo đến các Tổ trưởng chuyên môn để rà soát nguyện vọng giáo viên và điều chỉnh các tiết trùng. Việc làm này thể hiện phong cách quản lý nào?
+A. Phong cách quản lý độc đoán tự do.
+*B. Phong cách quản lý khoa học, dân chủ và tôn trọng người lao động.
+C. Phong cách quản lý phó mặc buông thả.
+D. Phong cách quản lý coi thường quy chế.
+
+Giải thích:
+- Bản chất đáp án đúng: Việc gửi dự thảo phân công để rà soát nguyện vọng thể hiện phong cách quản lý dân chủ, chu đáo: lắng nghe phản hồi từ cấp cơ sở (Tổ trưởng) để phương án phân công tối ưu và tạo sự đồng thuận cao.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở độc đoán.
+  + Phương án C bẫy ở buông thả.
+  + Phương án D bẫy ở coi thường quy chế.
+- Quy luật suy luận mở rộng: Gửi dự thảo phân công rà soát ý kiến Tổ trưởng = Phong cách quản lý khoa học, dân chủ & tôn trọng người lao động.
+
+---
+
+Câu 24: Ý nghĩa của việc "Ứng dụng Công nghệ Thông tin trong Quản lý nhà trường" (Trường học số) là gì?
+*A. Hiện đại hóa hồ sơ sổ sách, tự động hóa quản lý điểm, tăng cường tính minh bạch và nâng cao hiệu quả điều hành.
+B. Thay thế hoàn toàn vai trò của Ban Giám hiệu.
+C. Làm cho giáo viên không cần phải giảng dạy.
+D. Tốn kém chi phí mà không mang lại giá trị quản lý.
+
+Giải thích:
+- Bản chất đáp án đúng: Sử dụng phần mềm quản lý trường học (sổ điểm điện tử, học bạ số, quản lý nhân sự, cổng thông tin nhà trường - phụ huynh) giúp giảm tải thủ công, chính xác hóa dữ liệu và điều hành nhanh chóng.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở thay Ban Giám hiệu.
+  + Phương án C bẫy ở giáo viên không cần dạy.
+  + Phương án D bẫy ở phủ nhận giá trị.
+- Quy luật suy luận mở rộng: Ứng dụng CNTT trong quản lý = Hiện đại hóa hồ sơ + Tự động hóa dữ liệu + Minh bạch & Tối ưu điều hành.
+
+---
+
+Câu 25: Yêu cầu của việc "Quản lý Thư viện Trường học" là gì?
+A. Khóa chặt cửa thư viện không cho học sinh mượn sách vì sợ mất.
+*B. Bố trí sách báo khoa học, mở rộng vốn tài liệu, tăng cường thư viện xanh/điện tử và thu hút học sinh đọc sách.
+C. Chỉ phục vụ cho cán bộ quản lý nhà trường.
+D. Thanh lý toàn bộ sách cũ để làm phòng chứa đồ.
+
+Giải thích:
+- Bản chất đáp án đúng: Thư viện là "trái tim tri thức" của trường: quản lý thư viện tốt là phải biến thư viện thành không gian học tập hấp dẫn, thân thiện, quy trình mượn trả dễ dàng để phát triển văn hóa đọc cho thầy và trò.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở khóa cửa sợ mất sách.
+  + Phương án C bẫy ở chỉ phục vụ quản lý.
+  + Phương án D bẫy ở thanh lý phòng đồ.
+- Quy luật suy luận mở rộng: Quản lý Thư viện = Bố trí khoa học + Phong phú tài liệu + Thân thiện hấp dẫn thu hút học sinh đọc sách.
+
+---
+
+Câu 26: Vai trò của "Chi bộ Đảng Cộng sản Việt Nam" trong trường phổ thông là gì?
+*A. Là hạt nhân chính trị, lãnh đạo toàn diện các mặt công tác chuyên môn, tư tưởng và đoàn thể trong nhà trường.
+B. Là đơn vị chuyên làm công tác tài chính kế toán.
+C. Là tổ chức do học sinh tự thành lập và quản lý.
+D. Là cơ quan tư vấn pháp lý bên ngoài nhà trường.
+
+Giải thích:
+- Bản chất đáp án đúng: Chi bộ Đảng trong trường học thực hiện vai trò lãnh đạo toàn diện: định hướng chính trị - tư tưởng, phê duyệt Kế hoạch phát triển nhà trường, quản lý cán bộ và chỉ đạo các đoàn thể hoạt động đúng hướng.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở tài chính kế toán.
+  + Phương án C bẫy ở do học sinh thành lập.
+  + Phương án D bẫy ở tư vấn bên ngoài.
+- Quy luật suy luận mở rộng: Chi bộ Đảng = Hạt nhân chính trị lãnh đạo toàn diện mọi mặt công tác trong nhà trường.
+
+---
+
+Câu 27: Yêu cầu của việc "Xây dựng Văn hóa Học đường trong công tác Quản lý" là gì?
+*A. Tạo dựng môi trường giao tiếp ứng xử chuẩn mực, tôn trọng, tin tưởng, kỷ cương và nhân văn giữa các thành viên.
+B. Bắt buộc mọi người phải im lặng tuyệt đối không trao đổi.
+C. Áp đặt các hình phạt bạo lực để đe dọa giáo viên và học sinh.
+D. Là công tác hình thức không có ảnh hưởng đến chất lượng.
+
+Giải thích:
+- Bản chất đáp án đúng: Văn hóa nhà trường là "hệ điều hành tinh thần": nhà quản lý phải xây dựng giá trị cốt lõi, chuẩn mực ứng xử văn minh (thầy trò tôn trọng, đồng nghiệp hợp tác), tạo sinh khí tích cực cho trường học.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở im lặng gò bó.
+  + Phương án C bẫy ở bạo lực đe dọa.
+  + Phương án D bẫy ở hình thức vô bổ.
+- Quy luật suy luận mở rộng: Văn hóa Học đường = Môi trường ứng xử chuẩn mực + Tôn trọng, kỷ cương & Nhân văn.
+
+---
+
+Câu 28 [TÌNH HUỐNG THỰC TẾ]: Khi xảy ra sự cố cháy nhỏ tại phòng thí nghiệm Hóa học do chập điện, nhờ trước đó Hiệu trưởng đã tổ chức Diễn tập PCCC định kỳ và kiểm tra các bình chữa cháy hàng tháng, bảo vệ và giáo viên đã kịp thời dập tắt an toàn. Việc làm của Hiệu trưởng thuộc nội dung nào?
+A. Quản lý công tác thi đua khen thưởng.
+*B. Quản lý An toàn Trường học và Quản lý Rủi ro trong nhà trường.
+C. Quản lý công tác thu học phí.
+D. Quản lý môn học Thể dục.
+
+Giải thích:
+- Bản chất đáp án đúng: Công tác quản lý an toàn trường học đòi hỏi tính chủ động phòng ngừa: diễn tập PCCC, kiểm tra an toàn điện, hóa chất, phòng chống cháy nổ để bảo vệ tính mạng và tài sản nhà trường.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở thi đua.
+  + Phương án C bẫy ở thu học phí.
+  + Phương án D bẫy ở thể dục.
+- Quy luật suy luận mở rộng: Diễn tập PCCC & Kiểm tra thiết bị an toàn hàng tháng = Quản lý An toàn Trường học & Quản lý Rủi ro.
+
+---
+
+Câu 29: Vai trò của "Công tác Kiểm tra Nội bộ Trường học" (Internal School Inspection) là gì?
+*A. Giúp Hiệu trưởng đánh giá thực trạng chuyên môn, phát hiện sai sót để kịp thời tư vấn, hỗ trợ và điều chỉnh.
+B. Nhằm mục đích soi moi, bới vết để trừng phạt giáo viên.
+C. Việc học sinh tự kiểm tra sổ tay cá nhân.
+D. Việc nhà trường thuê các công ty tư nhân vào thanh tra.
+
+Giải thích:
+- Bản chất đáp án đúng: Kiểm tra nội bộ (dự giờ, duyệt sổ sách, kiểm tra phòng chức năng) là "mắt thần" của quản lý: không phải để quy chụp phạt tội mà là để giúp đỡ giáo viên nâng cao tay nghề và sửa chữa lệch chuẩn.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở soi moi trừng phạt tiêu cực.
+  + Phương án C bẫy ở học sinh kiểm tra cá nhân.
+  + Phương án D bẫy ở thuê công ty tư nhân.
+- Quy luật suy luận mở rộng: Kiểm tra Nội bộ = Đánh giá thực trạng + Phát hiện sai sót để Tư vấn, Hỗ trợ và Điều chỉnh.
+
+---
+
+Câu 30: Bản chất của "Sự Tự chủ Nhà trường" (School Autonomy) trong đổi mới giáo dục hiện nay là gì?
+A. Việc nhà trường tách rời hoàn toàn khỏi sự quản lý của Nhà nước.
+*B. Trao quyền tự chủ cho nhà trường về thực hiện chương trình, tổ chức nhân sự và tài chính đi liền với giải trình xã hội.
+C. Việc Hiệu trưởng tự ý đặt ra các loại thuế thu nhập.
+D. Việc bãi bỏ toàn bộ quy chế chuyên môn quốc gia.
+
+Giải thích:
+- Bản chất đáp án đúng: Tự chủ nhà trường phát huy tính năng động: trường được tự chủ phát triển chương trình nhà trường, tự chủ sử dụng ngân sách hợp lý và tự chủ nhân sự, nhưng phải chịu trách nhiệm giải trình chất lượng trước xã hội.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở tách rời Nhà nước.
+  + Phương án C bẫy ở tự đặt ra thuế.
+  + Phương án D bẫy ở bỏ quy chế quốc gia.
+- Quy luật suy luận mở rộng: Tự chủ Nhà trường = Quyền tự chủ Chương trình, Nhân sự & Tài chính đi liền với Trách nhiệm giải trình Xã hội.
+
+---
+
+Câu 31: Ý nghĩa của việc "Xây dựng Kế hoạch Giáo dục Nhà trường" (School Educational Plan) là gì?
+*A. Cụ thể hóa Chương trình giáo dục quốc gia phù hợp với điều kiện thực tế của địa phương và đối tượng học sinh.
+B. Chép lại nguyên văn 100% thời khóa biểu của trường bạn.
+C. Danh mục các đợt thu tiền ủng hộ trong năm học.
+D. Việc bãi bỏ các môn học không thi tốt nghiệp.
+
+Giải thích:
+- Bản chất đáp án đúng: Kế hoạch giáo dục nhà trường là bản thiết kế linh hoạt: giúp nhà trường chủ động sắp xếp thời lượng, chọn chủ đề tích hợp, xây dựng môn tự chọn sát với năng lực học sinh và hạ tầng trường lớp.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở chép lại thời khóa biểu trường bạn.
+  + Phương án C bẫy ở đợt thu tiền.
+  + Phương án D bẫy ở bỏ môn không thi.
+- Quy luật suy luận mở rộng: Kế hoạch Giáo dục Nhà trường = Cụ thể hóa chương trình quốc gia phù hợp điều kiện thực tế trường & đối tượng học sinh.
+
+---
+
+Câu 32: Yêu cầu của "Công tác Đánh giá Hiệu trưởng và Cán bộ Quản lý" theo chuẩn nghề nghiệp là gì?
+A. Dựa trên mức độ thân quen cá nhân với cấp trên.
+*B. Đánh giá dựa trên năng lực quản trị nhà trường, phẩm chất đạo đức, hiệu quả chất lượng giáo dục và sự tín nhiệm.
+C. Dựa trên số tiền tài trợ vận động được trong năm.
+D. Chỉ đánh giá qua các bài thi trắc nghiệm lý thuyết.
+
+Giải thích:
+- Bản chất đáp án đúng: Đánh giá cán bộ quản lý (theo Chuẩn Hiệu trưởng) phải đa chiều: đánh giá tư duy chiến lược, năng lực quản trị nhân sự/chuyên môn, kết quả chất lượng trường và độ tín nhiệm từ tập thể sư phạm.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở thân quen cá nhân.
+  + Phương án C bẫy ở số tiền tài trợ.
+  + Phương án D bẫy ở trắc nghiệm lý thuyết.
+- Quy luật suy luận mở rộng: Đánh giá Cán bộ Quản lý = Năng lực quản trị + Phẩm chất đạo đức + Kết quả chất lượng thực tế & Sự tín nhiệm.
+
+---
+
+Câu 33 [TÌNH HUỐNG THỰC TẾ]: Để giải quyết tình trạng thiếu phòng học bộ môn, Hiệu trưởng đã bàn bạc với Hội đồng trường chuyển đổi dãy nhà kho cũ thành 2 phòng Thí nghiệm Sinh - Hóa chuẩn hóa và 1 phòng Lab Ngoại ngữ. Hiệu trưởng đã vận dụng sáng tạo nội dung quản lý nào?
+*A. Quản lý và Tối ưu hóa việc sử dụng Cơ sở vật chất nhà trường.
+B. Quản lý công tác thi thi đấu thể thao.
+C. Quản lý kỷ luật học sinh cúp tiết.
+D. Quản lý công tác y tế học đường.
+
+Giải thích:
+- Bản chất đáp án đúng: Chuyển đổi nhà kho cũ thành phòng thí nghiệm hiện đại là sự năng động trong Quản lý cơ sở vật chất: biến tài sản lãng phí thành công cụ phục vụ trực tiếp cho hoạt động dạy và học.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở thể thao.
+  + Phương án C bẫy ở kỷ luật.
+  + Phương án D bẫy ở y tế.
+- Quy luật suy luận mở rộng: Cải tạo nhà kho cũ thành phòng thí nghiệm = Quản lý & Tối ưu hóa Cơ sở vật chất nhà trường.
+
+---
+
+Câu 34: Tại sao nói "Quản lý Chuyên môn là Quản lý Trung tâm" trong nhà trường?
+*A. Vì dạy học và giáo dục là hoạt động cốt lõi; mọi hoạt động quản lý khác đều nhằm phục vụ cho nâng cao chất lượng chuyên môn.
+B. Vì quản lý chuyên môn mang lại nguồn thu tài chính lớn nhất.
+C. Vì chỉ có quản lý chuyên môn mới được pháp luật quy định.
+D. Vì chuyên môn là công việc duy nhất của Hiệu trưởng.
+
+Giải thích:
+- Bản chất đáp án đúng: Nhà trường tồn tại vì sứ mệnh giáo dục; quản lý tài chính, quản lý cơ sở vật chất hay hành chính cuối cùng cũng chỉ là điều kiện phục vụ cho "trái tim" nhà trường: Hoạt động Dạy và Học (Chuyên môn).
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở nguồn thu tài chính.
+  + Phương án C bẫy ở quy định pháp luật.
+  + Phương án D bẫy ở công việc duy nhất.
+- Quy luật suy luận mở rộng: Quản lý Chuyên môn là Trung tâm = Vì Dạy & Học là hoạt động cốt lõi, mọi khâu quản lý khác đều phục vụ chuyên môn.
+
+---
+
+Câu 35: Ý nghĩa của việc "Công khai Trách nhiệm Giải trình" (Accountability) của nhà trường trước xã hội là gì?
+A. Làm giảm uy tín của nhà trường trước phụ huynh.
+*B. Minh bạch hóa chất lượng đào tạo, thu chi tài chính, tạo niềm tin xã hội và chịu sự giám sát của cộng đồng.
+C. Việc nhà trường đổ lỗi cho học sinh khi kết quả thi kém.
+D. Là hình thức quảng cáo thương mại không chính xác.
+
+Giải thích:
+- Bản chất đáp án đúng: Trách nhiệm giải trình (công khai "3 công khai": chất lượng, điều kiện dạy học, tài chính) là cam kết danh dự của nhà trường: giúp xã hội tin tưởng, đồng hành và giám sát việc thực hiện sứ mệnh giáo dục.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở giảm uy tín.
+  + Phương án C bẫy ở đổ lỗi cho học sinh.
+  + Phương án D bẫy ở quảng cáo thương mại.
+- Quy luật suy luận mở rộng: Trách nhiệm Giải trình = Minh bạch chất lượng & tài chính + Tạo niềm tin xã hội + Chịu sự giám sát của cộng đồng.
+
+---
+
+Câu 36: Yêu cầu của việc "Quản lý Công tác Học sinh Giỏi và Học sinh Yếu kém" là gì?
+*A. Phân hóa đối tượng, bồi dưỡng học sinh giỏi phát triển năng khiếu và phụ đạo chống mù kiến thức cho học sinh yếu.
+B. Cào bằng chương trình giảng dạy như nhau cho mọi đối tượng.
+C. Loại bỏ học sinh yếu ra khỏi nhà trường để lấy thành tích.
+D. Chỉ tập trung nguồn lực chăm sóc học sinh giỏi.
+
+Giải thích:
+- Bản chất đáp án đúng: Quản lý chuyên môn phải đảm bảo tính nhân văn và hiệu quả: phát hiện và đầu tư bồi dưỡng mũi nhọn (Học sinh giỏi), đồng thời tổ chức phụ đạo kiên trì để kéo học sinh yếu kém lên đạt chuẩn.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở cào bằng.
+  + Phương án C bẫy ở loại bỏ học sinh yếu phi sư phạm.
+  + Phương án D bẫy ở chỉ tập trung học sinh giỏi.
+- Quy luật suy luận mở rộng: Quản lý đối tượng học sinh = Bồi dưỡng mũi nhọn (Học sinh giỏi) + Phụ đạo kiên trì (Học sinh yếu kém).
+
+---
+
+Câu 37 [TÌNH HUỐNG THỰC TẾ]: Khi nhận thấy một số giáo viên trẻ gặp khó khăn trong việc quản lý lớp học và thiết kế Kế hoạch bài dạy, Hiệu trưởng đã chỉ đạo các Tổ chuyên môn phân công các "Giáo viên giỏi cốt cán" kèm cặp 1-1 theo mô hình "Môn đăng hộ đối". Việc làm này ứng dụng nội dung quản lý nào?
+A. Quản lý tài chính kế toán.
+*B. Quản lý và Bồi dưỡng Phát triển Năng lực Đội ngũ Giáo viên.
+C. Quản lý kỷ luật lao động.
+D. Quản lý cơ sở vật chất.
+
+Giải thích:
+- Bản chất đáp án đúng: Mô hình kèm cặp 1-1 giữa giáo viên lâu năm giỏi với giáo viên trẻ là biện pháp Quản lý phát triển nhân sự sư phạm rất hiệu quả: bồi dưỡng tay nghề thực chiến ngay trong môi trường làm việc.
+- Phân tích phương án sai/bẫy:
+  + Phương án A bẫy ở tài chính.
+  + Phương án C bẫy ở kỷ luật lao động.
+  + Phương án D bẫy ở cơ sở vật chất.
+- Quy luật suy luận mở rộng: Phân công giáo viên giỏi kèm giáo viên trẻ 1-1 = Quản lý & Bồi dưỡng Phát triển Năng lực Đội ngũ Giáo viên.
+
+---
+
+Câu 38: Mối quan hệ giữa "Chủ thể Quản lý" (Hiệu trưởng) và "Đối tượng Quản lý" (Giáo viên, Học sinh) là mối quan hệ gì?
+*A. Mối quan hệ tương tác hai chiều biện chứng: Chủ thể chỉ đạo định hướng; Đối tượng tích cực hưởng ứng và phản hồi.
+B. Mối quan hệ áp đặt một chiều từ trên xuống không được phản hồi.
+C. Hai đối tượng hoàn toàn độc lập không liên quan.
+D. Chủ thể do học sinh chọn; Đối tượng do Bộ bổ nhiệm.
+
+Giải thích:
+- Bản chất đáp án đúng: Quản lý trường học hiện đại là quản trị tương tác: Hiệu trưởng đề ra kế hoạch chỉ đạo nhưng phải biết lắng nghe lắng nghe tâm tư phản hồi từ giáo viên và học sinh để điều chỉnh kế hoạch sát thực tế.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở áp đặt 1 chiều độc đoán.
+  + Phương án C bẫy ở độc lập không liên quan.
+  + Phương án D bẫy ở tráo đổi chủ thể sai.
+- Quy luật suy luận mở rộng: Mối quan hệ Quản lý = Tương tác hai chiều biện chứng (Chủ thể chỉ đạo định hướng <-> Đối tượng hưởng ứng & phản hồi).
+
+---
+
+Câu 39: Vai trò của "Hội đồng Trường" (School Board) trong trường phổ thông là gì?
+*A. Cơ quan quản trị nhà trường, đại diện quyền sở hữu, quyết định về định hướng phát triển, nhân sự và tài chính.
+B. Đội thanh niên xung kích giữ trật tự cổng trường.
+C. Ban cán sự tự quản của khối học sinh lớp 12.
+D. Cơ quan báo chí truyền thông bên ngoài.
+
+Giải thích:
+- Bản chất đáp án đúng: Theo Luật Giáo dục hiện hành: Hội đồng trường là cơ quan quản trị cao nhất của nhà trường: quyết định chiến lược phát triển, giám sát hoạt động của Hiệu trưởng và quyết định các vấn đề nhân sự, tài chính lớn.
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở thanh niên xung kích.
+  + Phương án C bẫy ở học sinh lớp 12.
+  + Phương án D bẫy ở báo chí truyền thông.
+- Quy luật suy luận mở rộng: Hội đồng Trường = Cơ quan quản trị cao nhất quyết định Chiến lược phát triển, Nhân sự & Tài chính nhà trường.
+
+---
+
+Câu 40: Nhận định nào sau đây tổng kết đúng Triết lý Đổi mới Quản lý nhà trường hiện nay?
+*A. Chuyển từ quản lý hành chính mệnh lệnh sang Quản trị nhà trường hiện đại, Dân chủ, Tự chủ, Chuẩn hóa và Chất lượng.
+B. Giữ nguyên mô hình quản lý tập trung quan liêu bao cấp.
+C. Buông thả hoàn toàn không cần sự kiểm tra của các cơ quan giáo dục.
+D. Thương mại hóa toàn bộ các hoạt động nhà trường để thu lợi nhuận.
+
+Giải thích:
+- Bản chất đáp án đúng: Đổi mới quản lý nhà trường cốt lõi: Chuyển mạnh từ "Quản lý hành chính" (mệnh lệnh từ trên xuống) sang "Quản trị nhà trường" (tự chủ, dân chủ, hiện đại, chuẩn hóa, giải trình chất lượng và lấy người học làm trung tâm).
+- Phân tích phương án sai/bẫy:
+  + Phương án B bẫy ở quan liêu bao cấp.
+  + Phương án C bẫy ở buông thả.
+  + Phương án D bẫy ở thương mại hóa.
+- Quy luật suy luận mở rộng: Đổi mới Quản lý nhà trường = Quản trị hiện đại + Dân chủ, Tự chủ + Chuẩn hóa & Cam kết Chất lượng.
+
+
+====================================================================
+PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (10 CÂU - TỶ LỆ TỰ NHIÊN)
+====================================================================
+
+Câu 41: Về bản chất và mục đích của Quản lý nhà trường:
+a) Quản lý nhà trường là tác động có tổ chức nhằm tối ưu hóa các nguồn lực để nâng cao chất lượng giáo dục. -> [ĐÚNG]
+b) Mục đích cuối cùng của quản lý nhà trường là đào tạo thế hệ trẻ phát triển toàn diện phẩm chất và năng lực. -> [ĐÚNG]
+c) Quản lý nhà trường thực chất là hoạt động kinh doanh tìm kiếm lợi nhuận thương mại. -> [SAI]
+d) Quản lý nhà trường bao gồm việc quản lý Nhân lực, Cơ sở vật chất, Tài chính và Hoạt động chuyên môn. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Định nghĩa quản lý nhà trường.
+  + Ý b) ĐÚNG: Mục đích tối cao của quản lý.
+  + Ý d) ĐÚNG: Các nội dung quản lý nhà trường.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Quản lý nhà trường là hoạt động sư phạm - xã hội phi lợi nhuận thương mại.
+- Quy luật suy luận mở rộng: Quản lý nhà trường = Hoạt động sư phạm tối ưu nguồn lực vì mục tiêu phát triển nhân cách học sinh.
+
+---
+
+Câu 42: Về các Nguyên tắc Quản lý nhà trường:
+a) Đảm bảo sự lãnh đạo toàn diện của Đảng Cộng sản Việt Nam đối với mọi hoạt động trong nhà trường. -> [ĐÚNG]
+b) Đảm bảo Nguyên tắc Tập trung dân chủ, phát huy trí tuệ của Tập thể sư phạm và các đoàn thể. -> [ĐÚNG]
+c) Nguyên tắc Quản lý theo chất lượng đòi hỏi cam kết chuẩn đầu ra và kiểm định chất lượng giáo dục. -> [ĐÚNG]
+d) Quản lý nhà trường chỉ cần dựa trên kinh nghiệm cá nhân của Hiệu trưởng mà không cần tính khoa học. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Nguyên tắc Đảng lãnh đạo.
+  + Ý b) ĐÚNG: Nguyên tắc Tập trung dân chủ.
+  + Ý c) ĐÚNG: Nguyên tắc Quản lý theo chất lượng.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Quản lý nhà trường đòi hỏi tính khoa học cao dựa trên chu trình quản lý 4 khâu.
+- Quy luật suy luận mở rộng: Các nguyên tắc quản lý = Đảng lãnh đạo + Tập trung dân chủ + Quản lý theo chất lượng + Tính khoa học.
+
+---
+
+Câu 43: Về Chu trình Quản lý khoa học:
+a) Khâu Lập kế hoạch xác định mục tiêu, tiến trình và các nguồn lực thực hiện. -> [ĐÚNG]
+b) Khâu Tổ chức thực hiện phân công công việc và vận hành các hoạt động theo kế hoạch. -> [ĐÚNG]
+c) Khâu Kiểm tra nhằm phát hiện sai lệch để thu nhận thông tin phản hồi điều chỉnh. -> [ĐÚNG]
+d) Khi kế hoạch bị chệch hướng thì không được phép Điều chỉnh mà phải giữ nguyên. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Nội dung khâu Lập kế hoạch.
+  + Ý b) ĐÚNG: Nội dung khâu Tổ chức thực hiện.
+  + Ý c) ĐÚNG: Nội dung khâu Kiểm tra.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Điều chỉnh là khâu bắt buộc khi có sai lệch để đưa quá trình quản lý trở lại quỹ đạo mục tiêu.
+- Quy luật suy luận mở rộng: Chu trình quản lý khép kín = Lập kế hoạch -> Tổ chức thực hiện -> Kiểm tra -> Điều chỉnh.
+
+---
+
+Câu 44: Về vai trò của Đội ngũ Giáo viên và Tổ chuyên môn:
+a) Đội ngũ giáo viên là nguồn lực quan trọng nhất quyết định trực tiếp chất lượng giáo dục nhà trường. -> [ĐÚNG]
+b) Tổ chuyên môn là đơn vị lao động sư phạm nòng cốt chịu trách nhiệm quản lý dạy học bộ môn. -> [ĐÚNG]
+c) Quản lý giáo viên chỉ là việc trừng phạt và cắt lương khi giáo viên vi phạm. -> [SAI]
+d) Bồi dưỡng nâng chuẩn chuyên môn cho giáo viên là nhiệm vụ thường xuyên của công tác quản lý. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Vai trò nguồn lực giáo viên.
+  + Ý b) ĐÚNG: Vai trò của Tổ chuyên môn.
+  + Ý d) ĐÚNG: Nhiệm vụ bồi dưỡng giáo viên.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Quản lý giáo viên là tạo động lực, bồi dưỡng, tôn trọng và phân công sát năng lực.
+- Quy luật suy luận mở rộng: Giáo viên là nguồn lực quyết định; Tổ chuyên môn là tế bào nâng cao chất lượng dạy học.
+
+---
+
+Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về Quản lý Cơ sở vật chất và Tài chính:
+a) Quản lý cơ sở vật chất bao gồm việc bảo quản, bảo dưỡng và khai thác tối đa công năng phục vụ dạy học. -> [ĐÚNG]
+b) Quản lý tài chính phải thực hiện nguyên tắc công khai, minh bạch và tuân thủ đúng chế độ kế toán. -> [ĐÚNG]
+c) Hiệu trưởng có quyền tự ý thu các khoản tiền ngoài quy định mà không cần thông qua HĐND/Sở. -> [SAI]
+d) Xã hội hóa giáo dục giúp huy động các nguồn lực hợp pháp để hiện đại hóa hạ tầng trường học. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Nội dung quản lý cơ sở vật chất.
+  + Ý b) ĐÚNG: Nguyên tắc quản lý tài chính.
+  + Ý d) ĐÚNG: Ý nghĩa xã hội hóa giáo dục.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Mọi khoản thu trong trường học đều phải tuân thủ đúng danh mục pháp luật quy định, chống lạm thu.
+- Quy luật suy luận mở rộng: CSVC & Tài chính = Minh bạch + Khai thác tối đa công năng + Chống lạm thu trái phép.
+
+---
+
+Câu 46: Về Kiểm định chất lượng và Bệnh thành tích trong quản lý:
+a) Kiểm định chất lượng giáo dục giúp nhà trường tự đánh giá và được xã hội công nhận chuẩn mực. -> [ĐÚNG]
+b) Bệnh thành tích làm sai lệch thông tin thực tế và suy thoái chất lượng giáo dục thực sự. -> [ĐÚNG]
+c) Áp chỉ tiêu thi đua 100% học sinh giỏi là phương pháp quản lý chất lượng tiên tiến. -> [SAI]
+d) Xây dựng Trường chuẩn quốc gia đòi hỏi đáp ứng đồng bộ 5 tiêu chuẩn theo quy định của Bộ. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Ý nghĩa kiểm định chất lượng.
+  + Ý b) ĐÚNG: Tác hại bệnh thành tích.
+  + Ý d) ĐÚNG: Yêu cầu Trường chuẩn quốc gia.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Áp chỉ tiêu 100% học sinh giỏi phi thực tế chính là mầm mầm của bệnh thành tích và báo cáo dối trá.
+- Quy luật suy luận mở rộng: Quản lý chất lượng chân chính = Kiểm định thực chất + Trường chuẩn quốc gia + Bài trừ bệnh thành tích.
+
+---
+
+Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về Ứng dụng Công nghệ thông tin trong Quản lý nhà trường:
+a) Triển khai học bạ số và sổ điểm điện tử giúp tăng cường tính công khai, minh bạch dữ liệu. -> [ĐÚNG]
+b) Ứng dụng CNTT giúp giảm tải thủ công hành chính cho giáo viên và cán bộ quản lý. -> [ĐÚNG]
+c) Chuyển đổi số trong quản lý nhà trường sẽ thay thế hoàn toàn vai trò chỉ đạo của Hiệu trưởng. -> [SAI]
+d) Kết nối cổng thông tin nhà trường - phụ huynh giúp tăng cường sự phối hợp giáo dục 2 chiều. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Tác dụng học bạ số, sổ điểm điện tử.
+  + Ý b) ĐÚNG: Tác dụng giảm tải thủ công.
+  + Ý d) ĐÚNG: Tác dụng kết nối nhà trường - phụ huynh.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Công nghệ thông tin là công cụ hỗ trợ điều hành, không thay thế được tư duy chiến lược của Hiệu trưởng.
+- Quy luật suy luận mở rộng: Chuyển đổi số quản lý = Minh bạch dữ liệu + Giảm tải hành chính + Tăng kết nối Phụ huynh & Nhà trường.
+
+---
+
+Câu 48: Về các Đoàn thể và Bộ máy trong nhà trường:
+a) Chi bộ Đảng là hạt nhân chính trị lãnh đạo toàn diện các mặt công tác trong nhà trường. -> [ĐÚNG]
+b) Công đoàn Cơ sở đại diện bảo vệ quyền và lợi ích hợp pháp của cán bộ giáo viên nhân viên. -> [ĐÚNG]
+c) Đoàn Thanh niên và Đội Thiếu niên là lực lượng nòng cốt trong các phong trào thi đua học sinh. -> [ĐÚNG]
+d) Ban đại diện cha mẹ học sinh có quyền can thiệp và thay đổi chương trình giảng dạy của giáo viên. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Vai trò của Chi bộ Đảng.
+  + Ý b) ĐÚNG: Vai trò của Công đoàn.
+  + Ý c) ĐÚNG: Vai trò của Đoàn/Đội.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Ban đại diện cha mẹ học sinh phối hợp hỗ trợ giáo dục, tuyệt đối không được can thiệp vào chuyên môn giảng dạy.
+- Quy luật suy luận mở rộng: Bộ máy nhà trường = Chi bộ lãnh đạo toàn diện + Công đoàn bảo vệ người lao động + Đoàn Đội phong trào.
+
+---
+
+Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về Quản lý An toàn và Môi trường học đường:
+a) Xây dựng trường học Xanh - Sạch - Đẹp - An toàn là nội dung quan trọng của quản lý nhà trường. -> [ĐÚNG]
+b) Định kỳ kiểm tra hệ thống điện, PCCC và vệ sinh an toàn thực phẩm bếp ăn bán trú. -> [ĐÚNG]
+c) Khi xảy ra bạo lực học đường, Hiệu trưởng chỉ cần giấu kín thông tin để bảo vệ thành tích trường. -> [SAI]
+d) Thành lập Tổ tư vấn tâm lý học đường giúp hỗ trợ học sinh giải tỏa căng thẳng và xung đột. -> [ĐÚNG]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Mục tiêu môi trường trường học.
+  + Ý b) ĐÚNG: Công tác quản lý an toàn định kỳ.
+  + Ý d) ĐÚNG: Vai trò Tổ tư vấn tâm lý.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý c) SAI ở chỗ: Giấu kín bạo lực vì bệnh thành tích là sai lầm nghiêm trọng; Hiệu trưởng phải xử lý kiên quyết, minh bạch và nhân văn.
+- Quy luật suy luận mở rộng: Quản lý An toàn = Kiểm tra phòng ngừa định kỳ + Xử lý minh bạch bạo lực + Hỗ trợ tư vấn tâm lý.
+
+---
+
+Câu 50: Về triết lý tổng quát Đổi mới Quản lý nhà trường hiện nay:
+a) Chuyển mạnh từ Quản lý hành chính mệnh lệnh sang Quản trị nhà trường hiện đại và tự chủ. -> [ĐÚNG]
+b) Lấy chất lượng giáo dục và sự phát triển toàn diện của người học làm thước đo quản lý. -> [ĐÚNG]
+c) Thực hiện trách nhiệm giải trình minh bạch trước phụ huynh, học sinh và cộng đồng xã hội. -> [ĐÚNG]
+d) Tự chủ nhà trường đồng nghĩa với việc nhà trường không chịu sự quản lý của Luật Giáo dục. -> [SAI]
+
+Giải thích:
+- Bản chất mệnh đề đúng:
+  + Ý a) ĐÚNG: Định hướng chuyển đổi sang Quản trị hiện đại.
+  + Ý b) ĐÚNG: Thước đo chất lượng quản lý.
+  + Ý c) ĐÚNG: Yêu cầu trách nhiệm giải trình.
+- Phân tích mệnh đề sai/bẫy:
+  + Ý d) SAI ở chỗ: Tự chủ nhà trường phải thực hiện trong khuôn khổ pháp luật và Luật Giáo dục quy định.
+- Quy luật suy luận mở rộng: Đổi mới Quản lý nhà trường = Quản trị hiện đại + Tự chủ trong khuôn khổ pháp luật + Lấy người học làm trung tâm + Trách nhiệm giải trình.
