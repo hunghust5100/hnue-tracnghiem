@@ -319,6 +319,70 @@ const defaultCategories = [
         "description": "Bộ câu hỏi trắc nghiệm Chương 11: Kiểm tra, đánh giá kết quả học tập",
         "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 11. Kiểm tra, đánh giá kết quả học tập.enc",
         "icon": "📝"
+      },
+      {
+        "id": "gdh-cb-ch12",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 12: Quá trình giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 12: Quá trình giáo dục",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 12. Quá trình giáo dục.enc",
+        "icon": "🌱"
+      },
+      {
+        "id": "gdh-cb-ch13",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 13: Nguyên tắc giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 13: Nguyên tắc giáo dục",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 13. Nguyên tắc giáo dục.enc",
+        "icon": "⚖️"
+      },
+      {
+        "id": "gdh-cb-ch14",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 14: Nội dung giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 14: Nội dung giáo dục",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 14. Nội dung giáo dục.enc",
+        "icon": "📜"
+      },
+      {
+        "id": "gdh-cb-ch15",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 15: Phương pháp giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 15: Phương pháp giáo dục",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 15. Phương pháp giáo dục.enc",
+        "icon": "💡"
+      },
+      {
+        "id": "gdh-cb-ch16",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 16: Môi trường giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 16: Môi trường giáo dục",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 16. Môi trường giáo dục.enc",
+        "icon": "🏡"
+      },
+      {
+        "id": "gdh-cb-ch17",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 17: Một số vấn đề cơ bản về quản lý nhà trường",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 17: Một số vấn đề cơ bản về quản lý nhà trường",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 17. Một số vấn đề cơ bản về quản lý nhà trường.enc",
+        "icon": "🏛️"
+      },
+      {
+        "id": "gdh-cb-ch18",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 18: Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 18: Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 18. Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục.enc",
+        "icon": "👩‍🏫"
+      },
+      {
+        "id": "gdh-cb-ch19",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 19: Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 19: Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông",
+        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 19. Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông.enc",
+        "icon": "📋"
       }
     ]
   }
