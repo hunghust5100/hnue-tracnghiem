@@ -1274,21 +1274,21 @@ function renderQuiz() {
             if (q.type === 'truefalse') {
                 hasSelectedAny = Object.keys(q.userTFAnswers || {}).length > 0;
             } else if (q.type === 'fill') {
-                hasSelectedAny = (q.userAnswers[0] || "").trim().length > 0;
+                hasSelectedAny = (q.userAnswers && q.userAnswers[0] ? String(q.userAnswers[0]).trim().length > 0 : false);
             } else {
-                hasSelectedAny = q.userAnswers.length > 0;
+                hasSelectedAny = Array.isArray(q.userAnswers) && q.userAnswers.length > 0;
             }
 
-            if (hasSelectedAny) {
-                html += `
-                    <div class="btn-action-zone">
-                        <span class="action-zone-hint">💡 Đã chọn đáp án. Bấm nút để kiểm tra:</span>
-                        <button class="btn-instant-confirm" onclick="gradeIndividualQuestion('${q.id}')">
-                            <span class="btn-icon">✨</span> Kiểm tra & Xem giải thích
-                        </button>
-                    </div>
-                `;
-            }
+            const displayStyle = hasSelectedAny ? 'flex' : 'none';
+
+            html += `
+                <div class="btn-action-zone" id="action-zone-${q.id}" style="display: ${displayStyle};">
+                    <span class="action-zone-hint">💡 Đã chọn đáp án. Bấm nút để kiểm tra:</span>
+                    <button class="btn-instant-confirm" onclick="gradeIndividualQuestion('${q.id}')">
+                        <span class="btn-icon">✨</span> Kiểm tra & Xem giải thích
+                    </button>
+                </div>
+            `;
         }
 
         const expDisplay = q.isGraded ? "block" : "none";
@@ -1321,6 +1321,26 @@ function renderQuiz() {
     updateProgress();
 }
 
+function updateInstantActionZone(qId) {
+    if (currentQuizMode !== 'instant') return;
+    const q = currentQuestions.find(item => item.id === qId);
+    if (!q || q.isGraded) return;
+
+    let hasSelectedAny = false;
+    if (q.type === 'truefalse') {
+        hasSelectedAny = Object.keys(q.userTFAnswers || {}).length > 0;
+    } else if (q.type === 'fill') {
+        hasSelectedAny = (q.userAnswers && q.userAnswers[0] ? String(q.userAnswers[0]).trim().length > 0 : false);
+    } else {
+        hasSelectedAny = Array.isArray(q.userAnswers) && q.userAnswers.length > 0;
+    }
+
+    const actionZone = document.getElementById(`action-zone-${qId}`);
+    if (actionZone) {
+        actionZone.style.display = hasSelectedAny ? 'flex' : 'none';
+    }
+}
+
 function handleUserSelection(qId, letter) {
     const q = currentQuestions.find(item => item.id === qId);
     if (!q || q.isGraded) return;
@@ -1328,7 +1348,8 @@ function handleUserSelection(qId, letter) {
     q.userAnswers = [letter];
     updateProgress();
     if (currentQuizMode === 'instant') {
-        gradeIndividualQuestion(qId);
+        updateInstantActionZone(qId);
+        renderSidebarNav();
     }
 }
 
@@ -1341,6 +1362,7 @@ function handleMultipleSelection(qId) {
         q.userAnswers = Array.from(checkedBoxes).map(cb => cb.value);
         updateProgress();
         if (currentQuizMode === 'instant') {
+            updateInstantActionZone(qId);
             renderSidebarNav();
         }
     }, 0);
@@ -1354,6 +1376,7 @@ function handleFillInput(qId) {
     q.userAnswers = [inputVal];
     updateProgress();
     if (currentQuizMode === 'instant') {
+        updateInstantActionZone(qId);
         renderSidebarNav();
     }
 }
@@ -1379,6 +1402,7 @@ function handleTFSelection(qId, letter, isDung) {
     q.userAnswers = Object.keys(q.userTFAnswers);
     updateProgress();
     if (currentQuizMode === 'instant') {
+        updateInstantActionZone(qId);
         renderSidebarNav();
     }
 }
