@@ -1,0 +1,365 @@
+# Chương 4: MỤC ĐÍCH VÀ NGUYÊN LÍ GIÁO DỤC
+
+## I. KHÁI NIỆM MỤC ĐÍCH, MỤC TIÊU GIÁO DỤC
+
+### 1. Mục đích giáo dục
+
+Mục đích giáo dục là một phạm trù cơ bản của Giáo dục học. Với tầm quan trọng của nó, vấn đề xác định mục đích giáo dục đã được đặt ra từ rất xa xưa trong lịch sử xã hội và được thực hiện bằng nhiều cách khác nhau.
+
+Theo nghĩa thông thường, mục đích giáo dục là cái đích cần đạt được của sự nghiệp giáo dục mỗi quốc gia. Việc xác định mục đích giáo dục thường được tiến hành khi nhà nước tổ chức một hệ thống giáo dục, khi nhà trường tiến hành các hoạt động giáo dục.
+
+Mục đích giáo dục là mô hình lí tưởng về sản phẩm giáo dục, là phạm trù có tính chất định hướng lâu dài của nền giáo dục quốc gia. Mục đích giáo dục được xây dựng trên cơ sở những yêu cầu hiện tại và cả những yêu cầu dự kiến trong tương lai của xã hội đối với việc đào tạo thế hệ trẻ - nguồn nhân lực của xã hội. Để đạt được mục đích giáo dục phải huy động mọi nguồn lực
+
+của xã hội, phải có sự phấn đấu lâu dài, bền bỉ của gia đình, nhà trường, xã hội.
+
+Về bản chất, mục đích giáo dục là mô hình dự kiến của sản phẩm giáo dục. Mô hình này là điểm xuất phát của quá trình giáo dục, là thành tố quan trọng, định hướng cho quá trình giáo dục, đồng thời là cơ sở để xác định chuẩn đánh giá chất lượng giáo dục.
+
+Là luận điểm xuất phát của quá trình giáo dục, bởi vì xác định mục đích giáo dục về thực chất là xác định tính chất và phương hướng lâu dài của một nền giáo dục, là xác định chiến lược đào tạo nguồn nhân lực trong chiến lược phát triển kinh tế, văn hoá, xã hội. Mục đích giáo dục trở thành tư tưởng chỉ đạo hệ thống giáo dục quốc dân và cũng từ đó đặt ra vấn đề đầu tư, khai thác các nguồn lực để thực hiện quá trình giáo dục.
+
+Là thành tố quan trọng định hướng cho quá trình giáo dục, mục đích giáo dục quy định việc lựa chọn nội dung, chương trình, phương pháp và các hình thức tổ chức giáo dục, xác định các điều kiện để thực hiện quá trình giáo dục. Căn cứ vào mục đích giáo dục nhà trường tiến hành các hoạt động giáo dục.
+
+Là cơ sở để xác định chuẩn đánh giá chất lượng giáo dục, bởi vì mục đích giáo dục chính là mô hình dự kiến chất lượng sản phẩm giáo dục. về bản chất thì chất lượng giáo dục là mức độ đạt được của sản phẩm giáo dục so với mục đích giáo dục đã đề ra. Căn cứ vào mục đích giáo dục, nhà trường đánh giá sản phẩm giáo dục của mình đã đạt được ở mức độ nào, để từ đó tìm các giải pháp nâng cao hơn nữa chất lượng giáo dục.
+
+Đặc điểm của mục đích giáo dục
+
+Mục đích giáo dục là một phạm trù có tính lịch sử. Giáo dục là một hình thái ý thức xã hội, là một bộ phận của các hoạt động xã hội, do đó trình độ phát triển kinh tế, văn hoá xã hội quy định trình độ phát triển giáo dục.
+
+Mục đích giáo dục phản ánh quan niệm của các thời đại về con người, phản ánh trình độ nhận thức của thời đại về các chức năng của giáo dục đối với xã hội và đối với con người.
+
+Mục đích giáo dục là hội tụ của những yêu cầu về phẩm chất và năng lực đối với thê hệ mới, những yêu cầu về nguồn nhân lực xã hội phục vụ cho sự phát triển kinh tế, văn hoá xã hội trong một giai đoạn phát triển lịch sử nhất định.
+
+Như vậy, ở mỗi giai đoạn phát triển lịch sử xã hội có một nề giáo dục và có mục đích giáo dục tương ứng. Mục đích giáo dục luôn biến đổi cùng sự phát triển của lịch sử để đáp ứng các yêu cầu của từng thời đại. Mục đích giáo dục bị giới hạn ở tầm nhìn xã hội và ngược lại, khi xác định chính xác mục đích giáo dục và các con đường để đạt được mục đích giáo dục là góp phần đẩy nhanh sự phát triển kinh tế, văn hoá, xã hội.
+
+Mục đích giáo dục có tính giai cấp. Trong xã hội có giai cấp, giai cấp thống trị sử dụng giáo dục như một công cụ của giai cấp đó. Do lợi ích chính trị và kinh tế, mỗi giai cấp có những quan niệm riêng về giáo dục, có những yêu cầu riêng đối với giáo dục và đối với sản phẩm giáo dục. Mục đích giáo dục trong xã hội có giai cấp phản ánh ý chí, quyền lợi của giai cấp thống trị. Như vậy ở mỗi chế độ xã hội có một mục đích giáo dục đặc thù, chẳng hạn mục đích giáo dục phong kiến khác với mục đích giáo dục của chủ nghĩa tư bản...
+
+Mục đích giáo dục mang màu sắc dân tộc. Mỗi quốc gia, mỗi công đồng dân tộc có những đặc điểm riêng về truyền thống và bản sắc văn hoá, về tập quán trong cuộc sống và lao động xã hội. Do vậy, mỗi nền giáo dục có những đặc điểm độc đáo, có những yêu cầu riêng của mình đối với giáo dục và điều đó cũng được phản ánh vào mục đích giáo dục.
+
+Mục đích giáo dục có tính thời đại. Trong các điều kiện kinh tế, xã hội hiện đại, khi mà khoa học và công nghệ phát triển hết sức nhanh chóng, khi mà xu thế toàn cầu hoá đang trở thành hiện thực, giáo dục thế kỉ XXI đặt ra
+
+nhiều vấn đề lớn cần phải giải quyết, chúng có liên quan trực tiếp đến việc xác định mục đích giáo dục của mỗi quốc gia.
+
+### 2. Mục tiêu giáo dục
+
+Mục tiêu giáo dục là những tiêu chí, chỉ tiêu, những yêu cầu cụ thể đối với từng khâu, từng nhiệm vụ, từng nội dung của quá trình giáo dục phải đạt được sau một hoạt động giáo dục. Mục tiêu giáo dục được xây dựng trên cơ sỏ cân nhắc những điểu kiện hiện có và những khả năng cụ thể của nhà trường, của giáo viên và học sinh khi thực hiện quá trình giáo dục. Mục tiêu giáo dục do nhà nước, nhà trường đề ra cho từng hoạt động và đòi hỏi mọi người phải phấn đấu thực hiện. Mục tiêu giáo dục là những bậc thang nối tiếp nhau dẫn đến mục đích giáo dục, khi các mục tiêu giáo dục đạt được có nghĩa là ta đã tiếp cận tới mục đích giáo dục tổng thể.
+
+Tóm lại, mục đích, mục tiêu giáo dục là hai khái niệm có quan hệ mật thiết với nhau, nhưng không phải là một. Mục tiêu giáo dục là thành phần, bộ phận cấu thành của mục đích giáo dục. Quan hệ giữa mục đích và mục tiêu giáo dục là quan hệ giữa những mong đợi lí tưởng và khả năng hiện thực, giữa các yêu cầu tổng thể và yêu cầu bộ phận của quá trình giáo dục. Khái niệm mục đích và mục tiêu cùng được dùng trong một chu trình, đều nói đến kết quả mong muốn đạt được của hoạt động giáo dục, giảng dạy, học tập.
+
+Xét tổng quát, hai khái niệm này có nội hàm tương tự, nhưng khác nhau ở mức độ rộng, hẹp và phạm vi, cấp độ vận dụng. Xuất phát từ mục đích giáo dục để xác định mục tiêu giáo dục nhưng mục đích giáo dục sẽ được hoàn thiện ở sự thực hiện hệ thống các mục tiêu giáo dục.
+
+Mục tiêu giáo dục nói về kết quả cần phải đạt được, trong thực tế cho nên phải cụ thể hơn mục đích, phải được thiết kế sao cho mục tiêu giáo dục làm được chức năng chỉ đạo cách tổ chức thực hiện các quá trình giáo dục, đồng thời làm chức năng đánh giá kết quả giáo dục. Trong nhiều trường hợp mục tiêu giáo dục phải lượng hoá được, đo đạc được, quan sát được thì mới thực hiện được hai chức năng nói trên
+
+## II. MỤC TIÊU GIÁO DỤC VIỆT NAM
+
+### 1. Những căn cứ để xây dựng mục tiêu giáo dục
+
+Từ những phân tích về đặc điểm của mục đích giáo dục ta thấy mục tiêu giáo dục phản ánh những đòi hỏi khách quan của sự phát triển kinh tế, văn hoá xã hội ở mỗi quốc gia, phản ánh những xu thế của thời đại và các quy luật của quá trình giáo dục.
+
+Mục tiêu giáo dục Việt Nam được xây dựng dựa trên những căn cứ thực tiễn sau đây:
+
+- Chiến lược phát triển kinh tế, văn hoá, khoa học và công nghệ quốc
+
+gia, những yêu cầu về phát triển nguồn nhân lực phục vụ cho quá trình công nghiệp hoá và hiện đại hoá đất nước hiện nay.
+
+- Những điều kiện, tiềm năng kinh tế, văn hoá, khoa học, công nghệ cụ
+
+thể của đất nước hiện nay.
+
+- Truyền thống văn hoá và bản sắc dân tộc Việt Nam, những kinh
+
+nghiệm giáo dục đã trải qua.
+
+- Những kinh nghiệm giáo dục và các xu thế phát triển văn hoá, giáo
+
+dục của các nước trên thế giới.
+
+- Khả năng hiện có của hệ thống giáo dục quốc dân Việt Xam để biến
+
+những mong muốn lí tưởng thành hiện thực của nền giáo dục.
+
+- Khả năng thực hiện của các đối tượng giáo dục, hay nói cách khác đó
+
+là trình độ, năng lực hiện có của người học theo các cấp học, bậc học, theo các lứa tuổi khác nhau.
+
+### 2. Mục tiêu giáo dục Việt Nam
+
+Mục đích giáo dục là phạm trù phức tạp, có nhiều cấp độ, tạo thành một "cây mục tiêu" và chúng phát triển liên tục, có thể phân tích mục tiêu giáo dục theo từng cấp độ.
+
+Mục tiêu ở cấp độ tổng quát
+
+Mục tiêu giáo dục xã hội là một lời tuyên bố chính thức của Nhà nước về cái đích hướng tới của sự nghiệp giáo dục quốc gia. Mục tiêu giáo dục được ghi trong các văn kiện chính thức của Đảng và Nhà nước, được cả xã hội, nhà trường quán triệt và thực hiện một cách sáng tạo. Đó là nâng cao dân trí, đào tạo nhân lực và bồi dưỡng nhân tài, phục vụ cho sự nghiệp công nghiệp hoá và hiện đại hoá đất nước, xây dựng một xã hội công bằng, dân chủ và văn minh. Mục tiêu giáo dục được thể hiện ở ba nội dung cơ bản sau đây:
+
+- Nhà nước xây dựng hệ thống giáo dục quốc dân là để tạo mọi điều
+
+kiện cho nhân dân được học tập (giáo dục cho mọi người), nhằm biến nước ta thành một xã hội học tập. Giáo dục có mục đích nâng cao dân trí đồng nghĩa với việc nâng cao trình độ học vấn cho nhân dân và hình thành nếp sống văn hoá cho cộng đồng xã hội. Trước hết, để nâng cao dân trí giáo dục phải luôn đổi mới theo hướng “nhân văn hoá, xã hội hoá, đa dạng hoá” với những phương thức thích hợp, huy động mọi lực lượng, tiềm năng của xã hội làm giáo dục. Trình độ dân trí thể hiện trình độ văn hoá, đạo đức, thẩm mĩ: là kết quả tổng hợp của nhiều lĩnh vực giáo dục (nhà trường, gia đình, xã hội). Do đó giáo dục cần tập trung thực hiện thành công phổ cập giáo dục trung học cơ sở vào năm 2010, tạo cơ sở để hoàn thành phổ cập trung học phổ thông vào năm 2020 nhằm tạo điều kiện cho Việt Nam hoà nhập, giao lưu quốc tế, thực thi các chính sách, mục tiêu phát triển của xã hội, xây dựng Nhà nước pháp quyền xã hội chủ nghĩa.
+
+- Mục đích xây dựng hệ thống giáo dục quốc dân Việt Nam là đào tạo
+
+nguồn nhân lực có trình độ cao cho xã hội, đáp ứng yêu cầu của sự nghiệp công nghiệp hoá,v hiện đại hoá đất nước, để từng bước hoà nhập và tiến kịp trình độ trong khu vực và trên thế giới. Vấn đề đào tạo nhân lực phục vụ cho công nghiệp hoá, hiện đại hoá được xem là mục tiêu có tầm chiến lược trong phát triển giáo dục hiện nay. Chất lượng và hiệu quả lao động trong thời đại cách mạng khoa học - công nghệ luôn luôn phụ thuộc vào trình độ được đào tạo của nguồn nhân lực. Yêu cầu đào tạo con người có khả năng tiếp cận cái
+
+mới năng động, sáng tạo trong sản xuất, kĩ thuật, công nghệ, thích ứng với sự biến động và phát triển của nền kinh tế - xã hội đang phát triển trong cơ chế mới đòi hỏi giáo dục phải có phương thức đào tạo nhạy bén, linh hoạt, đa dạng. Hệ thống giáo dục quốc dân đang được điều chỉnh để ngày càng phù hợp hơn với yêu cầu đào tạo nguồn nhân lực trong giai đoạn mới.
+
+- Mục đích hệ thống giáo dục Việt Nam là phát hiện và bồi dưỡng nhân
+
+tài cho đất nước. Giáo dục phải làm phát triển tối đa tiềm năng của những người có tài, để họ đóng góp được nhiều nhất cả sức lực và trí tuệ cho sự phát triển xã hội. Giáo dục phải có các biện pháp nhằm thực hiện tốt nhất tư tưởng chiến lược về đào tạo, bồi dưỡng nhân tài. Việc phát hiện và bồi dưỡng nhân tài phải được tiến hành trên cơ sở phổ cập rộng rãi để có thể sàng lọc, lựa chọn, phải có điều kiện cơ sở vật chất, kinh tế, tài chính. Bồi dưỡng nhân tài phải đi đôi với thu hút, sử dụng nhân tài một cách hợp lí.
+
+Mục tiêu nâng cao dân trí, đào tạo nhân lực và bồi dưỡng nhân tài được đặt trên cơ sở phát triển nhân cách của thế hệ trẻ Việt Nam. Mỗi công dân Việt Nam phải là người lao động có lí tưởng, có năng lực chuyên môn và có bản lĩnh làm chủ đất nước mình. Đất nước ta đang cần một lớp thanh niên có ý chí vươn lên làm giàu vì sự thành đạt của bản thân, vì hạnh phúc gia đình, cộng đồng và sự phồn vinh của đất nước.
+
+Việc xác định đúng đắn mục tiêu giáo dục của nền giáo dục Việt Nam trong thời kì công nghiệp hoá, hiện đại hoá đất nước là một vấn đề có tầm chiến lược. Nếu mục tiêu giáo dục được xác định đúng đắn thì sức mạnh con người sẽ được phát huy mạnh mẽ trong sự nghiệp xây dựng đất nước, tạo động lực để hoàn thành công nghiệp hoá, hiện đại hoá. Vì thế, xác định mục tiêu giáo dục càng chính xác, càng có ý nghĩa nhân văn, ý nghĩa kinh tế - xã hội sâu sắc thì hiệu quả, chất lượng giáo dục ngày càng cao, làm cho giáo dục gắn với phát triển kinh tế - xã hội.
+
+Mục tiêu nhân cách
+
+Mục tiêu giáo dục toàn diện mang đầy tính nhân văn được các nhà giáo dục cổ đại đề xướng theo quan niệm về sự phát triển hài hoà giữa thể chất, trí
+
+tuệ và tình cảm của con người. Tư tưởng này được phát triển qua những thời kì khác nhau của lịch sử loài người, đặc biệt trong các tác phẩm giáo dục của các nhà xã hội không tưởng thời Phục hưng. Tuy vậy chỉ đến C. Mác và Ăngghen mới đưa ra được những cơ sở khoa học thực sự của giáo dục nhân cách toàn diện và từ đó trở thành mục tiêu lí tưởng của nền giáo dục xã hội chủ nghĩa.
+
+Nền giáo dục Việt Nam luôn luôn coi trọng việc xây dựng con người phát triển toàn diện, con người vừa có đức, vừa có tài.
+
+Trong Thư gửi học sinh nhân ngày khai trường đầu tiên của nước Việt Nam Dân chủ Cộng hoà (tháng 9 năm 1945), Chủ tịch Hồ Chí Minh đã tuyên bố: Các thế hệ thanh thiếu niên của nước ta từ nay sẽ được hưởng một nền giáo dục của một nước độc lập, một nền giáo dục sẽ đào tạo các cháu nên những người công dân có ích cho nước Việt Nam, một nền giáo dục làm phát triển hoàn toàn những năng lực sẵn có của các cháu.
+
+Từ đó đến nay, mục đích giáo dục của nước ta qua các thời kì lịch sử khác nhau đã được xác định rõ trong các văn kiện của Đảng. Từ cương lĩnh của Đảng (1930) đến văn kiện Đại hội Đảng lần thứ IX (2001).
+
+Mô hình nhân cách con người Việt Nam trong thời kì công nghiệp hoá, hiện đại hoá đã được xác định trong Nghị quyết Hội nghị lần thứ hai Ban chấp hành Trung ương Đảng khoá VIII như sau:
+
+“...Xây dựng những con người và thế hệ thiết tha, gắn bó với lí tưởng độc lập dân tộc và chủ nghĩa xã hội, có đạo đức trong sáng, có ý chí kiên cường xây dựng và bảo vệ Tổ quốc; công nghiệp hoá, hiện đại hoá đất nước; giữ gìn và phát huy các giá trị văn hoá dân tộc, có năng lực tiếp thu tinh hoa văn hoá nhân loại; phát huy tiềm năng của dân tộc và con người Việt Xam, có ý thức cộng đồng và phát huy tính tích cực của cá nhân, làm chủ tri thức khoa học và công nghệ hiện đại, có tư duy sáng tạo, có kĩ năng thực hành giỏi, có tác phong công nghiệp, có tính tổ chức kỉ luật, có sức khoẻ, là những người thừa kế xây dựng chủ nghĩa xã hội vừa “hồng” vừa “chuyên” như lời căn dặn của Bác Hồ".
+
+Mục tiêu giáo dục Việt Nam là đào tạo thế hệ trẻ phát triển nhân cách toàn diện có đức, có tài, có trí tuệ thông minh, có lí tưởng thẩm mĩ, có sức khoẻ dồi dào, sẵn sàng thực hiện nghĩa vụ lao động và bảo vệ tổ quốc, tạo nên nhân cách người Việt Nam vừa truyền thống, vừa hiện đại, phù hợp với xu thế phát triển chung của thế giới.
+
+Luật Giáo dục của nước Cộng hoà Xã hội Chủ nghĩa Việt Nam, ngàv 2 tháng 12 năm 1998 xác định: “Mục tiêu giáo dục là đào tạo con người Việt Nam phát triển toàn diện, có đạo đức, tri thức, sức khoẻ, thẩm mĩ và nghề nghiệp, trung thành với lí tưởng độc lập dân tộc và chủ nghĩa xã hội; hình thành và bồi dưỡng nhân cách, phẩm chất và năng lực của công dân, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc”. Mục tiêu này cũng được khẳng định lại trong Luật Giáo dục được Quốc hội nước Cộng hoà XHCN Việt Nam khoá XI kì họp thứ 7 thông qua ngày 14 tháng 6 năm 2005.
+
+Mục tiêu ở cấp độ hệ thống giáo dục
+
+Mục đích giáo dục Việt Nam được cụ thể hoá thành các mục tiêu giáo dục cho từng cấp học, bậc học, ngành học.
+
+- Mục tiêu của giáo dục Mầm non: “Giúp trẻ phát triển về thể chất, tình
+
+cảm, trí tuệ, thẩm mĩ, hình thành những yếu tố đầu tiên của nhân cách, chuẩn bị cho trẻ bước vào học lớp một”
+
+- Mục tiêu giáo dục Tiểu học: “Nhằm giúp học sinh hình thành những cơ
+
+sở ban đầu cho sự phát triển đúng đắn và lâu dài về đạo đức, trí tuệ, thể chất và các kĩ năng cơ bản, để học sinh tiếp tục học trung học cơ sở”.
+
+- Mục tiêu giáo dục Trung học cơ sở: “Nhằm giúp học sinh củng cố và
+
+phát triển những kết quả của giáo dục Tiểu học, có trình độ học vấn phổ thông cơ sở và những hiểu biết ban đầu về kĩ thuật và hướng nghiệp để tiếp tục học trung học phố thông, trung học chuyên nghiệp, học nghề hoặc đi vào cuộc sống lao động”.
+
+- Mục tiêu của giáo dục Trung học phổ thông: “Nhằm giúp học sinh
+
+củng cố và phát triển những kết quả của giáo dục Trung học cơ sở, hoàn
+
+thiện học vấn phổ thông và những hiểu biết thông thường về kĩ thuật và hướng nghiệp để tiếp tục học đại học, cao đẳng, trung học chuyên nghiệp, học nghề hoặc đi vào cuộc sống lao động”.
+
+- Mục tiêu giáo dục Trung học chuyên nghiệp: Nhằm đào tạo kĩ thuật
+
+viên, nhân viên nghiệp vụ có kiến thức, kĩ năng nghề nghiệp ở trình độ trung cấp.
+
+- Mục tiêu của trường dạy nghề: nhằm đào tạo người lao động có kiến
+
+thức và kĩ năng nghề nghiệp phổ thông, công nhân kĩ thuật, nhân viên nghiệp vụ.
+
+- Mục tiêu đào tạo trình độ Cao đẳng: Là giúp sinh viên có kiến thức
+
+chuyên môn và kĩ năng thực hành cơ bản về một ngành nghề, có khả năng giải quyết những vấn đề thông thường thuộc chuyên ngành đào tạo.
+
+- Mục tiêu đào tạo trình độ Đại học là: Giúp sinh viên nắm vững kiến
+
+thức chuyên môn và kĩ năng thực hành về một ngành nghề, có khả năng phát hiện, giải quyết những vấn đề thông thường thuộc chuyên ngành đào tạo.
+
+- Mục tiêu đào tạo trình độ Thạc sĩ: Giúp học viên nắm vững lí thuyết,
+
+có trình độ cao về thực hành, có khả năng phát hiện, giải quyết những vấn đề thuộc chuyên ngành đào tạo.
+
+- Mục tiêu đào tạo trình độ Tiến sĩ: Giúp nghiên cứu sinh có trình độ cao
+
+về lí thuyết và thực hành, có năng lực nghiên cứu độc lập, sáng tạo, giải quyết những vấn đề khoa học - công nghệ và hướng dẫn hoạt động chuyên môn.
+
+Như vậy là, mục tiêu giáo dục bao gồm một hệ thống những yêu cầu cho từng bậc học, cấp học, chúng nối tiếp nhau để đưa sự nghiệp giáo dục Việt Nam ngày càng tiến gần đến mục đích giáo dục tổng thể mang mầu sắc lí tưởng và đầy tính nhân văn.
+
+Ở cấp độ chuyên biệt
+
+Mục tiêu giáo dục ở cấp độ này là những chỉ tiêu, những yêu cầu cụ thể cần phải đạt được như mục tiêu dạy, mục tiêu học, mục tiêu của chương trình, của môn học. v.v. Những mục tiêu này cần được lượng hoá để có thể đo lường được. Mục tiêu ở cấp độ này đề cập tới ba mặt: Kiến thức, kĩ năng và thái độ mà học sinh phải đạt được trong quá trình học tập.
+
+- Kiến thức là hệ thống những khái niệm, phạm trù, những thông tin
+
+khoa học theo nội dung từng môn học, từng chuyên ngành cụ thể. Kết quả học tập của học sinh được đánh giá về số lượng và chất lượng kiến thức mà họ đã tiếp thu được.
+
+- Kĩ năng là khả năng thực hiện các công việc cụ thể, sau khi học sinh
+
+đã qua một chương trình học tập, một khoá huấn luyện. Trình độ kĩ năng được đánh giá bằng chất lượng sản phẩm mà học sinh làm ra.
+
+- Thái độ là biểu hiện ý thức của học sinh đối với kiến thức đã tiêp thu
+
+được và những dự định ứng dụng chúng vào cuộc sống. Thái độ được biểu hiện trong mối quan hệ của bản thân với gia đình, với xã hội và đôi với công việc được giao. Thái độ là một mặt của phẩm chất nhân cách, thái độ được biểu hiện trong cuộc sống và được đánh giá qua hành vi cuộc sống.
+
+Tóm lại, mục đích giáo dục là phạm trù cơ bản của Giáo dục học. Nó có các chức năng nhất định. Mục đích giáo dục được cụ thể ở những mục tiêu, được xác định trên các căn cứ khoa học và thực tiễn. Mục tiêu giáo dục không phải là cái gì trừu tượng hay những điều lí tưởng hoá, mà mục tiêu giáo dục phải trở thành hiện thực qua quá trình giáo dục.
+
+## III. NGUYÊN LÍ GIÁO DỤC
+
+### 1. Khái niệm về nguyên lí giáo dục
+
+Theo nghĩa thông thường, nguyên lí là những luận điểm chung nhất, có tính quy luật của một lí thuyết khoa học, có vai trò chỉ đạo hoạt động thực tiễn trong lĩnh vực đó. Ta vẫn thường nói: nguyên lí vận hành hệ thống thiết bị, nguyên lí tổ chức xã hội, nguyên lí giáo dục... đó là những luận điểm chung tính quy luật của lí thuyết cơ học, lí thuyết xã hội học hay lí thuyết giáo dục...,
+
+khi nắm vững các nguyên lí đó ta sẽ tổ chức những việc thực tế một cách thuận lợi và có hiệu quả.
+
+Như vậy, nguyên lí giáo dục là những luận điểm chung nhất của lí thuyết giáo dục, có tính quy luật, được khái quát trên các căn cứ khoa học và thực tiễn giáo dục, có vai trò định hướng, chỉ đạo các hoạt động giáo dục trong nhà trường.
+
+Cũng như đã phân tích về quan hệ giữa mục đích và mục tiêu giáo dục, trong tiếng Việt còn có hai khái niệm: nguyên lí giáo dục và nguyên tắc giáo dục có nội dung rất gần với nhau, gây không ít những khó khăn trong quá trình sử dụng, do vậy chúng cần được phân biệt làm rõ ý nghĩa.
+
+Nguyên tắc giáo dục
+
+Như ta đã biết nguyên tắc giáo dục là những luận điểm cơ bản của Lí luận giáo dục (giáo dục nghĩa hẹp), có giá trị chỉ dẫn các hoạt động giáo dục, hình thành phẩm chất nhân cách, đạo đức cho học sinh (tương tự như nguyên tắc dạy học là những luận điểm cơ bản của Lí luận dạy học, có giá trị chỉ dẫn quá trình dạy học, giúp học sinh nắm vững tri thức và hình thành kĩ năng theo chương trình dạy học).
+
+Nguyên lí giáo dục
+
+Nguyên lí giáo dục là những luận điểm khái quát mang tầm tư tưởng và có tính quy luật của quá trình giáo dục (giáo dục nghĩa rộng), chỉ dẫn toàn bộ hệ thống giáo dục và quá trình sư phạm tổng thể, trong đó có quá trình giáo dục và quá trình dạy học (là những bộ phận cấu thành).
+
+Như vậy, quan hệ giữa nguyên lí giáo dục và nguyên tắc giáo dục là quan hệ giữa chiến lược và chiến thuật, giữa cái chung và cái riêng, mối quan hệ này cần được lưu ý khi tổ chức quá trình sư phạm tổng thể và quá trình bộ phận.
+
+Nguyên lí giáo dục có đặc điểm sau đây:
+
+- Nguyên lí giáo dục là một tư tưởng giáo dục được khái quát từ bản
+
+chất của giáo dục - như là một hiện tượng xã hội và bị chi phối bởi các quy luật xã hội. Nguyên lí giáo dục được đút kết từ quy luật về các mối quan hệ biện chứng giữa giáo dục với kinh tế, văn hoá, khoa học... giữa thượng tầng kiến trúc với hạ tầng cơ sở xã hội. Giáo dục là một bộ phận của hoạt động xã hội, trình độ xã hội quy định trình độ giáo dục. Giáo dục và xã hội gắn kết chặt chẽ với nhau.
+
+- Nguyên lí giáo dục được khái quát từ bản chất của quá trình dạy học,
+
+trong đó học tập bao gồm hoạt động nhận thức và hoạt động thực hành của học sinh và việc giảng dạy của giáo viên về thực chất là quá trình tổ chức các hoạt động đó một cách có ý thức. Quá trình dạy học phải gắn lí thuyết với thực hành như một tất yếu.
+
+- Nguyên lí giáo dục được rút ra từ bản chất của quá trình giáo dục -
+
+quá trình tổ chức cuộc sống, hoạt động và giao lưu cho học sinh nhằm hình thành cho họ ý thức, thái độ và hành vi trong sự phối hợp hợp lí của các lực lượng giáo dục: gia đình, nhà trường và xã hội.
+
+- Giáo dục là một hoạt động có mục đích, mục đích giáo dục có tính lịch
+
+sử và thời đại. Nguyên lí giáo dục chính là một tư tưởng giáo dục được rút ra từ mục đích giáo dục và trở thành phương thức để thực thi mục đích giáo dục.
+
+- Nguyên lí giáo dục được đúc rút từ những kinh nghiệm giáo dục tiên
+
+tiến của các nhà trường qua nhiều thời đại, đã làm cho giáo dục đạt tới chất lượng và hiệu quả.
+
+### 2. Nội dung nguyên lí giáo dục
+
+Điều 3 của Luật Giáo dục của nước Cộng hoà Xã hội Chủ nghĩa Việt Nam năm được thông qua ngày 14 tháng 6 năm 2005 đã ghi: “Hoạt động giáo dục phải được thực hiện theo nguyên lí học đi đôi với hành, giáo đục kết hợp với lao động sản xuất, lí luận gắn liền với thực tiễn, giáo dục nhà trường kết hợp với giáo dục gia đình và giáo dục xã hội”.
+
+Đây chính là một luận điểm giáo dục quan trọng của Đảng và Nhà nước ta, là kim chỉ nam hướng dẫn toàn bộ các hoạt động giáo dục trong nhà trường và cả trong xã hội.
+
+Nội dung của nguyên lí này gồm bốn điểm quan trọng cần lưu ý:
+
+- Học đi đôi với hành.
+
+- Giáo dục kết hợp với lao động sản xuất.
+
+- Lí luận gắn liền với thực tiễn.
+
+- Giáo dục nhà trường kết hợp với giáo dục gia đình và giáo dục xã hội.
+
+Học đi đôi với hành là một tư tưởng giáo dục vừa truyền thống vừa hiện đại, vừa có tính khoa học vừa có giá trị thực tiễn. Bản chất của tư tưởng này như sau:
+
+- Học sinh đến trường để học tập (học và hành). Học là quá trình nhận
+
+thức chân lí khoa học. Hành là luyện tập để hình thành các kĩ năng lao động và hoạt động xã hội, tức là biến kiến thức đã tiếp thu được thành năng lực hoạt động của từng cá nhân. Từ đó ta thấy: Mục đích giáo dục của mọi thời đại không chỉ là giúp học sinh nắm vững kiến thức mà còn biết áp dụng kiến thức vào thực tiễn, hình thành kĩ năng, kĩ xảo hoạt động. Tư tưởng này thống nhất với cách diễn đạt của Jacque Dolors - nhà giáo dục Pháp trong báo cáo “Học tập là của cải nội sinh” đó là: học để biết, học để làm.
+
+- Học đi đôi với hành là một phương pháp học tập có hiệu quả, bởi vì
+
+học đi đôi với hành (vừa học, vừa làm) hỗ trợ cho nhau rất nhiều trong quá trình học tập. Trong quá trình học tập nếu biết vận dụng kiến thức đã học để thực hành sẽ làm tăng hiệu quả nhận thức, làm giảm lí thuyết “suông” và lúc đó thực hành không phải “mò mẫm” mà được dựa trên một cơ sở lí thuyết khoa học vững chắc. Kết quả là kiến thức trở nên sâu sắc và hành động trở nên sáng tạo, tinh thông.
+
+- Trong học tập cần sử dụng nhiều mức độ thực hành và phải gắn với
+
+nội dung các môn học, với quy trình và mục tiêu đào tạo. Các trường phổ
+
+thông có hệ thống các bài tập thực hành môn học, có các giờ thực hành, thí nghiệm trong các phòng thí nghiệm, các vườn thí nghiệm. Các trường dạy nghề có xưởng thực hành chuyên môn, các trường đại học có các hoạt động thực hành nghiên cứu khoa học... Các loại thực hành có thể tiên hành trong trường, ngoài trường, các mức độ thực hành đều làm tăng chất lượng và hiệu quả học tập của học sinh.
+
+Giáo dục kết hợp với lao động sản xuất là tư tưởng giáo dục của nhà trường hiện đại, ta có thể nhận thấy như sau:
+
+- Giáo dục lao động là một nội dung của giáo dục toàn diện, học sinh
+
+hôm nay là những người lao động trong tương lai, vì vậy nhà trường phải chuẩn bị cho các em cả tâm lí, ý thức, kiến thức và kĩ năng sẵn sàng bước vào cuộc sống lao động. Các trường phổ thông hiện nay đã đưa các môn học như: thủ công, giáo dục hướng nghiệp và dạy nghề vào chương trình dạy học là nhằm mục đích đó. Các trường dạy nghề, giáo dục chuyên nghiệp, cao đẳng và đại học có một hệ thống các môn học nghiệp vụ, kĩ thuật sản xuất, là điều tất nhiên.
+
+- Một nguyên tắc giáo dục quan trọng cho học sinh trong mọi thời đại là:
+
+giáo dục trong lao động và bằng lao động. Lao động sản xuất vừa là môi trường vừa là phương tiện giáo dục con người. Mọi phẩm chất nhân cách được hình thành trong lao động và trong hoạt động xã hội. Do vậy, tuỳ theo trình độ lứa tuổi và ngành nghề đào tạo mà các nhà trường vận dụng tư tưởng này một cách sáng tạo để giáo dục có hiệu quả. Gia đình và nhà trường tổ chức cho học sinh lao động tự phục vụ và tham gia lao động công ích xã hội để giáo dục ý thức và kĩ năng lao động cho học sinh.
+
+- Mục đích đào tạo của các trường dạy nghề, trung học chuyên nghiệp
+
+là tạo nguồn nhân lực cho các lĩnh vực của nền kinh tế quốc dân. Nguồn nhân lực này sẽ đạt tới chất lượng cao khi quá trình đào tạo được gắn chặt với thực tiễn lao động sản xuất trong các ngành nghề cụ thể. Các trường dạy nghề, các trường trung học chuyên nghiệp và đại học thường xuyên đưa sinh
+
+viên tới các nhà máy, xí nghiệp để thực tập sản xuất, đó chính là phương thức tổ chức dạy học trong lao động và học bằng lao động,
+
+Lí luận gắn liền với thực tiễn đó là một yêu cầu quan trọng đối với quá trình giáo dục và đào tạo trong nhà trường Việt Nam.
+
+Chúng ta đểu biết, nhà trường là một bộ phận của xã hội, giáo dục nhà trường là một bộ phận của giáo dục xã hội. Mục đích giáo dục nhà trường phục vụ cho sự phát triển của xã hội. Nội dung giáo dục nhà trường phải phản ánh những gì đang diễn biến trong thực tiễn xã hội.
+
+Trong khi giảng dạy lí luận, giáo viên thường xuyên liên hệ với thực tiễn sinh động của cuộc sống, với những diễn biến sôi động hàng ngày, hàng giờ trong nước và trên thế giới, đây là những minh hoạ vô cùng quan trọng giúp cho học sinh nắm vững lí luận và hiểu rõ thực tiễn. Học tập có liên hệ với thực tiễn làm cho lí luận không còn khô khan, khó tiếp thu mà trở nên sinh động và ngược lại, các sự kiện, hiện tượng thực tiễn được phân tích, được soi sáng bằng những lí luận khoa học vững chắc.
+
+Như vậy, giáo dục lí luận gắn liền với thực tiễn cuộc sống, nội dung đào tạo trong nhà trường phản ánh những diễn biến của cuộc sống, từ đó làm tăng chất lượng và hiệu quả của quá trình đào tạo.
+
+Giáo dục nhà trường kết hợp với giáo dục gia đình và giáo dục xã hội
+
+Bản chất con người là tổng hoà các mối quan hệ xã hội. Con người sống không đơn độc mà luôn có gia đình, bè bạn và cả cộng đồng xã hội. Trong sự phát triển cá nhân, con người bị rất nhiều yếu tố tác động và do vậy quá trình giáo dục sẽ đạt được hiệu quả nếu ta biết phối hợp giữa các lực lượng giáo dục.
+
+Giáo dục là quá trình có nhiều lực lượng tham gia, trong đó có ba lực lượng quan trọng nhất: gia đình, nhà trường và các đoàn thể xã hội. Ba lực lượng giáo dục này đều có chung một mục đích là hình thành nhân cách cho thế hệ trẻ.
+
+Để tiến hành giáo dục, các lực lượng giáo dục phải thống nhất về mục đích, yêu cầu, về nội dung và phương pháp giáo dục, mọi sự giáo dục phân tán, không đồng bộ, theo các khuynh hướng khác nhau đều có thể phá vỡ sự toàn vẹn của quá trình giáo dục.
+
+Gia đình là nơi sinh ra, nơi nuôi dưỡng và giáo dục trẻ em. Giáo dục gia đình dựa trên tình cảm huyết thống, các thành viên gắn bó với nhau trong suốt cuộc đời và như vậy giáo dục gia đình trở nên bền vững nhất. Gia đình sống có nền nếp, có truyền thống gọi là gia phong. Gia đình hoà thuận, cha mẹ gương mẫu, lao động sáng tạo, có phương pháp giáo dục tốt, đó là gia đình có văn hoá. Nhiều công trình nghiên cứu đã khẳng định giáo dục gia đình có ảnh hưởng rất lớn đối với thế hệ trẻ.
+
+Giáo dục xã hội là giáo dục trong môi trường nơi trẻ em sinh sống. Mỗi địa phương có trình độ phát triển đặc thù, có truyền thống và bản sắc văn hoá riêng. Địa phương có phong trào hiếu học, có nhiều người thành đạt, có bạn bè tốt là môi trường ảnh hưởng tích cực đến sự phát triển của trẻ em.
+
+Giáo dục xã hội còn bao hàm cả giáo dục của các đoàn thể: Sao Nhi đồng, Đội thiếu niên, Đoàn thanh niên, Hội Sinh viên là các tổ chức quần chúng có tổ chức, có tôn chỉ mục đích phù hợp với mục đích giáo dục của nhà nước và nhà trường. Hoạt động của các đoàn thể phù hợp với đặc điểm tâm, sinh lí lứa tuổi, cho nên có tác dụng giáo dục rất lớn đối với thế hệ trẻ.
+
+Tuy nhiên quá trình giáo dục phải lấy nhà trường làm trung tâm. Giáo dục nhà trường có mục đích và nội dung giáo dục toàn diện, dựa trên các cơ sớ khoa học và thực tiễn, có kế hoạch với đầy đủ các phương tiện đóng vai trò chủ đạo trong toàn bộ quá trình giáo dục trẻ em.
+
+Mối liên hệ giữa nhà trường, gia đình, với các tổ chức xã hội và các cơ quan kinh tế, văn hoá đóng ở địa phương càng chặt chẽ, càng đem lại những thành công cho giáo dục. Trong đó nhà trường phải chịu trách nhiệm chính trong sự phối hợp với tất cả các lực lượng giáo dục.
+
+### 3. Phương hướng quán triệt nguyên lí giáo dục
+
+Như vậy nguyên lí giáo dục là một luận điểm giáo dục quan trọng được đúc kết trên các căn cứ khoa học và thực tiễn, có giá trị chỉ đạo toàn bộ quá trình giáo dục đi đến mục tiêu.
+
+Nhà nước, nhà trường, giáo viên phải quán triệt nguyên lí giáo dục bằng các biện pháp cụ thể sau đây:
+
+- Cần xây dựng chương trình giáo dục và đào tạo có tính toán cân đối
+
+giữa các môn lí thuyết và các môn thực hành, phải hợp lí giữa nội dung lí thuyết và thực hành trong từng môn học.
+
+- Quy trình đào tạo và giáo dục phải tuân thủ các quy tắc chuẩn mực,
+
+bảo đảm sự thống nhất giữa các môn lí thuyết và thực hành, thống nhất giữa các môn kiến thức cơ bản và các môn nghiệp vụ, chuyên ngành. Quy trình đào tạo ở các bậc đại học đi từ lí thuyết cơ bản, cơ sở đến thực hành và phải bảo đảm cho tất cả học sinh, sinh viên được thực tập nghiệp vụ ở các cơ sở sản xuất.
+
+- Nhà trường phải sử dụng phương pháp giáo dục tích cực, lấy người
+
+học làm trung tâm, phát huy vai trò tích cực, độc lập và sáng tạo của người học. Trong mỗi bài giảng, cùng với việc cung cấp tri thức lí luận, giáo viên phải thường xuyên liên hệ với thực tiễn cuộc sống. Trong mỗi giờ học học sinh, sinh viên phải được thực hành, thí nghiệm ở các mức độ khác nhau phù hợp với mục đích bài học và nội dung môn học.
+
+- Nhà trường phải tổ chức các cơ sở thực hành, thí nghiệm tuỳ theo
+
+bậc học, ngành học. Điều này cần được đặc biệt lưu ý đến ở các trường chuyên nghiệp, dạy nghề và ở bậc đại học, cao đẳng. Ở những nơi có điều kiện cần tổ chức các cơ sở thực hành tại địa phương, đảm bảo thòi gian dành cho sinh viên trực tiếp lao động sản xuất tạo ra của cải vật chất.
+
+- Nhà trường cần xây dựng một môi trường giáo dục lành mạnh, phải
+
+chủ động phối hợp với các gia đình, các cơ quan, đoàn thể để giáo dục học sinh. Sự phối hợp này dựa trên mục đích, nội dung, kế hoạch cụ thể, có phân
+
+công trách nhiệm, có tổng kết, đánh giá, rút kinh nghiệm hàng năm để làm tốt hơn trong các năm sau.
+
+- Nhà nước, nhà trường cần tạo mọi điều kiện, cơ sở vật chất và tinh
+
+thần thuận lợi cho giáo viên và học sinh dạy và học theo nguyên lí giáo dục; không có cơ sở, vật chất, điều kiện đảm bảo không thể tổ chức quá trình giáo dục thành công.
+
+Tóm lại, mục đích, nhiệm vụ và nguyên lí giáo dục là ba khái niệm quan trọng của Giáo dục học, chúng có liên quan mật thiết với nhau và làm cho nội dung giáo dục trở nên phong phú. Nhà trường phải tổ chức quá trình giáo dục để làm sao đạt tới mục đích, đảm bảo các nhiệm vụ và tuân thủ các nguyên lí giáo dục, từ đó dẫn giáo dục đến thành công.
+
+CÂU HỎI ÔN TẬP, THẢO LUẬN VÀ THỰC HÀNH
+
+### 1. Hãy trình bày bản chất của mục đích giáo dục.
+
+2. So sánh sự giống nhau và khác nhau giữa mục đích và mục tiêu giáo dục.
+
+3. Trình bày những cơ sở lí luận và thực tiễn của việc thiết kế mục đích và mục tiêu giáo dục ở nhà trường hiện nay.
+
+4. Hãy phân tích các cấp độ của mục tiêu giáo dục, lấy những thí dụ minh hoạ cho mỗi cấp độ đó.
+
+5. Hãy trình bày các nội dung giáo dục toàn diện trong nhà trường, lấy thí dụ trong cuộc sống thực tế để minh hoạ cho nội dung và ý nghĩa của việc giáo dục mỗi nội dung đó.
+
+6. Phân biệt sự giống nhau và khác nhau giữa nguyên tắc giáo dục và nguyên lí giáo dục.
+
+7. Trình bày bản chất và đặc điểm của nguyên lí giáo dục.
+
+8. Trình bày nội dung của nguyên lí giáo dục, lấy thí dụ minh hoạ cho từng điểm của nguyên lí giáo dục.
+
+9. Trình bày những phương hướng quán triệt nguyên lí giáo dục trong một trường phổ thông cụ thể mà anh (chị) được biết.

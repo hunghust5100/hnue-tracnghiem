@@ -1,0 +1,357 @@
+# Chương 5: HỆ THỐNG GIÁO DỤC QUỐC DÂN
+
+## I. KHÁI NIỆM VỀ HỆ THỐNG GIÁO DỤC QUỐC DÂN
+
+Quá trình giáo dục ở cấp độ xã hội được vận hành trong một hệ thống xác định. Với hệ thống này, giáo dục được tổ chức theo quy mô xã hội, nhờ đó mà mục đích giáo dục của quốc gia được thực hiện, các chức năng xã hội của giáo dục được thể hiện một cách rõ nét.
+
+### 1. Hệ thống giáo dục là gì?
+
+Hệ thống giáo dục là toàn bộ tổ chức và cấu trúc các loại cơ quan giáo dục - dạy học và văn hóa - giáo dục khác nhau, đảm nhiệm việc dạy học và giáo dục và công tác giáo dục - văn hóa cho thế hệ trẻ và người lớn của một quốc gia. Hệ thống giáo dục bao gồm nhiều tổ chức khác nhau và được cấu trúc theo những nguyên tắc xác định tạo thành một chỉnh thể thống nhất trong việc thực hiện mục đích và chiến lược giáo dục của quốc gia.
+
+Ngày nay, khái niệm hệ thống giáo dục không chỉ hiểu là hệ thống nhà trường, khái niệm này mở rộng bao gồm cả trong nhà trường và ngoài nhà trường, tức là bất cứ cách học và cách dạy trong điều kiện nào nhằm mang lại một sự thay đổi về thái độ, hành vi trên cơ sở người học tiếp nhận những tri thức, kĩ năng, nghề nghiệp và khả năng mới, đó là hệ thống giáo dục với chức năng và nhiệm vụ xây dựng xã hội học tập suốt đời.
+
+Hệ thông giáo dục gồm hệ thống nhà trường, hệ thống các cơ quan văn hóa - giáo dục ngoài nhà trường và hệ thống cơ quan quản lí giáo dục và các cơ quan nghiên cứu khoa học về giáo dục và dạy học. Như vậy, cơ cấu hệ thống giáo dục hiểu theo nghĩa rộng gồm các vấn đề về cơ cấu bậc học, cơ cấu loại hình giáo dục đào tạo, cơ cấu ngành học, cơ cấu quản lí và phân bố địa lí của mạng lưới, các cơ sở dạy học - giáo dục, văn hóa - giáo dục.
+
+Trong các bộ phận nêu trên, hệ thống nhà trường giữ vai trò chủ đạo trong hệ thống giáo dục. Vì lẽ đó, khi nói đến hệ thống giáo dục ngươi ta nói đến hệ thống nhà trường. Nhà trường là hạt nhân của hệ thống giáo dục, do đó nó cũng là đơn vị cấu trúc cơ bản của hệ thống giáo dục. Nhà trường là một thiết chế nhà nước - xã hội có chức năng chuyên trách trong việc chuyển giao kinh nghiệm xã hội cho thế hệ trẻ của một nước.
+
+Như vậy, hệ thống giáo dục là tập hợp các loại hình giáo dục (hoặc loại hình nhà trường) được sắp xếp theo một trình tự nhất định theo các bậc học từ thấp (mầm non) đến cao (đại học và sau đại học).
+
+Hệ thống giáo dục là một chỉnh thể hữu cơ bao gồm nhiều tầng bậc, nhiều nhân tố, hình thái và chức năng. Hệ thống giáo dục là một hệ thống con trong hệ thống lớn xã hội, có mối liên hệ chặt chẽ với các hệ thống khác như kinh tế, chính trị, khoa học văn hoá... Ngoài ra hệ thống giáo dục lại là một chỉnh thể độc lập tương đối. Tính độc lập của nó biểu hiện chủ yếu ở sự khác biệt về cơ cấu so với các hệ thống con khác.
+
+Thông thường hệ thống giáo dục được hiểu theo hệ thống nhà trường (school system) trong đó phản ánh các loại hình nhà trường, xác định vị trí, chức năng và các mối quan hệ giữa chúng trong các bậc học và trong toàn hệ thống.
+
+Hệ thống giáo dục các nước mặc dù có sự đa dạng về phân cấp, bậc đào tạo, hệ thống văn bằng, chứng chỉ, phân chia lứa tuổi các bậc học... nhưng đều có những đặc điểm phản ánh các đặc trưng chung của hệ thống giáo dục quốc tế. Tổ chức UNESCO đã tổng kết hệ thống giáo dục các nước đều có các bậc học cơ bản sau:
+
+- Bậc 0: Trước tuổi học (Pre-primary education)
+
+- Bậc 1: Tiểu học (Primary education)
+
+- Bậc 2: Trung học cơ sở (Lower secondary education)
+
+- Bậc 3: Trung học phổ thông (Upper secondary education)
+
+- Bậc 4: Sau trung học (Post-secondary education)
+
+- Bậc 5: Giai đoạn đầu của giáo dục đại học (First stage of tertiary
+
+education), chủ yếu theo hướng giáo dục thực hành, kĩ thuật công nghệ.
+
+- Bậc 6: Giai đoạn hai của giáo dục đại học (Second stage of tertiary
+
+education), chủ yếu đào tạo chuyên gia có trình độ cao theo hướng nghiên cứu.
+
+### 2. Nguyên tắc xây dựng hệ thống giáo dục
+
+a. Cơ sở phương pháp luận về xây dựng và phát triển hệ thống giáo dục quốc dân
+
+Hệ thống giáo dục ở mỗi quốc gia với tư cách như một định chế nhà nước luôn có một quá trình hình thành và phát triển trong bối cảnh lịch sử - xã hội nhất định, chịu sự chi phối, tác động của các nhân tố kinh tế, chính trị, văn hoá, xã hội và các giả trị truyền thống của quốc gia. Đồng thời hệ thống giáo dục của mỗi nước cũng chịu sự tác động của xu thế phát triển thế giới thông qua các quá trình giao lưu và hợp tác quốc tế. Trong thời đại ngày nay, khi quá trình toàn cầu hoá đang diễn ra mạnh mẽ thì sự tác động này càng trở nên sâu sắc. Tổ chức UNESCO đã nhận định rằng quá trình phát triển giáo dục nói chung và cơ cấu hệ thống giáo dục nói riêng đã và đang phải đối mặt giải quyết các mối quan hệ giữa quốc gia và quốc tế, giữa truyền thống và hiện đại, giữa cá nhân và cộng đồng, giữa quy mô và chất lượng... Việc xử lí đúng đắn các mối quan hệ trên là chìa khoá mở hướng tương lai cho sự phát triển giáo dục và phát triển hệ thống giáo dục của các quốc gia.
+
+Hiện nay, hệ thống giáo dục và cơ cấu hệ thống giáo dục của các nước đang có những biến đổi sâu sắc trong quá trình chuyển biến từ giáo dục tinh hoa dành cho số ít sang nền giáo dục đại chúng dành cho số đông. Với xu thế ngày càng nâng cao phổ cập giáo dục rộng rãi cho mọi tầng lớp dân cư trong xã hội, triết lí “giáo dục cho mọi người” đã trở nên phổ biến trong xã hội hiện đại, kể cả phổ cập đại học. Quan điểm giáo dục một lần trong nhà trường, sự phân cách giữa học tập trong nhà trường và làm việc ngoài nhà trường đã
+
+dần chuyển đổi sang quan niệm giáo dục liên tục và học suốt đời. Những triết lí mới đó đã và đang tác động làm thay đổi diện mạo của hệ thống giáo dục cả về cơ cấu loại hình giáo dục đến các mối quan hệ liên thông trong hệ thống giáo dục.
+
+Hệ thống giáo dục được hình thành và phát triển trước hết xuất phát từ trình độ và nhu cầu phát triển kinh tế - xã hội trong nước. Thông qua quá trình tổ chức giáo dục có hệ thống, bằng nhiều hình thức, nhiều loại hình nhà trường, hệ thống giáo dục góp phần mở mang dân trí, đào tạo nhân lực và bồi dưỡng nhân tài đáp ứng nhu cầu phát triển kinh tế - xã hội. Trình độ và nhu cầu phát triển kinh tế — xã hội tạo điều kiện, nguồn lực cho việc hình thành và phát triển hệ thống giáo dục, đồng thời là yếu tố thúc đẩy sự hình thành và phát triển của các loại hình trường, lớp trong hệ thống giáo dục.
+
+Hệ thống giáo dục của nước ta được xây dựng trên nền tảng văn hoá dân tộc. Do đó hệ thống giáo dục chịu sự chi phối và cũng đồng thời phản ánh những đặc trưng, tính chất truyền thông và hiện đại của nền văn hoá, đặc biệt trong việc hình thành hệ thống các cấp học, loại hình trường.
+
+Trong quá trình phát triển, hệ thống giáo dục chịu sự tác động của quá trình giao lưu hợp tác khoa học, văn hoá, giáo dục, kinh tế, phát triển nguồn nhân lực giữa các quốc gia trong khu vực và thế giới, đặc biệt chịu ảnh hưởng của quá trình toàn cầu hoá đang diễn ra sôi động hiện nay. Các mô hình hệ thống giáo dục như mô hình giáo dục của Anh, mô hình giáo dục Mĩ, mô hình giáo dục châu Âu truyền thống, mô hình giáo dục Liên Xô (cũ)... cùng nhiều loại hình, nhiều chuẩn mực trong giáo dục về trình độ, về văn bằng chứng chỉ quốc tế đã có ảnh hưởng sâu sắc đến hệ thống giáo dục của nước ta trong quá trình phát triển. Những yếu tố kinh tế - xã hội cơ bản trong và ngoài nước ảnh hưởng đến sự phát triển hệ thống giáo dục hiện nay là:
+
+- Cuộc cách mạng khoa học - công nghệ phát triển với những bước
+
+nhảy vọt đang chuyển nền kinh tế thế giới từ công nghiệp sang nền kinh tế tri thức. Sự phát triển này đang tác động đến tất cả các lĩnh vực, làm biến đổi nhanh chóng và sâu sắc đời sống vật chất và tinh thần của xã hội. Kho tàng
+
+kiến thức của nhân loại đang gia tăng với cấp số nhân, ngày càng đa dạng và phong phú.
+
+- Xu thế toàn cầu hoá dẫn đến quá trình hợp tác, giao thoa văn hoá và
+
+quá trình thích ứng trên cơ sở duy trì và bảo tồn những giá trị của truyền thống và bản sắc dân tộc trong phát triển kinh tế-xã hội nói chung và phát triển giáo dục nói riêng.
+
+- Cải cách và đổi mới giáo dục đang diễn ra trên quy mô toàn cầu
+
+hướng đến việc xây dựng một xã hội học tập mở, sống động và linh hoạt, ở các nước đang thực hiện nền kinh tế chuyển đổi như Việt Nam, xu thế phát triển của hệ thống giáo dục từ chỗ khép kín đang chuyển mạnh sang hệ thống mở, gắn bó mật thiết với thực tiễn phát triển kinh tế - xã hội trong nước và quốc tế.
+
+- Trong bối cảnh chung đó, Nghị quyết Trung ương 2 khoá VIII và Nghị
+
+quyết Đại hội IX của Đảng đã khẳng định giáo dục phải đi trước một bước, nâng cao dân trí, đào tạo nhân lực, bồi dưỡng nhân tài để thực hiện thành công sự nghiệp công nghiệp hoá, hiện đại hoá đất nước.
+
+Như vậy có thể nói hệ thống giáo dục ở nước ta vừa là sản phẩm của quá trình phát triển chính trị, kinh tế - xã hội, văn hoá trong mối quan hệ, giao lưu hợp tác quốíc tế, đồng thời là nhân tố quan trọng thúc đẩy việc thực hiện các mục tiêu kinh tế - xã hội trong thời kì đổi mới và hội nhập quốc tế hiện nay.
+
+b. Các nguyên tắc xây dựng hệ thống giáo dục
+
+Hệ thống giáo dục là sản phẩm của nền kinh tế, chính trị, văn hóa, khoa học của một quốc gia. Vì thế, hệ thống giáo dục ở các nước khác nhau được xây dựng tùy theo trình độ phát triển kinh tế, khoa học và văn hóa, chế độ chính trị, những đặc điểm và truyền thông dân tộc.
+
+Để đảm bảo sự vận động hợp quy luật của hệ thống giáo dục, quá trình xây dựng và phát triển của nó cần tuân thủ một số nguyên tắc sau:
+
+- Hệ thống giáo dục phải phù hợp vối trình độ phát triến kinh tế, văn
+
+hóa, khoa học của đất nước, đồng thời phải có khả năng đáp ứng tốt các mục tiêu của chiến lược phát triển theo giai đoạn của quốc gia.
+
+- Đảm bảo tính định hướng chính trị và sự quản lí của Nhà nước về
+
+giáo dục.
+
+- Đảm bảo mềm dẻo, tính liên tục, liên thông nhằm đáp ứng nhu cầu
+
+học tập suốt đời của công dân.
+
+## II. HỆ THỐNG GIÁO DỤC QUỐC DÂN VIỆT NAM
+
+Hệ thống giáo dục phản ánh đặc điểm của hoàn cảnh chính trị, kinh tế, văn hóa xã hội có tính chất lịch sử cụ thể của mỗi nước, hệ thống giáo dục Việt Nam hiện nay là sự kế thừa của quá trình xây dựng, phát triển của hệ thống giáo dục trong quá trình phát triển của lịch sử.
+
+Hệ thống giáo dục quốc dân ở Việt nam hiện nay được hình thành trên cơ sở Nghị định 90/CP của Chính phủ ngày 24 tháng 11 năm 1993 về “Quy định cơ cấu khung của hệ thống giáo dục quốc dân, hệ thống văn bằng, chứng chỉ về giáo dục đào tạo của nước CHXHCN Việt Nam” và các điều khoản về hệ thống giáo dục quốc dân của Luật Giáo dục 1998. Theo quy định tại chương I Điều 6 của Luật Giáo dục nước CHXHCN Việt Nam năm 1998, hệ thống giáo dục quốc dân Việt Nam như sau:
+
+- Giáo dục mầm non có Nhà trẻ và Mẫu giáo.
+
+- Giáo dục phổ thông có hai bậc học là bậc Tiểu học và bậc Trung học,
+
+bậc trung học có hai cấp học là cấp Trung học cơ sở và Trung học phổ thông.
+
+- Giáo dục nghề nghiệp có Trung học chuyên nghiệp và Dạy nghề.
+
+- Giáo dục đại học, đào tạo hai trình độ là trình độ cao đẳng và trình độ
+
+đại học, giáo dục sau đại học, đào tạo hai trình độ là trình độ thạc sĩ và trình độ tiến sĩ.
+
+Hệ thống giáo dục quốc dân được nêu tại Điều 4 của Luật Giáo dục được Quốc hội nước CHXHCN Việt Nam khoá XI kì họp thứ 7 thông qua vào ngày 14 tháng 6 năm 2005 như sau:
+
+1) Hệ thống giáo dục quốc dân gồm giáo dục chính quy và giáo dục thường xuyên.
+
+2) Các cấp học và trình độ đào tạo của hệ thống giáo dục quốc dân bao gồm:
+
+a. Giáo dục mầm non có Nhà trẻ và Mẫu giáo.
+
+b. Giáo dục phổ thông có Tiểu học, Trung học cơ sở Trung học phổ thông.
+
+c. Giáo dục nghề nghiệp có Trung cấp chuyên nghiệp và Dạy nghề.
+
+d. Giáo dục đại học và sau đại học (gọi chung là giáo dục đại học) đào tạo trình độ cao đẳng, trình độ đại học, trình độ thạc sĩ, trình độ tiến sĩ.
+
+1) Giáo dục mầm non: Thực hiện việc nuôi dưỡng, chăm sóc, giáo dục trẻ từ 3 tháng tuổi đến 6 tuổi. Các cơ sở giáo dục mầm non bao gồm:
+
+- Nhà trẻ, nhóm trẻ, nhận trẻ em từ ba tháng tuổi đến ba tuổi.
+
+- Trường, lớp mẫu giáo, nhận trẻ em từ ba tuổi đến sáu tuổi.
+
+- Trường mầm non là cơ sở giáo dục kết hợp nhà trẻ và trường mẫu
+
+giáo, nhận trẻ em từ ba tháng tuổi đến sáu tuổi.
+
+2) Giáo dục phổ thông bao gồm:
+
+- Giáo dục tiểu học được thực hiện trong năm năm học từ lớp một đến
+
+lớp năm. Tuổi của học sinh vào học lớp một là sáu tuổi.
+
+- Giáo dục trung học cơ sở được thực hiện trong bốn năm học, từ lớp
+
+sáu đến lớp chín. Học sinh vào học lớp sáu phải hoàn thành chương trình Tiểu học, có tuổi là mười một tuổi.
+
+- Giáo dục trung học phổ thông được thực hiện trong ba năm học, từ
+
+lớp mười đến lớp mười hai. Học sinh vào lớp mười phải hoàn thành chương trình Trung học cơ sở, có tuổi là mười lăm tuổi.
+
+Bộ trưởng Bộ Giáo dục và Đào tạo quy định những trường hợp có thể học trước tuổi đối với học sinh phát triển sớm về về trí tuệ; học ở tuổi cao hơn tuổi quy định đối với học sinh ở những vùng có điều kiện kinh tế - xã hội khó khăn, học sinh người dân tộc thiểu số, học sinh bị tàn tật, khuyết tật, học sinh kém phát triển về thể lực và trí tuệ, học sinh mồ côi không nơi nương tựa, học sinh trong diện hộ đói nghèo theo quy định của Nhà nước, học sinh ở nước ngoài về nước: những trường hợp học sinh học vượt lớp, học lưu ban: việc học tiếng Việt của trẻ em người dân tộc thiểu số trước khi vào học lớp một.
+
+Cơ sở giáo dục phổ thông bao gồm:
+
+- Trường tiểu hoc
+
+- Trường trung học cơ sở
+
+- Trường trung học phổ thông
+
+- Trường phổ thông có nhiều cấp học
+
+- Trung tâm kĩ thuật tổng hợp - hướng nghiệp
+
+### 1. Giáo dục nghề nghiệp, bao gồm
+
+- Trung cấp chuyên nghiệp được thực hiện từ ba đến bốn năm học đối
+
+với người đã hoàn thành chương trình Trung học cơ sở, từ một đến hai năm học đối với người có bằng tốt nghiệp Trung học phổ thông.
+
+-Dạy nghề được thực hiện dưới một năm đối với đào tạo nghề trình độ Sơ cấp, từ một đến ba năm đối với đào tạo nghề trình độ trung cấp, trình độ Cao đẳng.
+
+Cơ sở giáo dục nghề nghiệp bao gồm:
+
+- Trường Trung cấp chuyên nghiệp
+
+- Trường Cao đẳng nghề, trường trung cấp nghề, trung tâm dạy nghề,
+
+lớp dạy nghề (gọi chung là cơ sở dạy nghề).
+
+Cơ sở dạy nghề có thể được tổ chức độc lập hoặc gắn với cơ sở sản xuất, kinh doanh, dịch vụ, cơ sở giáo dục khác.
+
+### 2. Giáo dục đại học, bao gồm
+
+- Đào tạo trình độ Cao đẳng được thực hiện từ hai đến ba năm học tuỳ
+
+theo ngành nghề đào tạo đối với người có bằng tốt nghiệp Trung học phổ thông hoặc bằng tốt nghiệp Trung cấp; từ một năm rưỡi đến hai năm học đối với người có bằng tốt nghiệp Trung cấp cùng chuyên ngành.
+
+- Đào tạo trình độ Đại học được thực hiện từ bốn đến sáu năm học tuỳ
+
+theo ngành nghề đào tạo đối với người có bằng tốt nghiệp Trung học phổ thông hoặc bằng tốt nghiệp Trung cấp; từ hai năm rưỡi đến bốn năm đối với người có bằng tốt nghiệp Trung cấp cùng chuyên ngành; từ một năm rưỡi đến hai năm học đối với người có bằng tốt nghiệp Cao đẳng cùng chuyên ngành.
+
+- Đào tạo trình độ Thạc sĩ được thực hiện từ một đến hai năm học đối
+
+với người có bằng tốt nghiệp Đại học.
+
+- Đào tạo trình độ Tiến sĩ được thực hiện trong bốn năm học đối với
+
+người có bằng tốt nghiệp Đại học, từ hai đến ba năm học đối với người có bằng Thạc sĩ. Trong trường hợp đặc biệt, thời gian đào tạo trình độ Tiến sĩ có thể được kéo dài theo quy hoạch của Bộ trưởng Bộ Giáo dục và Đào tạo.
+
+Thủ tướng Chính phủ quy định cụ thể việc đào tạo trình độ tương đương với trình độ Thạc sĩ, trình độ Tiến sĩ ở một số ngành chuyên môn đặc biệt.
+
+Cơ sở giáo dục đại học bao gồm.:
+
+- Trường Cao đẳng đào tạo trình độ Cao đẳng.
+
+- Trường Đại học đào tạo trình độ Cao đẳng, trình độ Đại học; đào tạo
+
+trình độ Thạc sĩ, trình độ Tiến sĩ khi được Thủ Tướng Chính phủ giao.
+
+Điều 48 của Chương III trong Luật Giáo dục đã quy định nhà trường trong hệ thống giáo dục quốc dân được tổ chức theo các loại hình sau đây:
+
+a. Trường công lập do nhà nước thành lập, đầu tư cơ sở vật chất, đảm bảo kinh phí cho các nhiệm vụ chi thường xuyên;
+
+b. Trường Dân lập do cộng đồng dân cư ở cơ sở thành lập, đầu tư xây dựng cơ sở vật chất và bảo đảm kinh phí hoạt động;
+
+c. Trường Tư thục do các tổ chức xã hội, tổ chức xã hội - nghề nghiệp, tổ chức kinh tế hoặc cá nhân thành lập, đầu tư xây dựng cơ sở vật chất và đảm bảo kinh phí hoạt động bằng vốn ngoài ngân sách nhà nước.
+
+Cùng với giáo dục chính quy có giáo dục thường xuyên: Giáo dục thường xuyên giúp mọi ngươi vừa làm vừa học, học liên tục, học suốt đời nhằm hoàn thiện nhân cách, mở rộng hiểu biết, nâng cao trình độ học vấn, chuyên môn, nghiệp vụ để cải thiện chất lượng cuộc sống, tìm việc làm, tự tạo việc làm và thích nghi với cuộc sống xã hội.
+
+Nhà nước có chính sách phát triển giáo dục thường xuyên, thực hiện giáo dục cho mọi người, xây dựng xã hội học tập.
+
+Các hình thức thực hiện chương trình giáo dục thường xuyên để lấy văn bằng của hệ thống giáo dục quốc dân bao gồm:
+
+- Vừa làm vừa học
+
+- Học từ xa
+
+- Tự học có hướng dẫn
+
+Cơ sở giáo dục thường xuyên bao gồm:
+
+- Trung tâm giáo dục thường xuyên được tổ chức tại cấp tỉnh và cấp
+
+huyện.
+
+- Trung tâm học tập cộng đồng được tổ chức tại xã, phường, thị trấn
+
+(gọi chung là cấp xã)
+
+Giáo dục thường xuyên bao gồm nhiều chương trình đào tạo từ chương trình xoá mù chữ và giáo dục tiếp tục sau biết chữ, chương trình đào tạo bổ sung, tu nghiệp định kì, bồi dưỡng nâng cao trình độ, cập nhật kiến thức, kĩ năng.
+
+Trong hệ thống giáo dục quốc dân Việt Nam còn có các loại trường chuyên biệt như:
+
+- Trường phổ thông dân tộc nội trú, trường phổ thông dân tộc bán trú,
+
+trường dự bị đại học;
+
+- Trường chuyên, trường năng khiếu;
+
+- Trường lớp dành cho người tàn tật, khuyết tật;
+
+- Trường giáo dưỡng.
+
+## III. ĐỊNH HƯỚNG HOÀN THIỆN HỆ THỐNG GIÁO DỤC QUỐC DÂN
+
+1. Sự phát triển của hệ thống giáo dục trong xã hội hiện đại
+
+Xã hội hiện đại đặt ra cho giáo dục những yêu cầu mới khiến nó phải được cách tân. Để thay đổi giáo dục cho tương lai, việc cấu trúc lại và định hướng lại hệ thống giáo dục là cực kì quan trọng, hệ thống này phải có khả năng thực hiện việc giáo dục một cách hữu hiệu nhất. Những thay đổi về sự phát triển của hệ thống giáo dục trong xã hội hiện đại có một số đặc điểm chính như sau:
+
+a. Tăng cường khả năng đáp ứng của hệ thống giáo dục với nhu cầu phổ cập giáo dục ngày càng được kéo dài ở nhiều nước.
+
+b. Đơn vị hạt nhân của hệ thống giáo dục (nhà trường) có những đặc điểm mới:
+
+- Nhà trường luôn gắn liền với môi trường sống và môi trường tự nhiên
+
+nhằm nâng cao năng lực hiểu biết thực tế; giáo dục ý thức về môi trường; bảo vệ môi trường và duy trì sự bền vững của môi trường cho học sinh.
+
+- Nhà trường gắn liền với các cơ sở sản xuất nhằm phát huy nội lực, lôi
+
+cuốn sự tham gia của các cơ sở sản xuất vào giáo dục học đường, mặt khác
+
+giúp cho nội dung giáo dục của học đường gắn vối đời sống sản xuất thực, học gắn với hành.
+
+- Nhà trường gắn liền với xã hội, với chức năng chuyển giao văn hóa và
+
+là tác nhân thay đổi. Giáo dục là quá trình giúp mỗi học sinh trở thành một thành viên hòa nhập của cộng đồng và trở thành tác nhân chủ yếu chuyển giao nền văn hóa cho thế hệ sau để duy trì bản sắc văn hóa của dân tộc.
+
+- Tăng cường mối quan hệ giữa các nhà trường trong phạm vi quốc gia
+
+và quốc tế dưới nhiều hình thức phong phú.
+
+- Nhà trường gắn liền với các cá nhân và không còn bị hạn chế về
+
+không gian và thời gian. Cá nhân con người không phải chỉ quan hệ trực tiếp với nhà trường trong quá trình học mà còn có quan hệ gián tiếp thông qua nhiều hình thức tiếp xúc như sách báo, mạng Internet...
+
+c. Hệ thống giáo dục có tính liên thông cao
+
+- Liên thông nhằm đảm bảo tính phân hóa: hệ thống giáo dục có nhiều
+
+loại hình với nhiều khả năng thuyên chuyển từ loại hình này sang loại hình khác.
+
+- Liên thông với thị trường lao động thông qua hệ thống trường nghề.
+
+Hệ thống các trường nghề thực hiện chức năng chuẩn bị nguồn nhân lực cho thị trường lao động.
+
+d. Phát triển đa dạng các hình thức giáo dục và đào tạo
+
+Hệ thống giáo dục tồn tại nhiều hình thức giáo dục đào tạo như hình thức chính quy, phi chính quy. Với sự đa dạng này, mọi người có thể tự học suốt đời qua nhiều kênh khác nhau như nhà trường, thư viện, học trực tuyến qua mạng Internet.
+
+e. Hệ thống giáo dục tạo ra tính cơ động nghề nghiệp cao ở người học
+
+Các trường học trong hệ thống giáo dục dạy cho người học nhiều nghề, nhiều môn học tự chọn và cho phép người học được học ở nhiều trường và nhiều nghề cùng một lúc để đáp ứng được yêu cầu và thích ứng với sự thay
+
+đổi nhanh của thị trường. Trong nền kinh tế toàn cầu, với sự giao lưu ngày càng tăng và tiến bộ nhanh chóng của khoa học - công nghệ, tính ỳ của người học và người lao động trở thành rào cản lớn với sự tiến bộ của họ. Nhà trường phải là nhân tố quan trọng góp phần biến tính ỳ đó thành tính cơ động cao cho họ.
+
+### 2. Định hướng hoàn thiện hệ thống giáo dục quốc dân
+
+Trong quá trình phát triển giáo dục, vấn đề hoàn thiện hệ thống giáo dục luôn là vấn đề cốt lõi, tập trung phản ánh tư tưởng, mục tiêu và nội dung của các cuộc cải cách giáo dục. Quá trình cải cách hay đổi mới giáo dục của các nước đều dẫn đến hình thành hệ thống giáo dục mới, phản ánh những thay đổi sâu sắc về cơ cấu hệ thống giáo dục. Bước vào thời kì phát triển mới, hệ thống giáo dục quốc dân Việt Nam cũng không ngừng đòi hỏi phải hoàn thiện để đáp ứng yêu cầu nâng cao dân trí, đào tạo nhân lực, bồi dưỡng nhân tài cho sự nghiệp công nghiệp hoá, hiện đại hoá đất nước. Nghị quyết Hội nghị Trung ương VI khoá IX) đã nêu rõ: “Phát triển quy mô giáo dục trên cơ sở đảm bảo chất lượng và điều chỉnh cơ cấu đào tạo... tiếp tục hoàn thiện cơ cấu hệ thống giáo dục quốc dân”.
+
+Cũng như các hệ thống kinh tế - xã hội khác, hệ thống giáo dục của mỗi quốc gia đều có quá trình hình thành, vận động và phát triển theo các quy luật chung của đời sống xã hội và các quy luật riêng đặc thù của từng hệ thống. Việc nghiên cứu sâu sắc những quy luật vận động và phát triển của hệ thống giáo dục như một chỉnh thể, một hệ thống con trong hệ thống kinh tế - xã hội của đất nước là những cơ sở khoa học và thực tiễn vững chắc để xây dựng hệ thống giáo dục, các định hướng để hoàn thiện hệ thống giáo dục quốc dân:
+
+- Hướng tới xây dựng một hệ thống giáo dục mở, linh hoạt, phù hợp với
+
+việc xây dựng một xã hội học tập, học tập suốt đời, trong đó các con đưòng tiếp nhận giáo dục rộng mở cho tất cả mọi người, ở mọi nơi, vào mọi lúc.
+
+- Hệ thống giáo dục nhằm thực hiện mục tiêu nâng cao dân trí, đào tạo
+
+nhân lực, bồi dưỡng nhân tài, gắn với phát triển kinh tế - xã hội và đẩy mạnh
+
+nghiên cứu khoa học, phát triển sản xuất, gắn chặt đào tạo và sử dụng, phát triển nguồn nhân lực cho sự nghiệp công nghiệp hoá và hiện đại hoá đất nước.
+
+- Xây dựng một hệ thống giáo dục đa dạng về loại hình và phương thức
+
+(chính quy, không chính quy, phi chính quy trong nhà trường, ngoài nhà trường), năng động, linh hoạt, mềm dẻo, chất lượng và hoàn toàn liên thông (liên thông giữa các lớp, cấp bậc học trong toàn hệ thống kể cả đối với giáo dục chính quy và giáo dục không chính quy, trong nhà trường và ngoài nhà trường...).
+
+- Xây dựng một hệ thống giáo dục kế thừa được những yếu tố truyền
+
+thống, kết hợp với tinh hoa của các mô hình hệ thống giáo dục tiên tiến trên thế giới, tiếp cận với các chuẩn mực quốc tế để thực hiện hội nhập và phát triển.
+
+- Cơ cấu hệ thống giáo dục có cấu trúc hài hoà và tương đối ổn định,
+
+dễ dàng cho phân cấp quản lí, nâng cao tính tự chủ và tự chịu trách nhiệm trước cộng đồng, trước xã hội. Chú ý đến sự phù hợp về cơ cấu trình độ, cơ cấu loại hình nhà trường, phương thức, ngành nghề, cơ cấu vùng lãnh thổ, cơ cấu phân cấp quản lí... Trong đó cơ cấu trình độ được coi là cơ cấu đặc trưng nhất của hệ thống giáo dục quốc dân.
+
+- Cơ cấu hệ thống giáo dục bảo đảm tính công bằng và tính bình đẳng
+
+giữa các loại hình nhà trường và phương thức đào tạo. Kết quả học tập và giá trị văn bằng giữa các loại hình nhà trường, các phương thức đào tạo phải được quy đổi, liên thông, đảm bảo quyền lợi và kích thích sự sáng tạo của người học trong một xã hội học tập mở.
+
+CÂU HỎI ÔN TẬP VÀ THẢO LUẬN
+
+### 1. Phân tích khái niệm hệ thống giáo dục.
+
+2. Trình bày cơ cấu của hệ thống giáo dục quốc dân Việt Nam.
+
+3. Phân tích các nguyên tắc xây dựng hệ thống giáo dục.
+
+4. Trình bày các đặc điểm của hệ thống giáo dục trong xã hội hiện đại.
+
+5. Định hướng hoàn thiện hệ thống giáo dục quốc dân Việt Nam.
+
+BÀI TẬP
+
+Sưu tầm các thông tin về hệ thống giáo dục của một quốc gia trên thế giới và cho nhận xét.
+
+Phần 2. LÍ LUẬN DẠY HỌC

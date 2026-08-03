@@ -1,0 +1,169 @@
+# TÀI LIỆU THAM KHẢO
+
+1. Iu. K. Babanxki. Giáo dục học. NXB Giáo dục. Matxcơva, 1985.
+
+2. Nguyễn Ngọc Bảo - Hà Thị Đức. Hoạt động dạy học ở trường Trung học cơ sở. NXB Giáo dục. Hà Nội. 2001
+
+3. Hoạt động giáo dục lao động - Hướng nghiệp năm học 2000 - 2001 và phương hướng năm học 2001- 2002. Bộ Giáo dục và Đào tạo 2001.
+
+4. Phạm Khắc Chương. Giáo dục gia đình. NXB Giáo dục. Hà Nội. 2001.
+
+5. Tô Xuân Giáp. Phương tiện dạy học. NXB Giáo dục. Hà Nội 1997.
+
+6. Giáo trình giáo dục hướng nghiệp. Đại học Hùng Dã Mai - NXB Nhân sư - Trung Quốc. Xuất bản lần đầu 1/2002.
+
+7. Phạm Minh Hạc (chủ biên). Giáo dục thế giới đi vào thế kỉ XXI. NXB Chính trị Quốc gia. Hà Nội. 2002.
+
+8. Đặng Thành Hưng. Dạy học hiện đại - Lí luận, biện pháp, kĩ thuật. NXB Đại học Quốc gia Hà Nội.2002.
+
+9. Nguyễn Văn Hộ, Hà Thị Đức. Giáo dục học đại cương. Tập I và Tập II NXB Giáo dục. 2002.
+
+10. Nguyễn Văn Lê - Nguyễn Sinh Huy. Giáo dục học đại cương. NXB Giáo dục Hà Nội. 2000.
+
+11. Luật giáo dục. NXB Chính trị Quốc gia Hà Nội. 1998.
+
+12. Luật Giáo dục. NXB Chính trị Quốc gia Hà Nội. 2005.
+
+13. Nghị quyết Trung ương 2 khoá VIII. NXB Chính trị Quốc gia. Hà Nội. 1997.
+
+14. Hà Thế Ngữ - Đặng Vũ Hoạt. Giáo dục học tập I, (1986) tập II (1987). NXB Giáo dục Hà Nội.
+
+15. Trần Tuyết Oanh (chủ biên). Giáo dục học hiện đại. NXB Đại học Sư phạm. 2004.
+
+16. RAJA. ROY SINGH. Nền giáo dục cho thê kỉ XXI những triển vọng của Châu Á - Thái Bình Dương. Viện Khoa học giáo dục. H. 1994.
+
+17. Lê Thông (chủ biên). Dân số - Môi trường - Tài nguyên. NXB Giáo dục Hà Nội. 1998.
+
+18. Thái Duy Tuyên. Những vấn đề cơ bản của giáo dục học hiện đại. NXB Giáo dục Hà Nội. 1998.
+
+19. Nguyễn Quang Uẩn, Nguyễn Thạc, Mạc Văn Trang. Giá trị định hướng giá trị nhân cách và giáo dục giá trị. Chương trình KHCN cấp Nhà nước KX- 07. Đề tài KX - 07 - 04.
+
+20. Việt Nam với công ước của Liên hợp quốc về quyền trẻ em - NXB Sự thật. Hà Nội. 1991.
+
+21. Phạm Viết Vượng. Giáo dục học. NXB Đại học Quốc gia Hà Nội. 2000.
+
+22. Phạm Viết Vượng (chủ biên). Quản tí hành chính nhà nước và quản lí ngành giáo dục và đào tạo. NXB Đại học Sư phạm. 2003.
+
+23. Xkatkin M.N. Lí luận dạy học trường phổ thông. NXB Giáo dục Hà Nội. 1982.
+
+# MỤC LỤC
+
+Phần III LÍ LUẬN GIÁO DỤC
+
+Chương XII. QUÁ TRÌNH GIÁO DỤC
+
+## I. Khái niệm quá trình giáo dục
+
+## II. Bản chất và đặc điểm của quá trình giáo dục
+
+## III. Động lực và các khâu của quá trình giáo dục
+
+## IV. Tự giáo dục và giáo dục lại
+
+Câu hỏi ôn tập và thảo luận
+
+Bài tập
+
+Chương XIII. NGUYÊN TẮC GIÁO DỤC
+
+## I. Khái niệm nguyên tắc giáo dục
+
+## II. Hệ thống các nguyên tắc giáo dục
+
+Câu hỏi ôn tập và thảo luận
+
+Bài tập
+
+Chương XIV. NỘI DUNG GIÁO DỤC
+
+## I. Những nội dung giáo dục cơ bản trong nhà trường
+
+## II. Những nội dung giáo dục mới
+
+Câu hỏi ôn tập và thảo luận
+
+Chương XV. PHƯƠNG PHÁP GIÁO DỤC
+
+## I. Khái niệm và đặc điểm của phương pháp giáo dục
+
+## II. Hệ thống các phương pháp giáo dục
+
+## III. Lựa chọn các phương pháp giáo dục
+
+Câu hỏi ôn tập, thảo luận
+
+Bài tập
+
+Chương XVI. MÔI TRƯỜNG GIÁO DỤC
+
+## I. Giáo dục gia đình
+
+## II. Giáo dục nhà trường
+
+## III. Giáo dục xã hội
+
+IV. Một số giải pháp phối hợp giáo dục giữa các môi trường giáo dục
+
+Câu hỏi ôn tập, thảo luận
+
+Bài tập
+
+Phần IV QUẢN LÍ GIÁO DỤC TRONG NHÀ TRƯỜNG
+
+Chương XVII. MỘT SỐ VẤN ĐỀ CƠ BẢN VỀ QUẢN LÍ NHÀ TRƯỜNG
+
+## I. Quản lí nhà trường
+
+## II. Bộ máy quản lí trường phổ thông
+
+## III. Nội dung và phương thức quản lí nhà trường
+
+IV. Nhà trường Việt Nam hiện nay và vai trò của hiệu trưởng trong quản lí nhà trường
+
+Câu hỏi ôn tập và thảo luận
+
+Bài tập
+
+Chương XVIII. LAO ĐỘNG SƯ PHẠM CỦA GIÁO VIÊN VÀ HOẠT ĐỘNG CỦA HỘI ĐỒNG GIÁO DỤC
+
+## I. Lao động sư phạm của giáo viên trong nhà trường
+
+## II. Hoạt động giáo dục ở trường Trung học
+
+Câu hỏi ôn tập và thảo luận
+
+Bài tập
+
+Chương XIX. CÔNG TÁC CỦA GIÁO VIÊN CHỦ NHIỆM LỚP Ở TRƯỜNG PHỔ THÔNG
+
+I. Vai trò, chức năng và nhiệm vụ của giáo viên chủ nhiệm lớp
+
+II. Giáo viên chủ nhiệm lớp với việc xây dựng tập thể học sinh
+
+## III. Xây dựng kế hoạch chủ nhiệm lớp
+
+IV. Những yêu cầu đối với người giáo viên chủ nhiệm lớp
+
+Câu hỏi ôn tập, thảo luận
+
+Bài tập
+
+# Tài liệu tham khảo
+
+---//---
+
+Tác giả: TRẦN THỊ TUYẾT OANH (Chủ biên) – PHẠM KHẮC CHƯƠNG - PHẠM VIẾT VƯỢNG – NGUYỄN VĂN DIỆN - LÊ TRÀNG ĐỊNH
+
+NHÀ XUẤT BẢN ĐẠI HỌC SƯ PHẠM
+
+Chịu trách nhiệm xuất bản: Giám đốc: ĐINH NGỌC BẢO Tổng biên tập: LÊ A
+
+Người nhận xét: GS. TSKH THÁI DUY TUYÊN - PGS.TS HÀ THỊ ĐỨC
+
+Biên tập nội dung: NGUYỄN THỊ NGỌC HÀ
+
+Kĩ thuật vi tính: ĐÀO PHƯƠNG DUYẾN
+
+Trình bày bìa: PHẠM VIỆT QUANG
+
+Mã số: 01.01.588/681 ĐH 2007 Đăng kí KHXB số: 30-2007/CXB/588-120/ĐHSP, ngày 4/1/2007. In xong và nộp lưu chiểu tháng 8 năm 2007.

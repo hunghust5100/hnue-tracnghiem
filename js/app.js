@@ -1,40 +1,205 @@
-function copySTK() {
-    navigator.clipboard.writeText("52403022005").then(() => {
-        alert("📋 Đã sao chép số tài khoản: 52403022005 (TPBank - NGUYỄN KHÁNH HƯNG)");
-    }).catch(() => {
-        alert("Số tài khoản: 52403022005 (TPBank - NGUYỄN KHÁNH HƯNG)");
-    });
-}
+/* ========================================================
+   GLOBAL APP STATE & INITIALIZATION
+======================================================== */
 let currentQuestions = [];
-let currentQuizMode = 'instant'; // 'instant' or 'submit' (default to instant)
+let currentQuizMode = 'instant'; // 'instant' or 'submit'
 let isQuizSubmitted = false;
-
-// Global store for categories to prevent inline JS quote escaping bugs
 let allCategoriesData = [];
-
-// Timer state
 let timerInterval = null;
 let totalSecondsLeft = 0;
 
-// Pending selection for Start Quiz Modal
 let pendingQuizFile = null;
 let pendingQuizTitle = "";
 let currentSubjectId = "cnxh";
+let activeCourseTab = "quizzes"; // "quizzes" or "textbooks"
 
-// Mock exam generator state
 let activeSubjectGroup = null;
 let activeMockFolderName = null;
-let selectedMockCount = 20; // default 20 questions
-let selectedMockTime = 15; // default 15 mins
+let selectedMockCount = 20;
+let selectedMockTime = 15;
 let selectedMockMode = 'instant';
 
-// Accordion state (ALL COLLAPSED BY DEFAULT)
-let accordionStates = { cnxh: false, gdh: false };
+let pendingRetakeSubjectId = null;
+let selectedRetakeMode = 'submit';
 
-// Confirm Modal callback handler
-let confirmModalCallback = null;
+let accordionStates = { cnxh: true, gdh: true };
 
-// Preset Quizzes List fallback
+let currentTextbookChapter = null;
+let currentTextbookFontSize = 1.05;
+let currentTextbookTheme = 'light';
+
+function copyAuthorAccount(accNum = '52403022005') {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(accNum).then(() => {
+            alert('✅ Đã sao chép Số tài khoản TPBank: ' + accNum + '\nCảm ơn bạn rất nhiều vì đã ủng hộ tác giả Nguyễn Khánh Hưng!');
+        }).catch(() => {
+            prompt('Số tài khoản TPBank ủng hộ tác giả Nguyễn Khánh Hưng:', accNum);
+        });
+    } else {
+        prompt('Số tài khoản TPBank ủng hộ tác giả Nguyễn Khánh Hưng:', accNum);
+    }
+}
+
+window.toggleAppSidebar = function() {
+    const sidebar = document.getElementById('app-sidebar-panel');
+    if (!sidebar) {
+        console.error('Không tìm thấy element #app-sidebar-panel');
+        return;
+    }
+    sidebar.classList.toggle('collapsed');
+};
+
+window.initSidebarState = function() {
+    const sidebar = document.getElementById('app-sidebar-panel');
+    if (!sidebar) return;
+    sidebar.classList.remove('collapsed');
+};
+
+function openAuthorQrModal() {
+    const modal = document.getElementById('author-qr-modal');
+    if (modal) modal.classList.remove('hidden');
+}
+
+function closeAuthorQrModal() {
+    const modal = document.getElementById('author-qr-modal');
+    if (modal) modal.classList.add('hidden');
+}
+
+/* ========================================================
+   FAIL-SAFE EMBEDDED DATA LOOKUP (CORS & FILE:// COMPATIBLE)
+======================================================== */
+function getEmbeddedQuizContent(filePath) {
+    if (!window.EMBEDDED_QUIZZES || !filePath) return null;
+    let normTarget = filePath;
+    try { normTarget = decodeURIComponent(filePath); } catch(e) {}
+    normTarget = normTarget.replace(/\\/g, '/').replace(/^\.\//, '').replace(/^data\//, '').trim().toLowerCase();
+
+    for (const key in window.EMBEDDED_QUIZZES) {
+        let normKey = key;
+        try { normKey = decodeURIComponent(key); } catch(e) {}
+        normKey = normKey.replace(/\\/g, '/').replace(/^\.\//, '').replace(/^data\//, '').trim().toLowerCase();
+
+        if (normKey === normTarget || key === filePath) {
+            return window.EMBEDDED_QUIZZES[key];
+        }
+    }
+    return null;
+}
+
+/* ========================================================
+   MULTI-PAGE ROUTER & NAVIGATION WITH RELATIVE URL PARAMS
+======================================================== */
+async function initPageFromURL(pageName = 'home') {
+    initSidebarState();
+    if (!allCategoriesData || allCategoriesData.length === 0) {
+        await loadMasterCategoriesData();
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+
+    if (pageName === 'courses') {
+        const subject = urlParams.get('subject') || 'cnxh';
+        const tab = urlParams.get('tab') || 'quizzes';
+        currentSubjectId = subject;
+        activeCourseTab = tab;
+        renderCourseTabsSelector();
+        renderCourseDetailView(subject, tab);
+    } else if (pageName === 'quiz-room') {
+        const mode = urlParams.get('mode');
+        const file = urlParams.get('file');
+        const title = urlParams.get('title') || 'Đề trắc nghiệm';
+        const quizMode = urlParams.get('quizMode') || 'instant';
+        currentQuizMode = quizMode;
+
+        const floatBtn = document.getElementById('floating-textbook-btn');
+        if (floatBtn) floatBtn.classList.remove('hidden');
+
+        if (mode === 'mock') {
+            activeSubjectGroup = urlParams.get('subject') || 'cnxh';
+            activeMockFolderName = urlParams.get('folder') || null;
+            selectedMockCount = parseInt(urlParams.get('count') || '20', 10);
+            selectedMockTime = parseInt(urlParams.get('time') || '15', 10);
+            selectedMockMode = quizMode;
+            executeMockExamEngine();
+        } else if (mode === 'retake') {
+            pendingRetakeSubjectId = urlParams.get('subject') || 'cnxh';
+            selectedRetakeMode = quizMode;
+            executeRetakeWrongEngine();
+        } else if (file) {
+            fetchAndLoadQuiz(file, title);
+        }
+    } else if (pageName === 'quizzes') {
+        renderPresetCategories();
+    } else if (pageName === 'history') {
+        renderHistoryPage();
+    } else {
+        renderDashboardPage();
+    }
+}
+
+function openCourseDetail(subjectId, defaultTab = 'quizzes') {
+    currentSubjectId = subjectId;
+    activeCourseTab = defaultTab;
+    const targetUrl = `courses.html?subject=${encodeURIComponent(subjectId)}&tab=${encodeURIComponent(defaultTab)}`;
+
+    if (window.location.pathname.endsWith('courses.html')) {
+        renderCourseTabsSelector();
+        renderCourseDetailView(subjectId, defaultTab);
+        try {
+            history.replaceState(null, '', targetUrl);
+        } catch(e) {}
+    } else {
+        window.location.href = targetUrl;
+    }
+}
+
+function backToConfig() {
+    window.location.href = `courses.html?subject=${encodeURIComponent(currentSubjectId)}&tab=quizzes`;
+}
+
+function confirmAndStartQuiz() {
+    closeStartQuizModal();
+    if (pendingQuizFile) {
+        const params = new URLSearchParams({
+            file: pendingQuizFile,
+            title: pendingQuizTitle || 'Đề trắc nghiệm',
+            quizMode: currentQuizMode
+        });
+        window.location.href = `quiz-room.html?${params.toString()}`;
+    } else {
+        const textVal = document.getElementById('text-input') ? document.getElementById('text-input').value : '';
+        if (textVal && textVal.trim()) {
+            parseAndStartRawText(textVal, pendingQuizTitle || 'Đề thi Nhập thủ công');
+        }
+    }
+}
+
+function startRandomMockExam() {
+    closeMockModal();
+    const params = new URLSearchParams({
+        mode: 'mock',
+        subject: activeSubjectGroup || 'cnxh',
+        count: selectedMockCount,
+        time: selectedMockTime,
+        quizMode: selectedMockMode
+    });
+    if (activeMockFolderName) params.set('folder', activeMockFolderName);
+    window.location.href = `quiz-room.html?${params.toString()}`;
+}
+
+function confirmRetakeWrongExam() {
+    closeRetakeModal();
+    const params = new URLSearchParams({
+        mode: 'retake',
+        subject: pendingRetakeSubjectId || 'cnxh',
+        quizMode: selectedRetakeMode
+    });
+    window.location.href = `quiz-room.html?${params.toString()}`;
+}
+
+/* ========================================================
+   DEFAULT CATEGORIES DATA (OFFLINE FALLBACK)
+======================================================== */
 const defaultCategories = [
   {
     "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
@@ -46,612 +211,405 @@ const defaultCategories = [
         "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
         "title": "Chương 1: Nhập môn CNXH Khoa học",
         "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
-        "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 1. Nhập môn CNXH Khoa học.enc",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm (mới)/Chương 1. Nhập môn CNXH Khoa học.enc",
         "icon": "📚"
-      },
-      {
-        "id": "cnxh-moi-ch2",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân",
-        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
-        "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân.enc",
-        "icon": "⚙️"
-      },
-      {
-        "id": "cnxh-moi-ch3",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH",
-        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
-        "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 3. Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội.enc",
-        "icon": "🚀"
-      },
-      {
-        "id": "cnxh-moi-ch4",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN",
-        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
-        "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 4. Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa.enc",
-        "icon": "⚖️"
-      },
-      {
-        "id": "cnxh-moi-ch5",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp",
-        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
-        "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 5. Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội.enc",
-        "icon": "🤝"
-      },
-      {
-        "id": "cnxh-moi-ch6",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Chương 6: Vấn đề dân tộc và tôn giáo",
-        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
-        "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 6. Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội.enc",
-        "icon": "🌍"
-      },
-      {
-        "id": "cnxh-moi-ch7",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Chương 7: Vấn đề gia đình",
-        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
-        "file": "CNXH/Câu hỏi trắc nghiệm (mới)/Chương 7. Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội.enc",
-        "icon": "🏡"
-      },
-      {
-        "id": "cnxh-cb-ch1",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 1: Nhập môn Chủ nghĩa xã hội Khoa học",
-        "description": "Bộ câu hỏi Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 1. Nhập môn Chủ nghĩa xã hội Khoa học.enc",
-        "icon": "📘"
-      },
-      {
-        "id": "cnxh-cb-ch2-p1",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
-        "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 1).enc",
-        "icon": "📕"
-      },
-      {
-        "id": "cnxh-cb-ch2-p2",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
-        "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).enc",
-        "icon": "📕"
-      },
-      {
-        "id": "cnxh-cb-ch3",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH",
-        "description": "Bộ câu hỏi Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 3. Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội.enc",
-        "icon": "🏛️"
-      },
-      {
-        "id": "cnxh-cb-ch4-p1",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 1)",
-        "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1).enc",
-        "icon": "📜"
-      },
-      {
-        "id": "cnxh-cb-ch4-p2",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 2)",
-        "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2).enc",
-        "icon": "📜"
-      },
-      {
-        "id": "cnxh-cb-ch5",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp",
-        "description": "Cơ cấu xã hội - giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ quá độ",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 5. Cơ cấu Xã hội - Giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ Quá độ lên Chủ nghĩa xã hội.enc",
-        "icon": "🤝"
-      },
-      {
-        "id": "cnxh-cb-ch6-p1",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 1)",
-        "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).enc",
-        "icon": "🌍"
-      },
-      {
-        "id": "cnxh-cb-ch6-p2",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 2)",
-        "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).enc",
-        "icon": "🌍"
-      },
-      {
-        "id": "cnxh-cb-ch7-p1",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 1)",
-        "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).enc",
-        "icon": "🕊️"
-      },
-      {
-        "id": "cnxh-cb-ch7-p2",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 2)",
-        "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).enc",
-        "icon": "🕊️"
-      },
-      {
-        "id": "cnxh-cb-ch8-p1",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 1)",
-        "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).enc",
-        "icon": "🏡"
-      },
-      {
-        "id": "cnxh-cb-ch8-p2",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 2)",
-        "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
-        "file": "CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).enc",
-        "icon": "🏡"
-      }
-    ]
-  },
-  {
-    "category": "🎓 Giáo dục học - HNUE",
-    "subjectId": "gdh",
-    "status": "available",
-    "quizzes": [
-      {
-        "id": "gdh-moi-80cau",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Bộ 80 câu hỏi Trắc nghiệm Giáo dục học Đại cương",
-        "description": "Biên soạn bởi ThS. Nguyễn Thúy Quỳnh – Khoa Tâm lý, ĐHSP Hà Nội",
-        "file": "Giáo dục học/Câu hỏi trắc nghiệm (mới)/80 câu hỏi trắc nghiệm.enc",
-        "icon": "🎓"
-      },
-      {
-        "id": "gdh-moi-80cau-ontap",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Bộ 80 câu hỏi Trắc nghiệm Ôn tập Môn Giáo dục học",
-        "description": "Chia sẻ bởi RAM Club – Phạm Vũ Ngọc Quỳnh (Khoa Toán Tin, ĐHSP Hà Nội)",
-        "file": "Giáo dục học/Câu hỏi trắc nghiệm (mới)/80 câu hỏi trắc nghiệm ôn tập môn Giáo dục học.enc",
-        "icon": "📝"
-      },
-      {
-        "id": "gdh-moi-60cau",
-        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
-        "title": "Bộ 60 câu hỏi Trắc nghiệm Giáo dục học (RAM Club)",
-        "description": "Tổng hợp bởi ThS. Nguyễn Thúy Quỳnh – Khoa Tâm lý, ĐHSP Hà Nội",
-        "file": "Giáo dục học/Câu hỏi trắc nghiệm (mới)/60 câu hỏi trắc nghiệm Giáo dục học (ThS Nguyễn Thúy Quỳnh).enc",
-        "icon": "📕"
-      },
-      {
-        "id": "gdh-cb-ch1",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 1: Giáo dục học là một khoa học",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 1: Giáo dục học là một khoa học",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 1. Giáo dục học là một khoa học.enc",
-        "icon": "📖"
-      },
-      {
-        "id": "gdh-cb-ch2",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 2: Giáo dục và sự phát triển xã hội",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 2: Giáo dục và sự phát triển xã hội",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 2. Giáo dục và sự phát triển xã hội.enc",
-        "icon": "🌐"
-      },
-      {
-        "id": "gdh-cb-ch3",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 3: Giáo dục và sự phát triển nhân cách",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 3: Giáo dục và sự phát triển nhân cách",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 3. Giáo dục và sự phát triển nhân cách.enc",
-        "icon": "👤"
-      },
-      {
-        "id": "gdh-cb-ch4",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 4: Mục đích và nguyên lý giáo dục",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 4: Mục đích và nguyên lý giáo dục",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 4. Mục đích và nguyên lý giáo dục.enc",
-        "icon": "🎯"
-      },
-      {
-        "id": "gdh-cb-ch5",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 5: Hệ thống giáo dục quốc dân",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 5: Hệ thống giáo dục quốc dân",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 5. Hệ thống giáo dục quốc dân.enc",
-        "icon": "🏫"
-      },
-      {
-        "id": "gdh-cb-ch6",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 6: Quá trình dạy học",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 6: Quá trình dạy học",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 6. Quá trình dạy học.enc",
-        "icon": "📚"
-      },
-      {
-        "id": "gdh-cb-ch7",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 7: Tính quy luật và nguyên tắc dạy học",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 7: Tính quy luật và nguyên tắc dạy học",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 7. Tính quy luật và nguyên tắc dạy học.enc",
-        "icon": "⚖️"
-      },
-      {
-        "id": "gdh-cb-ch8",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 8: Nội dung dạy học",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 8: Nội dung dạy học",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 8. Nội dung dạy học.enc",
-        "icon": "📖"
-      },
-      {
-        "id": "gdh-cb-ch9",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 9: Phương pháp và phương tiện dạy học",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 9: Phương pháp và phương tiện dạy học",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 9. Phương pháp và phương tiện dạy học.enc",
-        "icon": "🛠️"
-      },
-      {
-        "id": "gdh-cb-ch10",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 10: Hình thức tổ chức dạy học",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 10: Hình thức tổ chức dạy học",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 10. Hình thức tổ chức dạy học.enc",
-        "icon": "🏫"
-      },
-      {
-        "id": "gdh-cb-ch11",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 11: Kiểm tra, đánh giá kết quả học tập",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 11: Kiểm tra, đánh giá kết quả học tập",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 11. Kiểm tra, đánh giá kết quả học tập.enc",
-        "icon": "📝"
-      },
-      {
-        "id": "gdh-cb-ch12",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 12: Quá trình giáo dục",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 12: Quá trình giáo dục",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 12. Quá trình giáo dục.enc",
-        "icon": "🌱"
-      },
-      {
-        "id": "gdh-cb-ch13",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 13: Nguyên tắc giáo dục",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 13: Nguyên tắc giáo dục",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 13. Nguyên tắc giáo dục.enc",
-        "icon": "⚖️"
-      },
-      {
-        "id": "gdh-cb-ch14",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 14: Nội dung giáo dục",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 14: Nội dung giáo dục",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 14. Nội dung giáo dục.enc",
-        "icon": "📜"
-      },
-      {
-        "id": "gdh-cb-ch15",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 15: Phương pháp giáo dục",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 15: Phương pháp giáo dục",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 15. Phương pháp giáo dục.enc",
-        "icon": "💡"
-      },
-      {
-        "id": "gdh-cb-ch16",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 16: Môi trường giáo dục",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 16: Môi trường giáo dục",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 16. Môi trường giáo dục.enc",
-        "icon": "🏡"
-      },
-      {
-        "id": "gdh-cb-ch17",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 17: Một số vấn đề cơ bản về quản lý nhà trường",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 17: Một số vấn đề cơ bản về quản lý nhà trường",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 17. Một số vấn đề cơ bản về quản lý nhà trường.enc",
-        "icon": "🏛️"
-      },
-      {
-        "id": "gdh-cb-ch18",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 18: Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 18: Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 18. Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục.enc",
-        "icon": "👩‍🏫"
-      },
-      {
-        "id": "gdh-cb-ch19",
-        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
-        "title": "Chương 19: Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông",
-        "description": "Bộ câu hỏi trắc nghiệm Chương 19: Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông",
-        "file": "Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 19. Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông.enc",
-        "icon": "📋"
       }
     ]
   }
 ];
 
-const sampleQuizText = `Câu 1: Chủ nghĩa xã hội khoa học là một trong ba bộ phận cấu thành của:
-*A. Chủ nghĩa Mác – Lênin
-B. Triết học Mác – Lênin
-C. Kinh tế chính trị Mác – Lênin
-D. Chủ nghĩa xã hội không tưởng
-Giải thích: Chủ nghĩa Mác – Lênin được tạo thành từ ba bộ phận lý luận cấu thành thống nhất: Triết học Mác – Lênin, Kinh tế chính trị Mác – Lênin và Chủ nghĩa xã hội khoa học.
-
-Câu 2: Sản xuất đại công nghiệp là tiền đề kinh tế - xã hội cho sự ra đời của:
-*A. Chủ nghĩa Mác
-B. Triết học cổ điển Đức
-C. Chủ nghĩa xã hội không tưởng
-D. Kinh tế chính trị cổ điển Anh
-
-Câu 3: Xác định các phát biểu sau đúng hay sai về ba bộ phận cấu thành Chủ nghĩa Mác – Lênin:
-*a) Triết học Mác – Lênin là một trong ba bộ phận cấu thành
-b) Mỹ học Mác – Lênin là một trong ba bộ phận cấu thành
-*c) Chủ nghĩa xã hội khoa học là một trong ba bộ phận cấu thành
-d) Xã hội học Mác – Lênin là một trong ba bộ phận cấu thành
-Giải thích: Ba bộ phận cấu thành gồm Triết học Mác – Lênin, Kinh tế chính trị Mác – Lênin và Chủ nghĩa xã hội khoa học. Mỹ học và Xã hội học không nằm trong ba bộ phận cấu thành.`;
-
-// Load available preset quizzes & dashboard statistics on startup
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => initPresets());
-} else {
-    initPresets();
-}
-
-/* ========================================================
-   CUSTOM CONFIRMATION MODAL
-======================================================== */
-function showCustomConfirm(title, message, actionText, callback) {
-    document.getElementById('confirm-modal-title').innerText = title;
-    document.getElementById('confirm-modal-msg').innerText = message;
-    document.getElementById('confirm-modal-action-btn').innerText = actionText || 'Đồng ý';
-    confirmModalCallback = callback;
-    document.getElementById('custom-confirm-modal').classList.remove('hidden');
-}
-
-function closeConfirmModal(result) {
-    document.getElementById('custom-confirm-modal').classList.add('hidden');
-    if (confirmModalCallback) {
-        confirmModalCallback(result);
-        confirmModalCallback = null;
-    }
-}
-
-/* ========================================================
-   PRESET & ACCORDION RENDER LOGIC
-======================================================== */
-async function initPresets() {
-    const gridContainer = document.getElementById('preset-categories-container');
-    if (!gridContainer) return;
-    gridContainer.innerHTML = "";
-
-    let data = defaultCategories;
-
+async function loadMasterCategoriesData() {
     try {
-        const res = await fetch('quizzes.json?v=' + Date.now());
+        const res = await fetch('data/quizzes.json?v=' + Date.now());
         if (res.ok) {
             const json = await res.json();
-            if (Array.isArray(json) && json.length > 0) data = json;
+            if (Array.isArray(json) && json.length > 0) allCategoriesData = json;
         }
     } catch (e) {
-        console.log("Dùng danh sách mặc định.");
+        allCategoriesData = defaultCategories;
     }
+}
 
-    allCategoriesData = data; // store globally
+/* ========================================================
+   PAGE 1: DASHBOARD PAGE (#view-home)
+======================================================== */
+async function renderDashboardPage() {
+    if (!allCategoriesData || allCategoriesData.length === 0) {
+        await loadMasterCategoriesData();
+    }
+    renderDashboardCoursesGrid();
+    renderDashboardHistory();
+}
 
-    data.forEach((group, idx) => {
-        const subjectId = group.subjectId || `sub_${idx}`;
-        const isCollapsed = accordionStates[subjectId] !== true;
+function renderDashboardCoursesGrid() {
+    const container = document.getElementById('home-courses-grid');
+    if (!container) return;
+    container.innerHTML = '';
 
-        const accordionItem = document.createElement('div');
-        accordionItem.className = `subject-accordion-item ${isCollapsed ? 'collapsed' : ''}`;
-        accordionItem.id = `accordion-${subjectId}`;
+    const courseGroups = allCategoriesData.filter(c => c.type !== 'textbook');
 
-        // Header bar
-        const header = document.createElement('div');
-        header.className = 'subject-accordion-header';
-        header.onclick = () => toggleSubjectAccordion(subjectId);
-        header.innerHTML = `
-            <div class="subject-title-group">
-                <span class="accordion-arrow">▼</span>
-                <span class="subject-title">${escapeHTML(group.category)}</span>
-                <span class="subject-count-badge">${group.quizzes ? group.quizzes.length + ' bài' : '0 bài'}</span>
+    courseGroups.forEach(group => {
+        const subjectId = group.subjectId || 'cnxh';
+        const quizCount = group.quizzes ? group.quizzes.length : 0;
+        
+        let chapterCount = 0;
+        const tbGroup = allCategoriesData.find(c => c.type === 'textbook' && c.subjectId === `${subjectId}-textbook`);
+        if (tbGroup && tbGroup.volumes) {
+            tbGroup.volumes.forEach(v => chapterCount += (v.chapters ? v.chapters.length : 0));
+        }
+
+        const card = document.createElement('div');
+        card.className = 'card course-home-card';
+        card.style.borderTop = subjectId === 'cnxh' ? '4px solid #ef4444' : '4px solid #6366f1';
+        card.innerHTML = `
+            <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 14px;">
+                <span style="font-size: 2.2rem; line-height: 1;">${subjectId === 'cnxh' ? '📕' : '🎓'}</span>
+                <div>
+                    <h3 style="font-size: 1.2rem; color: #1e293b; font-weight: 800;">${escapeHTML(group.category.replace(/^[^\s]+\s+/, ''))}</h3>
+                    <div style="display: flex; gap: 6px; margin-top: 4px; flex-wrap: wrap;">
+                        <span style="font-size: 0.78rem; background: #e0e7ff; color: #3730a3; padding: 2px 10px; border-radius: 50px; font-weight: 700;">📝 ${quizCount} Bài thi</span>
+                        ${chapterCount > 0 ? `<span style="font-size: 0.78rem; background: #fef3c7; color: #92400e; padding: 2px 10px; border-radius: 50px; font-weight: 700;">📚 ${chapterCount} Chương bài giảng</span>` : ''}
+                    </div>
+                </div>
             </div>
-            <div>
-                <span class="preset-badge" style="background: rgba(239, 68, 68, 0.08); color: var(--danger-text); box-shadow: none;" id="subject-wrong-badge-${subjectId}">
-                    🔥 0 câu sai
-                </span>
+            <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 18px; line-height: 1.5;">
+                Khóa học đầy đủ bộ câu hỏi trắc nghiệm ôn tập và hệ thống bài giảng điện tử chi tiết phục vụ thi học phần.
+            </p>
+            <div style="display: flex; gap: 10px;">
+                <button class="btn-primary" style="flex: 1; font-size: 0.88rem;" onclick="openCourseDetail('${subjectId}', 'quizzes')">
+                    🎓 Khám phá Khóa học
+                </button>
             </div>
         `;
-        accordionItem.appendChild(header);
+        container.appendChild(card);
+    });
+}
 
-        if (group.status === 'updating' || !group.quizzes || group.quizzes.length === 0) {
-            const body = document.createElement('div');
-            body.className = 'subject-content-body';
-            body.innerHTML = `
-                <div class="preset-card updating-card">
-                    <div class="preset-card-left">
-                        <div class="preset-icon">🔄</div>
-                        <div class="preset-info">
-                            <div class="preset-title">Nội dung Giáo dục học</div>
-                            <div class="preset-desc">Dữ liệu các chương đang được hệ thống cập nhật và biên soạn...</div>
-                        </div>
-                    </div>
-                    <div class="preset-card-right">
-                        <span class="preset-badge updating-badge">🔄 Đang cập nhật dữ liệu</span>
-                    </div>
+/* ========================================================
+   PAGE 2: COURSES PAGE & DETAIL VIEW (#view-courses)
+======================================================== */
+async function renderCourseCatalogPage() {
+    if (!allCategoriesData || allCategoriesData.length === 0) {
+        await loadMasterCategoriesData();
+    }
+    renderCourseTabsSelector();
+    renderCourseDetailView(currentSubjectId, activeCourseTab);
+}
+
+function renderCourseTabsSelector() {
+    const container = document.getElementById('course-selector-pills');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const courseGroups = allCategoriesData.filter(c => c.type !== 'textbook');
+
+    courseGroups.forEach(group => {
+        const subId = group.subjectId || 'cnxh';
+        const pill = document.createElement('span');
+        pill.className = `pill-opt ${currentSubjectId === subId ? 'active' : ''}`;
+        pill.innerText = group.category.replace(/^[^\s]+\s+/, '');
+        pill.onclick = () => openCourseDetail(subId, activeCourseTab);
+        container.appendChild(pill);
+    });
+}
+
+function switchCourseSubTab(tabName) {
+    activeCourseTab = tabName;
+    openCourseDetail(currentSubjectId, tabName);
+}
+
+function renderCourseDetailView(subjectId, activeTab = 'quizzes') {
+    const detailContainer = document.getElementById('course-detail-container');
+    if (!detailContainer) return;
+    detailContainer.innerHTML = '';
+
+    const group = allCategoriesData.find(g => (g.subjectId || '') === subjectId) || allCategoriesData[0];
+    if (!group) return;
+
+    const courseTitle = group.category.replace(/^[^\s]+\s+/, '');
+    const tbCategory = allCategoriesData.find(c => c.type === 'textbook' && c.subjectId === `${subjectId}-textbook`);
+
+    let html = `
+        <div class="card" style="margin-bottom: 20px; background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 16px;">
+                <div>
+                    <span style="font-size: 0.8rem; background: #e0e7ff; color: #3730a3; padding: 3px 12px; border-radius: 50px; font-weight: 700;">🎓 Khóa học HNUE</span>
+                    <h2 style="font-size: 1.4rem; color: #1e1b4b; margin-top: 6px;">${escapeHTML(courseTitle)}</h2>
                 </div>
-            `;
-            accordionItem.appendChild(body);
-        } else {
-            const actionsBar = document.createElement('div');
-            actionsBar.className = 'subject-actions-bar';
-            actionsBar.innerHTML = `
-                <div class="subject-actions-left">
-                    <button class="btn-danger" style="padding: 6px 14px; font-size: 0.82rem; min-height: 34px;" id="btn-retake-subject-${subjectId}" onclick="startRetakeWrongExamForSubject('${subjectId}')">
-                        🔥 Ôn lại câu sai
-                    </button>
-                    <button class="btn-secondary" style="padding: 6px 12px; font-size: 0.82rem; min-height: 34px;" onclick="clearSubjectWrongBank('${subjectId}')">
-                        Xóa kho câu sai
-                    </button>
-                </div>
-                <div class="subject-actions-right" id="subject-history-list-${subjectId}"></div>
-            `;
-            accordionItem.appendChild(actionsBar);
+            </div>
 
-            const body = document.createElement('div');
-            body.className = 'subject-content-body';
+            <!-- Course Sub Tabs (Quizzes vs Lectures) -->
+            <div style="display: flex; gap: 10px; border-bottom: 2px solid #e2e8f0; padding-bottom: 2px;">
+                <button class="course-tab-btn ${activeTab === 'quizzes' ? 'active' : ''}" onclick="switchCourseSubTab('quizzes')">
+                    📝 Đề thi Trắc nghiệm & Thi thử
+                </button>
+                ${tbCategory ? `
+                <button class="course-tab-btn ${activeTab === 'textbooks' ? 'active' : ''}" onclick="switchCourseSubTab('textbooks')">
+                    📚 Giáo trình & Bài giảng
+                </button>` : ''}
+            </div>
+        </div>
+    `;
 
-            const pList = document.createElement('div');
-            pList.className = 'preset-list';
+    detailContainer.innerHTML = html;
 
-            const mockCard = document.createElement('div');
-            mockCard.className = 'preset-card mock-exam-card';
-            mockCard.onclick = () => openMockModalById(subjectId);
-            mockCard.innerHTML = `
+    const contentDiv = document.createElement('div');
+    detailContainer.appendChild(contentDiv);
+
+    if (activeTab === 'textbooks' && tbCategory) {
+        renderCourseTextbooksContent(contentDiv, tbCategory);
+    } else {
+        renderCourseQuizzesContent(contentDiv, group);
+    }
+}
+
+function renderCourseQuizzesContent(container, group) {
+    const subjectId = group.subjectId || 'cnxh';
+
+    const card = document.createElement('div');
+    card.className = 'card';
+
+    const header = document.createElement('div');
+    header.style.display = 'flex';
+    header.style.justifyContent = 'space-between';
+    header.style.alignItems = 'center';
+    header.style.flexWrap = 'wrap';
+    header.style.gap = '12px';
+    header.style.marginBottom = '18px';
+
+    header.innerHTML = `
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <button class="btn-danger" style="padding: 6px 14px; font-size: 0.82rem; min-height: 34px;" onclick="startRetakeWrongExamForSubject('${subjectId}')">
+                🔥 Ôn lại câu sai
+            </button>
+            <button class="btn-secondary" style="padding: 6px 12px; font-size: 0.82rem; min-height: 34px;" onclick="clearSubjectWrongBank('${subjectId}')">
+                Xóa kho câu sai
+            </button>
+        </div>
+        <span class="preset-badge" style="background: rgba(239, 68, 68, 0.08); color: var(--danger-text); box-shadow: none;" id="subject-wrong-badge-${subjectId}">
+            🔥 0 câu sai
+        </span>
+    `;
+    card.appendChild(header);
+
+    const pList = document.createElement('div');
+    pList.className = 'preset-list';
+
+    // Mock exam card
+    const mockCard = document.createElement('div');
+    mockCard.className = 'preset-card mock-exam-card';
+    mockCard.onclick = () => openMockModalById(subjectId);
+    mockCard.innerHTML = `
+        <div class="preset-card-left">
+            <div class="preset-icon">🎲</div>
+            <div class="preset-info">
+                <div class="preset-title">Thi thử Ngẫu nhiên môn này</div>
+                <div class="preset-desc">Tự động xáo trộn ngẫu nhiên bộ câu hỏi các chương</div>
+            </div>
+        </div>
+        <div class="preset-card-right">
+            <span class="preset-badge mock-badge">🎲 Thi thử ngay</span>
+        </div>
+    `;
+    pList.appendChild(mockCard);
+
+    const subfoldersMap = {};
+    const ungroupedQuizzes = [];
+
+    if (group.quizzes) {
+        group.quizzes.forEach((quiz, qIdx) => {
+            if (quiz.folder) {
+                if (!subfoldersMap[quiz.folder]) subfoldersMap[quiz.folder] = [];
+                subfoldersMap[quiz.folder].push({ quiz, originalIndex: qIdx });
+            } else {
+                ungroupedQuizzes.push({ quiz, originalIndex: qIdx });
+            }
+        });
+    }
+
+    Object.keys(subfoldersMap).forEach((fName, fIdx) => {
+        const subQuizzes = subfoldersMap[fName];
+
+        const sfBlock = document.createElement('div');
+        sfBlock.className = 'subfolder-block collapsed';
+        sfBlock.id = `subfolder-${subjectId}-${fIdx}`;
+
+        const sfHeader = document.createElement('div');
+        sfHeader.className = 'subfolder-header';
+        sfHeader.onclick = (e) => {
+            e.stopPropagation();
+            toggleSubfolderAccordion(subjectId, fIdx);
+        };
+        sfHeader.innerHTML = `
+            <div class="subfolder-title-group">
+                <span class="subfolder-arrow">▼</span>
+                <span class="subfolder-title">${escapeHTML(fName)}</span>
+                <span class="subfolder-count">${subQuizzes.length} bài</span>
+            </div>
+            <div>
+                <button class="btn-secondary" style="padding: 3px 10px; font-size: 0.76rem; min-height: 26px; border-color: rgba(99,102,241,0.3); color: var(--primary);" onclick="event.stopPropagation(); openMockModalById('${subjectId}', '${escapeHTML(fName).replace(/'/g, "\\'")}')">
+                    🎲 Thi thử phần này
+                </button>
+            </div>
+        `;
+        sfBlock.appendChild(sfHeader);
+
+        const sfContent = document.createElement('div');
+        sfContent.className = 'subfolder-content';
+        const sfList = document.createElement('div');
+        sfList.className = 'preset-list';
+        sfList.style.marginTop = '8px';
+
+        subQuizzes.forEach(item => {
+            const quiz = item.quiz;
+            const qCard = document.createElement('div');
+            qCard.className = 'preset-card';
+            qCard.onclick = () => openStartQuizModalById(subjectId, item.originalIndex);
+            qCard.innerHTML = `
                 <div class="preset-card-left">
-                    <div class="preset-icon">🎲</div>
+                    <div class="preset-icon">${quiz.icon || '📖'}</div>
                     <div class="preset-info">
-                        <div class="preset-title">Thi thử Ngẫu nhiên môn này</div>
-                        <div class="preset-desc">Tạo đề trộn câu hỏi ngẫu nhiên từ tất cả các chương (${group.quizzes.length} bài)</div>
+                        <div class="preset-title">${escapeHTML(quiz.title)}</div>
+                        <div class="preset-desc">${escapeHTML(quiz.description || '')}</div>
                     </div>
                 </div>
                 <div class="preset-card-right">
-                    <span class="preset-badge mock-badge">🎲 Tạo đề ngẫu nhiên</span>
+                    <span class="preset-badge">Làm bài</span>
                 </div>
             `;
-            pList.appendChild(mockCard);
+            sfList.appendChild(qCard);
+        });
 
-            const subfoldersMap = {};
-            const ungroupedQuizzes = [];
+        sfContent.appendChild(sfList);
+        sfBlock.appendChild(sfContent);
+        pList.appendChild(sfBlock);
+    });
 
-            group.quizzes.forEach((quiz, qIdx) => {
-                if (quiz.folder) {
-                    if (!subfoldersMap[quiz.folder]) subfoldersMap[quiz.folder] = [];
-                    subfoldersMap[quiz.folder].push({ quiz, originalIndex: qIdx });
-                } else {
-                    ungroupedQuizzes.push({ quiz, originalIndex: qIdx });
-                }
-            });
+    ungroupedQuizzes.forEach(item => {
+        const quiz = item.quiz;
+        const qCard = document.createElement('div');
+        qCard.className = 'preset-card';
+        qCard.onclick = () => openStartQuizModalById(subjectId, item.originalIndex);
+        qCard.innerHTML = `
+            <div class="preset-card-left">
+                <div class="preset-icon">${quiz.icon || '📖'}</div>
+                <div class="preset-info">
+                    <div class="preset-title">${escapeHTML(quiz.title)}</div>
+                    <div class="preset-desc">${escapeHTML(quiz.description || '')}</div>
+                </div>
+            </div>
+            <div class="preset-card-right">
+                <span class="preset-badge">Làm bài</span>
+            </div>
+        `;
+        pList.appendChild(qCard);
+    });
 
-            const folderNames = Object.keys(subfoldersMap);
-            folderNames.forEach((fName, fIdx) => {
-                const subQuizzes = subfoldersMap[fName];
+    card.appendChild(pList);
+    container.appendChild(card);
+    updateSubjectStatsUI(subjectId);
+}
 
-                const sfBlock = document.createElement('div');
-                sfBlock.className = 'subfolder-block collapsed';
-                sfBlock.id = `subfolder-${subjectId}-${fIdx}`;
+function renderCourseTextbooksContent(container, tbCategory) {
+    const card = document.createElement('div');
+    card.className = 'card';
 
-                const sfHeader = document.createElement('div');
-                sfHeader.className = 'subfolder-header';
-                sfHeader.onclick = (e) => {
-                    e.stopPropagation();
-                    toggleSubfolderAccordion(subjectId, fIdx);
-                };
-                sfHeader.innerHTML = `
-                    <div class="subfolder-title-group">
-                        <span class="subfolder-arrow">▶</span>
-                        <span class="subfolder-title">${escapeHTML(fName)}</span>
-                        <span class="subfolder-count">${subQuizzes.length} bài</span>
-                    </div>
-                    <div>
-                        <button class="btn-secondary" style="padding: 3px 10px; font-size: 0.76rem; min-height: 26px; border-color: rgba(99,102,241,0.3); color: var(--primary);" onclick="event.stopPropagation(); openMockModalById('${subjectId}', '${escapeHTML(fName).replace(/'/g, "\\'")}')">
-                            🎲 Thi thử thư mục này
-                        </button>
-                    </div>
-                `;
-                sfBlock.appendChild(sfHeader);
+    if (!tbCategory || !tbCategory.volumes) {
+        card.innerHTML = '<p style="color: var(--text-muted);">Chưa có bài giảng cho môn học này.</p>';
+        container.appendChild(card);
+        return;
+    }
 
-                const sfContent = document.createElement('div');
-                sfContent.className = 'subfolder-content';
-                const sfList = document.createElement('div');
-                sfList.className = 'preset-list';
-                sfList.style.marginTop = '8px';
+    tbCategory.volumes.forEach(vol => {
+        const volCard = document.createElement('div');
+        volCard.className = 'textbook-volume-card';
 
-                subQuizzes.forEach(item => {
-                    const quiz = item.quiz;
-                    const card = document.createElement('div');
-                    card.className = 'preset-card';
-                    card.onclick = () => openStartQuizModalById(subjectId, item.originalIndex);
-                    card.innerHTML = `
-                        <div class="preset-card-left">
-                            <div class="preset-icon">${quiz.icon || '📖'}</div>
-                            <div class="preset-info">
-                                <div class="preset-title">${escapeHTML(quiz.title)}</div>
-                                <div class="preset-desc">${escapeHTML(quiz.description || '')}</div>
-                            </div>
-                        </div>
-                        <div class="preset-card-right">
-                            <span class="preset-badge">Vào làm bài ➔</span>
-                        </div>
-                    `;
-                    sfList.appendChild(card);
-                });
+        const volTitle = document.createElement('div');
+        volTitle.className = 'textbook-volume-title';
+        volTitle.innerHTML = escapeHTML(vol.volumeTitle);
+        volCard.appendChild(volTitle);
 
-                sfContent.appendChild(sfList);
-                sfBlock.appendChild(sfContent);
-                pList.appendChild(sfBlock);
-            });
-
-            ungroupedQuizzes.forEach(item => {
-                const quiz = item.quiz;
-                const card = document.createElement('div');
-                card.className = 'preset-card';
-                card.onclick = () => openStartQuizModalById(subjectId, item.originalIndex);
-                card.innerHTML = `
-                    <div class="preset-card-left">
-                        <div class="preset-icon">${quiz.icon || '📖'}</div>
-                        <div class="preset-info">
-                            <div class="preset-title">${escapeHTML(quiz.title)}</div>
-                            <div class="preset-desc">${escapeHTML(quiz.description || '')}</div>
-                        </div>
-                    </div>
-                    <div class="preset-card-right">
-                        <span class="preset-badge">Vào làm bài ➔</span>
-                    </div>
-                `;
-                pList.appendChild(card);
-            });
-
-            body.appendChild(pList);
-            accordionItem.appendChild(body);
+        if (vol.description) {
+            const volDesc = document.createElement('div');
+            volDesc.className = 'textbook-volume-desc';
+            volDesc.innerText = vol.description;
+            volCard.appendChild(volDesc);
         }
 
-        gridContainer.appendChild(accordionItem);
-        updateSubjectStatsUI(subjectId);
+        const grid = document.createElement('div');
+        grid.className = 'textbook-chapter-grid';
+
+        vol.chapters.forEach(ch => {
+            const chCard = document.createElement('div');
+            chCard.className = 'textbook-chapter-card';
+            chCard.innerHTML = `
+                <div class="tb-card-header">
+                    <div class="tb-card-icon">${ch.icon || '📖'}</div>
+                    <div>
+                        <div class="tb-card-title">${escapeHTML(ch.title)}</div>
+                    </div>
+                </div>
+                <div class="tb-card-desc">${escapeHTML(ch.description || '')}</div>
+                <div class="tb-card-actions">
+                    <button class="btn-tb-read" onclick="openTextbookReader('${ch.file}', '${escapeHTML(ch.title).replace(/'/g, "\\'")}', '${ch.id}', '${ch.quizId || ''}')">
+                        📖 Đọc bài giảng
+                    </button>
+                    ${ch.quizId ? `
+                    <button class="btn-tb-quiz" onclick="startQuizForChapter('${ch.quizId}', '${escapeHTML(ch.title).replace(/'/g, "\\'")}')">
+                        🚀 Bài trắc nghiệm
+                    </button>` : ''}
+                </div>
+            `;
+            grid.appendChild(chCard);
+        });
+
+        volCard.appendChild(grid);
+        card.appendChild(volCard);
+    });
+
+    container.appendChild(card);
+}
+
+/* ========================================================
+   PAGE 3: QUIZZES BANK PAGE (#view-quizzes)
+======================================================== */
+async function renderPresetCategories() {
+    if (!allCategoriesData || allCategoriesData.length === 0) {
+        await loadMasterCategoriesData();
+    }
+    const container = document.getElementById('preset-categories-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const courseGroups = allCategoriesData.filter(c => c.type !== 'textbook');
+
+    courseGroups.forEach(group => {
+        const subjectId = group.subjectId || 'cnxh';
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.style.marginBottom = '20px';
+
+        const titleHeader = document.createElement('div');
+        titleHeader.className = 'card-title';
+        titleHeader.style.display = 'flex';
+        titleHeader.style.justifyContent = 'space-between';
+        titleHeader.style.alignItems = 'center';
+        titleHeader.innerHTML = `
+            <span>${escapeHTML(group.category)}</span>
+            <button class="btn-primary" style="font-size: 0.82rem; padding: 4px 12px; min-height: 30px;" onclick="openCourseDetail('${subjectId}', 'quizzes')">
+                🎓 Vào Khóa học
+            </button>
+        `;
+        card.appendChild(titleHeader);
+
+        renderCourseQuizzesContent(card, group);
+        container.appendChild(card);
     });
 }
 
 function toggleSubfolderAccordion(subjectId, fIdx) {
     const el = document.getElementById(`subfolder-${subjectId}-${fIdx}`);
-    if (el) {
-        el.classList.toggle('collapsed');
-    }
-}
-
-function toggleSubjectAccordion(subjectId) {
-    const item = document.getElementById(`accordion-${subjectId}`);
-    if (item) {
-        item.classList.toggle('collapsed');
-        accordionStates[subjectId] = !item.classList.contains('collapsed');
-    }
+    if (el) el.classList.toggle('collapsed');
 }
 
 function openStartQuizModalById(subjectId, quizIdx) {
@@ -667,33 +625,192 @@ function openStartQuizModal(filePath, title) {
     pendingQuizTitle = title;
     const titleEl = document.getElementById('start-modal-title');
     if (titleEl) titleEl.innerText = title;
-    selectModalQuizMode('instant'); // default to instant
+    selectModalQuizMode('instant');
     const modal = document.getElementById('start-quiz-modal');
     if (modal) modal.classList.remove('hidden');
 }
 
 function closeStartQuizModal() {
-    document.getElementById('start-quiz-modal').classList.add('hidden');
+    const modal = document.getElementById('start-quiz-modal');
+    if (modal) modal.classList.add('hidden');
 }
 
 function selectModalQuizMode(mode) {
     currentQuizMode = mode;
     document.querySelectorAll('#start-quiz-modal .mode-card').forEach(c => c.classList.remove('active'));
     if (mode === 'instant') {
-        document.getElementById('modal-mode-instant').classList.add('active');
-        document.querySelector('#modal-mode-instant input').checked = true;
+        const inst = document.getElementById('modal-mode-instant');
+        if (inst) inst.classList.add('active');
+        const rad = document.querySelector('#modal-mode-instant input');
+        if (rad) rad.checked = true;
     } else {
-        document.getElementById('modal-mode-submit').classList.add('active');
-        document.querySelector('#modal-mode-submit input').checked = true;
+        const sub = document.getElementById('modal-mode-submit');
+        if (sub) sub.classList.add('active');
+        const rad = document.querySelector('#modal-mode-submit input');
+        if (rad) rad.checked = true;
     }
 }
 
-let pendingRetakeSubjectId = null;
-let selectedRetakeMode = 'submit';
+/* ========================================================
+   RANDOM MOCK EXAM & RETAKE WRONG QUESTIONS MODALS
+======================================================== */
+function openMockModalById(subjectId, folderName = null) {
+    activeSubjectGroup = subjectId;
+    activeMockFolderName = folderName;
+    const titleEl = document.getElementById('mock-modal-title');
+    const subtitleEl = document.getElementById('mock-modal-subtitle');
+    const group = allCategoriesData.find(g => g.subjectId === subjectId);
+    const subjectName = group ? group.category.replace(/^[^\s]+\s+/, '') : 'Môn học';
 
-function confirmAndStartQuiz() {
-    closeStartQuizModal();
-    fetchAndLoadQuiz(pendingQuizFile, pendingQuizTitle || 'Đề trắc nghiệm');
+    if (folderName) {
+        if (titleEl) titleEl.innerText = `🎲 Thi thử Phần: ${folderName}`;
+        if (subtitleEl) subtitleEl.innerText = `Tự động gộp tất cả câu hỏi thuộc phần "${folderName}" (${subjectName}).`;
+    } else {
+        if (titleEl) titleEl.innerText = `🎲 Thi thử Ngẫu nhiên: ${subjectName}`;
+        if (subtitleEl) subtitleEl.innerText = `Tự động gộp tất cả câu hỏi thuộc môn ${subjectName}.`;
+    }
+
+    setMockCount(20);
+    setMockTime(15);
+    selectMockQuizMode('instant');
+    const modal = document.getElementById('mock-exam-modal');
+    if (modal) modal.classList.remove('hidden');
+}
+
+function closeMockModal() {
+    const modal = document.getElementById('mock-exam-modal');
+    if (modal) modal.classList.add('hidden');
+}
+
+function setMockCount(count) {
+    selectedMockCount = count;
+    document.querySelectorAll('#count-pills .pill-opt').forEach(p => p.classList.remove('active'));
+    const target = document.querySelector(`#count-pills .pill-opt[data-count="${count}"]`);
+    if (target) target.classList.add('active');
+    const input = document.getElementById('custom-count-input');
+    if (input && typeof count === 'number') input.value = '';
+}
+
+function setCustomMockCount(val) {
+    const num = parseInt(val, 10);
+    if (!isNaN(num) && num > 0) {
+        selectedMockCount = num;
+        document.querySelectorAll('#count-pills .pill-opt').forEach(p => p.classList.remove('active'));
+    }
+}
+
+function setMockTime(minutes) {
+    selectedMockTime = minutes;
+    document.querySelectorAll('#timer-pills .pill-opt').forEach(p => p.classList.remove('active'));
+    const target = document.querySelector(`#timer-pills .pill-opt[data-time="${minutes}"]`);
+    if (target) target.classList.add('active');
+    const input = document.getElementById('custom-time-input');
+    if (input && minutes > 0) input.value = '';
+}
+
+function setCustomMockTime(val) {
+    const num = parseInt(val, 10);
+    if (!isNaN(num) && num >= 0) {
+        selectedMockTime = num;
+        document.querySelectorAll('#timer-pills .pill-opt').forEach(p => p.classList.remove('active'));
+    }
+}
+
+function selectMockQuizMode(mode) {
+    selectedMockMode = mode;
+    currentQuizMode = mode;
+    document.querySelectorAll('#mock-exam-modal .mode-card').forEach(c => c.classList.remove('active'));
+    if (mode === 'instant') {
+        const inst = document.getElementById('mock-mode-instant');
+        if (inst) inst.classList.add('active');
+    } else {
+        const sub = document.getElementById('mock-mode-submit');
+        if (sub) sub.classList.add('active');
+    }
+}
+
+async function executeMockExamEngine() {
+    const group = allCategoriesData.find(g => g.subjectId === activeSubjectGroup);
+    if (!group || !group.quizzes || group.quizzes.length === 0) {
+        alert("Không tìm thấy câu hỏi thuộc môn này!");
+        backToConfig();
+        return;
+    }
+
+    let targetQuizzes = group.quizzes;
+    if (activeMockFolderName) {
+        targetQuizzes = group.quizzes.filter(q => q.folder === activeMockFolderName);
+    }
+
+    let combinedQuestions = [];
+    for (const quiz of targetQuizzes) {
+        try {
+            let rawText = null;
+            const base64Str = getEmbeddedQuizContent(quiz.file);
+            if (base64Str) {
+                const binary = window.atob(base64Str);
+                const bytes = new Uint8Array(binary.length);
+                for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+                rawText = await decryptQuizArrayBuffer(bytes.buffer);
+            } else {
+                try {
+                    const res = await fetch(quiz.file);
+                    const buf = await res.arrayBuffer();
+                    rawText = await decryptQuizArrayBuffer(buf);
+                } catch(e) {}
+            }
+            if (rawText) {
+                const parsed = parseQuizText(rawText);
+                combinedQuestions.push(...parsed);
+            }
+        } catch (e) {
+            console.error("Lỗi đọc tệp thi thử:", quiz.file, e);
+        }
+    }
+
+    if (combinedQuestions.length === 0) {
+        alert("Không thể nạp dữ liệu câu hỏi thi thử. Vui lòng thử lại.");
+        backToConfig();
+        return;
+    }
+
+    for (let i = combinedQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [combinedQuestions[i], combinedQuestions[j]] = [combinedQuestions[j], combinedQuestions[i]];
+    }
+
+    let finalCount = combinedQuestions.length;
+    if (selectedMockCount !== 'all' && typeof selectedMockCount === 'number') {
+        finalCount = Math.min(selectedMockCount, combinedQuestions.length);
+    }
+
+    currentQuestions = combinedQuestions.slice(0, finalCount);
+    currentQuestions.forEach((q, idx) => {
+        q.id = String(idx + 1);
+        q.userAnswers = [];
+        q.userTFAnswers = {};
+        q.isGraded = false;
+        q.isCorrect = false;
+    });
+
+    currentSubjectId = activeSubjectGroup;
+    currentQuizMode = selectedMockMode;
+    isQuizSubmitted = false;
+
+    const titleBadge = document.getElementById('active-quiz-title');
+    if (titleBadge) {
+        titleBadge.innerText = activeMockFolderName ? `🎲 Thi thử: ${activeMockFolderName} (${finalCount} câu)` : `🎲 Thi thử Ngẫu nhiên (${finalCount} câu)`;
+    }
+
+    renderQuiz();
+    updateProgress();
+
+    if (selectedMockTime > 0) {
+        startCountdownTimer(selectedMockTime);
+    } else {
+        const timerBadge = document.getElementById('quiz-timer-badge');
+        if (timerBadge) timerBadge.classList.add('hidden');
+    }
 }
 
 async function startRetakeWrongExamForSubject(subjectId) {
@@ -708,7 +825,8 @@ async function startRetakeWrongExamForSubject(subjectId) {
     const modalInfo = document.getElementById('retake-modal-info');
     if (modalInfo) modalInfo.innerText = `Hiện có ${wrongBank.length} câu hỏi làm sai trong bộ lưu trữ môn này.`;
     selectRetakeQuizMode('submit');
-    document.getElementById('retake-modal').classList.remove('hidden');
+    const modal = document.getElementById('retake-modal');
+    if (modal) modal.classList.remove('hidden');
 }
 
 function selectRetakeQuizMode(mode) {
@@ -718,27 +836,26 @@ function selectRetakeQuizMode(mode) {
     if (mode === 'instant') {
         const inst = document.getElementById('retake-mode-instant');
         if (inst) inst.classList.add('active');
-        const rad = document.querySelector('#retake-mode-instant input');
-        if (rad) rad.checked = true;
     } else {
         const sub = document.getElementById('retake-mode-submit');
         if (sub) sub.classList.add('active');
-        const rad = document.querySelector('#retake-mode-submit input');
-        if (rad) rad.checked = true;
     }
 }
 
 function closeRetakeModal() {
-    document.getElementById('retake-modal').classList.add('hidden');
+    const modal = document.getElementById('retake-modal');
+    if (modal) modal.classList.add('hidden');
 }
 
-async function confirmRetakeWrongExam() {
-    closeRetakeModal();
-
+async function executeRetakeWrongEngine() {
     currentSubjectId = pendingRetakeSubjectId || 'cnxh';
     const wrongBankAll = await getStoredWrongBank();
     const wrongBank = wrongBankAll.filter(b => (b.subjectId || 'cnxh') === currentSubjectId);
-    if (wrongBank.length === 0) return;
+    if (wrongBank.length === 0) {
+        alert("Kho câu sai trống!");
+        backToConfig();
+        return;
+    }
 
     currentQuestions = JSON.parse(JSON.stringify(wrongBank));
     currentQuestions.forEach((q, idx) => {
@@ -750,430 +867,109 @@ async function confirmRetakeWrongExam() {
     });
 
     currentQuizMode = selectedRetakeMode;
-    document.getElementById('current-quiz-name').innerText = `🔥 Luyện lại câu sai (${currentQuestions.length} câu)`;
-    document.getElementById('file-status').innerText = `📄 Đã nạp ${currentQuestions.length} câu hỏi sai để luyện lại.`;
-
     isQuizSubmitted = false;
-    stopCountdownTimer();
-    const timerBadge = document.getElementById('timer-badge');
-    if (timerBadge) timerBadge.classList.add('hidden');
 
-    enterQuizScreen();
+    const titleBadge = document.getElementById('active-quiz-title');
+    if (titleBadge) titleBadge.innerText = `🔥 Ôn lại ${wrongBank.length} câu sai`;
+
     renderQuiz();
-    renderSidebarNav();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+    updateProgress();
 
-function openMockModalById(subjectId, folderName = null) {
-    const group = allCategoriesData.find(g => (g.subjectId || '') === subjectId);
-    if (!group) return;
-    activeSubjectGroup = group;
-    activeMockFolderName = folderName;
-    currentSubjectId = subjectId;
-
-    const modalTitle = folderName ? `Thi thử: ${folderName}` : `Thi thử ngẫu nhiên: ${group.category}`;
-    document.getElementById('mock-modal-title').innerText = modalTitle;
-
-    setMockCount(20);
-    setMockTime(15);
-    selectMockQuizMode('instant');
-
-    document.getElementById('mock-exam-modal').classList.remove('hidden');
-}
-
-function closeMockModal() {
-    document.getElementById('mock-exam-modal').classList.add('hidden');
-}
-
-function setMockCount(count) {
-    selectedMockCount = count;
-    const container = document.getElementById('count-pills');
-    container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
-    const target = container.querySelector(`[data-count="${count}"]`);
-    if (target) target.classList.add('active');
-    document.getElementById('custom-count-input').value = "";
-}
-
-function setCustomMockCount(val) {
-    const parsed = parseInt(val, 10);
-    if (!isNaN(parsed) && parsed > 0) {
-        selectedMockCount = parsed;
-        const container = document.getElementById('count-pills');
-        container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
-    }
-}
-
-function setMockTime(timeMins) {
-    selectedMockTime = timeMins;
-    const container = document.getElementById('timer-pills');
-    container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
-    const target = container.querySelector(`[data-time="${timeMins}"]`);
-    if (target) target.classList.add('active');
-    document.getElementById('custom-time-input').value = "";
-}
-
-function setCustomMockTime(val) {
-    const parsed = parseInt(val, 10);
-    if (!isNaN(parsed) && parsed >= 0) {
-        selectedMockTime = parsed;
-        const container = document.getElementById('timer-pills');
-        container.querySelectorAll('.pill-opt').forEach(pill => pill.classList.remove('active'));
-    }
-}
-
-function selectMockQuizMode(mode) {
-    selectedMockMode = mode;
-    currentQuizMode = mode;
-    document.querySelectorAll('#mock-exam-modal .mode-card').forEach(card => card.classList.remove('active'));
-    if (mode === 'instant') {
-        document.getElementById('mock-mode-instant').classList.add('active');
-        document.querySelector('#mock-mode-instant input').checked = true;
-    } else {
-        document.getElementById('mock-mode-submit').classList.add('active');
-        document.querySelector('#mock-mode-submit input').checked = true;
-    }
-}
-
-async function startRandomMockExam() {
-    if (!activeSubjectGroup || !activeSubjectGroup.quizzes) return;
-    closeMockModal();
-
-    document.getElementById('file-status').innerText = `⌛ Đang gộp dữ liệu...`;
-
-    try {
-        let targetQuizzes = activeSubjectGroup.quizzes;
-        if (activeMockFolderName) {
-            targetQuizzes = targetQuizzes.filter(q => (q.folder || 'Các bài trắc nghiệm khác') === activeMockFolderName);
-        }
-
-        const fetchPromises = targetQuizzes.map(async (q) => {
-            return await getQuizDataText(q.file);
-        });
-        const results = await Promise.all(fetchPromises);
-
-        let allQuestionsPool = [];
-        results.forEach(textData => {
-            const parsed = parseQuizText(textData);
-            allQuestionsPool = allQuestionsPool.concat(parsed);
-        });
-
-        if (allQuestionsPool.length === 0) {
-            alert("Không thể gộp được câu hỏi nào từ danh mục này!");
-            return;
-        }
-
-        for (let i = allQuestionsPool.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [allQuestionsPool[i], allQuestionsPool[j]] = [allQuestionsPool[j], allQuestionsPool[i]];
-        }
-
-        let finalCount = allQuestionsPool.length;
-        if (selectedMockCount !== 'all' && typeof selectedMockCount === 'number') {
-            finalCount = Math.min(selectedMockCount, allQuestionsPool.length);
-        }
-
-        currentQuestions = allQuestionsPool.slice(0, finalCount);
-
-        currentQuestions.forEach((q, idx) => {
-            q.id = String(idx + 1);
-        });
-
-        currentQuizMode = selectedMockMode;
-
-        const scopeTitle = activeMockFolderName ? ` (${activeMockFolderName})` : '';
-        document.getElementById('current-quiz-name').innerText = `🎲 Thi thử ngẫu nhiên${scopeTitle} (${finalCount} câu - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
-        document.getElementById('file-status').innerText = `📄 Đã tạo đề thi thử: ${finalCount} câu ngẫu nhiên.`;
-
-        isQuizSubmitted = false;
-        enterQuizScreen();
-        renderQuiz();
-        renderSidebarNav();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-
-        if (selectedMockTime > 0) {
-            startCountdownTimer(selectedMockTime);
-        } else {
-            stopCountdownTimer();
-            document.getElementById('timer-badge').classList.add('hidden');
-        }
-
-    } catch (err) {
-        alert("Lỗi khi tạo đề thi ngẫu nhiên: " + err.message);
-    }
+    const timerBadge = document.getElementById('quiz-timer-badge');
+    if (timerBadge) timerBadge.classList.add('hidden');
 }
 
 /* ========================================================
-   COUNTDOWN TIMER LOGIC
+   QUIZ EXECUTION & GRADING ENGINE
 ======================================================== */
-function startCountdownTimer(minutes) {
-    stopCountdownTimer();
-    totalSecondsLeft = minutes * 60;
-    
-    const badge = document.getElementById('timer-badge');
-    badge.classList.remove('hidden', 'warning-timer');
-
-    updateTimerDisplay();
-
-    timerInterval = setInterval(() => {
-        totalSecondsLeft--;
-        if (totalSecondsLeft <= 120) {
-            badge.classList.add('warning-timer');
-        }
-        if (totalSecondsLeft <= 0) {
-            stopCountdownTimer();
-            alert("⏰ ĐÃ HẾT THỜI GIAN LÀM BÀI! Hệ thống sẽ tự động nộp bài.");
-            submitQuiz();
-        }
-        updateTimerDisplay();
-    }, 1000);
-}
-
-function stopCountdownTimer() {
-    if (timerInterval) {
-        clearInterval(timerInterval);
-        timerInterval = null;
-    }
-}
-
-function updateTimerDisplay() {
-    const mins = Math.floor(Math.max(0, totalSecondsLeft) / 60);
-    const secs = Math.max(0, totalSecondsLeft) % 60;
-    const formatted = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
-    document.getElementById('timer-display').innerText = formatted;
-}
-
-function findEmbeddedQuizBase64(filePath) {
-    if (!window.EMBEDDED_QUIZZES || !filePath) return null;
-    
-    // 1. Direct match
-    if (window.EMBEDDED_QUIZZES[filePath]) return window.EMBEDDED_QUIZZES[filePath];
-
-    // 2. Cleaned & decoded path
-    const clean = filePath.replace(/^\.?\/+/, '');
-    if (window.EMBEDDED_QUIZZES[clean]) return window.EMBEDDED_QUIZZES[clean];
-
-    const decoded = decodeURIComponent(clean);
-    if (window.EMBEDDED_QUIZZES[decoded]) return window.EMBEDDED_QUIZZES[decoded];
-
-    // 3. Normalized NFC match
-    const normClean = clean.normalize('NFC');
-    const normDecoded = decoded.normalize('NFC');
-    
-    for (const key in window.EMBEDDED_QUIZZES) {
-        const keyNorm = key.normalize('NFC');
-        if (keyNorm === normClean || keyNorm === normDecoded || keyNorm.endsWith(normDecoded)) {
-            return window.EMBEDDED_QUIZZES[key];
-        }
-    }
-
-    return null;
-}
-
-async function getQuizDataText(filePath) {
-    let arrayBuffer = null;
-
-    try {
-        const res = await fetch(encodeURI(filePath) + '?v=' + Date.now());
-        if (res.ok) {
-            if (filePath.endsWith('.enc')) {
-                arrayBuffer = await res.arrayBuffer();
-            } else {
-                return await res.text();
-            }
-        }
-    } catch (e) {
-        console.warn("Fetch API failed (file:// CORS restriction). Using embedded bundle fallback.", e);
-    }
-
-    if (!arrayBuffer) {
-        const b64 = findEmbeddedQuizBase64(filePath);
-        if (b64) {
-            const binary = window.atob(b64);
-            const bytes = new Uint8Array(binary.length);
-            for (let i = 0; i < binary.length; i++) {
-                bytes[i] = binary.charCodeAt(i);
-            }
-            arrayBuffer = bytes.buffer;
-        }
-    }
-
-    if (arrayBuffer) {
-        return await decryptQuizArrayBuffer(arrayBuffer);
-    }
-
-    throw new Error("Không thể nạp tệp đề thi: " + filePath + "\nHãy kiểm tra đường dẫn tệp.");
-}
-
 async function fetchAndLoadQuiz(filePath, title) {
-    stopCountdownTimer();
-    const timerBadge = document.getElementById('timer-badge');
+    try {
+        let rawText = null;
+        const base64Str = getEmbeddedQuizContent(filePath);
+        if (base64Str) {
+            const binary = window.atob(base64Str);
+            const bytes = new Uint8Array(binary.length);
+            for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+            rawText = await decryptQuizArrayBuffer(bytes.buffer);
+        } else {
+            try {
+                const res = await fetch(filePath);
+                const buf = await res.arrayBuffer();
+                rawText = await decryptQuizArrayBuffer(buf);
+            } catch(e) {}
+        }
+
+        if (rawText) {
+            parseAndStartRawText(rawText, title);
+        } else {
+            alert("Không thể nạp dữ liệu bài thi. Vui lòng thử lại.");
+            backToConfig();
+        }
+    } catch (e) {
+        console.error("Lỗi nạp tệp đề thi:", filePath, e);
+        alert("Không thể nạp bài trắc nghiệm này.");
+        backToConfig();
+    }
+}
+
+function parseAndStartRawText(rawText, title) {
+    const parsed = parseQuizText(rawText);
+    if (!parsed || parsed.length === 0) {
+        alert("Không tìm thấy câu hỏi hợp lệ nào trong văn bản đề!");
+        backToConfig();
+        return;
+    }
+
+    currentQuestions = parsed;
+    isQuizSubmitted = false;
+
+    const titleBadge = document.getElementById('active-quiz-title');
+    if (titleBadge) titleBadge.innerText = title;
+
+    const timerBadge = document.getElementById('quiz-timer-badge');
     if (timerBadge) timerBadge.classList.add('hidden');
 
-    if (!filePath) {
-        // Raw text input mode
-        const fileStatus = document.getElementById('file-status');
-        if (fileStatus) fileStatus.innerText = `📄 Đã nạp đề nhập tay`;
-        const quizName = document.getElementById('current-quiz-name');
-        if (quizName) quizName.innerText = `📖 Đề: ${title || 'Đề nhập tay'}`;
-        processInput();
-        return;
-    }
-
-    try {
-        const fileStatus = document.getElementById('file-status');
-        if (fileStatus) fileStatus.innerText = `⌛ Đang tải và giải mã dữ liệu từ ${title}...`;
-        
-        const textData = await getQuizDataText(filePath);
-
-        const textInput = document.getElementById('text-input');
-        if (textInput) textInput.value = textData;
-        if (fileStatus) fileStatus.innerText = `📄 Đã tải xong: ${title}`;
-        const quizName = document.getElementById('current-quiz-name');
-        if (quizName) quizName.innerText = `📖 Đề: ${title}`;
-        processInput();
-    } catch (err) {
-        alert("Lỗi khi đọc file đề thi: " + err.message);
-        const fileStatus = document.getElementById('file-status');
-        if (fileStatus) fileStatus.innerText = `⚠️ Không thể tải file ${filePath}`;
-    }
-}
-
-// File input listener setup
-const fileInput = document.getElementById('file-input');
-if (fileInput) {
-    fileInput.addEventListener('change', function(e) {
-        const file = e.target.files[0];
-        if (!file) return;
-        document.getElementById('file-status').innerText = `📁 Đang chọn file: ${file.name}`;
-        document.getElementById('current-quiz-name').innerText = `📖 Đề: ${file.name}`;
-        const reader = new FileReader();
-        reader.onload = function(evt) { document.getElementById('text-input').value = evt.target.result; };
-        reader.readAsText(file, 'UTF-8');
-    });
-}
-
-function loadSampleText() {
-    document.getElementById('text-input').value = sampleQuizText;
-    document.getElementById('file-status').innerText = "📄 Đã tải cấu trúc đề mẫu thành công";
-    document.getElementById('current-quiz-name').innerText = "📖 Đề mẫu thử nghiệm";
-}
-
-function clearInput() {
-    document.getElementById('text-input').value = "";
-    if (document.getElementById('file-input')) document.getElementById('file-input').value = "";
-    document.getElementById('file-status').innerText = "📄 Kéo thả hoặc click để chọn file cấu trúc .txt";
-}
-
-/* ========================================================
-   SCREEN TRANSITION & BROWSER / MOBILE HISTORY HANDLER
-======================================================== */
-function enterQuizScreen() {
-    const inputCard = document.getElementById('input-card');
-    if (inputCard) inputCard.classList.add('hidden');
-
-    const quizApp = document.getElementById('quiz-app');
-    if (quizApp) quizApp.classList.remove('hidden');
-    
-    try {
-        window.history.pushState({ page: 'quiz' }, "", "#quiz");
-    } catch (e) {
-        console.warn("pushState ignored for file:// sandbox:", e);
-    }
-    setMobileNavVisibility(true);
-}
-
-function backToConfig(shouldGoBackHistory = true) {
-    if (shouldGoBackHistory && window.location.hash === '#quiz') {
-        try {
-            window.history.back();
-            return;
-        } catch (e) {
-            console.warn("history.back ignored:", e);
-        }
-    }
-    stopCountdownTimer();
-    const quizApp = document.getElementById('quiz-app');
-    if (quizApp) quizApp.classList.add('hidden');
-
-    const inputCard = document.getElementById('input-card');
-    if (inputCard) inputCard.classList.remove('hidden');
-
-    setMobileNavVisibility(false);
-    updateSubjectStatsUI(currentSubjectId);
-}
-
-window.addEventListener('popstate', function(e) {
-    const quizApp = document.getElementById('quiz-app');
-    if (quizApp && !quizApp.classList.contains('hidden')) {
-        backToConfig(false);
-    }
-});
-
-function processInput() {
-    const rawText = document.getElementById('text-input').value;
-    currentQuestions = parseQuizText(rawText);
-
-    if (currentQuestions.length === 0) {
-        alert("Không tìm thấy câu hỏi hợp lệ! Hãy đảm bảo cấu trúc bắt đầu bằng 'Câu X:'.");
-        return;
-    }
-
-    isQuizSubmitted = false;
-    enterQuizScreen();
     renderQuiz();
-    renderSidebarNav();
+    updateProgress();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-/* ========================================================
-   QUIZ RENDERING & INTERACTION LOGIC
-======================================================== */
 function renderQuiz() {
     const container = document.getElementById('questions-container');
-    container.innerHTML = "";
+    const sidebarGrid = document.getElementById('sidebar-q-grid');
+    if (!container || !sidebarGrid) return;
 
-    currentQuestions.forEach(q => {
+    container.innerHTML = '';
+    sidebarGrid.innerHTML = '';
+
+    currentQuestions.forEach((q, idx) => {
         const card = document.createElement('div');
         card.id = `card-${q.id}`;
         card.className = `question-card ${q.isGraded ? (q.isCorrect ? 'correct' : 'incorrect') : ''}`;
 
-        let badgeText = "1 Đáp án";
-        let badgeClass = "badge-single";
-        if (q.type === "multiple") {
-            badgeText = "Nhiều đáp án";
-            badgeClass = "badge-multiple";
-        } else if (q.type === "truefalse") {
-            badgeText = "Đúng / Sai";
-            badgeClass = "badge-truefalse";
-        } else if (q.type === "fill") {
-            badgeText = "Điền từ";
-            badgeClass = "badge-fill";
-        }
+        let typeLabel = "TRẮC NGHIỆM ĐƠN";
+        if (q.type === "multiple") typeLabel = "CHỌN NHIỀU ĐÁP ÁN";
+        else if (q.type === "truefalse") typeLabel = "ĐÚNG / SAI (ĐỌC KỸ MỆNH ĐỀ)";
+        else if (q.type === "fill") typeLabel = "ĐIỀN TỪ / ĐÁP SỐ";
 
         let html = `
             <div class="question-header">
-                <span class="question-title">Câu ${q.id}</span>
-                <span class="badge ${badgeClass}">${badgeText}</span>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <span class="q-num">Câu ${q.id}</span>
+                    <span class="q-type-badge">${typeLabel}</span>
+                </div>
             </div>
-            <div class="question-text">${escapeHTML(q.question)}</div>
+            <div class="question-body">${escapeHTML(q.question)}</div>
         `;
 
-        if (q.isGraded) {
-            if (q.isCorrect) {
-                html += `<div class="feedback-badge feedback-correct">✓ Chính xác!</div>`;
-            } else {
-                html += `<div class="feedback-badge feedback-incorrect">✕ Chưa chính xác!</div>`;
-            }
-        }
-
         if (q.type === "truefalse") {
-            html += `<div class="tf-assertions-list">`;
+            html += `<div class="tf-options-container">`;
             q.options.forEach(opt => {
                 const userChoice = q.userTFAnswers ? q.userTFAnswers[opt.letter] : undefined;
                 const isSelectedDung = userChoice === true;
                 const isSelectedSai = userChoice === false;
                 const isGradedRow = q.isGraded;
-                const isThisRowCorrect = isGradedRow ? (userChoice === opt.isDung) : false;
+                const isThisRowCorrect = userChoice === opt.isDung;
 
                 let rowGradedClass = '';
                 if (isGradedRow) {
@@ -1211,14 +1007,8 @@ function renderQuiz() {
                         userChoicePill = `<span class="tf-result-pill user-wrong">✕ Chọn: ${userChoice ? 'Đúng' : 'Sai'}</span>`;
                     }
 
-                    const correctKeyPill = `<span class="tf-result-pill correct-key">Đáp án: ${opt.isDung ? 'Đúng' : 'Sai'}</span>`;
-
-                    html += `
-                        <div class="tf-result-badge-group">
-                            ${userChoicePill}
-                            ${correctKeyPill}
-                        </div>
-                    `;
+                    const correctKeyPill = `<span class="tf-result-pill correct-key">Đáp án chuẩn: ${opt.isDung ? 'Đúng' : 'Sai'}</span>`;
+                    html += `<div class="tf-result-badge-group">${userChoicePill}${correctKeyPill}</div>`;
                 }
 
                 html += `</div>`;
@@ -1236,6 +1026,7 @@ function renderQuiz() {
                 html += `<div class="correct-ans-display">💡 Đáp án chuẩn: <strong>${escapeHTML(q.fillAnswer)}</strong></div>`;
             }
         } else {
+            html += `<div class="options-grid">`;
             q.options.forEach(opt => {
                 const isChecked = q.userAnswers.includes(opt.letter);
                 let optClass = "";
@@ -1243,11 +1034,7 @@ function renderQuiz() {
                 if (q.isGraded) {
                     if (q.correctAnswers.includes(opt.letter)) {
                         optClass = "correct-opt";
-                        if (isChecked) {
-                            choiceBadge = `<span class="opt-badge opt-badge-correct">✓ Đáp án đúng bạn chọn</span>`;
-                        } else {
-                            choiceBadge = `<span class="opt-badge opt-badge-correct-key">✓ Đáp án chuẩn</span>`;
-                        }
+                        choiceBadge = isChecked ? `<span class="opt-badge opt-badge-correct">✓ Bạn đã chọn đúng</span>` : `<span class="opt-badge opt-badge-key">★ Đáp án chuẩn</span>`;
                     } else if (isChecked) {
                         optClass = "incorrect-opt";
                         choiceBadge = `<span class="opt-badge opt-badge-wrong">✕ Bạn chọn sai</span>`;
@@ -1255,76 +1042,57 @@ function renderQuiz() {
                 }
 
                 const inputType = q.type === "multiple" ? "checkbox" : "radio";
-                const disabledClick = q.isGraded ? "disabled-click" : "";
+                const changeHandler = q.type === "multiple" ? `onchange="handleMultipleSelection('${q.id}')"` : `onchange="handleSingleSelection('${q.id}', '${opt.letter}')"`;
+
                 html += `
-                    <label class="option-item ${optClass} ${disabledClick}" onclick="${q.type === 'multiple' ? `handleMultipleSelection('${q.id}')` : `handleUserSelection('${q.id}', '${opt.letter}')`}">
-                        <input type="${inputType}" name="q_${q.id}" value="${opt.letter}" ${isChecked ? 'checked' : ''} ${q.isGraded ? 'disabled' : ''}>
-                        <div class="option-content">
-                            <span class="option-letter">${opt.letter}.</span>
-                            <span class="option-text-val">${escapeHTML(opt.text)}</span>
-                        </div>
+                    <label class="option-item ${optClass}">
+                        <input type="${inputType}" name="q_${q.id}" value="${opt.letter}" ${isChecked ? 'checked' : ''} ${q.isGraded ? 'disabled' : ''} ${changeHandler}>
+                        <span class="opt-letter">${opt.letter}</span>
+                        <span class="opt-text">${escapeHTML(opt.text)}</span>
                         ${choiceBadge}
                     </label>
                 `;
             });
+            html += `</div>`;
         }
 
-        if (currentQuizMode === 'instant' && !q.isGraded) {
-            let hasSelectedAny = false;
-            if (q.type === 'truefalse') {
-                hasSelectedAny = Object.keys(q.userTFAnswers || {}).length > 0;
-            } else if (q.type === 'fill') {
-                hasSelectedAny = (q.userAnswers[0] || "").trim().length > 0;
-            } else {
-                hasSelectedAny = q.userAnswers.length > 0;
-            }
-
-            if (hasSelectedAny) {
-                html += `
-                    <div class="btn-action-zone">
-                        <span class="action-zone-hint">💡 Đã chọn đáp án. Bấm nút để kiểm tra:</span>
-                        <button class="btn-instant-confirm" onclick="gradeIndividualQuestion('${q.id}')">
-                            <span class="btn-icon">✨</span> Kiểm tra & Xem giải thích
-                        </button>
-                    </div>
-                `;
-            }
+        // Only show "Kiểm tra câu này" button for True/False questions in Instant mode!
+        if (currentQuizMode === 'instant' && !q.isGraded && q.type === 'truefalse') {
+            html += `
+                <div style="margin-top: 16px; text-align: right;">
+                    <button class="btn-primary" style="padding: 6px 14px; font-size: 0.85rem;" onclick="gradeIndividualQuestion('${q.id}')">
+                        ⚡ Kiểm tra câu này
+                    </button>
+                </div>
+            `;
         }
 
-        const expDisplay = q.isGraded ? "block" : "none";
-        html += `
-            <div class="explanation-box" id="exp-${q.id}" style="display: ${expDisplay};">
-                <div class="explanation-title">💡 Giải thích chi tiết:</div>
-                <div>${formatExplanationHTML(q.explanation)}</div>
-            </div>
-        `;
+        if (q.isGraded && q.explanation) {
+            html += `
+                <div class="explanation-box">
+                    <div class="exp-title">💡 Giải thích chi tiết & Quy luật suy luận:</div>
+                    <div class="exp-content">${formatExplanationHTML(q.explanation)}</div>
+                </div>
+            `;
+        }
 
         card.innerHTML = html;
         container.appendChild(card);
-    });
 
-    if (!isQuizSubmitted) {
-        const submitCard = document.createElement('div');
-        submitCard.className = 'quiz-bottom-submit-zone';
-        submitCard.style.cssText = 'margin: 30px 0; text-align: center; background: var(--bg-card); padding: 24px; border-radius: var(--radius-lg); border: 2px dashed var(--primary-light); box-shadow: 0 4px 12px rgba(0,0,0,0.05);';
-        submitCard.innerHTML = `
-            <div style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 12px;">
-                🎉 Bạn đã sẵn sàng hoàn thành bài làm?
-            </div>
-            <button class="btn-success" style="padding: 14px 32px; font-size: 1.05rem; font-weight: 800; border-radius: 50px; cursor: pointer; box-shadow: 0 4px 14px rgba(16,185,129,0.3);" onclick="submitQuiz()">
-                ✓ Nộp bài & Chấm điểm
-            </button>
-        `;
-        container.appendChild(submitCard);
-    }
+        const sidebarBtn = document.createElement('button');
+        sidebarBtn.id = `nav-btn-${q.id}`;
+        sidebarBtn.className = 'q-nav-btn';
+        sidebarBtn.innerText = q.id;
+        sidebarBtn.onclick = () => scrollToQuestion(q.id);
+        sidebarGrid.appendChild(sidebarBtn);
+    });
 
     updateProgress();
 }
 
-function handleUserSelection(qId, letter) {
+function handleSingleSelection(qId, letter) {
     const q = currentQuestions.find(item => item.id === qId);
     if (!q || q.isGraded) return;
-
     q.userAnswers = [letter];
     updateProgress();
     if (currentQuizMode === 'instant') {
@@ -1335,34 +1103,24 @@ function handleUserSelection(qId, letter) {
 function handleMultipleSelection(qId) {
     const q = currentQuestions.find(item => item.id === qId);
     if (!q || q.isGraded) return;
-
     setTimeout(() => {
         const checkedBoxes = document.querySelectorAll(`input[name="q_${qId}"]:checked`);
         q.userAnswers = Array.from(checkedBoxes).map(cb => cb.value);
         updateProgress();
-        if (currentQuizMode === 'instant') {
-            renderSidebarNav();
-        }
     }, 0);
 }
 
 function handleFillInput(qId) {
     const q = currentQuestions.find(item => item.id === qId);
     if (!q || q.isGraded) return;
-
     const inputVal = document.getElementById(`fill-input-${qId}`).value;
     q.userAnswers = [inputVal];
     updateProgress();
-    if (currentQuizMode === 'instant') {
-        renderSidebarNav();
-    }
 }
 
 function handleFillKeyPress(e, qId) {
     if (e.key === 'Enter') {
         e.preventDefault();
-        const q = currentQuestions.find(item => item.id === qId);
-        if (!q || q.isGraded) return;
         if (currentQuizMode === 'instant') {
             gradeIndividualQuestion(qId);
         }
@@ -1372,21 +1130,15 @@ function handleFillKeyPress(e, qId) {
 function handleTFSelection(qId, letter, isDung) {
     const q = currentQuestions.find(item => item.id === qId);
     if (!q || q.isGraded) return;
-
     if (!q.userTFAnswers) q.userTFAnswers = {};
     q.userTFAnswers[letter] = isDung;
-
     q.userAnswers = Object.keys(q.userTFAnswers);
     updateProgress();
-    if (currentQuizMode === 'instant') {
-        renderSidebarNav();
-    }
 }
 
 function gradeIndividualQuestion(qId) {
     const q = currentQuestions.find(item => item.id === qId);
     if (!q || q.isGraded) return;
-
     q.isGraded = true;
 
     if (q.type === "fill") {
@@ -1395,14 +1147,11 @@ function gradeIndividualQuestion(qId) {
         q.isCorrect = (userVal !== "" && userVal === correctVal);
     } else if (q.type === "truefalse") {
         let allAssertionsCorrect = true;
-        if (!q.options || q.options.length === 0) {
-            allAssertionsCorrect = false;
-        } else {
+        if (!q.options || q.options.length === 0) allAssertionsCorrect = false;
+        else {
             q.options.forEach(opt => {
                 const userChoice = q.userTFAnswers ? q.userTFAnswers[opt.letter] : undefined;
-                if (userChoice !== opt.isDung) {
-                    allAssertionsCorrect = false;
-                }
+                if (userChoice !== opt.isDung) allAssertionsCorrect = false;
             });
         }
         q.isCorrect = allAssertionsCorrect;
@@ -1412,199 +1161,61 @@ function gradeIndividualQuestion(qId) {
         q.isCorrect = (userSorted !== "" && userSorted === correctSorted);
     }
 
-    const card = document.getElementById(`card-${qId}`);
-    if (card) {
-        card.className = `question-card ${q.isCorrect ? 'correct' : 'incorrect'}`;
-
-        const header = card.querySelector('.question-header');
-        if (header) {
-            const oldBadge = card.querySelector('.feedback-badge');
-            if (oldBadge) oldBadge.remove();
-
-            const feedbackBadge = document.createElement('div');
-            feedbackBadge.className = `feedback-badge ${q.isCorrect ? 'feedback-correct' : 'feedback-incorrect'}`;
-            feedbackBadge.innerText = q.isCorrect ? "✓ Chính xác!" : "✕ Chưa chính xác!";
-            header.insertAdjacentElement('afterend', feedbackBadge);
-        }
-
-        if (q.type === "truefalse") {
-            q.options.forEach(opt => {
-                const row = document.getElementById(`tf-row-${qId}-${opt.letter}`);
-                if (row) {
-                    const leftContainer = row.querySelector('.tf-assertion-left');
-                    const toggleGroup = row.querySelector('.tf-toggle-group');
-
-                    row.classList.add('tf-graded');
-
-                    const userChoice = q.userTFAnswers ? q.userTFAnswers[opt.letter] : undefined;
-                    const isThisCorrect = (userChoice === opt.isDung);
-
-                    if (leftContainer && !leftContainer.querySelector('.tf-assertion-icon')) {
-                        const iconSpan = document.createElement('span');
-                        iconSpan.className = 'tf-assertion-icon';
-                        if (isThisCorrect) {
-                            iconSpan.style.color = 'var(--success)';
-                            iconSpan.innerText = '✓';
-                        } else {
-                            iconSpan.style.color = 'var(--danger)';
-                            iconSpan.innerText = '✕';
-                        }
-                        leftContainer.insertBefore(iconSpan, leftContainer.firstChild);
-                    }
-
-                    if (toggleGroup) toggleGroup.style.display = 'none';
-
-                    let badgeGroup = row.querySelector('.tf-result-badge-group');
-                    if (!badgeGroup) {
-                        badgeGroup = document.createElement('div');
-                        badgeGroup.className = 'tf-result-badge-group';
-                        row.appendChild(badgeGroup);
-                    }
-
-                    let userChoicePill = '';
-                    if (userChoice === undefined) {
-                        userChoicePill = `<span class="tf-result-pill user-wrong">Chưa chọn</span>`;
-                    } else if (isThisCorrect) {
-                        userChoicePill = `<span class="tf-result-pill user-correct">✓ Chọn: ${userChoice ? 'Đúng' : 'Sai'}</span>`;
-                    } else {
-                        userChoicePill = `<span class="tf-result-pill user-wrong">✕ Chọn: ${userChoice ? 'Đúng' : 'Sai'}</span>`;
-                    }
-
-                    const correctKeyPill = `<span class="tf-result-pill correct-key">Đáp án: ${opt.isDung ? 'Đúng' : 'Sai'}</span>`;
-                    badgeGroup.innerHTML = `${userChoicePill} ${correctKeyPill}`;
-
-                    if (isThisCorrect) {
-                        row.classList.add('tf-correct');
-                    } else {
-                        row.classList.add('tf-incorrect');
-                    }
-                }
-            });
-        } else if (q.type === "fill") {
-            const input = document.getElementById(`fill-input-${qId}`);
-            if (input) input.disabled = true;
-
-            if (!q.isCorrect) {
-                let ansDisp = card.querySelector('.correct-ans-display');
-                if (!ansDisp) {
-                    ansDisp = document.createElement('div');
-                    ansDisp.className = 'correct-ans-display';
-                    ansDisp.innerHTML = `💡 Đáp án chuẩn: <strong>${escapeHTML(q.fillAnswer)}</strong>`;
-                    const container = card.querySelector('.fill-container');
-                    if (container) container.appendChild(ansDisp);
-                }
-            }
-        } else {
-            const options = card.querySelectorAll('.option-item');
-            options.forEach(optLabel => {
-                const input = optLabel.querySelector('input');
-                if (input) {
-                    const val = input.value;
-                    const isUserSelected = q.userAnswers.includes(val);
-                    const isCorrectKey = q.correctAnswers.includes(val);
-
-                    input.checked = isUserSelected;
-                    input.disabled = true;
-                    optLabel.classList.add('disabled-click');
-
-                    const oldBadge = optLabel.querySelector('.opt-badge');
-                    if (oldBadge) oldBadge.remove();
-
-                    if (isCorrectKey) {
-                        optLabel.classList.add('correct-opt');
-                        const badge = document.createElement('span');
-                        badge.className = isUserSelected ? 'opt-badge opt-badge-correct' : 'opt-badge opt-badge-correct-key';
-                        badge.innerHTML = isUserSelected ? '✓ Đáp án đúng bạn chọn' : '✓ Đáp án chuẩn';
-                        optLabel.appendChild(badge);
-                    } else if (isUserSelected) {
-                        optLabel.classList.add('incorrect-opt');
-                        const badge = document.createElement('span');
-                        badge.className = 'opt-badge opt-badge-wrong';
-                        badge.innerHTML = '✕ Bạn chọn sai';
-                        optLabel.appendChild(badge);
-                    }
-                }
-            });
-        }
-
-        const actionZone = card.querySelector('.btn-action-zone');
-        if (actionZone) actionZone.style.display = 'none';
-
-        const expDiv = document.getElementById(`exp-${qId}`);
-        if (expDiv) {
-            expDiv.style.display = "block";
-        }
-    }
-
-    updateProgress();
+    renderQuiz();
+    saveWrongQuestions(currentSubjectId, [q]);
 }
 
-function submitQuiz() {
-    stopCountdownTimer();
-
-    if (currentQuestions.length === 0) return;
-
-    const unansweredCount = currentQuestions.filter(q => q.userAnswers.length === 0).length;
-    if (unansweredCount > 0 && totalSecondsLeft > 0) {
-        showCustomConfirm("Nộp Bài Thi", `Bạn còn ${unansweredCount} câu chưa trả lời. Bạn có chắc chắn muốn nộp bài?`, "Nộp bài ngay", (confirmed) => {
-            if (confirmed) executeSubmitQuiz();
-        });
-        return;
-    }
-
-    executeSubmitQuiz();
-}
-
-async function executeSubmitQuiz() {
+function submitFullQuiz() {
+    let correctCount = 0;
     currentQuestions.forEach(q => {
-        if (!q.isGraded) {
-            gradeIndividualQuestion(q.id);
-        }
+        if (!q.isGraded) gradeIndividualQuestion(q.id);
+        if (q.isCorrect) correctCount++;
     });
 
     isQuizSubmitted = true;
+    if (timerInterval) clearInterval(timerInterval);
 
-    // Score summary
     const total = currentQuestions.length;
-    const correctCount = currentQuestions.filter(q => q.isCorrect).length;
-    const incorrectCount = total - correctCount;
-    const scoreText = `${correctCount}/${total}`;
+    const scoreSummary = document.getElementById('score-summary');
+    const finalScore = document.getElementById('final-score');
+    const finalDesc = document.getElementById('final-desc');
 
-    document.getElementById('summary-score-text').innerText = scoreText;
-    document.getElementById('summary-correct-count').innerText = `✓ ${correctCount} câu đúng`;
-    document.getElementById('summary-incorrect-count').innerText = `✕ ${incorrectCount} câu sai`;
-    document.getElementById('score-summary').classList.remove('hidden');
+    if (finalScore) finalScore.innerText = `${correctCount} / ${total}`;
+    if (finalDesc) {
+        const pct = Math.round((correctCount / total) * 100);
+        finalDesc.innerText = `Đạt ${pct}% tổng số điểm (${correctCount} câu đúng trên tổng ${total} câu).`;
+    }
+    if (scoreSummary) scoreSummary.classList.remove('hidden');
 
-    // Save History & Wrong Questions to LocalStorage per subject
-    const title = document.getElementById('current-quiz-name').innerText.replace(/^📖 Đề:\s*|^🎲\s*|^🔥\s*/, '');
-    await saveQuizHistoryItem(currentSubjectId, title, scoreText, correctCount, total);
-    await saveWrongQuestions(currentSubjectId, currentQuestions);
-
-    document.getElementById('score-summary').scrollIntoView({ behavior: 'smooth' });
+    saveQuizHistoryItem(currentSubjectId, pendingQuizTitle || 'Đề trắc nghiệm', `${correctCount}/${total}`, correctCount, total);
+    renderQuiz();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function renderSidebarNav() {
-    const navGrid = document.getElementById('q-nav-grid');
-    const mobileStrip = document.getElementById('mobile-q-strip');
-    if (!navGrid || !mobileStrip) return;
-    navGrid.innerHTML = "";
-    mobileStrip.innerHTML = "";
+function startCountdownTimer(minutes) {
+    if (timerInterval) clearInterval(timerInterval);
+    totalSecondsLeft = minutes * 60;
+    const timerBadge = document.getElementById('quiz-timer-badge');
+    const timerText = document.getElementById('timer-text');
 
-    currentQuestions.forEach(q => {
-        const btn = document.createElement('button');
-        btn.id = `nav-btn-${q.id}`;
-        btn.innerText = q.id;
-        btn.onclick = () => scrollToQuestion(q.id);
-        navGrid.appendChild(btn);
+    if (timerBadge) timerBadge.classList.remove('hidden');
 
-        const mBtn = document.createElement('button');
-        mBtn.id = `mobile-nav-btn-${q.id}`;
-        mBtn.innerText = q.id;
-        mBtn.onclick = () => scrollToQuestion(q.id);
-        mobileStrip.appendChild(mBtn);
-    });
+    function tick() {
+        if (totalSecondsLeft <= 0) {
+            clearInterval(timerInterval);
+            if (timerText) timerText.innerText = "00:00 - Hết giờ!";
+            alert("⏰ Hết thời gian làm bài! Hệ thống tự động nộp bài thi của bạn.");
+            submitFullQuiz();
+            return;
+        }
+        const m = Math.floor(totalSecondsLeft / 60).toString().padStart(2, '0');
+        const s = (totalSecondsLeft % 60).toString().padStart(2, '0');
+        if (timerText) timerText.innerText = `${m}:${s}`;
+        totalSecondsLeft--;
+    }
 
-    updateProgress();
+    tick();
+    timerInterval = setInterval(tick, 1000);
 }
 
 function updateProgress() {
@@ -1613,72 +1224,23 @@ function updateProgress() {
 
     currentQuestions.forEach(q => {
         const btn = document.getElementById(`nav-btn-${q.id}`);
-        const mBtn = document.getElementById(`mobile-nav-btn-${q.id}`);
-
         const stateClass = q.isGraded ? (q.isCorrect ? 'correct' : 'incorrect') : (q.userAnswers.length > 0 ? 'answered' : '');
-        
         if (btn) btn.className = `q-nav-btn ${stateClass}`.trim();
-        if (mBtn) mBtn.className = `q-nav-btn ${stateClass}`.trim();
-
-        if (q.isGraded || q.userAnswers.length > 0) {
-            answeredCount++;
-        }
+        if (q.isGraded || q.userAnswers.length > 0) answeredCount++;
     });
 
     const percent = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
     const summaryText = `${answeredCount}/${total} (${percent}%)`;
-
     const pBadge = document.getElementById('progress-badge');
-    const mpText = document.getElementById('mobile-progress-text');
-    const fProgress = document.getElementById('floating-progress');
-    const pBar = document.getElementById('progress-bar');
-
     if (pBadge) pBadge.innerText = summaryText;
-    if (mpText) mpText.innerText = summaryText;
-    if (fProgress) fProgress.innerText = summaryText;
-    if (pBar) pBar.style.width = `${percent}%`;
-
-    const submitBtn = document.getElementById('btn-submit-quiz');
-    if (submitBtn) {
-        if (isQuizSubmitted) {
-            submitBtn.classList.add('hidden');
-        } else {
-            submitBtn.classList.remove('hidden');
-        }
-    }
 }
 
 function setMobileNavVisibility(visible) {
     const sidebar = document.getElementById('quiz-sidebar');
-    const floatingBar = document.getElementById('mobile-floating-bar');
-
     if (visible) {
         if (sidebar) sidebar.classList.remove('nav-hidden');
-        if (floatingBar) floatingBar.classList.add('hidden');
-        document.body.classList.add('has-mobile-nav');
     } else {
-        if (sidebar) {
-            sidebar.classList.add('nav-hidden');
-            sidebar.classList.remove('drawer-expanded');
-        }
-        if (floatingBar && !document.getElementById('quiz-app').classList.contains('hidden')) {
-            floatingBar.classList.remove('hidden');
-        }
-        document.body.classList.remove('has-mobile-nav');
-    }
-}
-
-function toggleMobileExpand() {
-    const sidebar = document.getElementById('quiz-sidebar');
-    const expandBtn = document.getElementById('mobile-toggle-expand-btn');
-
-    if (sidebar) sidebar.classList.toggle('drawer-expanded');
-    if (expandBtn) {
-        if (sidebar && sidebar.classList.contains('drawer-expanded')) {
-            expandBtn.innerText = "▼ Thu gọn";
-        } else {
-            expandBtn.innerText = "▲ Tất cả câu";
-        }
+        if (sidebar) sidebar.classList.add('nav-hidden');
     }
 }
 
@@ -1687,7 +1249,7 @@ function scrollToQuestion(qId) {
     if (!card) return;
     card.scrollIntoView({ behavior: 'smooth', block: 'center' });
     card.classList.remove('highlight-flash');
-    void card.offsetWidth; // trigger reflow
+    void card.offsetWidth;
     card.classList.add('highlight-flash');
 }
 
@@ -1699,11 +1261,8 @@ function resetQuiz() {
         q.isCorrect = false;
     });
     isQuizSubmitted = false;
-    document.getElementById('score-summary').classList.add('hidden');
-    const sidebar = document.getElementById('quiz-sidebar');
-    if (sidebar) sidebar.classList.remove('drawer-expanded');
-    const expandBtn = document.getElementById('mobile-toggle-expand-btn');
-    if (expandBtn) expandBtn.innerText = "▲ Tất cả câu";
+    const scoreSummary = document.getElementById('score-summary');
+    if (scoreSummary) scoreSummary.classList.add('hidden');
     renderQuiz();
     updateProgress();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1711,4 +1270,364 @@ function resetQuiz() {
     if (selectedMockTime > 0) {
         startCountdownTimer(selectedMockTime);
     }
+}
+
+/* ========================================================
+   LAST READ TEXTBOOK STORAGE & FLOATING QUICK READER
+======================================================== */
+function saveLastReadChapter(chapterObj) {
+    try {
+        localStorage.setItem('hnue_last_read_chapter', JSON.stringify(chapterObj));
+    } catch(e) {}
+}
+
+function getLastReadChapter() {
+    try {
+        const str = localStorage.getItem('hnue_last_read_chapter');
+        return str ? JSON.parse(str) : null;
+    } catch(e) {
+        return null;
+    }
+}
+
+function toggleQuickTextbookPicker() {
+    const modal = document.getElementById('quick-textbook-picker-modal');
+    if (!modal) return;
+    if (modal.classList.contains('hidden')) {
+        renderQuickTextbookPickerList();
+        modal.classList.remove('hidden');
+    } else {
+        modal.classList.add('hidden');
+    }
+}
+
+function renderQuickTextbookPickerList() {
+    const container = document.getElementById('quick-tb-list-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const tbCategories = allCategoriesData.filter(c => c.type === 'textbook');
+    if (!tbCategories || tbCategories.length === 0) {
+        container.innerHTML = '<p style="color: var(--text-muted); padding: 16px;">Không tìm thấy tệp bài giảng nào.</p>';
+        return;
+    }
+
+    const lastRead = getLastReadChapter();
+
+    tbCategories.forEach(tbCategory => {
+        const subjectGroup = allCategoriesData.find(c => c.subjectId === (tbCategory.subjectId || '').replace('-textbook', ''));
+        const subjectTitle = subjectGroup ? subjectGroup.category.replace(/^[^\s]+\s+/, '') : tbCategory.category;
+
+        const subHeader = document.createElement('div');
+        subHeader.style.fontWeight = '800';
+        subHeader.style.fontSize = '1.05rem';
+        subHeader.style.color = '#1e1b4b';
+        subHeader.style.margin = '16px 0 8px 0';
+        subHeader.style.paddingBottom = '4px';
+        subHeader.style.borderBottom = '2px solid #e0e7ff';
+        subHeader.innerText = `🎓 Môn: ${subjectTitle}`;
+        container.appendChild(subHeader);
+
+        if (tbCategory.volumes) {
+            tbCategory.volumes.forEach(vol => {
+                const volHeader = document.createElement('div');
+                volHeader.style.fontWeight = '700';
+                volHeader.style.fontSize = '0.88rem';
+                volHeader.style.color = '#4338ca';
+                volHeader.style.margin = '8px 0 6px 0';
+                volHeader.innerText = vol.volumeTitle;
+                container.appendChild(volHeader);
+
+                vol.chapters.forEach(ch => {
+                    const isLast = lastRead && lastRead.fileEncPath === ch.file;
+                    const item = document.createElement('div');
+                    item.className = `preset-card ${isLast ? 'active-last-read' : ''}`;
+                    item.style.padding = '10px 14px';
+                    item.style.marginBottom = '8px';
+                    if (isLast) {
+                        item.style.border = '2px solid #6366f1';
+                        item.style.background = '#e0e7ff';
+                    }
+                    item.onclick = () => {
+                        document.getElementById('quick-textbook-picker-modal').classList.add('hidden');
+                        openTextbookReader(ch.file, ch.title, ch.id, ch.quizId || '');
+                    };
+                    item.innerHTML = `
+                        <div class="preset-card-left">
+                            <span style="font-size: 1.3rem;">📖</span>
+                            <div style="font-size: 0.88rem; font-weight: 700; color: #1e293b;">
+                                ${escapeHTML(ch.title)}
+                                ${isLast ? '<span style="font-size:0.75rem; color:#4f46e5; margin-left:6px; font-weight:800;">(Đang đọc)</span>' : ''}
+                            </div>
+                        </div>
+                        <div class="preset-card-right">
+                            <span class="preset-badge" style="font-size: 0.78rem; padding: 4px 12px;">Đọc bài giảng</span>
+                        </div>
+                    `;
+                    container.appendChild(item);
+                });
+            });
+        }
+    });
+}
+
+/* ========================================================
+   POP-UP READER FUNCTIONS FOR TEXTBOOKS
+======================================================== */
+async function openTextbookReader(fileEncPath, title, chapterId, quizId) {
+    // If called with no specific file, try opening last read chapter if available!
+    if (!fileEncPath) {
+        const lastRead = getLastReadChapter();
+        if (lastRead && lastRead.fileEncPath) {
+            fileEncPath = lastRead.fileEncPath;
+            title = lastRead.title;
+            chapterId = lastRead.chapterId;
+            quizId = lastRead.quizId;
+        }
+    }
+
+    if (!fileEncPath) {
+        toggleQuickTextbookPicker();
+        return;
+    }
+
+    const modal = document.getElementById('textbook-reader-modal');
+    const titleEl = document.getElementById('reader-modal-title');
+    const bodyEl = document.getElementById('reader-modal-body');
+    const quizBtn = document.getElementById('reader-btn-quiz');
+
+    currentTextbookChapter = { fileEncPath, title, chapterId, quizId };
+    saveLastReadChapter(currentTextbookChapter);
+
+    if (titleEl) titleEl.innerText = title;
+    if (bodyEl) {
+        bodyEl.innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-muted);">⌛ Đang nạp bài giảng...</div>';
+    }
+    if (modal) modal.classList.remove('hidden');
+
+    if (quizBtn) {
+        if (quizId) {
+            quizBtn.classList.remove('hidden');
+            quizBtn.onclick = () => {
+                closeTextbookReader();
+                startQuizForChapter(quizId, title);
+            };
+        } else {
+            quizBtn.classList.add('hidden');
+        }
+    }
+
+    try {
+        let mdText = null;
+        const base64Str = getEmbeddedQuizContent(fileEncPath);
+        if (base64Str) {
+            const binary = window.atob(base64Str);
+            const bytes = new Uint8Array(binary.length);
+            for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+            mdText = await decryptQuizArrayBuffer(bytes.buffer);
+        } else {
+            try {
+                const response = await fetch(fileEncPath);
+                const arrayBuffer = await response.arrayBuffer();
+                mdText = await decryptQuizArrayBuffer(arrayBuffer);
+            } catch(e) {}
+        }
+
+        if (!mdText) {
+            bodyEl.innerHTML = '<div style="color: var(--danger); padding: 40px;">❌ Không thể nạp nội dung bài giảng.</div>';
+            return;
+        }
+
+        const html = renderMarkdownToHtml(mdText);
+        bodyEl.innerHTML = html;
+        bodyEl.scrollTop = 0;
+
+        const toc = extractTocFromMarkdown(mdText);
+        renderReaderToc(toc);
+
+    } catch (e) {
+        console.error("Open textbook reader error:", e);
+        if (bodyEl) bodyEl.innerHTML = '<div style="color: var(--danger); padding: 40px;">❌ Lỗi đọc tệp bài giảng.</div>';
+    }
+}
+
+function renderReaderToc(toc) {
+    const dropdown = document.getElementById('reader-toc-dropdown');
+    if (!dropdown) return;
+    dropdown.innerHTML = '';
+
+    if (!toc || toc.length === 0) {
+        dropdown.innerHTML = '<div style="padding: 10px; font-size: 0.82rem; color: #64748b;">Không có mục lục.</div>';
+        return;
+    }
+
+    toc.forEach(item => {
+        const div = document.createElement('div');
+        div.className = `reader-toc-item level-${item.level}`;
+        div.innerText = item.title;
+        div.onclick = () => {
+            jumpToTocHeading(item.slug);
+            toggleTocDropdown(false);
+        };
+        dropdown.appendChild(div);
+    });
+}
+
+function toggleTocDropdown(forceState) {
+    const dropdown = document.getElementById('reader-toc-dropdown');
+    if (!dropdown) return;
+    if (typeof forceState === 'boolean') {
+        if (forceState) dropdown.classList.remove('hidden');
+        else dropdown.classList.add('hidden');
+    } else {
+        dropdown.classList.toggle('hidden');
+    }
+}
+
+function jumpToTocHeading(slug) {
+    const heading = document.getElementById(slug);
+    if (heading) {
+        heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+function closeTextbookReader() {
+    const modal = document.getElementById('textbook-reader-modal');
+    if (modal) modal.classList.add('hidden');
+    toggleTocDropdown(false);
+}
+
+function setTextbookTheme(theme) {
+    currentTextbookTheme = theme;
+    const bodyEl = document.getElementById('reader-modal-body');
+    if (bodyEl) {
+        bodyEl.classList.remove('theme-light', 'theme-sepia', 'theme-dark');
+        bodyEl.classList.add(`theme-${theme}`);
+    }
+}
+
+function changeTextbookFontSize(delta) {
+    currentTextbookFontSize = Math.min(Math.max(currentTextbookFontSize + delta, 0.85), 1.5);
+    const bodyEl = document.getElementById('reader-modal-body');
+    if (bodyEl) {
+        bodyEl.style.fontSize = `${currentTextbookFontSize}rem`;
+    }
+}
+
+function startQuizForChapter(quizId, title) {
+    for (const cat of allCategoriesData) {
+        if (!cat.quizzes) continue;
+        const qIdx = cat.quizzes.findIndex(q => q.id === quizId);
+        if (qIdx !== -1) {
+            openStartQuizModalById(cat.subjectId, qIdx);
+            return;
+        }
+    }
+    openStartQuizModal(null, title);
+}
+
+/* ========================================================
+   DASHBOARD & HISTORY PAGE RENDERERS
+======================================================== */
+async function renderDashboardHistory() {
+    const container = document.getElementById('dashboard-recent-history');
+    if (!container) return;
+
+    const history = await getStoredHistory();
+    if (!history || history.length === 0) {
+        container.innerHTML = '<p style="color: var(--text-muted); font-style: italic;">Chưa có lịch sử làm bài. Hãy chọn một khóa học để bắt đầu ôn tập!</p>';
+        return;
+    }
+
+    let html = '<div style="display: flex; flex-direction: column; gap: 10px;">';
+    history.slice(0, 5).forEach(item => {
+        html += `
+            <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <div style="font-weight: 700; color: #1e293b;">${escapeHTML(item.title)}</div>
+                    <div style="font-size: 0.8rem; color: #64748b;">⏱️ ${item.time}</div>
+                </div>
+                <div style="text-align: right;">
+                    <span style="font-weight: 800; color: #4f46e5; font-size: 1.05rem;">${item.scoreText || item.correctCount + '/' + item.totalCount}</span>
+                </div>
+            </div>
+        `;
+    });
+    html += '</div>';
+    container.innerHTML = html;
+}
+
+async function renderHistoryPage() {
+    const container = document.getElementById('history-page-content');
+    if (!container) return;
+
+    const history = await getStoredHistory();
+    const wrongBank = await getStoredWrongBank();
+
+    let html = `
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 24px;">
+            <div style="background: #e0e7ff; border: 1px solid #c7d2fe; border-radius: 12px; padding: 18px; text-align: center;">
+                <div style="font-size: 0.85rem; color: #3730a3; font-weight: 700;">TỔNG SỐ LẦN THI</div>
+                <div style="font-size: 2.2rem; font-weight: 800; color: #1e1b4b; margin-top: 4px;">${history.length}</div>
+            </div>
+            <div style="background: #fee2e2; border: 1px solid #fca5a5; border-radius: 12px; padding: 18px; text-align: center;">
+                <div style="font-size: 0.85rem; color: #991b1b; font-weight: 700;">TỔNG SỐ CÂU HỎI LÀM SAI</div>
+                <div style="font-size: 2.2rem; font-weight: 800; color: #7f1d1d; margin-top: 4px;">${wrongBank.length}</div>
+            </div>
+        </div>
+
+        <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 12px; font-weight: 800;">📜 Nhật ký 30 Lần Thi Gần Nhất</h3>
+    `;
+
+    if (!history || history.length === 0) {
+        html += '<p style="color: var(--text-muted); padding: 20px 0;">Chưa có lịch sử làm bài nào được lưu.</p>';
+    } else {
+        html += '<div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;">';
+        history.forEach(item => {
+            html += `
+                <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <div style="font-weight: 700; color: #1e293b;">${escapeHTML(item.title)}</div>
+                        <div style="font-size: 0.82rem; color: #64748b;">⏱️ Thời gian: ${item.time}</div>
+                    </div>
+                    <div style="text-align: right;">
+                        <span style="font-size: 1.1rem; font-weight: 800; color: #4f46e5;">${item.scoreText || item.correctCount + '/' + item.totalCount}</span>
+                    </div>
+                </div>
+            `;
+        });
+        html += '</div>';
+    }
+
+    container.innerHTML = html;
+}
+
+/* ========================================================
+   FILE UPLOAD & SAMPLE HANDLERS
+======================================================== */
+function loadSampleText() {
+    const textInput = document.getElementById('text-input');
+    if (!textInput) return;
+    textInput.value = `Câu 1: Đối tượng nghiên cứu của Giáo dục học là gì?
+*A. Quá trình giáo dục con người trong các giai đoạn phát triển xã hội.
+B. Các hiện tượng tự nhiên và sinh học của con người.
+C. Lịch sử phát triển của các hình thái kinh tế xã hội.
+D. Hệ thống chính trị và thể chế nhà nước.
+Giải thích: Giáo dục học nghiên cứu bản chất, quy luật và phương pháp của quá trình giáo dục con người.
+
+Câu 2: Nguyên lý giáo dục của Việt Nam hiện nay bao gồm những nội dung nào?
+*A. Học đi đôi với hành, giáo dục kết hợp với lao động sản xuất, nhà trường gắn liền với xã hội.
+B. Giáo dục thuần túy lý thuyết và coi trọng bằng cấp.
+C. Chỉ tập trung giáo dục trong môi trường gia đình.
+D. Tách rời nhà trường khỏi thực tiễn đời sống xã hội.
+Giải thích: Nguyên lý giáo dục Việt Nam khẳng định học đi đôi với hành, lý luận gắn liền với thực tiễn.`;
+}
+
+function clearInput() {
+    const textInput = document.getElementById('text-input');
+    const fileInput = document.getElementById('file-input');
+    const fileStatus = document.getElementById('file-status');
+    if (textInput) textInput.value = '';
+    if (fileInput) fileInput.value = '';
+    if (fileStatus) fileStatus.innerText = '📄 Click hoặc kéo thả để chọn tệp câu hỏi trắc nghiệm';
 }

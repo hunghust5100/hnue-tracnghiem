@@ -1,0 +1,335 @@
+# Chương 1: GIÁO DỤC HỌC LÀ MỘT KHOA HỌC
+
+## I. GIÁO DỤC LÀ MỘT HIỆN TƯỢNG ĐẶC TRƯNG CỦA XÃ HỘI LOÀI
+
+NGƯỜI
+
+Để tồn tại và phát triển, loài người không ngừng tác động vào thế giới khách quan, nhận thức thế giới khách quan để tích luỹ vốn kinh nghiệm. Mặt khác, bất cứ một xã hội nào cũng chỉ tồn tại được nếu các thành viên của xã hội tiếp nhận được những kinh nghiệm mà loài người đã tích luỹ, bao gồm những tri thức, kĩ năng, kĩ xảo, tư tưởng, giá trị đạo đức, tiêu chuẩn hành vi. Giáo dục là phạm trù xã hội chỉ có ở con người, vì ở động vật những hành vi của chúng mang tính bản năng và được lưu giữ trong hệ thống Gien. Những kinh nghiệm mà loài người tích luỹ được trong quá trình phát triển của lịch sử được lưu giữ ở nền văn hoá nhân loại, được tiếp nối qua các thế hệ.
+
+Điều kiện cơ bản để xã hội loài người tồn tại và phát triển là đảm bảo được cơ chế di truyền và cơ chế di sản - chính giáo dục đảm bảo được cơ chế thứ hai. Như vậy giáo dục được hiểu như là quá trình thống nhất của sự hình thành tinh thần và thể chất của mỗi cá nhân trong xã hội. Với cách hiểu này, giáo dục đóng vai trò như một mặt không thể tách rời của cuộc sống con người, của xã hội. Nó là một hiện tượng của xã hội.
+
+Trong quá trình phát triển của xã hội loài ngưòi, thế hệ trước không ngừng truyền lại kinh nghiệm cho thế hệ sau, thế hệ sau lĩnh hội những kinh
+
+nghiệm đó để tham gia vào cuộc sống lao động và các hoạt động xã hội nhằm duy trì và phát triển xã hội loài người; chính sự truyền thụ và lĩnh hội đó gọi là giáo dục. Như vậy giáo dục là một hiện tượng của xã hội thể hiện ở việc truyền đạt những kinh nghiệm mà loài người đã tích luỹ được từ thế hệ này sang thế hệ khác. Tuy nhiên, thế hệ sau không phải chỉ lĩnh hội toàn bộ những kinh nghiệm của thế hệ trước để lại mà còn bổ sung, làm phong phú thêm những kinh nghiệm của loài ngươi - đó là quy luật của sự tiến bộ xã hội.
+
+Trong quá trình tiến hoá nhân loại, giáo dục xuất hiện cùng với sự xuất hiện của loài người, khi con người có quan hệ với tự nhiên bằng công cụ và phương tiện lao động thì nhu cầu về sự truyền đạt và lĩnh hội những kinh nghiệm của thế hệ trước cho thế hệ sau mới xuất hiện. Giáo dục như là một phương thức của xã hội đảm bảo việc kế thừa văn hoá, phát triển nhân cách.
+
+Trong thời kì sơ khai của xã hội loài người, giáo dục diễn ra trực tiếp ngay trong quá trình lao động sản xuất, con người vừa làm vừa truyền lại cho nhau cách làm, cách chế tạo công cụ lao động, các cách xử sự trong các mối quan hệ xã hội, các chuẩn mực đạo đức. Các nhà khoa học nghiên cứu việc xã hội hoá trẻ em trong thời kì nguyên thuỷ cho rằng: giáo dục trong thời kì này đan quyện trong hệ thống hoạt động sản xuất xã hội. Chức năng của dạy học, giáo dục nhằm chuyển tải văn hoá từ thế hệ trước cho thế hệ sau được thực hiện do tất cả những người lớn và được thực hiện trực tiếp trong quá trình giao tiếp với trẻ em. Việc mở rộng giới hạn giao tiếp cũng như phát triển ngôn ngữ và văn hoá dẫn đên tăng lượng thông tin và kinh nghiệm cần phải chuyển tải cho thế hệ sau, nhưng khả năng thực hiện lại bị hạn chế. Điều này dẫn đến hình thành cơ chế xã hội phải có sự chuyên trách thực hiện việc tích luỹ và truyền bá tri thức. Sự xuất hiện tư hữu, chia gia đình ra như một cộng đồng kinh tế dẫn đến vai trò giáo dục không phải chỉ là của công xã mà chủ yếu là ở gia đình.
+
+Vào thời kì cổ đại. một số nhà tư tưởng nhận thức rằng, sự phồn vinh về vật chất của các công dân riêng biệt và của gia đình phụ thuộc vào sức mạnh của quốc gia, giáo dục được truyền đạt không chỉ ở gia đình mà ở xã
+
+hội. Thời kì cổ Hy Lạp, nhà triết học Platon cho rằng, con cái của giai cấp cầm quyền phải nhận được sự giáo dục trong các cơ quan giáo dục của nhà nước và cần phải giáo dục trẻ em ngay từ khi mới ra đời, từ 7 tuổi trở đi, trẻ em trai cần được gửi vào các trường nội trú và sống trong điều kiện khắc nghiệt, vì mục đích chính của giáo dục là hình thành những người lính mạnh mẽ, có kỉ luật để bảo vệ các chủ nô. Nhìn chung nhiều quốc gia cổ đại có nền giáo dục như vậy.
+
+Cùng với việc hình thành chữ viết dẫn tới không chỉ làm thay đổi trong phương pháp tích luỹ, gìn giữ và chuyền tải tri thức, mà còn làm thay đổi nội dung, phương pháp giáo dục, dạy học. Khi quá trình sản xuất ngày càng phức tạp hơn, cùng với sự phức tạp của cuộc sống xã hội, của cơ cấu tổ chức nhà nước đã đặt ra yêu cầu cao hơn ở những người được giáo dục, đòi hỏi việc tiếp thu, luyện tập công phu hơn, do đó việc truyền thụ diễn ra một cách có tổ chức và được chuẩn bị trước, dẫn đến việc chuyển từ dạy học cá nhân sang dạy học tập thể trong các nhà trường. Sự ra đời của nhà trường như một cơ quan chuyên biệt đảm nhận việc giáo dục đã cho phép chuyển tải những thông tin cùng một lúc cho nhiều người, làm cho đại đa số có thể tiếp thu được kiến thức, nâng cao hiệu quả giáo dục.
+
+Nửa sau của thế kỉ XX có sự bùng nổ về giáo dục ở trẻ em, thanh niên, người lớn, cùng với sự thay đổi về máy móc cơ khí, xuất hiện tự động hoá, sự phát triển của công nghệ đã làm thay đổi lao động của con người trong sản xuất, giáo dục như là điều kiện cần thiết để tái sản xuất sức lao động xã hội. Ngày nay, giáo dục trở thành một hoạt động được tổ chức đặc biệt, thiết kế theo một kế hoạch chặt chẽ có phương pháp, phương tiện hiện đại, góp phần tạo ra động lực thúc đẩy sự phát triển của xã hội. Đạo đức, trí tuệ, khoa học, kĩ thuật, văn hoá tinh thần và tiềm năng kinh tế của bất cứ xã hội nào đều phụ thuộc vào mức độ phát triển của giáo dục.
+
+Giáo dục được thể hiện ở một số tính chất, nó là một hiện tượng phổ biến và vĩnh hằng, tức là giáo dục chỉ có ở xã hội loài người, nó là một phần không thể tách rời của đời sống xã hội, giáo dục có ở mọi thời đại, mọi thiết
+
+chế xã hội khác nhau, nói một cách khác, giáo dục xuất hiện cùng với sự xuất hiện của xã hội và nó mất đi khi xã hội không tồn tại, là điều kiện không thể thiếu được cho sự tồn tại và phát triển của mỗi cá nhân và xã hội loài người. Như vậy, giáo dục tồn tại cùng với sự tồn tại của xã hội loài người, là con đường đặc trưng cơ bản để loài người tồn tại và phát triển.
+
+Giáo dục là một hoạt động gắn liền với tiến trình đi lên của xã hội. Ở mỗi giai đoạn phát triển của lịch sử đều có nền giáo dục tương ứng, khi xã hội chuyển từ hình thái kinh tế - xã hội này sang hình thái kinh tế - xã hội khác thì toàn bộ hệ thống giáo dục tương ứng cũng biến đổi theo. Giáo dục chịu sự quy định của xã hội. Nó phản ánh trình độ phát triển kinh tế - xã hội và đáp ứng các yêu cầu kinh tế - xã hội trong những điều kiện cụ thể. Giáo dục luôn biến đổi trong quá trình phát triển của lịch sử loài người, không có một nền giáo dục rập khuôn cho mọi hình thái kinh tế — xã hội, cho mọi giai đoạn của mỗi hình thái kinh tế - xã hội cũng như cho mọi quốc gia, chính vì vậy giáo dục mang tính lịch sử. Ở mỗi thời kì lịch sử khác nhau thì giáo dục khác nhau về mục đích, nội dung, phương pháp, hình thức tổ chức giáo dục. Các chính sách giáo dục luôn được hoàn thiện dưới ảnh hưởng của những kinh nghiệm và các kết quả nghiên cứu.
+
+Giáo dục mang tính giai cấp, đó là sự khẳng định của rất nhiều nhà giáo dục hiện nay, tính chất giai cấp của giáo dục thể hiện trong các chính sách giáo dục chính thống được xây dựng trên cơ sở tư tưởng của nhà nước cầm quyền, nó khẳng định giáo dục không đứng ngoài chính sách và quan điểm của nhà nước, điều đó được toàn xã hội chấp nhận. Giáo dục được sử dụng như một công cụ của giai cấp cầm quyền nhằm duy trì lợi ích của giai cấp mình, những lợi ích này có thể phù hợp thiểu số người trong xã hội hoặc với đa số các tầng lớp trong xã hội hoặc với lợi ích chung của toàn xã hội. Chính vì vậy mà trong xã hội có giai cấp đối kháng, giáo dục là đặc quyền đặc lợi của giai cấp thống trị. Trong xã hội không có giai cấp đối kháng, giáo dục hướng tới sự công bằng. Tính giai cấp quy định mục đích giáo dục, nội dung giáo dục, phương pháp và hình thức tổ chức giáo dục.v.v.
+
+Ngày nay, nhiều quốc gia trên thế giới đang hướng tới sự hòa hợp về lợi ích giữa các giai cấp, tầng lớp, hướng tới một nền giáo dục bình đẳng cho mọi người.
+
+Ở Việt Nam, mục đích của Nhà nước ta là hướng tới xoá bỏ áp bức bóc lột, từ đó hướng tới sự bình đẳng, công bằng trong giáo dục. Khi chuyển sang cơ chế thị trường, bên cạnh những mặt tích cực cơ bản vẫn có những mặt trái khó tránh được, nhà nước ta đã cố gắng đưa ra những chính sách đảm bảo công bằng trong giáo dục như:
+
+- Mọi công dân đều có quvền tiếp cận hệ thống giáo dục.
+
+- Đảm bảo cho những học sinh, sinh viên có năng khiếu, tài năng tiếp
+
+tục được đào tạo lên cao bất kể điều kiện kinh tế, hoàn cảnh, giới tính, dân tộc, tôn giáo v.v..
+
+- Tiến hành xoá mù chữ, phổ cập giáo dục.
+
+- Đa dạng, mềm dẻo các loại hình đào tạo, các loại hình trường lớp
+
+nhằm tạo cơ hội học tập cho mọi tầng lớp nhân dân.
+
+## II. GIÁO DỤC HỌC LÀ MỘT KHOA HỌC
+
+### 1. Sự ra đời và phát triển của Giáo dục học
+
+Mỗi con người bằng kinh nghiệm của mình cũng có được những tri thức nhất định trong lĩnh vực giáo dục. Ở thời kì nguyên thuỷ, con người phải làm chủ được những tri thức về giáo dục trẻ em, phải truyền lại những tri thức đó từ thế hệ này đến thế hệ khác dưới hình thức phong tục, tập quán, trò chơi, các quy tắc của cuộc sống. Các tri thức này phản ánh trong các câu ca dao, tục ngữ, truyện cổ tích, thần thoại, v.v nó có vai trò quan trọng trong xã hội, trong cuộc sống gia đình cũng như giúp cho việc hoàn thiện nhân cách.
+
+Trong quá trình phát triển xã hội, những tri thức kinh nghiệm được khái quát lại trong từng khoa học cụ thể. Có thể xem khoa học là một trong những hình thái ý thức xã hội; bao gồm hoạt động để tạo ra hệ thống những tri thức khách quan về thực tiễn, đồng thời bao gồm cả kết quả của hoạt động ấy.
+
+Tức là toàn bộ những tri thức làm nền tảng cho bức tranh về thế giới. Sự tích luỹ kinh nghiệm là phương tiện làm phong phú khoa học, phát triển lí luận và thực tiễn.
+
+Giáo dục học là một ngành của khoa học xã hội, ngày càng được củng cố bằng hệ thống lí thuyết vững chắc và phát triển mạnh mẽ, góp phần to lớn vào sự phát triển xã hội. Lúc đầu, những tri thức về giáo dục được hình thành trong khuôn khổ của Triết học, nó chỉ là một bộ phận của Triết học. Những nhà triết học thời cổ đại như Socrate (469 - 399 trước CN), Platon (427 — 348 trước CN), Aristote (348 - 322 trước CN) đã lí giải các vấn đề về giáo dục ở phương Tây. Ở phương Đông, tư tưởng giáo dục của Khổng Tử (551 — 479 trước CN) đã có những đóng góp quý báu vào kho tàng lí luận giáo dục của dân tộc Trung Hoa nói riêng và kho tàng giáo dục của nhân loại nói chung. Những tư tưởng giáo dục trong giai đoạn này đã được xuất hiện và tập trung đậm nét trong các quan điểm triết học.
+
+Vào thời kì Văn hoá Phục hưng, những người có công lớn trong việc làm phong phú những tư tưởng giáo dục như nhà văn Pháp Rabơle (1494 - 1555), nhà hoạt động chính trị và nhà tư tưởng Anh - Thomas Mor (1478 - 1535), nhà triết học Italia - Kampanella (1562 - 1659).v.v
+
+Mặc dù phát triển mạnh những lí thuyết giáo dục như vậy, nhưng đến đầu thế kỉ thứ XVII, Giáo dục học vẫn còn là một bộ phận của Triết học. Sau này, nhà triết học và tự nhiên học Anh Becơn (1561 - 1626) xuất bản cuốn "Về giá trị và sự gia tăng của khoa học" vào năm 1623, trong đó ông có ý định phân loại Khoa học và tách Giáo dục học ra như một khoa học độc lập. Ngay trong thế kỉ đó, Giáo dục học như một khoa học độc lập được củng cố vững chắc bằng nhiều công trình của Jêm Amôt Cômenki (1592 — 1670). Ông đã đóng một cái mốc quan trọng trong quá trình phát triển lí luận và hoạt động giáo dục của nhân loại, các công trình nghiên cứu của ông là một di sản đồ sộ với ngót 140 công trình nghiên cứu chứa đựng những tư tưởng lớn về giáo dục, về xã hội, về triết học...v.v. Cômenxki là người đầu tiên trong lịch sử đã nêu được một hệ thống các nguyên tắc trong dạy học mà đến nay hầu như
+
+các nguyên tắc đó về cơ bản vẫn có ý nghĩa trong trong hệ thống các nguyên tắc dạy học hiện đại. Những tư tưởng lớn về lí luận dạy học của Cômenxki được trình bày trong tác phẩm nổi tiếng "Lí luận dạy học vĩ đại” viết năm 1632. Bằng quan điểm giáo dục mới mẻ, khoa học, cuốn sách này đã ra đời cùng với sự ra đời và phát triển của một ngành khoa học mới, đó là “Giáo dục học”.
+
+Lịch sử giáo dục học đã chứng minh rằng, ở mỗi giai đoạn phát triển trong từng thời đại khác nhau, Giáo dục học không ngừng sáng tạo, bổ sung những tri thức mới. Giáo dục học tự điều chỉnh và phát triển nhằm phục vụ các yêu cầu ngày càng cao của hoạt động giáo dục trong thực tiễn.
+
+Giáo dục học nghiên cứu, chỉ đạo thực tiễn giáo dục, đảm bảo cho giáo dục thực hiện tốt các chức năng của mình. Thực tiễn giáo dục là cơ sở cho sự ra đời và phát triển của Giáo dục học, đồng thời những kinh nghiệm của thực tiễn giáo dục được hệ thống hoá, khái quát hoá trong Giáo dục học.
+
+Trong quá trình phát triển của mình, Giáo dục học luôn loại bỏ những quan điểm lỗi thời và luôn luôn bổ sung các luận điểm và lí thuyết mới phù hợp với trình độ và yêu cầu của xã hội.
+
+### 2. Đối tượng và nhiệm vụ của Giáo dục học
+
+a. Đối tượng của Giáo dục học
+
+Giáo dục là một hiện tượng xã hội, có tính phức tạp về nhiều mặt, nhiều khía cạnh, có nhiều khoa học đi vào nghiên cứu nó như Kinh tế học, Xã hội học, Triết học, Chính trị học..v.v.
+
+Sự đóng góp của nhiều khoa học trong việc nghiên cứu giáo dục như là một hiện tượng đặc trưng của xã hội đã khẳng định giá trị của nó, tuy nhiên những khoa học này không đề cập tới bản chất của giáo dục, tới những mối quan hệ của các quá trình phát triển con người như một nhân cách, tới sự phối hợp giữa nhà giáo dục với người được giáo dục trong quá trình phát triển đó. Cùng với các điều kiện đảm bảo cho sự phát triển. Việc nghiên cứu
+
+các khía cạnh nêu trên cần phải có khoa học chuyên ngành nghiên cứu, đó là Giáo dục học.
+
+Như vậy, Giáo dục học được coi là khoa học nghiên cứu bản chất, quy luật, các khuynh hướng và tương lai phát triển của quá trình giáo dục, với các nhân tố và phương tiện phát triển con người như một nhân cách trong suốt toàn bộ cuộc sống. Trên cơ sở đó, Giáo dục học nghiên cứu lí luận và cách tổ chức quá trình đó, các phương pháp, hình thức hoàn thiện hoạt động của nhà giáo dục, các hình thức hoạt động của người được giáo dục. Đồng thời nghiên cứu sự phối hợp hành động của nhà giáo dục vối người được giáo dục.
+
+Từ những phân tích trên cho thấy, đối tượng của Giáo dục là quá trình giáo dục toàn vẹn, hiện thực có mục đích, được tổ chức trong một xã hội nhất định. Quá trình giáo dục như vậy được hiểu theo nghĩa rộng là quá trình hình thành nhân cách, được tổ chức một cách có mục đích, có kế hoạch, căn cứ vào những mục đích, những điều kiện do xã hội quy định, được thực hiện thông qua sự phối hợp hành động giữa nhà giáo dục và người được giáo dục nhằm giúp cho người được giáo dục chiếm lĩnh những kinh nghiệm xã hội của loài người.
+
+Quá trình giáo dục là một loại quá trình xã hội mang đặc trưng của quá trình xã hội, tức là nó có tính định hướng, diễn ra trong thời gian nhất định, biểu hiện thông qua hoạt động của con người, vận động do tác động của các nhân tố bên trong, bên ngoài và tuân theo những quy luật khách quan. Bất cứ một quá trình nào cũng đều có sự thay đổi liên tục từ trạng thái này sang trạng thái khác, giáo dục được xem xét như một quá trình thì sự thay đổi đó là kết quả của sự phối hợp hành động giáo dục của nhà giáo dục và người được giáo dục.
+
+Quá trình giáo dục bao gồm sự thống nhất của hai quá trình bộ phận là quá trình dạy học và quá trình giáo dục (theo nghĩa hẹp), các quá trình này đều thực hiện các chức năng chung của giáo dục trong việc hình thành nhân
+
+cách toàn diện. Song, mỗi quá trình đều có chức năng trội của mình và dựa vào chức năng trội đó để thực hiện các chức năng khác.
+
+Quá trình giáo dục là sự vận động từ mục đích của giáo dục đến các kết quả của nó, tính toàn vẹn như là sự thống nhất nội tại của các thành tố trong quá trình giáo dục.
+
+Quá trình giáo dục được xem như là một hệ thống bao gồm các thành tố cấu trúc như: mục đích giáo dục, nội dung giáo dục, phương pháp, phương tiện giáo dục, hình thức tổ chức giáo dục, người giáo dục, người được giáo dục, kết quả giáo dục.
+
+Quá trình giáo dục luôn có sự phối hợp hành động giữa người giáo dục và người được giáo dục. Sự phối hợp này trên bình diện cá nhân và tập thể giúp cho người được giáo dục chiếm lĩnh giá trị văn hoá của nhân loại, hình thành nhân cách.
+
+b. Nhiệm vụ của Giáo dục học
+
+Bất cứ một khoa học nào cũng bao gồm một hệ thống các nhiệm vụ cần giải quyết, Giáo dục học là một khoa học cần thực hiện các nhiệm vụ cơ bản sau:
+
+- Giải thích nguồn gốc phát sinh, phát triển và bản chất của hiện tượng
+
+giáo dục, phân biệt các mối quan hệ có tính quy luật và tính ngẫu nhiên. Tìm ra các quy luật chi phối quá trình náo dục để tổ chức chúng đạt hiệu quả tối ưu.
+
+- Giáo dục học nghiên cứu dự báo tương lai gần và tương lai xa của
+
+giáo dục, nghiên cứu xu thế phát triển và mục tiêu chiến lược của giáo dục trong mỗi giai đoạn phát triển của xã hội để xây dựng chương trình giáo dục và đào tạo.
+
+- Nghiên cứu xây dựng các lí thuyết giáo dục mới, hoàn thiện các mô
+
+hình giáo dục, dạy học, phân tích kinh nghiệm giáo dục, tìm ra con đường ngắn nhất và các phương tiện để áp dụng chúng vào thực tiễn giáo dục.
+
+- Trên cơ sở các thành tựu của khoa học và công nghệ, Giáo dục học
+
+còn nghiên cứu tìm tòi các phương pháp và phương tiện giáo dục mới nhằm nâng cao hiệu quả giáo dục.
+
+Ngoài ra còn có nhiều các nhiệm vụ khác ở phạm vi và khía cạnh cụ thể (kích thích tính tích cực học tập của học sinh, nguyên nhân của việc kém nhận thức, các yếu tố lựa chọn nghề nghiệp của học sinh, tiêu chuẩn giáo viên..v.v)
+
+### 3. Một số khái niệm của Giáo dục học
+
+Bất cứ một lĩnh vực khoa học nào cũng bao gồm một hệ thống khái niệm, có khái niệm cốt lõi, các khái niệm còn lại thể hiện sự phân hoá của khái niệm cốt lõi.
+
+Giáo dục (theo nghĩa rộng) là quá trình tác động có mục đích, có tổ chức, có kê hoạch, có nội dung và bằng phương pháp khoa học của nhà giáo dục tới người được giáo dục trong các cơ quan giáo dục, nhằm hình thành nhân cách cho họ.
+
+Giáo dục (theo nghĩa hẹp) là quá trình hình thành cho người được giáo dục lí tưởng, động cơ, tình cảm, niềm tin, những nét tính cách của nhân cách, những hành vi, thói quen cư xử đúng đắn trong xã hội thông qua việc tổ chức cho họ các hoạt động và giao lưu.
+
+Dạy học là quá trình tác động qua lại giữa người dạy và người học nhằm giúp cho người học lĩnh hội những tri thức khoa học, kĩ năng hoạt động nhận thức và thực tiễn, phát triển các năng lực hoạt động sáng tạo, trên cơ sở đó hình thành thế giới quan và các phẩm chất nhân cách của người học theo mục đích giáo dục.
+
+Với sự phát triển của giáo dục hiện nay đã xuất hiện thêm nhiều khái niệm như:
+
+Giáo dục suốt đời là nguyên tắc chỉ đạo việc tổ chức tổng thể một hệ thống giáo dục cũng như chỉ đạo việc tổ chức từng bộ phận của hệ thống giáo
+
+dục, ý tưởng cơ bản của nguyên tắc này là giáo dục toàn diện cho các giai đoạn của cuộc đời con người.
+
+Giáo dục không chính quy là phương thức giáo dục giúp mọi người vừa làm, vừa học, học liên tục, suốt đời nhằm hoàn thiện nhân cách, mở rộng hiểu biết, nâng cao trình độ học vấn, chuyên môn, nghiệp vụ để cải thiện chất lượng cuộc sống, tìm việc làm và thích nghi với đời sống xã hội.
+
+Giáo dục cộng đồng là phương thức giáo dục không chính quy do người dân trong cộng đồng (xã, phường, thôn, bản) tự tổ chức nhằm đáp ứng nhu cầu học tập của những người không có đủ điều kiện theo học các trường, lớp giáo dục chính quy. Giáo dục cộng đồng là một loại hình giáo dục đã được phát triển mạnh mẽ ở nhiều nơi trên thế giới trong gần hai thập kỉ qua. Đặc trưng của giáo dục cộng đồng là hướng những hoạt động của các cơ sở giáo dục và đào tạo vào việc làm thoả mãn mọi nhu cầu giáo dục và đào tạo cho từng cá nhân và cộng đồng dân cư trong vùng kinh tế - xã hội có những đặc thù riêng (về cấu trúc xã hội, trình độ phát triển kinh tế — sản xuất, bản sắc văn hoá truyền thống).
+
+Giáo dục hướng nghiệp là một hệ thống các biện pháp giáo dục của nhà trường, gia đình và xã hội nhằm chuẩn bị cho thế hệ trẻ về tư tưởng, tâm lí, tri thức, kĩ năng để họ sẵn sàng đi vào ngành nghề, lao động sản xuất, bảo vệ Tổ quốc.
+
+Công nghệ dạy học khái niệm "công nghệ" (Technology) nguyên áp dụng cho những quy trình xử lí vật chất trong sản xuất công nghiệp. Vài thập kỉ gần đây nó đã tiến vào lĩnh vực giáo dục - "quy trình hoá việc đào tạo con người" và xuất hiện các thuật ngữ "công nghệ đào tạo" "công nghệ giáo dục" "công nghệ dạy học". Người đầu tiên sử dụng thuật ngữ "công nghệ giảng dạy" là B.P. Skinner (1968). Có nhiều quan điểm khác nr.hau về công nghệ dạy học, song tựu chung lại có hai cách hiểu cơ bản:
+
+Công nghệ dạy học theo nghĩa hẹp được hiểu là việc sử dụng vào dạy học và giáo dục các phát minh, các sản phẩm của công nghệ thông tin và các phương tiện kĩ thuật dạy học.
+
+- Công nghệ dạy học theo nghĩa rộng: Từ những năm 70 trở lại đây,
+
+các nhà khoa học đã đưa ra những định nghĩa không chỉ đơn thuần là những yếu tố phương tiện kĩ thuật mà còn được mở rộng hơn. UNESCO (1987): là một tập hợp gắn bó chặt chẽ những phương pháp, phương tiện kĩ thuật học tập và đánh giá được nhận thức và sử dụng tuỳ theo những mục tiêu đang theo đuổi, có liên hệ với nội dung giảng dạy và lợi ích của người học. Đối với người dạy, sử dụng công nghệ dạy học thích hợp có nghĩa là biết tổ chức quá trình học tập và đảm bảo sự thành công của quá trình đó.
+
+Có rất nhiều khái niệm trong hệ thống các khái niệm về giáo dục học sẽ được trình bày trong giáo trình này. Tuy nhiên với sự phát triển của thời đại ngày nay, cùng với sự đổi mới và phát triển tri thức ở nhiều lĩnh vực thì đó cũng là một quá trình hình thành các thuật ngữ khoa học. Do vậy, không nên cho rằng các thuật ngữ đã có là hoàn thiện và chính xác tuyệt đối, việc nghiên cứu và hoàn thiện các thuật ngữ cũng là nhiệm vụ cấp bách của Giáo dục học.
+
+4. Phương pháp luận và phương pháp nghiên cứu Giáo dục học
+
+a. Phương pháp luận nghiên cứu Giáo dục học
+
+Trong nghiên cứu khoa học nói chung, có hai vấn đề cơ bản là phương pháp luận và phương pháp nghiên cứu (cụ thể). Khoa học chỉ phát triển trong trường hợp nó luôn được bổ sung những tri thức mới.
+
+Phương pháp luận được hiểu là lí thuyết về các nguyên tắc để tiến hành các phướng pháp, các hình thức của hoạt động nhận thức khoa học, là hệ thống các quan điểm, các nguyên tắc chỉ đạo hoạt động của chủ thể. Các quan điểm phương pháp luận mang màu sắc triết học. Phương pháp luận trong Giáo dục học được xem xét như là sự tổng hợp các luận điểm về nhận thức giáo dục và cải tạo, biến đổi thực tiễn giáo dục
+
+Những quan điểm phương pháp luận là kim chỉ nam hướng dẫn các nhà khoa học tìm tòi, nghiên cứu khoa học, có thể đề cập một số quan điểm phương phương pháp luận nghiên cứu giáo dục học như:
+
+- Quan điểm duy vật biện chứng: Khi nghiên cứu, các nhà khoa học
+
+phải xem xét sự vật, hiện tượng, quá trình giáo dục trong các mối quan hệ phức tạp của chúng, đồng thời khi nghiên cứu phải xem xét đối tượng trong sự vận động và phát triển.
+
+- Quan điểm lịch sử - lôgic: Yêu cầu khi nghiên cứu phải phát hiện
+
+nguồn gốc nảy sinh, quá trình diễn biến của đối tượng nghiên cứu trong không gian, thời gian với những điều kiện và hoàn cảnh cụ thể.
+
+- Quan điểm thực tiễn: Yêu cầu khi nghiên cứu giáo dục cần phải xuất
+
+phát từ thực tiễn, phải khái quát để tìm ra quy luật phát triển của chúng từ thực tiễn, kết quả nghiên cứu được kiểm nghiệm trong thực tiễn và phải được ứng dụng trong thực tiễn.
+
+- Quan điểm hệ thống: Khi nghiên cứu đối tượng phải phân tích chúng
+
+thành những bộ phận để xem xét một cách sâu sắc và toàn diện, phải phân tích mối quan hệ giữa các sự vật, hiện tượng, các quá trình cũng như mối quan hệ giữa các bộ phậntrong từng sự vật, hiện tượng và quá trình đó.
+
+b. Các phương pháp nghiên cứu Giáo dục học
+
+Phương pháp nghiên cứu giáo dục học là cách thức, là con đường mà nhà khoa học sử dụng để khám phá bản chất, quy luật của quá trình giáo dục, nhằm vận dụng chúng vào thực tiễn giáo dục. Các phương pháp được sử dụng trong nghiên cứu giáo dục học bao gồm:
+
+* Các phương pháp nghiên cứu lí thuyết
+
+Các phương pháp nghiên cứu lí thuyết bao gồm:
+
+Phương pháp phân tích và tổng hợp lí thuyết
+
+Phân tích lí thuyết: Là thao tác phân chia tài liệu lí thuyết thành các đơn vị kiến thức, cho phép ta có thể tìm hiểu những dấu hiệu đặc thù, cấu trúc bên trong của lí thuyết.
+
+Tổng hợp lí thuyết: Là sự liên kết các yếu tố, các thành phần để tạo thành một tổng thể. Trong phân tích cũng cần có sự liên kết các yếu tố nhưng
+
+nó có tính bộ phận hơn là tính toàn thể, còn trong phạm trù tổng hợp, sự chế biến những yếu tố đã cho thành một tổng thể có nhấn mạnh hơn đến tính thống nhất và tính sáng tạo.
+
+Phân tích và tổng hợp cho phép xây dựng được cấu trúc của các vấn đề cần nghiên cứu
+
+Phương pháp mô hình hoá
+
+Là phương pháp nghiên cứu các hiện tượng và quá trình giáo dục dựa vào mô hình của chúng. Mô hình đối tượng là hệ thống các yếu tố vật chất và tinh thần. Mô hình tương tự như đối tượng nghiên cứu và tái hiện những mối liên hệ cơ cấu, chức năng, nhân, quả của đối tượng. Nghiên cứu trên mô hình sẽ giúp cho các nhà khoa học khám phá ra bản chất, quy luật của đối tượng.
+
+* Các phương pháp nghiên cứu thực tiễn
+
+Phương pháp quan sát
+
+Quan sát trong nghiên cứu giáo dục là phương pháp thu thập thông tin về sự vật, hiện tượng, quá trình giáo dục trên cơ sở tri giác trực tiếp các hoạt động giáo dục và các điều kiện khách quan của hoạt động đó. Quan sát trực tiếp đối tượng giáo dục nhằm phát hiện ra những biến đổi của chúng trong những điều kiện cụ thể. Từ đó phân tích nguyên nhân và rút ra những kết luận về quy luật vận động của đối tượng. Mục đích quan sát là để phát hiện, thu thập các thông tin về vấn đề nghiên cứu, phát hiện bản chất vấn đề và xác định giả thuyết nghiên cứu.
+
+Phương pháp trưng cầu ý kiến bằng phiếu hỏi (bảng câu hỏi)
+
+Điều tra bằng bảng câu hỏi là phương pháp được sử dụng phổ biến trong nghiên cứu khoa học xã hội nói chung và trong nghiên cứu giáo dục học nói riêng. Thực chất của phương pháp này là sử dụng bảng câu hỏi đã được soạn sẵn với một hệ thống câu hỏi đặt ra cho đối tượng nghiên cứu, nhằm thu thập những thông tin phục vụ cho vấn đề nghiên cứu, nó được sử dụng để nghiên cứu đối tượng trên diện rộng. Vấn đề quan trọng khi sử dụng phương pháp này là xây dựng có chất lượng bảng câu hỏi điều tra. Bảng câu hỏi là
+
+một hệ thống các câu hỏi được xếp đặt trên cơ sở các nguyên tắc và nội dung nhất định, nhằm tạo điều kiện cho người được hỏi thể hiện quan điểm của mình về vấn đề nghiên cứu, qua đó, nhà nghiên cứu thu nhận được thông tin đáp ứng yêu cầu của đề tài và mục tiêu nghiên cứu.
+
+Phương pháp phỏng vấn
+
+Trong nghiên cứu giáo dục học, phương pháp phỏng vấn được tiến hành thông qua tác động trực tiếp giữa người hỏi và người được hỏi nhằm thu thập thông tin phù hợp với mục tiêu và nhiệm vụ của đề tài nghiên cứu. Nguồn thông tin trong phỏng vấn bao gồm toàn bộ những câu trả lời phản ánh quan điểm, nhận thức của người được hỏi, hành vi cử chỉ của người được hỏi trong thời gian phỏng vấn.
+
+Phương pháp tổng kết kinh nghiệm giáo dục
+
+Kinh nghiệm giáo dục là tổng thể những tri thức kĩ năng, kĩ xảo mà người làm công tác giáo dục đã tích luỹ được trong thực tiễn công tác giáo dục.
+
+Tổng kết kinh nghiệm giáo dục là vận dụng lí luận về khoa học giáo dục để thu thập, phân tích, đánh giá thực tiễn giáo dục, từ đó rút ra những khái quát có tính chất lí luận. Đó là những khái quát về nguyên nhân, điều kiện, biện pháp, bước đi dẫn tới thành công hay thất bại, đặc biệt là tìm ra những quy luật phát triển của các sự kiện giáo dục nhằm tổ chức tốt hơn các quá trình sư phạm tiếp theo.
+
+Những kinh nghiệm rút ra từ phương pháp này cần được kiểm nghiệm, bổ sung bằng cách: thông qua các hội thảo khoa học, qua các phương tiện thông tin (tài liệu, báo, tạp chí của trung ương, ngành), vận dụng ở các địa bàn và các phạm vi khác nhau.
+
+Phương pháp thực nghiệm sư phạm
+
+Phương pháp thực nghiệm xuất hiện trong các khoa học đã đánh dấu một bước ngoặt lớn chuyển từ sự quan sát, mô tả bề ngoài sang sự phân tích về mặt định tính, định lượng những mối quan hệ bản chất, những thuộc tính
+
+cơ bản của các sự vật hiện tượng. Thực nghiệm sư phạm là phương pháp thu nhận thông tin về sự thay đổi số lượng và chất lượng trong nhận thức và hành vi của các đối tượng giáo dục do nhà khoa học tác động nên chúng bằng một số tác nhân điều khiển và đã được kiểm tra.
+
+Phương pháp thực nghiệm cho phép đi sâu vào bản chất, quy luật, phát hiện ra các thành phần, cấu trúc, cơ chế của hiện tượng giáo dục. Phương pháp này đòi hỏi phải tổ chức cho đối tượng thực nghiệm hoạt động theo một giả thuyết bằng cách dựa vào đó những yếu tố mới để xem xét sự diễn biến và phát triển của chúng có phù hợp với giả thuyết hay không, khi giả thuyết được khẳng định có thể được ứng dụng vào thực tiễn.
+
+Phân loại theo môi trường diễn ra thực nghiệm có thực nghiệm tự nhiên và thực nghiệm trong phòng thí nghiệm, phân loại theo mục đích, thực nghiệm có thực nghiệm tác động và thực nghiệm thăm dò.
+
+Phương pháp thực nghiệm đòi hỏi nhà nghiên cứu chủ động tạo nên các tình huống, sau đó quan sát các hành vi, các sự kiện trong các tình huống nhân tạo đó. Tuy nhiên, để có được những thông tin từ thực nghiệm thì trong quá trình tiến hành thực nghiệm cũng phải sử dụng hàng loạt các phương pháp khác nhau (quan sát, phỏng vấn, trưng cầu ý kiến, trắc nghiệm...). Với ý nghĩa này, phương pháp thực nghiệm rộng hơn, phức tạp hơn.
+
+Phương pháp nghiên cứu sản phảm hoạt động sư phạm
+
+Là phương pháp mà nhà nghiên cứu thông qua các sản phẩm sư phạm để tìm hiểu tính chất, đặc điểm, tâm lí của con người và của cả hoạt động đã tạo ra sản phẩm ấy nhằm tìm ra giải pháp nâng cao chất lượng của quá trình giáo dục.
+
+Phương pháp chuyên gia
+
+Là phương pháp thu thập thông tin khoa học, đánh giá một sản phẩm khoa học bằng cách sử dụng trí tuệ một đội ngũ chuyên gia có trình độ cao về một lĩnh vực nhất định, nhằm phân tích hay tìm ra giải pháp tối ưu cho sự kiện
+
+giáo dục nào. Phương pháp này được thực hiện thông qua các hình thức hội thảo, đánh giá, nghiệm thu công trình khoa học.
+
+* Phương pháp sử dụng toán thống kê
+
+Phương pháp toán học được sử dụng để nghiên cứu các số liệu đã nhận được từ các phương pháp trưng cầu ý kiến bằng phiếu hỏi và từ phương pháp thực nghiệm, nó thiết lập sự phụ thuộc về số lượng giữa các hiện tượng nghiên cứu. Chúng giúp cho việc đánh giá các kết quả thực nghiệm, nâng cao độ tin cậy của các kết luận, làm cơ sở cho việc tổng hợp lí thuyết
+
+## III. HỆ THỐNG CÁC KHOA HỌC VỀ GIÁO DỤC VÀ MỐI QUAN HỆ
+
+CỦA CHÚNG VỚI CÁC KHOA HỌC KHÁC
+
+### 1. Hệ thống các khoa học giáo dục học
+
+Quá trình phát triển xã hội luôn đi kèm với sự tích luỹ tri thức ở tất cả các lĩnh vực hoạt động của con người, trong đó có lĩnh vực giáo dục. Một loạt các ngành khoa học về giáo dục đã có từ lâu trong lịch sử, cũng có những ngành còn rất mới. Giáo dục học được phân chia thành các chuyên ngành khoa học riêng biệt, tạo thành một hệ thống các khoa học giáo dục, bao gồm:
+
+- Giáo dục học đại cương, nghiên cứu những quy luật cơ bản của Giáo
+
+dục học.
+
+- Giáo dục học lứa tuổi (bao gồm giáo dục học trước tuổi đi học; giáo
+
+dục học nhà trường; giáo dục học người lớn tuổi) nghiên cứu những khía cạnh về lứa tuổi của việc dạy học và giáo dục.
+
+- Giáo dục học khuyết tật: Nhiệm vụ chủ yếu là nghiên cứu việc dạy học
+
+và giáo dục cho trẻ bị khuyết tật (trẻ khiếm thính, khiếm thị, kém phát triển về trí tuệ, ngôn ngữ).
+
+- Giáo dục học bộ môn: Nghiên cứu việc áp dụng những quy luật chung
+
+của việc dạy học vào giảng dạy các môn học cụ thể.
+
+- Lịch sử giáo dục và Giáo dục học, nghiên cứu sự phát triển của các tư
+
+tưởng và thực tiễn giáo dục trong các thời kì lịch sử khác nhau.
+
+- Giáo dục học theo chuyên ngành (Giáo dục học quân sự, Giáo dục
+
+học thể thao, Giáo dục học đại học...)
+
+Với sự phát triển của khoa học theo hướng phân hoá và tích hợp. Trong những năm gần đây, khoa học giáo dục không ngừng phát triển, hình thành nhiều chuyên ngành mới như: Triết học giáo dục, Giáo dục học so sánh, Xã hội học giáo dục, Kinh tế học giáo dục, Quản lí giáo dục.v.v.
+
+2. Mối quan hệ của Giáo dục học với các khoa học khác
+
+Vị trí của Giáo dục học trong hệ thống các khoa học về con ngưòi được xác định khi xem xét các mối quan hệ của nó với các khoa học khác. Trong suốt quá trình tồn tại của mình, Giáo dục học có quan hệ chặt chẽ với nhiều khoa học, những khoa học này có ảnh hưởng lớn tới sự phát triển của Giáo dục học.
+
+Ngày nay, Giáo dục học có mối quan hệ với một số ngành khoa học tự nhiên và khoa học xã hội, đặc biệt là có quan hệ mật thiết một số ngành khoa học nghiên cứu về con ngưòi. Thực hiện tốt mối quan hệ đó là điều kiện quan trọng để thúc đẩy mạnh việc khám phá những tri thức mới về Giáo dục học.
+
+Giáo dục học với Triết học
+
+Mối quan hệ này là một quá trình lâu dài và có hiệu quả, các tư tưởng triết học đã hình thành quan điểm và lí luận giáo dục học, nó làm cơ sở phương pháp luận cho Giáo dục học. Triết học được coi là khoa học nghiên cứu về các quy luật chung nhất của tự nhiên, xã hội, tư duy con người; Triết học luôn được coi là cơ sở nến tảng khi xem xét các quy luật giáo dục. Một số ngành của Triết học như Xã hội học, Đạo đức học, Mĩ học. V.V.. đều có vai trò to lớn trong việc nghiên cứu các vấn đề giáo dục học.
+
+Giáo dục học với Sinh lí học
+
+Sinh lí học được coi là cơ sở khoa học tự nhiên của Giáo dục học. Việc nghiên cứu giáo dục học cần phải dựa vào những dữ kiện của sinh lí học như: hệ thần kinh cấp cao, đặc điểm các loại thần kinh, hoạt động của hệ thống tín hiệu thứ nhất, thứ hai, sự vận hành của các cơ quan cảm giác vận động. Những thành tựu của Sinh lí học giúp cho Giáo dục học phù hợp với đặc điểm sinh lí của học sinh ở từng lứa luổi.
+
+Giáo dục học với Tâm lí học
+
+Tâm lí học nghiên cứu trạng thái, các quá trình, các phẩm chất tâm lí muôn màu, muôn vẻ được hình thành trong quá trình phát triển con người, quá trình giáo dục, cũng như quá trình tác động của con người tới môi trường. Tâm lí học cung cấp cho Giáo dục học những tri thức về cơ chế, diễn biến và các điều kiện tổ chức quá trình bên trong của sự hình thành nhân cách con người theo từng lứa tuổi, từng giai đoạn.
+
+Giáo dục học với Điều khiển học
+
+Điều khiển học là khoa học vè sự điều khiển tối ưu các hệ thống phức tạp, là khoa học nghiên cứu lôgíc của những quá trình trong tự nhiên và xã hội. nó xác định những cái chung, quy định sự vận hành các quá trình đó. Cái chung đó là: sự có mặt của một trung tâm điều khiển; sự có mặt của khách thể bị điều khiển; sự điều khiển thông qua các kênh thuận nghịch. Quá trình giáo dục là một quá trình điều khiển được, có thể vận dụng lí thuyết về Điều khiển học để xây dựng lí thuyết giáo dục học.
+
+Giáo dục học với Xã hội học
+
+Xã hội học là khoa học nghiên cứu các quy luật hình thành, vặn động và phát triển mối quan hệ của con người với xã hội, cho con người hiểu được cơ cấu tổ chức xã hội (cấu trúc), hiện tượng xã hội, quá trình xã hội trên cơ sở đó hiểu được các quan hệ xã hội, các hiện tượng, quy luật xã hội, thực trạng về văn hoá của các nhóm dân cư khác nhau - những nguồn kiến thức đó phục vụ cho việc nghiên cứu giáo dục học.
+
+CÂU HỎI ÔN TẬP, THẢO LUẬN
+
+1. Phân tích và chứng minh rằng giáo dục là một hiện tượng đặc trưng của xã hội loài người.
+
+2. Phân tích tính lịch sử và tính giai cấp của   giáo dục.
+
+3. Hãy phân biệt giáo dục và giáo dục học và phân tích mối quan hệ giữa chúng.
+
+### 4. Trình bày đối tượng và nhiệm vụ của Giáo dục học.
+
+5. Phân biệt các   khái niệm: giáo dục (nghĩa rộng); giáo dục (nghĩa hẹp); dạy học.
+
+6. Phân tích mối quan hệ của Giáo dục học        với   các   khoa   học khác, cho ví dụ để minh hoạ.
+
+7. Trên cơ sở nội dung của chương “Giáo dục học là một khoa học” anh (chị) hãy lập luận về sự cần thiết của môn Giáo dục học trong trường sư phạm.
+
+BÀI TẬP
+
+1. Anh (chị) hãy sưu tầm những tài liệu về giáo dục ở nước ta (mục đích, nội dung, phương pháp, hình thức tổ chức) ở các giai đoạn để minh hoạ cho tính lịch sử của giáo dục.
+
+2. Bằng những tư liệu sưu tầm được, anh (chị) hãy minh hoạ và lập luận cho tính giai cấp của giáo dục.
+
+3. Thử nêu tên một đề tài trong lĩnh vực giáo dục mà anh (chị) sẽ lựa chọn để nghiên cứu, nêu lí do vì sao lựa chọn đề tài đó và xác định các phương pháp được sử dụng để nghiên cứu đề tài.

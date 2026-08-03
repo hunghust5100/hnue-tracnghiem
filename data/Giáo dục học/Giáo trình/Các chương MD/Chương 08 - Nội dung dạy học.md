@@ -1,0 +1,291 @@
+# Chương 8: NỘI DUNG DẠY HỌC
+
+## I. KHÁI QUÁT VỀ NỘI DUNG DẠY HỌC
+
+### 1. Khái niệm nội dung dạy học và nội dung học vấn
+
+a. Nội dung dạy học
+
+Việc thực hiện quá trình dạy học trong nhà trường đòi hỏi phải giải quyết nhiều vấn đề về lí luận có liên quan đến đối tượng và các thành tố cấu trúc của dạy học. Các câu hỏi như: Dạy cái gì? Dạy như thế nào? vẫn thường được đặt ra đối với giáo viên. Câu trả lời cho những câu hỏi đó thường được
+
+xem như lời giải đáp cho vấn đề nội dung và phương pháp dạy học. Tuy nhiên, quan niệm về nội dung dạy học không hoàn toàn thống nhất trong cách hiểu của một số tài liệu về giáo dục học và lí luận dạy học hiện nay.
+
+Hiện tồn tại hai cách hiểu khác nhau về nội dung dạy học. Cách hiểu thứ nhất quan niệm nội dung dạy học chính là nội dung học vấn. Quan niệm thứ hai cho rằng nội dung dạy học là khái niệm rộng hơn so với khái niệm nội dung học vấn chúng ta sẽ xem xét cụ thể từng quan niệm.
+
+Quan niệm thứ nhất: Quan niệm này cho rằng việc xác định nội dung dạy học là kết quả của việc trả lời câu hỏi: người dạy dạy cái gì và người học học cái gì trong quá trình dạy học. Cái mà người học phải lĩnh hội chính là nội dung dạy học và đó cũng là nội dung học vấn - cái hứa hẹn tạo cho mỗi người một trình độ học vấn xác định theo chuẩn mực của các trình độ được đào tạo.
+
+Theo quan niệm này, nội dung dạy học là: “Những tri thức, kĩ năng kĩ xảo mà nắm được chúng sẽ đảm bảo quá trình làm phát triển năng lực trí tuệ và thể chất của học sinh, hình thành thế giới quan và đạo đức, hành vi tương ứng với nó chuẩn bị cho họ bước vào cuộc sống, vào lao động”.
+
+Quan niệm thứ hai: Nội dung dạy học là khái niệm bao hàm nội dung học vấn. Nội dung dạy học bao gồm: 1. Các mục tiêu giáo dưỡng và giáo dục của dạy học. 2. Sự phát triển của học sinh. 3. Nội dung học vấn. 4 Nội dung giảng dạy và học tập được phản ánh trong kế hoạch, chương trình dạy học, sách giáo khoa và giáo trình.
+
+Theo quan niệm này, nội dung dạy học không chỉ bao hàm nội dung học vấn mà còn chứa đựng cả hoạt động và kết quả của các hoạt động thao tác với nội dung học vấn được thể hiện ở trình độ phát triển của người học. Có thể kể đến các yếu tố của nội dung dạy học như: 1. Nội dung học vấn (tri thức, kĩ năng, kĩ xảo, chuẩn mực phải lĩnh hội), có chức năng chủ đạo, định hướng cho những yếu tố khác trong khuôn khổ quá trình dạy học. 2. Nội dung thông tin xuất phát từ các nguồn nhân lực, vật lực, ảnh hưởng của các nguồn lực đó trong sự vận hành của chúng. 3. Kết quả tác động của môi trường dạy học (quan hệ sư phạm, tình huống sư phạm, động thái nhóm...). 4. Nội dung
+
+ảnh hưởng của hệ thống tổ chức, kiểm tra, đánh giá và phương pháp luận tương ứng với chúng trong dạy học. 5. Tác động của mục đích giáo dưỡng, giáo dục và phát triển nhân cách người học trong quá trình dạy học.
+
+Như vậy, nội dung dạy học là tổ hợp các hoạt động, thao tác với nội dung học vấn do các chủ thể của quá trình dạy học thực hiện, diễn ra trong môi trường dạy học, xác định và chịu sự ảnh hường của các nguồn lực vật chất của dạy và học, đưa lại những sản phẩm cụ thể phản ánh mục tiêu của dạy học.
+
+Để xem xét nội dung dạy học theo quan điểm thứ hai, cần làm rõ khái niệm nội dung học vấn.
+
+b. Nội dung học vấn
+
+Muốn duy trì và phát triển xã hội, thế hệ đi sau phải lĩnh hội được những kinh nghiệm xã hội mà thế hệ đi trước đã tích luỹ và truyền đạt lại, đồng thời phải làm phong phú những Kinh nghiệm đó.
+
+Kinh nghiệm xã hội được bảo tồn, được lưu giữ trong nền văn hoá xã hội do chính con người sáng tạo ra trong tiến trình lịch sử. Nền văn hoá là sản phẩm của hoạt động sáng tạo của con người mà trước hết là hoạt động lao động. Chính trong quá trình tiến hành các hoạt động sáng tạo, các năng lực, tri thức, kĩ năng, kĩ xảo của con người được kết tinh trong sản phẩm mà con người tạo ra. Như vậy, nền văn hoá xã hội là nơi gìn giữ kinh nghiệm xã hội lịch sử, do đó phân tích các yếu tố văn hoá sẽ xác định được kinh nghiệm xã hội và cấu trúc của nó. Các kết quả nghiên cứu và phân tích kinh nghiệm xã hội đã xác định cấu trúc thành phần bốn yếu tố của nó như sau:
+
+- Những tri thức về tự nhiên, xã hội, về tư duy, kĩ thuật và những cách
+
+thức hoạt động mà con người đã biết.
+
+- Kinh nghiệm thực hiện các hoạt động mà con người đã biết.
+
+- Kinh nghiệm tiến hành những hoạt động sáng tạo.
+
+- Kinh nghiệm về thái độ đối với thế giới, đối với con người.
+
+Những yếu tố trên của kinh nghiệm xã hội có quan hệ mật thiết với nhau. Mỗi yếu tố thực hiện chức năng riêng của mình trong sự hình thành nhân cách cho những cá nhân lĩnh hội được kinh nghiệm xã hội. đồng thời lại liên hệ với các yếu tố khác.
+
+Để hình thành và phát triển nhân cách cho học sinh, xã hội và đặc biệt là nhà trường phải tổ chức tốt quá trình lĩnh hội kinh nghiệm xã hội cho mỗi học sinh. Tuy nhiên, người học không thể lĩnh hội được tất thảy những gì mà xã hội đã sáng tạo. Nói cách khác, cần có sự chọn lọc để chuyển hoá kinh nghiệm xã hội thành nội dung học vấn trong nhà trường. Để làm được công việc này, phải trả lời được những câu hỏi sau:
+
+Chọn lọc cái gì? Câu trả lời là: Những yếu tố của kinh nghiệm xã hội có lợi ích chung với sự phát triển của xã hội và sự phát triển của cá nhân.
+
+Chọn lọc như thế nào? Câu trả lời là: Tổng hợp những kinh nghiệm có ích cho sự phát triển của xã hội và cá nhân được lựa chọn một lần nữa dựa theo hai tiêu chí: 1. Phù hợp và tuân theo các định chế xã hội. 2. Có phương thức lĩnh hội tương ứng. Những yếu tố của kinh nghiệm sau khi đã được lựa chọn lần hai sẽ được xử lí theo yêu cầu của tri thức về tâm lí học và lí luận dạy học sao cho những kinh nghiệm đó trở nên phù hợp và thuận lợi cho sự nhận thức của học sinh ở các trình độ phát triển khác nhau theo sự phát triển của lứa tuổi. Kết quả này cho ta cái gọi là nội dung học vấn trong nhà trường (có sự khác biệt theo trình độ đào tạo).
+
+Từ những phân tích trên có thể khẳng định: Nội dung học vấn là hệ thống phù hợp về mặt sư phạm và được định hướng về chính trị những tri thức, những kinh nghiệm hoạt động sáng tạo và kinh nghiệm cảm xúc đánh giá được sử dụng trong nhà trường và các cơ sở giáo dục để chuyển giao cho người học trong quá trình hoạt động của họ.
+
+### 2. Câu trúc của nội dung dạy học
+
+Nội dung dạy học được cấu thành bởi những yếu tố nào, chúng có quan hệ với nhau ra sao? Theo định nghĩa về nội dung dạy học đã phân tích,
+
+có thể nhận thấy nội dung dạy học là một thể tích hợp đa thành tố, mỗi thành tố có những chức năng riêng.
+
+Có thể khái quát hai thành phần chính của nội dung dạy học là nội dung học vấn và các yếu tố có liên quan đến sự vận động của nội dung học vấn trong dạy học. Trong hai thành phần trên, nội dung học vấn là thành phần cơ bản.
+
+Thành phần thứ nhất: Nội dung học vấn
+
+Đây là thành tố cơ bản có ý nghĩa định hướng cho các thành tố khác của nội dung dạy học.
+
+Nội dung học vấn phản ánh kinh nghiệm xã hội, do đó nó cũng phản ánh cấu trúc thành phần bốn yếu tố của kinh nghiệm xã hội. Như vậy, nội dung học vấn có cấu trúc gồm bốn yếu tố sau:
+
+Thứ nhất: Tri thức về thế giới (khái niệm, công nghệ, kĩ thuật, nghệ thuật, đạo đức, chính trị, kinh tế...) và các phương thức hoạt động. Những tri thức này phản ánh những tri thức của các khoa học, các dạng hoạt động tương ứng trong thực tiễn. Nắm vững những tri thức này người học có được công cụ nhận thức và thực hành làm cơ sở để hình thành thế giới quan khoa học. Hay nói một cách khác, người học có khả năng phản ánh chân thực về thế giới khách quan và nhờ đó gia tăng khả năng của bản thân trong việc cải tạo thế giới. Những tri thức trong nội dung dạy học bao gồm:
+
+- Tri thức có tính chất kinh nghiệm: Hệ thống những biểu tượng cụ thể
+
+cảm tính về sự vật hiện tượng của thế giới hiện thực, những thuộc tính và quan hệ của chúng, những sự kiện và hành vi của những nhân vật văn học, những tri thức cần thiết về lịch sử khoa học và những nhà hoạt động khoa học nổi tiếng. V.V..
+
+- Tri thức lí thuyết: Những kết quả khái quát lịch sử xã hội và nhận thức
+
+khoa học, khái niệm, định luật, nguyên lí, lí luận cơ bản và tư tưởng chỉ đạo, những chuẩn mực về đạo đức và thẩm mĩ, pháp lí.
+
+- Tri thức thực hành: Các bài tập, cách thực hiện hành động nhằm hình
+
+thành cho học sinh những kĩ năng, kĩ xảo trong đó có những kĩ năng khám phá những tri thức mới, những kĩ năng vận dụng tri thức vào thực tiễn, những quy tắc cần thiết để thực hiện những nhiệm vụ học tập và để chuẩn bị bước vào cuộc sống.
+
+- Tri thức thiết kế sáng tạo: Đó là những bài tập và phương tiện nhằm
+
+hình thành những tình cảm thẩm mĩ, đạo đức, tưởng tượng sáng tạo; những bài tập về tác phẩm văn học, tạo hình, âm nhạc, dựa vào đó mà hình thành cho học sính hình tượng nghệ thuật. Đó cũng là hình hoạ, bản thảo, hình vẽ thể hiện trong đó những tư tưởng nhất định và tạo cho học sinh những hình ảnh thiết kế - kĩ thuật.
+
+- Tri thức về phương pháp nghiên cứu và tư duy khoa học (chung, đặc
+
+thù và bộ phận) với từng ngành khoa học riêng rẽ mà học sinh phải nắm vì thiếu những tri thức này, học sinh sẽ không thể lĩnh hội được tri thức.
+
+Thứ hai: Kinh nghiệm tiến hành những phương thức hoạt động (kĩ năng, kĩ xảo, phương pháp, quy trình, lí thuyết, nguyên tắc, mô hình). Nắm vững những yếu tố thành phần này, học sinh hình thành được cho mình những kĩ năng, kĩ xảo hoạt động trí tuệ và hoạt động chân tay cho các môn học cũng như cho từng môn học đặc trưng.
+
+- Thứ ba: Kinh nghiệm hoạt động sáng tạo (chất lượng mới của các yếu
+
+tố như kĩ năng, kĩ xảo, phương pháp,...trong tình huống phi mẫu): Những kinh nghiệm này có tác dụng chuẩn bị cho học sinh cách thức giải quyết vấn đề mới, cải tạo hiện thực, thực hành nghiên cứu khoa học. Đây là con đường, là điều kiện để phát triển tính tích cực sáng tạo của học sinh, do đó cần đề phòng và khắc phục tính thụ động máy móc, tính hình thức trong hoạt động học tập và hoạt động thực tiễn của học sinh.
+
+- Thứ tư: Kinh nghiệm cảm xúc và đánh giá (tri thức, thái độ và hành vi
+
+trong các quan hệ theo chuẩn mực xã hội): kinh nghiệm này cùng với tri thức, kĩ năng, kĩ xảo tạo nên niềm tin, lí tưởng và giúp học sinh lựa chọn một cách đúng đắn các giá trị. Thực chất đó chính là thái độ về kinh nghiệm đánh giá
+
+cảm xúc giá trị đối với những tri thức khoa học, chuẩn mực đạo đức đối với sự thể hiện về mặt thẩm mĩ của kiến thức và lí tưởng xã hội chính trị.
+
+Bốn yếu tố thành phần trên của của nội dung học vấn có liên hệ mật thiết với nhau. Các nhiệm vụ dạy học chỉ có thể thực hiện đầy đủ khi nội dung dạy học đảm bảo cấu trúc bốn yếu tố thành phần này.
+
+Thành phần thứ 2: Các yếu tố liên quan đến sự vận động của nội dung học vấn
+
+Quan niệm về nội dung học vấn như trên đã cho thấy lôgíc của dạy học về thực chất đều là quá trình biến đổi nội dung học vấn từ giả định thành hiện thực, từ hình thái xã hội thành hình thái cá nhân trên cơ sở hoạt động. Nói cách khác, nội dung dạy học bao hàm trong nó cả nội dung học vấn ở cấp độ hoạt động lẫn các điều kiện khác có liên quan đến quá trình tổ chức để người học chuyển hoá học vấn từ hình thái xã hội thành kinh nghiệm của bản thân.
+
+Các hoạt động và chủ thể hoạt động. Các hoạt động của dạy học rất đa dạng phức tạp, nhưng cơ bản vẫn là hoạt động dạy của người dạy và hoạt động học của người học. Hoạt động của người học là những hoạt động do người học thực hiện theo nhu cầu, lợi ích của họ. Hoạt động của người học có hai loại là hoạt động cơ bản và hoạt động không cơ bản. Hoạt động cơ bản là hoạt động tất yếu của mỗi cá nhân khi họ đóng vai là người học. Đây là hoạt động gắn chặt với đời sống học đường phù hợp về đặc điểm lứa tuổi và trình độ phát triển. Các hoạt động của người dạy và người học là yếu tố động, có chức năng chủ yếu là vận hành và thực hiện các nhiệm vụ dạy - học.
+
+- Môi trường và động lực dạy - học: Môi trường dạy - học là nơi mà
+
+hoạt động dạy và hoạt động học được thực hiện. Thông thường, người ta hay nói đến môi trường học tập của người học, bởi hoạt động của người dạy xét cho cùng là tạo dựng các môi trường học tập thuận lợi cho người học. Môi trường học tập bao gồm môi trường vật chất, môi trường xã hội, môi trường tâm lí và môi trường trí tuệ. Các loại môi trường này bao gồm các nhân tố và các tình huống tâm lí đạo đức, xã hội.v.v. và các yếu tố có ý nghĩa thúc đẩy hoặc kìm hãm hoạt động của cả người dạy lẫn người học. Có thể kể đến các
+
+yếu tố như nhu cầu dạy và nhu cầu học, ý chí, tình cảm của người dạy và người học.v.v. Những yếu tố này còn được xem xét như yêu tố động lực của dạy học.
+
+- Các nguồn lực vật chất của dạy - học: Các nguồn lực vật chất của dạy
+
+và học như tài liệu, dụng cụ học tập và giảng dạy, phương tiện kĩ thuật, cảnh quan sư phạm.v.v. tham gia vào môi trường dạy học cụ thể. Những yếu tố này được xác định như là các yếu tố điều kiện của dạy học.
+
+- Sản phẩm của dạy học: Là tri thức, kĩ năng, thái độ, năng lực nhận
+
+thức, năng lực đánh giá, năng lực vận động... Chúng phản ánh những mục tiêu của người học ở đầu vào của quá trình thao tác với một đơn vị nội dung học vấn cụ thể và những kết quả hay thành tựu mà người học có được ở đầu ra của quá trình này. Sản phẩm của dạy học có chức năng về phương diện quản lí đối với quá trình dạy học.
+
+## II. MÔN HỌC, KẾ HOẠCH, CHƯƠNG TRÌNH DẠY HỌC VÀ SÁCH
+
+GIÁO KHOA TRONG NHÀ TRƯỜNG PHỔ THÔNG
+
+Môn học, kế hoạch, chương trình dạy học và sách giáo khoa và các tài liệu học tập khác phản ánh nội dung dạy học trong nhà trường.
+
+### 1. Môn học
+
+Nhìn chung, chưa thực sự có sự thống nhất trong cách định nghĩa khái niệm môn học. Tuy nhiên, ở một chừng mực nhất định, có thể quan niệm: Môn học là lĩnh vực nội dung dạy học được thực hiện trong nhà trường có cấu trúc và lôgíc phù hợp với các ngành khoa học và thực tiễn tương ứng, phù hợp với những quy luật tâm — sinh lí của dạy học.
+
+Chức năng của môn học nói chung là phương tiện để tổ chức, thực hiện nội dung học vấn trong nhà trường, nhưng nội dung học vấn là một hệ thống cấu trúc phức tạp gồm bốn yếu tố thành phần của kinh nghiệm xã hội với nhiều dạng, nhiều ngành hoạt động, nên từng môn học cụ thể sẽ có chức năng chủ đạo trong việc thực hiện nội dung học vấn.
+
+Khi xem xét nội dung dạy học với tư cách là cái bao hàm nội dung học vấn, nội dung dạy học được xem xét là một chỉnh thể gồm cái mà người học phải lĩnh hội và những phương tiện giúp người học lĩnh hội nó cũng như phương tiện phát triển và giáo dục tương ứng.
+
+Là sự biểu đạt của nội dung dạy học cho nên mô hình theo phương diện lí luận dạy học của môn học phải là một chỉnh thể nào đó phản ánh được thành phần và cấu trúc của nội dung dạy học.
+
+Bản chất của môn học là một hệ thống toàn vẹn phản ánh các thành phần cấu trúc của nội dung dạy học. Dấu hiệu cơ bản của môn học bao gồm: 1. Sự phản ánh tính thống nhất các khía cạnh nội dung và quá trình của dạy học, 2. Tổng thể những tri thức, tổng thể những cách thức hoạt động (kĩ năng, kĩ xảo và cách thức tổ chức), 3. Hoạt động giao tiếp bên trong của giáo viên và học sinh khi thực hiện hoạt động của mình (trong tương tác với hoạt động diễn ra cùng với hoạt động này).
+
+### 2. Kế hoạch dạy học
+
+Kế hoạch dạy học là văn kiện do Nhà nước ban hành trong đó quy định các môn học; trình tự dạy các môn học qua từng năm học; việc tổ chức năm học (số tuần thực học, số tuần lao động và nghỉ, chế độ học tập hàng tuần, hàng ngày).
+
+Với cách hiểu trên về kế hoạch dạy học, có thể nhận thấy những yếu tố cơ bản trong một kế hoạch dạy học là: 1. Quan hệ giữa thành phần môn học với thành phần lớp học (môn học được dạy ở lớp học nào và từng lớp học cụ thể sẽ phải học những môn nào). 2. Quan hệ giữa thành phần môn học với phân bố thời gian (thời lượng dành cho mỗi môn và thời lượng học từng môn trong từng lớp theo ngày, tuần và năm học). 3. Cấu trúc và thời gian của dạy học (thời lượng chung của năm học theo bậc học, khối lớp và thời lượng của tuần học, ngày học, tiết học).
+
+Kế hoạch dạy học ở từng cấp học và bậc học là khác nhau. Sự khác biệt trong kế hoạch dạy học được thể hiện ở một số khía cạnh như:
+
+- Số lượng các môn học được xác định trong từng kế hoạch dạy học (ví
+
+dụ số lượng môn học trong kế hoạch dạy học bậc tiểu học sẽ khác số lượng các môn học trong kế hoạch của bậc trung học cơ sở và trung học phổ thông).
+
+- Do mối quan hệ liên môn, do đặc điểm các bộ môn và đặc điểm nhận
+
+thức của học sinh cũng như yêu cầu cân đối về số tiết hàng tuần ở các lớp nên trong kế hoạch dạy học việc bố trí các môn học cũng khác nhau. Có môn được học ngay từ đầu cấp, bậc học, nhưng cũng có môn được thực hiện ở các khối lớp xác định theo cấp bậc học..
+
+- Số tiết học dành cho mỗi môn học cũng khác nhau ở từng khối lớp
+
+thuộc cấp, bậc học khác nhau.
+
+Giáo viên khi thực hiện nhiệm vụ dạy học của mình buộc phải nghiên cứu kế hoạch dạy học để hiểu chương trình dạy học môn học, từ đó lập kế hoạch dạy học của cá nhân. Sinh viên sư phạm phải hình thành kĩ năng nghiên cứu kế hoạch của cấp, bậc học trong chương trình nghiên cứu môn Giáo học pháp bộ môn.
+
+### 3. Chương trình dạy học
+
+Chương trình dạy học là văn kiện do Nhà nước ban hành trong đó quy định một cách cụ thể: vị trí, mục đích môn học, phạm vi và hệ thống nội dung môn học, số tiết dành cho môn học nói chung, cho từng phần, từng chương, từng bài nói riêng.
+
+Như vậy, theo cách hiểu trên, nói đến chương trình dạy học là nói đến chương trình dạy học của một môn học cụ thể. Chương trình dạy học là chương trình môn học được thực hiện ở từng khối lớp thuộc bậc, cấp học cụ thể.
+
+Chương trình dạy học của từng môn học thường có cấu trúc như sau:
+
+Vỉ trí và mục tiêu môn học: Trình bày vị trí của môn học giúp giáo viên nhận thức được ý nghĩa, tầm quan trọng của môn học trong nội dung dạy học của khối lớp, bậc học và trình bày các mục tiêu chung của môn học. Các mục
+
+tiêu được đề tập toàn diện theo ba lĩnh vực học tập của học sinh: tri thức, kĩ năng, thái độ.
+
+Nội dung môn học: Trình bày chi tiết các phần chương, bài và đề mục.
+
+Phân phối thời gian: Quy định thời gian cho các phần, chương, bài và đề mục (cả số tiết ôn tập và kiểm tra).
+
+Giải thích chương trình và hướng dẫn thực hiện chương trình: Nêu những điểm cần chú ý về nội dung, phương pháp và phương tiện dạy học.
+
+Chương trình dạy học là văn kiện do nhà nước ban hành vì vậy nó trở thành công cụ chủ yếu để Nhà nước lãnh đạo và giám sát hoạt động dạy học của nhà trường thông qua các cơ quan quản lí giáo dục. Chương trình dạy học còn là cơ sở để giáo viên lập kế hoạch dạy học (kế hoạch dạy học của cá nhân), tiến hành tổ chức công tác dạy học của mình.
+
+Xây dựng chương trình dạy học theo kĩ thuật truyền thông được tiến hành theo hai cách: theo đường thẳng hoặc đồng tâm. Chương trình dạy học được xây dựng đồng tâm đòi hỏi cùng một nội dung của khoá trình phải lặp đi, lặp lại nhưng càng ngày càng được mở rộng và đào sâu hơn. Nếu mục tiêu của từng bậc học có nhiệm vụ trực tiếp chuẩn bị cho học sinh bước vào cuộc sống thì kĩ thuật xây dựng chương trình đồng tâm tỏ ra có hiệu quả và nó được sử dụng phổ biến, vì xong bậc học đó phải kết thúc một trình độ văn hoá tương đối hoàn chỉnh nào đó cho học sinh.
+
+Trong nhiều tài liệu lí luận dạy học hiện nay, thường sử dụng thuật ngữ Curriculum để chỉ chung cả kế hoạch dạy học và chương trình dạy học.
+
+Mặc dù cũng có nhiều định nghĩa về Curriculum nhưng nét chung nhất khi nói đến Curriculum, người ta nói đến cả phương diện cấu trúc, thứ bậc của yếu tố nội dung, phương pháp khi thực hiện nội dung dạy học cho từng đối tượng người học xác định theo khối lớp, bậc học.
+
+Xét về câu trúc, Curriculum chứa đựng cả yếu tố nội dung lẫn hoạt động. Xét về thứ bậc, Curriculum gồm cả những yếu tố vĩ mô và vi mô (chung và từng môn học, chung và từng lớp học...).
+
+Như vậy, Curriculum vừa phản ánh được cả mặt cấu trúc thiết kế chương trình vừa phản ánh cả mặt vận hành của bản thiết kế đó (quá trình). Curriculum chỉ cả cái phải lĩnh hội (nội dung) lẫn phương thức tổ chức, hỗ trợ hoạch định hoạt động (tiến trình).
+
+Nếu sử dụng Curriculum với nghĩa là chương trình dạy học thì khái niệm chương trình dạy học không bó hẹp là chương trình môn học mà có phạm vi phản ánh rộng hơn. Khi đó cần hiểu chương trình dạy học là một bản thiết kế tổng thể cho một quá trình dạy học. Quá trình đó có thể chỉ là một khoá học kéo dài một vài giờ, một ngày, một tuần hoặc vài năm. Bản thiết kế đó không chỉ cho biết nội dung học vấn mà còn cho biết các phương pháp dạy học và các cách thức kiểm tra đánh giá kết quả học tập của học sinh. Tất cả những cái đó được sắp xếp theo một trật tự thời gian biểu chặt chẽ.
+
+### 4. Sách giáo khoa và các tài liệu học tập khác
+
+Sách giáo khoa và các tài liệu học tập khác dùng chung trong các trường học (phổ thông) do nhà nước quy định.
+
+Nếu chương trình dạy học quy định phạm vi dạy học của các môn học thì sách giáo khoa có nhiệm vụ trình bày nội dung của môn học một cách rõ ràng, cụ thể và chi tiết với cấu trúc xác định. Sách giáo khoa là hình thái vật chất của môn học, của nội dung học vấn mà môn học thể hiện.
+
+Sách giáo khoa trình bày những nội dung cơ bản, những thông tin cần thiết, vừa sức đối với học sinh và theo một hệ thống chặt chẽ. Chức năng của sách giáo khoa là giúp học sinh lĩnh hội, củng cố, đào sâu những tri thức tiếp thu được trên lớp, phát triển năng lực trí tuệ và giáo dục các phẩm chất nhân cách cho học sinh. Mặc khác sách giáo khoa cũng là cơ sở để giáo viên dựa vào đó xác định nội dung, lựa chọn phương pháp, phương tiện dạy học để tổ chức tốt công tác dạy học của mình. Điều cần chú ý là, chỉ có thông qua sách giáo khoa thì những yếu tố chỉ đạo quá trình dạy học môn học (thuộc khối quá trình của môn học) mới thể hiện rõ nét và thực sự phát huy vai trò tổ chức, điều khiển với quá trình dạy học môn học.
+
+Ngoài sách giáo khoa, ở nhà trường phổ thông còn có những sách và các tài liệu tham khảo khác dành cho giáo viên và học sinh như: sách hướng dẫn giảng dạy, sách tra cứu, các loại từ điển, sách bài tập. Những bản đồ địa lí và lịch sử, sách dùng cho các giờ ngoại khoá... Các tài liệu học tập này giúp học sinh mở rộng, bổ sung, đào sâu kiến thức phù hợp với trình độ và hứng thú của mình.
+
+Sách giáo khoa cũng như các tài liệu học tập khác phải đảm bảo những yêu cầu sau:
+
+- Những tri thức trình bày trong sách giáo khoa phải đảm bảo tính khoa
+
+học, tính hệ thống, tính vừa sức và phù hợp với chương trình quy định.
+
+- Phải giúp học sinh nắm được phương pháp học tập một cách độc lập
+
+nhằm giúp họ biết học tập suốt đời, liên tục và tự giác, học tập qua sách báo và hoạt động thực tiễn của mình. Vì vậy cần có những chỉ dẫn cho các bài tập quan sát và luyện tập; những câu hỏi ôn tập và tự kiểm tra.
+
+- Sách giáo khoa phải kích thích sự suy nghĩ, mở rộng tầm hiểu biết
+
+cho học sinh. Do đó, cần nêu lên những vấn đề những hiện tượng trong đời sống đòi hỏi phải vận dụng tri thức khai thác trong sách giáo khoa và tri thức đã biết để giải quyết.
+
+- Ngôn ngữ phải rõ ràng, dễ hiểu, gọn và chính xác.
+
+- Đảm bảo các yêu cầu sư phạm về vệ sinh và thẩm mĩ. Hình thức sách
+
+giáo khoa phải đẹp, trình bày hấp dẫn, sử dụng khổ chữ thích hợp với đặc điểm tri giác của học sinh. Những kiến thức trọng tâm phải có sự nhấn mạnh bởi các kĩ thuật khác nhau để tập trung được sự chú ý của học sinh.
+
+## III. PHƯƠNG HƯỚNG XÂY DỰNG NỘI DUNG DẠY HỌC
+
+### 1. Định hướng xây dựng nội dung dạy học ở Việt Nam
+
+Chịu sự chế ước của xã hội cho nên khi xã hội thay đổi, giáo dục nói chung, dạy học nói riêng phải có những thay đổi nhất định nhằm đáp ứng tốt nhất các yêu cầu do xã hội đặt ra. Trước những yêu cầu của công cuộc công
+
+nghiệp hoá đất nước, hệ thống giáo dục phổ thông đã và đang thực hiện đổi mới mục tiêu nội dung và chương trình giáo dục, trong đó có đổi mới nội dung dạy học.
+
+Các nghiên cứu về đổi mới nội dung dạy học trong nhà trường phổ thông được định hướng bởi cương lĩnh, đường lối, quan điểm của Đảng Cộng sàn Việt Nam về giáo dục. Phát triển nền giáo dục xã hội chủ nghĩa có tính dân tộc, khoa học, hiện đại, lấy chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng; xây dựng hệ thống giáo dục chuẩn hoá, hiện đại hoá và xã hội hoá là phương châm và định hướng cho việc xây dựng nội dung giáo dục và dạy học ở nước ta hiện nay.
+
+Nghị quyết hội nghị lần thứ 2 Ban chấp hành Trung ương Đảng Cộng Sản Việt Nam (khóa VIII) “Về định hướng chiến lược phát triển giáo dục và đào tạo trong thời kì công nghiệp hoá, hiện đại hoá và nhiệm vụ đến năm 2000” đã khẳng định: Tiếp tục đổi mới nội dung, phương pháp giáo dục và đào tạo... rà soát lại và đổi mới một bước sách giáo khoa, loại bỏ những nội dung không thiết thực, bổ sung những nội dung cần thiết theo hướng đảm bảo kiến thức cơ bản, cập nhật với tiến bộ khoa học, công nghệ ứng dụng, tăng cường giáo dục kĩ thuật tổng hợp và năng lực thực hành bậc phổ thông...”. Trong Báo cáo về tình hình giáo dục của Chính phủ trình Quốc hội (tháng 10/2004) cũng đã xác định: “Tiếp tục đổi mới chương trình giáo dục phổ thông theo nghị quyết 40/2004/QH 10 của Quốc hội... Giảm tải hợp lí nội dung chương trình ở tiểu học và Trung học cơ sở...”.
+
+Kì họp thứ 7 khóa XI Quốc hội nước Cộng hoà xã hội chủ nghĩa Việt Nam (từ ngày 05 tháng 5 đến 14 tháng 6 năm 2005) đã thông qua Luật Giáo dục sửa đổi, trong đó quy định nội dung và chương trình giáo dục như sau:
+
+Nội dung giáo dục phải đảm bảo tính cơ bản, toàn diện, thiết thực, hiện đại và có hệ thống: coi trọng giáo dục tư tưởng và ý thức công dân; kế thừa và phát huy truyền thống tốt đẹp, bản sắc văn hoá dân tộc, tiếp thu tinh hoa văn hoá nhân loại, phù hợp với sự phát triển về tâm sinh lí lứa tuổi người học.
+
+Chương trình giáo dục thể hiện mục tiêu giáo dục, quy định chuẩn kiến thức, kĩ năng, phạm vi và cấu trúc nội dung giáo dục, phương pháp và hình thức tổ chức hoạt động giáo dục, cách đánh giá kết quả giáo dục đối với các môn học ở mỗi lớp, mỗi cấp học hoặc trình độ đào tạo.
+
+Chương trình giáo dục phải đảm bảo tính hiện đại, tính ổn định, tính thống nhất, kế thừa giữa các cấp học, các trình độ đào tạo và tạo điều kiện cho việc phân luồng, liên thông, chuyển đổi các trình độ đào tạo, ngành đào tạo và hình thức giáo dục trong hệ thống giáo dục quốc dân....
+
+2. Phương hướng cơ bản chỉ đạo xây dựng nội dung dạy học hiện nay
+
+Trên cơ sở các định hướng xây dựng nội dung dạy học, có thể rút ra những phương hướng cơ bản chỉ đạo xây dựng nội dung dạy học ở trường phổ thông nước ta trong giai đoạn hiện nay như sau:
+
+- Nội dung dạy học phải phù hợp với mục tiêu giáo dục của giáo dục
+
+phổ thông nói chung và mục tiêu của từng cấp học nói riêng.
+
+Toàn bộ nội dung dạy học của giáo dục phổ thông trong giai đoạn mới phải tạo ra ở thế hệ trẻ những cơ sở ban đầu rất quan trọng của con người mới, đáp ứng được yêu cầu của sự nghiệp công nghiệp hoá và hiện đại hoá đất nước. Mỗi cấp học lại có những mục tiêu đào tạo khác nhau, do đó, nội dung dạy học phổ thông phải có sự cụ thể hoá thiết thực nhằm phục vụ mục tiêu của từng cấp và bậc học.
+
+- Nội dung dạy học phải đảm bảo tính giáo dục toàn diện và cân đối,
+
+trong đó phải coi trọng giáo dục tư tưởng đạo đức và lối sống văn hoá.
+
+Nội dung dạy học phải đảm bảo giáo dục các mặt đức, trí, thể, mĩ, lao động một cách cân đối. Trong khi coi trọng đúng mức các mặt đó phải quán triệt định hướng xã hội chủ nghĩa, tăng cường giáo dục chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, đường lối chính trị của Đảng, mục tiêu phát triển kinh tế - xã hội đất nước.
+
+Nội dung dạy học phải đảm bảo cho học sinh nắm vững những tri thức phổ thông cơ bản cập nhật với tiến bộ khoa học, công nghệ, có hệ thống, phù hợp với thực tiễn Việt Nam về khoa học tự nhiên, khoa học xã hội - nhân văn, qua đó hình thành thế giới quan khoa học, lí tưởng, những phẩm chất đạo đức, phát triển năng lực nhận thức và năng lực thực hành, trí thông minh của họ.
+
+- Nội dung phải đảm bảo tính chất kĩ thuật tổng hợp.
+
+Điều đó có nghĩa là nội dung dạy học phải giúp học sinh nắm được nguyên lí cơ bản của các ngành sản xuất chủ yếu và việc tổ chức quản lí sản xuất một cách có khoa học và hiệu quả.
+
+Tổ chức thực hành rèn luyện kĩ năng, kĩ xảo cơ bản của môn học, liên hệ và vận dụng kiến thức vào thực tế cuộc sống, vào sản xuất, rèn luyện tác phong nhanh nhẹn và khoa học, hình thành năng lực nghiên cứu. Hình thành kĩ năng sử dụng những công cụ sản xuất phổ biến theo yêu cầu sản xuất của từng thời kì của đất nước và từng địa phương.
+
+Phải đảm bảo giáo dục nhận thức, tình cảm, thái độ đối với lao động và ngươi lao động, làm nổi bật nhân tố con ngươi trong sự nghiệp phát triển kinh tế - xã hội của đất nước.
+
+Để đạt những yêu cầu trên phải tăng cường tri thức và kĩ năng phổ thông về kĩ thuật, về quản lí kinh tế, kết hợp với giáo dục lao động và hướng nghiệp.
+
+- Nội dung dạy học phải phù hợp với đặc điểm lứa tuổi, giới tính của
+
+học sinh, chú ý phát huy năng khiếu và sở trường của cá nhân và thích hợp với điều kiện dạy học của nhà trường.
+
+Những phương hướng cơ bản chỉ đạo xây dựng nội dung dạy học có liên quan mật thiết với nhau, đan kết vào nhau, bổ sung hỗ trợ cho nhau và quy định lẫn nhau. Do đó khi nghiên cứu vận dụng chúng để xây dựng nội dung dạy học phải quán triệt quan điểm hệ thống đối với những mối quan hệ của các hương hướng đó.
+
+CÂU HỎI ÔN TẬP, THẢO LUẬN VÀ THỰC HÀNH
+
+1. Thế nào là nội dung dạy học? Phân biệt khái niệm nội dung dạy học và khái niệm nội dung học vấn.
+
+2. Phân tích các thành phần của nội dung học vấn và nghĩa của các thành phần này đối với sự phát triển nhân cách của học sinh.
+
+3. Phân tích các định hướng xây dựng nội dung dạy học trong nhà trường phổ thông ở nước ta.
+
+BÀI TẬP
+
+1. Sưu tầm và phân tích kế hoạch dạy học, chương trình và sách giáo khoa của môn học thuộc bậc, cấp học mà anh chị sẽ giảng dạy.

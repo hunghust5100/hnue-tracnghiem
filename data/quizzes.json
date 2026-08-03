@@ -1,0 +1,524 @@
+[
+  {
+    "category": "📕 Chủ nghĩa Xã hội Khoa học (CNXH) - HNUE",
+    "subjectId": "cnxh",
+    "status": "available",
+    "quizzes": [
+      {
+        "id": "cnxh-moi-ch1",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Chương 1: Nhập môn CNXH Khoa học",
+        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm (mới)/Chương 1. Nhập môn CNXH Khoa học.enc",
+        "icon": "📚"
+      },
+      {
+        "id": "cnxh-moi-ch2",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân",
+        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm (mới)/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân.enc",
+        "icon": "⚙️"
+      },
+      {
+        "id": "cnxh-moi-ch3",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH",
+        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm (mới)/Chương 3. Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội.enc",
+        "icon": "🚀"
+      },
+      {
+        "id": "cnxh-moi-ch4",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN",
+        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm (mới)/Chương 4. Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa.enc",
+        "icon": "⚖️"
+      },
+      {
+        "id": "cnxh-moi-ch5",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp",
+        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm (mới)/Chương 5. Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội.enc",
+        "icon": "🤝"
+      },
+      {
+        "id": "cnxh-moi-ch6",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Chương 6: Vấn đề dân tộc và tôn giáo",
+        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm (mới)/Chương 6. Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội.enc",
+        "icon": "🌍"
+      },
+      {
+        "id": "cnxh-moi-ch7",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Chương 7: Vấn đề gia đình",
+        "description": "Bộ câu hỏi trắc nghiệm chất lượng cao (40 câu)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm (mới)/Chương 7. Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội.enc",
+        "icon": "🏡"
+      },
+      {
+        "id": "cnxh-cb-ch1",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 1: Nhập môn Chủ nghĩa xã hội Khoa học",
+        "description": "Bộ câu hỏi Nhập môn Chủ nghĩa xã hội khoa học Mác - Lênin",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 1. Nhập môn Chủ nghĩa xã hội Khoa học.enc",
+        "icon": "📘"
+      },
+      {
+        "id": "cnxh-cb-ch2-p1",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
+        "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 1)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 1).enc",
+        "icon": "📕"
+      },
+      {
+        "id": "cnxh-cb-ch2-p2",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
+        "description": "Bộ câu hỏi Sứ mệnh lịch sử của giai cấp công nhân (Phần 2)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 2. Sứ mệnh lịch sử của giai cấp công nhân (Phần 2).enc",
+        "icon": "📕"
+      },
+      {
+        "id": "cnxh-cb-ch3",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 3: CNXH và Thời kỳ quá độ lên CNXH",
+        "description": "Bộ câu hỏi Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 3. Chủ nghĩa xã hội và Thời kỳ quá độ lên Chủ nghĩa xã hội.enc",
+        "icon": "🏛️"
+      },
+      {
+        "id": "cnxh-cb-ch4-p1",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 1)",
+        "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 1).enc",
+        "icon": "📜"
+      },
+      {
+        "id": "cnxh-cb-ch4-p2",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 4: Dân chủ XHCN và Nhà nước XHCN (Phần 2)",
+        "description": "Bộ câu hỏi Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 4. Dân chủ Xã hội chủ nghĩa và Nhà nước Xã hội chủ nghĩa (Phần 2).enc",
+        "icon": "📜"
+      },
+      {
+        "id": "cnxh-cb-ch5",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 5: Cơ cấu XH - Giai cấp & Liên minh giai cấp",
+        "description": "Cơ cấu xã hội - giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ quá độ",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 5. Cơ cấu Xã hội - Giai cấp và Liên minh giai cấp, tầng lớp trong thời kỳ Quá độ lên Chủ nghĩa xã hội.enc",
+        "icon": "🤝"
+      },
+      {
+        "id": "cnxh-cb-ch6-p1",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 1)",
+        "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).enc",
+        "icon": "🌍"
+      },
+      {
+        "id": "cnxh-cb-ch6-p2",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 6: Vấn đề dân tộc trong thời kỳ quá độ (Phần 2)",
+        "description": "Bộ câu hỏi Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 6. Vấn đề dân tộc trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).enc",
+        "icon": "🌍"
+      },
+      {
+        "id": "cnxh-cb-ch7-p1",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 1)",
+        "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).enc",
+        "icon": "🕊️"
+      },
+      {
+        "id": "cnxh-cb-ch7-p2",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 7: Vấn đề tôn giáo trong thời kỳ quá độ (Phần 2)",
+        "description": "Bộ câu hỏi Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 7. Vấn đề tôn giáo trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).enc",
+        "icon": "🕊️"
+      },
+      {
+        "id": "cnxh-cb-ch8-p1",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 1)",
+        "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 1).enc",
+        "icon": "🏡"
+      },
+      {
+        "id": "cnxh-cb-ch8-p2",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 8: Vấn đề gia đình trong thời kỳ quá độ (Phần 2)",
+        "description": "Bộ câu hỏi Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2)",
+        "file": "data/CNXH/Câu hỏi trắc nghiệm cơ bản/Chương 8. Vấn đề gia đình trong thời kỳ Quá độ lên Chủ nghĩa xã hội (Phần 2).enc",
+        "icon": "🏡"
+      }
+    ]
+  },
+  {
+    "category": "🎓 Giáo dục học - HNUE",
+    "subjectId": "gdh",
+    "status": "available",
+    "quizzes": [
+      {
+        "id": "gdh-moi-80cau",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Bộ 80 câu hỏi Trắc nghiệm Giáo dục học Đại cương",
+        "description": "Biên soạn bởi ThS. Nguyễn Thúy Quỳnh – Khoa Tâm lý, ĐHSP Hà Nội",
+        "file": "data/Giáo dục học/Câu hỏi trắc nghiệm (mới)/80 câu hỏi trắc nghiệm.enc",
+        "icon": "🎓"
+      },
+      {
+        "id": "gdh-moi-80cau-ontap",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Bộ 80 câu hỏi Trắc nghiệm Ôn tập Môn Giáo dục học",
+        "description": "Chia sẻ bởi RAM Club – Phạm Vũ Ngọc Quỳnh (Khoa Toán Tin, ĐHSP Hà Nội)",
+        "file": "data/Giáo dục học/Câu hỏi trắc nghiệm (mới)/80 câu hỏi trắc nghiệm ôn tập môn Giáo dục học.enc",
+        "icon": "📝"
+      },
+      {
+        "id": "gdh-moi-60cau",
+        "folder": "✨ Bộ câu hỏi trắc nghiệm (Mới)",
+        "title": "Bộ 60 câu hỏi Trắc nghiệm Giáo dục học (RAM Club)",
+        "description": "Tổng hợp bởi ThS. Nguyễn Thúy Quỳnh – Khoa Tâm lý, ĐHSP Hà Nội",
+        "file": "data/Giáo dục học/Câu hỏi trắc nghiệm (mới)/60 câu hỏi trắc nghiệm Giáo dục học (ThS Nguyễn Thúy Quỳnh).enc",
+        "icon": "📕"
+      },
+      {
+        "id": "gdh-cb-ch1",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 1: Giáo dục học là một khoa học",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 1: Giáo dục học là một khoa học",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 1. Giáo dục học là một khoa học.enc",
+        "icon": "📖"
+      },
+      {
+        "id": "gdh-cb-ch2",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 2: Giáo dục và sự phát triển xã hội",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 2: Giáo dục và sự phát triển xã hội",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 2. Giáo dục và sự phát triển xã hội.enc",
+        "icon": "🌐"
+      },
+      {
+        "id": "gdh-cb-ch3",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 3: Giáo dục và sự phát triển nhân cách",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 3: Giáo dục và sự phát triển nhân cách",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 3. Giáo dục và sự phát triển nhân cách.enc",
+        "icon": "👤"
+      },
+      {
+        "id": "gdh-cb-ch4",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 4: Mục đích và nguyên lý giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 4: Mục đích và nguyên lý giáo dục",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 4. Mục đích và nguyên lý giáo dục.enc",
+        "icon": "🎯"
+      },
+      {
+        "id": "gdh-cb-ch5",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 5: Hệ thống giáo dục quốc dân",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 5: Hệ thống giáo dục quốc dân",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 5. Hệ thống giáo dục quốc dân.enc",
+        "icon": "🏫"
+      },
+      {
+        "id": "gdh-cb-ch6",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 6: Quá trình dạy học",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 6: Quá trình dạy học",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 6. Quá trình dạy học.enc",
+        "icon": "📚"
+      },
+      {
+        "id": "gdh-cb-ch7",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 7: Tính quy luật và nguyên tắc dạy học",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 7: Tính quy luật và nguyên tắc dạy học",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 7. Tính quy luật và nguyên tắc dạy học.enc",
+        "icon": "⚖️"
+      },
+      {
+        "id": "gdh-cb-ch8",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 8: Nội dung dạy học",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 8: Nội dung dạy học",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 8. Nội dung dạy học.enc",
+        "icon": "📖"
+      },
+      {
+        "id": "gdh-cb-ch9",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 9: Phương pháp và phương tiện dạy học",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 9: Phương pháp và phương tiện dạy học",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 9. Phương pháp và phương tiện dạy học.enc",
+        "icon": "🛠️"
+      },
+      {
+        "id": "gdh-cb-ch10",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 10: Hình thức tổ chức dạy học",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 10: Hình thức tổ chức dạy học",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 10. Hình thức tổ chức dạy học.enc",
+        "icon": "🏫"
+      },
+      {
+        "id": "gdh-cb-ch11",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 11: Kiểm tra, đánh giá kết quả học tập",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 11: Kiểm tra, đánh giá kết quả học tập",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 11. Kiểm tra, đánh giá kết quả học tập.enc",
+        "icon": "📝"
+      },
+      {
+        "id": "gdh-cb-ch12",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 12: Quá trình giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 12: Quá trình giáo dục",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 12. Quá trình giáo dục.enc",
+        "icon": "🌱"
+      },
+      {
+        "id": "gdh-cb-ch13",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 13: Nguyên tắc giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 13: Nguyên tắc giáo dục",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 13. Nguyên tắc giáo dục.enc",
+        "icon": "⚖️"
+      },
+      {
+        "id": "gdh-cb-ch14",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 14: Nội dung giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 14: Nội dung giáo dục",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 14. Nội dung giáo dục.enc",
+        "icon": "📜"
+      },
+      {
+        "id": "gdh-cb-ch15",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 15: Phương pháp giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 15: Phương pháp giáo dục",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 15. Phương pháp giáo dục.enc",
+        "icon": "💡"
+      },
+      {
+        "id": "gdh-cb-ch16",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 16: Môi trường giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 16: Môi trường giáo dục",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 16. Môi trường giáo dục.enc",
+        "icon": "🏡"
+      },
+      {
+        "id": "gdh-cb-ch17",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 17: Một số vấn đề cơ bản về quản lý nhà trường",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 17: Một số vấn đề cơ bản về quản lý nhà trường",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 17. Một số vấn đề cơ bản về quản lý nhà trường.enc",
+        "icon": "🏛️"
+      },
+      {
+        "id": "gdh-cb-ch18",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 18: Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 18: Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 18. Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục.enc",
+        "icon": "👩‍🏫"
+      },
+      {
+        "id": "gdh-cb-ch19",
+        "folder": "📘 Bộ câu hỏi trắc nghiệm Cơ bản",
+        "title": "Chương 19: Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông",
+        "description": "Bộ câu hỏi trắc nghiệm Chương 19: Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông",
+        "file": "data/Giáo dục học/Bộ câu hỏi trắc nghiệm cơ bản/Chương 19. Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông.enc",
+        "icon": "📋"
+      }
+    ]
+  },
+  {
+    "category": "📖 Giáo trình & Bài giảng Giáo dục học (Markdown)",
+    "subjectId": "gdh-textbook",
+    "status": "available",
+    "type": "textbook",
+    "volumes": [
+      {
+        "volumeTitle": "📘 Tập 1: Lý luận Giáo dục & Dạy học Đại cương",
+        "description": "Giáo trình Giáo dục học - PGS.TS Trần Thị Tuyết Oanh (Chủ biên)",
+        "chapters": [
+          {
+            "id": "gt-gdh-ch1",
+            "title": "Chương 1: Giáo dục học là một khoa học",
+            "description": "Lý luận đại cương về Giáo dục học",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 01 - Giáo dục học là một khoa học.enc",
+            "quizId": "gdh-cb-ch1",
+            "icon": "📖"
+          },
+          {
+            "id": "gt-gdh-ch2",
+            "title": "Chương 2: Giáo dục và sự phát triển xã hội",
+            "description": "Chức năng xã hội và vai trò của Giáo dục",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 02 - Giáo dục và sự phát triển xã hội.enc",
+            "quizId": "gdh-cb-ch2",
+            "icon": "🌐"
+          },
+          {
+            "id": "gt-gdh-ch3",
+            "title": "Chương 3: Giáo dục và sự phát triển nhân cách",
+            "description": "Các nhân tố ảnh hưởng đến sự hình thành nhân cách",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 03 - Giáo dục và sự phát triển nhân cách.enc",
+            "quizId": "gdh-cb-ch3",
+            "icon": "👤"
+          },
+          {
+            "id": "gt-gdh-ch4",
+            "title": "Chương 4: Mục đích và nguyên lý giáo dục",
+            "description": "Mục đích, nhiệm vụ và nguyên lý giáo dục Việt Nam",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 04 - Mục đích và nguyên lý giáo dục.enc",
+            "quizId": "gdh-cb-ch4",
+            "icon": "🎯"
+          },
+          {
+            "id": "gt-gdh-ch5",
+            "title": "Chương 5: Hệ thống giáo dục quốc dân",
+            "description": "Cơ cấu và nguyên tắc phát triển hệ thống giáo dục",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 05 - Hệ thống giáo dục quốc dân.enc",
+            "quizId": "gdh-cb-ch5",
+            "icon": "🏫"
+          },
+          {
+            "id": "gt-gdh-ch6",
+            "title": "Chương 6: Quá trình dạy học",
+            "description": "Bản chất, cấu trúc và động lực của quá trình dạy học",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 06 - Quá trình dạy học.enc",
+            "quizId": "gdh-cb-ch6",
+            "icon": "📚"
+          },
+          {
+            "id": "gt-gdh-ch7",
+            "title": "Chương 7: Tính quy luật và nguyên tắc dạy học",
+            "description": "Hệ thống nguyên tắc dạy học cơ bản",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 07 - Tính quy luật và nguyên tắc dạy học.enc",
+            "quizId": "gdh-cb-ch7",
+            "icon": "⚖️"
+          },
+          {
+            "id": "gt-gdh-ch8",
+            "title": "Chương 8: Nội dung dạy học",
+            "description": "Khái niệm, cấu trúc và văn bản quy định nội dung dạy học",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 08 - Nội dung dạy học.enc",
+            "quizId": "gdh-cb-ch8",
+            "icon": "📖"
+          },
+          {
+            "id": "gt-gdh-ch9",
+            "title": "Chương 9: Phương pháp và phương tiện dạy học",
+            "description": "Hệ thống phương pháp và phương tiện dạy học hiện đại",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 09 - Phương pháp và phương tiện dạy học.enc",
+            "quizId": "gdh-cb-ch9",
+            "icon": "🛠️"
+          },
+          {
+            "id": "gt-gdh-ch10",
+            "title": "Chương 10: Hình thức tổ chức dạy học",
+            "description": "Bài học và các hình thức tổ chức dạy học ở trường phổ thông",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 10 - Hình thức tổ chức dạy học.enc",
+            "quizId": "gdh-cb-ch10",
+            "icon": "🏫"
+          },
+          {
+            "id": "gt-gdh-ch11",
+            "title": "Chương 11: Kiểm tra, đánh giá kết quả học tập",
+            "description": "Chức năng, nguyên tắc và phương pháp kiểm tra đánh giá",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 11 - Kiểm tra, đánh giá kết quả học tập.enc",
+            "quizId": "gdh-cb-ch11",
+            "icon": "📝"
+          }
+        ]
+      },
+      {
+        "volumeTitle": "📕 Tập 2: Quá trình Giáo dục & Quản lý Nhà trường",
+        "description": "Giáo trình Giáo dục học - PGS.TS Trần Thị Tuyết Oanh (Chủ biên)",
+        "chapters": [
+          {
+            "id": "gt-gdh-ch12",
+            "title": "Chương 12: Quá trình giáo dục",
+            "description": "Bản chất, đặc điểm và logic của quá trình giáo dục",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 12 - Quá trình giáo dục.enc",
+            "quizId": "gdh-cb-ch12",
+            "icon": "🌱"
+          },
+          {
+            "id": "gt-gdh-ch13",
+            "title": "Chương 13: Nguyên tắc giáo dục",
+            "description": "Hệ thống các nguyên tắc giáo dục nhân cách",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 13 - Nguyên tắc giáo dục.enc",
+            "quizId": "gdh-cb-ch13",
+            "icon": "⚖️"
+          },
+          {
+            "id": "gt-gdh-ch14",
+            "title": "Chương 14: Nội dung giáo dục",
+            "description": "Các mặt nội dung giáo dục toàn diện cho thế hệ trẻ",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 14 - Nội dung giáo dục.enc",
+            "quizId": "gdh-cb-ch14",
+            "icon": "📜"
+          },
+          {
+            "id": "gt-gdh-ch15",
+            "title": "Chương 15: Phương pháp giáo dục",
+            "description": "Hệ thống phương pháp tác động giáo dục nhân cách",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 15 - Phương pháp giáo dục.enc",
+            "quizId": "gdh-cb-ch15",
+            "icon": "💡"
+          },
+          {
+            "id": "gt-gdh-ch16",
+            "title": "Chương 16: Môi trường giáo dục",
+            "description": "Phối hợp giáo dục Nhà trường - Gia đình - Xã hội",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 16 - Môi trường giáo dục.enc",
+            "quizId": "gdh-cb-ch16",
+            "icon": "🏡"
+          },
+          {
+            "id": "gt-gdh-ch17",
+            "title": "Chương 17: Một số vấn đề cơ bản về quản lý nhà trường",
+            "description": "Nguyên tắc và nội dung quản lý trường phổ thông",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 17 - Một số vấn đề cơ bản về quản lý nhà trường.enc",
+            "quizId": "gdh-cb-ch17",
+            "icon": "🏛️"
+          },
+          {
+            "id": "gt-gdh-ch18",
+            "title": "Chương 18: Lao động sư phạm của giáo viên và Hội đồng giáo dục",
+            "description": "Đặc điểm lao động sư phạm và vai trò Hội đồng giáo dục",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 18 - Lao động sư phạm của giáo viên và hoạt động của Hội đồng giáo dục.enc",
+            "quizId": "gdh-cb-ch18",
+            "icon": "👩‍🏫"
+          },
+          {
+            "id": "gt-gdh-ch19",
+            "title": "Chương 19: Công tác của giáo viên chủ nhiệm lớp",
+            "description": "Vị trí, chức năng và nội dung công tác GVCN lớp ở trường phổ thông",
+            "file": "data/Giáo dục học/Giáo trình/Các chương MD/Chương 19 - Công tác của giáo viên chủ nhiệm lớp ở trường phổ thông.enc",
+            "quizId": "gdh-cb-ch19",
+            "icon": "📋"
+          }
+        ]
+      }
+    ]
+  }
+]

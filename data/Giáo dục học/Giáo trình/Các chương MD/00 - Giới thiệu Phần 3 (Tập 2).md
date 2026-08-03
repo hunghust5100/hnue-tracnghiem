@@ -1,0 +1,5 @@
+GIÁO TRÌNH GIÁO DỤC HỌC - TẬP 2 (Dành cho sinh viên Đại học sư phạm)
+
+Trần Thị Tuyết Oanh (Chủ biên)
+
+Phần 3: LÝ LUẬN GIÁO DỤC Lí luận giáo dục là hệ thống lí luận về tổ chức quá trình giáo dục (theo nghĩa hẹp) hướng chủ yếu vào việc hình thành cho người được giáo dục những quan điểm, niềm tin, giá trị, động cơ thái độ, hành vi, thói quen phù hợp với những chuẩn mực của xã hội, góp phần phát triển toàn diện nhân cách theo mục đích giáo dục. Hệ thống lí luận này bao gồm những vấn đề cơ bản về bản chất, đặc điểm, quy luật của quá trình giáo dục; về nguyên tắc, phương pháp và nội dung giáo dục, sự thống nhất các môi trường giáo dục, đảm bảo cho quá trình giáo dục đạt hiệu quả.

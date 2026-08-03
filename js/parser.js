@@ -171,3 +171,74 @@ function formatExplanationHTML(expText) {
     
     return `<div class="exp-plain-text">${escapeHTML(expText)}</div>`;
 }
+
+/* ========================================================
+   MARKDOWN PARSER & TABLE OF CONTENTS EXTRACTOR
+======================================================== */
+function extractTocFromMarkdown(mdText) {
+    if (!mdText) return [];
+    const lines = mdText.split(/\r?\n/);
+    const toc = [];
+    let headingCount = 0;
+
+    lines.forEach(line => {
+        const match = line.match(/^(#{1,4})\s+(.+)$/);
+        if (match) {
+            headingCount++;
+            const level = match[1].length;
+            const title = match[2].trim();
+            const slug = 'heading-' + headingCount;
+            toc.push({ level, title, slug });
+        }
+    });
+
+    return toc;
+}
+
+function renderMarkdownToHtml(mdText) {
+    if (!mdText) return '';
+    let headingCount = 0;
+    
+    const lines = mdText.split(/\r?\n/);
+    const processedLines = [];
+    
+    lines.forEach(line => {
+        const match = line.match(/^(#{1,4})\s+(.+)$/);
+        if (match) {
+            headingCount++;
+            const level = match[1].length;
+            const title = match[2].trim();
+            const slug = 'heading-' + headingCount;
+            processedLines.push(`<h${level} id="${slug}" class="reader-heading reader-h${level}">${escapeHTML(title)}</h${level}>`);
+        } else {
+            processedLines.push(line);
+        }
+    });
+
+    let content = processedLines.join('\n');
+
+    // Bold (**text**) & Italic (*text*)
+    content = content.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    content = content.replace(/\*(.*?)\*/g, '<em>$1</em>');
+
+    // Blockquotes (> text)
+    content = content.replace(/^>\s?(.*$)/gim, '<blockquote class="reader-blockquote">$1</blockquote>');
+
+    // Bullet list items (- item or * item)
+    content = content.replace(/^[\-\*]\s+(.*$)/gim, '<li class="reader-li">$1</li>');
+    content = content.replace(/((?:<li class="reader-li">.*<\/li>\s*)+)/g, '<ul class="reader-ul">$1</ul>');
+
+    // Paragraphs
+    const paragraphs = content.split(/\n{2,}/);
+    content = paragraphs.map(p => {
+        p = p.trim();
+        if (!p) return '';
+        if (p.startsWith('<h') || p.startsWith('<blockquote') || p.startsWith('<ul') || p.startsWith('<li')) {
+            return p;
+        }
+        return `<p class="reader-p">${p.replace(/\n/g, '<br>')}</p>`;
+    }).join('\n');
+
+    return content;
+}
+

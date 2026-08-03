@@ -1,0 +1,367 @@
+# Chương 2: GIÁO DỤC VÀ SỰ PHÁT TRIỂN XÃ HỘI
+
+## I. CÁC CHỨC NĂNG XÃ HỘI CỦA GIÁO DỤC
+
+Ngay từ khi mới xuất hiện trên Trái đất, con người đã phải truyền đạt những kinh nghiệm của thế hệ trước cho thế hệ sau để sinh tồn và phát triển.
+
+Kinh nghiệm của xã hội loài người được hiểu là những tri thức về các quy luật tồn tại, vận động và phát triển của tự nhiên, xã hội, tư duy, những kĩ năng, kĩ xảo lao động, hoạt động thực tiễn, các chuẩn mực về đạo đức, lối sống, văn hoá v.v... Những kinh nghiệm này ngày càng phong phú, điều đó càng khẳng định vai trò và chức năng đặc biệt quan trọng của hoạt động giáo dục.
+
+Giáo dục tác động vào từng cá nhân để trở thành những nhân cách theo yêu cầu phát triển của xã hội, nó ảnh hưởng lớn đến tất cả các hình thái ý thức xã hội, đồng thời nó cũng tác động mạnh mẽ làm chuyển hoá cơ sở hạ tầng bởi tính độc lập tương đối của các hình thái ý thức xã hội. Giáo dục được coi là một nhân tố tích cực tạo nên nguồn nhân lực. Phẩm chất năng lực con người quyết định sự phát triển xã hội - điều này càng thể hiện rất rõ trong xã hội hiện đại, khi tất cả các quốc gia trên thế giới đang tập trung tăng tốc phát triển nền kinh tế tri thức, tức là tận dụng các thành tựu khoa học, kĩ thuật, công nghệ, trí tuệ để thực hiện mục tiêu xây dựng đất nước. Phát triển giáo dục đã trở thành “quốc sách hàng đầu” của nhiều quốc gia.
+
+### 1. Chức năng kinh tế - sản xuất
+
+Giáo dục là một hiện tượng vĩnh hằng, bất biến góp phần đắc lực, hiệu quả trong việc đào tạo lực lượng lao động mới, tiến bộ phục vụ cho phương thức sản xuất của xã hội. Như vậy giáo dục tuy không trực tiếp sản xuất nhúng đã tái sản xuất ra sức lao động xã hội của thế hệ sau hơn thế hệ trước, tức là cải biến cái bản thể tự nhiên chung của con người, giúp họ có kiến thức, kĩ năng, kĩ xảo về một lĩnh vực lao động phù hợp, tạo ra một năng suất lao động cao, trực tiếp thúc đẩy sản xuất, phát triển kinh tế.
+
+Ngày nay, nhân loại đang sống trong thời kì văn minh hậu công nghiệp cùng với sự phát triển mạnh mẽ của công nghệ thông tin. Đặc điểm này đã đặt ra những yêu cầu rất cao đố với nguồn nhân lực lao động: phải có trình độ học vấn cao, có kiến thức sâu sắc, có tay nghề vững vàng, cao hơn là có tính năng động, sáng tạo, linh hoạt để thích nghi, đáp ứng được những yêu cầu của tiến trình phát triển xã hội.
+
+Để thực hiện tốt chức năng kinh tế - sản xuất, giáo dục phải tập trung thực hiện những yêu cầu cơ bản sau đây:
+
+- Giáo dục phải gắn kết với thực tiễn xã hội, đáp ứng nguồn nhân lực
+
+theo yêu cầu phát triển kinh tế - sản xuất trong từng giai đoạn cụ thể.
+
+- Xây dựng một hệ thống giáo dục quốc dân cân đối, đa dạng nhằm
+
+thực hiện ba mục tiêu: Lấy nâng cao dân trí làm nền tảng đào tạo nhân lực; trên cơ sở đó bồi dưỡng nhân tài cho tất cả các lĩnh vực kinh tế, văn hoá, khoa học, công nghệ v.v. làm động lực trực tiếp thúc đẩy đất nước phát triển hoà nhập với thế giới văn minh.
+
+- Hệ thống giáo dục quốc dân không ngừng đổi mới nội dung, phương
+
+pháp, phương tiện v.v... Việc nâng cao chất lượng giáo dục đào tạo nguồn nhân lực có trình độ chuyên môn, nghiệp vụ cao và những phẩm chất cần thiết đáp ứng yêu cầu của nền sản xuất hiện đại là vấn đề đang đặt ra cho các quốc gia phải quan tâm giải quvết.
+
+Ở Việt Nam, trên cơ sở thực hiện mục tiêu nâng cao dân trí, giáo dục còn hướng vào quá trình đào tạo nhân lực. Đây là đội ngũ nòng cốt có trình độ khoa học, nắm vững công nghệ sản xuất hiện đại, có các phẩm chất cần thiết của người lao động trong xã hội văn minh trên tất cả mọi lĩnh vực kinh tế, văn hoá, xã hội v.v... đáp ứng yêu cầu của giai đoạn phát triển công nghiêp hoá, hiện đại hoá đất nước.
+
+### 2. Chức năng chính trị - tư tưởng
+
+Mỗi quốc gia trên thế giới đều có một chế độ chính trị của mình, giai cấp hay chính đảng cầm quyền nhà nước đó sử dụng giáo dục như một công cụ mạnh mẽ, lợi hại nhất để khai sáng nhận thức, bồi dưỡng tình cảm, củng cố niềm tin, kích thích hành động của tất cả các lực lượng xã hội thực hiện các chủ trương, đường lối, chính sách... nhằm duy trì, củng cố chế độ hình trị đó. Thể chế chính trị được thiết lập ở mỗi quốc gia là xuất phát từ một hệ thống tư tưởng của giai cấp hay chính đảng cầm quyền nhất định. Do đó, thể chế chính trị và tư tưởng có mối quan hệ nhân quả chặt chẽ, có ảnh hưởng
+
+vô cùng to lớn, mạnh mẽ đến tất cả các hình thái ý thức xã hội khác và cũng phản ánh đặc trưng cơ sở kinh tế của xã hội. V. I. Lênin khẳng định: “Chính trị là biểu hiện tập trung của kinh tế”.
+
+Thông qua giáo dục, những tư tưởng xã hội được thấm đến từng con người, giáo dục hình thành ở con người thế giới quan, giáo dục ý thức, hành vi phù hợp với chuẩn mực đạo đức xã hội.
+
+Ở nước ta, Đảng Cộng sản Việt Nam lãnh đạo Nhà nước, đại diện cho quyền lực “của dân, do dân, vì dân” trên nền tảng của chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh đang quyết tâm xây dựng đất nước vì mục tiêu dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh. Giáo dục phải phục vụ mục đích chính trị tốt đẹp và tư tưởng cao quý đó bằng toàn bộ hoạt động của mình thể hiện từ quan điểm, mục đích, nội dung, phương châm, phương pháp đến tổ chức, quản lí giáo dục sao cho các chủ trương, đường lối chính trị của Đảng, pháp luật của Nhà nước, tư tưởng Hồ Chí Minh thấm nhuần sâu sắc vào mọi tầng lớp nhân dân để biến thành hành động thực tiễn nhằm đưa đất nước phát triển nhanh, mạnh, vững chắc.
+
+### 3. Chức năng văn hoá - xã hội
+
+“Văn hoá là toàn bộ giá trị vật chất và tinh thần đã được nhân loại sáng tạo ra trong quá trình hoạt động thực tiễn lịch sử - xã hội, các giá trị ấy nói lên mức độ phát triển của loài người”. Các giá trị văn hoá vật chất, tinh thần ấy tồn tại trong xã hội. Hiểu theo hệ thống cấu trúc, giáo dục là một bộ phận của văn hoá - xã hội. Nhưng hiểu theo cơ chế vận hành, giáo dục có chức năng truyền thụ các giá trị văn hoá - xã hội từ thế hệ trước cho thế hệ sau. Như vậy, “văn hoá là nội dung và cũng là mục tiêu của giáo dục. Văn hoá và giáo dục gắn bó với nhau như hình với bóng”. Tất cả các giá trị văn hoá của nhân loại, của dân tộc, của cộng đồng, thông qua giáo dục (của gia đình, nhà trường, xã hội) để trở thành hệ thống giá trị của từng con người.
+
+Thê giới ngày nay coi giáo dục là con đường cơ bản nhất để giữ gìn và phát triển văn hoá, để khỏi tụt hậu. Nhà tương lai học người Mĩ là A. Toffler khẳng định tại Hội đồng Liên hợp quốc, khoá 15 (1990) “Một dân tộc không
+
+được giáo dục — dân tộc đó sẽ bị loài người đào thải, một cá nhân không được giáo dục - cá nhân đó sẽ bị xã hội loại bỏ”.
+
+Giáo dục có nhiệm vụ quan trọng là xây dựng một trình độ văn hoá cho toàn xã hội bằng cách phổ cập giáo dục phổ thông với trình độ ngày càng cao cho thế hệ trẻ và mọi người dân trong xã hội. Ngày nay trình độ dân trí cao là một tiêu chí để đánh giá sự giàu mạnh của một quốc gia. Trình độ dân trí cao sẽ tiếp thu, phát triển được các giá trị văn hoá tốt đẹp, đấu tranh ngăn ngừa xoá bỏ được những tư tưởng, hành vi tiêu cực ảnh hưởng đến tất cả những hoạt động cần thiết, hữu ích trong đời sống xã hội như: xoá bỏ các phong tục, tập quán lạc hậu, mê tín, dị đoan, các tệ nạn xã hội, thực hiện dân số - kế hoạch hoá gia đình, an toàn giao thông v.v... Đồng thời, giáo dục cũng phải làm thoả mãn nhu cầu được học tập suốt đời của mỗi công dân, do đó, giáo dục còn là một phúc lợi cơ bản, một quyền sống tinh thần của mỗi thành viên trong xã hội.
+
+Để thực hiện chức năng văn hoá - xã hội, giáo dục phải được quan tâm ngay từ bậc mầm non cho đến đại học và trên đại học; phát triển hợp lí các loại hình giáo dục và các phương thức đào tạo để mọi lứa tuổi được hưởng quyền lợi học tập, thoả mãn nhu cầu phát triển tài năng của mọi công dân, góp phần đắc lực vào sự nghiệp công nghiệp hoá, hiện đại hoá đất nước.
+
+## II. XÃ HỘI HIỆN ĐẠI VÀ NHỮNG THÁCH THỨC ĐẶT RA CHO GIÁO
+
+DỤC
+
+### 1. Đặc điểm của xã hội hiện đại
+
+Cuối thế kỉ XX, đầu thế kỉ XXI, trên thế giới đang diễn ra cuộc cách mạng khoa học - công nghệ. Sự chuyển biến từ thời kì công nghiệp sang thời kì phát triển của công nghệ thông tin và kinh tế tri thức đã tác động đến tất cả các lĩnh vực, làm biến đổi nhanh chóng và sâu sắc đời sống vật chất và tinh thần của xã hội. Sự chuyển biến to lớn này là thành quả của sự ra đời của các công nghệ cao, toàn cầu hoá và hội nhập về kinh tế và văn hoá, sự hình thành và phát triển của nền kinh tế tri thức.
+
+Cuộc cách mạng khoa học - công nghệ
+
+Tri thức nhân loại trên mọi bình diện, đặc biệt là về khoa học tự nhiên và công nghệ trong nửa cuối của thế kỉ XX đã phát triển tăng tốc so với nhiều thế kỉ trước. Sự tăng tốc phát minh khoa học và phát triển của công nghệ cao như công nghệ sinh học, công nghệ vật liệu, đặc biệt là công nghệ thông tin đã ảnh hưởng rộng rãi đến từng cá nhân, các tổ chức và các quốc gia, làm thay đổi phương thức học tập, làm việc và giải trí của từng người, làm thay đổi mối quan hệ giữa cá nhân với nhà nước, thay đổi các phương thức thương mại quốc tế, quân sự v.v... dẫn đến sự thay đổi căn bản các đặc tính văn hoá và giáo dục đã hình thành qua nhiều thế hệ ở từng quốc gia và trên toàn thế giới.
+
+Công nghệ cao đã đưa yếu tố thông tin và tri thức lên hàng đầu, đẩy các yếu tố cạnh tranh truyền thống như tài nguyên, vốn, quy mô sản xuất khổng lồ xuống hàng thứ yếu. Công nghệ cao làm giảm được sự tiêu hao năng lượng, nhân lực, nguyên liệu nâng cao chất lượng sản phẩm đến tuyệt hảo, hạ giá thành, bảo đảm sự cạnh tranh và hoà nhập thế giới.
+
+Giáo dục và đào tạo cung cấp nguồn nhân lực và nhân tài sự phát triển của khoa học và công nghệ, mặt khác sự phát triển khoa học và công nghệ lại tác động vào toàn bộ cơ cấu hệ thống giáo dục. Sự phát triển khoa học và công nghệ đã làm thay đổi cơ cấu ngành trong nền kinh tế, cơ cấu nghề của nhân dân lao động trong xã hội, đòi hỏi giáo dục và đào tạo cần nâng cao trình độ đào tạo sao cho phù hợp với yêu cầu của nền kinh tế xã hội.
+
+Xu thế toàn cầu hoá
+
+Toàn cầu hoá và hội nhập kinh tế quốc tế là một xu thế khách quan, vừa là quá trình hợp tác để phát triển vừa là quá trình đấu tranh của các nước để bảo vệ lợi ích quốc gia. Có hàng loạt nhân tố thúc đẩy tiến trình toàn cầu hoá và hội nhập về kinh tế như sự cải tiến không ngừng phương tiện giao thông liên lạc và công nghệ thông tin, sự gia tăng nhu cầu mở rộng thị trường và xuất khẩu tư bản, sự phát triển kinh tế thị trường trên toàn thế giới, sự xuất hiện các công ti đa quốc gia, các tố chức kinh tế và thương mại quốc tế và sự
+
+hình thành hệ thống chính, tiền tệ thế giới với khối lượng trao đổi cực lớn về sản xuất có sự chuyên môn hoá trong hiệp tác cao không chỉ trong nước mà trong phạm vi quốc tế, tham gia vào quá trình hợp tác này cần có trình độ tương ứng về công nghệ.
+
+Toàn cầu hoá về kinh tế là một cuộc cách mạng về phương pháp và tổ chức sản xuất. Để tham gia vào quá trình đó một cách có lợi, các quốc gia phải tăng hàm lượng tri thức về khoa học và công nghệ trong các sản phẩm, nâng cao chất lượng nguồn nhân lực, những nước nào chỉ dựa vào tài nguyên thiên thiên và lao động giản đơn thì sẽ bị thiệt thòi. Giáo dục phải đào tạo được những con người làm chủ công nghệ mới, nắm bắt nhanh chóng công nghệ hiện đại.
+
+Về văn hoá, lối sống có tính quốc tế và tính toàn cầu đang dần hình thành, thị trường liên thông giữa các quốc gia, sự di cư ồ ạt của con người từ quốc gia này sang quốc gia khác, sự tìm kiếm việc làm của nguồn nhân lực ngoài biên giới quốc gia cũng như các phương tiện thông tin đã đóng vai trò quan trọng trong vấn đề này. Mạng viễn thông và Internet tạo thuận lợi cho giao lưu và hội nhập văn hoá giữa các quốc gia, hình thành những cộng đồng văn hoá.
+
+Giao lưu văn hoá tạo điều kiện cho các nền văn hoá có thể tiếp thu các tinh hoa văn hoá của nhân loại để phát triển nền văn hoá của chính dân tộc mình. Tuv nhiên, thực tế cũng diễn ra một cuộc đấu tranh để bảo vệ các nền văn hoá yếu trước nguy cơ đồng hoá của các nền văn hoá mạnh.
+
+Vấn đề toàn cầu hoá về văn hoá là vấn đề phức tạp, đón nhận nó một cách vô điều kiện thì sẽ hoà tan, còn chống lại xu thế đó sẽ bị tụt hậu. Giáo dục cần đào tạo những con người biết giữ gìn bản sắc văn hoá dân tộc kết hợp với những tinh hoa văn hóa nhân loại, đó là điều kiện cần và đủ để tiếp cận với xu thế toàn cầu hoá.
+
+Những vấn đề khác mà toàn nhân loại và mọi quốc gia quan tâm, đó là các vấn đề như: vấn đề chiến tranh và hoà bình, vấn đề dân số, vấn đề ô nhiễm môi trường và mất cân bằng sinh thái, vấn đề đói nghèo, bệnh tật và
+
+các tệ nạn xã hội v.v.. Giáo dục phải hình thành cho con người ý thức tích cực với những vấn đề có tính chất toàn cầu.
+
+Toàn cầu hoá và hội nhập kinh tế tạo nên sự giao lưu và hội nhập văn hoá giữa các quốc gia: Hình thành những cộng đồng, văn hoá đa sắc màu, đa dân tộc, đa tôn giáo vô cùng phức tạp. Những tác động mạnh mẽ, lớn lao trên đặt ra cho giáo dục phải đào tạo được những con người làm chủ và nắm bắt được khoa học và công nghệ hiện đại, có ý thức tích cực về những vấn đề mọi quốc gia đang quan tâm như: Bảo vệ môi trường, chống đói nghèo, bệnh tật, dân số và các tệ nạn xã hội v.v.
+
+Bối cảnh thế giới về xu thế toàn cầu hoá và hội nhập kinh tế như một cơn gió mạnh cuốn hút mạnh mẽ, tác động đến tất cả mọi quốc gia phát triển và đang phát triển. Việt Nam không thể tách khỏi ảnh hưởng của quá trình đó, vấn đề là làm sao đêể có tiềm lực hội nhập vào xu thế thời đại, tăng tốc sự nghiệp công nghiệp hoá, hiện đại hoá đất nước theo định hướng xã hội chủ nghĩa, vừa không hoà tan trong dòng chảy chung làm mờ nhạt bản sắc và những truyền thống tốt đẹp của dân tộc.
+
+Phát triển nền kinh tế tri thức
+
+Có nhiều cách hiểu về nền kinh tế tri thức, theo định nghĩa của Tố chức hợp tác và phát triển kinh tế, 1996. “Kinh tế tri thức là nền kinh tế trong đó tri thức đóng vai trò then chốt đối với sự phát triển kinh tế - xã hội loài người”.
+
+Nền kinh tế tri thức có một số đặc trưng cơ bản, đó là:
+
+- Tri thức trở thành nhân tố quan trọng nhất quyết định sự phát triển, tri
+
+thức là nguồn lực hàng đầu tạo ra sự tăng trưởng, quan trọng hơn cả vốn, tài nguyên, đất đai.
+
+- Trong kết cấu giá trị sản phẩm hàng hoá, dịch vụ thì hàm lượng tri
+
+thức chiếm tỉ trọng cao, giá trị các yếu tố vật chất (máy móc, vật tư, nguyên liệu) ngày càng giảm. Chính vì vậy, quyền sở hữu đối với tri thức trở thành quan trọng nhất.
+
+- Trong quá trình lao động của từng người và toàn bộ lực lượng xã hội,
+
+hàm lượng lao động cơ bắp giảm đi vô cùng nhiều, hàm lượng hao phí lao động trí óc tăng lên vô cùng lớn.
+
+- Cơ cấu kinh tế có sự chuyển dịch từ sản xuất vật chất sang hoạt động
+
+dịch vụ, xử lí thông tin là chủ đạo.
+
+- Công nghệ đổi mới nhanh, vòng đời công nghệ ngắn (luôn khuyến
+
+khích những sáng kiến). Giữa sản xuất và tiêu dùng có quan hệ chặt chẽ (các mặt hàng sản xuất theo nhu cầu khách hàng). Quá trình tin học hoá các khâu sản xuất, dịch vụ, quản lí.
+
+Giáo dục là cốt lõi trong quá trình chuyển sang nền kinh tế tri thức, nền kinh tế tri thức hình thành ở một số nước tiên tiến, hiện nay đang lan ra toàn thế giới và chắc chắn sẽ không đồng đều.
+
+Do ảnh hưởng mạnh mẽ và sâu sắc của cuộc cách mạng khoa học và công nghệ từ nửa sau thế kỉ XX và tiếp tục ở thế kỉ XXI đã đặt ra những vấn đề bức xúc đối với giáo dục là phải đổi mới mục tiêu, nội dung, phương pháp giáo dục ở tất cả các bậc học và tổ chức lại hệ thống giáo dục phù hợp với điều kiện của nền sản xuất và cuộc sống hiện đại.
+
+### 2. Những thách thức đặt ra cho giáo dục
+
+Bước vào thế kỉ XXI, nhân loại đứng trước một bối cảnh lịch sử mới và những thách thức chưa từng có, khoa học công nghệ, khả năng sản xuất, kinh doanh, quản lí của con người tăng tiến với mức độ vô cùng nhanh chóng. Những điều kiện đảm bảo cho toàn thể nhân loại một cuộc sống ấm no, hạnh phúc hầu như đã đạt được. Song, trong thực tế nhân loại cũng đang đối mặt với những khó khăn chưa thể khắc phục được một cách dễ dàng, đó là: suy kiệt nguồn tài nguyên, thảm hoạ thường xuyên xảy ra, suy thoái môi trường đang đè nặng lên nhân loại và Trái đất; một bộ phận không ít loài người đang sống trong nghèo đói, bệnh tật, ngu dốt, bị áp bức, bóc lột, chiến tranh và khủng bố v.v... Trong báo cáo tổng kết “Học tập - của cải nội sinh”
+
+của uỷ ban quốc tế chuẩn bị giáo dục đi vào thế kỉ XXI của UNESCO đã nêu lên những vấn đề mà giáo dục phải đương đầu giải quyết, đó là:
+
+Thứ nhất: Mối quan hệ giữa toàn cầu và cục bộ, con người dần dần trở thành công dân toàn cầu, mang tính quốc tế, nhưng vẫn tiếp tục là thành viên tích cực của cộng đồng, của quốc gia mình.
+
+Thứ hai: Mối quan hệ giữa toàn cầu và cá thể có văn hóa của nhân loại, văn hoá của từng dân tộc, từng khu vực; đồng thời phải tôn trọng và tạo điều kiện phát triển cá tính của từng con người.
+
+Thứ ba: Mối quan hệ giữa truyền thông và hiện đại, thích ứng với những yêu cầu của thời đại mới nhưng không làm mất đi những truyền thống tốt đẹp của dân tộc, tiến lên cập nhật với những tiến bộ mới nhưng không quay lưng lại với quá khứ.
+
+Thứ tư: Mối quan hệ giữa cách nhìn dài hạn và cách nhìn ngắn hạn, đây là vấn đề luôn đặt ra cho giáo dục nhưng ngày nay nó lại là vấn đề nổi cộm cần giải quyết. Thực tiễn giáo dục đòi hỏi cần có những giải pháp nhanh chóng, trong khi đó nhiều vấn đề gặp phải lại cần có một chiến lược cải cách có tính kiên nhẫn.
+
+Thứ năm: Giữa sự cạnh tranh cần thiết và phải quan tâm đến sự bình đẳng, vấn đề này thể hiện cả trong kinh tế, xã hội và trong giáo dục, làm được điều này cần phải điều phối ba lực:
+
+- Cạnh tranh tạo động lực
+
+- Hợp tác tạo sức lực
+
+- Liên kết tạo hợp lực
+
+Thứ sáu: Giữa sự tăng vô hạn của tri thức và khả năng tiếp thu của con người, nhà trường cần cải tiến nội dung chương trình một cách hợp lí, đổi mới phương pháp dạy và học.
+
+Thứ bày: Mối quan hệ giữa vật chất và tinh thần, chú ý tới tất cả các mặt của cuộc sống, đời sống vật chất đồng thời phải nâng cao trí tuệ, tinh thần, quan tâm giáo dục lí tưởng và các giá trị đạo đức.
+
+## III. XU THẾ PHÁT TRIỂN GIÁO DỤC THẾ KỈ XXI VÀ ĐỊNH HƯỚNG
+
+PHÁT TRIỂN GIÁO DỤC
+
+### 1. Xu thế phát triển giáo dục
+
+a. Nhận thức mới về giáo dục là sự nghiệp hàng đầu của quốc gia
+
+Từ xưa cũng đã có những quan điểm, tư tưởng khẳng định giáo dục là một trong những nhân tố quan trọng xây dựng xã hội an lạc, phú cường. Chủ tịch Hồ Chí Minh đã từng nhấn mạnh: "Kinh tế tiến bộ thì giáo dục mới tiến bộ được, nền kinh tế không phát triển thì giáo dục cũng không phát triển được, giáo dục không phát triển thì không có đủ cán bộ giúp cho kinh tế phát triển, hai việc đó liên quan mật thiết với nhau".
+
+Bước sang thế kỉ XXI, mỗi dân tộc càng nhận thức chính xác và cụ thể hơn vai trò, sức mạnh to lớn của giáo dục, đã khơi dậy và tạo nên tiềm năng vô tận trong mỗi con người. Trong các tài liệu về khoa học giáo dục, các nhà nghiên cứu trên thế giới đều xác định rõ vai trò, vị trí của giáo dục đối với sự phát triển của xã hội loài người nói chung, đặc biệt đối với sự phát triển nền kinh tế — xã hội của mỗi quốc gia. Giáo dục - Đào tạo được coi là quốc sách hàng đầu, giáo dục được coi là chiếc chìa khoá cuối cùng mở cánh cửa đưa xã hội loài người đi vào tương lai. Giáo dục là lực lượng sản xuất trực tiếp, đầu tư cho giáo dục là đầu tư cho phát triển.
+
+Thực tiễn cho thấy, nguyên nhân thành công của nhiều quốc gia là do có sự đầu tư và chăm lo đặc biệt đến sự phát triển giáo dục. Ngày nay, giáo dục được coi là quốc sách hàng đầu, tức là phải được thể hiện trong chính sách của quốc gia, thể hiện trong chiến lược phát triển đất nước.
+
+Ở Việt Nam, quan điểm “Giáo dục là quốc sách hàng đầu” được đề ra trong Đại hội Đảng Cộng sản Việt Nam khoá VII (6- 1991), được ghi vào Hiến pháp CHXHCN 1992 (điều 35). Nội dung của quan điểm “Giáo dục là quốc
+
+sách hàng đầu” đã được Đảng và Nhà nước chỉ đạo thực hiện bốn điểm chủ yếu sau đây:
+
+- Mục tiêu về giáo dục - đào tạo là mục tiêu ưu tiên quốc gia.
+
+- Việc tổ chức chỉ đạo thực hiện mục tiêu ở tầm quyền lực quốc gia.
+
+- Chính sách đầu tư thuộc hàng ưu tiên ngân sách mỗi năm một tăng.
+
+- Hệ thống chính sách đối với người dạy, người học tập ngày càng thể
+
+hiện sự tôn vinh của xã hội; khuyến khích, phát huy các giá trị đức tài của mọi công dân thông qua giáo dục — đào tạo.
+
+Những nội dung cơ bản của quan điểm “giáo dục là quốc sách hàng đầu” đã thể hiện: giáo dục là nhân tố quyết định sự phát triển của đất nước, phải nâng cao chất lượng giáo dục; giáo dục là bộ phận quan trọng hàng đầu của kế hoạch phát triển kinh tế xã hội đối với từng địa phương, từng khu vực và cả nước; cần có những chính sách ưu tiên cao nhất cho giáo dục; phát triển giáo dục gắn với nhu cầu phát triển kinh tế - xã hội.
+
+b. Xã hội hoá giáo dục
+
+Xã hội hoá giáo dục là một xu hướng phát triển hiện nay trên thế giới. Mục tiêu của xã hội hoá giáo dục là thu hút mọi thành phần, thành viên trong xã hội tham gia đóng góp phát triển sự nghiệp giáo dục và được hương quyền lợi giáo dục như một loại phúc lợi xã hội thể hiện sự dân chủ, tự do, công bằng nhân quyền tối thiểu của con người. Hiện nay, xu hướng chung của giáo dục các nước trên thế giới và trong khu vực là đa dạng hoá, dân chủ hoá, xã hội hoá nhằm huy động ngân sách cho giáo dục từ nhiều nguồn vốn khác nhau.
+
+Xã hội hoá giáo dục đòi hỏi nhà trường khi đóng vai trò chính để truyền thụ kiến thức và hình thành nhân cách con người theo yêu cầu xã hội cần phải được hỗ trợ nhiều mặt bởi các thành phần của xã hội, của mọi thiết chế xã hội, của môi trường lao động, giải trí, nghỉ ngơi, các hoạt động truyền thông đại chúng v.v... đó là giáo dục cho mọi người và mọi người làm giáo dục. Thực hiện giáo dục cho mọi người đòi hỏi không chỉ đơn thuần ở việc
+
+mở trường, mở lớp, cung cấp đủ người dạy, trang bị cơ sở vật chất sư phạm mà điều vô cùng quan trọng là nội dung giáo dục và đào tạo phải gắn với thực tiễn, học đi đôi với hành, giáo dục gắn liền với lao động sản xuất. Thực hiện giáo dục cho mọi người còn là việc mở rộng cho mọi người cơ hội lựa chọn các hình thức tổ chức giáo dục thích hợp với hoàn cảnh của mình.
+
+Xã hội hoá giáo dục là một xu hướng có tính chất chiến lược quan trọng của nhiều quốc gia trên thế giới nhằm phát triển đất nước và hội nhập thế giới. Ở Việt Nam, chủ trương xã hội hóa giáo dục đã được khắng định. Điều 12 trong Luật giáo dục nước CHXHCN Việt Nam nêu rõ “Nhà nước giữ vai trò chủ đạo trong phát triển sự nghiệp giáo dục; thực hiện đa dạng hoá các loại hình nhà trường và các hình thức giáo dục; khuyến khích, huy động và tạo điều kiện để tổ chức, cá nhân tham gia phát triển sự nghiệp giáo dục. Mọi tổ chức, gia đình và công dân có trách nhiệm chăm lo sự nghiệp giáo dục, phối hợp với nhà trường thực hiện mục tiêu giáo dục, xây dựng môi trường dục lành mạnh và an toàn”. Trong nghị quyết TW4, khoá VII năm 1993 cũng nêu rõ: "Huy động toàn xã hội làm giáo dục, động viên các tầng lớp nhân dân đóng góp công sức xây dựng nền giáo dục quốc dân dưới sự quản lí của nhà nước". Đảng và Nhà nước ta cùng đã ban hành nhiều chính sách để thực hiện xã hội hoá giáo dục.
+
+c. Giáo dục suốt đời
+
+Bước sang thế kỉ XXI, giáo dục đứng trước những đổi thay mạnh mẽ của thế giới văn minh hiện đại được tạo ra bởi khoa học và công nghệ. Những vấn đề về toàn cầu hoá, hội nhập khu vực, mong muốn được khẳng định về bản sắc dân tộc, những đòi hỏi tôn trọng sự đa dạng văn hoá: sự xuất hiện các mâu thuẫn của truyền thống và hiện đại, giữa cạnh tranh và bình đẳng giữa bùng nổ kiến thức và năng lực tiếp thu v.v. được đặt ra. Giáo dục với tư cách là yếu tố quan trọng cho sự phát triển xã hội cần phải đáp ứng được các xu hướng lớn đó, việc giáo dục và đào tạo một lần ở trong nhà trường không thể đủ vận dụng cho suốt cuộc đời. Giáo dục suốt đời là một xu
+
+thế tất yếu cần thiết vì nó thường xuyên làm giàu tiềm năng của mọi cá nhân, đáp ứng kịp thời các yêu cầu của xã hội.
+
+Giáo dục suốt đời là một nguyên tắc chỉ đạo việc tổ chức tổng thể một hệ thống giáo dục cũng như chỉ đạo việc tổ chức từng bộ phận của hệ thống giáo dục. Giáo dục suốt đời không phải là một hệ thống, cũng không phải là một lĩnh vực giáo dục, ý tưởng cơ bản của nguyên tắc này là giáo dục toàn diện cho các giai đoạn của cuộc đời con người. Thời gian học ở nhà trường không phải là duy nhất để có được hiểu biết, người học có thể thu nhận và xử lí thông tin do xã hội cung cấp trong suốt cuộc đời của mình bằng phương pháp tự học. Chính vì vậy, giáo dục phải thực hiện đa dạng hoá các loại hình đào tạo nhằm tạo cơ hội học tập cho mọi người, giáo dục nhà trường chỉ được coi là có hiệu quả khi nó tạo được cơ sở và động lực cho người học tiếp tục học tập và rèn luyện. Giáo dục suốt đời đòi hỏi con người phải học thường xuyên, do đó việc cập nhật những kiến thức phải trở thành một bộ phận cần thiết của giáo dục. Việc học tập phải được tiến hành liên tục, đảm bảo cho mỗi người tiếp thu được kiến thức mới trong suốt cuộc đời, sự truyền bá những tài liệu tự đào tạo cần dựa trên mạng viễn thông để mỗi người có điều kiện học tập.
+
+Học tập suốt đời là một định hướng mới chuyển từ cách tiếp cận dạy là chính sang học là chính - tức là người dạy đóng vai trò hướng dẫn, chỉ đạo còn người học chủ động, tích cực tiếp nhận tri thức bằng nhiều hình thức, bằng nhiều con đường khác nhau. Muốn vậy giáo dục phải dựa trên bốn trụ cột chính là:
+
+Học để biết: Học tập là con đưòng cơ bản nhất, tất yếu mở mang trí tuệ cho con người. Đặc biệt thời đại bùng nổ thông tin đã đặt ra cho người học cần có một trình độ giáo dục chung đủ rộng, đó là những kiến thức phổ thông ngang tầm thời đại và vốn hiểu biết sâu sắc về một số lĩnh vực có lựa chọn, đó là những công cụ, phương tiện cần thiết giúp cho người học cần biết phân tích, phê phán, có tư duy độc lập, phát hiện, phát minh những điều mới mẻ để nâng cao vị thế con người.
+
+Học để làm: Trong học tập phải chú trọng đến hình thành hệ thống kĩ năng, kĩ xảo tương ứng, tức là thực hiện nguyên lí học gắn với hành, lí luận gắn với thực tiễn đời sống. Trên cơ sở đó để hình thành các năng lực của người lao động được đào tạo ở trình độ cao, dễ dàng thích nghi, thích ứng với thị trường lao động, thị trường việc làm của xã hội nhằm đảm bảo cuộc sống tốt đẹp của cá nhân, góp phần thúc đẩy xã hội phát triển.
+
+Học để chung sống: Người học tập phải được tiếp thu một nền giáo dục nhân văn, có nhận thức, thái độ, tình cảm và hành vi theo các giá trị chuẩn mực đạo đức trong quan hệ, ứng xử... bảo đảm cuộc sống yên bình, hạnh phúc không chỉ trong gia đình mà còn đối với cộng đồng, với các dân tộc, các tôn giáo, các quốc gia khác vì mục đích chung bảo vệ hoà bình của nhân loại.
+
+Học để tự khẳng định mình: Giáo dục đóng góp vào sự phát triển toàn diện con ngưòi. Với sự tác động của giáo dục, mỗi người học để bộc lộ các tiềm năng của cá nhân bắt đầu từ tuổi thơ đến suốt cuộc đời của con người. Giáo dục thế kỉ XXI là phải mang lại cho con người tự do suy nghĩ, phán đoán, tưởng tượng để có thể phát triển tài năng của mình và tự kiểm tra cuộc sống của mình, vì các tài năng và nhân cách đa dạng là cơ sở để sáng tạo và canh tân kinh tế, xã hội, đưa nhân loại vào thế kỉ mới.
+
+d. Áp dụng sáng tạo công nghệ thông tin vào quá trình giáo dục
+
+Áp dụng công nghệ thông tin sẽ mở rộng năng lực của cá nhân để nắm được thông tin nhằm giải quyết vấn đề trong suốt cuộc đời của họ.
+
+Công nghệ thông tin đang tạo ra một cuộc cách mạng về giáo dục mở và giáo dục từ xa, mang mầm mống của một cuộc cách mạng sư phạm thực sự. Trong phương thức giáo dục từ xa, các phương tiện thông tin như điện thoại, fax, thư điện tử cùng với máy tính nối mạng Internet đến các phương tiện truyền thông đại chúng như thu phát sóng truyền thanh, truyền hình đã làm thay đổi cách dạy và học.
+
+Yếu tố thời gian không còn là một ràng buộc, việc học cá nhân hoá, tuỳ thuộc từng người, giải phóng người học khỏi những ràng buộc về thời gian.
+
+Yếu tố khoảng cách cũng không còn là sự ràng buộc, người học có thể tham gia giờ giảng mà không cần có mặt trong không gian của nhà trường.
+
+Yếu tố quan hệ truyền thông "dọc" giữa ngươi dạy và người học chuyển sang quan hệ "ngang", người dạy trở thành người hỗ trợ, người học trở thành chủ động.
+
+Người học không chỉ thu nhận thông tin mà phải học cách chiếm lĩnh thông tin tuỳ theo nhu cầu và biến nó thành kiến thức.
+
+Các phương tiện dạy học cổ truyền đơn giản (phấn bảng, giấy bút, sách vở.v.v.) vẫn còn giữ vai trò quan trọng trong quá trình giáo dục và đào đạo, nhưng những phương tiện nghe nhìn hiện đại sẽ được bổ sung và sử dụng rộng rãi ngay trong phương thức dạy học mặt đối mặt.
+
+Trong kỉ nguyên của công nghệ thông tin, các phương tiện hiện đại phục vụ cho giáo dục và đào tạo là không thể thiếu được.
+
+e. Đổi mới mạnh mẽ quản lí giáo dục
+
+Giáo dục là một hệ thống bao gồm nhiều bộ phận hợp thành, trong quá trình phát triển, các bộ phận này luôn xuất hiện mâu thuẫn theo tính chất biện chứng của chúng. Do đó, cần có những tác động điều khiển nhằm đảm bảo tính cân đối giữa các bộ phận cấu thành để phát triển ổn định. Hoạt động quản lí giáo dục có tác dụng làm cho các bộ phận cấu thành của hệ thống giáo dục vận hành đúng mục đích, cân đối, hài hoà, làm cho hoạt động của toàn hệ thống đạt hiệu quả cao, cần đổi mới tư duy, cơ chế và phương thức quản lí giáo dục theo hướng nâng cao hiệu lực quản lí giáo dục của nhà nước và phân cấp nhằm phát huy tính chủ động và tự chịu trách nhiệm của các địa phương và các cơ sở giáo dục.
+
+Các chính sách giáo dục phải là sự nhất quán và gắn bó giữa tiểu học, trung học và đại học, đồng thời là kết quả của hệ thống học tập suốt đời thực sự. Trong xã hội có nhiều thay đổi khó lường trước được, những cơ sở phải được chủ động trên một phạm vi rộng hơn nhằm làm cho những người quản
+
+lí có thể hành động để đối mặt được với những đòi hỏi của xã hội. Quản lí giáo dục đổi mới theo các hướng:
+
+Về tổ chức: Nâng cao hiệu lực chỉ đạo tập trung của Chính phủ trong việc thực hiện Chiến lược giáo dục; đổi mới cơ chế và phương thức quản lí giáo dục theo hướng phân cấp một cách hợp lí nhằm giải phóng và phát huy mạnh mẽ tiềm năng, sức sáng tạo, tính chủ động và tự chịu trách nhiệm của mỗi cấp và mỗi cơ sở giáo dục; tăng cường chất lượng của công tác lập kế hoạch.
+
+Về đào tạo và bồi dưỡng cán bộ quản lí giáo dục: cần có một đội ngũ cán bộ quản lí tinh thông nghiệp vụ ở tất cả các cấp; các khoá bồi dưỡng về nghiệp vụ quản lí giáo dục được tiến hành định kì; tăng cường những kĩ năng quản lí và lập kế hoạch, thực hiện kế hoạch, năng lực phối hợp dọc - ngang.
+
+Về thông tin trong quản lí giáo dục: Củng cố, tăng cường hệ thống thông tin quản lí giáo dục ở các cấp; hiện đại hoá hệ thống thông tin, đảm bảo việc truy nhập dữ liệu nhanh chóng, kịp thời, tạo điều kiện hỗ trợ tích cực cho công tác ra quyết định điều hành hệ thông giáo dục; quan tâm đào tạo, bồi dưỡng, nâng cao trình độ của cán bộ làm công tác thông tin về phương pháp thu thập số liệu và thông tin khoa học, phương pháp nghiên cứu, phân tích, tổng hợp, xử lí thông tin, trình độ biên tập, soạn thảo văn bản, lập báo cáo. v.v.
+
+Đánh giá là một căn cứ hết sức quan trọng để quản lí giáo dục. Do vậy, đòi hỏi phải quan tâm xây dựng những phương tiện thu thập thông tin phù hợp, cập nhật và tin cậy. Điều này đòi hỏi phải có những chiến lược nhằm điều chỉnh mục tiêu và hành động cho phù hợp trên cơ sở những thông tin thu lượm được.
+
+Về giáo dục đại học tăng cường dự báo nhu cầu, tăng cường những mối quan hệ giữa giáo dục với thị trường lao động, phân tích và tiên đoán những nhu cầu của xã hội, tăng cường vai trò bồi dưỡng, đào tạo lại, thường xuyên, ngăn chặn sự thất thoát những tài năng, tăng cường quyền tự chủ và
+
+chịu trách nhiệm xã hội của trường đại học, có những biện pháp quản lí hướng về tương lai.
+
+f. Phát triển giáo dục đại học
+
+Nền kinh tế tri thức là kết quả nhưng cũng là động lực của sự phát triển sự nghiệp giáo dục tất cả các quốc gia trên thế giới ở các mức độ khác nhau, đặc biệt đối với giáo dục đại học. Khi nền kinh tế sản xuất ngày càng chuyển dịch cơ cấu về các ngành công nghệ cao trong kết cấu giá trị sản phẩm hàng hoá, dịch vụ thì hàm lượng tri thức, trí tuệ ngày càng tăng, các yếu tố nguyên vật liệu ngày càng giảm, đồng thời với tính chất cạnh tranh khốc liệt của toàn cầu hoá thì mỗi quốc gia, mỗi xã hội cần có một đội ngũ kĩ sư, kĩ thuật viên lành nghề cùng với các nhà nghiên cứu đang trở thành những đòi hỏi bức xúc, cấp thiết. Chỉ có thể tìm thấy nguồn lực chất lượng cao từ giáo dục đại học. Cuộc sống xã hội, thị trường luôn đòi hỏi đổi mới công nghệ, sản phẩm thì vai trò, vị trí của giáo dục đại học càng trở nên quan trọng.
+
+Giảng dạy, học tập và nghiên cứu khoa học là những nhiệm vụ gắn kết hữu cơ trong trường đại học, sinh viên từ năm thứ nhất trong các trường đại học cũng cần làm quen với việc nghiên cứu khoa học, tham gia nghiên cứu khoa học dưới sự hướng dẫn của cán bộ giảng dạy. Như vậy, việc học tập của sinh viên sẽ phát huy được tinh thần độc lập, sáng tạo, tiếp thu được các phương pháp giải quyết vấn đề khoa học mà xã hội đặt ra cho họ khi bước vào nghề, dù trong sản xuất hay trong phòng thí nghiệm. Các nhà khoa học dự báo rằng, nền kinh tế tri thức sẽ xuất hiện một số vấn đề cho giáo dục nói chung và giáo dục lại học nói riêng sau đây:
+
+Nền kinh tế tri thức dựa chủ yếu vào lao động trí óc và sáng tạo để tạo ra sản phẩm có chất lượng cao nên có sự trùng hợp giữa học tập và lao động. Khi lao động để hoàn thành một sản phẩm có hàm lượng trí tuệ cao cũng chính là học tập, do đó học gắn với lao động là một.
+
+Trong nền kinh tế tri thức, khối lượng kiến thức được tiếp thu của một sinh viên đại học có giá trị sử dụng nhất định, nếu như không được tiếp tục cập nhật, bổ sung thì sẽ nhanh chóng bị lạc hậu, không đáp ứng được những
+
+yêu cầu mới mà xã hội đặt ra. Do đó, các chuyên gia phải thường xuyên, liên tục học tập để theo kịp bước tiến của xã hội, học tập trở thành thách thức suốt đời.
+
+Cạnh tranh của doanh nghiệp trong nền kinh tế tri thức tạo nên nhân tố cạnh tranh học tập, ai học tập nhanh hơn, tốt hơn sẽ thắng; có sự cạnh tranh ngoài trường đại học chính quy.
+
+Công nghệ thông tin phát triển bằng máy vi tính, các phương tiện thực nghiệm vi tính hoá vô cùng hữu ích trong việc nâng cao chất lượng học tập, làm thay đổi hoạt động nghiên cứu khoa học trong trường đại học. Mạng Internet đã tạo cho sinh viên có thể truy nhập vào các cơ sở dữ liệu, tìm được mọi kiến thức mà mình cần, thậm chí có thể đặt câu hỏi cho các địa chỉ và sẽ nhận được sự phụ đạo tận tình, sự đối thoại cởi mở. Việc học tập thông qua máy tính và mạng Internet - không gian điện tử là một xu thế phát triển mạnh trong giáo dục đại học.
+
+Tất cả những xu hướng đổi mới giáo dục của nhân loại nói trên đã ảnh hưởng sâu sắc và mạnh mẽ đến giáo dục Việt Nam. Chính vì thế, sự đổi mới của giáo dục nước ta hiện nay cũng nằm trong guồng đổi thay của giáo dục nhân loại, điều này giúp cho giáo dục Việt Nam tự hoàn thiện và phát triển cao hơn, đáp ứng được những yêu cầu của thực tiễn đặt ra.
+
+### 2. Định hướng phát triển giáo dục thế kỉ XXI
+
+UNESCO đã chủ trương đẩy mạnh phát triển giáo dục khi bước vào thế kỉ XXI, với chiến lược bao gồm 21 điểm và tư tưởng chính của nó như sau:
+
+- Giáo dục thường xuyên là điểm chủ đạo của mọi chính sách giáo dục;
+
+hướng tới nền giáo dục suốt đời, giáo dục bằng mọi cách, xây dựng một xã hội học tập. Giáo dục phải làm cho mỗi người trở thành người dạy và người kiến tạo nên sự tiến bộ văn hoá của bản thân mình.
+
+- Giáo dục không chỉ dạy để cho có học vấn mà phải thực hành, thực
+
+nghiệm để có tay nghề, để vào đời có thể lao động được ngay, không bỡ ngỡ.
+
+- Phát triển giáo dục gắn liền với phát triển kinh tế xã hội, đặc biệt chú ý
+
+đến giáo dục hướng nghiệp để giúp người học lập thân, lập nghiệp.
+
+- Giáo dục trẻ em trước tuổi đến trường phải là mục tiêu lớn trong chiến
+
+lược giáo dục.
+
+- Giáo viên được đào tạo để trở thành những nhà giáo dục hơn là
+
+những chuyên gia truyền đạt kiến thức. Việc giảng dạy phải phù hợp với người học chứ không phải là sự áp đặt máy móc buộc người học phải tuân theo.
+
+Uỷ ban quốc tế về giáo dục cho thế kỉ XXI do Đại hội đồng lần thứ 26 của UNESCO thành lập năm 1991 đã tập trung giải đáp rất nhiều vấn đề về giáo dục cho thế kỉ XXI như: cần loại hình giáo dục nào để phục vụ cho xã hội tương lai; vai trò mới của giáo dục trong thế giới tăng trưởng nhanh về kinh tế; những xu thế chủ yếu để phát triển giáo dục trong xã hội hiện đại đánh giá trình độ kiến thức, kinh nghiệm của các nền giáo dục đã đạt kết quả tốt nhất trong các điều kiện kinh tế, chính văn hoá khác nhau; nghiên cứu người học, người dạy; nghiên cứu tất cả các cấp học, các phương thức giáo dục, uỷ ban đã đề ra sáu nguyên tắc cơ bản cho các nhà quản lí giáo dục, các lực lượng giáo dục như sau:
+
+- Giáo dục là quyền cơ bản của con người và cũng là giá trị chung nhất
+
+của nhân loại.
+
+- Giáo dục chính quy và không chính quy đều phải phục vụ xã hội, giáo
+
+dục là công cụ để sáng tạo, tăng tiến và phổ biến tri thức khoa học, đưa tri thức khoa học đến với mọi người.
+
+- Các chính sách giáo dục phải chú ý phối hợp hài hoà cả ba mục đích
+
+là: công bằng, thích hợp và chất lượng.
+
+- Muốn tiến hành cải cách giáo dục cần phải xem xét kĩ lưỡng và hiểu
+
+biết sâu sắc về thực tiễn, chính sách và các điều kiện cũng như những yêu cầu của từng vùng.
+
+- Cần phải có cách tiếp cận phát triển giáo dục thích hợp với từng vùng,
+
+vì mỗi vùng có sự khác nhau về kinh tế, xã hội và văn hoá. Tuy nhiên các cách tiếp cận đó cần phải chú ý đến các giá trị chung, các mối quan tâm của cộng đồng quốc tế (quyền con người, sự khoan dung, hiểu biết lẫn nhau, dân chủ, trách nhiệm, bản sắc dân tộc, môi trường, chia sẻ tri thức, giảm đói nghèo, dân số, sức khoẻ).
+
+- Giáo dục là trách nhiệm của toàn xã hội, của tất cả mọi người.
+
+Thế giới hiện đại đã khẳng định vai trò lớn lao của giáo dục: Giáo dục được coi là chiếc chìa khoá tiến tới một thế giới tốt đẹp hơn; vai trò của giáo dục là phát triển tiềm năng của con người; giáo dục là đòn bẩy mạnh mẽ nhất để tiến vào tương lai; giáo dục cũng là điều kiện cơ bản nhất để thực hiện nhân quyền, hợp tác, dân chủ, bình đẳng và tôn trọng lẫn nhau.
+
+3. Các quan điểm chỉ đạo phát triển giáo dục ở Việt Nam
+
+Trên cơ sở đánh giá thực trạng giáo dục nước ta trong thời gian qua, phân tích bối cảnh trong và ngoài nước, nhận định về thời cơ và thách thức đối với giáo dục trong thời kì mới, Đảng ta đã đưa ra các quan điểm chỉ đạo thực tiễn giáo dục Việt Nam trong giai đoạn mới - công nghiệp hoá, hiện đại hoá đất nước. Hiến pháp nước Cộng hoà Xã hội Chủ nghĩa Việt Nam (1992), Luật Giáo dục (2005), Chiến lược phát triển giáo dục 2001-2010 đã thể hiện những quan điểm chỉ đạo phát triển giáo dục ở nước ta như sau:
+
+- Giáo dục là quốc sách hàng đầu, phát triển giáo dục là nền tảng,
+
+nguồn nhân lực chất lượng cao, là một trong những động lực quan trọng thúc đẩy sự nghiệp công nghiệp hoá, hiện đại hoá, là yếu tố cơ bản phát triển xã hội, tăng trưởng kinh tế mạnh và bền vững.
+
+- Xây dựng nền giáo dục có tính nhân dân, dân tộc, khoa học, hiện đại
+
+theo định hướng xã hội chủ nghĩa, lấy chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng. Thực hiện công bằng xã hội trong giáo dục, tạo cơ hội bình đẳng để ai cũng được học hành. Nhà nước và xã hội có cơ chế chính
+
+sách giúp đỡ người nghèo học tập, khuyến khích những người học giỏi phát triển tài năng.
+
+Giáo dục con người Việt Nam phát triển toàn diện, có đạo đức tri thức, sức khoẻ và thẩm mĩ, phát triển được năng lực của cá nhân, đào tạo những người lao động có kĩ năng nghề nghiệp, năng động, sáng tạo, trung thành với lí tưởng độc lậpd tộc và chủ nghĩa xã hội, có ý chí vươn lên lập thân, lập nghiệp, có ý thức công dân, góp phần làm cho dân giàu nước mạnh, xã hội công bằng, dân chủ, văn minh, phục vụ sự nghiệp xây dựng và bảo vệ Tổ quốc.
+
+- Phát triển giáo dục phải gắn với nhu cầu phát triển kinh tế - xã hội,
+
+tiến bộ khoa học - công nghệ, củng cố quốc phòng, an ninh; đảm bảo sự hợp lí về cơ cấu trình độ, cơ cấu ngành nghề, cơ cấu vùng miền; mở rộng quy mô trên cơ sở đảm bảo chất lượng và hiệu quả; kết hợp giữa đào tạo và sử dụng. Thực hiện nguyên lí học đi đôi với hành, giáo dục kết hợp với lao động sản xuất, lí luận gắn liền với thực tiễn, giáo dục nhà trường kết hợp với giáo dục gia đình và giáo dục xã hội.
+
+- Giáo dục là sự nghiệp của Đảng, Nhà nước và của toàn dân, xây
+
+dựng xã hội học tập, tạo điều kiện cho mọi người, ở mọi lứa tuổi, mọi trình độ được học thường xuyên, học suốt đời. Nhà nước giữ vai trò chủ đạo trong phát triển giáo dục. Đẩy mạnh xã hội hoá; khuyến khích, huy động và tạo điều kiện để toàn xã hội tham gia phát triển giáo dục.
+
+- Khắc phục tình trạng bất cập trên nhiều lĩnh vực, tiếp tục đổi mới một
+
+cách hệ thống và đồng bộ; tạo cơ sở để nâng cao rõ rệt chất lượng và hiệu quả giáo dục; phục vụ đắc lực sự nghiệp công nghiệp hoá, hiện đại hoá, chấn hưng đất nước, đưa đất nước phát triển nhanh và bền vững, nhanh chóng sánh vai cùng các nước phát triển trong khu vực và trên thế giới.
+
+CÂU HỎI ÔN TẬP, THẢO LUẬN VÀ THỰC HÀNH
+
+1. Phân tích, chứng minh chức năng kinh tế - sản xuất của giáo dục.
+
+2. Phân tích, chứng minh chức năng chính trị - tư tưởng của giáo dục.
+
+3. Phân tích, chứng minh chức năng văn hoá — xã hội của giáo dục.
+
+### 4. Trình bày xu thế phát triển giáo dục thế kỉ XXI.
+
+5. Tại sao ngày nay giáo dục được coi là quốc sách hàng đầu của nhiều quốc gia? Quan điểm này được thể hiện ở Việt Nam như thế nào?
+
+6. Vì sao phải xây dựng xã hội học tập (xã hội hoá giáo dục)? Mục đích và nội dung cơ bản?
+
+7. Vì sao phải học tập suốt đời? Làm thế nào để đáp ứng được yêu cầu đó?
+
+8. Xây dựng xã hội học tập và học tập suốt đời dựa trên những trụ cột nào theo ý tưởng của UNESCO?
+
+9. Phân tích vai trò của giáo dục đại học đối với sự phát triển xã hội trong nền “kinh tế tri thức”.
+
+10. Phân tích những nguyên tắc cơ bản của giáo dục bước vào thế kỉ XXI theo UNESCO, liên hệ với thực tiễn giáo dục của Việt Nam.
+
+BÀI TẬP
+
+1. Trên cơ sở tìm hiểu thực tiễn giáo dục, hãy phân tích những thách thức đặt ra cho giáo dục Việt Nam trong giai đoạn hiện nay.
+
+2. Dựa vào xu thế phát triển giáo dục thế giới, hãy đối chiếu với thực tiễn giáo dục Việt Nam để rút ra những nhận xét của cá nhân.

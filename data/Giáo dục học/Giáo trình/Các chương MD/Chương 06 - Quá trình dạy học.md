@@ -1,0 +1,331 @@
+# Chương 6: QUÁ TRÌNH DẠY HỌC
+
+## I. KHÁI NIỆM VỀ QUÁ TRÌNH DẠY HỌC
+
+Quá trìinh được xem xét như một hệ thống toàn vẹn. Hệ thống toàn vẹn là một hệ thống bao gồm những thành tố liên hệ, tương tác với nhau tạo nên chất lượng mới. Quá trình dạy học theo tiếp cận hệ thống bao gồm tập hợp các thành tố cấu trúc, có quan hệ biện chứng với nhau. Trong hệ thống mỗi thành tố đều có chức năng riêng và tuân theo chức năng chung của hệ, mỗi thành tố trong hệ thống vận động theo quy luật riêng và vận động theo quy luật chung của hệ thống. Hệ thống bao giờ cũng tồn tại trong một môi trường. Môi trường và các thành tố của hệ thống cũng có sự tương tác lẫn nhau.
+
+Khi xem xét quá trình dạy học ở một thời điểm nhất định, nó bao gồm những thành tố như: mục đích dạv học nội dung dạy học, phương pháp, phương tiện dạy học, hình thức tổ chức dạy học, giáo viên, học sinh... Mục đích dạy học là đơn đặt hàng của xã hội đối với nhà sư phạm, mục đích dạy học định hướng cho các thành tố khác trong quá trình dạy học. Mục đích này được hiện thực hoá bằng nội dung dạy học, người giáo viên với hoạt động dạy của mình, với những phương pháp, phương tiện, hình thức tổ chức dạy học tác động đến động cơ của người học để thúc đẩy người học học tập với việc sử dụng những phương pháp học tập, phương tiện và hình thức tổ chức hoạt động học của mình. Sự tác động lẫn nhau giữa hoạt động dạy của giáo viên và hoạt động học của học sinh tạo nên kết quả dạy - học, nghĩa là làm
+
+biến đổi nhân cách của người học. Hoạt động dạy của giáo viên cũng phụ thuộc vào việc dạy cái gì, nghĩa là nội dung dạy học thể hiện mục đích sư phạm của hoạt cộng dạy. Hoạt động học của học sinh cũng vậy, nó bị quy định bởi động cơ, nội dung dạy học, vai trò của môi trường xã hội phản ánh trong đơn đặt hàng của xã hội, trong hoạt động của giáo viên.
+
+Môi trường của quá trình dạy học bao gồm môi trường bên ngoài, môi trường vĩ mô, đó là sự phát triển kinh tế xã hội, văn hoá, khoa học, công nghệ, chúng ảnh hưởng tới những thành tố của quá trình dạy học. Ngoài ra còn có môi trường vi mô, đó là môi trường được tạo nên do sự tương tác giữa người giáo viên và học sinh và giữa học sinh với nhau cùng với việc vận dụng phương pháp, phương tiện và hình thức tổ chức dạy học tác động vào nội dung dạy học, hướng vào thực hiện mục đích dạy học. Môi trường tạo nên sự thuận lợi hay không thuận lợi cho quá trình dạy học.
+
+Quá trình dạy học là sự thống nhất biện chứng của hai thành tố cơ bản trong quá trình dạy học - hoạt động dạy và hoạt động học.
+
+Dạy và học là hai hoạt động tác động và phối hợp với nhau, nếu thiếu một trong hai hoạt động đó thì quá trình dạy học không diễn ra. Chẳng hạn, nếu thiếu hoạt động dạy của giáo viên thì quá trình đó chuyển thành quá trình tự học của người học. Còn nếu thiếu hoạt động học của người học thì hoạt động dạy không diễn ra, do đó không diễn ra quá trình dạy học. Quá trình dạy và học liên hệ mật thiết với nhau, diễn ra đồng thời và phối hợp chặt chẽ sẽ tạo nên sự cộng hưởng của hoạt động dạy và hoạt động học, từ đó sẽ tạo nên hiệu quả cho quá trình dạy học.
+
+Hoạt động dạy của người giáo viên: Đó là hoạt động lãnh đạo, tổ chức, điều khiển hoạt động nhận thức - học tập của của học sinh, giúp học sinh tìm tòi khám phá tri thức, qua đó thực hiện có hiệu quả chức năng học của bản thân. Hoạt động lãnh đạo, tổ chức, điều khiển của ngươi giáo viên đối với hoạt động nhận thức - học tập của người học sinh thể hiện như sau:
+
+- Đề ra mục đích, yêu cầu nhận thức - học tập.
+
+- Xây dựng kế hoạch hoạt động của mình và dự tính hoạt động tương
+
+ứng của người học.
+
+- Tổ chức thực hiện hoạt động dạy của mình với hoạt động nhận thức -
+
+học tập tương ứng của người học.
+
+- Kích thích tính tự giác, tính tích cực, độc lập, chủ động sáng tạo của
+
+người học bằng cách tạo nên nhu cầu, động cơ, hứng thú, khêu gợi tính tò mò, ham hiểu biết của người học, làm cho họ ý thức rõ trách nhiệm, nghĩa vụ học tập của mình.
+
+- Theo dõi, kiểm tra, đánh giá kết quả học tập của người học, qua đó
+
+mà có những biện pháp điều chỉnh, sửa chữa kịp thời những thiếu sót, sai lầm của họ cũng như trong công tác giảng dạy của mình.
+
+Hoạt động học của học sinh: Là hoạt động tự giác, tích cực, chủ động, tự tổ chức, tự điểu khiển hoạt động nhận thức — học tập của mình nhằm thụ nhận, xử lí và biến đổi thông tin bên ngoài thành tri thức của bản thân, qua đó người học thể hiện mình, biến đổi mình, tự làm phong phú những giá trị của mình.
+
+Tính tự giác nhận thức trong quá trình dạy học thể hiện ở chỗ người học ý thức đầy đủ mục đích, nhiệm vụ học tập, qua đó họ nỗ lực nắm vững tri thức trong việc lĩnh hội tri thức.
+
+Tính tích cực nhận thức là thái độ cải tạo của chủ thể đối với khách thể thông qua huy động ở mức độ cao các chức năng tâm lí nhằm giải quyết những nhiệm vụ học tập. Tính tích cực nhận thức vừa là mục đích, phương tiện, kết quả của hoạt động vừa là phẩm chất hoạt động của cá nhân. Tuỳ theo sự huy động những chức năng tâm lí nào và mức độ sự huy động đó mà có thể diễn ra tính tích cực tái hiện, tính tích cực tìm tòi, tính tích cực sáng tạo.
+
+Tính chủ động nhận thức là sự sẵn sàng tâm lí hoàn thành những nhiệm vụ nhận thức - học tập, nó vừa là năng lực, vừa là phẩm chất tự tổ chức hoạt động học tập cho phép người học tự giải quyết vấn đề, tự kiểm tra,
+
+tự đánh giá hoạt động học tập của mình. Qua đó, cho phép người học học tập sự sẵn sàng tâm lí nhằm hoàn thành những nhiệm vụ nhận thức - học tập.
+
+Học là một trong những loại hĩnh nhận thức, đó là sự phản ánh hiện thực khách quan vào não người, sự phản ánh đó diễn ra trong quá trình hoạt động tích cực của các bộ phận vỏ não. Sự phản ánh bản chất của đối tượng được đòi hỏi phải trải qua hoạt động tư duy phức tạp dựa trên những thao tác lôgíc. Nó đòi hỏi phải có sự tập trung chú ý, sự lựa chọn từ vô số sự vật, hiện tượng của hiện thực; chủ thể nhận thức phải tích cực chú ý và lựa chọn chỉ những cái trở thành đối tượng phản ánh. Vì vậy hoạt động học của người học không phải bằng sự tiếp nhận những kêt quả có sẵn mà phải bằng hoạt động nhận thức tích cực chủ động của họ. Học sinh là chủ thể nhận thức, tính chất hành động của họ có ảnh hưởng quyết định tới chất lượng tri thức mà họ tiếp thu.
+
+Quá trình học của người học có thể diễn ra dưới sự tác động trực tiếp của người giáo viên như diễn ra trong tiết học, hoặc dưới sự tác động gián tiếp của giáo viên như việc tự học ở nhà của học sinh. Trong trường hợp thứ nhất hoạt động tự giác, tích cực, chủ động nhận thức học tập của học sinh thể hiện ở các mặt:
+
+- Tiếp nhận những nhiệm vụ, kế hoạch học tập do giáo viên đề ra.
+
+- Tiến hành thực hiện những hành động, thao tác nhận thức - học tập
+
+nhằm giải quyết những nhiệm vụ học tập được đề ra.
+
+- Tự điều chỉnh hoạt động nhận thức - học tập của mình dưới tác động
+
+kiểm tra, đánh giá của giáo viên và tự đánh giá của bản thân.
+
+- Phân tích những kết quả hoạt động nhận thức — học tập dưới tác
+
+động của giáo viên, qua đó mà cải tiến hoạt động học tập.
+
+Trong trường hợp thứ hai, quá trình hoạt động độc lập, học tập thiêu sự lãnh đạo trực tiếp của giáo viên thì điều đó được thể hiện như sau:
+
+- Tự lập kế hoạch hoặc cụ thể hoá các nhiệm vụ học tập của mình.
+
+- Tự tổ chức hoạt động học tập bao gồm việc lựa chọn các phương
+
+pháp và phương tiện của mình.
+
+- Tự kiểm tra, tự đánh giá và qua đó tự điều chỉnh trong tiến trình hoạt
+
+động học tập của mình.
+
+- Tự phân tích các kết quả hoạt động nhận thức - học tập mà cải tiến
+
+phương pháp học tập của mình.
+
+Hoạt động dạy học đạt được hiệu quả tối ưu trong trường hợp có sự thống nhất biện chứng giữa hoạt động dạy và hoạt động học của học sinh, trong đó sự nỗ lực của giáo viên và của học sinh trùng với nhau tạo nên sự cộng hưởng của chính quá trình dạy học đó.
+
+Học sinh tồn tại vừa là đối tượng điều khiển của giáo viên (đối tượng, khách thể của hoạt động dạy), với tư cách này học sinh chịu các tác động sư phạm; vừa là chủ thể nhận thức, với tư cách này, quá trình nhận thức của học sinh là quá trình phản ánh thế giới khách quan vào ý thức
+
+Hai mặt hoạt động dạy và hoạt động học phối hợp chặt chẽ với nhau, kết quả của hoạt động này phụ thuộc vào hoạt động kia và ngược lại.
+
+Mối quan hệ thống nhất giữa hoạt động dạy và hoạt động học như sau:
+
+- Giáo viên đưa ra nhiệm vụ, yêu cầu nhận thức, những nhiệm vụ yêu
+
+cầu này có tác dụng đưa học sinh vào tình huống có vấn đề, kích thích tư duy của học sinh, học sinh tự đưa ra nhiệm vụ học tập cho mình.
+
+- Học sinh ý thức được nhiệm vụ cần giải quyết, có nhu cầu giải quyết
+
+nhiệm vụ, biến các nhiệm vụ khách quan thành yêu cầu chủ quan, giải quyết nhiệm vụ dưới sự chỉ đạo của giáo viên ở các mức độ khác nhau.
+
+- Giáo viên thu các tín hiệu ngược từ học sinh để giúp cho học sinh
+
+điều chỉnh hoạt động học, đồng thời giúp cho giáo viên tự điều chỉnh hoạt động dạy của mình. Học sinh cũng thu tín hiệu ngược (tín hiệu ngược trong) để tự phát hiện, tự đánh giá, tự điều chỉnh hoạt động học tập của mình
+
+- Trên cơ sở xử lí những tín hiệu ngược, giáo viên đưa yêu cầu mới,
+
+học sinh cũng đưa yêu cầu cho bản thân, giúp học sinh hoàn thành những nhiệm vụ học tập nhất định.
+
+- Giáo viên phân tích đánh giá kết quả học tập của học sinh và của
+
+mình.
+
+Để phát triển tư duy sáng tạo, các nhà tâm lí học cũng đã chỉ ra rằng năng lực tư duy sáng tạo không chỉ là lĩnh hội được một khối lượng tri thức mà còn cả chất lượng tri thức và đặc biệt là cấu trúc quá trình tư duy, hệ thống những thao tác tư duy và những hành trang trí tuệ mà người học nắm vững được.
+
+Ngoài ra, cùng với sự bùng nổ tri thức cũng diễn ra sự lão hoá tri thức với tốc độ rất nhanh. Do vậy để tránh được sự lạc hậu, mỗi người cần phải học tập liên tục, học tập suốt đời. Vì vậy quá trình dạy học không chỉ dạy cho người học lĩnh hội tri thức mà cần phải dạy cho họ học cách học một cách sáng tạo.
+
+Hiểu hoạt động học như trên không thể không nhận thấy vai trò của người học đã được tăng cường, họ không chỉ thụ động tiếp thu những điều giáo viên truyền đạt mà còn là chủ thể của hoạt động nhận thức - học tập. Vai trò của người giáo viên cũng hoàn toàn thay đổi, trong quá trình dạy học người giáo viên đóng vai trò như người tổ chức hoạt động nhận thức độc lập của người học, làm cho người học phát huy tiềm năng của bản thân và học một cách sáng tạo. Chính điểu này là cơ sở chủ yếu cho việc định hướng lại giáo dục nói chung và dạy học nói riêng.
+
+Quá trình dạy học là một quá trình dưới sự lãnh đạo, tổ chức, điều khiển của người giáo viên, người học tự giác, tích cực, chủ động tự tổ chức, tự điều khiển hoạt động nhận thức — học tập của mình nhằm thực hiện những nhiệm vụ dạy học.
+
+## II. BẢN CHẤT CỦA QUÁ TRÌNH DẠY HỌC
+
+Như trên đã trình bày, quá trình dạy học bao gồm quá trình dạy và quá trình học. Hoạt động học của học sinh có phải là hoạt động nhận thức? Nhận thức là sự phản ánh thế giới khách quan vào não người - đó là sự phản ánh tâm lí của con người bắt đầu từ cảm giác đến tư duy, tưởng tượng. Sự học tập của học sinh cũng là quá trình như vậy. Sự phản ánh đó là sự phản ánh đi trươc, có tính chất cải tạo mà mức độ cao nhất của tính chất cải tạo đó là sự sáng tạo. Sự phản ánh đó không phải thụ động như chiếc gương mà bao giờ cũng bị khúc xạ qua lăng kính chủ quan của mỗi người như thông qua tri thức, kinh nghiệm, nhu cầu hứng thú... của chủ thể nhận thức. Sự phản ánh đó có tính tích cực thể hiện ở chỗ nó được thực hiện trong tiến trình hoạt động phân tích - tổng hợp của não người và có tính lựa chọn. Trong vô số những sự vật và quá trình của hiện thực khách quan, chủ thể tích cực lựa chọn những cái trở thành đối tượng phản ánh của họ. Vì vậy, với tư cách là một thực thể xã hội có ý thức, học sinh có khả năng phản ánh một cách khách quan về nội dung và chủ quan về hình thức, nghĩa là về nội dung học sinh có khả năng phản ánh đúng bản chất và những quy luật của thế giới khách quan, còn về hình thức mỗi học sinh có phương pháp phản ánh riêng của mình, có cách hình thành khái niệm, xây dựng cấu trúc lôgic riêng của mình. Vì vậy, quá trình học tập của học sinh cũng diễn theo công thức nổi tiếng của V. I. Lênin về quá trình nhận thức: “Từ trực quan sinh động đến tư duy trừu tượng, từ tư duy trừu tượng đến thực tiễn, đó là con đường biện chứng của nhận thức chân lí, nhận thức hiện thực khách quan”. Toàn bộ quá trình nhận thức chung của loài người cũng như của học sinh đều thể hiện theo công thức đó; song, trong từng giai đoạn cụ thể, tuỳ theo điểm xuất phát trong quá trình nhận thức mà có thể hoặc đi từ cụ thể đến trừu tượng hoặc từ trừu tượng đến cụ thể, từ đơn nhất đến khái quát hoặc từ khái quát đến đơn nhất.
+
+Trong thực tiễn dạy học, do không hiểu đúng công thức đó đã dẫn tới cách xây dựng nội dung và sử dụng phương pháp dạy học không đúng. Thứ nhất cho rằng bản chất của quá trình dạy học là tạo nên những điều kiện đảm bảo thường xuyên tính trực quan sinh động, nhận thức cảm tính trực tiếp. Vì vậy, khi lĩnh hội một khái niệm mới nào cũng phải bắt đầu bằng những cảm
+
+giác trực tiếp. Từ đó quá đề cao vai trò của tính trực quan, tư duy hình ảnh cụ thể mà xem nhẹ vai trò tư duy lôgíc, tư duy khái quát, trừu tượng. Thứ hai là vận dụng những phạm trù tổng quát của lí thuyết nhận thức vào quá trình dạy học đã dẫn tới thay thế việc xem xét nhận thức cá nhân bằng nhận thức xã hội. Họ đã quên mất luận điểm rất quan trọng của C. Mác, rằng không phải xã hội nhận thức mà là cá nhân, do đó đã thiếu quan tâm đến hoạt động nghiên cứu của học sinh trong quá trình học tập.
+
+Trong dạy học, quá trình nhận thức của học sinh thể hiện tính độc đáo:
+
+Quá trình nhận thức của học sinh không phải là quá trình tìm ra cái mới cho nhân loại mà chủ yếu là sự tái tạo những tri thức của loài ngưòi đã tạo ra, nên họ nhận thức những điều rút ra từ kho tàng tri thức chung của loài người, đốì vối bản thân họ còn là mới mẻ.
+
+Quá trình nhận thức của học sinh không diễn ra theo con đường mò mẫm, thử và sai như quá trình nhận thức nói chung của loài người, mà diễn ra theo con đường đã được khám phá, được những nhà xây dựng chương trình, nội dung dạy học gia công sư phạm. Chính vì vậy, trong một thời gian nhất định, học sinh có thể lĩnh hội khối lượng tri thức rất lớn một cách thuận lợi.
+
+Quá trình học tập của học sinh phải tiến hành theo các khâu của quá trình dạy học: Lĩnh hội tri thức mới, củng cố, vận dụng, kiểm tra, đánh giá tri thức, kĩ năng, kĩ xảo nhằm biến chúng thành tài sản của bản thân.
+
+Thông qua hoạt động nhận thức của học sinh trong quá trình dạy học, cần hình thành ở học sinh thế giới quan, động cơ, các phẩm chất của nhân cách phù hợp với chuẩn mực xã hội.
+
+Quá trình nhận thức của học sinh trong quá trình dạy học diễn ra dưới vai trò chủ đạo của giáo viên (lãnh đạo, tổ chức, điều khiển) cùng với những điều kiện sư phạm nhất định.
+
+Bản chất của quá trình dạv học là quá trình nhận thức độc đáo của học sinh dưới vai trò chủ đạo của giáo viên.
+
+Quá trình dạy học cần phải chú ý tới tính độc đáo đó trong quá trình nhận thức của học sinh để tránh sự đồng nhất quá trình nhận thức chung của loài người với quá trình nhận thức của người học sinh. Song, không vì quá coi trọng tính độc đáo mà thiếu quan tâm đến việc tổ chức cho học sinh dần dần tìm hiểu và tập tham gia các hoạt động tìm tòi khám phá khoa học vừa sức, nâng cao dần để chuẩn bị cho họ tự khai thác tri thức, tham gia nghiên cứu khoa học trong tương lai.
+
+## III. NHIỆM VỤ CỦA DẠY HỌC
+
+### 1. Cơ sở để xác định các nhiệm vụ dạy học
+
+Nhiệm vụ dạy học được đề ra dựa trên những cơ sở chủ yếu sau đây:
+
+- Mục tiêu đào tạo
+
+- Sự tiến bộ khoa học và công nghệ
+
+- Đặc điểm tâm - sinh lí của học sinh
+
+- Đặc điểm hoạt động dạy học của nhà trường
+
+### 2. Nhiệm vụ dạy học
+
+Dạy học có ba nhiệm vụ sau:
+
+Nhiệm vụ 1. Điều khiển, tổ chức học sinh nắm vững hệ thống tri thức phổ thông cơ bản, hiện đại, phù hợp với thực tiễn của đất nước về tự nhiên, xã hội — nhân văn, đồng thời rèn luyện cho họ hệ thống kĩ năng, kĩ xảo tương ứng
+
+Để tồn tại và phát triển, loài người đã không ngừng đi sâu khám phá những bí mật của thế giới khách quan để nhận thức, cải tạo nó phục vụ cho lợi ích của con ngưòi. Trong quá trình đó loài người tích luỹ và khái quát hoá những kinh nghiệm xã hội dưới dạng các sự kiện khoa học, khái niệm, định luật, định lí, tư tưởng khoa học, học thuyết mà được gọi là những tri thức khoa học. Những tri thức này vô cùng lớn, mỗi một con người trong suốt cuộc đời của mình không sao có thể nắm hết được. Vì vậy, nhiệm vụ của trường phổ thông là giúp học sinh nắm vững những tri thức phổ thông cơ bản, hiện
+
+đại phù hợp với thực tiễn đất nước. Nắm vững tri thức có nghĩa là hiểu, nhớ và vận dụng những tri thức đó vào trong hoàn cảnh thực tiễn đã biết hoặc trong hoàn cảnh mới.
+
+Tri thức phổ thông cơ bản là những tri thức đã được lựa chọn và xây dựng từ các lĩnh vực khoa học khác nhau. Đó là những tri thức tối thiểu nhất, cần thiết nhất, làm nền tảng giúp học sinh có thể tiếp tục học lên ở các bậc học cao hơn, ở các trường dạy nghề hoặc bước vào cuộc sống tự lập, trực tiếp tham gia lao động sản xuất và tham gia các công tác xã hội, có cuộc sống tinh thần phong phú. Những tri thức cơ bản này được biến đổi theo những biến đổi của yêu cầu xã hội.
+
+Những tri thức cơ bản cần cung cấp cho học sinh phải là những tri thức hiện đại, đó là những tri thức phản ánh những thành tựu mới nhất của văn hoá, khoa học công nghệ phù hợp với chân lí khách quan, phù hợp với xu thế phát triển của thời đại.
+
+Những tri thức đó phải phù hợp với thực tiễn của đất nước cũng như phù hợp với đặc điểm lứa tuổi, đặc điểm hoạt động nhận thức của học sinh, đảm bảo được tính hệ thống, tính lôgíc khoa học và mối liên hệ chặt chẽ giữa các môn học.
+
+Trong quá trình lĩnh hội những tri thức đó hình thành cho học sinh hệ thốông kĩ năng, kĩ xảo nhất định tương ứng với nội dung môn học. Đặc biệt những kĩ năng, kĩ xảo có liên quan đến hoạt động nhận thức - học tập và tập được nghiên cứu khoa học ở mức độ thấp nhằm giúp cho các em không những nắm vững tri thức mà còn biết vận dụng linh hoạt, sáng tạo chúng trong các tình huống khác nhau. Kĩ năng của học sinh phải được diễn ra theo các mức độ từ thấp đến cao, từ đơn giản đến phức tạp, từ nhận biết tái hiện đến kĩ năng sáng tạo.
+
+Các nhà tương lai học cho rằng, muốn nhập vào xã hội tương lai của thế kỉ XXI, thế hệ trẻ cần được chuẩn bị thật tốt về mặt học vấn phổ thông mà cốt lõi là hệ thống thái độ, tri thức và kĩ năng, đặc biệt là các kĩ năng cơ bản sau:
+
+- Kĩ năng nắm bắt thông tin và giao tiếp xã hội;
+
+- Kĩ năng làm việc có hiệu quả trong một nhóm cộng đồng:
+
+- Kĩ năng nhận thức về xã hội và nhân văn;
+
+- Kĩ năng vận dụng ngoại ngữ và vi tính;
+
+- Kĩ năng cảm thụ và sáng tạo nghệ thuật;
+
+- Kĩ năng phân tích và giải quyết các tình huống ứng xử;
+
+- Kĩ năng tổ chức và điều hành một guồng máv;
+
+- Kĩ năng phòng vệ sự sống và gia tăng sức khoẻ:
+
+- Kĩ năng tự học, tự nghiên cứu và nâng cao trình độ...
+
+Hệ thống những kĩ năng trên cần được hình thành và rèn luyện thường xuyên trong các loại hình trường, trong đó hoạt động dạy học ở phổ thông là một khâu cực kì quan trọng.
+
+Nhiệm vụ 2. Tổ chức, điều khiển học sinh hình thành, phát triển năng lực và phẩm chất trí tuệ, đặc biệt là năng lực tư duy độc lập, sáng tạo
+
+Sự phát triển trí tuệ nói chung có nét đặc trưng riêng bởi sự tích luỹ vốn tri thức và các thao tác trí tuệ thành thạo, vững chắc của con người. Đó là quá trình chuyển biến về chất trong quá trình nhận thức của người học. Năng lực hoạt động trí tuệ được thể hiện ở năng lực vận dụng các thao tác trí tuệ. Quá trình chiếm lĩnh tri thức diễn ra một cách thống nhất giữa một bên là nội dung những tri thức với tư cách là “cái được phản ánh”, một bên là các thao tác hoạt động trí tuệ với tư cách là "phương thức phản ánh”. Như vậy, hệ thống những tri thức được học sinh lĩnh hội thông qua các thao tác hoạt động trí tuệ của họ và ngược lại, chính các thao tác trí tuệ cũng được hình thành và phát triển trong quá trình chiếm lĩnh tri thức, rèn luyện kĩ năng, kĩ xảo. Vì thế, các nhà tâm lí học cho rằng sự phát triển có nét đặc trưng bởi quá trình tích luỹ vốn tri thức và những thao tác trí tuệ của người học sinh.
+
+Trong quá trình dạy học, với vai trò tổ chức, điều khiển của giáo viên, học sinh không ngừng phát huy tính tích cực nhận thức, tự mình rèn luyện các thao tác trí tuệ, dần dần hình thành các phẩm chất hoạt động trí tuệ như:
+
+Tính định hướng của hoạt động trí tuệ được thể hiện ở chỗ người học nhanh chóng xác định chính xác được đối tượng của hoạt động trí tuệ, mục đích phải đạt tới và kịp thời phát hiện, điều chỉnh những lệch lạc trong quá trình giải quyết các nhiệm vụ học tập.
+
+Bề rộng của hoạt động trí tuệ thể hiện ở chỗ, trong quá trình học tập, học sinh có thể lĩnh hội tri thức, kĩ năng trên nhiều lĩnh vực khoa học khác nhau, đáp ứng nhu cầu mong muốn hiểu biết những vấn đề có liên quan đến nội dung, chương trình dạy học trong phạm vi nhà trường.
+
+Chiều sâu của hoạt động trí tuệ phản ánh năng lực đi sâu tìm hiểu bản chất của các sự vật, hiện tượng trong thế giới khách quan. Người học sinh học tốt phải là ngưòi biết cách tư duy sâu sắc, nắm vững được bản chất vấn đề, phân biệt được các phạm trù nội dung và hình thức, bản chất và hiện tượng, cái khách quan và cái chủ quan..., để có thể chiếm lĩnh nội dung dạy học một cách có chất lượng và hiệu quả cao.
+
+Tính linh hoạt trong hoạt động trí tuệ của học sinh được thể hiện ở chỗ, các em không những tiến hành hoạt động nhận thức một cách nhanh chóng, có hiệu quả mà còn có khả năng di chuyển hoạt động tư duy từ tình huống này sang tình huống khác một cách sáng tạo. Nhờ đó, các em có thể thích ứng nhanh chóng với các tình huống nhận thức khác nhau và đạt được kết quả tối ưu trong học tập.
+
+Tính mềm dẻo của hoạt động trí tuệ là nét đặc trưng của hoạt động nhận thức, đặc biệt là quá trình tư duy vì quá trình đó được tiến hành một cách linh hoạt, sáng tạo theo các chiều hướng xuôi, ngược khác nhau; từ cụ thể đến trừu tượng và ngược lại; từ cái riêng đến cái chung và ngược lại.v.v.
+
+Tính độc lập trong hoạt động trí tuệ của học sinh trong học tập thể hiện ở chỗ các em tự mình phát hiện vấn đề, tự lực suy nghĩ tìm ra các phương án
+
+giải quyết vấn đề bằng chính hoạt động và thao tác của mình và chọn phương án giải quyết tối ưu nhất.
+
+Tính nhất quán trong hoạt đọng trí tuệ phản ánh lôgíc hoạt động nhận thức của học sinh, đảm bảo sự thống nhất tư tưởng chủ đạo từ đầu đến cuối, không mâu thuẫn.
+
+Tính phê phán của hoạt động trí tuệ thể hiện ở chỗ, trong quá trình học tập, học sinh biết nhận xét, phân tích, đánh giá một vấn đề, một sự kiện, một hiện tượng hoặc nhận xét, đánh giá những quan điểm, phương pháp, lí thuyết của người khác và nêu lên được Ý kiến chủ quan của mình và bảo vệ được quan điểm của chính mình.
+
+Tính khái quát của hoạt động trí tuệ thể hiện khi giải quyết một loại nhiệm vụ nhận thức nhất định, học sinh có thể hình thành được mô hình giải quyết một cách khái quát tương ứng. Từ mô hình giải quyết khái quát đó, các em có thể vận dụng để giải quyết những nhiệm vụ cụ thể cùng loại và dễ dàng thích ứng với việc giải quyết các nhiệm vụ học tập tương ứng để tìm tòi, phát hiện những tri thức, kĩ năng và phương pháp mới.
+
+Như vậy, sự phát triển trí tuệ của học sinh được phản ánh thông qua sự phát triển không ngừng của các chức năng tâm lí và phẩm chất trí tuệ, đặc biệt là quá trình tư duy độc lập, sáng tạo của người học, bởi lẽ “tư duy có sắc sảo thì tài năng của con người mới lấp lánh”.
+
+Sự phát triển trí tuệ có mối quan hệ biện chứng với hoạt động dạy học. Dạy học được tổ chức đúng sẽ thúc đẩy sự phát triển năng lực và phẩm chất trí tuệ của học sinh và ngược lại, sự phát triển đó sẽ tạo điều kiện cho hoạt động dạy học đạt chất lượng cao hơn. Đó cũng là một trong những quy luật của dạy học.
+
+Điểu kiện cần thiết để thúc đẩy mạnh mẽ sự phát triển của học sinh là hoạt động dạy học phải luôn luôn đi trước sự phát triển trí tuệ và dạy học phải luôn ở mức độ khó khăn vừa sức học sinh, tạo điều kiện để phát triển tối đa những tiềm năng vốn có của họ.
+
+Nhiệm vụ 3. Tổ chức, điều khiển học sinh hình thành cơ sở thế giới quan khoa học, những phẩm chất đạo đức nói riêng và phát triển nhân cách nói chung
+
+Trên cơ sở làm cho học sinh nắm vững tri thức và kĩ năng, kĩ xảo, phát triển năng lực nhận thức mà hình thành cho họ cơ sở thế giới quan khoa học, những phẩm chất đạo đức nói riêng và sự phát triển nhân cách nói chung theo mục đích giáo dục đã đề ra.
+
+Thế giới quan là hệ thống những quan điểm về thế giới, về những hiện tượng trong tự nhiên và trong xã hội. Nó quy định xu hướng chính trị, tư tưởng, đạo đức và những phẩm chất khác. Nó chi phối cách nhìn nhận, thái độ và hành động của mỗi cá nhân. Trong xã hội có giai cấp, thế giới quan cá nhân đều mang tính giai cấp. Chính vì thế trong quá trình dạy học cần phải quan tâm đầy đủ đến việc hình thành những cơ sở thế giới quan khoa học cho học sinh để họ suy nghĩ, có thái độ và hành động đúng. Đồng thời cần bồi dưỡng những phẩm chất đạo đức theo mục đích giáo dục đã đề ra như làm tròn trách nhiệm, nghĩa vụ công dân, lòng yêu nước và CNXH, năng động, chủ động, sáng tạo, thích ứng nhanh với những yêu cầu CNH và HĐH đất nước... thông qua nội dung, phương pháp và hình thành tổ chức dạy học.
+
+Mối quan hệ giữa ba nhiệm vụ dạy học
+
+Trong quá trình dạy học ba nhiệm vụ đó có mối quan hệ mật thiết với nhau, tác động, hỗ trợ lẫn nhau để thực hiện mục đích giáo dục có hiệu quả. Thiếu tri thức, kĩ năng, kĩ xảo tương ứng, thiếu phương pháp nhận thức thì không thể tạo điều kiện cho sự phát triển trí tuệ và thiếu cơ sở để hình thành thế giới quan khoa học. Phát triển trí tuệ vừa là kết quả, vừa là điều kiện của việc nắm vững tri thức, kĩ năng, kĩ xảo và là cơ sở để hình thành thế giới quan khoa học và những phẩm chất đạo đức. Phải có trình độ phát triển nhận thức nhất định mới giúp học sinh có cách nhìn, có thái độ và hành động đúng. Nhiệm vụ thứ ba vừa là mục đích vừa là kết quả của hai nhiệm vụ trên. Nó là yếu tố kích thích và chỉ đạo việc nắm tri thức, hình thành kĩ năng, kĩ xảo và phát triển năng lực nhận thức.
+
+## IV. ĐỘNG LỰC CỦA QUÁ TRÌNH DẠY HỌC
+
+### 1. Khái niệm
+
+Theo triết học duy vật biện chứng, mọi sự vật và hiện tượng không ngừng vận động và phát triển, sở dĩ như vậy là do có sự đấu tranh và thống nhất giữa các mặt đốì lập, nghĩa là do có mâu thuẫn bên trong và mâu thuẫn bên ngoài. Mâu thuẫn bên trong là nguồn gốc của sự phát triển, mâu thuẫn bên ngoài là điều kiện của sự phát triển.
+
+Quá trình dạy học trong hiện thực khách quan cũng vận động và phát triển do không ngừng giải quyết các mâu thuẫn bên trong và mâu thuẫn bên ngoài. Mâu thuẫn bên trong của quá trình dạy học là mâu thuẫn giữa các thành tố và giữa các yếu tố trong từng thành tố của quá trình dạy học. Chẳng hạn mâu thuẫn giữa những thành tố như trình độ của thầy và của trò, giữa nội dung dạy học đã được cải tiến nhưng phương pháp chưa được đổi mới, giữa phương pháp đổi mới với phương tiện dạy học chưa đảm bảo. Mâu thuẫn giữa những yếu tố của từng thành tố trong quá trình dạy học, chẳng hạn như trong phương pháp dạy học xuất hiện mâu thuẫn giữa việc sử dụng nhóm phương pháp dùng lời với nhóm phương pháp trực quan. Nêu quá lạm dụng phương pháp trực quan sẽ làm giảm sự phát triển tư duy trừu tượng, nếu quá lạm dụng phương pháp dùng lời bài giảng sẽ trở nên trừu tượng. Mâu thuẫn bên ngoài là mâu thuẫn giữa sự tiến bộ khoa học, công nghệ, văn hoá, sự phát triển kinh tế - xã hội với từng thành tố của quá trình dạy học. Động lực của quá trình dạy học là giải quyêt tốt được những mâu thuẫn bên ngoài, bên trong của quá trình dạy học, trong đó giải quyết các mâu thuẫn bên trong có ý nghĩa quvêt định. Song trong những điều kiện nhất định, các mâu thuãn bên ngoài của quá trình dạy học lại có ý nghĩa hết sức quan trọng đối với sự vận động và phát triển của nó.
+
+Từ đó có thể nhận thấy có rất nhiều mâu thuẫn cần phải giải quyết, song điều quan trọng nhất để quá trình dạy học phát triển đúng, nhanh và có hiệu quả là phải xác định và giải quyết được mâu thuẫn cơ bản của nó.
+
+2. Mâu thuẫn cơ bản và những điều kiện để chúng trở thành động lực của quá trình dạy học
+
+Mâu thuẫn cơ bản của quá trình dạy học là mâu thuẫn giữa một bên là nhiệm vụ học tập do tiến trình dạy học đề ra và một bên là trình độ tri thức, kĩ năng, kĩ xảo và trình độ phát triển trí tuệ hiện có của người học.
+
+Mâu thuẫn cơ bản tồn tại suốt từ đầu đên cuối quá trình, việc giải quyết các mâu thuẫn khác, xét cho cùng đều phục vụ cho việc giải quyết nó.
+
+Mâu thuẫn cơ bản khi xuất hiện dưới sự chỉ đạo của người giáo viên, học sinh tự lực hoặc được sự hỗ trợ của giáo viên sẽ giải quyết nó. Nhờ đó người học được nâng cao trình độ và đáp ứng được nhiệm vụ dạy học đề ra. Quá trình dạy học là quá trình liện tục đề ra các nhiệm vụ học tập và khi một nhiệm vụ được giải quyết lại có nhiệm vụ khác xuất hiện và lại được giải quyết, cứ như vậy mà quá trình dạy học không ngừng vận động và phát triển. Sự thúc đẩy giải quyết các mâu thuẫn cơ bản đó tạo ra động lực cơ bản của quá trình dạy học.
+
+Song, muốn quá trình dạy học phát triển thì quá trình học của học sinh phải tiến triển. Vì vậy, mâu thuẫn cơ bản của quá trình dạy học phải chuyển hoá thành mâu thuẫn cơ bản của quá trình lĩnh hội tri thức của học sinh.
+
+Sự lĩnh hội, theo I. M. Xêsênốp, là hoà những sản phẩm kinh nghiệm của người khác với kinh nghiệm của bản thân. Điều đó có nghĩa là làm cho những điều được mang từ bên ngoài vào phải hoà vào tài sản bên trong của bản thân, tạo nên một cấu trúc mới. Vì vậy, mâu thuẫn cơ bản của quá trình lĩnh hội tri thức, kĩ năng, kĩ xảo là mâu thuẫn giữa điều đã biết và điều chưa biết, điều đã biết ở đây chính là kinh nghiệm, sự hiểu biết của bản thân và điều chưa biết chính là kinh nghiệm của người khác, nghĩa là tri thức mới cần lĩnh hội.
+
+Để chuyên hoá mâu thuẫn cơ bản của quá trình dạy học thành mâu thuẫn cơ bản của quá trình lĩnh hội tri thức, kĩ năng, kĩ xảo của ngươi học cần phải có ba điều kiện:
+
+- Mâu thuẫn phải được người học ý thức đầy đủ và sâu sắc. Họ phải
+
+nhận thức rõ những yêu cầu của nhiệm vụ học tập được đề ra, thấy hết và đánh giá đúng mức trình độ tri thức, kĩ năng, kĩ xảo, trình độ phát triển trí tuệ hiện có của mình. Điều đó thể hiện ở chỗ người học nhận thấy có khó khăn trong nhận thức và nảy sinh nhu cầu giải quyết khó khăn nhằm hoàn thành nhiệm vụ học tập.
+
+- Mâu thuẫn phải là khó khăn vừa sức. Điều đó có nghĩa là nhiệm vụ
+
+học tập được đề ra ở mức độ tương ứng với giới hạn trên của vùng phát triển gần nhất của học sinh mà họ có thể giải quyết được với sự nỗ lực cao nhất vể trí lực cũng như thể lực của mình.
+
+- Mâu thuẫn phải do tiến trình dạy học dẫn dến. Điều đó có nghĩa là
+
+mâu thuẫn xuất hiện tại thời điểm nào đó là sự tất yếu trên con đường vận động đi lên của quá trình dạy học nói chung và quá trình nhận thức của học sinh nói riêng. Không nên đốt cháy giai đoạn làm cho mâu thuẫn xuất hiện sớm quá hoặc làm cho nó xuất hiện muộn quá. Nhiệm vụ của người giáo viên là không nên lảng tránh, để cho nó xuất hiện không đúng lúc, mà trái lại cần làm cho mâu thuẫn xuất hiện đúng lúc, như vậy các mâu thuẫn sẽ trở nên sâu sắc.
+
+## V. LÔGÍC CỦA QUÁ TRÌNH DẠY HỌC
+
+### 1. Khái niệm
+
+Lôgíc của quá trình dạy học là trình tự vận động hợp quy luật của quá trình đó, nhằm đảm bảo cho học sinh đi từ trình độ tri thức, kĩ năng, kĩ xảo và phát triển năng lực hoạt động nhận thức, đặc biệt hoạt động trí tuệ tương ứng từ lúc bắt đầu nghiên cứu môn học (hay một đề mục) nào đó, đến trình độ tri thức, kĩ năng, kĩ xảo và trình độ nhận thức, đặc biệt là năng lực trí tuệ, tương ứng với lúc kết thúc môn học (hay một đề mục) nào đó của môn học.
+
+Logic của quá trình dạy học phải được xây dựng sao cho phù hợp với lôgíc của môn học với đặc điểm nhận thức một lớp, một nhóm học sinh cụ
+
+thể. Do đó người ta nói lôgíc của quá trình dạy học là hợp kim của lôgíc môn học với đặc điểm nhận thức của học sinh ở một lớp, một nhóm cụ thể.
+
+Còn lôgíc môn học được xây dựng sao cho phù hợp với lôgíc của khoa học và đặc điểm nhận thức ở mỗi lứa tuổi nhất định, chính vì vậy người ta nói lôgíc môn học là hợp kim của lôgíc khoa học và đặc điểm nhận thức của lứa tuổi nhất định.
+
+Do lôgíc của quá trình dạy học mà một giáo viên khi tiến hành dạy ở hai lớp có trình độ khác nhau về tri thức, kĩ năng, kĩ xảo và sự phát triển trí tuệ cũng như tình hình cụ thể của tiết học nên tiến trình dạy học rất khác nhau nhằm đạt được mục đích, yêu cầu của tiết học. Vì vậy lôgíc của quá trình dạy học có tính rất động.
+
+### 2. Các khâu của quá trình dạy học
+
+Xét một cách khái quát thì lôgíc của quá trình dạy học diễn ra theo các khâu cơ bản sau:
+
+a. Giáo viên đề xuất vấn đề, gây cho học sinh ý thức nhiệm ụ học tập. Mở đầu một vấn đề mới giáo viên khéo léo đề xuất nhiệm vụ học tập bằng cách tạo nên tình huống có vấn đề, nhờ vậy mà học sinh ý thức được nhiệm vụ đó một cách sâu sắc tích cực, hứng thú tham gia giải quyết vấn đề.
+
+b. Tổ chức, điều khiển học sinh lĩnh hội tri thức mới. Để lĩnh hội tri thức mới trước tiên phải tổ chức cho học sinh tri giác tài liệu cảm tính cần thiết. Ở khâu này tuỳ theo nội dung tài liệu, giáo viên tổ chức cho họ quan sát trực tiếp sự vật và hiện tượng, hoặc có thể dùng phương pháp đàm thoại làm cho họ nhớ lại những biểu tượng, những kinh nghiệm đã có, những tri thức đã lĩnh hội, tìm ra mối liên hệ gần gũi với sự vật và hiện tượng mới. Từ đó xây dựng những biểu tượng chính xác làm cơ sở cho việc hình thành khái niệm.
+
+Tiếp đó giáo viên tổ chức cho học sinh tiến hành các thao tác tư duy: phân tích, tổng hợp, so sánh, đối chiếu, trừu tượng hoá, khái quát hoá để hình thành những khái niệm và qua đó các thao tác tư duy được hoàn thiện hơn. Nắm được khái niệm, học sinh lại vận dụng những khái niệm đó, kết hợp
+
+chúng với nhau thành những phán đoán và từ các phán đoán này xây dựng nên các suy luận. Từ đó lại hình thành những khái niệm, phán đoán ở mức độ cao hơn. Khái niệm, phát đoán, suy luận đều được diễn đạt dưới hình thức ngôn ngữ bằng những định nghĩa, định lí, định luật, nguyên tắc, học thuyết. Việc hình thành khái niệm có thể tiến hành bằng con đường quy nạp hoặc suy diễn.
+
+Tổ chức đúng đắn việc lĩnh hội tri thức mới sẽ giúp học sinh nắm được phương pháp cơ bản của tư duy lôgíc và từ đó rèn luyện cho họ kĩ năng độc lập lĩnh hội tri thức mới.
+
+c. Tổ chức, điều khiển học sinh củng cố tri thức. Để học sinh lưu giữ những điểu lĩnh hội được đầy đủ, chính xác và bền vững và khi cần có thể tái hiện được nhanh chóng, giáo viên phải hướng dẫn cho học sinh những biện pháp ôn tập tích cực, thường xuyên, vận dụng tri thức để giải quyết những nhiệm vụ thực tiễn bằng ôn tập, khái quát hoá, thiết lập hệ thống những khái niệm, định luật, học thuyết.
+
+d. Tổ chức, điều khiển học sinh rèn luyện kĩ năng, kĩ xảo. Trong quá trình học tập, học sinh cần phải chuyên hoá tri thức thành kĩ năng, kĩ xảo mới có thể vận dụng những điều đã học vào thực tiễn. Biện pháp rèn luyện kĩ năng, kĩ xảo thể hiện ở những mức độ khác nhau. Mức độ đầu tiên là luyện tập một cách có hệ thống những tri thức vào việc giải quvết các bài tập với độ khó khăn và phức tạp tăng lên. Trong quá trình đó chú ý uốn nắn những sai lệch, sự thiếu chính xác trong việc hiểu tri thức lí thuyết, những thao tác tư duy hoặc động tác chân tay. Mức độ cao là vận dụng tri thức nhằm giải thích những hiện tượng, giải quyết những vấn đề do thực tiễn đề ra một cách vừa sức; qua đó dần dần phát huy tính độc lập sáng tạo của học sinh từ mức thấp đến mức cao.
+
+e. Tổ chức, điều khiển, kiểm tra, đánh giá việc nắm vững tri thức, kĩ năng, kĩ xảo một cách có hệ thống của học sinh và tổ chức cho họ tự kiểm tra, tự đánh giá. Việc thực hiện khâu này phải quán triệt các nguyên tắc kiểm tra và đánh giá, phối hợp nhiều hình thức kiểm tra, đánh giá. Ngoài ra, cần
+
+đặc biệt bồi dưỡng cho học sinh ý thức và năng lực tự kiểm tra, tự đánh giá kết quả học tập của mình. Điều đó góp phần quan trọng trong việc hình thành cho họ phẩm chất và năng lực tự học, giúp họ có thể học liên tục suốt đời, đáp ứng được những yêu cầu của thời đại hiện nay.
+
+f. Phân tích kết quả từng giai đoạn, từng bước nhất định của quá trình dạy học. Sau khi kiểm tra, đánh giá việc hoàn thành một bước, một giai đoạn nhất định nào đó của quá trình dạy học, thầy cũng như trò phải nhìn lại hoạt động của mình, đối chiếu những kết quả thu được với mục đích, nhiệm vụ đã đề để phát hiện những ưu, nhược điểm, nguyên nhân của chúng và đề ra phương hướng và biện pháp giải quyết.
+
+Các khâu này trong toàn bộ quá trình dạy học đều phải thực hiện, nhưng tuỳ theo từng giai đoạn với nhiệm vụ cụ thể của nó mà thực hiện chúng ở những mức độ khác nhau. Hơn nữa trong quá trình dạy học không nhất thiết phải thực thi theo trình tự các khâu đó mà thực hiện xen kẽ vào nhau: theo tình hình, yêu cầu cụ thể.
+
+Các khâu này của quá trình dạy học có chức năng khác nhau, mỗi khâu có tác dụng riêng của mình, nhưng chúng liên hệ mật thiết với nhau, tác động lẫn nhau. Tất cả các khâu phải kích thích thái độ tích cực học tập của học sinh. Muốn nắm tri thức mới ngoài việc tri giác những sự kiện, hiện tượng còn phải tích cực hoá những tri thức, kinh nghiệm đã có. Vì vậy ngay cả khi lĩnh hội tri thức, kĩ năng, kĩ xảo, cũng cần thực hiện việc kiểm tra và đánh giá tri thức. Để củng cố tri thức không chỉ tiến hành ôn tập mà còn có thể thông qua việc vận dụng tri thức để giải quyết những vấn đề học tập. Từ đó có thể nhận thấy trong quá trình dạy học, các khâu này xen kẽ, đan kết vào nhau. Tất nhiên trong những hoàn cảnh cụ thể mỗi khâu lại có một chức năng chiếm ưu thế. Việc phối, kết hợp khâu đó để đạt được mục đích dạy tốt nhất lại tuỳ thuộc vào năng lực nghiệp vụ sư phạm của mỗi giáo viên.
+
+CÂU HỎI ÔN TẬP VÀ THẢO LUẬN
+
+### 1. Thế nào là quá trình dạy học?
+
+### 2. Hãy trình bày bản chất của quá trình dạy học.
+
+3. Hãy trình bày những nhiệm vụ dạy học và mối liên hệ giữa chúng.
+
+4. Hãy trình bày động lực của quá trình dạy học. Thế nào lôgíc của quá trình dạy học? Phân biệt lôgíc của quá trình dạy học với lôgíc của môn học, cho ví dụ.
+
+5. Phân tích các khâu của quá trình dạy học và mối liên hệ giữa chúng.
+
+BÀI TẬP
+
+1. Xây dựng động lực cơ bản của một tiết học về bộ môn mà anh, chị sẽ giảng dạy.
+
+2. Hãy nhận xét việc thực hiện các nhiệm vụ dạy học của người giáo viên trong một giờ học ở trường THPT mà anh (chị) đã được dự.
