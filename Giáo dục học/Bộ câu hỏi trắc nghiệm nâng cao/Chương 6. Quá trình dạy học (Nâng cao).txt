@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Trong giờ học Lịch sử, thay vì đọc chép các mốc sự kiện, giáo viên chiếu đoạn video ngắn về chiến dịch Điện Biên Phủ và đưa ra câu hỏi: "Tại sao Đại tướng Võ Nguyên Giáp lại quyết định thay đổi phương châm từ 'Đánh nhanh thắng nhanh' sang 'Đánh chắc tiến chắc'?". Cách làm của giáo viên nhằm mục đích gì?
+Câu 6: Trong giờ học Lịch sử, thay vì đọc chép các mốc sự kiện, giáo viên chiếu đoạn video ngắn về chiến dịch Điện Biên Phủ và đưa ra câu hỏi: "Tại sao Đại tướng Võ Nguyên Giáp lại quyết định thay đổi phương châm từ 'Đánh nhanh thắng nhanh' sang 'Đánh chắc tiến chắc'?". Cách làm của giáo viên nhằm mục đích gì?
 A. Kéo dài thời gian để giáo viên nghỉ ngơi trên lớp.
 *B. Tạo tình huống có vấn đề kích thích tính tích cực tư duy của học sinh.
 C. Kiểm tra khả năng học thuộc lòng từng chữ của sách giáo khoa.
@@ -149,7 +149,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Sau khi chấm bài kiểm tra giữa kỳ, cô giáo Y phát hiện 70% học sinh trong lớp giải sai cùng một dạng bài tập Toán về tích phân. Cô giáo đã dành 15 phút đầu giờ tiếp theo để phân tích nguyên nhân nhầm lẫn và điều chỉnh lại cách hướng dẫn. Việc làm của cô Y ứng dụng cơ chế nào?
+Câu 10: Sau khi chấm bài kiểm tra giữa kỳ, cô giáo Y phát hiện 70% học sinh trong lớp giải sai cùng một dạng bài tập Toán về tích phân. Cô giáo đã dành 15 phút đầu giờ tiếp theo để phân tích nguyên nhân nhầm lẫn và điều chỉnh lại cách hướng dẫn. Việc làm của cô Y ứng dụng cơ chế nào?
 A. Cơ chế cưỡng chế kỷ luật học sinh.
 *B. Cơ chế xử lý tín hiệu ngược để điều chỉnh hoạt động dạy học.
 C. Cơ chế bỏ qua lỗi sai để theo kịp tiến độ chương trình.
@@ -229,7 +229,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Trong tiết dạy Hóa học về "Phản ứng trung hòa", sau khi giảng lý thuyết, thầy giáo Z chia lớp thành 4 nhóm cho học sinh tự tiến hành nhỏ dung dịch Axit vào Bazơ có chất chỉ thị màu để quan sát hiện tượng đổi màu. Thầy Z đang thực hiện khâu nào của quá trình dạy học?
+Câu 15: Trong tiết dạy Hóa học về "Phản ứng trung hòa", sau khi giảng lý thuyết, thầy giáo Z chia lớp thành 4 nhóm cho học sinh tự tiến hành nhỏ dung dịch Axit vào Bazơ có chất chỉ thị màu để quan sát hiện tượng đổi màu. Thầy Z đang thực hiện khâu nào của quá trình dạy học?
 A. Khâu kiểm tra bài cũ đầu giờ.
 *B. Khâu hình thành kỹ năng, kỹ thảo và củng cố tri thức qua thực hành.
 C. Khâu tổng kết khen thưởng cuối năm.
@@ -291,7 +291,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Trong lúc tự giải bài tập Vật lý ở nhà, học sinh M phát hiện ra kết quả tính toán của mình mâu thuẫn với công thức đã học. M tự dò lại từng bước biến đổi, tìm ra chỗ sai dấu và tự sửa lại. Học sinh M đã sử dụng cơ chế nào?
+Câu 19: Trong lúc tự giải bài tập Vật lý ở nhà, học sinh M phát hiện ra kết quả tính toán của mình mâu thuẫn với công thức đã học. M tự dò lại từng bước biến đổi, tìm ra chỗ sai dấu và tự sửa lại. Học sinh M đã sử dụng cơ chế nào?
 A. Sự can thiệp trực tiếp của giáo viên trên lớp.
 *B. Tín hiệu ngược trong giúp tự kiểm tra và tự điều chỉnh hoạt động học.
 C. Sự tác động tự động của trí tuệ nhân tạo.
@@ -355,7 +355,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Một học sinh có khả năng học thuộc lòng rất nhanh toàn bộ các bài thơ trong sách giáo khoa nhưng khi giáo viên yêu cầu so sánh hình ảnh người lính trong hai bài thơ khác nhau thì học sinh này lúng túng không làm được. Học sinh này đang dừng ở cấp độ tính tích cực nhận thức nào?
+Câu 23: Một học sinh có khả năng học thuộc lòng rất nhanh toàn bộ các bài thơ trong sách giáo khoa nhưng khi giáo viên yêu cầu so sánh hình ảnh người lính trong hai bài thơ khác nhau thì học sinh này lúng túng không làm được. Học sinh này đang dừng ở cấp độ tính tích cực nhận thức nào?
 A. Tích cực sáng tạo.
 B. Tích cực tìm tòi.
 *C. Tích cực tái hiện (ghi nhớ học thuộc).
@@ -435,7 +435,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Thầy giáo A dạy môn Địa lý bằng cách giao cho từng nhóm học sinh tìm hiểu về thực trạng ô nhiễm nguồn nước tại sông địa phương, chụp ảnh, phỏng vấn người dân và đề xuất giải pháp xử lý trong bài báo cáo. Hoạt động này thể hiện ứng dụng nào của dạy học?
+Câu 28: Thầy giáo A dạy môn Địa lý bằng cách giao cho từng nhóm học sinh tìm hiểu về thực trạng ô nhiễm nguồn nước tại sông địa phương, chụp ảnh, phỏng vấn người dân và đề xuất giải pháp xử lý trong bài báo cáo. Hoạt động này thể hiện ứng dụng nào của dạy học?
 *A. Kết hợp nhận thức tri thức với rèn luyện kỹ năng thực tiễn và phát triển năng lực sáng tạo.
 B. Cưỡng chế học sinh làm công việc của cơ quan công an môi trường.
 C. Bỏ qua việc trang bị lý thuyết địa lý nền tảng.
@@ -515,7 +515,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Khi hướng dẫn học sinh giải bài tập Lập trình Python, thầy giáo B không giải hộ mà chỉ gợi ý bằng 2 câu hỏi định hướng, sau đó để học sinh tự gõ code và tự sửa lỗi Syntax Error khi chương trình báo đỏ. Thầy B đã thể hiện quan điểm dạy học nào?
+Câu 33: Khi hướng dẫn học sinh giải bài tập Lập trình Python, thầy giáo B không giải hộ mà chỉ gợi ý bằng 2 câu hỏi định hướng, sau đó để học sinh tự gõ code và tự sửa lỗi Syntax Error khi chương trình báo đỏ. Thầy B đã thể hiện quan điểm dạy học nào?
 A. Buông thả không có trách nhiệm với học sinh.
 *B. Tôn trọng vai trò chủ thể nhận thức và năng lực tự điều chỉnh của học sinh.
 C. Cưỡng chế học sinh làm việc quá sức.
@@ -579,7 +579,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Khi bắt đầu chương mới môn Sinh học, cô giáo C cho học sinh làm một bài trắc nghiệm nhanh 5 phút không tính điểm để khảo sát xem học sinh đã nhớ những tri thức nền nào từ lớp dưới. Việc làm của cô C phục vụ mục đích gì?
+Câu 37: Khi bắt đầu chương mới môn Sinh học, cô giáo C cho học sinh làm một bài trắc nghiệm nhanh 5 phút không tính điểm để khảo sát xem học sinh đã nhớ những tri thức nền nào từ lớp dưới. Việc làm của cô C phục vụ mục đích gì?
 A. Phạt những học sinh đã quên kiến thức cũ.
 *B. Chẩn đoán trình độ xuất phát để điều chỉnh kế hoạch dạy học chương mới.
 C. Bắt buộc học sinh phải mua thêm sách tham khảo.
@@ -714,7 +714,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về việc vận dụng các khâu nhận thức trong thiết kế bài dạy:
+Câu 45: Về việc vận dụng các khâu nhận thức trong thiết kế bài dạy:
 a) Đầu giờ học, giáo viên chiếu video tạo mâu thuẫn để kích thích thái độ học tập là đúng quy trình. -> [ĐÚNG]
 b) Khâu củng cố tri thức được thực hiện bằng cách cho học sinh sơ đồ hóa kiến thức bài học. -> [ĐÚNG]
 c) Giáo viên cho học sinh làm bài tập vận dụng ngay khi chưa tổ chức lĩnh hội tri thức mới. -> [SAI]
@@ -748,7 +748,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về phát triển các cấp độ tính tích cực nhận thức của học sinh:
+Câu 47: Về phát triển các cấp độ tính tích cực nhận thức của học sinh:
 a) Học sinh ghi nhớ và nhắc lại đúng định lý là ở cấp độ tính tích cực tái hiện. -> [ĐÚNG]
 b) Học sinh tự tìm ra 2 cách giải khác nhau cho một bài toán là ở cấp độ tìm tòi. -> [ĐÚNG]
 c) Học sinh tự chế tạo thiết bị bắt muỗi thông minh từ đồ tái chế thuộc cấp độ sáng tạo. -> [ĐÚNG]
@@ -782,7 +782,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về các xu hướng đổi mới phương pháp dạy học hiện đại:
+Câu 49: Về các xu hướng đổi mới phương pháp dạy học hiện đại:
 a) Áp dụng dạy học giải quyết vấn đề giúp học sinh rèn luyện tư duy phản biện. -> [ĐÚNG]
 b) Sử dụng mô hình "Lớp học đảo ngược" (Flipped Classroom) cho học sinh xem bài trước ở nhà. -> [ĐÚNG]
 c) Bắt buộc giáo viên chỉ được sử dụng duy nhất phương pháp thuyết giảng truyền thống. -> [SAI]

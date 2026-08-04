@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Đầu năm học, cô giáo chủ nhiệm L dành 1 tuần để học sinh tự giới thiệu sở thích, sau đó cô tổ chức bầu Ban cán sự lớp bằng hình thức bỏ phiếu kín công khai. Cô L còn dành 2 buổi để tập huấn cho Lớp trưởng và các Tổ trưởng cách ghi sổ theo dõi tích cực. Cô L đã vận dụng đúng quy trình nào?
+Câu 6: Đầu năm học, cô giáo chủ nhiệm L dành 1 tuần để học sinh tự giới thiệu sở thích, sau đó cô tổ chức bầu Ban cán sự lớp bằng hình thức bỏ phiếu kín công khai. Cô L còn dành 2 buổi để tập huấn cho Lớp trưởng và các Tổ trưởng cách ghi sổ theo dõi tích cực. Cô L đã vận dụng đúng quy trình nào?
 A. Quy trình cưỡng bức hành chính.
 *B. Quy trình Tìm hiểu đối tượng -> Bầu chọn dân chủ -> Bồi dưỡng năng lực cán bộ lớp tự quản.
 C. Quy trình khoán trắng trách nhiệm cho học sinh.
@@ -150,7 +150,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Thấy em K (học sinh trong lớp) dạo này thường xuyên ngủ gật trong giờ học và điểm số sụt giảm, thầy chủ nhiệm T không trách mắng trước lớp mà hẹn K ở lại cuối giờ. Thầy T bàng hoàng biết cha K mới mất, K phải thức đêm phụ mẹ làm bánh mì. Thầy T đã vận dụng cách xử lý nào?
+Câu 10: Thấy em K (học sinh trong lớp) dạo này thường xuyên ngủ gật trong giờ học và điểm số sụt giảm, thầy chủ nhiệm T không trách mắng trước lớp mà hẹn K ở lại cuối giờ. Thầy T bàng hoàng biết cha K mới mất, K phải thức đêm phụ mẹ làm bánh mì. Thầy T đã vận dụng cách xử lý nào?
 A. Phạt K chép bài 100 lần vì ngủ gật.
 *B. Đàm thoại thấu cảm, tìm hiểu nguyên nhân gốc rễ và chủ động đề xuất chính sách hỗ trợ học sinh.
 C. Đuổi học K vì làm ảnh hưởng thành tích lớp.
@@ -230,7 +230,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Khi lớp 11A xuất hiện hiện tượng một số bạn nam quay lén và chia sẻ ảnh giễu cợt một bạn nữ trong lớp lên hội nhóm riêng, cô chủ nhiệm N đã mời chuyên gia an ninh mạng về nói chuyện, đồng thời yêu cầu các bạn nam trực tiếp xin lỗi bạn nữ và xóa bỏ hoàn toàn dữ liệu. Cô N đã thực hiện nhiệm vụ nào?
+Câu 15: Khi lớp 11A xuất hiện hiện tượng một số bạn nam quay lén và chia sẻ ảnh giễu cợt một bạn nữ trong lớp lên hội nhóm riêng, cô chủ nhiệm N đã mời chuyên gia an ninh mạng về nói chuyện, đồng thời yêu cầu các bạn nam trực tiếp xin lỗi bạn nữ và xóa bỏ hoàn toàn dữ liệu. Cô N đã thực hiện nhiệm vụ nào?
 A. Nhiệm vụ thu học phí.
 *B. Nhiệm vụ Bảo vệ An toàn tâm lý - Tôn nghiêm học sinh và Xây dựng Văn hóa Ứng xử trên không gian mạng.
 C. Nhiệm vụ trừng phạt đuổi học hàng loạt.
@@ -294,7 +294,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Để gây quỹ giúp đỡ một bạn trong lớp bị bệnh hiểm nghèo, thay vì ép học sinh nộp tiền, cô chủ nhiệm H hướng dẫn Ban cán sự lớp tự lập kế hoạch tổ chức Gian hàng "Bánh ngọt yêu thương" trong Ngày hội Xuân của trường. Gian hàng thu được 5 triệu đồng. Cô H đã vận dụng phương pháp nào?
+Câu 19: Để gây quỹ giúp đỡ một bạn trong lớp bị bệnh hiểm nghèo, thay vì ép học sinh nộp tiền, cô chủ nhiệm H hướng dẫn Ban cán sự lớp tự lập kế hoạch tổ chức Gian hàng "Bánh ngọt yêu thương" trong Ngày hội Xuân của trường. Gian hàng thu được 5 triệu đồng. Cô H đã vận dụng phương pháp nào?
 A. Phương pháp trừng phạt tài chính.
 *B. Phương pháp giáo dục rèn luyện hành vi qua hoạt động trải nghiệm tự quản và giáo dục lòng nhân ái.
 C. Phương pháp phó mặc tự phát.
@@ -356,7 +356,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Vào đầu kỳ II, thấy học sinh M có nguy cơ bỏ học vì hoàn cảnh gia đình quá nghèo cha mẹ ốm đau, thầy chủ nhiệm K đã chủ động báo cáo Ban Giám hiệu miễn giảm học phí, đồng thời liên hệ với Đoàn Phường hỗ trợ K một chiếc xe đạp mới. M xúc động và tiếp tục đến trường. Thầy K đã thực hiện đúng vai trò nào?
+Câu 23: Vào đầu kỳ II, thấy học sinh M có nguy cơ bỏ học vì hoàn cảnh gia đình quá nghèo cha mẹ ốm đau, thầy chủ nhiệm K đã chủ động báo cáo Ban Giám hiệu miễn giảm học phí, đồng thời liên hệ với Đoàn Phường hỗ trợ K một chiếc xe đạp mới. M xúc động và tiếp tục đến trường. Thầy K đã thực hiện đúng vai trò nào?
 A. Vai trò thu quỹ lớp.
 *B. Vai trò Đại diện quyền lợi chính đáng cho học sinh và Cầu nối huy động nguồn lực xã hội giúp đỡ học sinh.
 C. Vai trò trừng phạt học sinh bỏ học.
@@ -436,7 +436,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Vào kỳ I, lớp 10B có phong trào học tập rất trầm, học sinh ít phát biểu. Cô chủ nhiệm T đã đề xuất Ban cán sự lớp thành lập các "Đôi bạn cùng tiến" và tổ chức Cuộc thi "Rinh quà tri thức" vào 10 phút đầu giờ học. Sau 1 tháng, không khí học tập của lớp trở nên sôi nổi hẳn. Cô T đã thể hiện năng lực nào?
+Câu 28: Vào kỳ I, lớp 10B có phong trào học tập rất trầm, học sinh ít phát biểu. Cô chủ nhiệm T đã đề xuất Ban cán sự lớp thành lập các "Đôi bạn cùng tiến" và tổ chức Cuộc thi "Rinh quà tri thức" vào 10 phút đầu giờ học. Sau 1 tháng, không khí học tập của lớp trở nên sôi nổi hẳn. Cô T đã thể hiện năng lực nào?
 A. Năng lực trừng phạt hành chính.
 *B. Năng lực Kích thích Động cơ Học tập và Khơi dậy Phong trào Thi đua Tích cực trong tập thể lớp.
 C. Năng lực quản lý tài chính.
@@ -516,7 +516,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Sau một đợt thi học kỳ căng thẳng, cô chủ nhiệm A tổ chức cho lớp một buổi sinh hoạt chủ đề "Nốt nhạc yêu thương": mỗi học sinh viết một lời cảm ơn giấu tên gửi cho một người bạn đã giúp đỡ mình trong kỳ thi vừa qua. Không khí lớp học trở nên vô cùng xúc cảm và gắn kết. Cô A đã ứng dụng nghệ thuật nào?
+Câu 33: Sau một đợt thi học kỳ căng thẳng, cô chủ nhiệm A tổ chức cho lớp một buổi sinh hoạt chủ đề "Nốt nhạc yêu thương": mỗi học sinh viết một lời cảm ơn giấu tên gửi cho một người bạn đã giúp đỡ mình trong kỳ thi vừa qua. Không khí lớp học trở nên vô cùng xúc cảm và gắn kết. Cô A đã ứng dụng nghệ thuật nào?
 *A. Nghệ thuật Giáo dục Cảm xúc và Nuôi dưỡng Tình bạn Đẹp trong tập thể học sinh.
 B. Nghệ thuật trừng phạt kỷ luật.
 C. Nghệ thuật quản lý tài chính.
@@ -578,7 +578,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Cuối năm học, lớp 12C tổ chức buổi họp mặt chia tay. Cô chủ nhiệm M đã bí mật chuẩn bị một video clip ghi lại hành trình 3 năm trưởng thành của từng học sinh và tặng mỗi em một cuốn sổ tay có lời chúc riêng. Cả lớp vỡ òa xúc động. Việc làm của cô M thể hiện điều gì?
+Câu 37: Cuối năm học, lớp 12C tổ chức buổi họp mặt chia tay. Cô chủ nhiệm M đã bí mật chuẩn bị một video clip ghi lại hành trình 3 năm trưởng thành của từng học sinh và tặng mỗi em một cuốn sổ tay có lời chúc riêng. Cả lớp vỡ òa xúc động. Việc làm của cô M thể hiện điều gì?
 A. Sự tốn kém kinh phí lãng phí.
 *B. Tình yêu thương sâu sắc, sự Tận tụy nghề nghiệp và Trái tim Sư phạm Nhân văn của người Giáo viên Chủ nhiệm.
 C. Việc vi phạm quy chế tài chính.
@@ -711,7 +711,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về Đổi mới Họp Phụ huynh Học sinh:
+Câu 45: Về Đổi mới Họp Phụ huynh Học sinh:
 a) Tổ chức họp phụ huynh theo hướng trao đổi tương tác 2 chiều và tôn trọng gia đình. -> [ĐÚNG]
 b) Ghi nhận công khai sự tiến bộ của học sinh và bàn biện pháp đồng hành giáo dục. -> [ĐÚNG]
 c) Biến họp phụ huynh thành buổi bêu xấu học sinh kém và ép buộc nộp các quỹ trái phép. -> [SAI]
@@ -745,7 +745,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về Quản lý Kỷ luật và Nếp sống Lớp học:
+Câu 47: Về Quản lý Kỷ luật và Nếp sống Lớp học:
 a) Xây dựng quy tắc ứng xử lớp học có sự thảo luận đóng góp ý kiến của học sinh. -> [ĐÚNG]
 b) Duy trì trật tự trên cơ sở tôn trọng nhân cách và phát huy ý thức tự giác của trò. -> [ĐÚNG]
 c) Sử dụng các hình thức trừng phạt bạo lực thể xác để đe dọa kỷ luật lớp học. -> [SAI]
@@ -779,7 +779,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về Quản lý Kênh Truyền thông Lớp học (Nhóm Zalo/Facebook):
+Câu 49: Về Quản lý Kênh Truyền thông Lớp học (Nhóm Zalo/Facebook):
 a) Dùng nhóm lớp để thông báo kế hoạch, đôn đốc học tập và chia sẻ kỷ niệm đẹp. -> [ĐÚNG]
 b) Đặt ra quy tắc ứng xử văn minh, cấm nói xấu hay đăng tin rác trên nhóm lớp. -> [ĐÚNG]
 c) GVCN có quyền công khai bảng điểm kém và quát mắng học sinh trên nhóm chung. -> [SAI]

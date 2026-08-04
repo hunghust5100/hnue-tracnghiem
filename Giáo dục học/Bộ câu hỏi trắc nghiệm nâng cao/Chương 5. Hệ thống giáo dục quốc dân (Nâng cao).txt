@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Bộ Giáo dục và Đào tạo ban hành "Khung trình độ quốc gia Việt Nam" gồm 8 bậc, quy định chuẩn đầu ra và khối lượng học tập từ Sơ cấp đến Tiến sĩ, tương thích với Khung tham chiếu trình độ ASEAN. Việc ban hành khung này nhằm thực hiện nguyên tắc nào?
+Câu 6: Bộ Giáo dục và Đào tạo ban hành "Khung trình độ quốc gia Việt Nam" gồm 8 bậc, quy định chuẩn đầu ra và khối lượng học tập từ Sơ cấp đến Tiến sĩ, tương thích với Khung tham chiếu trình độ ASEAN. Việc ban hành khung này nhằm thực hiện nguyên tắc nào?
 A. Thu hẹp quy mô đào tạo đại học ở các tỉnh miền núi.
 *B. Đảm bảo tính liên thông, chuẩn hóa và hội nhập quốc tế của hệ thống.
 C. Thương mại hóa công tác cấp bằng tốt nghiệp phổ thông.
@@ -148,7 +148,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Một học sinh sau khi tốt nghiệp Trung cấp nghề đã đi làm 2 năm, sau đó tiếp tục học liên thông lên Cao đẳng rồi Đại học vào các buổi tối tại Trung tâm Giáo dục thường xuyên. Con đường học tập của học sinh này chứng minh tính chất nào của hệ thống?
+Câu 10: Một học sinh sau khi tốt nghiệp Trung cấp nghề đã đi làm 2 năm, sau đó tiếp tục học liên thông lên Cao đẳng rồi Đại học vào các buổi tối tại Trung tâm Giáo dục thường xuyên. Con đường học tập của học sinh này chứng minh tính chất nào của hệ thống?
 A. Sự đóng khung biệt lập giữa dạy nghề và đại học.
 *B. Tính mềm dẻo, liên thông và phục vụ nhu cầu học tập suốt đời.
 C. Việc vi phạm quy chế tuyển sinh chính quy.
@@ -228,7 +228,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Tại một xã vùng cao miền núi, UBND tỉnh quyết định thành lập "Trường Phổ thông dân tộc bán trú" và miễn 100% tiền ăn ở cho học sinh sinh sống tại các bản xa. Quyết định này thể hiện nguyên tắc nào của hệ thống giáo dục?
+Câu 15: Tại một xã vùng cao miền núi, UBND tỉnh quyết định thành lập "Trường Phổ thông dân tộc bán trú" và miễn 100% tiền ăn ở cho học sinh sinh sống tại các bản xa. Quyết định này thể hiện nguyên tắc nào của hệ thống giáo dục?
 *A. Đảm bảo bình đẳng cơ hội tiếp cận giáo dục cho mọi đối tượng.
 B. Thương mại hóa dịch vụ bán trú trường học.
 C. Phân hóa giàu nghèo giữa các nhóm học sinh.
@@ -292,7 +292,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Một kỹ sư 40 tuổi đang làm việc tại tập đoàn viễn thông đăng ký tham gia khóa đào tạo Thạc sĩ ứng dụng trực tuyến vào các buổi tối cuối tuần để cập nhật công nghệ trí tuệ nhân tạo. Hoạt động này thể hiện mô hình nào?
+Câu 19: Một kỹ sư 40 tuổi đang làm việc tại tập đoàn viễn thông đăng ký tham gia khóa đào tạo Thạc sĩ ứng dụng trực tuyến vào các buổi tối cuối tuần để cập nhật công nghệ trí tuệ nhân tạo. Hoạt động này thể hiện mô hình nào?
 A. Giáo dục phổ thông bắt buộc lứa tuổi nhi đồng.
 *B. Xã hội học tập và Học tập suốt đời của người trưởng thành.
 C. Giáo dục mầm non chuyên biệt.
@@ -356,7 +356,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Một trung tâm học tập cộng đồng tại xã X tổ chức các lớp chuyên đề về: "Kỹ năng sử dụng dịch vụ công trực tuyến" và "Kỹ thuật nuôi rươi thương phẩm" cho nông dân trong xã. Hoạt động này phản ánh chức năng của loại hình giáo dục nào?
+Câu 23: Một trung tâm học tập cộng đồng tại xã X tổ chức các lớp chuyên đề về: "Kỹ năng sử dụng dịch vụ công trực tuyến" và "Kỹ thuật nuôi rươi thương phẩm" cho nông dân trong xã. Hoạt động này phản ánh chức năng của loại hình giáo dục nào?
 A. Giáo dục phổ thông chuyên biệt.
 *B. Giáo dục thường xuyên và đáp ứng nhu cầu học tập của cộng đồng.
 C. Giáo dục đại học viện nghiên cứu.
@@ -434,7 +434,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Một học sinh có hoàn cảnh gia đình đặc biệt khó khăn, không thể học THPT ban ngày. Học sinh này đã lựa chọn học hệ GDTX cấp THPT tại Trung tâm GDNN-GDTX huyện vào buổi tối, ban ngày đi làm phụ giúp gia đình. Sau 3 năm, học sinh này tốt nghiệp và vẫn được dự thi Đại học bình đẳng như học sinh THPT chính quy. Quy định này thể hiện điều gì?
+Câu 28: Một học sinh có hoàn cảnh gia đình đặc biệt khó khăn, không thể học THPT ban ngày. Học sinh này đã lựa chọn học hệ GDTX cấp THPT tại Trung tâm GDNN-GDTX huyện vào buổi tối, ban ngày đi làm phụ giúp gia đình. Sau 3 năm, học sinh này tốt nghiệp và vẫn được dự thi Đại học bình đẳng như học sinh THPT chính quy. Quy định này thể hiện điều gì?
 A. Sự phân biệt đối xử đối với học sinh hệ giáo dục thường xuyên.
 *B. Nguyên tắc công bằng và quyền dự thi liên thông giữa các loại hình giáo dục.
 C. Việc hạ thấp chuẩn đầu ra của hệ thống giáo dục đại học.
@@ -514,7 +514,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Bộ Giáo dục và Đào tạo cho phép các trường Đại học áp dụng phương thức xét tuyển kết hợp giữa Điểm thi tốt nghiệp THPT với Chứng chỉ ngoại ngữ quốc tế (IELTS/TOEFL) và Đánh giá năng lực. Sự đa dạng phương thức xét tuyển này thể hiện điều gì?
+Câu 33: Bộ Giáo dục và Đào tạo cho phép các trường Đại học áp dụng phương thức xét tuyển kết hợp giữa Điểm thi tốt nghiệp THPT với Chứng chỉ ngoại ngữ quốc tế (IELTS/TOEFL) và Đánh giá năng lực. Sự đa dạng phương thức xét tuyển này thể hiện điều gì?
 *A. Sự linh hoạt, mở rộng cơ hội và đánh giá toàn diện năng lực người học.
 B. Sự phức tạp hóa gây cản trở quyền dự thi của học sinh.
 C. Việc bãi bỏ hoàn toàn vai trò của kỳ thi tốt nghiệp phổ thông.
@@ -574,7 +574,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên mầm non phát hiện một trẻ 4 tuổi có dấu hiệu suy giảm thính lực nghiêm trọng. Nhà trường đã trao đổi với phụ huynh để đưa trẻ đi khám và lập "Kế hoạch giáo dục cá nhân hòa nhập" giúp trẻ vừa trị liệu vừa học cùng các bạn. Việc làm này thể hiện tinh thần nào?
+Câu 37: Một giáo viên mầm non phát hiện một trẻ 4 tuổi có dấu hiệu suy giảm thính lực nghiêm trọng. Nhà trường đã trao đổi với phụ huynh để đưa trẻ đi khám và lập "Kế hoạch giáo dục cá nhân hòa nhập" giúp trẻ vừa trị liệu vừa học cùng các bạn. Việc làm này thể hiện tinh thần nào?
 A. Sự phân biệt loại bỏ trẻ khuyết tật khỏi mầm non.
 *B. Giáo dục hòa nhập và đảm bảo quyền tiếp cận giáo dục của trẻ có nhu cầu đặc biệt.
 C. Sự đùn đẩy trách nhiệm giáo dục cho bệnh viện.
@@ -709,7 +709,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về tính liên thông và phân luồng trong thực tiễn:
+Câu 45: Về tính liên thông và phân luồng trong thực tiễn:
 a) Học sinh tốt nghiệp THCS có thể chọn học tiếp THPT hoặc học Trung cấp nghề. -> [ĐÚNG]
 b) Học viên tốt nghiệp hệ GDTX THPT có quyền đăng ký xét tuyển Đại học như học sinh THPT chính quy. -> [ĐÚNG]
 c) Sinh viên có bằng Cao đẳng nghề được học liên thông lên Đại học nếu đủ điều kiện quy chế. -> [ĐÚNG]
@@ -743,7 +743,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về công tác quản lý nhà nước và kiểm định chất lượng giáo dục:
+Câu 47: Về công tác quản lý nhà nước và kiểm định chất lượng giáo dục:
 a) Bộ Giáo dục và Đào tạo ban hành chương trình khung và quy chế kiểm định chất lượng. -> [ĐÚNG]
 b) UBND cấp tỉnh thực hiện quản lý nhà nước về giáo dục trên địa bàn địa phương. -> [ĐÚNG]
 c) Việc kiểm định chất lượng trường học giúp công khai mức độ đạt chuẩn cho xã hội biết. -> [ĐÚNG]
@@ -777,7 +777,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về ứng dụng chuyển đổi số trong hệ thống giáo dục:
+Câu 49: Về ứng dụng chuyển đổi số trong hệ thống giáo dục:
 a) Việc xây dựng học liệu số dùng chung giúp học sinh vùng khó khăn tiếp cận bài giảng hay. -> [ĐÚNG]
 b) Tổ chức thi trắc nghiệm trên máy tính giúp đảm bảo tính khách quan và trả kết quả nhanh. -> [ĐÚNG]
 c) Chuyển đổi số giáo dục đồng nghĩa với việc sa thải 100% giáo viên đứng lớp. -> [SAI]

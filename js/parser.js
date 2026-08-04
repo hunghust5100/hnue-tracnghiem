@@ -76,7 +76,7 @@ function parseQuizText(rawText) {
             } else {
                 const qBodyLines = [];
                 for (let line of lines) {
-                    const optMatch = line.match(/^(\*?)([A-Za-z])\.\s*([\s\S]*)$/);
+                    const optMatch = line.match(/^(\*?)([A-Fa-f])\.\s*([\s\S]*)$/);
                     if (optMatch) {
                         const isCorrect = optMatch[1] === '*';
                         const letter = optMatch[2].toUpperCase();

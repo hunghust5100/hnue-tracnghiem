@@ -84,7 +84,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Đầu năm học, Hiệu trưởng trường THPT K tổ chức Hội nghị Cán bộ Công chức Viên chức để công khai dự thảo Kế hoạch năm học, lấy ý kiến đóng góp của giáo viên và thông qua Quy chế chi tiêu nội bộ. Việc làm này áp dụng nguyên tắc quản lý nào?
+Câu 6: Đầu năm học, Hiệu trưởng trường THPT K tổ chức Hội nghị Cán bộ Công chức Viên chức để công khai dự thảo Kế hoạch năm học, lấy ý kiến đóng góp của giáo viên và thông qua Quy chế chi tiêu nội bộ. Việc làm này áp dụng nguyên tắc quản lý nào?
 A. Nguyên tắc độc đoán hành chính.
 *B. Nguyên tắc Tập trung dân chủ và Quản lý theo chất lượng.
 C. Nguyên tắc quản lý ngẫu nhiên.
@@ -146,7 +146,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Khi phát hiện thiết bị phòng máy tính của trường bị xuống cấp làm ảnh hưởng đến giờ học Tin học, Hiệu trưởng đã trích ngân sách sửa chữa, đồng thời lập dự án trình Sở Giáo dục cấp bổ sung 30 máy tính mới. Việc làm này thể hiện khâu quản lý nào?
+Câu 10: Khi phát hiện thiết bị phòng máy tính của trường bị xuống cấp làm ảnh hưởng đến giờ học Tin học, Hiệu trưởng đã trích ngân sách sửa chữa, đồng thời lập dự án trình Sở Giáo dục cấp bổ sung 30 máy tính mới. Việc làm này thể hiện khâu quản lý nào?
 A. Quản lý công tác thi đua khen thưởng.
 *B. Quản lý Cơ sở vật chất và Thiết bị dạy học trong nhà trường.
 C. Quản lý kỷ luật học sinh.
@@ -226,7 +226,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Qua kiểm tra hồ sơ sổ điểm và dự giờ đột xuất, Hiệu trưởng phát hiện giáo viên X có biểu hiện cho điểm nể dãi và hay cắt giảm giờ thực hành. Hiệu trưởng đã trực tiếp nhắc nhở, yêu cầu chỉnh sửa và đưa vào nội dung bồi dưỡng chuyên môn tháng tới. Hiệu trưởng đã thực hiện khâu quản lý nào?
+Câu 15: Qua kiểm tra hồ sơ sổ điểm và dự giờ đột xuất, Hiệu trưởng phát hiện giáo viên X có biểu hiện cho điểm nể dãi và hay cắt giảm giờ thực hành. Hiệu trưởng đã trực tiếp nhắc nhở, yêu cầu chỉnh sửa và đưa vào nội dung bồi dưỡng chuyên môn tháng tới. Hiệu trưởng đã thực hiện khâu quản lý nào?
 A. Khâu lập kế hoạch chiến lược.
 *B. Khâu Kiểm tra và Điều chỉnh trong chu trình quản lý nhà trường.
 C. Khâu khen thưởng thi đua.
@@ -290,7 +290,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Để chuẩn bị cho cuộc kiểm định chất lượng giáo dục của Bộ, Ban Giám hiệu nhà trường đã tổ chức thành lập "Hội đồng Tự đánh giá", phân công các tổ chuyên môn thu thập minh chứng và viết báo cáo tự đánh giá về các tiêu chí. Nhà trường đang ứng dụng quy trình quản lý nào?
+Câu 19: Để chuẩn bị cho cuộc kiểm định chất lượng giáo dục của Bộ, Ban Giám hiệu nhà trường đã tổ chức thành lập "Hội đồng Tự đánh giá", phân công các tổ chuyên môn thu thập minh chứng và viết báo cáo tự đánh giá về các tiêu chí. Nhà trường đang ứng dụng quy trình quản lý nào?
 A. Quản lý rủi ro thiên tai.
 *B. Quản lý chất lượng và Kiểm định chất lượng giáo dục.
 C. Quản lý kỷ luật học sinh cá biệt.
@@ -352,7 +352,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Trước khi thông qua Bảng phân công lao động và Thời khóa biểu năm học mới, Phó Hiệu trưởng phụ trách chuyên môn đã gửi dự thảo đến các Tổ trưởng chuyên môn để rà soát nguyện vọng giáo viên và điều chỉnh các tiết trùng. Việc làm này thể hiện phong cách quản lý nào?
+Câu 23: Trước khi thông qua Bảng phân công lao động và Thời khóa biểu năm học mới, Phó Hiệu trưởng phụ trách chuyên môn đã gửi dự thảo đến các Tổ trưởng chuyên môn để rà soát nguyện vọng giáo viên và điều chỉnh các tiết trùng. Việc làm này thể hiện phong cách quản lý nào?
 A. Phong cách quản lý độc đoán tự do.
 *B. Phong cách quản lý khoa học, dân chủ và tôn trọng người lao động.
 C. Phong cách quản lý phó mặc buông thả.
@@ -432,7 +432,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Khi xảy ra sự cố cháy nhỏ tại phòng thí nghiệm Hóa học do chập điện, nhờ trước đó Hiệu trưởng đã tổ chức Diễn tập PCCC định kỳ và kiểm tra các bình chữa cháy hàng tháng, bảo vệ và giáo viên đã kịp thời dập tắt an toàn. Việc làm của Hiệu trưởng thuộc nội dung nào?
+Câu 28: Khi xảy ra sự cố cháy nhỏ tại phòng thí nghiệm Hóa học do chập điện, nhờ trước đó Hiệu trưởng đã tổ chức Diễn tập PCCC định kỳ và kiểm tra các bình chữa cháy hàng tháng, bảo vệ và giáo viên đã kịp thời dập tắt an toàn. Việc làm của Hiệu trưởng thuộc nội dung nào?
 A. Quản lý công tác thi đua khen thưởng.
 *B. Quản lý An toàn Trường học và Quản lý Rủi ro trong nhà trường.
 C. Quản lý công tác thu học phí.
@@ -512,7 +512,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Để giải quyết tình trạng thiếu phòng học bộ môn, Hiệu trưởng đã bàn bạc với Hội đồng trường chuyển đổi dãy nhà kho cũ thành 2 phòng Thí nghiệm Sinh - Hóa chuẩn hóa và 1 phòng Lab Ngoại ngữ. Hiệu trưởng đã vận dụng sáng tạo nội dung quản lý nào?
+Câu 33: Để giải quyết tình trạng thiếu phòng học bộ môn, Hiệu trưởng đã bàn bạc với Hội đồng trường chuyển đổi dãy nhà kho cũ thành 2 phòng Thí nghiệm Sinh - Hóa chuẩn hóa và 1 phòng Lab Ngoại ngữ. Hiệu trưởng đã vận dụng sáng tạo nội dung quản lý nào?
 *A. Quản lý và Tối ưu hóa việc sử dụng Cơ sở vật chất nhà trường.
 B. Quản lý công tác thi thi đấu thể thao.
 C. Quản lý kỷ luật học sinh cúp tiết.
@@ -576,7 +576,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Khi nhận thấy một số giáo viên trẻ gặp khó khăn trong việc quản lý lớp học và thiết kế Kế hoạch bài dạy, Hiệu trưởng đã chỉ đạo các Tổ chuyên môn phân công các "Giáo viên giỏi cốt cán" kèm cặp 1-1 theo mô hình "Môn đăng hộ đối". Việc làm này ứng dụng nội dung quản lý nào?
+Câu 37: Khi nhận thấy một số giáo viên trẻ gặp khó khăn trong việc quản lý lớp học và thiết kế Kế hoạch bài dạy, Hiệu trưởng đã chỉ đạo các Tổ chuyên môn phân công các "Giáo viên giỏi cốt cán" kèm cặp 1-1 theo mô hình "Môn đăng hộ đối". Việc làm này ứng dụng nội dung quản lý nào?
 A. Quản lý tài chính kế toán.
 *B. Quản lý và Bồi dưỡng Phát triển Năng lực Đội ngũ Giáo viên.
 C. Quản lý kỷ luật lao động.
@@ -711,7 +711,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về Quản lý Cơ sở vật chất và Tài chính:
+Câu 45: Về Quản lý Cơ sở vật chất và Tài chính:
 a) Quản lý cơ sở vật chất bao gồm việc bảo quản, bảo dưỡng và khai thác tối đa công năng phục vụ dạy học. -> [ĐÚNG]
 b) Quản lý tài chính phải thực hiện nguyên tắc công khai, minh bạch và tuân thủ đúng chế độ kế toán. -> [ĐÚNG]
 c) Hiệu trưởng có quyền tự ý thu các khoản tiền ngoài quy định mà không cần thông qua HĐND/Sở. -> [SAI]
@@ -745,7 +745,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về Ứng dụng Công nghệ thông tin trong Quản lý nhà trường:
+Câu 47: Về Ứng dụng Công nghệ thông tin trong Quản lý nhà trường:
 a) Triển khai học bạ số và sổ điểm điện tử giúp tăng cường tính công khai, minh bạch dữ liệu. -> [ĐÚNG]
 b) Ứng dụng CNTT giúp giảm tải thủ công hành chính cho giáo viên và cán bộ quản lý. -> [ĐÚNG]
 c) Chuyển đổi số trong quản lý nhà trường sẽ thay thế hoàn toàn vai trò chỉ đạo của Hiệu trưởng. -> [SAI]
@@ -779,7 +779,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về Quản lý An toàn và Môi trường học đường:
+Câu 49: Về Quản lý An toàn và Môi trường học đường:
 a) Xây dựng trường học Xanh - Sạch - Đẹp - An toàn là nội dung quan trọng của quản lý nhà trường. -> [ĐÚNG]
 b) Định kỳ kiểm tra hệ thống điện, PCCC và vệ sinh an toàn thực phẩm bếp ăn bán trú. -> [ĐÚNG]
 c) Khi xảy ra bạo lực học đường, Hiệu trưởng chỉ cần giấu kín thông tin để bảo vệ thành tích trường. -> [SAI]

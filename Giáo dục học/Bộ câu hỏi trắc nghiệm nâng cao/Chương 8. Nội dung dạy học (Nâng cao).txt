@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Khi biên soạn sách giáo khoa môn Sinh học lớp 11, các tác giả không chỉ đưa vào các khái niệm về di truyền học mà còn thiết kế các bài tập tình huống: "Phân tích nguy cơ đạo đức khi ứng dụng công nghệ chỉnh sửa gen trên người". Việc đưa tình huống này vào sách giáo khoa nhằm tích hợp yếu tố nào?
+Câu 6: Khi biên soạn sách giáo khoa môn Sinh học lớp 11, các tác giả không chỉ đưa vào các khái niệm về di truyền học mà còn thiết kế các bài tập tình huống: "Phân tích nguy cơ đạo đức khi ứng dụng công nghệ chỉnh sửa gen trên người". Việc đưa tình huống này vào sách giáo khoa nhằm tích hợp yếu tố nào?
 A. Chỉ tích hợp tri thức kinh nghiệm đơn thuần.
 *B. Tích hợp giữa tri thức khoa học với kinh nghiệm cảm xúc đánh giá và giá trị đạo đức.
 C. Chỉ tích hợp kỹ năng thao tác phòng thí nghiệm.
@@ -150,7 +150,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Bộ Giáo dục và Đào tạo phê duyệt nhiều bộ Sách giáo khoa (như "Kết nối trí thức", "Cánh diều", "Chân trời sáng tạo") cùng thực hiện chung một "Chương trình giáo dục phổ thông". Mô hình "Một chương trình, nhiều sách giáo khoa" thể hiện tinh thần đổi mới nào?
+Câu 10: Bộ Giáo dục và Đào tạo phê duyệt nhiều bộ Sách giáo khoa (như "Kết nối trí thức", "Cánh diều", "Chân trời sáng tạo") cùng thực hiện chung một "Chương trình giáo dục phổ thông". Mô hình "Một chương trình, nhiều sách giáo khoa" thể hiện tinh thần đổi mới nào?
 A. Sự hỗn loạn và mất kiểm soát trong quản lý nhà nước.
 *B. Xã hội hóa biên soạn sách, phát huy tính chủ động sáng tạo và đa dạng hóa học liệu.
 C. Bãi bỏ hoàn toàn vai trò của chương trình giáo dục quốc gia.
@@ -228,7 +228,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Trong chương trình môn Lịch sử lớp 12, bên cạnh các trận đánh quân sự, sách giáo khoa dành riêng một chủ đề về "Quá trình đổi mới kinh tế và hội nhập quốc tế của Việt Nam từ năm 1986 đến nay". Sự bổ sung nội dung này phản ánh nguyên tắc lựa chọn nội dung nào?
+Câu 15: Trong chương trình môn Lịch sử lớp 12, bên cạnh các trận đánh quân sự, sách giáo khoa dành riêng một chủ đề về "Quá trình đổi mới kinh tế và hội nhập quốc tế của Việt Nam từ năm 1986 đến nay". Sự bổ sung nội dung này phản ánh nguyên tắc lựa chọn nội dung nào?
 A. Nguyên tắc đóng kín nội dung trong quá khứ.
 *B. Nguyên tắc đảm bảo tính thực tiễn và tính thời đại của nội dung học vấn.
 C. Nguyên tắc thương mại hóa tri thức lịch sử.
@@ -292,7 +292,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên Địa lý thiết kế bài học bằng cách cho học sinh quan sát bản đồ địa hình Việt Nam, sau đó yêu cầu học sinh rút ra nhận xét về hướng chảy chính của các dòng sông lớn và giải thích nguyên nhân. Nội dung bài dạy này sắp xếp theo trật tự nào?
+Câu 19: Một giáo viên Địa lý thiết kế bài học bằng cách cho học sinh quan sát bản đồ địa hình Việt Nam, sau đó yêu cầu học sinh rút ra nhận xét về hướng chảy chính của các dòng sông lớn và giải thích nguyên nhân. Nội dung bài dạy này sắp xếp theo trật tự nào?
 A. Từ tri thức lý thuyết trừu tượng đến quan sát thực địa.
 *B. Từ tri thức kinh nghiệm cảm tính (quan sát bản đồ) đến tri thức lý thuyết (giải thích nguyên nhân).
 C. Từ kết quả thi cử đến lý thuyết sách giáo khoa.
@@ -355,7 +355,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên môn Giáo dục kinh tế và pháp luật tổ chức cho học sinh đóng vai trong một "Phiên tòa giả định" về xử lý vi phạm bản quyền trên không gian mạng. Hoạt động đóng vai này chuyển hóa nội dung môn học thành dạng kinh nghiệm nào?
+Câu 23: Một giáo viên môn Giáo dục kinh tế và pháp luật tổ chức cho học sinh đóng vai trong một "Phiên tòa giả định" về xử lý vi phạm bản quyền trên không gian mạng. Hoạt động đóng vai này chuyển hóa nội dung môn học thành dạng kinh nghiệm nào?
 A. Tri thức lý thuyết thuần túy trên sách vở.
 *B. Kinh nghiệm phương thức hoạt động thực hành và kinh nghiệm cảm xúc đánh giá giá trị pháp luật.
 C. Kinh nghiệm di truyền bẩm sinh từ gia đình.
@@ -435,7 +435,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Trong cuốn tài liệu "Giáo dục địa phương tỉnh An Giang" lớp 6, các tác giả dành 4 tiết cho học sinh tìm hiểu về: "Lịch sử lễ hội Đua bò Chùa Thơ Mít và văn hóa người Khmer Nam Bộ". Việc đưa nội dung này vào giảng dạy phản ánh ứng dụng nào?
+Câu 28: Trong cuốn tài liệu "Giáo dục địa phương tỉnh An Giang" lớp 6, các tác giả dành 4 tiết cho học sinh tìm hiểu về: "Lịch sử lễ hội Đua bò Chùa Thơ Mít và văn hóa người Khmer Nam Bộ". Việc đưa nội dung này vào giảng dạy phản ánh ứng dụng nào?
 *A. Cụ thể hóa phần nội dung giáo dục địa phương phù hợp với bản sắc văn hóa vùng miền.
 B. Sự vi phạm nguyên tắc tính khoa học quốc gia.
 C. Việc thay thế toàn bộ chương trình Lịch sử thế giới.
@@ -515,7 +515,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên Tiếng Anh khi soạn giáo án bài "Environment" đã bổ sung vào bài học danh mục 10 từ vựng về "Phân loại rác tại nguồn" và thiết kế bài tập cho học sinh viết thư gửi UBND phường kiến nghị đặt thêm thùng rác phân loại. Việc bổ sung này hoàn thiện thành tố nào của nội dung?
+Câu 33: Một giáo viên Tiếng Anh khi soạn giáo án bài "Environment" đã bổ sung vào bài học danh mục 10 từ vựng về "Phân loại rác tại nguồn" và thiết kế bài tập cho học sinh viết thư gửi UBND phường kiến nghị đặt thêm thùng rác phân loại. Việc bổ sung này hoàn thiện thành tố nào của nội dung?
 A. Tri thức lịch sử cổ đại.
 *B. Tri thức thực hành kỹ năng và kinh nghiệm cảm xúc thái độ trách nhiệm môi trường.
 C. Tri thức di truyền sinh học.
@@ -579,7 +579,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Khi học bài "Đại số Boole và Cổng logic" môn Tin học, học sinh được thầy giáo hướng dẫn thiết kế mạch đèn giao thông thông minh trên phần mềm mô phỏng Tinkercad. Bài tập này giúp phát triển thành tố nội dung nào?
+Câu 37: Khi học bài "Đại số Boole và Cổng logic" môn Tin học, học sinh được thầy giáo hướng dẫn thiết kế mạch đèn giao thông thông minh trên phần mềm mô phỏng Tinkercad. Bài tập này giúp phát triển thành tố nội dung nào?
 A. Tri thức kinh nghiệm cảm tính đơn thuần.
 *B. Tri thức thực hành kỹ thuật và kinh nghiệm hoạt động thiết kế sáng tạo.
 C. Kinh nghiệm di truyền bẩm sinh.
@@ -714,7 +714,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về chủ trương "Một chương trình, nhiều sách giáo khoa":
+Câu 45: Về chủ trương "Một chương trình, nhiều sách giáo khoa":
 a) Chương trình giáo dục phổ thông là chuẩn mực thống nhất bắt buộc toàn quốc. -> [ĐÚNG]
 b) Các bộ sách giáo khoa khác nhau là các phương án cụ thể hóa chương trình của các nhóm tác giả. -> [ĐÚNG]
 c) Giáo viên được phép chủ động lựa chọn học liệu từ các bộ sách để giảng dạy đạt chuẩn đầu ra. -> [ĐÚNG]
@@ -748,7 +748,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về việc xây dựng phần Nội dung giáo dục địa phương:
+Câu 47: Về việc xây dựng phần Nội dung giáo dục địa phương:
 a) Nội dung giáo dục địa phương giúp học sinh hiểu biết về lịch sử, văn hóa, địa lý tỉnh nhà. -> [ĐÚNG]
 b) Tài liệu giáo dục địa phương do UBND cấp tỉnh tổ chức biên soạn và trình Bộ thẩm định. -> [ĐÚNG]
 c) Đưa nội dung địa phương vào trường học làm giảm tính khoa học của chương trình quốc gia. -> [SAI]
@@ -782,7 +782,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về các hình thức thể hiện bài tập trong Sách giáo khoa hiện đại:
+Câu 49: Về các hình thức thể hiện bài tập trong Sách giáo khoa hiện đại:
 a) Bổ sung nhiều bài tập dự án thực địa giúp rèn luyện kinh nghiệm hoạt động sáng tạo. -> [ĐÚNG]
 b) Các câu hỏi mở đòi học sinh đưa ra quan điểm cá nhân giúp phát triển tư duy phản biện. -> [ĐÚNG]
 c) Bài tập SGK hiện đại chỉ gồm các câu hỏi yêu cầu học thuộc lòng nguyên văn bài học. -> [SAI]

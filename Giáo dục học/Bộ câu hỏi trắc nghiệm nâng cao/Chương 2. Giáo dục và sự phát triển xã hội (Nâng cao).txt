@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Tại Việt Nam, Nhà nước ưu tiên đầu tư ngân sách hàng năm tăng dần cho giáo dục, áp dụng chính sách miễn giảm học phí cho vùng khó khăn và tôn vinh nhà giáo. Việc triển khai các chính sách này phản ánh trực tiếp quan điểm chỉ đạo nào?
+Câu 6: Tại Việt Nam, Nhà nước ưu tiên đầu tư ngân sách hàng năm tăng dần cho giáo dục, áp dụng chính sách miễn giảm học phí cho vùng khó khăn và tôn vinh nhà giáo. Việc triển khai các chính sách này phản ánh trực tiếp quan điểm chỉ đạo nào?
 A. Thương mại hóa giáo dục theo cơ chế thị trường tự do.
 B. Tách rời hoàn toàn giáo dục khỏi kế hoạch phát triển kinh tế.
 *C. Coi giáo dục là quốc sách hàng đầu và đầu tư cho giáo dục là đầu tư phát triển.
@@ -134,7 +134,7 @@ Giải thích:
 
 ---
 
-Câu 9 [TÌNH HUỐNG THỰC TẾ]: Trong đợt bùng phát dịch bệnh, các trường đại học tại Việt Nam chuyển đổi toàn bộ bài giảng sang hình thức trực tuyến E-learning. Giảng viên đóng vai trò thiết kế học liệu và cố vấn, còn sinh viên tự chủ điều chỉnh thời gian học. Sự chuyển đổi này thể hiện tác động nào của công nghệ thông tin?
+Câu 9: Trong đợt bùng phát dịch bệnh, các trường đại học tại Việt Nam chuyển đổi toàn bộ bài giảng sang hình thức trực tuyến E-learning. Giảng viên đóng vai trò thiết kế học liệu và cố vấn, còn sinh viên tự chủ điều chỉnh thời gian học. Sự chuyển đổi này thể hiện tác động nào của công nghệ thông tin?
 *A. Giải phóng người học khỏi rào cản thời gian và chuyển quan hệ sư phạm sang hỗ trợ.
 B. Triệt tiêu nhu cầu tương tác chuyên môn giữa người dạy và người học trong dạy học.
 C. Biến giáo dục đại học thành hệ thống đào tạo kỹ năng ngắn hạn không nền tảng.
@@ -246,7 +246,7 @@ Giải thích:
 
 ---
 
-Câu 16 [TÌNH HUỐNG THỰC TẾ]: Bộ Giáo dục và Đào tạo thực hiện phân cấp cho các trường đại học được tự chủ xây dựng chương trình đào tạo, tự chủ thu chi tài chính và tự quyết định chỉ tiêu tuyển sinh dựa trên kiểm định chất lượng. Việc phân cấp này hướng tới mục tiêu phát triển nào?
+Câu 16: Bộ Giáo dục và Đào tạo thực hiện phân cấp cho các trường đại học được tự chủ xây dựng chương trình đào tạo, tự chủ thu chi tài chính và tự quyết định chỉ tiêu tuyển sinh dựa trên kiểm định chất lượng. Việc phân cấp này hướng tới mục tiêu phát triển nào?
 A. Tách rời hoàn toàn các trường đại học khỏi sự quản lý thể chế nhà nước.
 B. Chuyển giao toàn bộ ngân sách đại học cho các công ty chứng khoán quản lý.
 C. Cho phép các trường tự ý hạ thấp chuẩn mực bằng cấp chuyên môn.
@@ -310,7 +310,7 @@ Giải thích:
 
 ---
 
-Câu 20 [TÌNH HUỐNG THỰC TẾ]: Để đáp ứng yêu cầu chuyển dịch kinh tế sang công nghệ cao, Sở Giáo dục và Đào tạo quy hoạch mở thêm các trường nghề kỹ thuật tự động hóa và phối hợp với các nhà máy trên địa bàn cho sinh viên thực tập. Việc làm này thể hiện quan điểm chỉ đạo nào?
+Câu 20: Để đáp ứng yêu cầu chuyển dịch kinh tế sang công nghệ cao, Sở Giáo dục và Đào tạo quy hoạch mở thêm các trường nghề kỹ thuật tự động hóa và phối hợp với các nhà máy trên địa bàn cho sinh viên thực tập. Việc làm này thể hiện quan điểm chỉ đạo nào?
 A. Giáo dục phát triển hoàn toàn biệt lập với chiến lược kinh tế địa phương.
 B. Thương mại hóa giáo dục để tăng doanh thu cho nhà trường công lập.
 *C. Phát triển giáo dục gắn liền với nhu cầu phát triển kinh tế - xã hội.
@@ -342,7 +342,7 @@ Giải thích:
 
 ---
 
-Câu 22 [TÌNH HUỐNG THỰC TẾ]: Một công nhân 35 tuổi làm việc tại xưởng may quyết định đăng ký học buổi tối khóa học trung cấp lập trình ứng dụng để chuyển đổi nghề nghiệp sang làm kỹ thuật viên phần mềm. Việc học tập của vị công nhân này là minh chứng trực tiếp cho xu thế nào?
+Câu 22: Một công nhân 35 tuổi làm việc tại xưởng may quyết định đăng ký học buổi tối khóa học trung cấp lập trình ứng dụng để chuyển đổi nghề nghiệp sang làm kỹ thuật viên phần mềm. Việc học tập của vị công nhân này là minh chứng trực tiếp cho xu thế nào?
 A. Giáo dục chính quy bắt buộc lứa tuổi mầm non.
 *B. Giáo dục suốt đời và tự học cập nhật tri thức.
 C. Giáo dục thể chất thành tích cao.
@@ -374,7 +374,7 @@ Giải thích:
 
 ---
 
-Câu 24 [TÌNH HUỐNG THỰC TẾ]: Nhận thấy một số học sinh sa sút học tập, Ban giám hiệu nhà trường đã chủ động mời Ban đại diện cha mẹ học sinh và Đoàn thanh niên địa phương họp bàn thống nhất quy chế quản lý. Sự phối hợp này triển khai nguyên tắc nào?
+Câu 24: Nhận thấy một số học sinh sa sút học tập, Ban giám hiệu nhà trường đã chủ động mời Ban đại diện cha mẹ học sinh và Đoàn thanh niên địa phương họp bàn thống nhất quy chế quản lý. Sự phối hợp này triển khai nguyên tắc nào?
 A. Phân lập hoàn toàn trách nhiệm giữa gia đình và nhà trường.
 B. Giao toàn bộ việc giáo dục đạo đức cho các tổ chức công an.
 *C. Phối hợp thống nhất giữa Nhà trường, Gia đình và Xã hội.
@@ -454,7 +454,7 @@ Giải thích:
 
 ---
 
-Câu 29 [TÌNH HUỐNG THỰC TẾ]: Một học sinh tại vùng núi Hà Giang tham gia khóa học Tiếng Anh trực tuyến do giảng viên tại Hà Nội hướng dẫn qua phần mềm Zoom. Học sinh chỉ cần máy tính kết nối Internet mà không phải di chuyển. Việc ứng dụng công nghệ này giải phóng người học khỏi rào cản nào?
+Câu 29: Một học sinh tại vùng núi Hà Giang tham gia khóa học Tiếng Anh trực tuyến do giảng viên tại Hà Nội hướng dẫn qua phần mềm Zoom. Học sinh chỉ cần máy tính kết nối Internet mà không phải di chuyển. Việc ứng dụng công nghệ này giải phóng người học khỏi rào cản nào?
 A. Rào cản về nghĩa vụ chấp hành pháp luật giáo dục.
 B. Rào cản về tư duy phản biện cá nhân.
 C. Rào cản về nghĩa vụ đóng học phí cho nhà trường.
@@ -550,7 +550,7 @@ Giải thích:
 
 ---
 
-Câu 35 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên chủ nhiệm áp dụng phần mềm sổ liên lạc điện tử để cập nhật kết quả rèn luyện của học sinh theo từng ngày cho phụ huynh. Khi phụ huynh thắc mắc, hệ thống tự động tổng hợp số liệu hỗ trợ phản hồi nhanh chóng. Hoạt động này thể hiện ứng dụng nào?
+Câu 35: Một giáo viên chủ nhiệm áp dụng phần mềm sổ liên lạc điện tử để cập nhật kết quả rèn luyện của học sinh theo từng ngày cho phụ huynh. Khi phụ huynh thắc mắc, hệ thống tự động tổng hợp số liệu hỗ trợ phản hồi nhanh chóng. Hoạt động này thể hiện ứng dụng nào?
 A. Thay thế hoàn toàn vai trò của giáo viên bằng trí tuệ nhân tạo.
 *B. Hiện đại hóa hệ thống thông tin quản lý hỗ trợ ra quyết định chính xác.
 C. Xóa bỏ hình thức họp phụ huynh định kỳ trực tiếp.
@@ -717,7 +717,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về việc thực hiện chủ trương xã hội hóa giáo dục tại địa phương:
+Câu 45: Về việc thực hiện chủ trương xã hội hóa giáo dục tại địa phương:
 a) HĐND tỉnh quy định mức trần học phí và chính sách miễn học phí là thể hiện vai trò Nhà nước chủ đạo. -> [ĐÚNG]
 b) Việc các doanh nghiệp tài trợ quỹ khuyến học và máy tính cho học sinh là biểu hiện xã hội hóa. -> [ĐÚNG]
 c) Xã hội hóa giáo dục là việc chuyển giao toàn bộ trường công lập cho khu vực tư nhân quản lý. -> [SAI]
@@ -751,7 +751,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về việc ứng dụng các trụ cột giáo dục của UNESCO tại trường THPT:
+Câu 47: Về việc ứng dụng các trụ cột giáo dục của UNESCO tại trường THPT:
 a) Trường THPT tổ chức "Tuần lễ văn hóa ASEAN" cho học sinh tìm hiểu phong tục là ứng dụng "Học để chung sống". -> [ĐÚNG]
 b) Học sinh tham gia học nghề phổ thông và thực hành sửa chữa điện tại xưởng là ứng dụng "Học để làm". -> [ĐÚNG]
 c) Việc tổ chức cho học sinh viết bài luận thể hiện quan điểm riêng là thuộc trụ cột "Học để tự khẳng định mình". -> [ĐÚNG]
@@ -785,7 +785,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về các hoạt động ứng dụng quan điểm chỉ đạo phát triển giáo dục ở Việt Nam:
+Câu 49: Về các hoạt động ứng dụng quan điểm chỉ đạo phát triển giáo dục ở Việt Nam:
 a) Trường đại học mở các lớp bồi dưỡng nghiệp vụ miễn phí cho giáo viên vùng cao thể hiện tính nhân dân. -> [ĐÚNG]
 b) Các trường THPT tích hợp dạy lịch sử địa phương và hát dân ca là ứng dụng tính dân tộc. -> [ĐÚNG]
 c) Việc áp dụng các phần mềm mô phỏng thí nghiệm Lý - Hóa trên máy tính là ứng dụng tính hiện đại. -> [ĐÚNG]

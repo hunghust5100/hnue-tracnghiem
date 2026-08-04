@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Nhằm đánh giá năng lực thực hành của học sinh trong bài học "Thiết kế trang web cá nhân" môn Tin học, cô giáo K không cho làm bài thi viết mà yêu cầu học sinh nộp sản phẩm trang web hoàn chỉnh kèm bảng tiêu chí Rubrics chấm điểm công khai. Cô K đã ứng dụng hình thức đánh giá nào?
+Câu 6: Nhằm đánh giá năng lực thực hành của học sinh trong bài học "Thiết kế trang web cá nhân" môn Tin học, cô giáo K không cho làm bài thi viết mà yêu cầu học sinh nộp sản phẩm trang web hoàn chỉnh kèm bảng tiêu chí Rubrics chấm điểm công khai. Cô K đã ứng dụng hình thức đánh giá nào?
 A. Đánh giá vấn đáp truyền thống.
 *B. Đánh giá thực hành / Đánh giá qua sản phẩm (Performance Assessment).
 C. Đánh giá lý thuyết thuộc lòng.
@@ -150,7 +150,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Trong bài kiểm tra 1 tiết môn Văn, thầy giáo L phát hiện học sinh H có ý tưởng phân tích nhân vật rất độc đáo nhưng chưa đúng với dàn ý mẫu của đáp án. Thầy L đã quyết định cộng điểm sáng tạo cho H thay vì trừ điểm vì "khác đáp án mẫu". Hành vi của thầy L tuân thủ nguyên tắc đánh giá nào?
+Câu 10: Trong bài kiểm tra 1 tiết môn Văn, thầy giáo L phát hiện học sinh H có ý tưởng phân tích nhân vật rất độc đáo nhưng chưa đúng với dàn ý mẫu của đáp án. Thầy L đã quyết định cộng điểm sáng tạo cho H thay vì trừ điểm vì "khác đáp án mẫu". Hành vi của thầy L tuân thủ nguyên tắc đánh giá nào?
 A. Nguyên tắc rập khuôn máy móc theo văn mẫu.
 *B. Nguyên tắc tôn trọng tính độc lập sáng tạo và phát triển năng lực tư duy của học sinh.
 C. Nguyên tắc xử phạt vi phạm kỷ luật.
@@ -228,7 +228,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Khi chấm bài kiểm tra môn Tiếng Anh, thay vì chỉ ghi điểm số "6/10", cô giáo M đã viết lời nhận xét chi tiết: "Em chia đúng thời thì của động từ, nhưng cần chú ý cấu trúc câu điều kiện loại 2 ở câu số 4". Lời nhận xét của cô M thể hiện chức năng nào?
+Câu 15: Khi chấm bài kiểm tra môn Tiếng Anh, thay vì chỉ ghi điểm số "6/10", cô giáo M đã viết lời nhận xét chi tiết: "Em chia đúng thời thì của động từ, nhưng cần chú ý cấu trúc câu điều kiện loại 2 ở câu số 4". Lời nhận xét của cô M thể hiện chức năng nào?
 A. Chức năng xác nhận cấp văn bằng.
 *B. Chức năng chẩn đoán và cung cấp tín hiệu phản hồi (Feedback) điều chỉnh học tập.
 C. Chức năng xử phạt vi phạm kỷ luật.
@@ -290,7 +290,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Kỳ thi Kỳ thi học sinh giỏi quốc gia THPT lấy kết quả điểm số từ cao xuống thấp để trao giải Nhất, Nhì, Ba theo tỷ lệ % quy định. Kỳ thi này ứng dụng mô hình đánh giá nào?
+Câu 19: Kỳ thi Kỳ thi học sinh giỏi quốc gia THPT lấy kết quả điểm số từ cao xuống thấp để trao giải Nhất, Nhì, Ba theo tỷ lệ % quy định. Kỳ thi này ứng dụng mô hình đánh giá nào?
 A. Đánh giá theo chuẩn tiêu chí cố định.
 *B. Đánh giá theo chuẩn đối chiếu chuẩn mực tương quan (Norm-referenced).
 C. Đánh giá chẩn đoán đầu năm.
@@ -352,7 +352,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Trong tiết Trả bài kiểm tra 1 tiết môn Toán, thầy giáo N không chỉ đọc điểm mà dành 20 phút cho học sinh làm việc theo cặp để đổi bài cho nhau, thảo luận chỉ ra lỗi sai trong lời giải của bạn và đề xuất cách sửa. Thầy N đang tổ chức hình thức đánh giá nào?
+Câu 23: Trong tiết Trả bài kiểm tra 1 tiết môn Toán, thầy giáo N không chỉ đọc điểm mà dành 20 phút cho học sinh làm việc theo cặp để đổi bài cho nhau, thảo luận chỉ ra lỗi sai trong lời giải của bạn và đề xuất cách sửa. Thầy N đang tổ chức hình thức đánh giá nào?
 A. Đánh giá tổng kết xác nhận bằng cấp.
 *B. Đánh giá đồng đẳng (Peer-assessment) kết hợp chữa lỗi phát triển tư duy.
 C. Kiểm tra vấn đáp cá nhân.
@@ -430,7 +430,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Nhằm giúp học sinh chuẩn bị cho kỳ thi Đánh giá năng lực Đại học, thầy giáo P đã thiết kế các bài thi thử trên hệ thống E-learning. Sau khi nộp bài, máy tính lập tức hiển thị điểm số, danh mục câu sai và video hướng dẫn chi tiết cách giải từng câu. Thầy P đã phát huy ưu thế nào của công nghệ?
+Câu 28: Nhằm giúp học sinh chuẩn bị cho kỳ thi Đánh giá năng lực Đại học, thầy giáo P đã thiết kế các bài thi thử trên hệ thống E-learning. Sau khi nộp bài, máy tính lập tức hiển thị điểm số, danh mục câu sai và video hướng dẫn chi tiết cách giải từng câu. Thầy P đã phát huy ưu thế nào của công nghệ?
 A. Tiết kiệm 100% ngân sách nhà nước.
 *B. Tự động hóa việc đánh giá và cung cấp phản hồi lập tức (Instant Feedback) hỗ trợ tự học.
 C. Bãi bỏ việc học tập trên lớp.
@@ -509,7 +509,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Trong một tiết học môn Vật lý, sau khi học sinh làm xong bài tập vận dụng trên lớp, cô giáo Q đưa ra đáp án chuẩn cùng thang điểm chi tiết và yêu cầu học sinh tự chấm bài của mình rồi ghi lại những câu làm sai vào "Nhật ký học tập". Cô Q đang rèn luyện năng lực nào?
+Câu 33: Trong một tiết học môn Vật lý, sau khi học sinh làm xong bài tập vận dụng trên lớp, cô giáo Q đưa ra đáp án chuẩn cùng thang điểm chi tiết và yêu cầu học sinh tự chấm bài của mình rồi ghi lại những câu làm sai vào "Nhật ký học tập". Cô Q đang rèn luyện năng lực nào?
 *A. Năng lực Tự đánh giá (Self-assessment) và Tự điều chỉnh nhận thức.
 B. Năng lực thi đấu thể thao.
 C. Năng lực gian lận thi cử.
@@ -573,7 +573,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Trong kỳ thi Olympic Hóa học, đề thi gồm 2 phần: 60% bài tập trắc nghiệm lý thuyết và 40% bài tập thực hành pha chế dung dịch trong phòng thí nghiệm. Việc kết hợp 2 phần này nhằm đảm bảo nguyên tắc đánh giá nào?
+Câu 37: Trong kỳ thi Olympic Hóa học, đề thi gồm 2 phần: 60% bài tập trắc nghiệm lý thuyết và 40% bài tập thực hành pha chế dung dịch trong phòng thí nghiệm. Việc kết hợp 2 phần này nhằm đảm bảo nguyên tắc đánh giá nào?
 A. Nguyên tắc chỉ đánh giá lý thuyết thuộc lòng.
 *B. Nguyên tắc Đánh giá toàn diện giữa tri thức lý thuyết và kỹ năng thao tác thực hành.
 C. Nguyên tắc đánh giá ngẫu nhiên không có ma trận.
@@ -706,7 +706,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về ứng dụng Đánh giá qua sản phẩm và Bảng chỉ báo Rubrics:
+Câu 45: Về ứng dụng Đánh giá qua sản phẩm và Bảng chỉ báo Rubrics:
 a) Đánh giá qua sản phẩm (tranh vẽ, phần mềm, mô hình) giúp đo lường năng lực thực hành. -> [ĐÚNG]
 b) Công khai bảng Rubrics giúp học sinh hiểu rõ tiêu chí và mức độ chất lượng cần đạt. -> [ĐÚNG]
 c) Đánh giá qua sản phẩm làm bãi bỏ hoàn toàn các yêu cầu về tri thức lý thuyết. -> [SAI]
@@ -740,7 +740,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về việc sử dụng Tín hiệu phản hồi (Feedback) trong dạy học:
+Câu 47: Về việc sử dụng Tín hiệu phản hồi (Feedback) trong dạy học:
 a) Nhận xét bài làm chỉ rõ chỗ đúng, chỗ sai và cách khắc phục là tín hiệu phản hồi chất lượng. -> [ĐÚNG]
 b) Phản hồi tức thì qua các ứng dụng E-learning giúp học sinh tự sửa lỗi ngay lập tức. -> [ĐÚNG]
 c) Phản hồi chỉ đơn thuần là việc ghi một con số điểm mà không giải thích nguyên nhân. -> [SAI]
@@ -774,7 +774,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về Hồ sơ học tập (Portfolio Assessment):
+Câu 49: Về Hồ sơ học tập (Portfolio Assessment):
 a) Hồ sơ học tập lưu giữ các sản phẩm bài làm của học sinh qua cả quá trình học tập. -> [ĐÚNG]
 b) Giúp thầy và trò nhìn thấy rõ sự tiến bộ và đường phát triển năng lực qua thời gian. -> [ĐÚNG]
 c) Hồ sơ học tập chỉ gồm duy nhất các tờ giấy nháp bỏ đi của học sinh. -> [SAI]

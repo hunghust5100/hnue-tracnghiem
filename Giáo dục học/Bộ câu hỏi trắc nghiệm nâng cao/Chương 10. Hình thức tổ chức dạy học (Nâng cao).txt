@@ -85,7 +85,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Nhằm chuẩn bị cho bài học "Sinh thái biển", cô giáo H tổ chức cho học sinh khối 11 tham gia chuyến đi thực địa 1 ngày tại Viện Hải dương học Nha Trang. Học sinh được quan sát mẫu vật, nghe chuyên gia trình bày và viết báo cáo thu hoạch. Cô H đã sử dụng hình thức tổ chức dạy học nào?
+Câu 6: Nhằm chuẩn bị cho bài học "Sinh thái biển", cô giáo H tổ chức cho học sinh khối 11 tham gia chuyến đi thực địa 1 ngày tại Viện Hải dương học Nha Trang. Học sinh được quan sát mẫu vật, nghe chuyên gia trình bày và viết báo cáo thu hoạch. Cô H đã sử dụng hình thức tổ chức dạy học nào?
 A. Hình thức dạy học cá nhân tại gia đình.
 *B. Hình thức dạy học ngoài lớp / ngoài nhà trường (Thực địa, tham quan học tập).
 C. Hình thức dạy học trong phòng thí nghiệm ảo.
@@ -149,7 +149,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Trong tiết dạy học bài "Năng lượng tái tạo", thầy giáo K chia lớp thành 4 nhóm: Nhóm 1 nghiên cứu Năng lượng mặt trời, Nhóm 2 nghiên cứu Năng lượng gió, Nhóm 3 nghiên cứu Năng lượng sinh khối, Nhóm 4 nghiên cứu Năng lượng thủy triều. Sau 15 phút, đại diện các nhóm lên trình bày. Thầy K áp dụng hình thức nào?
+Câu 10: Trong tiết dạy học bài "Năng lượng tái tạo", thầy giáo K chia lớp thành 4 nhóm: Nhóm 1 nghiên cứu Năng lượng mặt trời, Nhóm 2 nghiên cứu Năng lượng gió, Nhóm 3 nghiên cứu Năng lượng sinh khối, Nhóm 4 nghiên cứu Năng lượng thủy triều. Sau 15 phút, đại diện các nhóm lên trình bày. Thầy K áp dụng hình thức nào?
 A. Hình thức dạy học cá nhân biệt lập.
 *B. Hình thức dạy học theo nhóm phân hóa trong lớp.
 C. Hình thức dạy học ngoài lớp học.
@@ -229,7 +229,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Tại một trường THPT, các câu lạc bộ "Tiếng Anh", "STEM", "Môi trường xanh" hoạt động định kỳ vào chiều Thứ Sáu hàng tuần do học sinh tự quản lý dưới sự cố vấn của giáo viên. Hoạt động này thuộc hình thức tổ chức nào?
+Câu 15: Tại một trường THPT, các câu lạc bộ "Tiếng Anh", "STEM", "Môi trường xanh" hoạt động định kỳ vào chiều Thứ Sáu hàng tuần do học sinh tự quản lý dưới sự cố vấn của giáo viên. Hoạt động này thuộc hình thức tổ chức nào?
 A. Hình thức dạy học chính khóa trên lớp.
 *B. Hình thức tổ chức dạy học ngoài giờ lên lớp / Hoạt động trải nghiệm sáng tạo.
 C. Hình thức thi học sinh giỏi quốc gia.
@@ -293,7 +293,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Trong Kế hoạch bài dạy môn Lý, cô giáo M thiết kế cấu trúc giờ học gồm: 1. Đặt vấn đề bằng video hiện tượng; 2. Học sinh thảo luận nhóm đề xuất giả thuyết; 3. Làm thí nghiệm kiểm chứng; 4. Báo cáo kết luận; 5. Vận dụng thực tế. Cấu trúc này thuộc loại giờ học nào?
+Câu 19: Trong Kế hoạch bài dạy môn Lý, cô giáo M thiết kế cấu trúc giờ học gồm: 1. Đặt vấn đề bằng video hiện tượng; 2. Học sinh thảo luận nhóm đề xuất giả thuyết; 3. Làm thí nghiệm kiểm chứng; 4. Báo cáo kết luận; 5. Vận dụng thực tế. Cấu trúc này thuộc loại giờ học nào?
 A. Giờ học kiểm tra tự luận thuần túy.
 *B. Giờ học nghiên cứu tài liệu mới theo hướng kiến tạo / nêu vấn đề.
 C. Giờ học củng cố ôn tập cuối kỳ.
@@ -357,7 +357,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Tại một tiết học môn Hóa học, thầy giáo chia lớp thành các nhóm 4 học sinh và giao nhiệm vụ: "Hãy thảo luận trong 5 phút để tìm ra 3 phương pháp hóa học phân biệt 2 chất khí mất nhãn: CO2 và SO2". Thầy giáo đang sử dụng dạng nhóm nào?
+Câu 23: Tại một tiết học môn Hóa học, thầy giáo chia lớp thành các nhóm 4 học sinh và giao nhiệm vụ: "Hãy thảo luận trong 5 phút để tìm ra 3 phương pháp hóa học phân biệt 2 chất khí mất nhãn: CO2 và SO2". Thầy giáo đang sử dụng dạng nhóm nào?
 *A. Hình thức dạy học theo nhóm thống nhất trong lớp.
 B. Hình thức dạy học theo nhóm phân hóa.
 C. Hình thức dạy học cá nhân biệt lập.
@@ -437,7 +437,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Trong tiết dạy Toán tại một trường THCS, cô giáo Q dành 10 phút cuối giờ để phát "Phiếu học tập cá nhân" gồm 3 bài tập tự luyện từ cơ bản đến nâng cao cho từng học sinh làm độc lập tại lớp để cô thu chấm xác nhận mức độ hiểu bài. Cô Q đã ứng dụng hình thức nào?
+Câu 28: Trong tiết dạy Toán tại một trường THCS, cô giáo Q dành 10 phút cuối giờ để phát "Phiếu học tập cá nhân" gồm 3 bài tập tự luyện từ cơ bản đến nâng cao cho từng học sinh làm độc lập tại lớp để cô thu chấm xác nhận mức độ hiểu bài. Cô Q đã ứng dụng hình thức nào?
 A. Hình thức dạy học ngoài giờ lên lớp.
 *B. Hình thức dạy học cá nhân tại lớp nhằm củng cố và đánh giá chẩn đoán.
 C. Hình thức dạy học theo nhóm phân hóa.
@@ -517,7 +517,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Nhận thấy giờ học Lý thuyết Sinh học có một số khái niệm vi mô khó hình dung, thầy giáo R đã chia bài học làm 2 phần: 20 phút đầu giảng tri thức cốt lõi tại lớp; 25 phút sau đưa học sinh xuống "Phòng thí nghiệm sinh học" để tự soi kính hiển vi quan sát tế bào thực vật. Thầy R đã kết hợp các hình thức/địa điểm nào?
+Câu 33: Nhận thấy giờ học Lý thuyết Sinh học có một số khái niệm vi mô khó hình dung, thầy giáo R đã chia bài học làm 2 phần: 20 phút đầu giảng tri thức cốt lõi tại lớp; 25 phút sau đưa học sinh xuống "Phòng thí nghiệm sinh học" để tự soi kính hiển vi quan sát tế bào thực vật. Thầy R đã kết hợp các hình thức/địa điểm nào?
 *A. Kết hợp giữa Dạy học tại lớp học và Dạy học tại Phòng thí nghiệm bộ môn.
 B. Kết hợp giữa Dạy học cá nhân tại nhà và Tham quan ngoài trời.
 C. Kết hợp giữa Thi lý thuyết và Thi thể thao.
@@ -579,7 +579,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Trước khi bắt đầu bài học mới "Cơ cấu nền kinh tế", thầy giáo T giao nhiệm vụ cho học sinh: "Mỗi em có 3 phút tự suy nghĩ viết ra giấy 2 ngành kinh tế phát triển nhất tại quê hương mình, sau đó quay sang bạn bên cạnh chia sẻ và cùng thống nhất 3 ngành chính của tỉnh để báo cáo". Thầy T đã vận dụng kỹ thuật nào?
+Câu 37: Trước khi bắt đầu bài học mới "Cơ cấu nền kinh tế", thầy giáo T giao nhiệm vụ cho học sinh: "Mỗi em có 3 phút tự suy nghĩ viết ra giấy 2 ngành kinh tế phát triển nhất tại quê hương mình, sau đó quay sang bạn bên cạnh chia sẻ và cùng thống nhất 3 ngành chính của tỉnh để báo cáo". Thầy T đã vận dụng kỹ thuật nào?
 A. Kỹ thuật mảnh ghép phức tạp.
 *B. Kỹ thuật Suy nghĩ - Cặp đôi - Chia sẻ (Think - Pair - Share).
 C. Kỹ thuật phòng tranh triển lãm.
@@ -714,7 +714,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về các hình thức tổ chức dạy học ngoài lớp / trải nghiệm:
+Câu 45: Về các hình thức tổ chức dạy học ngoài lớp / trải nghiệm:
 a) Tổ chức cho học sinh đi tham quan Bảo tàng Lịch sử giúp trực quan hóa bài học sách vở. -> [ĐÚNG]
 b) Hoạt động câu lạc bộ học thuật ngoài giờ giúp phát triển năng lực sáng tạo và kỹ năng sống. -> [ĐÚNG]
 c) Dạy học ngoài lớp là hoạt động tự phát hoàn toàn không cần kế hoạch sư phạm của giáo viên. -> [SAI]
@@ -748,7 +748,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về việc tổ chức dạy học cá nhân trong giờ học:
+Câu 47: Về việc tổ chức dạy học cá nhân trong giờ học:
 a) Giao phiếu học tập tự luyện cho từng học sinh giúp rèn luyện tính độc lập tư duy. -> [ĐÚNG]
 b) Dạy học cá nhân giúp giáo viên phát hiện được khó khăn riêng của từng học sinh để hỗ trợ. -> [ĐÚNG]
 c) Dạy học cá nhân triệt tiêu hoàn toàn nhu cầu thảo luận và hợp tác nhóm. -> [SAI]
@@ -782,7 +782,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về quy trình tổ chức dạy học nhóm trên lớp:
+Câu 49: Về quy trình tổ chức dạy học nhóm trên lớp:
 a) Bước 1: Giáo viên giao nhiệm vụ rõ ràng, giải thích quy tắc làm việc cho các nhóm. -> [ĐÚNG]
 b) Bước 2: Học sinh tự suy nghĩ cá nhân rồi mới thảo luận thống nhất ý kiến trong nhóm. -> [ĐÚNG]
 c) Bước 3: Giáo viên bỏ ra ngoài phòng học và cấm không được can thiệp vào các nhóm. -> [SAI]

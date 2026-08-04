@@ -85,7 +85,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Trong môn Giáo dục kinh tế và pháp luật lớp 11, sau bài học về "Luật An toàn giao thông", học sinh được yêu cầu thiết kế một Infographic tuyên truyền văn hóa giao thông trong trường học. Hoạt động này tích hợp những nội dung giáo dục nào?
+Câu 6: Trong môn Giáo dục kinh tế và pháp luật lớp 11, sau bài học về "Luật An toàn giao thông", học sinh được yêu cầu thiết kế một Infographic tuyên truyền văn hóa giao thông trong trường học. Hoạt động này tích hợp những nội dung giáo dục nào?
 A. Chỉ tích hợp giáo dục thể chất thuần túy.
 *B. Tích hợp giữa Giáo dục ý thức pháp luật (Công dân) và Giáo dục Thẩm mỹ (Thiết kế Infographic).
 C. Tích hợp giáo dục lịch sử cổ đại.
@@ -147,7 +147,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Nhằm giúp học sinh ứng phó với thách thức của thời đại số, nhà trường đưa vào chương trình giáo dục các chủ đề: "An toàn thông tin mạng", "Kỹ năng lọc tin giả" và "Ứng xử văn minh trên không gian mạng". Các chủ đề này hoàn thiện mảng nội dung nào?
+Câu 10: Nhằm giúp học sinh ứng phó với thách thức của thời đại số, nhà trường đưa vào chương trình giáo dục các chủ đề: "An toàn thông tin mạng", "Kỹ năng lọc tin giả" và "Ứng xử văn minh trên không gian mạng". Các chủ đề này hoàn thiện mảng nội dung nào?
 A. Giáo dục thể chất cổ điển.
 *B. Giáo dục ý thức công dân thời đại số và giáo dục đạo đức ứng xử mạng.
 C. Giáo dục nghệ thuật mầm non.
@@ -227,7 +227,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Trong một buổi sinh hoạt lớp, sau khi xem video về nỗi vất vả của các bác lao công dọn vệ sinh đêm, cô giáo cho học sinh thảo luận và thành lập dự án "Giữ sạch bàn học - Nhẹ bước chân trường". Hoạt động này đã tích hợp các mảng nội dung nào?
+Câu 15: Trong một buổi sinh hoạt lớp, sau khi xem video về nỗi vất vả của các bác lao công dọn vệ sinh đêm, cô giáo cho học sinh thảo luận và thành lập dự án "Giữ sạch bàn học - Nhẹ bước chân trường". Hoạt động này đã tích hợp các mảng nội dung nào?
 *B. Tích hợp giữa Giáo dục Đạo đức (Lòng biết ơn, trân trọng lao động) và Giáo dục Lao động tự phục vụ.
 A. Chỉ tích hợp giáo dục thể thao thành tích cao.
 C. Tích hợp giáo dục quốc phòng an ninh.
@@ -291,7 +291,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Khi phát hiện trong trường có hiện tượng một số học sinh bị lôi kéo tham gia thuốc lá điện tử, nhà trường tổ chức Chuyên đề "Nói không với chất gây nghiện", kết hợp cho học sinh xem phổi bị tổn thương và thực hành kỹ năng từ chối khi bị rủ rê. Hoạt động này giáo dục nội dung nào?
+Câu 19: Khi phát hiện trong trường có hiện tượng một số học sinh bị lôi kéo tham gia thuốc lá điện tử, nhà trường tổ chức Chuyên đề "Nói không với chất gây nghiện", kết hợp cho học sinh xem phổi bị tổn thương và thực hành kỹ năng từ chối khi bị rủ rê. Hoạt động này giáo dục nội dung nào?
 A. Giáo dục thẩm mỹ hội họa.
 *B. Giáo dục Thể chất - Sức khỏe học đường kết hợp rèn luyện Kỹ năng sống (kỹ năng từ chối).
 C. Giáo dục kỹ thuật công nghiệp.
@@ -353,7 +353,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Trong giờ học Âm nhạc lớp 7, cô giáo hướng dẫn học sinh nghe bản dân ca "Lý cây đa", phân tích cái hay của giai điệu truyền thống và cho học sinh tự sáng tác lời mới về chủ đề mái trường. Bài học này ứng dụng mảng nội dung nào?
+Câu 23: Trong giờ học Âm nhạc lớp 7, cô giáo hướng dẫn học sinh nghe bản dân ca "Lý cây đa", phân tích cái hay của giai điệu truyền thống và cho học sinh tự sáng tác lời mới về chủ đề mái trường. Bài học này ứng dụng mảng nội dung nào?
 A. Giáo dục thể chất và thể thao.
 *B. Giáo dục Thẩm mỹ (Cảm thụ âm nhạc truyền thống) kết hợp Giáo dục Đạo đức (Tình yêu mái trường).
 C. Giáo dục kỹ thuật quân sự.
@@ -431,7 +431,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Nhân ngày 20/11, thay vì mua các món quà đắt tiền, học sinh lớp 8A cùng nhau tự tay làm một cuốn album ảnh lưu niệm ghi lại những khoảnh khắc đáng nhớ của thầy cô và gửi lời tri ân chân thành. Việc làm này thể hiện sự kết tinh của những nội dung giáo dục nào?
+Câu 28: Nhân ngày 20/11, thay vì mua các món quà đắt tiền, học sinh lớp 8A cùng nhau tự tay làm một cuốn album ảnh lưu niệm ghi lại những khoảnh khắc đáng nhớ của thầy cô và gửi lời tri ân chân thành. Việc làm này thể hiện sự kết tinh của những nội dung giáo dục nào?
 A. Chỉ tích hợp giáo dục kinh doanh tài chính.
 *B. Tích hợp giữa Giáo dục Đạo đức (Lòng tôn sư trọng đạo) và Giáo dục Thẩm mỹ (Sáng tạo album ảnh thủ công).
 C. Tích hợp giáo dục thể thao thành tích.
@@ -511,7 +511,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Trong giờ Sinh học, học sinh được hướng dẫn chăm sóc vườn cây thuốc nam của trường, theo dõi sự phát triển của cây và ghi nhật ký phân tích tác dụng chữa bệnh của từng loài thảo dược. Hoạt động này tích hợp những mảng nội dung nào?
+Câu 33: Trong giờ Sinh học, học sinh được hướng dẫn chăm sóc vườn cây thuốc nam của trường, theo dõi sự phát triển của cây và ghi nhật ký phân tích tác dụng chữa bệnh của từng loài thảo dược. Hoạt động này tích hợp những mảng nội dung nào?
 *A. Tích hợp giữa Giáo dục Trí tuệ (Sinh học), Giáo dục Lao động (chăm sóc cây) và Giáo dục Môi trường.
 B. Chỉ tích hợp giáo dục thể thao thành tích.
 C. Tích hợp giáo dục quốc phòng an ninh.
@@ -575,7 +575,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Khi phát hiện hai học sinh trong lớp nói xấu nhau trên mạng xã hội gây mất đoàn kết, thay vì trừng phạt ngay, cô giáo chủ nhiệm tổ chức Giờ sinh hoạt chủ đề "Tôn trọng sự Khác biệt và Văn hóa Ứng xử trên Không gian mạng", cho các em tự nhìn nhận lỗi sai và chủ động làm hòa. Cô giáo đã thực hiện nội dung giáo dục nào?
+Câu 37: Khi phát hiện hai học sinh trong lớp nói xấu nhau trên mạng xã hội gây mất đoàn kết, thay vì trừng phạt ngay, cô giáo chủ nhiệm tổ chức Giờ sinh hoạt chủ đề "Tôn trọng sự Khác biệt và Văn hóa Ứng xử trên Không gian mạng", cho các em tự nhìn nhận lỗi sai và chủ động làm hòa. Cô giáo đã thực hiện nội dung giáo dục nào?
 A. Giáo dục thể thao thành tích.
 *B. Giáo dục Đạo đức (Văn hóa ứng xử) kết hợp Giáo dục Ý thức công dân thời đại số.
 C. Giáo dục kỹ thuật công nghiệp.
@@ -710,7 +710,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về tích hợp Giáo dục Môi trường và Kỹ năng sống:
+Câu 45: Về tích hợp Giáo dục Môi trường và Kỹ năng sống:
 a) Giáo dục Môi trường giúp học sinh rèn luyện thói quen phân loại rác và tiết kiệm năng lượng. -> [ĐÚNG]
 b) Giáo dục Kỹ năng sống trang bị khả năng ứng phó với các tình huống thách thức đời sống. -> [ĐÚNG]
 c) Tuyên truyền bảo vệ môi trường chỉ là việc của các cơ quan quản lý, không cần đưa vào nhà trường. -> [SAI]
@@ -744,7 +744,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về Giáo dục Ý thức Pháp luật và Văn hóa ứng xử:
+Câu 47: Về Giáo dục Ý thức Pháp luật và Văn hóa ứng xử:
 a) Giáo dục Ý thức Pháp luật giúp học sinh tự giác sống và làm việc theo Hiến pháp và Pháp luật. -> [ĐÚNG]
 b) Rèn luyện văn hóa ứng xử giúp đẩy lùi nạn bạo lực học đường và xây dựng trường học hạnh phúc. -> [ĐÚNG]
 c) Học sinh chưa đủ 18 tuổi thì không cần phải chấp hành các quy định của Luật Giao thông đường bộ. -> [SAI]
@@ -778,7 +778,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về mối quan hệ giữa các mảng Nội dung giáo dục:
+Câu 49: Về mối quan hệ giữa các mảng Nội dung giáo dục:
 a) Các mảng nội dung giáo dục có mối quan hệ biện chứng, bổ sung và thâm nhập lẫn nhau. -> [ĐÚNG]
 b) Giáo dục Đạo đức định hướng giá trị cho Giáo dục Trí tuệ, Thẩm mỹ, Thể chất và Lao động. -> [ĐÚNG]
 c) Nhà trường chỉ nên tập trung dạy Trí tuệ, các mảng khác coi là phụ không cần đánh giá. -> [SAI]

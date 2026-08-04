@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Trong giờ học Sinh học, cô giáo F đưa ra mô hình cấu trúc ADN bằng nhựa cho học sinh quan sát, sau đó tháo rời các mảng nuclêôtit và yêu cầu các nhóm học sinh tự lắp ráp lại theo nguyên tắc bổ sung. Cô F đã kết hợp các phương pháp nào?
+Câu 6: Trong giờ học Sinh học, cô giáo F đưa ra mô hình cấu trúc ADN bằng nhựa cho học sinh quan sát, sau đó tháo rời các mảng nuclêôtit và yêu cầu các nhóm học sinh tự lắp ráp lại theo nguyên tắc bổ sung. Cô F đã kết hợp các phương pháp nào?
 A. Phương pháp thuyết trình diễn giảng đơn thuần.
 *B. Phương pháp trực quan (quan sát mô hình) kết hợp với Phương pháp thực hành (lắp ráp).
 C. Phương pháp đàm thoại kiểm tra bài cũ.
@@ -150,7 +150,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Để dạy bài "Lập kế hoạch tài chính cá nhân" môn Giáo dục kinh tế và pháp luật, cô giáo G chia lớp thành các nhóm 5 người, giao nhiệm vụ cho các nhóm điều tra chi tiêu thực tế của gia đình trong 1 tháng, lập bảng cân đối ngân sách và thuyết trình giải pháp tiết kiệm. Cô G đã áp dụng phương pháp nào?
+Câu 10: Để dạy bài "Lập kế hoạch tài chính cá nhân" môn Giáo dục kinh tế và pháp luật, cô giáo G chia lớp thành các nhóm 5 người, giao nhiệm vụ cho các nhóm điều tra chi tiêu thực tế của gia đình trong 1 tháng, lập bảng cân đối ngân sách và thuyết trình giải pháp tiết kiệm. Cô G đã áp dụng phương pháp nào?
 A. Phương pháp thuyết trình diễn giảng.
 *B. Phương pháp dạy học dự án kết hợp với thảo luận nhóm.
 C. Phương pháp làm việc với sách giáo khoa thuần túy.
@@ -228,7 +228,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Trong tiết Tin học lớp 8 dạy chủ đề "An toàn trên mạng xã hội", thầy giáo K đưa ra tình huống một học sinh bị giả mạo tài khoản và tống tiền, sau đó yêu cầu 3 nhóm đóng vai: Nhóm nạn nhân, Nhóm bạn bè hỗ trợ và Nhóm chuyên gia an ninh mạng để đưa ra cách xử lý. Thầy K đang áp dụng phương pháp nào?
+Câu 15: Trong tiết Tin học lớp 8 dạy chủ đề "An toàn trên mạng xã hội", thầy giáo K đưa ra tình huống một học sinh bị giả mạo tài khoản và tống tiền, sau đó yêu cầu 3 nhóm đóng vai: Nhóm nạn nhân, Nhóm bạn bè hỗ trợ và Nhóm chuyên gia an ninh mạng để đưa ra cách xử lý. Thầy K đang áp dụng phương pháp nào?
 A. Phương pháp thí nghiệm phòng hóa học.
 *B. Phương pháp đóng vai kết hợp giải quyết tình huống.
 C. Phương pháp diễn giảng lý thuyết lịch sử.
@@ -292,7 +292,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Trong tiết Địa lý dạy về "Hiện tượng Động đất và Sóng thần", thay vì dùng tranh in phẳng, thầy giáo L sử dụng kính thực tế ảo (VR) cho học sinh trải nghiệm không gian 3D mô phỏng sự chuyển dịch các mảng kiến tạo đại dương. Thầy L đã khai thác ưu thế nào của phương tiện hiện đại?
+Câu 19: Trong tiết Địa lý dạy về "Hiện tượng Động đất và Sóng thần", thay vì dùng tranh in phẳng, thầy giáo L sử dụng kính thực tế ảo (VR) cho học sinh trải nghiệm không gian 3D mô phỏng sự chuyển dịch các mảng kiến tạo đại dương. Thầy L đã khai thác ưu thế nào của phương tiện hiện đại?
 A. Tiết kiệm 100% thời gian lên lớp.
 *B. Tăng cường tính trực quan sinh động, tạo trải nghiệm đa giác quan giúp khắc sâu bài học.
 C. Thay thế hoàn toàn môn học Địa lý bằng trò chơi điện tử.
@@ -354,7 +354,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Khi dạy bài "Phương trình bậc hai" môn Toán, sau khi hướng dẫn công thức nghiệm tổng quát, thầy giáo M cho học sinh làm 5 bài tập từ dạng cơ bản (thay số) đến dạng tham số m (tìm m để phương trình có 2 nghiệm phân biệt). Thầy M đã ứng dụng quy trình luyện tập nào?
+Câu 23: Khi dạy bài "Phương trình bậc hai" môn Toán, sau khi hướng dẫn công thức nghiệm tổng quát, thầy giáo M cho học sinh làm 5 bài tập từ dạng cơ bản (thay số) đến dạng tham số m (tìm m để phương trình có 2 nghiệm phân biệt). Thầy M đã ứng dụng quy trình luyện tập nào?
 A. Luyện tập ngẫu nhiên không có hệ thống.
 *B. Luyện tập có hệ thống theo mức độ tăng dần từ tái hiện đến vận dụng sáng tạo.
 C. Luyện tập quá sức gây bế tắc cho toàn bộ học sinh.
@@ -434,7 +434,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Trong giờ học Tiếng Anh, cô giáo N cho học sinh làm việc theo kỹ thuật "Góc học tập": Góc 1 xem video luyện nghe, Góc 2 đọc đoạn văn trả lời câu hỏi, Góc 3 thảo luận nhóm viết đoạn văn, Góc 4 đóng vai hội thoại. Học sinh được luôn phiên chuyển góc. Cô N đang áp dụng phương pháp nào?
+Câu 28: Trong giờ học Tiếng Anh, cô giáo N cho học sinh làm việc theo kỹ thuật "Góc học tập": Góc 1 xem video luyện nghe, Góc 2 đọc đoạn văn trả lời câu hỏi, Góc 3 thảo luận nhóm viết đoạn văn, Góc 4 đóng vai hội thoại. Học sinh được luôn phiên chuyển góc. Cô N đang áp dụng phương pháp nào?
 *A. Dạy học phân hóa theo góc đáp ứng đa dạng phong cách học tập.
 B. Phương pháp diễn giảng độc thoại truyền thống.
 C. Phương pháp thi trắc nghiệm trên máy tính.
@@ -512,7 +512,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên Tiếng Anh khi cho học sinh luyện tập kỹ năng nói đã sử dụng phần mềm nhận diện giọng nói AI trên điện thoại. Phần mềm sẽ chỉ ra chính xác âm nào học sinh phát âm chưa chuẩn và yêu cầu đọc lại. Phương tiện này thực hiện chức năng nào?
+Câu 33: Một giáo viên Tiếng Anh khi cho học sinh luyện tập kỹ năng nói đã sử dụng phần mềm nhận diện giọng nói AI trên điện thoại. Phần mềm sẽ chỉ ra chính xác âm nào học sinh phát âm chưa chuẩn và yêu cầu đọc lại. Phương tiện này thực hiện chức năng nào?
 A. Thay thế hoàn toàn môn học Tiếng Anh.
 *B. Cung cấp tín hiệu ngược kịp thời giúp học sinh tự kiểm tra và tự sửa lỗi phát âm.
 C. Phạt tiền học sinh nếu phát âm sai.
@@ -574,7 +574,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Trong giờ ôn tập môn Lịch sử, cô giáo P tổ chức trò chơi "Rồng vàng lịch sử" bằng phần mềm Kahoot. Học sinh dùng điện thoại cá nhân để chọn đáp án trắc nghiệm nhanh, màn hình máy chiếu hiện bảng xếp hạng top 5 theo thời gian thực. Cô P đã sử dụng phương pháp/phương tiện nào?
+Câu 37: Trong giờ ôn tập môn Lịch sử, cô giáo P tổ chức trò chơi "Rồng vàng lịch sử" bằng phần mềm Kahoot. Học sinh dùng điện thoại cá nhân để chọn đáp án trắc nghiệm nhanh, màn hình máy chiếu hiện bảng xếp hạng top 5 theo thời gian thực. Cô P đã sử dụng phương pháp/phương tiện nào?
 A. Phương pháp thuyết trình diễn giảng cổ điển.
 *B. Phương pháp trò chơi nhận thức ứng dụng công nghệ tương tác thời gian thực.
 C. Phương pháp kiểm tra tự luận trên giấy.
@@ -709,7 +709,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về ứng dụng các kỹ thuật dạy học hợp tác:
+Câu 45: Về ứng dụng các kỹ thuật dạy học hợp tác:
 a) Kỹ thuật Khăn phủ bàn giúp kết hợp làm việc cá nhân độc lập với thảo luận nhóm. -> [ĐÚNG]
 b) Kỹ thuật Mảnh ghép gồm 2 vòng: Nhóm chuyên sâu nghiên cứu và Nhóm mảnh ghép chia sẻ. -> [ĐÚNG]
 c) Kỹ thuật Động não cho phép phê phán ý kiến của bạn ngay khi bạn vừa phát biểu xong. -> [SAI]
@@ -743,7 +743,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về việc lựa chọn phương pháp dạy học cho tiết ôn tập:
+Câu 47: Về việc lựa chọn phương pháp dạy học cho tiết ôn tập:
 a) Sử dụng trò chơi nhận thức trực tuyến (Kahoot/Quizizz) giúp tạo không khí ôn tập sôi nổi. -> [ĐÚNG]
 b) Tổ chức cho học sinh tự sơ đồ hóa tư duy bài học giúp củng cố tri thức hệ thống. -> [ĐÚNG]
 c) Tiết ôn tập chỉ nên dành để giáo viên đọc lại toàn bộ sách giáo khoa cho học sinh chép. -> [SAI]
@@ -777,7 +777,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về ứng dụng Công nghệ thông tin trong phương tiện dạy học:
+Câu 49: Về ứng dụng Công nghệ thông tin trong phương tiện dạy học:
 a) Sử dụng phần mềm 3D mô phỏng trái tim người giúp học sinh Địa lý/Sinh học dễ quan sát cấu tạo. -> [ĐÚNG]
 b) Sử dụng bảng tương tác cho học sinh kéo thả đáp án giúp tăng cường sự tham gia trực tiếp. -> [ĐÚNG]
 c) Ứng dụng AI giúp giáo viên thiết kế các bài tập cá thể hóa cho từng nhóm trình độ. -> [ĐÚNG]

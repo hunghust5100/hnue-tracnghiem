@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Bộ Giáo dục và Đào tạo ban hành Chương trình Giáo dục phổ thông mới với chuẩn đầu ra chuyển từ chú trọng cung cấp lý thuyết sang phát triển các phẩm chất và năng lực cốt lõi cho học sinh. Sự thay đổi này phản ánh điều gì?
+Câu 6: Bộ Giáo dục và Đào tạo ban hành Chương trình Giáo dục phổ thông mới với chuẩn đầu ra chuyển từ chú trọng cung cấp lý thuyết sang phát triển các phẩm chất và năng lực cốt lõi cho học sinh. Sự thay đổi này phản ánh điều gì?
 A. Việc bãi bỏ hoàn toàn vai trò của tri thức khoa học nền tảng.
 *B. Sự điều chỉnh mục tiêu giáo dục để đáp ứng yêu cầu phát triển của thời đại mới.
 C. Việc thương mại hóa công tác biên soạn sách giáo khoa phổ thông.
@@ -150,7 +150,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Một trường trung học chuyên nghiệp ký kết hợp tác với các tập đoàn công nghệ để sinh viên có 40% thời lượng khóa học làm việc trực tiếp tại các xưởng sản xuất có trả lương. Việc hợp tác này hiện thực hóa trực tiếp nguyên lý giáo dục nào?
+Câu 10: Một trường trung học chuyên nghiệp ký kết hợp tác với các tập đoàn công nghệ để sinh viên có 40% thời lượng khóa học làm việc trực tiếp tại các xưởng sản xuất có trả lương. Việc hợp tác này hiện thực hóa trực tiếp nguyên lý giáo dục nào?
 A. Giáo dục cách ly hoàn toàn với môi trường kinh tế.
 *B. Giáo dục kết hợp với lao động sản xuất.
 C. Giáo dục thuần túy mang tính chất giải trí.
@@ -230,7 +230,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Khi thiết kế Kế hoạch bài dạy (giáo án) cho tiết học Sinh học lớp 10, cô giáo X đề ra yêu cầu: "Sau bài học, học sinh phân biệt được cấu trúc tế bào nhân sơ và tế bào nhân thực qua sơ đồ và giải đúng 4/5 bài tập nhận biết". Yêu cầu này thuộc cấp độ nào?
+Câu 15: Khi thiết kế Kế hoạch bài dạy (giáo án) cho tiết học Sinh học lớp 10, cô giáo X đề ra yêu cầu: "Sau bài học, học sinh phân biệt được cấu trúc tế bào nhân sơ và tế bào nhân thực qua sơ đồ và giải đúng 4/5 bài tập nhận biết". Yêu cầu này thuộc cấp độ nào?
 A. Mục đích giáo dục quốc gia chiến lược.
 *B. Mục tiêu dạy học bài học cụ thể.
 C. Mục tiêu chiến lược phát triển kinh tế vùng.
@@ -294,7 +294,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Để hưởng ứng phong trào "Trường học thân thiện, học sinh tích cực", UBND xã phối hợp với Trường THCS và Hội cha mẹ học sinh tổ chức giải bóng đá hè và cải tạo thư viện xanh cho em nhỏ. Việc phối hợp này thể hiện ứng dụng của nguyên lý nào?
+Câu 19: Để hưởng ứng phong trào "Trường học thân thiện, học sinh tích cực", UBND xã phối hợp với Trường THCS và Hội cha mẹ học sinh tổ chức giải bóng đá hè và cải tạo thư viện xanh cho em nhỏ. Việc phối hợp này thể hiện ứng dụng của nguyên lý nào?
 A. Giáo dục kết hợp với lao động sản xuất tự động hóa.
 *B. Giáo dục nhà trường kết hợp với giáo dục gia đình và xã hội.
 C. Giáo dục đóng kín trong phạm vi phòng thí nghiệm.
@@ -358,7 +358,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Trong một buổi tọa đàm hướng nghiệp, đại diện doanh nghiệp chia sẻ: "Chúng tôi không chỉ cần nhân viên có bằng đại học loại giỏi mà quan trọng hơn là khả năng giải quyết xung đột, tinh thần hợp tác nhóm và năng lực tự học". Yêu cầu của doanh nghiệp đòi hỏi nhà trường phải chú trọng điều gì khi xây dựng mục tiêu?
+Câu 23: Trong một buổi tọa đàm hướng nghiệp, đại diện doanh nghiệp chia sẻ: "Chúng tôi không chỉ cần nhân viên có bằng đại học loại giỏi mà quan trọng hơn là khả năng giải quyết xung đột, tinh thần hợp tác nhóm và năng lực tự học". Yêu cầu của doanh nghiệp đòi hỏi nhà trường phải chú trọng điều gì khi xây dựng mục tiêu?
 A. Chỉ tập trung giảng dạy các mẹo ứng phó thi tuyển dụng.
 *B. Cân bằng giữa trang bị kiến thức chuyên môn với rèn luyện kỹ năng mềm và phẩm chất.
 C. Cắt giảm toàn bộ chương trình đào tạo chuyên môn đại học.
@@ -438,7 +438,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên Vật lý hướng dẫn học sinh làm mô hình "Máy lọc nước mini" từ chai nhựa, cát và than hoạt tính để xử lý nước ao hồ gần trường. Sau đó học sinh mang sản phẩm về ứng dụng tại gia đình. Hoạt động này phản ánh sự kết hợp của các nguyên lý nào?
+Câu 28: Một giáo viên Vật lý hướng dẫn học sinh làm mô hình "Máy lọc nước mini" từ chai nhựa, cát và than hoạt tính để xử lý nước ao hồ gần trường. Sau đó học sinh mang sản phẩm về ứng dụng tại gia đình. Hoạt động này phản ánh sự kết hợp của các nguyên lý nào?
 *A. Học đi đôi với hành và Lý luận gắn liền với thực tiễn.
 B. Giáo dục tách rời lao động và cách ly với xã hội.
 C. Lý thuyết thuần túy không cần công cụ thực hành.
@@ -516,7 +516,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Tại một hội nghị ban đại diện cha mẹ học sinh, một phụ huynh kiến nghị: "Nhà trường chỉ cần dạy văn hóa, còn việc giáo dục đạo đức và lối sống hoàn toàn thuộc về trách nhiệm gia đình". Ý kiến này vi phạm nguyên lý giáo dục nào?
+Câu 33: Tại một hội nghị ban đại diện cha mẹ học sinh, một phụ huynh kiến nghị: "Nhà trường chỉ cần dạy văn hóa, còn việc giáo dục đạo đức và lối sống hoàn toàn thuộc về trách nhiệm gia đình". Ý kiến này vi phạm nguyên lý giáo dục nào?
 A. Nguyên lý học đi đôi với hành.
 B. Nguyên lý giáo dục kết hợp với lao động sản xuất.
 *C. Nguyên lý giáo dục nhà trường kết hợp với giáo dục gia đình và xã hội.
@@ -580,7 +580,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Tại buổi đối thoại đầu năm học, Hiệu trưởng tuyên bố: "Mục tiêu số một của nhà trường năm nay là 100% học sinh thi đỗ đại học, nhà trường sẽ cắt giảm các giờ thể dục và hoạt động trải nghiệm để tập trung luyện đề". Tuyên bố này vi phạm tinh thần nào của Mục đích giáo dục?
+Câu 37: Tại buổi đối thoại đầu năm học, Hiệu trưởng tuyên bố: "Mục tiêu số một của nhà trường năm nay là 100% học sinh thi đỗ đại học, nhà trường sẽ cắt giảm các giờ thể dục và hoạt động trải nghiệm để tập trung luyện đề". Tuyên bố này vi phạm tinh thần nào của Mục đích giáo dục?
 A. Nguyên lý học đi đôi với hành.
 *B. Định hướng giáo dục phát triển toàn diện nhân cách học sinh.
 C. Tính dân tộc của mục tiêu giáo dục.
@@ -715,7 +715,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về việc thực hiện Nguyên lý phối hợp 3 môi trường giáo dục:
+Câu 45: Về việc thực hiện Nguyên lý phối hợp 3 môi trường giáo dục:
 a) Nhà trường giữ vai trò chủ đạo, có trách nhiệm chủ động kết nối với Gia đình và Xã hội. -> [ĐÚNG]
 b) Ban đại diện cha mẹ học sinh phối hợp với nhà trường quản lý giờ tự học của sinh viên ở nhà. -> [ĐÚNG]
 c) Các tổ chức đoàn thể xã hội phối hợp tạo môi trường vui chơi an toàn lành mạnh cho em nhỏ. -> [ĐÚNG]
@@ -749,7 +749,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về thiết kế mục tiêu bài học trong Kế hoạch bài dạy của giáo viên:
+Câu 47: Về thiết kế mục tiêu bài học trong Kế hoạch bài dạy của giáo viên:
 a) Mục tiêu bài học phải được diễn đạt bằng các động từ hành động quan sát và đo lường được. -> [ĐÚNG]
 b) Viết mục tiêu bài học chung chung như "giúp học sinh hiểu bài" là đúng chuẩn sư phạm. -> [SAI]
 c) Mục tiêu bài học gồm 3 mặt: Kiến thức, Kỹ năng, Phẩm chất/Thái độ. -> [ĐÚNG]
@@ -783,7 +783,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về các biểu hiện vi phạm nguyên lý giáo dục tại trường học:
+Câu 49: Về các biểu hiện vi phạm nguyên lý giáo dục tại trường học:
 a) Trường học chỉ dạy lý thuyết trên bảng mà không cho học sinh vào phòng thí nghiệm thực hành là vi phạm "Học đi đôi với hành". -> [ĐÚNG]
 b) Nhà trường từ chối phối hợp với Hội phụ huynh khi xảy ra bạo lực học đường là vi phạm nguyên lý phối hợp 3 môi trường. -> [ĐÚNG]
 c) Trường học tổ chức cho học sinh đi tham quan di tích lịch sử địa phương là thực hiện tốt tính dân tộc và thực tiễn. -> [ĐÚNG]

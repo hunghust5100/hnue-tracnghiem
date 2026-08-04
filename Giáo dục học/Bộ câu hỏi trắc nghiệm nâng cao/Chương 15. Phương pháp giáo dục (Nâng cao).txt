@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Thấy học sinh S có biểu hiện tự ti và hay đi học muộn, cô giáo chủ nhiệm không quát mắng mà giao cho S nhiệm vụ làm "Phó ban Đời sống của lớp", chịu trách nhiệm mở cửa phòng học và chuẩn bị nước uống cho các bạn. Sau 2 tuần, S đi học rất sớm và trở nên năng nổ. Cô giáo đã vận dụng phương pháp nào?
+Câu 6: Thấy học sinh S có biểu hiện tự ti và hay đi học muộn, cô giáo chủ nhiệm không quát mắng mà giao cho S nhiệm vụ làm "Phó ban Đời sống của lớp", chịu trách nhiệm mở cửa phòng học và chuẩn bị nước uống cho các bạn. Sau 2 tuần, S đi học rất sớm và trở nên năng nổ. Cô giáo đã vận dụng phương pháp nào?
 A. Phương pháp trừng phạt kỷ luật trước lớp.
 *B. Phương pháp giao nhiệm vụ kết hợp phân công trách nhiệm tập thể.
 C. Phương pháp đàm thoại diễn giảng lý thuyết.
@@ -150,7 +150,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Khi phát hiện học sinh T quay kop trong giờ kiểm tra, thay vì mắng chửi hay cho điểm 0 ngay trước lớp, thầy giáo K yêu cầu T dừng bài làm, hẹn gặp riêng sau giờ học để phân tích tác hại của sự gian lận và giao cho T bài kiểm tra bổ sung có độ khó tương đương. Thầy K đã vận dụng đúng phương pháp nào?
+Câu 10: Khi phát hiện học sinh T quay kop trong giờ kiểm tra, thay vì mắng chửi hay cho điểm 0 ngay trước lớp, thầy giáo K yêu cầu T dừng bài làm, hẹn gặp riêng sau giờ học để phân tích tác hại của sự gian lận và giao cho T bài kiểm tra bổ sung có độ khó tương đương. Thầy K đã vận dụng đúng phương pháp nào?
 A. Phương pháp tha bổng không xử lý.
 *B. Phương pháp trách phạt nhân văn kết hợp tạo cơ hội rèn luyện sửa chữa lỗi sai.
 C. Phương pháp trừng phạt nhục mạ trước tập thể.
@@ -228,7 +228,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Khi dạy chủ đề "Lòng hiếu thảo", thay vì giảng lý thuyết suông, cô giáo P cho học sinh xem một video ngắn về sự hy sinh thầm lặng của cha mẹ, sau đó yêu cầu học sinh viết một lá thư "Lời muốn nói" gửi cha mẹ mình. Cô P đã phối hợp các phương pháp nào?
+Câu 15: Khi dạy chủ đề "Lòng hiếu thảo", thay vì giảng lý thuyết suông, cô giáo P cho học sinh xem một video ngắn về sự hy sinh thầm lặng của cha mẹ, sau đó yêu cầu học sinh viết một lá thư "Lời muốn nói" gửi cha mẹ mình. Cô P đã phối hợp các phương pháp nào?
 A. Phương pháp trừng phạt kết hợp rèn luyện thể thao.
 *B. Phương pháp thuyết phục (gợi mở cảm xúc qua video) kết hợp Phương pháp rèn luyện hành vi (viết thư tri ân).
 C. Phương pháp thi trắc nghiệm máy tính.
@@ -290,7 +290,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Nhận thấy lớp 10C có hiện tượng chia rẽ thành hai nhóm bạn và hay châm biếm nhau, cô giáo chủ nhiệm đã tổ chức Trò chơi teambuilding "Chuyến xe chung sức", yêu cầu học sinh của 2 nhóm phải phối hợp nhịp nhàng mới vượt qua chướng ngại vật. Cô giáo đã vận dụng phương pháp nào?
+Câu 19: Nhận thấy lớp 10C có hiện tượng chia rẽ thành hai nhóm bạn và hay châm biếm nhau, cô giáo chủ nhiệm đã tổ chức Trò chơi teambuilding "Chuyến xe chung sức", yêu cầu học sinh của 2 nhóm phải phối hợp nhịp nhàng mới vượt qua chướng ngại vật. Cô giáo đã vận dụng phương pháp nào?
 A. Phương pháp diễn giảng thuyết trình lý thuyết.
 *B. Phương pháp rèn luyện hành vi qua hoạt động tập thể và trò chơi hợp tác.
 C. Phương pháp trừng phạt kỷ luật từng cá nhân.
@@ -352,7 +352,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Thấy trong lớp có học sinh M thường xuyên đi học muộn do phải thức khuya phụ cha mẹ bán hàng, cô giáo chủ nhiệm không khiển trách trước lớp mà gặp riêng M tìm hiểu hoàn cảnh, sau đó vận động quỹ học bổng cựu học sinh hỗ trợ gia đình M. M cảm động và quyết tâm đi học đúng giờ. Cô giáo đã vận dụng kết hợp các phương pháp nào?
+Câu 23: Thấy trong lớp có học sinh M thường xuyên đi học muộn do phải thức khuya phụ cha mẹ bán hàng, cô giáo chủ nhiệm không khiển trách trước lớp mà gặp riêng M tìm hiểu hoàn cảnh, sau đó vận động quỹ học bổng cựu học sinh hỗ trợ gia đình M. M cảm động và quyết tâm đi học đúng giờ. Cô giáo đã vận dụng kết hợp các phương pháp nào?
 A. Phương pháp trừng phạt đe dọa.
 *B. Phương pháp đàm thoại thấu cảm cá nhân kết hợp hỗ trợ thực tế tạo động lực tự điều chỉnh.
 C. Phương pháp phó mặc tự phát.
@@ -430,7 +430,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Trong chuyến đi dã ngoại sinh thái, thầy giáo tổ chức trò chơi "Nhặt rác đổi quà": nhóm nào thu gom được nhiều rác nhựa nhất trên bãi biển sẽ được thưởng một bộ sách kỹ năng sống. Thầy giáo đã phối hợp các phương pháp nào?
+Câu 28: Trong chuyến đi dã ngoại sinh thái, thầy giáo tổ chức trò chơi "Nhặt rác đổi quà": nhóm nào thu gom được nhiều rác nhựa nhất trên bãi biển sẽ được thưởng một bộ sách kỹ năng sống. Thầy giáo đã phối hợp các phương pháp nào?
 A. Phương pháp trừng phạt đe dọa.
 *B. Phương pháp giáo dục trong lao động công ích kết hợp Phương pháp khen thưởng kích thích thi đua.
 C. Phương pháp diễn giảng lý thuyết.
@@ -510,7 +510,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Trong giờ sinh hoạt lớp, cô giáo chủ nhiệm chiếu một clip ngắn ghi lại cảnh các bạn trong lớp hăng hái giúp đỡ một bạn bị khuyết tật di chuyển lên cầu thang, sau đó cô dương tuyên khen ngợi hành động đẹp đó trước cả lớp. Cô giáo đã vận dụng phối hợp các phương pháp nào?
+Câu 33: Trong giờ sinh hoạt lớp, cô giáo chủ nhiệm chiếu một clip ngắn ghi lại cảnh các bạn trong lớp hăng hái giúp đỡ một bạn bị khuyết tật di chuyển lên cầu thang, sau đó cô dương tuyên khen ngợi hành động đẹp đó trước cả lớp. Cô giáo đã vận dụng phối hợp các phương pháp nào?
 *A. Phương pháp Nêu gương tích cực kết hợp Phương pháp Khen thưởng động viên.
 B. Phương pháp trừng phạt kỷ luật.
 C. Phương pháp đàm thoại kiểm tra bài cũ.
@@ -574,7 +574,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Trong một buổi sinh hoạt lớp, sau khi phân tích hành vi giúp đỡ bạn nghèo của học sinh A, cô giáo chủ nhiệm phát động phong trào "Nuôi heo đất giúp bạn đến trường" trong toàn lớp và được 100% học sinh hưởng ứng. Cô giáo đã vận dụng quy trình phương pháp nào?
+Câu 37: Trong một buổi sinh hoạt lớp, sau khi phân tích hành vi giúp đỡ bạn nghèo của học sinh A, cô giáo chủ nhiệm phát động phong trào "Nuôi heo đất giúp bạn đến trường" trong toàn lớp và được 100% học sinh hưởng ứng. Cô giáo đã vận dụng quy trình phương pháp nào?
 A. Trừng phạt -> Ép buộc -> Kỷ luật.
 *B. Thuyết phục (Nêu gương A) -> Kích thích thi đua (Phát động phong trào) -> Tổ chức Luyện tập hành vi (Nuôi heo đất).
 C. Bỏ mặc -> Tự phát -> Ngẫu nhiên.
@@ -707,7 +707,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về phối hợp các phương pháp giáo dục:
+Câu 45: Về phối hợp các phương pháp giáo dục:
 a) Không có một phương pháp giáo dục nào là vạn năng chung cho mọi tình huống sư phạm. -> [ĐÚNG]
 b) Phối hợp giữa Thuyết phục (nhận thức) và Luyện tập (hành vi) giúp đảm bảo sự thống nhất giữa Ý thức và Hành động. -> [ĐÚNG]
 c) Sử dụng công nghệ thông tin giúp trực quan hóa và tăng tính thuyết phục của các bài học đạo đức. -> [ĐÚNG]
@@ -741,7 +741,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về ứng xử sư phạm khi học sinh mắc lỗi:
+Câu 47: Về ứng xử sư phạm khi học sinh mắc lỗi:
 a) Gặp riêng phân tích thấu lý đạt tình giúp học sinh bảo vệ danh dự và dễ nhận lỗi. -> [ĐÚNG]
 b) Quát mắng nhục mạ công khai trước lớp giúp học sinh sửa lỗi nhanh nhất và triệt để nhất. -> [SAI]
 c) Tạo cơ hội cho học sinh làm việc tốt để khắc phục hậu quả do lỗi sai gây ra. -> [ĐÚNG]
@@ -775,7 +775,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về Phương pháp Tư vấn Tâm lý Học đường:
+Câu 49: Về Phương pháp Tư vấn Tâm lý Học đường:
 a) Tư vấn tâm lý dựa trên sự lắng nghe thấu cảm và không định kiến đối với học sinh. -> [ĐÚNG]
 b) Nhà tư vấn cung cấp thông tin và gợi mở để học sinh tự đưa ra quyết định giải quyết vấn đề. -> [ĐÚNG]
 c) Nhà tư vấn có quyền ra lệnh áp đặt học sinh phải làm chính xác theo ý mình. -> [SAI]

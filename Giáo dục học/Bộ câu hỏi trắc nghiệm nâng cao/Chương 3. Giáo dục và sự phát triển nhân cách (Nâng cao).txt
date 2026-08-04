@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Một học sinh sinh ra trong gia đình có bố mẹ là nghệ sĩ piano nổi tiếng và sở hữu tư chất cảm âm xuất sắc từ nhỏ. Tuy nhiên, nếu học sinh này không được luyện tập chăm chỉ và không được đi học tại nhạc viện, em sẽ không thể trở thành nghệ sĩ tài năng. Tình huống này chứng minh bài học phương pháp luận nào?
+Câu 6: Một học sinh sinh ra trong gia đình có bố mẹ là nghệ sĩ piano nổi tiếng và sở hữu tư chất cảm âm xuất sắc từ nhỏ. Tuy nhiên, nếu học sinh này không được luyện tập chăm chỉ và không được đi học tại nhạc viện, em sẽ không thể trở thành nghệ sĩ tài năng. Tình huống này chứng minh bài học phương pháp luận nào?
 A. Tư chất di truyền quyết định tuyệt đối thành công nghệ thuật.
 B. Môi trường gia đình là yếu tố duy nhất định hình tài năng.
 *C. Di truyền chỉ là tiền đề; rèn luyện cá nhân và giáo dục mới biến tư chất thành năng lực.
@@ -150,7 +150,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Hai anh em ruột sinh đôi cùng trứng có cùng bộ gen di truyền, nhưng từ nhỏ người anh được nuôi dưỡng trong môi trường đô thị năng động, còn người em sống ở vùng nông thôn thanh bình. Khi trưởng thành, hai người có tính cách, tác phong và định hướng nghề nghiệp hoàn toàn khác nhau. Hiện tượng này minh chứng cho luận điểm nào?
+Câu 10: Hai anh em ruột sinh đôi cùng trứng có cùng bộ gen di truyền, nhưng từ nhỏ người anh được nuôi dưỡng trong môi trường đô thị năng động, còn người em sống ở vùng nông thôn thanh bình. Khi trưởng thành, hai người có tính cách, tác phong và định hướng nghề nghiệp hoàn toàn khác nhau. Hiện tượng này minh chứng cho luận điểm nào?
 A. Yếu tố di truyền hoàn toàn không có vai trò gì đối với sự phát triển.
 *B. Môi trường sống và hoạt động thực tiễn tạo ra sự khác biệt trong phát triển nhân cách.
 C. Giáo dục nhà trường là yếu tố duy nhất tạo nên sự khác biệt giữa hai anh em.
@@ -246,7 +246,7 @@ Giải thích:
 
 ---
 
-Câu 16 [TÌNH HUỐNG THỰC TẾ]: Nhận thấy một học sinh có năng khiếu vẽ tranh nhưng tính cách còn rụt rè, giáo viên chủ nhiệm đã chủ động giao cho em làm Trưởng ban Báo tường của lớp và phân công các bạn hỗ trợ. Sau một thời gian, học sinh này trở nên tự tin, cởi mở và phát huy tốt tài năng. Cách xử lý của giáo viên áp dụng nguyên lý nào?
+Câu 16: Nhận thấy một học sinh có năng khiếu vẽ tranh nhưng tính cách còn rụt rè, giáo viên chủ nhiệm đã chủ động giao cho em làm Trưởng ban Báo tường của lớp và phân công các bạn hỗ trợ. Sau một thời gian, học sinh này trở nên tự tin, cởi mở và phát huy tốt tài năng. Cách xử lý của giáo viên áp dụng nguyên lý nào?
 A. Phó mặc cho năng khiếu bẩm sinh tự động phát triển.
 *B. Sử dụng hoạt động tập thể và sự định hướng sư phạm để phát triển nhân cách.
 C. Dùng quyền lực phạt nặng nếu học sinh không tham gia hoạt động.
@@ -310,7 +310,7 @@ Giải thích:
 
 ---
 
-Câu 20 [TÌNH HUỐNG THỰC TẾ]: Trong một kỳ thi chọn học sinh giỏi, học sinh K trượt tuyển thẳng vào đội tuyển. Thay vì thất vọng bỏ cuộc, K đã tự lập lại lịch học tập, chủ động đọc thêm sách nâng cao và nhờ thầy cô giải đáp các bài toán khó. Kết quả kỳ thi sau, K đã đạt giải Nhất. Sự nỗ lực của K minh chứng cho yếu tố nào?
+Câu 20: Trong một kỳ thi chọn học sinh giỏi, học sinh K trượt tuyển thẳng vào đội tuyển. Thay vì thất vọng bỏ cuộc, K đã tự lập lại lịch học tập, chủ động đọc thêm sách nâng cao và nhờ thầy cô giải đáp các bài toán khó. Kết quả kỳ thi sau, K đã đạt giải Nhất. Sự nỗ lực của K minh chứng cho yếu tố nào?
 A. Sự tác động tự động của mã di truyền khi đến lứa tuổi.
 B. Sự can thiệp hành chính của cơ quan quản lý nhà trường.
 *C. Tính tích cực và năng lực tự giáo dục của cá nhân quyết định sự bứt phá.
@@ -342,7 +342,7 @@ Giải thích:
 
 ---
 
-Câu 22 [TÌNH HUỐNG THỰC TẾ]: Một lớp học có nhiều học sinh từ các vùng miền khác nhau với thói quen sinh hoạt đa dạng. Giáo viên chủ nhiệm đã tổ chức các hoạt động nhóm, xây dựng văn hóa lớp học tôn trọng sự khác biệt và khuyến khích học sinh giúp đỡ nhau. Hoạt động này thể hiện vai trò gì của giáo dục?
+Câu 22: Một lớp học có nhiều học sinh từ các vùng miền khác nhau với thói quen sinh hoạt đa dạng. Giáo viên chủ nhiệm đã tổ chức các hoạt động nhóm, xây dựng văn hóa lớp học tôn trọng sự khác biệt và khuyến khích học sinh giúp đỡ nhau. Hoạt động này thể hiện vai trò gì của giáo dục?
 A. Thay thế di truyền của học sinh bằng thói quen mới.
 *B. Định hướng và tối ưu hóa tác động của môi trường tập thể đối với nhân cách.
 C. Bắt buộc học sinh phải từ bỏ bản sắc văn hóa quê hương.
@@ -388,7 +388,7 @@ Giải thích:
 
 ---
 
-Câu 25 [TÌNH HUỐNG THỰC TẾ]: Một trường THPT thành lập các câu lạc bộ Kỹ năng sống, Robot sáng tạo và Truyền thông do học sinh tự quản lý điều hành dưới sự cố vấn của giáo viên. Hoạt động của các câu lạc bộ này ứng dụng nguyên lý giáo dục nào?
+Câu 25: Một trường THPT thành lập các câu lạc bộ Kỹ năng sống, Robot sáng tạo và Truyền thông do học sinh tự quản lý điều hành dưới sự cố vấn của giáo viên. Hoạt động của các câu lạc bộ này ứng dụng nguyên lý giáo dục nào?
 A. Cưỡng chế học sinh tham gia theo chỉ tiêu thi đua.
 *B. Tạo môi trường hoạt động đa dạng để phát huy tính tích cực chủ thể của học sinh.
 C. Phó mặc cho học sinh tự phát hoạt động không cần cố vấn.
@@ -468,7 +468,7 @@ Giải thích:
 
 ---
 
-Câu 30 [TÌNH HUỐNG THỰC TẾ]: Để giúp học sinh M vượt qua tự ti về hoàn cảnh gia đình khó khăn, thầy giáo đã thường xuyên động viên, phân công M làm nhóm trưởng thảo luận và giới thiệu M tham gia lớp vẽ miễn phí tại nhà văn hóa. Kết quả M trở thành học sinh giỏi và đoạt giải tranh vẽ cấp thành phố. Thầy giáo đã thể hiện vai trò gì?
+Câu 30: Để giúp học sinh M vượt qua tự ti về hoàn cảnh gia đình khó khăn, thầy giáo đã thường xuyên động viên, phân công M làm nhóm trưởng thảo luận và giới thiệu M tham gia lớp vẽ miễn phí tại nhà văn hóa. Kết quả M trở thành học sinh giỏi và đoạt giải tranh vẽ cấp thành phố. Thầy giáo đã thể hiện vai trò gì?
 A. Thay thế toàn bộ trách nhiệm nuôi dưỡng của gia đình M.
 *B. Thể hiện vai trò chủ đạo của giáo dục trong việc định hướng và nâng đỡ nhân cách.
 C. Bắt buộc M phải theo ngành hội họa trong tương lai.
@@ -548,7 +548,7 @@ Giải thích:
 
 ---
 
-Câu 35 [TÌNH HUỐNG THỰC TẾ]: Một trường trung học cơ sở tổ chức chương trình "Một ngày làm nông dân" tại trang trại sinh thái cho học sinh khối 7. Học sinh được tự tay trồng rau, chăm sóc gia súc và chế biến nông sản. Hoạt động này phản ánh con đường giáo dục nào?
+Câu 35: Một trường trung học cơ sở tổ chức chương trình "Một ngày làm nông dân" tại trang trại sinh thái cho học sinh khối 7. Học sinh được tự tay trồng rau, chăm sóc gia súc và chế biến nông sản. Hoạt động này phản ánh con đường giáo dục nào?
 A. Giáo dục thông qua con đường học tập lý thuyết thuần túy trên lớp.
 *B. Giáo dục thông qua con đường hoạt động lao động thực tiễn và trải nghiệm.
 C. Giáo dục thông qua con đường cưỡng chế kỷ luật hành chính.
@@ -596,7 +596,7 @@ Giải thích:
 
 ---
 
-Câu 38 [TÌNH HUỐNG THỰC TẾ]: Một học sinh có biệt tài lắp ráp mô hình kỹ thuật nhưng kết quả các môn xã hội chưa cao. Giáo viên chủ nhiệm đã không chê bai mà thành lập "CLB Sáng tạo Trẻ", cử em làm chủ nhiệm CLB và hướng dẫn em dùng tư duy kỹ thuật để học tốt các môn khác. Giáo viên đã ứng dụng nguyên tắc nào?
+Câu 38: Một học sinh có biệt tài lắp ráp mô hình kỹ thuật nhưng kết quả các môn xã hội chưa cao. Giáo viên chủ nhiệm đã không chê bai mà thành lập "CLB Sáng tạo Trẻ", cử em làm chủ nhiệm CLB và hướng dẫn em dùng tư duy kỹ thuật để học tốt các môn khác. Giáo viên đã ứng dụng nguyên tắc nào?
 A. Tập trung cải tạo nhược điểm và bỏ qua ưu điểm bẩm sinh.
 *B. Phán đoán và phát huy mặt tích cực để khắc phục mặt hạn chế trong phát triển nhân cách.
 C. Bắt buộc học sinh phải từ bỏ đam mê kỹ thuật để học thuộc lòng.
@@ -715,7 +715,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về ứng dụng vai trò các yếu tố vào công tác chủ nhiệm lớp:
+Câu 45: Về ứng dụng vai trò các yếu tố vào công tác chủ nhiệm lớp:
 a) Giáo viên phát hiện học sinh H có tư chất toán học và bồi dưỡng em tham gia kỳ thi giỏi là dựa vào di truyền. -> [ĐÚNG]
 b) Giáo viên thay đổi chỗ ngồi cho học sinh lười học gần bạn chăm học là tác động môi trường. -> [ĐÚNG]
 c) Giáo viên tổ chức cho học sinh tự thảo luận xây dựng nội quy lớp là khơi dậy tính tích cực cá nhân. -> [ĐÚNG]
@@ -749,7 +749,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về các khuynh hướng sai lầm trong giáo dục nhân cách:
+Câu 47: Về các khuynh hướng sai lầm trong giáo dục nhân cách:
 a) Giáo viên quy kết một học sinh phạm lỗi là "bản chất xấu từ trong máu" thuộc thuyết định mệnh sinh học. -> [ĐÚNG]
 b) Giáo viên bỏ mặc học sinh sống trong môi trường xấu mà không tư vấn can thiệp thuộc thuyết định mệnh môi trường. -> [ĐÚNG]
 c) Giáo viên tin rằng chỉ cần dạy lý thuyết suông trên lớp là học sinh tự động có đạo đức tốt thuộc thuyết giáo dục vạn năng. -> [ĐÚNG]
@@ -783,7 +783,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về các phương pháp khơi dậy tính tích cực cá nhân trong nhà trường:
+Câu 49: Về các phương pháp khơi dậy tính tích cực cá nhân trong nhà trường:
 a) Tổ chức cho học sinh làm dự án nghiên cứu khoa học kỹ thuật giúp phát triển năng lực tự học. -> [ĐÚNG]
 b) Đưa học sinh vào các tình huống có vấn đề kích thích nhu cầu nhận thức bên trong. -> [ĐÚNG]
 c) Giao quyền tự quản các hoạt động tập thể cho học sinh giúp phát triển năng lực quản lý. -> [ĐÚNG]

@@ -86,7 +86,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Khi dạy bài "Biến đổi khí hậu" môn Địa lý, cô giáo D không chỉ giảng về nguyên nhân nhiệt độ Trái đất tăng lên mà còn tổ chức cho học sinh thảo luận về trách nhiệm tiết kiệm điện, giảm rác thải nhựa tại trường học. Cô D đang áp dụng trực tiếp nguyên tắc dạy học nào?
+Câu 6: Khi dạy bài "Biến đổi khí hậu" môn Địa lý, cô giáo D không chỉ giảng về nguyên nhân nhiệt độ Trái đất tăng lên mà còn tổ chức cho học sinh thảo luận về trách nhiệm tiết kiệm điện, giảm rác thải nhựa tại trường học. Cô D đang áp dụng trực tiếp nguyên tắc dạy học nào?
 A. Nguyên tắc đảm bảo tính trực quan đơn thuần.
 *B. Nguyên tắc đảm bảo sự thống nhất giữa tính khoa học và tính giáo dục.
 C. Nguyên tắc đảm bảo tính vừa sức lứa tuổi.
@@ -148,7 +148,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Trong giờ học Hình học không gian, thầy giáo E sử dụng phần mềm 3D để xoay khối đa diện cho học sinh quan sát các mặt cắt, sau đó yêu cầu học sinh rút ra công thức tính thể tích và chứng minh lại bằng lý thuyết. Thầy E đang thực hiện nguyên tắc dạy học nào?
+Câu 10: Trong giờ học Hình học không gian, thầy giáo E sử dụng phần mềm 3D để xoay khối đa diện cho học sinh quan sát các mặt cắt, sau đó yêu cầu học sinh rút ra công thức tính thể tích và chứng minh lại bằng lý thuyết. Thầy E đang thực hiện nguyên tắc dạy học nào?
 A. Nguyên tắc đảm bảo tính giáo dục thuần túy.
 *B. Nguyên tắc đảm bảo sự thống nhất giữa tính trực quan với sự phát triển tư duy lý thuyết.
 C. Nguyên tắc đảm bảo tính vừa sức cá biệt.
@@ -226,7 +226,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Trong một lớp học có học sinh G bị tật ở tay viết chậm và học sinh H có năng khiếu toán học vượt trội. Giáo viên đã giao cho G bài tập trắc nghiệm gõ máy tính và cho H bài toán nâng cao tìm cách giải thứ 3. Việc xử lý của giáo viên tuân thủ nguyên tắc nào?
+Câu 15: Trong một lớp học có học sinh G bị tật ở tay viết chậm và học sinh H có năng khiếu toán học vượt trội. Giáo viên đã giao cho G bài tập trắc nghiệm gõ máy tính và cho H bài toán nâng cao tìm cách giải thứ 3. Việc xử lý của giáo viên tuân thủ nguyên tắc nào?
 A. Nguyên tắc đảm bảo tính hệ thống tuần tự.
 *B. Nguyên tắc đảm bảo tính vừa sức và chú ý đặc điểm cá biệt của học sinh.
 C. Nguyên tắc đảm bảo tính giáo dục thuần túy.
@@ -287,7 +287,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Trong tiết luyện tập Tiếng Anh, cô giáo K chia lớp thành các cặp đôi để hội thoại theo tình huống đi mua sắm. Cô đi quanh lớp lắng nghe, ghi chép lỗi sai phổ biến và chỉ uốn nắn chung cho cả lớp sau khi các cặp kết thúc phần nói. Cô K đã vận dụng nguyên tắc nào?
+Câu 19: Trong tiết luyện tập Tiếng Anh, cô giáo K chia lớp thành các cặp đôi để hội thoại theo tình huống đi mua sắm. Cô đi quanh lớp lắng nghe, ghi chép lỗi sai phổ biến và chỉ uốn nắn chung cho cả lớp sau khi các cặp kết thúc phần nói. Cô K đã vận dụng nguyên tắc nào?
 A. Nguyên tắc đảm bảo tính cào bằng đối tượng.
 *B. Nguyên tắc kết hợp giữa tính tập thể và tính cá biệt, phát huy vai trò chủ đạo của thầy.
 C. Nguyên tắc đảm bảo tính giáo dục thuần túy.
@@ -351,7 +351,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Trong tiết Tin học dạy lập trình, thầy giáo H không đưa ngay toàn bộ bài giải mẫu mà chia bài toán thành 3 bước nhỏ từ dễ đến khó. Học sinh hoàn thành bước 1 mới được giáo viên gợi ý làm bước 2. Thầy H đã vận dụng các nguyên tắc nào?
+Câu 23: Trong tiết Tin học dạy lập trình, thầy giáo H không đưa ngay toàn bộ bài giải mẫu mà chia bài toán thành 3 bước nhỏ từ dễ đến khó. Học sinh hoàn thành bước 1 mới được giáo viên gợi ý làm bước 2. Thầy H đã vận dụng các nguyên tắc nào?
 A. Nguyên tắc đảm bảo tính cào bằng và độc đoán.
 *B. Nguyên tắc đảm bảo tính vừa sức, tính hệ thống tuần tự và phát huy tính độc lập học sinh.
 C. Nguyên tắc đảm bảo tính trực quan sinh động thuần túy.
@@ -431,7 +431,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Một thầy giáo dạy môn Công nghệ tổ chức cho học sinh làm việc theo nhóm 4 người để lắp ráp mô hình mạch điện gia đình. Thầy quan sát từng nhóm, đến hỗ trợ nhóm học sinh chậm và đặt câu hỏi mở cho nhóm hoàn thành sớm. Thầy giáo đã thực hiện tốt các nguyên tắc nào?
+Câu 28: Một thầy giáo dạy môn Công nghệ tổ chức cho học sinh làm việc theo nhóm 4 người để lắp ráp mô hình mạch điện gia đình. Thầy quan sát từng nhóm, đến hỗ trợ nhóm học sinh chậm và đặt câu hỏi mở cho nhóm hoàn thành sớm. Thầy giáo đã thực hiện tốt các nguyên tắc nào?
 *A. Thống nhất giữa vai trò chủ đạo của thầy và tính tích cực của trò, vừa sức và chú ý đặc điểm cá biệt.
 B. Áp đặt độc đoán và cào bằng trình độ học sinh.
 C. Dạy học thuần túy lý thuyết xa rời thực tiễn.
@@ -507,7 +507,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên Tiếng Anh nhận thấy học sinh L rất nhút nhát, sợ phát âm sai nên không bao giờ giơ tay phát biểu. Giáo viên đã chủ động gọi L đọc các từ đơn giản nhất, mỉm cười khen ngợi "Good job!" và cho L 9 điểm. Sau đó L tự tin hẳn và tích cực luyện nói. Giáo viên đã vận dụng tốt nguyên tắc nào?
+Câu 33: Một giáo viên Tiếng Anh nhận thấy học sinh L rất nhút nhát, sợ phát âm sai nên không bao giờ giơ tay phát biểu. Giáo viên đã chủ động gọi L đọc các từ đơn giản nhất, mỉm cười khen ngợi "Good job!" và cho L 9 điểm. Sau đó L tự tin hẳn và tích cực luyện nói. Giáo viên đã vận dụng tốt nguyên tắc nào?
 A. Nguyên tắc đảm bảo tính hệ thống tuần tự thuần túy.
 *B. Nguyên tắc đảm bảo tính cảm xúc tích cực và tính vừa sức cá biệt.
 C. Nguyên tắc đảm bảo tính khoa học nghiêm ngặt cực đoan.
@@ -571,7 +571,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên Toán khi dạy bài "Hình học không gian" đã yêu cầu học sinh làm theo các bước: 1. Quan sát mô hình hình lập phương bằng nhựa; 2. Vẽ hình biểu diễn trên giấy; 3. Nêu định nghĩa và chứng minh tính chất bằng lý thuyết. Giáo viên đã tuân thủ con đường nhận thức nào?
+Câu 37: Một giáo viên Toán khi dạy bài "Hình học không gian" đã yêu cầu học sinh làm theo các bước: 1. Quan sát mô hình hình lập phương bằng nhựa; 2. Vẽ hình biểu diễn trên giấy; 3. Nêu định nghĩa và chứng minh tính chất bằng lý thuyết. Giáo viên đã tuân thủ con đường nhận thức nào?
 *A. Từ trực quan sinh động đến tư duy trừu tượng.
 B. Từ trừu tượng thuần túy không cần trực quan.
 C. Từ thực tiễn đến thực tiễn bỏ qua tư duy.
@@ -702,7 +702,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về thực hiện Nguyên tắc "Tính vừa sức và đặc điểm cá biệt":
+Câu 45: Về thực hiện Nguyên tắc "Tính vừa sức và đặc điểm cá biệt":
 a) Giáo viên phân loại đối tượng học sinh để giao bài tập có độ khó phù hợp là đúng nguyên tắc. -> [ĐÚNG]
 b) Việc giao cùng một bài toán quá khó cho cả lớp khiến học sinh yếu nản chí là vi phạm tính vừa sức. -> [ĐÚNG]
 c) Tính vừa sức đòi hỏi hạ thấp chuẩn chương trình xuống mức cực kỳ dễ dãi. -> [SAI]
@@ -736,7 +736,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về thực hiện Nguyên tắc "Đảm bảo tính cảm xúc tích cực":
+Câu 47: Về thực hiện Nguyên tắc "Đảm bảo tính cảm xúc tích cực":
 a) Giáo viên khen ngợi sự tiến bộ của học sinh yếu giúp em tự tin hơn là tạo cảm xúc tích cực. -> [ĐÚNG]
 b) Việc sỉ nhục học sinh trước lớp gây tổn thương sĩ diện làm dập tắt hứng thú học tập. -> [ĐÚNG]
 c) Bầu không khí tâm lý lớp học cởi mở, an toàn giúp kích thích tư duy sáng tạo của học sinh. -> [ĐÚNG]
@@ -770,7 +770,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về Nguyên tắc "Chuyển từ Dạy học sang Tự học":
+Câu 49: Về Nguyên tắc "Chuyển từ Dạy học sang Tự học":
 a) Giáo viên hướng dẫn học sinh kỹ năng đọc sách, ghi chép và tìm kiếm tài liệu trên mạng. -> [ĐÚNG]
 b) Giao dự án nghiên cứu nhỏ cho học sinh tự lập kế hoạch và báo cáo sản phẩm. -> [ĐÚNG]
 c) Nguyên tắc này yêu cầu giáo viên bỏ lớp để học sinh tự học 100% không cần cố vấn. -> [SAI]

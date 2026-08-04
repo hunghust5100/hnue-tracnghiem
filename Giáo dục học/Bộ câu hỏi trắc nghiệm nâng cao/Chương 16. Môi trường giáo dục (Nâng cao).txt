@@ -82,7 +82,7 @@ Giải thích:
 
 ---
 
-Câu 6 [TÌNH HUỐNG THỰC TẾ]: Trong một gia đình, người cha thì quá nghiêm khắc phạt con đứng góc lớp khi được điểm 7, trong khi người mẹ lại giấu cha cho con tiền đi chơi game để bù đắp. Sự không thống nhất này gây ra tác hại gì cho trẻ?
+Câu 6: Trong một gia đình, người cha thì quá nghiêm khắc phạt con đứng góc lớp khi được điểm 7, trong khi người mẹ lại giấu cha cho con tiền đi chơi game để bù đắp. Sự không thống nhất này gây ra tác hại gì cho trẻ?
 A. Giúp trẻ trở nên thông minh và linh hoạt hơn.
 *B. Làm cho trẻ hoang mang về chuẩn mực, phát sinh tâm lý cơ hội, đối phó và trốn tránh trách nhiệm.
 C. Tăng cường tình yêu thương giữa các thành viên trong gia đình.
@@ -142,7 +142,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Sau khi đi làm về mệt mỏi, người cha thấy con làm vỡ chiếc bình hoa đã quát mắng thậm tệ và đánh con; nhưng hôm sau khi tâm trạng vui vẻ, con làm vỡ chiếc bát đĩa thì người cha lại cười xô qua. Phong cách giáo dục này vi phạm nguyên tắc nào?
+Câu 10: Sau khi đi làm về mệt mỏi, người cha thấy con làm vỡ chiếc bình hoa đã quát mắng thậm tệ và đánh con; nhưng hôm sau khi tâm trạng vui vẻ, con làm vỡ chiếc bát đĩa thì người cha lại cười xô qua. Phong cách giáo dục này vi phạm nguyên tắc nào?
 A. Nguyên tắc tôn trọng nhân cách.
 *B. Nguyên tắc đảm bảo tính thống nhất, ổn định và công bằng trong ứng xử giáo dục (tránh nóng lạnh thất thường).
 C. Nguyên tắc giáo dục bằng lao động.
@@ -220,7 +220,7 @@ Giải thích:
 
 ---
 
-Câu 15 [TÌNH HUỐNG THỰC TẾ]: Gia đình em G có hoàn cảnh khó khăn, cha mẹ bận đi làm thuê từ sáng đến tối. Thấy G có biểu hiện chán học và hay tụ tập với nhóm thanh niên lêu lổng, cô giáo chủ nhiệm đã đến tận nhà trao đổi với cha mẹ G, đồng thời phân công Ban cán sự lớp kèm học và hỗ trợ G. Việc làm của cô giáo thể hiện điều gì?
+Câu 15: Gia đình em G có hoàn cảnh khó khăn, cha mẹ bận đi làm thuê từ sáng đến tối. Thấy G có biểu hiện chán học và hay tụ tập với nhóm thanh niên lêu lổng, cô giáo chủ nhiệm đã đến tận nhà trao đổi với cha mẹ G, đồng thời phân công Ban cán sự lớp kèm học và hỗ trợ G. Việc làm của cô giáo thể hiện điều gì?
 A. Sự can thiệp trái phép vào đời sống gia đình.
 *B. Sự chủ động phối hợp giữa Nhà trường và Gia đình nhằm hỗ trợ học sinh có nguy cơ lệch chuẩn.
 C. Việc trừng phạt kỷ luật học sinh yếu kém.
@@ -284,7 +284,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Học sinh M muốn theo học ngành Thiết kế Đồ họa vì có năng khiếu vẽ, nhưng cha mẹ M lại bắt buộc M phải đăng ký thi ngành Tài chính Ngân hàng vì cho rằng "ngành đó mới dễ kiếm tiền". Sự ép buộc này là sai lầm nào trong giáo dục gia đình?
+Câu 19: Học sinh M muốn theo học ngành Thiết kế Đồ họa vì có năng khiếu vẽ, nhưng cha mẹ M lại bắt buộc M phải đăng ký thi ngành Tài chính Ngân hàng vì cho rằng "ngành đó mới dễ kiếm tiền". Sự ép buộc này là sai lầm nào trong giáo dục gia đình?
 A. Sự nuông chiều con cái quá mức.
 *B. Sự áp đặt ý muốn chủ quan và đặt kỳ vọng sai lệch không dựa trên năng khiếu thực tế của con.
 C. Sự thả nổi phó mặc con cái.
@@ -346,7 +346,7 @@ Giải thích:
 
 ---
 
-Câu 23 [TÌNH HUỐNG THỰC TẾ]: Để ngăn chặn tình trạng học sinh tụ tập tại các quán điện tử chơi game bạo lực cúp tiết, Ban giám hiệu nhà trường phối hợp với Công an phường và UBND xã tiến hành kiểm tra, cam kết các chủ quán không đón tiếp học sinh trong giờ học. Sự phối hợp này thuộc hình thức nào?
+Câu 23: Để ngăn chặn tình trạng học sinh tụ tập tại các quán điện tử chơi game bạo lực cúp tiết, Ban giám hiệu nhà trường phối hợp với Công an phường và UBND xã tiến hành kiểm tra, cam kết các chủ quán không đón tiếp học sinh trong giờ học. Sự phối hợp này thuộc hình thức nào?
 A. Phối hợp giữa các học sinh trong lớp.
 *B. Phối hợp giữa Môi trường Giáo dục Nhà trường và Môi trường Giáo dục Xã hội.
 C. Giáo dục cá biệt gia đình.
@@ -424,7 +424,7 @@ Giải thích:
 
 ---
 
-Câu 28 [TÌNH HUỐNG THỰC TẾ]: Một học sinh lớp 9 bị bạn bè xấu ngoài trường lôi kéo vào nhóm đua xe trái phép. Phát hiện sự việc, người cha đã không đánh mắng mà bình tĩnh trò chuyện, cùng con tham gia khóa học trải nghiệm kỹ năng sống ngày cuối tuần và nhờ thầy giáo bộ môn Thể dục đưa em vào Đội bóng đá của trường. Người cha đã phối hợp những môi trường nào?
+Câu 28: Một học sinh lớp 9 bị bạn bè xấu ngoài trường lôi kéo vào nhóm đua xe trái phép. Phát hiện sự việc, người cha đã không đánh mắng mà bình tĩnh trò chuyện, cùng con tham gia khóa học trải nghiệm kỹ năng sống ngày cuối tuần và nhờ thầy giáo bộ môn Thể dục đưa em vào Đội bóng đá của trường. Người cha đã phối hợp những môi trường nào?
 *A. Phối hợp giữa Môi trường Gia đình và Môi trường Nhà trường nhằm điều chỉnh tác động tiêu cực của Môi trường Xã hội.
 B. Phối hợp giữa các công ty du lịch và nhà trường.
 C. Giáo dục trừng phạt cách ly gia đình.
@@ -504,7 +504,7 @@ Giải thích:
 
 ---
 
-Câu 33 [TÌNH HUỐNG THỰC TẾ]: Vào kỳ nghỉ hè, UBND phường phối hợp với Đoàn thanh niên và Trường THCS tổ chức các lớp dạy bơi miễn phí, sinh hoạt hè và giải bóng đá thiếu nhi tại địa phương. Hoạt động này phản ánh vai trò của môi trường nào?
+Câu 33: Vào kỳ nghỉ hè, UBND phường phối hợp với Đoàn thanh niên và Trường THCS tổ chức các lớp dạy bơi miễn phí, sinh hoạt hè và giải bóng đá thiếu nhi tại địa phương. Hoạt động này phản ánh vai trò của môi trường nào?
 A. Môi trường giáo dục quốc tế.
 *B. Môi trường Giáo dục Xã hội (Địa phương) phối hợp với Nhà trường tạo sân chơi an toàn lành mạnh.
 C. Môi trường kinh doanh thương mại.
@@ -568,7 +568,7 @@ Giải thích:
 
 ---
 
-Câu 37 [TÌNH HUỐNG THỰC TẾ]: Một trường THPT tổ chức Lễ tốt nghiệp cho học sinh khối 12. Trong buổi lễ, nhà trường mời toàn thể Cha mẹ học sinh và đại diện Chính quyền địa phương đến tham dự, cùng chứng kiến sự trưởng thành và trao thư tri ân của các em. Sự kiện này thể hiện sự kết tinh của điều gì?
+Câu 37: Một trường THPT tổ chức Lễ tốt nghiệp cho học sinh khối 12. Trong buổi lễ, nhà trường mời toàn thể Cha mẹ học sinh và đại diện Chính quyền địa phương đến tham dự, cùng chứng kiến sự trưởng thành và trao thư tri ân của các em. Sự kiện này thể hiện sự kết tinh của điều gì?
 A. Hoạt động thương mại dịch vụ sự kiện.
 *B. Sự gắn kết ấm áp và tôn vinh thành quả giáo dục phối hợp giữa 3 môi trường: Nhà trường, Gia đình và Xã hội.
 C. Việc trừng phạt kỷ luật học sinh cuối khóa.
@@ -701,7 +701,7 @@ Giải thích:
 
 ---
 
-Câu 45 [TÌNH HUỐNG THỰC TẾ]: Về vai trò của Môi trường Xã hội:
+Câu 45: Về vai trò của Môi trường Xã hội:
 a) Môi trường Xã hội đa dạng, phong phú, chứa đựng cả yếu tố tích cực và nguy cơ tiêu cực. -> [ĐÚNG]
 b) Xây dựng Khối phố/Làng văn hóa giúp tạo môi trường an toàn lành mạnh cho thế hệ trẻ. -> [ĐÚNG]
 c) Mạng xã hội là môi trường hoàn toàn độc hại nên cấm tuyệt đối học sinh tiếp cận. -> [SAI]
@@ -735,7 +735,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về lao động tự phục vụ trong gia đình:
+Câu 47: Về lao động tự phục vụ trong gia đình:
 a) Giao việc nhà phù hợp lứa tuổi giúp trẻ rèn tính tự lập và tinh thần trách nhiệm. -> [ĐÚNG]
 b) Lao động gia đình giúp trẻ thấu hiểu sự vất vả của cha mẹ và biết chia sẻ tình thương. -> [ĐÚNG]
 c) Ép trẻ làm việc nhà quá sức thay cho thời gian học tập và nghỉ ngơi là sai lầm bóc lột. -> [ĐÚNG]
@@ -769,7 +769,7 @@ Giải thích:
 
 ---
 
-Câu 49 [TÌNH HUỐNG THỰC TẾ]: Về bảo vệ trẻ em trước tác hại tiêu cực của mạng xã hội:
+Câu 49: Về bảo vệ trẻ em trước tác hại tiêu cực của mạng xã hội:
 a) Cha mẹ cần quy định khung thời lượng sử dụng Internet hợp lý cho con. -> [ĐÚNG]
 b) Nhà trường trang bị kỹ năng nhận diện tin giả, bẫy lừa đảo và văn hóa ứng xử mạng. -> [ĐÚNG]
 c) Thả nổi hoàn toàn cho con tự do lên mạng 24/24 là thể hiện sự tôn trọng quyền tự do. -> [SAI]

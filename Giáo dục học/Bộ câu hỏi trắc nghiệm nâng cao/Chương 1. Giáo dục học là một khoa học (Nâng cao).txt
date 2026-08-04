@@ -150,7 +150,7 @@ Giải thích:
 
 ---
 
-Câu 10 [TÌNH HUỐNG THỰC TẾ]: Một nhóm nghiên cứu giáo dục muốn tìm hiểu nguyên nhân sa sút động cơ học tập của học sinh tại 5 trường trung học phổ thông. Nhóm đã tiến hành lập phiếu câu hỏi đóng - mở, gửi đến 1.500 học sinh để thu thập dữ liệu diện rộng. Nhóm nghiên cứu đã ứng dụng chủ yếu phương pháp nào?
+Câu 10: Một nhóm nghiên cứu giáo dục muốn tìm hiểu nguyên nhân sa sút động cơ học tập của học sinh tại 5 trường trung học phổ thông. Nhóm đã tiến hành lập phiếu câu hỏi đóng - mở, gửi đến 1.500 học sinh để thu thập dữ liệu diện rộng. Nhóm nghiên cứu đã ứng dụng chủ yếu phương pháp nào?
 A. Phương pháp thực nghiệm sư phạm.
 *B. Phương pháp điều tra bằng phiếu an két.
 C. Phương pháp phân tích sản phẩm hoạt động.
@@ -294,7 +294,7 @@ Giải thích:
 
 ---
 
-Câu 19 [TÌNH HUỐNG THỰC TẾ]: Để kiểm chứng hiệu quả của phương pháp "Dạy học dự án" đối với việc phát triển năng lực tự học của học sinh, một giáo viên đã chọn lớp 11A1 làm lớp thực nghiệm (áp dụng dạy học dự án) và lớp 11A2 làm lớp đối chứng (áp dụng dạy học truyền thống) trong cùng một học kỳ. Giáo viên này đang sử dụng phương pháp nghiên cứu nào?
+Câu 19: Để kiểm chứng hiệu quả của phương pháp "Dạy học dự án" đối với việc phát triển năng lực tự học của học sinh, một giáo viên đã chọn lớp 11A1 làm lớp thực nghiệm (áp dụng dạy học dự án) và lớp 11A2 làm lớp đối chứng (áp dụng dạy học truyền thống) trong cùng một học kỳ. Giáo viên này đang sử dụng phương pháp nghiên cứu nào?
 A. Phương pháp quan sát sư phạm tự nhiên.
 *B. Phương pháp thực nghiệm sư phạm tác động.
 C. Phương pháp điều tra bằng phỏng vấn sâu.
@@ -342,7 +342,7 @@ Giải thích:
 
 ---
 
-Câu 22 [TÌNH HUỐNG THỰC TẾ]: Một trung tâm giáo dục cộng đồng tại vùng cao tổ chức các lớp học buổi tối nhằm vừa xóa mù chữ cho người dân, vừa hướng dẫn kỹ thuật canh tác nông nghiệp mới. Hoạt động này thể hiện rõ nhất việc thực hiện chức năng nào của giáo dục?
+Câu 22: Một trung tâm giáo dục cộng đồng tại vùng cao tổ chức các lớp học buổi tối nhằm vừa xóa mù chữ cho người dân, vừa hướng dẫn kỹ thuật canh tác nông nghiệp mới. Hoạt động này thể hiện rõ nhất việc thực hiện chức năng nào của giáo dục?
 A. Chức năng phân hóa thu nhập giữa các tầng lớp dân cư.
 *B. Chức năng nâng cao dân trí gắn với phát triển kinh tế - xã hội địa phương.
 C. Chức năng cung cấp dịch vụ giải trí cho cộng đồng.
@@ -390,7 +390,7 @@ Giải thích:
 
 ---
 
-Câu 25 [TÌNH HUỐNG THỰC TẾ]: Nhằm đánh giá mức độ hài lòng của giáo viên về chương trình sách giáo khoa mới, Sở Giáo dục và Đào tạo đã gửi liên kết khảo sát trực tuyến khuyết danh tới 2.000 giáo viên toàn tỉnh. Việc làm này áp dụng phương pháp nghiên cứu nào?
+Câu 25: Nhằm đánh giá mức độ hài lòng của giáo viên về chương trình sách giáo khoa mới, Sở Giáo dục và Đào tạo đã gửi liên kết khảo sát trực tuyến khuyết danh tới 2.000 giáo viên toàn tỉnh. Việc làm này áp dụng phương pháp nghiên cứu nào?
 A. Phương pháp phỏng vấn lâm sàng cá nhân.
 *B. Phương pháp điều tra bằng an két trực tuyến.
 C. Phương pháp thực nghiệm phòng thí nghiệm.
@@ -470,7 +470,7 @@ Giải thích:
 
 ---
 
-Câu 30 [TÌNH HUỐNG THỰC TẾ]: Một giáo viên chủ nhiệm muốn hiểu rõ tâm tư, thói quen và sự chuyển biến tình cảm của một học sinh có hoàn cảnh đặc biệt. Giáo viên đã đọc kỹ các bài tập làm văn và tranh vẽ tự do của học sinh này trong 6 tháng. Giáo viên đã sử dụng phương pháp nào?
+Câu 30: Một giáo viên chủ nhiệm muốn hiểu rõ tâm tư, thói quen và sự chuyển biến tình cảm của một học sinh có hoàn cảnh đặc biệt. Giáo viên đã đọc kỹ các bài tập làm văn và tranh vẽ tự do của học sinh này trong 6 tháng. Giáo viên đã sử dụng phương pháp nào?
 A. Phương pháp thực nghiệm trong phòng tâm lý.
 *B. Phương pháp phân tích sản phẩm hoạt động.
 C. Phương pháp điều tra bằng phỏng vấn sâu.
@@ -502,7 +502,7 @@ Giải thích:
 
 ---
 
-Câu 32 [TÌNH HUỐNG THỰC TẾ]: Để tìm hiểu lý do học sinh E thường xuyên lo âu trong các giờ kiểm tra, chuyên viên tư vấn tâm lý học đường đã hẹn gặp riêng E trong phòng tư vấn, tạo không khí cởi mở và đặt các câu hỏi gợi mở để E chia sẻ. Chuyên viên đang sử dụng phương pháp nào?
+Câu 32: Để tìm hiểu lý do học sinh E thường xuyên lo âu trong các giờ kiểm tra, chuyên viên tư vấn tâm lý học đường đã hẹn gặp riêng E trong phòng tư vấn, tạo không khí cởi mở và đặt các câu hỏi gợi mở để E chia sẻ. Chuyên viên đang sử dụng phương pháp nào?
 A. Phương pháp điều tra an két diện rộng.
 *B. Phương pháp đàm thoại (phỏng vấn) cá nhân.
 C. Phương pháp thực nghiệm sư phạm tác động.
@@ -550,7 +550,7 @@ Giải thích:
 
 ---
 
-Câu 35 [TÌNH HUỐNG THỰC TẾ]: Một đoàn thanh niên công an tỉnh phối hợp với nhà trường quan sát góc học tập và thói quen sinh hoạt của các học sinh có nguy cơ vi phạm pháp luật mà không để các em biết mình đang bị theo dõi. Đoàn đang sử dụng phương pháp quan sát nào?
+Câu 35: Một đoàn thanh niên công an tỉnh phối hợp với nhà trường quan sát góc học tập và thói quen sinh hoạt của các học sinh có nguy cơ vi phạm pháp luật mà không để các em biết mình đang bị theo dõi. Đoàn đang sử dụng phương pháp quan sát nào?
 A. Quan sát công khai có tham dự.
 *B. Quan sát kín (không công khai) tự nhiên.
 C. Quan sát thực nghiệm trong phòng kính.
@@ -598,7 +598,7 @@ Giải thích:
 
 ---
 
-Câu 38 [TÌNH HUỐNG THỰC TẾ]: Nhằm nâng cao chất lượng công tác chủ nhiệm, Ban giám hiệu nhà trường tổ chức hội thảo để các giáo viên chủ nhiệm giỏi trình bày về quy trình xử lý các tình huống sư phạm gay kịch đã áp dụng thành công. Nhà trường đang sử dụng phương pháp nghiên cứu nào?
+Câu 38: Nhằm nâng cao chất lượng công tác chủ nhiệm, Ban giám hiệu nhà trường tổ chức hội thảo để các giáo viên chủ nhiệm giỏi trình bày về quy trình xử lý các tình huống sư phạm gay kịch đã áp dụng thành công. Nhà trường đang sử dụng phương pháp nghiên cứu nào?
 A. Phương pháp thực nghiệm phòng thí nghiệm.
 *B. Phương pháp tổng kết kinh nghiệm sư phạm.
 C. Phương pháp điều tra an két trực tuyến.
@@ -751,7 +751,7 @@ Giải thích:
 
 ---
 
-Câu 47 [TÌNH HUỐNG THỰC TẾ]: Về việc ứng dụng các phương pháp nghiên cứu tại trường phổ thông:
+Câu 47: Về việc ứng dụng các phương pháp nghiên cứu tại trường phổ thông:
 a) Giáo viên dự giờ 5 tiết học và ghi chép lại mọi hành vi giơ tay của học sinh là dùng phương pháp quan sát. -> [ĐÚNG]
 b) Chuyên viên tâm lý trò chuyện riêng với học sinh vi phạm kỷ luật để tìm hiểu nguyên nhân là dùng đàm thoại. -> [ĐÚNG]
 c) Giáo viên chia lớp thành 2 nhóm, 1 nhóm học qua ứng dụng AI, 1 nhóm học qua sách giáo khoa là thực nghiệm. -> [ĐÚNG]
