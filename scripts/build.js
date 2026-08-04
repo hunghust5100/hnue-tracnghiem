@@ -122,6 +122,7 @@ ${css}
                     <span class="pill-opt" data-count="10" onclick="setMockCount(10)">10 câu</span>
                     <span class="pill-opt active" data-count="20" onclick="setMockCount(20)">20 câu</span>
                     <span class="pill-opt" data-count="30" onclick="setMockCount(30)">30 câu</span>
+                    <span class="pill-opt" data-count="34" onclick="setMockCount(34)">34 câu (30 TN + 4 Đ/S)</span>
                     <span class="pill-opt" data-count="40" onclick="setMockCount(40)">40 câu</span>
                     <span class="pill-opt" data-count="all" onclick="setMockCount('all')">Tất cả câu</span>
                 </div>
@@ -135,6 +136,7 @@ ${css}
                     <span class="pill-opt active" data-time="15" onclick="setMockTime(15)">15 phút</span>
                     <span class="pill-opt" data-time="30" onclick="setMockTime(30)">30 phút</span>
                     <span class="pill-opt" data-time="45" onclick="setMockTime(45)">45 phút</span>
+                    <span class="pill-opt" data-time="60" onclick="setMockTime(60)">60 phút</span>
                     <span class="pill-opt" data-time="0" onclick="setMockTime(0)">Không giới hạn</span>
                 </div>
                 <input type="number" id="custom-time-input" class="custom-num-input" placeholder="Hoặc nhập số phút tùy ý..." min="0" oninput="setCustomMockTime(this.value)">

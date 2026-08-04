@@ -926,8 +926,13 @@ function openMockModalById(subjectId, folderName = null) {
     const modalTitle = folderName ? `Thi thử: ${folderName}` : `Thi thử ngẫu nhiên: ${group.category}`;
     document.getElementById('mock-modal-title').innerText = modalTitle;
 
-    setMockCount(20);
-    setMockTime(15);
+    if (subjectId === 'giau-duc-hoc' || (group.category && group.category.toLowerCase().includes('giáo dục học'))) {
+        setMockCount(34);
+        setMockTime(60);
+    } else {
+        setMockCount(20);
+        setMockTime(15);
+    }
     selectMockQuizMode('instant');
 
     document.getElementById('mock-exam-modal').classList.remove('hidden');
@@ -1003,28 +1008,61 @@ async function startRandomMockExam() {
         });
         const results = await Promise.all(fetchPromises);
 
-        let allQuestionsPool = [];
+        let mcPool = [];
+        let tfPool = [];
+
         results.forEach(textData => {
             const parsed = parseQuizText(textData);
-            allQuestionsPool = allQuestionsPool.concat(parsed);
+            parsed.forEach(q => {
+                if (q.type === 'truefalse') {
+                    tfPool.push(q);
+                } else {
+                    mcPool.push(q);
+                }
+            });
         });
 
-        if (allQuestionsPool.length === 0) {
+        if (mcPool.length === 0 && tfPool.length === 0) {
             alert("Không thể gộp được câu hỏi nào từ danh mục này!");
             return;
         }
 
-        for (let i = allQuestionsPool.length - 1; i > 0; i--) {
+        // Shuffle mcPool using Fisher-Yates
+        for (let i = mcPool.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
-            [allQuestionsPool[i], allQuestionsPool[j]] = [allQuestionsPool[j], allQuestionsPool[i]];
+            [mcPool[i], mcPool[j]] = [mcPool[j], mcPool[i]];
         }
 
-        let finalCount = allQuestionsPool.length;
-        if (selectedMockCount !== 'all' && typeof selectedMockCount === 'number') {
-            finalCount = Math.min(selectedMockCount, allQuestionsPool.length);
+        // Shuffle tfPool using Fisher-Yates
+        for (let i = tfPool.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [tfPool[i], tfPool[j]] = [tfPool[j], tfPool[i]];
         }
 
-        currentQuestions = allQuestionsPool.slice(0, finalCount);
+        let finalQuestions = [];
+
+        if (selectedMockCount === 34) {
+            // Standard HNUE Structure: 30 MC questions (Q1-30) + 4 True/False questions (Q31-34 at end)
+            const countMC = Math.min(30, mcPool.length);
+            const countTF = Math.min(4, tfPool.length);
+            const selectedMC = mcPool.slice(0, countMC);
+            const selectedTF = tfPool.slice(0, countTF);
+            finalQuestions = selectedMC.concat(selectedTF);
+        } else {
+            // General random mix for other counts
+            let combined = mcPool.concat(tfPool);
+            for (let i = combined.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [combined[i], combined[j]] = [combined[j], combined[i]];
+            }
+            let finalCount = combined.length;
+            if (selectedMockCount !== 'all' && typeof selectedMockCount === 'number') {
+                finalCount = Math.min(selectedMockCount, combined.length);
+            }
+            finalQuestions = combined.slice(0, finalCount);
+        }
+
+        currentQuestions = finalQuestions;
 
         currentQuestions.forEach((q, idx) => {
             q.id = String(idx + 1);
@@ -1033,8 +1071,10 @@ async function startRandomMockExam() {
         currentQuizMode = selectedMockMode;
 
         const scopeTitle = activeMockFolderName ? ` (${activeMockFolderName})` : '';
-        document.getElementById('current-quiz-name').innerText = `🎲 Thi thử ngẫu nhiên${scopeTitle} (${finalCount} câu - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
-        document.getElementById('file-status').innerText = `📄 Đã tạo đề thi thử: ${finalCount} câu ngẫu nhiên.`;
+        const finalCount = currentQuestions.length;
+        const countLabel = (selectedMockCount === 34) ? `${finalCount} câu (30 TN + 4 Đ/S)` : `${finalCount} câu`;
+        document.getElementById('current-quiz-name').innerText = `🎲 Thi thử ngẫu nhiên${scopeTitle} (${countLabel} - ${selectedMockTime > 0 ? selectedMockTime + ' phút' : 'Không giới hạn'})`;
+        document.getElementById('file-status').innerText = `📄 Đã tạo đề thi thử: ${countLabel} ngẫu nhiên.`;
 
         isQuizSubmitted = false;
         enterQuizScreen();
@@ -1048,9 +1088,9 @@ async function startRandomMockExam() {
             stopCountdownTimer();
             document.getElementById('timer-badge').classList.add('hidden');
         }
-
     } catch (err) {
-        alert("Lỗi khi tạo đề thi ngẫu nhiên: " + err.message);
+        console.error(err);
+        alert("Lỗi khi tải hoặc gộp dữ liệu thi thử: " + err.message);
     }
 }
 
@@ -1559,100 +1599,205 @@ function handleTFSelection(qId, letter, isDung) {
     }
 }
 
+function calculateScore10System(questions) {
+    const tfQuestions = questions.filter(q => q.type === "truefalse");
+    const mcQuestions = questions.filter(q => q.type !== "truefalse");
+
+    const numTF = tfQuestions.length;
+    const numMC = mcQuestions.length;
+
+    let mcPointsPerQuestion = 0;
+    if (numTF === 0) {
+        mcPointsPerQuestion = numMC > 0 ? (10.0 / numMC) : 0;
+    } else {
+        const tfMaxTotal = numTF * 1.0;
+        const mcMaxTotal = Math.max(0, 10.0 - tfMaxTotal);
+        mcPointsPerQuestion = numMC > 0 ? (mcMaxTotal / numMC) : 0;
+    }
+
+    let totalPoints = 0;
+    let mcCorrectCount = 0;
+    let mcEarnedPoints = 0;
+
+    mcQuestions.forEach(q => {
+        if (q.isCorrect) {
+            totalPoints += mcPointsPerQuestion;
+            mcEarnedPoints += mcPointsPerQuestion;
+            mcCorrectCount++;
+        }
+    });
+
+    let tfEarnedPoints = 0;
+    let tfFullCorrectCount = 0;
+    tfQuestions.forEach(q => {
+        let correctCountInTF = 0;
+        if (q.options && q.options.length > 0) {
+            q.options.forEach(opt => {
+                const userChoice = q.userTFAnswers ? q.userTFAnswers[opt.letter] : undefined;
+                if (userChoice === opt.isDung) {
+                    correctCountInTF++;
+                }
+            });
+        }
+        let qPoints = 0;
+        if (correctCountInTF === 1) qPoints = 0.1;
+        else if (correctCountInTF === 2) qPoints = 0.2;
+        else if (correctCountInTF === 3) qPoints = 0.5;
+        else if (correctCountInTF === 4) qPoints = 1.0;
+
+        totalPoints += qPoints;
+        tfEarnedPoints += qPoints;
+        if (correctCountInTF === 4) tfFullCorrectCount++;
+    });
+
+    const finalScore10 = Math.round(totalPoints * 100) / 100;
+
+    return {
+        score10: finalScore10,
+        numMC,
+        mcCorrectCount,
+        mcEarnedPoints: Math.round(mcEarnedPoints * 100) / 100,
+        mcPointsPerQuestion,
+        numTF,
+        tfFullCorrectCount,
+        tfEarnedPoints: Math.round(tfEarnedPoints * 100) / 100
+    };
+}
+
 function gradeIndividualQuestion(qId) {
     const q = currentQuestions.find(item => item.id === qId);
     if (!q || q.isGraded) return;
 
     q.isGraded = true;
 
+    const tfQuestions = currentQuestions.filter(item => item.type === "truefalse");
+    const mcQuestions = currentQuestions.filter(item => item.type !== "truefalse");
+    const numTF = tfQuestions.length;
+    const numMC = mcQuestions.length;
+
+    let mcPointsPerQuestion = 0;
+    if (numTF === 0) {
+        mcPointsPerQuestion = numMC > 0 ? (10.0 / numMC) : 0;
+    } else {
+        const tfMaxTotal = numTF * 1.0;
+        const mcMaxTotal = Math.max(0, 10.0 - tfMaxTotal);
+        mcPointsPerQuestion = numMC > 0 ? (mcMaxTotal / numMC) : 0;
+    }
+
     if (q.type === "fill") {
         const userVal = normalizeString(q.userAnswers[0]);
         const correctVal = normalizeString(q.fillAnswer);
         q.isCorrect = (userVal !== "" && userVal === correctVal);
+        q.pointsEarned = q.isCorrect ? mcPointsPerQuestion : 0;
     } else if (q.type === "truefalse") {
-        let allAssertionsCorrect = true;
-        if (!q.options || q.options.length === 0) {
-            allAssertionsCorrect = false;
-        } else {
+        let correctCountInTF = 0;
+        if (q.options && q.options.length > 0) {
             q.options.forEach(opt => {
                 const userChoice = q.userTFAnswers ? q.userTFAnswers[opt.letter] : undefined;
-                if (userChoice !== opt.isDung) {
-                    allAssertionsCorrect = false;
+                if (userChoice === opt.isDung) {
+                    correctCountInTF++;
                 }
             });
         }
-        q.isCorrect = allAssertionsCorrect;
+        let qPoints = 0;
+        if (correctCountInTF === 1) qPoints = 0.1;
+        else if (correctCountInTF === 2) qPoints = 0.2;
+        else if (correctCountInTF === 3) qPoints = 0.5;
+        else if (correctCountInTF === 4) qPoints = 1.0;
+
+        q.tfCorrectCount = correctCountInTF;
+        q.pointsEarned = qPoints;
+        q.isCorrect = (correctCountInTF === 4);
     } else {
-        const userSorted = [...q.userAnswers].sort().join(',');
-        const correctSorted = [...(q.correctAnswers || [])].sort().join(',');
+        const userSorted = [...q.userAnswers].sort().join(",");
+        const correctSorted = [...(q.correctAnswers || [])].sort().join(",");
         q.isCorrect = (userSorted !== "" && userSorted === correctSorted);
+        q.pointsEarned = q.isCorrect ? mcPointsPerQuestion : 0;
     }
 
     const card = document.getElementById(`card-${qId}`);
     if (card) {
-        card.className = `question-card ${q.isCorrect ? 'correct' : 'incorrect'}`;
+        let cardStatusClass = "incorrect";
+        if (q.isCorrect) cardStatusClass = "correct";
+        else if (q.type === "truefalse" && q.pointsEarned > 0) cardStatusClass = "correct";
 
-        const header = card.querySelector('.question-header');
+        card.className = `question-card ${cardStatusClass}`;
+
+        const header = card.querySelector(".question-header");
         if (header) {
-            const oldBadge = card.querySelector('.feedback-badge');
+            const oldBadge = card.querySelector(".feedback-badge");
             if (oldBadge) oldBadge.remove();
 
-            const feedbackBadge = document.createElement('div');
-            feedbackBadge.className = `feedback-badge ${q.isCorrect ? 'feedback-correct' : 'feedback-incorrect'}`;
-            feedbackBadge.innerText = q.isCorrect ? "✓ Chính xác!" : "✕ Chưa chính xác!";
-            header.insertAdjacentElement('afterend', feedbackBadge);
+            const feedbackBadge = document.createElement("div");
+            if (q.type === "truefalse") {
+                if (q.tfCorrectCount === 4) {
+                    feedbackBadge.className = "feedback-badge feedback-correct";
+                    feedbackBadge.innerText = "✓ Đúng cả 4/4 ý (+1.0 điểm)";
+                } else if (q.tfCorrectCount > 0) {
+                    feedbackBadge.className = "feedback-badge feedback-partial";
+                    feedbackBadge.innerText = `✓ Đúng ${q.tfCorrectCount}/4 ý (+${q.pointsEarned} điểm)`;
+                } else {
+                    feedbackBadge.className = "feedback-badge feedback-incorrect";
+                    feedbackBadge.innerText = "✕ Chưa chính xác ý nào (0 điểm)";
+                }
+            } else {
+                const ptsDisp = Math.round(mcPointsPerQuestion * 100) / 100;
+                feedbackBadge.className = `feedback-badge ${q.isCorrect ? "feedback-correct" : "feedback-incorrect"}`;
+                feedbackBadge.innerText = q.isCorrect ? `✓ Chính xác! (+${ptsDisp} điểm)` : "✕ Chưa chính xác! (0 điểm)";
+            }
+            header.insertAdjacentElement("afterend", feedbackBadge);
         }
 
         if (q.type === "truefalse") {
             q.options.forEach(opt => {
                 const row = document.getElementById(`tf-row-${qId}-${opt.letter}`);
                 if (row) {
-                    const leftContainer = row.querySelector('.tf-assertion-left');
-                    const toggleGroup = row.querySelector('.tf-toggle-group');
+                    const leftContainer = row.querySelector(".tf-assertion-left");
+                    const toggleGroup = row.querySelector(".tf-toggle-group");
 
-                    row.classList.add('tf-graded');
+                    row.classList.add("tf-graded");
 
                     const userChoice = q.userTFAnswers ? q.userTFAnswers[opt.letter] : undefined;
                     const isThisCorrect = (userChoice === opt.isDung);
 
-                    if (leftContainer && !leftContainer.querySelector('.tf-assertion-icon')) {
-                        const iconSpan = document.createElement('span');
-                        iconSpan.className = 'tf-assertion-icon';
+                    if (leftContainer && !leftContainer.querySelector(".tf-assertion-icon")) {
+                        const iconSpan = document.createElement("span");
+                        iconSpan.className = "tf-assertion-icon";
                         if (isThisCorrect) {
-                            iconSpan.style.color = 'var(--success)';
-                            iconSpan.innerText = '✓';
+                            iconSpan.style.color = "var(--success)";
+                            iconSpan.innerText = "✓";
                         } else {
-                            iconSpan.style.color = 'var(--danger)';
-                            iconSpan.innerText = '✕';
+                            iconSpan.style.color = "var(--danger)";
+                            iconSpan.innerText = "✕";
                         }
                         leftContainer.insertBefore(iconSpan, leftContainer.firstChild);
                     }
 
-                    if (toggleGroup) toggleGroup.style.display = 'none';
+                    if (toggleGroup) toggleGroup.style.display = "none";
 
-                    let badgeGroup = row.querySelector('.tf-result-badge-group');
+                    let badgeGroup = row.querySelector(".tf-result-badge-group");
                     if (!badgeGroup) {
-                        badgeGroup = document.createElement('div');
-                        badgeGroup.className = 'tf-result-badge-group';
+                        badgeGroup = document.createElement("div");
+                        badgeGroup.className = "tf-result-badge-group";
                         row.appendChild(badgeGroup);
                     }
 
-                    let userChoicePill = '';
+                    let userChoicePill = "";
                     if (userChoice === undefined) {
                         userChoicePill = `<span class="tf-result-pill user-wrong">Chưa chọn</span>`;
                     } else if (isThisCorrect) {
-                        userChoicePill = `<span class="tf-result-pill user-correct">✓ Chọn: ${userChoice ? 'Đúng' : 'Sai'}</span>`;
+                        userChoicePill = `<span class="tf-result-pill user-correct">✓ Chọn: ${userChoice ? "Đúng" : "Sai"}</span>`;
                     } else {
-                        userChoicePill = `<span class="tf-result-pill user-wrong">✕ Chọn: ${userChoice ? 'Đúng' : 'Sai'}</span>`;
+                        userChoicePill = `<span class="tf-result-pill user-wrong">✕ Chọn: ${userChoice ? "Đúng" : "Sai"}</span>`;
                     }
 
-                    const correctKeyPill = `<span class="tf-result-pill correct-key">Đáp án: ${opt.isDung ? 'Đúng' : 'Sai'}</span>`;
+                    const correctKeyPill = `<span class="tf-result-pill correct-key">Đáp án: ${opt.isDung ? "Đúng" : "Sai"}</span>`;
                     badgeGroup.innerHTML = `${userChoicePill} ${correctKeyPill}`;
 
                     if (isThisCorrect) {
-                        row.classList.add('tf-correct');
+                        row.classList.add("tf-correct");
                     } else {
-                        row.classList.add('tf-incorrect');
+                        row.classList.add("tf-incorrect");
                     }
                 }
             });
@@ -1661,19 +1806,19 @@ function gradeIndividualQuestion(qId) {
             if (input) input.disabled = true;
 
             if (!q.isCorrect) {
-                let ansDisp = card.querySelector('.correct-ans-display');
+                let ansDisp = card.querySelector(".correct-ans-display");
                 if (!ansDisp) {
-                    ansDisp = document.createElement('div');
-                    ansDisp.className = 'correct-ans-display';
+                    ansDisp = document.createElement("div");
+                    ansDisp.className = "correct-ans-display";
                     ansDisp.innerHTML = `💡 Đáp án chuẩn: <strong>${escapeHTML(q.fillAnswer)}</strong>`;
-                    const container = card.querySelector('.fill-container');
+                    const container = card.querySelector(".fill-container");
                     if (container) container.appendChild(ansDisp);
                 }
             }
         } else {
-            const options = card.querySelectorAll('.option-item');
+            const options = card.querySelectorAll(".option-item");
             options.forEach(optLabel => {
-                const input = optLabel.querySelector('input');
+                const input = optLabel.querySelector("input");
                 if (input) {
                     const val = input.value;
                     const isUserSelected = q.userAnswers.includes(val);
@@ -1681,30 +1826,30 @@ function gradeIndividualQuestion(qId) {
 
                     input.checked = isUserSelected;
                     input.disabled = true;
-                    optLabel.classList.add('disabled-click');
+                    optLabel.classList.add("disabled-click");
 
-                    const oldBadge = optLabel.querySelector('.opt-badge');
+                    const oldBadge = optLabel.querySelector(".opt-badge");
                     if (oldBadge) oldBadge.remove();
 
                     if (isCorrectKey) {
-                        optLabel.classList.add('correct-opt');
-                        const badge = document.createElement('span');
-                        badge.className = isUserSelected ? 'opt-badge opt-badge-correct' : 'opt-badge opt-badge-correct-key';
-                        badge.innerHTML = isUserSelected ? '✓ Đáp án đúng bạn chọn' : '✓ Đáp án chuẩn';
+                        optLabel.classList.add("correct-opt");
+                        const badge = document.createElement("span");
+                        badge.className = isUserSelected ? "opt-badge opt-badge-correct" : "opt-badge opt-badge-correct-key";
+                        badge.innerHTML = isUserSelected ? "✓ Đáp án đúng bạn chọn" : "✓ Đáp án chuẩn";
                         optLabel.appendChild(badge);
                     } else if (isUserSelected) {
-                        optLabel.classList.add('incorrect-opt');
-                        const badge = document.createElement('span');
-                        badge.className = 'opt-badge opt-badge-wrong';
-                        badge.innerHTML = '✕ Bạn chọn sai';
+                        optLabel.classList.add("incorrect-opt");
+                        const badge = document.createElement("span");
+                        badge.className = "opt-badge opt-badge-wrong";
+                        badge.innerHTML = "✕ Bạn chọn sai";
                         optLabel.appendChild(badge);
                     }
                 }
             });
         }
 
-        const actionZone = card.querySelector('.btn-action-zone');
-        if (actionZone) actionZone.style.display = 'none';
+        const actionZone = card.querySelector(".btn-action-zone");
+        if (actionZone) actionZone.style.display = "none";
 
         const expDiv = document.getElementById(`exp-${qId}`);
         if (expDiv) {
@@ -1740,23 +1885,29 @@ async function executeSubmitQuiz() {
 
     isQuizSubmitted = true;
 
-    // Score summary
-    const total = currentQuestions.length;
-    const correctCount = currentQuestions.filter(q => q.isCorrect).length;
-    const incorrectCount = total - correctCount;
-    const scoreText = `${correctCount}/${total}`;
+    const res = calculateScore10System(currentQuestions);
 
-    document.getElementById('summary-score-text').innerText = scoreText;
-    document.getElementById('summary-correct-count').innerText = `✓ ${correctCount} câu đúng`;
-    document.getElementById('summary-incorrect-count').innerText = `✕ ${incorrectCount} câu sai`;
-    document.getElementById('score-summary').classList.remove('hidden');
+    const total = currentQuestions.length;
+    const fullCorrectCount = currentQuestions.filter(q => q.isCorrect).length;
+
+    document.getElementById("summary-score-text").innerText = `${res.score10} / 10 Điểm`;
+
+    if (res.numTF > 0) {
+        document.getElementById("summary-correct-count").innerText = `Trắc nghiệm: ${res.mcCorrectCount}/${res.numMC} câu (${res.mcEarnedPoints} đ)`;
+        document.getElementById("summary-incorrect-count").innerText = `Đúng/Sai: ${res.tfEarnedPoints} / ${(res.numTF * 1.0).toFixed(1)} đ`;
+    } else {
+        document.getElementById("summary-correct-count").innerText = `✓ ${res.mcCorrectCount} câu đúng`;
+        document.getElementById("summary-incorrect-count").innerText = `✕ ${res.numMC - res.mcCorrectCount} câu sai`;
+    }
+    document.getElementById("score-summary").classList.remove("hidden");
 
     // Save History & Wrong Questions to LocalStorage per subject
-    const title = document.getElementById('current-quiz-name').innerText.replace(/^📖 Đề:\s*|^🎲\s*|^🔥\s*/, '');
-    await saveQuizHistoryItem(currentSubjectId, title, scoreText, correctCount, total);
+    const title = document.getElementById("current-quiz-name").innerText.replace(/^📖 Đề:\s*|^🎲\s*|^🔥\s*/, "");
+    const scoreText = `${res.score10}/10 đ (${fullCorrectCount}/${total} câu)`;
+    await saveQuizHistoryItem(currentSubjectId, title, scoreText, fullCorrectCount, total);
     await saveWrongQuestions(currentSubjectId, currentQuestions);
 
-    document.getElementById('score-summary').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("score-summary").scrollIntoView({ behavior: "smooth" });
 }
 
 function renderSidebarNav() {
